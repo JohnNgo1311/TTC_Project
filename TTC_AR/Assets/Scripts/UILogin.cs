@@ -19,9 +19,9 @@ public class UILogin : MonoBehaviour
 
     Dictionary<string, string> staffDetails = new Dictionary<string, string>
     {
-        {"wembleyadmin","123456" },
-        {"Tuyến","123456" },
-        {"Duy","123456" },
+        {"ttc","123456" },
+        {"admin","123456" },
+        {"Nhut","123456" },
 
     };
 
