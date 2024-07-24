@@ -4,18 +4,20 @@ using UnityEngine;
 
 public class OpenCanvas : MonoBehaviour
 {
-    public GameObject targetCanvas, arrowOpen, arrowClose;
-    public GameObject homeScreen;
+    public GameObject targetCanvas, btnOpen, btnClose;
+    public GameObject generalPanel;
     public string tagName;
     bool isShowCanvas = false;
-
+    private GameObject gameObjectParent;
     // Start is called before the first frame update
     void Start()
     {
         targetCanvas.SetActive(false);
-        homeScreen.SetActive(true);
-        arrowOpen.SetActive(true);
-        arrowClose.SetActive(false);
+        generalPanel.SetActive(true);
+        btnOpen.SetActive(true);
+        btnClose.SetActive(false);
+        gameObjectParent = targetCanvas.transform.parent.gameObject;
+        gameObjectParent.SetActive(false);
     }
     void Update()
     {
@@ -45,17 +47,15 @@ public class OpenCanvas : MonoBehaviour
     void onOpenCanvas()
     {
         targetCanvas.SetActive(true);
-        arrowClose.SetActive(true);
-        arrowOpen.SetActive(false);
-
-
+        gameObjectParent.SetActive(true);
+        btnClose.SetActive(true);
+        btnOpen.SetActive(false);
     }
     void onCloseCanvas()
     {
         targetCanvas.SetActive(false);
-        arrowClose.SetActive(false);
-        arrowOpen.SetActive(true);
-
-
+        gameObjectParent.SetActive(false);
+        btnClose.SetActive(false);
+        btnOpen.SetActive(true);
     }
 }

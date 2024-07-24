@@ -447,7 +447,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 844891511}
   m_HandleRect: {fileID: 844891510}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1471,7 +1471,7 @@ Canvas:
   m_GameObject: {fileID: 621601244}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 1618286824}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -2116,7 +2116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c851612e8d8b89c4082d87065a3137a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  previousSceneName: SlectionScene
+  previousSceneName: PLCBoxGrapA
   recentSceneName:
   - MenuScene
   - GrapperAScanScene

@@ -4,30 +4,31 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+
 public class NavScene : MonoBehaviour
 {
     public string previousSceneName;
     public List<string> recentSceneName;
     public List<Button> listButton;
     private int index;
+
     void Start()
     {
-        foreach (Button button in listButton)
+        for (int i = 0; i < listButton.Count; i++)
         {
-            int index = listButton.IndexOf(button);
-            button.onClick.AddListener(NavigateNewScene);
+            int localIndex = i; // Tạo bản sao cục bộ của i
+            listButton[i].onClick.AddListener(() => NavigateNewScene(localIndex));
         }
-
     }
-    public void NavigateNewScene()
-    {
-        if (GlobalVariable.recentScene != recentSceneName[index])
-        {
-            GlobalVariable.recentScene = recentSceneName[index];
-            GlobalVariable.previousScene = previousSceneName;
-            SceneManager.LoadScene(recentSceneName[index]);
-            PlayerPrefs.SetString(recentSceneName[index], SceneManager.GetActiveScene().name);
-        }
 
+    public void NavigateNewScene(int buttonIndex)
+    {
+        if (GlobalVariable.recentScene != recentSceneName[buttonIndex])
+        {
+            GlobalVariable.recentScene = recentSceneName[buttonIndex];
+            GlobalVariable.previousScene = previousSceneName;
+            SceneManager.LoadScene(recentSceneName[buttonIndex]);
+            PlayerPrefs.SetString(recentSceneName[buttonIndex], SceneManager.GetActiveScene().name);
+        }
     }
 }

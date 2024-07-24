@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - D11I_Btn
   layers:
   - Default
   - TransparentFX
