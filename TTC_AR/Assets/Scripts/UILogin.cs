@@ -15,6 +15,7 @@ public class UILogin : MonoBehaviour
     {
         //Subscribe to onClick event
         loginButton.onClick.AddListener(adminDetails);
+
     }
 
     Dictionary<string, string> staffDetails = new Dictionary<string, string>
@@ -28,14 +29,13 @@ public class UILogin : MonoBehaviour
 
     public void adminDetails()
     {
-        //Get Username from Input then convert it to int
         string userName;
         userName = userNameField.text;
-        //Get Password from Input
         string password;
         password = passwordField.text;
-
         string foundPassword;
+        GlobalVariable.recentScene = targetSceneName;
+        GlobalVariable.previousScene = "LoginScene";
         if (staffDetails.TryGetValue(userName, out foundPassword) && (foundPassword == password))
         {
             SceneManager.LoadScene(targetSceneName);
@@ -47,7 +47,9 @@ public class UILogin : MonoBehaviour
         }
         else
         {
-            //   Debug.Log("Invalid password");
+            Debug.Log("Invalid password");
         }
+
+
     }
 }

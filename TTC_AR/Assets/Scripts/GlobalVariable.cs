@@ -6,7 +6,18 @@ using TMPro;
 using UnityEngine;
 
 public class GlobalVariable : MonoBehaviour
-{ }
+{
+    public static string previousScene;
+    public static string recentScene;
+    public static List<string> sceneNamesLandScape = new List<string>()
+    {
+     "GrapperAScanScene",
+     "GrapperBScanScene",
+     "GrapperCScanScene",
+     "lHScanScene",
+     "FieldDeviceScanScene",
+    };
+}
 
 [System.Serializable]
 public class DataSignalR
