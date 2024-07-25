@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class DatasheetFunction : MonoBehaviour
 {
-    public GameObject[] contentPanels = new GameObject[12] ;
+    public GameObject[] contentPanels = new GameObject[12];
     public GameObject datasheetUI;
     // Start is called before the first frame update
     void Start()
     {
         datasheetUI.SetActive(true);
-                foreach (GameObject panel in contentPanels)
+        foreach (GameObject panel in contentPanels)
         {
             panel.SetActive(false);
         }
@@ -22,17 +22,18 @@ public class DatasheetFunction : MonoBehaviour
         {   //? value từ 0 --> 13, chỉ xét từ 1 --> 13
             // Activate the selected panel and deactivate others
             for (int i = 0; i < contentPanels.Length; i++)
-            {   
+            {
                 //? i = 0 thì xét với value =1
                 contentPanels[i].SetActive(i == value - 1);
             }
         }
-      else if (value ==0){
-        foreach (GameObject panel in contentPanels)
+        else if (value == 0)
         {
-            panel.SetActive(false);
-        }
+            foreach (GameObject panel in contentPanels)
+            {
+                panel.SetActive(false);
+            }
 
-      }
+        }
     }
 }
