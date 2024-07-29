@@ -9,6 +9,7 @@ public class GlobalVariable : MonoBehaviour
 {
     public static string previousScene;
     public static string recentScene;
+    public static string jb_TSD_Title = "";
     public static List<string> sceneNamesLandScape = new List<string>()
     {
      "GrapperAScanScene",
