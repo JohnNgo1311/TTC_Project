@@ -1,14 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.XR.ARFoundation;
+using Vuforia;
 
 public class OpenCanvas : MonoBehaviour
 {
     public GameObject targetCanvas, btnOpen, btnClose;
     public GameObject generalPanel;
     public string tagName;
+
     bool isShowCanvas = false;
-    private GameObject gameObjectParent;
+    public List<GameObject> imageTargetsParents;
+    public GameObject specificImageTarget;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,8 +22,11 @@ public class OpenCanvas : MonoBehaviour
         generalPanel.SetActive(true);
         btnOpen.SetActive(true);
         btnClose.SetActive(false);
-        gameObjectParent = targetCanvas.transform.parent.gameObject;
-        gameObjectParent.SetActive(false);
+        if (imageTargetsParents.Contains(specificImageTarget))
+        {
+            imageTargetsParents.Remove(specificImageTarget);
+        }
+
     }
     void Update()
     {
@@ -47,15 +56,22 @@ public class OpenCanvas : MonoBehaviour
     void onOpenCanvas()
     {
         targetCanvas.SetActive(true);
-        gameObjectParent.SetActive(true);
-        btnClose.SetActive(true);
         btnOpen.SetActive(false);
+        btnClose.SetActive(true);
+        foreach (GameObject imageTargetsParent in imageTargetsParents)
+        {
+            imageTargetsParent.SetActive(false);
+        }
+
     }
     void onCloseCanvas()
     {
         targetCanvas.SetActive(false);
-        gameObjectParent.SetActive(false);
         btnClose.SetActive(false);
         btnOpen.SetActive(true);
+        foreach (GameObject imageTargetsParent in imageTargetsParents)
+        {
+            imageTargetsParent.SetActive(true);
+        }
     }
 }

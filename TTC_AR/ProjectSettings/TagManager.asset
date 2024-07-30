@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - D11I_Btn
+  - D10I_Btn
+  - D12I_Btn
+  - D13I_Btn
+  - D14I_Btn
+  - D15I_Btn
+  - D16I_Btn
+  - D17I_Btn
   layers:
   - Default
   - TransparentFX
