@@ -1,77 +1,74 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using Vuforia;
-
 public class OpenCanvas : MonoBehaviour
 {
     public GameObject targetCanvas, btnOpen, btnClose;
     public GameObject generalPanel;
     public string tagName;
+    private bool isShowCanvas = false;
 
-    bool isShowCanvas = false;
-    public List<GameObject> imageTargetsParents;
-    public GameObject specificImageTarget;
 
-    // Start is called before the first frame update
+    // Cached reference to the main camera
     void Start()
     {
         targetCanvas.SetActive(false);
         generalPanel.SetActive(true);
-        btnOpen.SetActive(true);
         btnClose.SetActive(false);
-        if (imageTargetsParents.Contains(specificImageTarget))
+        btnOpen.SetActive(true);
+    }
+
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0) || Input.touchCount > 0)
         {
-            imageTargetsParents.Remove(specificImageTarget);
+            Vector3 inputPosition = Input.GetMouseButtonDown(0) ? Input.mousePosition : (Vector3)Input.GetTouch(0).position;
+            HandleInput(inputPosition);
         }
 
     }
-    void Update()
+
+    private void HandleInput(Vector3 inputPosition)
     {
-        if (Input.GetMouseButtonDown(0))
+        Ray ray = Camera.main.ScreenPointToRay(inputPosition);
+        if (Physics.Raycast(ray, out RaycastHit hit) && hit.collider.CompareTag(tagName))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit) && hit.collider.CompareTag(tagName))
+
+            if (isShowCanvas)
             {
-                if (isShowCanvas)
-                {
-                    onCloseCanvas();
-                    isShowCanvas = false;
-                }
-                else
+
+                onCloseCanvas();
+                isShowCanvas = false;
+
+            }
+            else
+            {
+                if (GlobalVariable.isOpenCanvas == false)
                 {
                     onOpenCanvas();
                     isShowCanvas = true;
                 }
-
             }
 
         }
-
     }
 
-    void onOpenCanvas()
+    private void onOpenCanvas()
     {
         targetCanvas.SetActive(true);
         btnOpen.SetActive(false);
         btnClose.SetActive(true);
-        foreach (GameObject imageTargetsParent in imageTargetsParents)
-        {
-            imageTargetsParent.SetActive(false);
-        }
-
+        GlobalVariable.isOpenCanvas = true;
     }
-    void onCloseCanvas()
+
+    private void onCloseCanvas()
     {
         targetCanvas.SetActive(false);
         btnClose.SetActive(false);
         btnOpen.SetActive(true);
-        foreach (GameObject imageTargetsParent in imageTargetsParents)
-        {
-            imageTargetsParent.SetActive(true);
-        }
+        GlobalVariable.isOpenCanvas = false;
     }
+
 }

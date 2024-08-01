@@ -11,6 +11,11 @@ public class UILogin : MonoBehaviour
     public TMPro.TMP_InputField passwordField;
     public Button loginButton;
     public string targetSceneName;
+    private void Awake()
+    {
+        Screen.orientation = ScreenOrientation.Portrait;
+
+    }
     void Start()
     {
         //Subscribe to onClick event

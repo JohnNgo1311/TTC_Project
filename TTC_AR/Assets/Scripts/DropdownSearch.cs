@@ -26,7 +26,7 @@ public class DropdownSearch : MonoBehaviour
         {
             child.gameObject.SetActive(false);
         }
-
+    
         // Kiểm tra văn bản của InputField và kích hoạt GameObject tương ứng
         foreach (Transform child in parentGameObject.transform)
         {

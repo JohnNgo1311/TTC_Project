@@ -1,9 +1,10 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Linq;
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class NavDetail_JB_TSD : MonoBehaviour
 {
@@ -16,19 +17,38 @@ public class NavDetail_JB_TSD : MonoBehaviour
 
     // Danh sách để lưu các đối tượng đã tạo ra
     private List<GameObject> createdObjects = new List<GameObject>();
+    private Dictionary<string, Sprite> spriteCache = new Dictionary<string, Sprite>();
 
-    // Mỗi Button tương ứng 1 JB_TSD
     void Start()
     {
         jB_TSD_Detail_Panel.SetActive(false);
+        PreloadSprites();
     }
 
     void Update()
     {
-        if (GlobalVariable.jb_TSD_Title != "")
+        if (!string.IsNullOrEmpty(GlobalVariable.jb_TSD_Title))
         {
             jB_TSD_Title.text = GlobalVariable.jb_TSD_Title.Substring(1);
+        }
+    }
 
+    private void PreloadSprites()
+    {
+        // Thay đổi khóa thành tên nhóm Addressable mà bạn đã tạo
+        Addressables.LoadAssetsAsync<Sprite>("default", OnSpriteLoaded).Completed += OnSpritesLoadComplete;
+    }
+
+    private void OnSpriteLoaded(Sprite sprite)
+    {
+        spriteCache[sprite.name] = sprite;
+    }
+
+    private void OnSpritesLoadComplete(AsyncOperationHandle<IList<Sprite>> handle)
+    {
+        if (handle.Status != AsyncOperationStatus.Succeeded)
+        {
+            Debug.LogError("Failed to load sprites: " + handle.OperationException);
         }
     }
 
@@ -37,14 +57,11 @@ public class NavDetail_JB_TSD : MonoBehaviour
         GlobalVariable.jb_TSD_Title = jB_TSD_Name;
         jB_TSD_General_Panel.SetActive(false);
         jB_TSD_Detail_Panel.SetActive(true);
-        Sprite[] jb_TSD_images;
-        jb_TSD_images = Resources.LoadAll<Sprite>("images/JB_TSD");
-        // Lọc các ảnh có tên chứa jB_TSD_Name
-        List<string> imagesName = new List<string>();
-        imagesName = jb_TSD_images
-            .Where(sprite => sprite.name.Contains(jB_TSD_Name))
-            .Select(sprite => sprite.name)
+
+        List<string> imagesName = spriteCache.Keys
+            .Where(name => name.Contains(jB_TSD_Name))
             .ToList();
+
         Debug.Log(imagesName.Count);
         CreateVerticalGroup(imagesName);
     }
@@ -52,7 +69,7 @@ public class NavDetail_JB_TSD : MonoBehaviour
     private void CreateVerticalGroup(List<string> imageNames)
     {
         GameObject verticalGroup = new GameObject("VerticalGroup");
-        createdObjects.Add(verticalGroup); // Lưu trữ đối tượng vào danh sách
+        createdObjects.Add(verticalGroup);
         verticalGroup.transform.SetParent(parentPanel, false);
 
         RectTransform rectTransform = verticalGroup.AddComponent<RectTransform>();
@@ -60,13 +77,11 @@ public class NavDetail_JB_TSD : MonoBehaviour
         width = imagePrefabRectTransform.rect.width;
         height = parentPanel.GetComponent<RectTransform>().rect.height;
 
-        // Chỉnh verticalGroup theo Content
         rectTransform.sizeDelta = new Vector2(width, height);
         rectTransform.anchoredPosition = new Vector2(0, 0);
         rectTransform.anchorMin = new Vector2(0.5f, 0.5f);
         rectTransform.anchorMax = new Vector2(0.5f, 0.5f);
 
-        // Chỉnh thuộc tính Vertical LayoutGroup
         VerticalLayoutGroup layoutGroup = verticalGroup.AddComponent<VerticalLayoutGroup>();
         layoutGroup.childAlignment = TextAnchor.UpperCenter;
         layoutGroup.padding = new RectOffset(0, 0, 30, 0);
@@ -78,15 +93,14 @@ public class NavDetail_JB_TSD : MonoBehaviour
 
         foreach (string imageName in imageNames)
         {
-            // verticalGroup là parent, tạo imageObject mới từ imagePrefab
             GameObject imageObject = Instantiate(imagePrefab, verticalGroup.transform);
-            createdObjects.Add(imageObject); // Lưu trữ đối tượng vào danh sách
+            createdObjects.Add(imageObject);
             RectTransform objectRectTransform = imageObject.GetComponent<RectTransform>();
             objectRectTransform.sizeDelta = new Vector2(imagePrefabRectTransform.rect.width, imagePrefabRectTransform.rect.height);
             Image imageComponent = imageObject.GetComponent<Image>();
             imageObject.SetActive(true);
-            Sprite sprite = Resources.Load<Sprite>($"images/JB_TSD/{imageName}");
-            if (sprite != null)
+
+            if (spriteCache.TryGetValue(imageName, out Sprite sprite))
             {
                 imageComponent.sprite = sprite;
             }
@@ -99,7 +113,6 @@ public class NavDetail_JB_TSD : MonoBehaviour
 
     public void NavigatePop()
     {
-        // Xóa tất cả các đối tượng đã tạo ra
         foreach (GameObject obj in createdObjects)
         {
             Destroy(obj);
