@@ -1,0 +1,37 @@
+[
+  {
+	"Code": "02TT002",
+	"Function": "Nhiệt độ nước chè echaudage vào gia nhiệt 3",
+	"Range Measurement": "0 - 150 °C",
+	"I/O Address": "A4.3.I.02",
+	"JB Connection": "JB3: Cầu Thang lên Chè Cân"
+  },
+  {
+	"Code": "02TT003",
+	"Function": "Nhiệt độ nước chè echaudage vào gia nhiệt 3",
+	"Range Measurement": "0 - 150 °C",
+	"I/O Address": "A4.3.I.02",
+	"JB Connection": "JB3: Cầu Thang lên Chè Cân"
+  },
+  {
+	"Code": "02TT004",
+	"Function": "Nhiệt độ nước chè echaudage vào gia nhiệt 3",
+	"Range Measurement": "0 - 150 °C",
+	"I/O Address": "A4.3.I.02",
+	"JB Connection": "JB3: Cầu Thang lên Chè Cân"
+  },
+  {
+	"Code": "02TT005",
+	"Function": "Nhiệt độ nước chè echaudage vào gia nhiệt 3",
+	"Range Measurement": "0 - 150 °C",
+	"I/O Address": "A4.3.I.02",
+	"JB Connection": "JB3: Cầu Thang lên Chè Cân"
+  },
+  {
+	"Code": "02TT006",
+	"Function": "Nhiệt độ nước chè echaudage vào gia nhiệt 3",
+	"Range Measurement": "0 - 150 °C",
+	"I/O Address": "A4.3.I.02",
+	"JB Connection": "JB3: Cầu Thang lên Chè Cân"
+  }
+]

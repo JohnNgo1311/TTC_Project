@@ -43,6 +43,8 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: 0bc7fe89088002d4eb2ab424fb60b03a, type: 2}
   - {fileID: 11400000, guid: 4d271c9a52d33444c819e41f818a7ded, type: 2}
+  - {fileID: 11400000, guid: b920e21d401f62a46ac6404a14f88e13, type: 2}
+  - {fileID: 11400000, guid: e786e65974e4d914987adf1987fc3515, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -84,6 +86,8 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - Grapper_A_Module_Location
+    - Real_Outdoor_JB_TSD
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: bf9e0577ac5f2cc44a980b1ebecfd82a, type: 2}

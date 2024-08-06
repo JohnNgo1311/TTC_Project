@@ -34,9 +34,8 @@ public class NavDetail_JB_TSD : MonoBehaviour
     }
 
     private void PreloadSprites()
-    {
-        // Thay đổi khóa thành tên nhóm Addressable mà bạn đã tạo
-        Addressables.LoadAssetsAsync<Sprite>("default", OnSpriteLoaded).Completed += OnSpritesLoadComplete;
+    {   // Thay đổi khóa thành tên nhóm Addressable mà bạn đã tạo
+        Addressables.LoadAssetsAsync<Sprite>("Real_Outdoor_JB_TSD", OnSpriteLoaded).Completed += OnSpritesLoadComplete;
     }
 
     private void OnSpriteLoaded(Sprite sprite)

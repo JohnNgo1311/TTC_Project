@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Grapper_A_Module_Location
+  m_EditorClassIdentifier: 
+  m_GroupName: Grapper_A_Module_Location
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f7c835b6f4d3b15469dfb19fa2cc17ae
+  m_SerializeEntries:
+  - m_GUID: 0418e963296618549a21532449631aae
+    m_Address: Assets/images/Module_Location/Grapper_A/Grapper_A_Rack_ D1.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Grapper_A_Module_Location
+  - m_GUID: c41c171d248a2a04fa47bfb0f5641fdd
+    m_Address: Assets/images/Module_Location/Grapper_A/Grapper_A_Back_Box_PLC_2.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Grapper_A_Module_Location
+  - m_GUID: 540af0f2f2a937349a054bbbef1bc782
+    m_Address: Assets/images/Module_Location/Grapper_A/Grapper_A_Rack_D2.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Grapper_A_Module_Location
+  - m_GUID: 1c4022b1141d5164cbbb4f81f3a18af3
+    m_Address: Assets/images/Module_Location/Grapper_A/Grapper_A_Rack_A5.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Grapper_A_Module_Location
+  - m_GUID: 396e88dea8301224995991f755adbb75
+    m_Address: Assets/images/Module_Location/Grapper_A/Grapper_A_Front_Box_PLC.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Grapper_A_Module_Location
+  - m_GUID: 33b7f7b9761f3554a9903fd3d56a7240
+    m_Address: Assets/images/Module_Location/Grapper_A/Grapper_A_Back_Box_PLC_1.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Grapper_A_Module_Location
+  - m_GUID: c22986cbf4edd334e8b0c08ddda09742
+    m_Address: Assets/images/Module_Location/Grapper_A/Grapper_A_Rack_D3.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Grapper_A_Module_Location
+  - m_GUID: e212dcc7e780f26499619769ce948d81
+    m_Address: Assets/images/Module_Location/Grapper_A/Grapper_A_Rack_A6.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Grapper_A_Module_Location
+  - m_GUID: 8d96870e31e2a674cb9d73eee56fbdf7
+    m_Address: Assets/images/Module_Location/Grapper_A/Grapper_A_Rack_A4.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Grapper_A_Module_Location
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 46b79bca31d16424fb55ac66baa3c8d5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a4fbe351600e70b4e8f029540b2847a2, type: 2}
+    - {fileID: 11400000, guid: 028b64337cf457e44b9625612b918456, type: 2}
