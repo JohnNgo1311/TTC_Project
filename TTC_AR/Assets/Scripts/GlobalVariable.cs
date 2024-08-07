@@ -11,7 +11,16 @@ public class GlobalVariable : MonoBehaviour
     public static string recentScene;
     public static string jb_TSD_Title = "";
     public static bool isOpenCanvas = false;
-
+    public static List<string> jBLocation = new List<string>()
+    {
+    "Hầm cáp MCC búa",              //JB1, JB2
+    "Cầu Thang lên Chè Cân"  ,      //JB3: 
+    "Hành Lang Khuếch Tán",         //JB4:  
+    "Duới chân Che Ép",             //JB5, JB6
+    "Trên Vít Khuếch Tán",          //JB7, JB8 Bis, JB8
+    "Che Ép",                       //JB14
+    "Duới hầm cáp MCC che Ép",      //JB114, JB102, J101, JB111, Jb112
+    };
     public static List<string> sceneNamesLandScape = new List<string>()
     {
      "GrapperAScanScene",

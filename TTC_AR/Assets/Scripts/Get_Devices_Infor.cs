@@ -6,7 +6,7 @@ using System.IO;
 using Newtonsoft.Json;
 using TMPro;
 using UnityEngine;
-
+//! File này khi nào sử dụng server để get 1 lần đầu tiên để sau đó lưu vào local
 public class Get_Devices_Infor : MonoBehaviour
 {
     string filePath = "D:/TTC_Project_AR/TTC_AR/Assets/Scripts/Device_Search_Json.json";
@@ -17,8 +17,7 @@ public class Get_Devices_Infor : MonoBehaviour
         jsonData = File.ReadAllText(filePath);
         List<DeviceModel> devices = JsonConvert.DeserializeObject<List<DeviceModel>>(jsonData);
         GlobalVariable_Search_Devices.deviceModels = devices;
-        DeviceModel device = GetDeviceByCode(GlobalVariable_Search_Devices.deviceModels, "02TT003");
-
+        DeviceModel device = GetDeviceByCode(GlobalVariable_Search_Devices.deviceModels, "02TT003A");
         if (device != null)
         {
             Debug.Log($"Code: {device.code}");
