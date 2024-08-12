@@ -9,7 +9,7 @@ public class OpenCanvas : MonoBehaviour
     public GameObject generalPanel;
     public string tagName;
     private bool isShowCanvas = false;
-
+    public List<GameObject> buttonOpenCanvases;
 
     // Cached reference to the main camera
     void Start()
@@ -50,6 +50,14 @@ public class OpenCanvas : MonoBehaviour
     private void onOpenCanvas()
     {
         targetCanvas.SetActive(true);
+        foreach (GameObject btn in buttonOpenCanvases)
+        {
+            if (btn != btnOpen)
+            {
+                btn.SetActive(false);
+            }
+
+        }
         btnOpen.SetActive(false);
         btnClose.SetActive(true);
         GlobalVariable.isOpenCanvas = true;
@@ -58,9 +66,14 @@ public class OpenCanvas : MonoBehaviour
     private void onCloseCanvas()
     {
         targetCanvas.SetActive(false);
+        foreach (GameObject btn in buttonOpenCanvases)
+        {
+            btn.SetActive(true);
+        }
         btnClose.SetActive(false);
-        btnOpen.SetActive(true);
+        // btnOpen.SetActive(true);
         GlobalVariable.isOpenCanvas = false;
+
     }
     private void OnDestroy()
     {

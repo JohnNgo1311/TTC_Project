@@ -792,7 +792,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &169350726
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1004,6 +1004,10 @@ MonoBehaviour:
   btnClose: {fileID: 621483723}
   generalPanel: {fileID: 812510768}
   tagName: D10I_Btn
+  buttonOpenCanvases:
+  - {fileID: 1568113201}
+  - {fileID: 562451925}
+  - {fileID: 719755746}
 --- !u!1 &274504943
 GameObject:
   m_ObjectHideFlags: 0
@@ -7693,6 +7697,10 @@ MonoBehaviour:
   btnClose: {fileID: 621483723}
   generalPanel: {fileID: 812510768}
   tagName: D10I_Btn
+  buttonOpenCanvases:
+  - {fileID: 1568113201}
+  - {fileID: 562451925}
+  - {fileID: 719755746}
 --- !u!1 &1008442464
 GameObject:
   m_ObjectHideFlags: 0
@@ -14130,6 +14138,10 @@ MonoBehaviour:
   btnClose: {fileID: 621483723}
   generalPanel: {fileID: 812510768}
   tagName: CL_Inverter_Btn
+  buttonOpenCanvases:
+  - {fileID: 1568113201}
+  - {fileID: 562451925}
+  - {fileID: 719755746}
 --- !u!1 &1586736214
 GameObject:
   m_ObjectHideFlags: 0
