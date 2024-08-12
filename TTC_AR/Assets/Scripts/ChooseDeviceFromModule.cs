@@ -3,6 +3,7 @@ using UnityEngine;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine.UI;
+using System;
 
 public class ChooseDeviceFromModule : MonoBehaviour
 {
@@ -24,25 +25,31 @@ public class ChooseDeviceFromModule : MonoBehaviour
         {
             Debug.LogWarning("Device models list is null.");
         }
+        dropdown.onValueChanged.AddListener(OnValueChange);
     }
-    public void OnValueChange()
+    void OnValueChange(int value)
     {
-        int index = dropdown.value;
-        string selectedOption = dropdown.options[index].text;
-
-        deviceInfor = GetDeviceByCode(selectedOption);
-        if (deviceInfor != null)
+        value = dropdown.value;
+        if (value > 0)
         {
-            UpdateDeviceInformation(deviceInfor);
+            string selectedOption = dropdown.options[value].text;
+            deviceInfor = GetDeviceByCode(selectedOption);
+            if (deviceInfor != null)
+            {
+                UpdateDeviceInformation(deviceInfor);
+            }
+            else
+            {
+                Debug.LogWarning($"No device found with code: {selectedOption}");
+            }
+            if (contentPanel.activeSelf == false)
+            {
+                contentPanel.SetActive(true);
+            }
         }
         else
-        {
-            Debug.LogWarning($"No device found with code: {selectedOption}");
-        }
-        if (contentPanel.activeSelf == false)
-        {
-            contentPanel.SetActive(true);
-        }
+            contentPanel.SetActive(false);
+
     }
     private DeviceModel GetDeviceByCode(string codeDevice)
     {
@@ -60,5 +67,9 @@ public class ChooseDeviceFromModule : MonoBehaviour
         string jBLocation = device.jbConnection.Split('_')[1];
         deviceInformation[4].text = jbName;
         deviceInformation[5].text = jBLocation;
+    }
+    private void OnDestroy()
+    {
+        dropdown.onValueChanged.RemoveListener(OnValueChange);
     }
 }

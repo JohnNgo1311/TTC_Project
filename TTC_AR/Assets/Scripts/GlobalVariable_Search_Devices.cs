@@ -8,7 +8,8 @@ using UnityEngine;
 
 public class GlobalVariable_Search_Devices : MonoBehaviour
 {
-     public static List<DeviceModel> deviceModels; // List of devices for search
+
+    public static List<DeviceModel> deviceModels;// List of devices for search
 }
 
 [System.Serializable]

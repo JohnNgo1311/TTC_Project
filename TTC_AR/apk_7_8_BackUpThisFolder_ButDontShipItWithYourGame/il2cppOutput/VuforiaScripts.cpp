@@ -10054,7 +10054,7 @@ IL_0017_1:
 				}
 			}
 			{
-				// removed.Add(Tuple.Create(uuid,anchor.transform));
+				// removed.Add(Tuple.Create(uuid, anchor.transform));
 				List_1_t62BA79DBA78E249CF069675D730077EABD7E4251* L_11 = V_0;
 				String_t* L_12 = V_4;
 				ARAnchor_t832D3D366D3F1D43F995A298974D4EDABACC0E06* L_13 = V_3;
@@ -10157,7 +10157,7 @@ IL_00a0_1:
 				}
 			}
 			{
-				// updated.Add(Tuple.Create(uuid,anchor.transform));
+				// updated.Add(Tuple.Create(uuid, anchor.transform));
 				List_1_t62BA79DBA78E249CF069675D730077EABD7E4251* L_31 = V_1;
 				String_t* L_32 = V_9;
 				ARAnchor_t832D3D366D3F1D43F995A298974D4EDABACC0E06* L_33 = V_8;
@@ -10694,7 +10694,7 @@ IL_0050:
 		NullCheck(G_B4_1);
 		G_B4_1->___ARFoundationPoseEvent_8 = G_B4_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B4_1->___ARFoundationPoseEvent_8), (void*)G_B4_0);
-		// public event Action<List<Tuple<string, Transform>>, List<Tuple<string, Transform>>> AnchorsChangedEvent = (removed, updated) => {};
+		// public event Action<List<Tuple<string, Transform>>, List<Tuple<string, Transform>>> AnchorsChangedEvent = (removed, updated) => { };
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t0B7F30159AA2AA4D1BBBEA6BF4F84BFAC1F0AA80_il2cpp_TypeInfo_var);
 		Action_2_tD4D053920ADEBDE1C249AE1AAFA374840F37CC5C* L_11 = ((U3CU3Ec_t0B7F30159AA2AA4D1BBBEA6BF4F84BFAC1F0AA80_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t0B7F30159AA2AA4D1BBBEA6BF4F84BFAC1F0AA80_il2cpp_TypeInfo_var))->___U3CU3E9__33_2_4;
 		Action_2_tD4D053920ADEBDE1C249AE1AAFA374840F37CC5C* L_12 = L_11;
@@ -11189,7 +11189,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_ctorU3Eb__33_1_m8B65390C248B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_ctorU3Eb__33_2_mDD411A5A80E336635EE892EBD255228939921337 (U3CU3Ec_t0B7F30159AA2AA4D1BBBEA6BF4F84BFAC1F0AA80* __this, List_1_t62BA79DBA78E249CF069675D730077EABD7E4251* ___removed0, List_1_t62BA79DBA78E249CF069675D730077EABD7E4251* ___updated1, const RuntimeMethod* method) 
 {
 	{
-		// public event Action<List<Tuple<string, Transform>>, List<Tuple<string, Transform>>> AnchorsChangedEvent = (removed, updated) => {};
+		// public event Action<List<Tuple<string, Transform>>, List<Tuple<string, Transform>>> AnchorsChangedEvent = (removed, updated) => { };
 		return;
 	}
 }

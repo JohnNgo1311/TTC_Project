@@ -1466,6 +1466,8 @@ struct ForwardLights_t624787957AE9D8E817643720F2199E35331D4DCA;
 struct GBufferPass_t540C12BCC3AFAC32B775694C8A29B69A49C284E7;
 // UnityEngine.GameObject
 struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+// Get_Devices_Infor
+struct Get_Devices_Infor_t05F1CFA506B2122BB9D3E58155E7E3A599DF5582;
 // UnityEngine.TextCore.Glyph
 struct Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F;
 // System.Linq.Expressions.GotoExpression
@@ -2032,6 +2034,8 @@ struct UnicodeEncoding_t2C90D9E1E55C16081FACA57B229053C1EF05DAF0;
 struct UniqueConstraint_tE48A79D2F7DE0EA4A3F1BF5BB322C383E60465F6;
 // UnityEngine.Events.UnityAction
 struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
+// UnityEngine.Networking.UnityWebRequest
+struct UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F;
 // UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings
 struct UniversalRenderPipelineGlobalSettings_t895E975CCCA62A6DE4F820C0109953EF6D83B9F0;
 // UnityEngine.Rendering.Vector2Parameter
@@ -7803,11 +7807,19 @@ struct ShaderResources_t67897398F9447A4A823070509EC373702AC96334  : public Runti
 	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___objectMotionVector_10;
 };
 
-// Get_Devices_Infor/<>c__DisplayClass3_0
-struct U3CU3Ec__DisplayClass3_0_t4664507D352A863551AA1A44CD160F7C08D335CD  : public RuntimeObject
+// Get_Devices_Infor/<LoadJsonData>d__3
+struct U3CLoadJsonDataU3Ed__3_t25489F8B79D74B46D8FDDFD259AE1A82ECA76733  : public RuntimeObject
 {
-	// System.String Get_Devices_Infor/<>c__DisplayClass3_0::code
-	String_t* ___code_0;
+	// System.Int32 Get_Devices_Infor/<LoadJsonData>d__3::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object Get_Devices_Infor/<LoadJsonData>d__3::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// Get_Devices_Infor Get_Devices_Infor/<LoadJsonData>d__3::<>4__this
+	Get_Devices_Infor_t05F1CFA506B2122BB9D3E58155E7E3A599DF5582* ___U3CU3E4__this_2;
+	// System.Collections.Generic.List`1<DeviceModel> Get_Devices_Infor/<LoadJsonData>d__3::<devices>5__1
+	List_1_t1B401C58EA39F2F478F42405D67CAC74866CE3AF* ___U3CdevicesU3E5__1_3;
+	// UnityEngine.Networking.UnityWebRequest Get_Devices_Infor/<LoadJsonData>d__3::<www>5__2
+	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___U3CwwwU3E5__2_4;
 };
 
 // UnityEngine.UI.Extensions.Gradient2/<>c
@@ -40272,9 +40284,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8187[2] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8188[2] = 
 {
 	static_cast<int32_t>(offsetof(DropdownSearch_t40EBE30EFF6DC1EA631324F359E3EE2E7784E24E, ___inputField_4)),static_cast<int32_t>(offsetof(DropdownSearch_t40EBE30EFF6DC1EA631324F359E3EE2E7784E24E, ___parentGameObject_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8189[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8189[5] = 
 {
-	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass3_0_t4664507D352A863551AA1A44CD160F7C08D335CD, ___code_0)),};
+	static_cast<int32_t>(offsetof(U3CLoadJsonDataU3Ed__3_t25489F8B79D74B46D8FDDFD259AE1A82ECA76733, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CLoadJsonDataU3Ed__3_t25489F8B79D74B46D8FDDFD259AE1A82ECA76733, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CLoadJsonDataU3Ed__3_t25489F8B79D74B46D8FDDFD259AE1A82ECA76733, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CLoadJsonDataU3Ed__3_t25489F8B79D74B46D8FDDFD259AE1A82ECA76733, ___U3CdevicesU3E5__1_3)),static_cast<int32_t>(offsetof(U3CLoadJsonDataU3Ed__3_t25489F8B79D74B46D8FDDFD259AE1A82ECA76733, ___U3CwwwU3E5__2_4)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8190[2] = 
 {
 	static_cast<int32_t>(offsetof(Get_Devices_Infor_t05F1CFA506B2122BB9D3E58155E7E3A599DF5582, ___filePath_4)),static_cast<int32_t>(offsetof(Get_Devices_Infor_t05F1CFA506B2122BB9D3E58155E7E3A599DF5582, ___jsonData_5)),};

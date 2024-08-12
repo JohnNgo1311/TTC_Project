@@ -12,6 +12,10 @@ TagManager:
   - D15I_Btn
   - D16I_Btn
   - D17I_Btn
+  - CL_Inverter_Btn
+  - CN_Inverter_Btn
+  - T5_Inverter_Btn
+  - T1_Inverter_Btn
   layers:
   - Default
   - TransparentFX
