@@ -17,73 +17,83 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 11df362a22c716b4485fc866387baeaa
   m_SerializeEntries:
-  - m_GUID: 7c1702c98f9e646489d20a5eebcf6c47
-    m_Address: Assets/images/Real_Outdoor_JB_TSD/JB114.jpg
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Real_Outdoor_JB_TSD
-  - m_GUID: 1b4513c95a7340b43bafcf431c7c680e
-    m_Address: Assets/images/Real_Outdoor_JB_TSD/JB5.jpg
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Real_Outdoor_JB_TSD
-  - m_GUID: dbf738d241ed8874c8d0a523dde6661c
-    m_Address: Assets/images/Real_Outdoor_JB_TSD/JB102.jpg
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Real_Outdoor_JB_TSD
-  - m_GUID: 95e83cde7165d5747b3e949eb970f5c5
-    m_Address: Assets/images/Real_Outdoor_JB_TSD/JB3.jpg
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Real_Outdoor_JB_TSD
-  - m_GUID: 80659e992beaef744acff1629520db53
-    m_Address: Assets/images/Real_Outdoor_JB_TSD/JB111.jpg
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Real_Outdoor_JB_TSD
-  - m_GUID: 6d02967bf71f3b5439e3eaef56f8fc31
-    m_Address: Assets/images/Real_Outdoor_JB_TSD/JB14.jpg
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Real_Outdoor_JB_TSD
-  - m_GUID: e8079ac9fd131ff4da3ebdac762da7e9
-    m_Address: Assets/images/Real_Outdoor_JB_TSD/JB6.jpg
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Real_Outdoor_JB_TSD
-  - m_GUID: 28cb8dba5f4170c449d0c5ade99f9bf9
-    m_Address: Assets/images/Real_Outdoor_JB_TSD/JB2.jpg
+  - m_GUID: 73a9caff412026341b9486282d36a0bd
+    m_Address: images/Real_Outdoor_JB_TSD/JB8_Bis
     m_ReadOnly: 0
     m_SerializedLabels:
     - Real_Outdoor_JB_TSD
   - m_GUID: 8cb94e8ed568fc44bb425bf0b1369c7d
-    m_Address: Assets/images/Real_Outdoor_JB_TSD/JB8.jpg
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Real_Outdoor_JB_TSD
-  - m_GUID: 73a9caff412026341b9486282d36a0bd
-    m_Address: Assets/images/Real_Outdoor_JB_TSD/JB8_Bis.jpg
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Real_Outdoor_JB_TSD
-  - m_GUID: 890d4549c7a1ff243b2ed9dbe4a4b7d7
-    m_Address: Assets/images/Real_Outdoor_JB_TSD/JB12.jpg
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Real_Outdoor_JB_TSD
-  - m_GUID: 4ec30b5a2529411459e30ef17ff855a8
-    m_Address: Assets/images/Real_Outdoor_JB_TSD/JB101.jpg
+    m_Address: images/Real_Outdoor_JB_TSD/JB8
     m_ReadOnly: 0
     m_SerializedLabels:
     - Real_Outdoor_JB_TSD
   - m_GUID: a3df69dd88e086e4cb9badd14e5b744a
-    m_Address: Assets/images/Real_Outdoor_JB_TSD/JB7.jpg
+    m_Address: images/Real_Outdoor_JB_TSD/JB7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Real_Outdoor_JB_TSD
+  - m_GUID: 7c1702c98f9e646489d20a5eebcf6c47
+    m_Address: images/Real_Outdoor_JB_TSD/JB114
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Real_Outdoor_JB_TSD
+  - m_GUID: 890d4549c7a1ff243b2ed9dbe4a4b7d7
+    m_Address: images/Real_Outdoor_JB_TSD/JB12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Real_Outdoor_JB_TSD
+  - m_GUID: 80659e992beaef744acff1629520db53
+    m_Address: images/Real_Outdoor_JB_TSD/JB111
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Real_Outdoor_JB_TSD
+  - m_GUID: 28cb8dba5f4170c449d0c5ade99f9bf9
+    m_Address: images/Real_Outdoor_JB_TSD/JB2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Real_Outdoor_JB_TSD
+  - m_GUID: 6d02967bf71f3b5439e3eaef56f8fc31
+    m_Address: images/Real_Outdoor_JB_TSD/JB14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Real_Outdoor_JB_TSD
+  - m_GUID: 1b4513c95a7340b43bafcf431c7c680e
+    m_Address: images/Real_Outdoor_JB_TSD/JB5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Real_Outdoor_JB_TSD
+  - m_GUID: a1307d95233fe2745af94ad636d71c5f
+    m_Address: images/Real_Outdoor_JB_TSD/JB1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Real_Outdoor_JB_TSD
+  - m_GUID: 4ec30b5a2529411459e30ef17ff855a8
+    m_Address: images/Real_Outdoor_JB_TSD/JB101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Real_Outdoor_JB_TSD
+  - m_GUID: e8079ac9fd131ff4da3ebdac762da7e9
+    m_Address: images/Real_Outdoor_JB_TSD/JB6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Real_Outdoor_JB_TSD
+  - m_GUID: dbf738d241ed8874c8d0a523dde6661c
+    m_Address: images/Real_Outdoor_JB_TSD/JB102
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Real_Outdoor_JB_TSD
+  - m_GUID: 95e83cde7165d5747b3e949eb970f5c5
+    m_Address: images/Real_Outdoor_JB_TSD/JB3
     m_ReadOnly: 0
     m_SerializedLabels:
     - Real_Outdoor_JB_TSD
   - m_GUID: cdfe42ac54106994eba17f199d96a3f9
-    m_Address: Assets/images/Real_Outdoor_JB_TSD/JB4.jpg
+    m_Address: images/Real_Outdoor_JB_TSD/JB4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Real_Outdoor_JB_TSD
+  - m_GUID: a2bfb4ce297134d4592ac573ece06149
+    m_Address: images/Real_Outdoor_JB_TSD/JB1 - Copy
     m_ReadOnly: 0
     m_SerializedLabels:
     - Real_Outdoor_JB_TSD

@@ -27,7 +27,7 @@ public class GlobalVariable : MonoBehaviour
      "GrapperBScanScene",
      "GrapperCScanScene",
      "lHScanScene",
-     "FieldDeviceScanScene",
+     "FieldDevicesScene",
     };
 }
 

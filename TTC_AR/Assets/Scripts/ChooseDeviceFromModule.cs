@@ -4,6 +4,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine.UI;
 using System;
+using JetBrains.Annotations;
 
 public class ChooseDeviceFromModule : MonoBehaviour
 {
@@ -25,12 +26,12 @@ public class ChooseDeviceFromModule : MonoBehaviour
         {
             Debug.LogWarning("Device models list is null.");
         }
-        dropdown.onValueChanged.AddListener(OnValueChange);
+        //   dropdown.onValueChanged.AddListener(OnValueChange);
     }
-    void OnValueChange(int value)
+    public void OnValueChange(int value)
     {
-        value = dropdown.value;
-        if (value > 0)
+
+        if (value > 0 && value <= listDeviceFromModule.Count)
         {
             string selectedOption = dropdown.options[value].text;
             deviceInfor = GetDeviceByCode(selectedOption);
@@ -46,9 +47,15 @@ public class ChooseDeviceFromModule : MonoBehaviour
             {
                 contentPanel.SetActive(true);
             }
+            //dropdown.RefreshShownValue();
+
         }
-        else
+        else if (value == 0)
+        {
             contentPanel.SetActive(false);
+            //   dropdown.RefreshShownValue();
+
+        }
 
     }
     private DeviceModel GetDeviceByCode(string codeDevice)

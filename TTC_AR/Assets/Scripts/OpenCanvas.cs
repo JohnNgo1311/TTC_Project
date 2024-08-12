@@ -27,7 +27,6 @@ public class OpenCanvas : MonoBehaviour
             Vector3 inputPosition = Input.GetMouseButtonDown(0) ? Input.mousePosition : (Vector3)Input.GetTouch(0).position;
             HandleInput(inputPosition);
         }
-
     }
 
     private void HandleInput(Vector3 inputPosition)
@@ -35,23 +34,16 @@ public class OpenCanvas : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(inputPosition);
         if (Physics.Raycast(ray, out RaycastHit hit) && hit.collider.CompareTag(tagName))
         {
-
             if (isShowCanvas)
             {
-
                 onCloseCanvas();
                 isShowCanvas = false;
-
             }
-            else
+            else if (GlobalVariable.isOpenCanvas == false)
             {
-                if (GlobalVariable.isOpenCanvas == false)
-                {
-                    onOpenCanvas();
-                    isShowCanvas = true;
-                }
+                onOpenCanvas();
+                isShowCanvas = true;
             }
-
         }
     }
 
@@ -70,5 +62,8 @@ public class OpenCanvas : MonoBehaviour
         btnOpen.SetActive(true);
         GlobalVariable.isOpenCanvas = false;
     }
-
+    private void OnDestroy()
+    {
+        GlobalVariable.isOpenCanvas = false;
+    }
 }
