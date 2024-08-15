@@ -88,6 +88,12 @@ MonoBehaviour:
     - default
     - Grapper_A_Module_Location
     - Real_Outdoor_JB_TSD
+    - GrapperA_Module_Location_Rack1
+    - GrapperA_Module_Location_Rack2
+    - GrapperA_Module_Location_Rack3
+    - GrapperA_Module_Location_Rack4
+    - GrapperA_Module_Location_Rack5
+    - GrapperA_Module_Location_Rack6
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: bf9e0577ac5f2cc44a980b1ebecfd82a, type: 2}

@@ -11,6 +11,12 @@ public class GlobalVariable : MonoBehaviour
     public static string recentScene;
     public static string jb_TSD_Title = "";
     public static bool isOpenCanvas = false;
+    public static List<String> pLCBoxScene = new List<string>(){
+     "PLCBoxGrapA",
+     "PLCBoxGrapB",
+     "PLCBoxGrapC",
+     "PLCBoxLH",
+    };
     public static List<string> jBLocation = new List<string>()
     {
     "Hầm cáp MCC búa",              //JB1, JB2
@@ -29,6 +35,7 @@ public class GlobalVariable : MonoBehaviour
      "lHScanScene",
      "FieldDevicesScene",
     };
+   
 }
 
 [System.Serializable]

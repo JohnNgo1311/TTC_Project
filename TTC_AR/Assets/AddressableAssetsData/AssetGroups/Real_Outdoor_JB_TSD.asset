@@ -62,11 +62,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Real_Outdoor_JB_TSD
-  - m_GUID: a1307d95233fe2745af94ad636d71c5f
-    m_Address: images/Real_Outdoor_JB_TSD/JB1
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Real_Outdoor_JB_TSD
   - m_GUID: 4ec30b5a2529411459e30ef17ff855a8
     m_Address: images/Real_Outdoor_JB_TSD/JB101
     m_ReadOnly: 0

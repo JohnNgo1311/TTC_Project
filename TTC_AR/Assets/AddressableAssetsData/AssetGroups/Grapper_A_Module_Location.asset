@@ -17,51 +17,186 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: f7c835b6f4d3b15469dfb19fa2cc17ae
   m_SerializeEntries:
-  - m_GUID: 0418e963296618549a21532449631aae
-    m_Address: Assets/images/Module_Location/Grapper_A/Grapper_A_Rack_ D1.jpg
+  - m_GUID: 4117d47987ccba5479ab193708ce86c9
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack1/D1.7.I.png
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Grapper_A_Module_Location
-  - m_GUID: c41c171d248a2a04fa47bfb0f5641fdd
-    m_Address: Assets/images/Module_Location/Grapper_A/Grapper_A_Back_Box_PLC_2.jpg
+    - Rack1_GrapperA_Module_Location
+  - m_GUID: 72ee53e2278eeb045a4952cd0ac1ff51
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack1/D1.0.I.png
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Grapper_A_Module_Location
-  - m_GUID: 540af0f2f2a937349a054bbbef1bc782
-    m_Address: Assets/images/Module_Location/Grapper_A/Grapper_A_Rack_D2.jpg
+    - Rack1_GrapperA_Module_Location
+  - m_GUID: ac13d7a588e1bb7469d4c51a84464f4a
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack1/D1.2.I.png
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Grapper_A_Module_Location
-  - m_GUID: 1c4022b1141d5164cbbb4f81f3a18af3
-    m_Address: Assets/images/Module_Location/Grapper_A/Grapper_A_Rack_A5.jpg
+    - Rack1_GrapperA_Module_Location
+  - m_GUID: dac15b04b80cdd6418cf27be029b5fea
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack1/D1.5.I.png
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Grapper_A_Module_Location
-  - m_GUID: 396e88dea8301224995991f755adbb75
-    m_Address: Assets/images/Module_Location/Grapper_A/Grapper_A_Front_Box_PLC.jpg
+    - Rack1_GrapperA_Module_Location
+  - m_GUID: 21495089fac20284e811e62aae2b0ceb
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack1/D1.1.I.png
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Grapper_A_Module_Location
-  - m_GUID: 33b7f7b9761f3554a9903fd3d56a7240
-    m_Address: Assets/images/Module_Location/Grapper_A/Grapper_A_Back_Box_PLC_1.jpg
+    - Rack1_GrapperA_Module_Location
+  - m_GUID: a1f63cc833657b046b5c5e12708d8506
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack1/D1.3.I.png
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Grapper_A_Module_Location
-  - m_GUID: c22986cbf4edd334e8b0c08ddda09742
-    m_Address: Assets/images/Module_Location/Grapper_A/Grapper_A_Rack_D3.jpg
+    - Rack1_GrapperA_Module_Location
+  - m_GUID: 74d2f28812533604f8c0d920f94dc907
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack1/D1.4.I.png
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Grapper_A_Module_Location
-  - m_GUID: e212dcc7e780f26499619769ce948d81
-    m_Address: Assets/images/Module_Location/Grapper_A/Grapper_A_Rack_A6.jpg
+    - Rack1_GrapperA_Module_Location
+  - m_GUID: c802b12d944231f4491ea3b641ba9ce8
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack1/D1.6.I.png
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Grapper_A_Module_Location
-  - m_GUID: 8d96870e31e2a674cb9d73eee56fbdf7
-    m_Address: Assets/images/Module_Location/Grapper_A/Grapper_A_Rack_A4.jpg
+    - Rack1_GrapperA_Module_Location
+  - m_GUID: 46ab747245e3dc14a940d39af353a373
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack2/D2.3.O.png
     m_ReadOnly: 0
     m_SerializedLabels:
-    - Grapper_A_Module_Location
+    - Rack2_GrapperA_Module_Location
+  - m_GUID: 05c4add9b3ab3d3439ea886b50576d6d
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack2/D2.0.O.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack2_GrapperA_Module_Location
+  - m_GUID: 62b7f8449666e2945b9ec7510b4fc6ca
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack2/D2.5.I.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack2_GrapperA_Module_Location
+  - m_GUID: e63bb8434933241418b718841d960630
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack2/D2.2.O.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack2_GrapperA_Module_Location
+  - m_GUID: b6d3f6aa1e58d0749bb0829d89e298e3
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack2/D2.4.I.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack2_GrapperA_Module_Location
+  - m_GUID: 2581b6146481bca4bba1fd0b7c8e4461
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack2/D2.1.O.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack2_GrapperA_Module_Location
+  - m_GUID: ada832148b836dd43be9aa6ead3a0091
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack3/D3.2.O.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack3_GrapperA_Module_Location
+  - m_GUID: 8396225139cc1754abb41dee0949b141
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack3/D3.0.I.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack3_GrapperA_Module_Location
+  - m_GUID: 139e82be464d95f42b88709286c84c80
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack3/D3.1.I.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack3_GrapperA_Module_Location
+  - m_GUID: 1060b562378974f42a89662c41a240ee
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack3/D3.3.O.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack3_GrapperA_Module_Location
+  - m_GUID: 8f60116a7651c054f8ee6b15a3cf63b1
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack4/A4.0.I-min.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack4_GrapperA_Module_Location
+  - m_GUID: 3dce1549200faed479789f2bd9e57aa2
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack4/A4.5.I.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack4_GrapperA_Module_Location
+  - m_GUID: 731f8cd77fef5174186c011f6e430a13
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack4/A4.2.I.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack4_GrapperA_Module_Location
+  - m_GUID: 6528b2ff6a7e2394a85d15634ec01176
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack4/A4.6.I.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack4_GrapperA_Module_Location
+  - m_GUID: a0107afee12c1ef4c9cf8585c64d7843
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack4/A4.4.I.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack4_GrapperA_Module_Location
+  - m_GUID: 226c29b45b29ecf4cbfa5bce102202b7
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack4/A4.7.I.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack4_GrapperA_Module_Location
+  - m_GUID: 5e4935fcc5182f64092f782c1059eb65
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack4/A4.1.I.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack4_GrapperA_Module_Location
+  - m_GUID: b3acb4d823b17b641bff564980e7a53e
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack4/A4.3.I.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack4_GrapperA_Module_Location
+  - m_GUID: 66baa9edeeca4f3479badd52bafda7ad
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack5/A5.3.O.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack5_GrapperA_Module_Location
+  - m_GUID: 36206e9eec6cf1143bfe1856a46eac62
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack5/A5.4.O.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack5_GrapperA_Module_Location
+  - m_GUID: ba69e7904cdf87a4c86b258739931c67
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack5/A5.6.I.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack5_GrapperA_Module_Location
+  - m_GUID: 867d8a88d3727734fb612e7dce9e0332
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack5/A5.0.I.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack5_GrapperA_Module_Location
+  - m_GUID: 123cd186ee85728469e2032546a12c84
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack5/A5.5.O.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack5_GrapperA_Module_Location
+  - m_GUID: c8749c3b239e9eb459431532feaadb65
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack5/A5.1.I.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack5_GrapperA_Module_Location
+  - m_GUID: 830e49fa806c8be4bac855c906f04003
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack5/A5.7.I.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack5_GrapperA_Module_Location
+  - m_GUID: bf1b171de063f1846a294a70905f85fe
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack5/A5.2.I.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack5_GrapperA_Module_Location
+  - m_GUID: 1d04a481995a7fc44b6387917b30baff
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack6/A6.0.I.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack6_GrapperA_Module_Location
+  - m_GUID: 6981d42b6aa68e4499c720fea2a98054
+    m_Address: Assets/images/Module_Location/Grapper_A/Rack6/A6.1.I.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rack6_GrapperA_Module_Location
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 46b79bca31d16424fb55ac66baa3c8d5, type: 2}
   m_SchemaSet:

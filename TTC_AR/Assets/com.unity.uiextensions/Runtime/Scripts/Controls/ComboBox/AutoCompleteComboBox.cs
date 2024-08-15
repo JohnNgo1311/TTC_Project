@@ -18,6 +18,53 @@ namespace UnityEngine.UI.Extensions
     public class AutoCompleteComboBox : MonoBehaviour
     {
         public Color disabledTextColor;
+        private List<string> optionsGrapperA = new List<string>(){
+           "01TT005",
+           "01TT007",
+           "01TT008",
+           "01TT009",
+           "01TT010",
+           "01TT011",
+           "01TT012",
+           "01TT015",
+        //    "02LT002",
+        //    "02LT003",
+        //    "02LT004",
+        //    "02TT002",
+        //    "02TT003A",
+        //    "02TT003B",
+        //    "02TT004",
+        //    "02TT007",
+        //    "02TT009",
+        //    "02TT011",
+        //    "02TT013",
+        //    "02TT016",
+        //    "02TT018",
+        //    "02TT020",
+        //    "02TT023",
+        //    "02TT024",
+        //    "02TT025",
+        //    "02TT026",
+        //    "02TT027",
+        //    "02TT028",
+        //    "02TT029",
+        //    "02TT030",
+        //    "02TT031",
+        //    "02TT032",
+        //    "02TT033",
+        //    "02TT034",
+        //    "02TT035",
+        //    "02TT036",
+        //    "02TT037",
+        //    "02TT038",
+        //    "02TT039",
+        //    "02TT040",
+        //    "03LT001",
+        //    "09LDT016",
+        //    "09LT010",
+        //    "09LT018",
+        //    "09LT019"
+        };
         public DropDownListItem SelectedItem { get; private set; } //outside world gets to get this, not set it
 
         /// <summary>
@@ -25,7 +72,9 @@ namespace UnityEngine.UI.Extensions
         /// <see cref="RemoveItem(string)"/> and <see cref="SetAvailableOptions(List{string})"/> methods as these also execute
         /// the required methods to update to the current collection.
         /// </summary>
-        public List<string> AvailableOptions;
+        /// 
+        [SerializeField]
+        private List<string> AvailableOptions;
 
         //private bool isInitialized = false;
         private bool _isPanelActive = false;
@@ -156,6 +205,23 @@ namespace UnityEngine.UI.Extensions
 
         private bool Initialize()
         {
+            switch (GlobalVariable.recentScene)
+            {
+                case "PLCBoxGrapA":
+                    AvailableOptions = optionsGrapperA;
+                    break;
+                case "PLCBoxGrapB":
+                    AvailableOptions = optionsGrapperA; //B
+                    break;
+                case "PLCBoxGrapC":
+                    AvailableOptions = optionsGrapperA; //C
+                    break;
+                case "PLCBoxLH":
+                    AvailableOptions = optionsGrapperA; //LH
+                    break;
+                default:
+                    break;
+            }
             bool success = true;
             try
             {
@@ -469,6 +535,7 @@ namespace UnityEngine.UI.Extensions
         /// Toggle the drop down list
         /// </summary>
         /// <param name="directClick"> whether an item was directly clicked on</param>
+
         public void ToggleDropdownPanel(bool directClick = false)
         {
             _isPanelActive = !_isPanelActive;
@@ -483,6 +550,7 @@ namespace UnityEngine.UI.Extensions
                 // scrollOffset = Mathf.RoundToInt(itemsPanelRT.anchoredPosition.y / _rectTransform.sizeDelta.y); 
             }
         }
+
 
         private void PruneItems(string currText)
         {
