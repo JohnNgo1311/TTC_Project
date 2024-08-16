@@ -21,9 +21,9 @@ public class SearchDevicesFromGrapper : MonoBehaviour
 
     void Awake()
     {
-        if (GlobalVariable_Search_Devices.deviceModels != null)
+        if (GlobalVariable_Search_Devices.devices_Model_By_Grapper != null)
         {
-            list_All_Devices = GlobalVariable_Search_Devices.deviceModels;
+            list_All_Devices = GlobalVariable_Search_Devices.devices_Model_By_Grapper;
             Debug.Log(list_All_Devices.Count);
         }
         else

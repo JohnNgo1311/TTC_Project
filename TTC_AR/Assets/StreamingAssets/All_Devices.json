@@ -1,0 +1,1772 @@
+ [
+	{  	
+	    "Location": "GrapperA",
+		"Code": "03AT001",
+		"Function": "Thiết bị đo pH nước chè gia vôi",
+		"Range Measurement": "4-10 pH",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{	
+		"Location": "GrapperA",
+		"Code": "04DT002",
+		"Function": "Thiết bị đo Brix nồi bốc hơi hiệu 2",
+		"Range Measurement": "10-40 Bx",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{  
+		"Location": "GrapperA",
+		"Code": "04DT003",
+		"Function": "Thiết bị đo Brix nồi bốc hơi hiệu 3",
+		"Range Measurement": "20-60 Bx",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{	
+		"Location": "GrapperA",
+		"Code": "04DT004",
+		"Function": "Thiết bị đo Brix nồi bốc hơi hiệu 4",
+		"Range Measurement": "37-70 Bx",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{	"Location": "GrapperA",
+		"Code": "05DT005",
+		"Function": "Thiết bị đo Brix nồi chân S1",
+		"Range Measurement": "55-95 Bx",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{	
+		"Location": "GrapperA",
+		"Code": "05DT006",
+		"Function": "Thiết bị đo Brix nồi chân S2",
+		"Range Measurement": "55-95 Bx",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{	
+		"Location": "GrapperA",
+		"Code": "05DT032",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{ 
+		"Location": "GrapperA",
+		"Code": "07AT001",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{	
+		"Location": "GrapperA",
+		"Code": "07AT002",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{	
+        "Location": "GrapperA",
+		"Code": "07AT003",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{	
+		"Location": "GrapperA",
+		"Code": "07AT004",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{	
+		"Location": "GrapperA",
+		"Code": "07DT001",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		
+		"Location": "GrapperA",
+		"Code": "07DT002",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{	
+		"Location": "GrapperA",
+		"Code": "07DT003",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{	
+		"Location": "GrapperA",
+		"Code": "07DT004",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{	
+		"Location": "GrapperA",
+		"Code": "07DT005",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{	
+		"Location": "GrapperA",
+		"Code": "07DT010",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{	
+		"Location": "GrapperA",
+		"Code": "04DT005",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{  
+    "Location": "GrapperA",
+    "Code":"02LT002", 
+    "Function": "Đo mức bồn nước chè échaudage số 1",
+	"Range Measurement": "0-42.5 KpaG",
+	"I/O Address": "A4.1.I.03",
+	"JB Connection": "JB3_Cầu Thang lên Chè Cân"
+    },
+    {  
+    "Location": "GrapperA",
+    "Code":"02LT003", 
+    "Function": "Đo mức bồn nước chè Soutirage",
+	"Range Measurement": "0-42 KpaG",
+	"I/O Address": "A4.2.I.06",
+	"JB Connection": "JB3_Cầu Thang lên Chè Cân"
+    },
+	{	
+	"Location": "GrapperA",
+    "Code":"02LT004", 
+    "Function": "Đo mức bồn nước chè échaudage số 2",
+	"Range Measurement": "0-42.5 KpaG",
+	"I/O Address": "A4.1.I.04",
+	"JB Connection": "JB3_Cầu Thang lên Chè Cân"
+	},
+	{	
+		"Location": "GrapperA",
+		"Code": "03LT001",
+		"Function": "Đo mức bồn nước chè hỗn hợp qua cân",
+		"Range Measurement": "0-42 KpaG",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{	
+		"Location": "GrapperA",
+		"Code": "03LT004",
+		"Function": "Đo mức bồn nước chè trong",
+		"Range Measurement": "0-57 KpaG",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{	
+		"Location": "GrapperA",
+		"Code": "03PT008",
+		"Function": "Đo áp suất chân không trống lọc bùn số 1",
+		"Range Measurement": "0-100 KpaA",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{	
+		"Location": "GrapperA",
+		"Code": "03PT009",
+		"Function": "Đo áp suất chân không trống lọc bùn số 2",
+		"Range Measurement": "0-100 KpaA",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{	
+		"Location": "GrapperA",
+		"Code": "04LDT001",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "04LDT002",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		
+		"Location": "GrapperA",
+		"Code": "04LDT003B",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+
+		
+		"Location": "GrapperA",
+		"Code": "04LDT003A",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+
+		
+		"Location": "GrapperA",
+		"Code": "04LDT004B",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+
+		
+		"Location": "GrapperA",
+		"Code": "04LDT004A",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		
+		"Location": "GrapperA",
+		"Code": "04LT005",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		
+		"Location": "GrapperA",
+		"Code": "04LT015",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		
+		"Location": "GrapperA",
+		"Code": "04PT001",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		
+		"Location": "GrapperA",
+		"Code": "04PT002",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		
+		"Location": "GrapperA",
+		"Code": "04PT003",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		
+		"Location": "GrapperA",
+		"Code": "04PT004",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		
+		"Location": "GrapperA",
+		"Code": "04PT005",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		
+		"Location": "GrapperA",
+		"Code": "04PT013",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		
+		"Location": "GrapperA",
+		"Code": "04PT014",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		
+		"Location": "GrapperA",
+		"Code": "05LDT001",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		
+		"Location": "GrapperA",
+		"Code": "05LDT002",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		
+		"Location": "GrapperA",
+		"Code": "05LT002",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		
+		"Location": "GrapperA",
+		"Code": "05LT003",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		
+		"Location": "GrapperA",
+		"Code": "05LT005",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05LT014",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05LT015",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05LT016",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05LT017",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05LT018",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05LT019",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05LT020",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05LT021",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05LT100",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05LT101",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05PT001",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05PT002",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05PT005",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05PT007",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05PT009",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05PT011",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05PT013",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05PT017",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05PT019",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05PT022",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05PT023",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05PT024",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05PT025",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05PT026",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05PT027",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "06LT001",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "06LT009",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "06PT002",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LDT001",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LDT002",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LDT003",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LDT026",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LDT027",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LDT028",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LDT030",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LT005",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LT006",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LT007",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LT008",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LT009",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LT013",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LT014",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	}
+	,
+	{
+		"Location": "GrapperA",
+		"Code": "07LT016",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LT017",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LT019",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LT020",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LT021",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LT022",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LT023",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LT032",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LT033",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LT034",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LT051",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07LT100",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07PT001",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07PT004",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07PT100",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07PT007",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07PT012",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07PT013",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07PT014",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07PT017",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07PT018",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07PT019",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07PT050",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "09LDT002",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "09LDT003",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "09LDT004",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "09LDT005",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "09LDT006",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "09LDT007",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+    "Location": "GrapperA",
+	"Code": "09LDT016",
+	"Function": "Đo mức bồn nước ngưng tụ Ballon G",
+	"Range Measurement": "0-10 KpaG",
+	"I/O Address": "A4.0.I.07",
+	"JB Connection": "JB3_Cầu Thang lên Chè Cân"
+	},
+	{  
+    "Location": "GrapperA",
+    "Code":"09LT010", 
+    "Function": "Đo mức nước trong ống bơm Canal",
+    "Range Measurement": "0-100 mbarG",
+	"I/O Address": "A4.0.I.06",
+	"JB Connection": "JB12_Chưa xác định"
+    },
+    {  
+    "Location": "GrapperA",
+    "Code":"09LT018", 
+    "Function": "Đo mức bồn nước sử dụng",
+    "Range Measurement": "0-37 KpaG",
+	"I/O Address": "A4.3.I.03",
+	"JB Connection": "JB12_Chưa xác định"
+    },
+    {  
+    "Location": "GrapperA",
+    "Code":"09LT019", 
+    "Function": "Đo mức bồn nước nóng",
+    "Range Measurement": "0-58 KpaG",
+	"I/O Address": "A4.3.I.05",
+	"JB Connection": "JB3_Cầu Thang lên Chè Cân"
+    },  
+	{
+		"Location": "GrapperA",
+		"Code": "06LT002",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05LT022",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "03LT005",
+		"Function": "Đo mức bồn Flash tank",
+		"Range Measurement": "0-12 KpaG",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+
+	{
+		"Location": "GrapperA",
+		"Code": "01TT005",
+		"Function": "Nhiệt độ dầu bả dê búa đập phía Tự do",
+		"Range Measurement": "0 - 120 °C",
+		"I/O Address": "A4.5.I.01",
+		"JB Connection": "JB1_Hầm cáp MCC búa"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "01TT007",
+		"Function": "Nhiệt độ dầu bả dê búa đập phía khớp nối",
+		"Range Measurement": "0 - 120 °C",
+		"I/O Address": "A4.5.I.02",
+		"JB Connection": "JB1_Hầm cáp MCC búa"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "01TT008",
+		"Function": "Nhiệt độ dầu bả dê Motor búa đập phía khớp nối",
+		"Range Measurement": "0 - 120 °C",
+		"I/O Address": "A4.5.I.03",
+		"JB Connection": "JB1_Hầm cáp MCC búa"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "01TT012",
+		"Function": "Nhiệt độ dầu bả dê Motor búa đập phía tự do",
+		"Range Measurement": "0 - 120 °C",
+		"I/O Address": "A4.5.I.04",
+		"JB Connection": "JB1_Hầm cáp MCC búa"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "01TT009",
+		"Function": "Nhiệt độ cuộn dây pha 1 Motor búa đập",
+		"Range Measurement": "0 - 120 °C",
+		"I/O Address": "A4.5.I.05",
+		"JB Connection": "JB1_Hầm cáp MCC búa"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "01TT010",
+		"Function": "Nhiệt độ cuộn dây pha 2 Motor búa đập",
+		"Range Measurement": "0 - 120 °C",
+		"I/O Address": "A4.5.I.06",
+		"JB Connection": "JB1_Hầm cáp MCC búa"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "01TT011",
+		"Function": "Nhiệt độ cuộn dây pha 3 Motor búa đập",
+		"Range Measurement": "0 - 120 °C",
+		"I/O Address": "A4.5.I.07",
+		"JB Connection": "JB1_Hầm cáp MCC búa"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT002",
+		"Function": "Nhiệt độ nước chè echaudage vào gia nhiệt 3",
+		"Range Measurement": "0 - 150 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT003A",
+		"Function": "Nhiệt độ nước chè echaudage ra khỏi gia nhiệt 1",
+		"Range Measurement": "0 - 100 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT003B",
+		"Function": "Nhiệt độ nước chè echaudage ra khỏi gia nhiệt 2",
+		"Range Measurement": "0 - 100 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT004",
+		"Function": "Nhiệt độ nước chè ra bơm N˚1",
+		"Range Measurement": "0 - 100 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT007",
+		"Function": "Nhiệt độ nước chè ra bơm N˚4",
+		"Range Measurement": "0 - 100 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT009",
+		"Function": "Nhiệt độ nước chè ra bơm N˚6",
+		"Range Measurement": "0 - 100 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT011",
+		"Function": "Nhiệt độ nước chè ra bơm N˚8",
+		"Range Measurement": "0 - 100 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT013",
+		"Function": "Nhiệt độ nước chè ra bơm N˚10",
+		"Range Measurement": "0 - 100 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT016",
+		"Function": "Nhiệt độ nước chè ra bơm N˚13",
+		"Range Measurement": "0 - 100 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT018",
+		"Function": "Nhiệt độ nước chè ra bơm số 3",
+		"Range Measurement": "0 - 100 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT020",
+		"Function": "Nhiệt độ nước thẩm thấu",
+		"Range Measurement": "0 - 150 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT023",
+		"Function": "Nhiệt độ dầu Motor che ép phía khớp nối",
+		"Range Measurement": "0 - 150 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT024",
+		"Function": "Nhiệt độ pha R Motor che ép",
+		"Range Measurement": "0 - 150 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT025",
+		"Function": "Nhiệt độ pha W Motor che ép",
+		"Range Measurement": "0 - 150 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT026",
+		"Function": "Nhiệt độ pha B Motor che ép",
+		"Range Measurement": "0 - 150 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT027",
+		"Function": "Nhiệt độ dầu Motor che ép phía tự do",
+		"Range Measurement": "0 - 150 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT028",
+		"Function": "Nhiệt độ nước làm mát che ép",
+		"Range Measurement": "20-60 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT029",
+		"Function": "Nhiệt độ trục đỉnh che lớn phía nhà máy",
+		"Range Measurement": "20-60 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT030",
+		"Function": "Nhiệt độ trục nạp che lớn phía nhà máy",
+		"Range Measurement": "20-60 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT031",
+		"Function": "Nhiệt độ trục ra che lớn phía nhà máy",
+		"Range Measurement": "20-60 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT032",
+		"Function": "Nhiệt độ trục đỉnh che lớn phía nhà bã",
+		"Range Measurement": "20-60 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT033",
+		"Function": "Nhiệt độ trục nạp che lớn phía nhà bã",
+		"Range Measurement": "20-60 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT034",
+		"Function": "Nhiệt độ trục ra che lớn phía nhà bã",
+		"Range Measurement": "20-60 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT035",
+		"Function": "Nhiệt độ trục đỉnh che nhỏ phía nhà máy",
+		"Range Measurement": "20-60 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT036",
+		"Function": "Nhiệt độ trục nạp che nhỏ phía nhà máy",
+		"Range Measurement": "20-60 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT037",
+		"Function": "Nhiệt độ trục ra che nhỏ phía nhà máy",
+		"Range Measurement": "20-60 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT038",
+		"Function": "Nhiệt độ trục đỉnh che nhỏ phía nhà bã",
+		"Range Measurement": "20-60 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT039",
+		"Function": "Nhiệt độ trục nạp che nhỏ phía nhà bã",
+		"Range Measurement": "20-60 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT040",
+		"Function": "Nhiệt độ trục ra che nhỏ phía nhà bã",
+		"Range Measurement": "20-60 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "03TT014",
+		"Function": "Nhiệt độ nước chè trong trước gia nhiệt số 2",
+		"Range Measurement": "0 - 150 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "03TT015",
+		"Function": "Nhiệt độ nước chè cân vào lọc quay",
+		"Range Measurement": "1 - 120 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "03TT016",
+		"Function": "Nhiệt độ nước chè hổn hợp",
+		"Range Measurement": "0 - 100 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "03TT017",
+		"Function": "Nhiệt độ nước chè trong vào gia nhiệt số 2",
+		"Range Measurement": "0 - 150 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "03TT018",
+		"Function": "Nhiệt độ bể lọc quay",
+		"Range Measurement": "0 - 100 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "03TT019",
+		"Function": "Nhiệt độ bùn máy lắng",
+		"Range Measurement": "0 - 150 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "04TT015",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "04TT016",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "04TT004",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "04TT008",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "04TT009",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "04TT010",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "04TT012",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "04TT013",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05TT003",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05TT005",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05TT006",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05TT007",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05TT009",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05TT011",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05TT012",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05TT013",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05TT015",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05TT016",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05TT018",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05TT019",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05TT021",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05TT023",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "06TT001",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "06TT002",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "06TT003",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05TT001",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT001",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT004",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT006",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT007",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT017",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT019",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT020",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT024",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT027",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT029",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT032",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT033",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT034",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT035",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT036",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT037",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT040",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT041",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT050",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT051",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "05TT002",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "06TT005",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "01TT015",
+		"Function": "Nhiệt độ phòng MCC sân mía",
+		"Range Measurement": "0 - 100 °C",
+		"I/O Address": "A5.1.I.04",
+		"JB Connection": "JB1_Hầm cáp MCC búa"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "02TT045",
+		"Function": "Nhiệt độ phòng MCC che ép",
+		"Range Measurement": "0 - 100 °C",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		
+		"Location": "GrapperA",
+		"Code": "07TT052",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT053",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	},
+	{
+		"Location": "GrapperA",
+		"Code": "07TT055",
+		"Function": "Some Function",
+		"Range Measurement": "Some Range",
+		"I/O Address": "Some Address",
+		"JB Connection": "Some Connection"
+	}
+]
+
+ 

@@ -3,17 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI.Extensions;
+using UnityEngine.iOS;
 
 public class DropdownSearch : MonoBehaviour
 {
     [SerializeField]
     private TMP_InputField inputField;
     public GameObject parentGameObject; // GameObject cha chứa các GameObject mục tiêu
-
+    void Awake()
+    {
+    }
     void Start()
     {
-        // Đảm bảo rằng inputField không null
-
+        Debug.Log(GlobalVariable_Search_Devices.devices_Model_By_Grapper.Count);
     }
     public void OnInputValueChanged(string input)
     {

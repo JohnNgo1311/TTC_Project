@@ -17,9 +17,9 @@ public class SearchDevicesFromModule : MonoBehaviour
     void Start()
     {
         contentPanel.SetActive(false);
-        if (GlobalVariable_Search_Devices.deviceModels != null)
+        if (GlobalVariable_Search_Devices.all_Device_Models != null)
         {
-            listDeviceFromModule = GlobalVariable_Search_Devices.deviceModels;
+            listDeviceFromModule = GlobalVariable_Search_Devices.all_Device_Models;
             Debug.Log(listDeviceFromModule.Count);
         }
         else

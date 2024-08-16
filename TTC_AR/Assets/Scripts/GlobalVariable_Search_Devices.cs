@@ -9,7 +9,8 @@ using UnityEngine;
 public class GlobalVariable_Search_Devices : MonoBehaviour
 {
 
-    public static List<DeviceModel> deviceModels;// List of devices for search
+    public static List<DeviceModel> all_Device_Models;
+    public static List<DeviceModel> devices_Model_By_Grapper; // just Function and Code
     public static List<string> devicesGrapperA_code = new List<string>(){
            "01TT005",
            "01TT007",
@@ -107,10 +108,27 @@ public class GlobalVariable_Search_Devices : MonoBehaviour
     "Đo mức bồn nước nóng"
     };
 
+   /* public static List<DeviceModel> GetDeviceModels()
+    {
+        List<DeviceModel> deviceModels = new List<DeviceModel>();
+        for (int i = 0; i < devicesGrapperA_code.Count; i++)
+        {
+            DeviceModel deviceModel = new DeviceModel();
+            deviceModel.code = devicesGrapperA_code[i];
+            deviceModel.function = devicesGrapperA_function[i];
+            deviceModels.Add(deviceModel);
+        }
+
+        return deviceModels;
+    }*/
+
 }
 [System.Serializable]
 public class DeviceModel
 {
+    [JsonProperty("Location")]
+    public string location { get; set; }
+
     [JsonProperty("Code")]
     public string code { get; set; }
 
@@ -126,3 +144,4 @@ public class DeviceModel
     [JsonProperty("JB Connection")]
     public string jbConnection { get; set; }
 }
+
