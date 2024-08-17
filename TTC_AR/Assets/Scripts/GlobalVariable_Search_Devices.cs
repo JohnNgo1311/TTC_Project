@@ -11,6 +11,8 @@ public class GlobalVariable_Search_Devices : MonoBehaviour
 
     public static List<DeviceModel> all_Device_Models;
     public static List<DeviceModel> devices_Model_By_Grapper; // just Function and Code
+    public static List<string> devices_Model_For_Filter; // just Function and Code
+
     public static List<string> devicesGrapperA_code = new List<string>(){
            "01TT005",
            "01TT007",
@@ -108,19 +110,7 @@ public class GlobalVariable_Search_Devices : MonoBehaviour
     "Đo mức bồn nước nóng"
     };
 
-   /* public static List<DeviceModel> GetDeviceModels()
-    {
-        List<DeviceModel> deviceModels = new List<DeviceModel>();
-        for (int i = 0; i < devicesGrapperA_code.Count; i++)
-        {
-            DeviceModel deviceModel = new DeviceModel();
-            deviceModel.code = devicesGrapperA_code[i];
-            deviceModel.function = devicesGrapperA_function[i];
-            deviceModels.Add(deviceModel);
-        }
 
-        return deviceModels;
-    }*/
 
 }
 [System.Serializable]

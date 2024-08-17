@@ -17,6 +17,7 @@ public class DropdownSearch : MonoBehaviour
     {
         Debug.Log(GlobalVariable_Search_Devices.devices_Model_By_Grapper.Count);
     }
+
     public void OnInputValueChanged(string input)
     {
         if (inputField != null)

@@ -18,53 +18,9 @@ namespace UnityEngine.UI.Extensions
     public class AutoCompleteComboBox : MonoBehaviour
     {
         public Color disabledTextColor;
-        private List<string> optionsGrapperA = new List<string>(){
-           "01TT005",
-           "01TT007",
-           "01TT008",
-           "01TT009",
-           "01TT010",
-           "01TT011",
-           "01TT012",
-           "01TT015",
-        //    "02LT002",
-        //    "02LT003",
-        //    "02LT004",
-        //    "02TT002",
-        //    "02TT003A",
-        //    "02TT003B",
-        //    "02TT004",
-        //    "02TT007",
-        //    "02TT009",
-        //    "02TT011",
-        //    "02TT013",
-        //    "02TT016",
-        //    "02TT018",
-        //    "02TT020",
-        //    "02TT023",
-        //    "02TT024",
-        //    "02TT025",
-        //    "02TT026",
-        //    "02TT027",
-        //    "02TT028",
-        //    "02TT029",
-        //    "02TT030",
-        //    "02TT031",
-        //    "02TT032",
-        //    "02TT033",
-        //    "02TT034",
-        //    "02TT035",
-        //    "02TT036",
-        //    "02TT037",
-        //    "02TT038",
-        //    "02TT039",
-        //    "02TT040",
-        //    "03LT001",
-        //    "09LDT016",
-        //    "09LT010",
-        //    "09LT018",
-        //    "09LT019"
-        };
+        private List<string> optionsGrapperA_by_code = GlobalVariable_Search_Devices.devicesGrapperA_code;
+        private List<string> optionsGrapperA_by_function = GlobalVariable_Search_Devices.devicesGrapperA_function;
+
         public DropDownListItem SelectedItem { get; private set; } //outside world gets to get this, not set it
 
         /// <summary>
@@ -77,13 +33,14 @@ namespace UnityEngine.UI.Extensions
         private List<string> AvailableOptions;
 
         //private bool isInitialized = false;
-        private bool _isPanelActive = false;
+        private bool _isPanelActive = true;
         private bool _hasDrawnOnce = false;
 
         private TMP_InputField _mainInput;
         private RectTransform _inputRT;
 
-        //private Button _arrow_Button;
+        public GameObject _arrow_Button_Down;
+        public GameObject _arrow_Button_Up;
 
         private RectTransform _rectTransform;
 
@@ -192,7 +149,6 @@ namespace UnityEngine.UI.Extensions
         {
             Initialize();
         }
-
         public void Start()
         {
             if (SelectFirstItemOnStart && AvailableOptions.Count > 0)
@@ -205,23 +161,8 @@ namespace UnityEngine.UI.Extensions
 
         private bool Initialize()
         {
-            switch (GlobalVariable.recentScene)
-            {
-                case "PLCBoxGrapA":
-                    AvailableOptions = optionsGrapperA;
-                    break;
-                case "PLCBoxGrapB":
-                    AvailableOptions = optionsGrapperA; //B
-                    break;
-                case "PLCBoxGrapC":
-                    AvailableOptions = optionsGrapperA; //C
-                    break;
-                case "PLCBoxLH":
-                    AvailableOptions = optionsGrapperA; //LH
-                    break;
-                default:
-                    break;
-            }
+
+            AvailableOptions = GlobalVariable_Search_Devices.devices_Model_For_Filter;
             bool success = true;
             try
             {
@@ -267,6 +208,7 @@ namespace UnityEngine.UI.Extensions
             RebuildPanel();
             return success;
         }
+
 
         /// <summary>
         /// Adds the item to <see cref="this.AvailableOptions"/> if it is not a duplicate and rebuilds the panel.
@@ -362,7 +304,7 @@ namespace UnityEngine.UI.Extensions
 
             foreach (string option in AvailableOptions)
             {
-                _panelItems.Add(option.ToLower());
+                _panelItems.Add(option);
             }
 
             List<GameObject> itemObjs = new List<GameObject>(panelObjects.Values);
@@ -442,7 +384,10 @@ namespace UnityEngine.UI.Extensions
         private void RedrawPanel()
         {
             float scrollbarWidth = _panelItems.Count > ItemsToDisplay ? _scrollBarWidth : 0f;//hide the scrollbar if there's not enough items
+            //! _panelItems.Count = AvailableOptions.Count vào ban đầu, số lượng sẽ thay đổi khi textField đổi
+            //! ItemsToDisplay : Số lượng hiện mỗi lần
             _scrollBarRT.gameObject.SetActive(_panelItems.Count > ItemsToDisplay);
+
             if (!_hasDrawnOnce || _rectTransform.sizeDelta != _inputRT.sizeDelta)
             {
                 _hasDrawnOnce = true;
@@ -464,27 +409,33 @@ namespace UnityEngine.UI.Extensions
             }
 
             if (_panelItems.Count < 1) return;
-
+            //? Chiều cao của dropdown = chiều  cao của searchBar (Combobox) * số lượng hiển thị (lấy nhỏ nhất giữa số lượng hiển thị và số lượng item) + dropdownOffset
             float dropdownHeight = _rectTransform.sizeDelta.y * Mathf.Min(_itemsToDisplay, _panelItems.Count) + DropdownOffset;
 
             _scrollPanelRT.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, dropdownHeight);
             _scrollPanelRT.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, _rectTransform.sizeDelta.x);
 
-            _itemsPanelRT.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, _scrollPanelRT.sizeDelta.x - scrollbarWidth - 5);
-            _itemsPanelRT.anchoredPosition = new Vector2(5, 0);
+            _itemsPanelRT.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, _scrollPanelRT.sizeDelta.x - scrollbarWidth);
+            _itemsPanelRT.anchoredPosition = new Vector2(5, 0); // 5 is padding from anchor
 
             _scrollBarRT.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, scrollbarWidth);
             _scrollBarRT.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, dropdownHeight);
+
             if (scrollbarWidth == 0) _scrollHandleRT.gameObject.SetActive(false); else _scrollHandleRT.gameObject.SetActive(true);
 
-            _slidingAreaRT.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, scrollbarWidth - 10);
-            _slidingAreaRT.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, dropdownHeight - 10);
+            _slidingAreaRT.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, scrollbarWidth - 5);
+            _slidingAreaRT.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, dropdownHeight - 5);
         }
 
+
+
+        //! Method run when the input field value changes
         public void OnValueChanged(string currText)
         {
             Text = currText;
+
             PruneItems(currText);
+
             RedrawPanel();
             //Debug.Log("value changed to: " + currText);
 
@@ -498,8 +449,8 @@ namespace UnityEngine.UI.Extensions
                 ToggleDropdownPanel(false);
             }
 
-            bool validity_changed = (_panelItems.Contains(Text) != _selectionIsValid);
-            _selectionIsValid = _panelItems.Contains(Text);
+            bool validity_changed = (_panelItems.Contains(Text.ToLower()) != _selectionIsValid);
+            _selectionIsValid = _panelItems.Contains(Text) || _panelItems.Contains(Text.ToLower());
             OnSelectionChanged.Invoke(Text, _selectionIsValid);
             OnSelectionTextChanged.Invoke(Text);
             if (validity_changed)
@@ -539,11 +490,21 @@ namespace UnityEngine.UI.Extensions
         public void ToggleDropdownPanel(bool directClick = false)
         {
             _isPanelActive = !_isPanelActive;
-
-            _overlayRT.gameObject.SetActive(_isPanelActive);
             if (_isPanelActive)
             {
-                transform.SetAsLastSibling();
+                _arrow_Button_Down.SetActive(false);
+                _arrow_Button_Up.SetActive(true);
+            }
+            else
+            {
+                _arrow_Button_Down.SetActive(true);
+                _arrow_Button_Up.SetActive(false);
+            }
+            _overlayRT.gameObject.SetActive(_isPanelActive);
+
+            if (_isPanelActive)
+            {
+                transform.SetAsLastSibling(); //! SetAsLastSibling: Đưa đối tượng này lên trên cùng trong danh sách sắp xếp của cha
             }
             else if (directClick)
             {
@@ -554,34 +515,38 @@ namespace UnityEngine.UI.Extensions
 
         private void PruneItems(string currText)
         {
-            if (autocompleteSearchType == AutoCompleteSearchType.Linq)
+            if (autocompleteSearchType == AutoCompleteSearchType.Linq) //! Default là AutoCompleteSearchType.Linq
             {
-                PruneItemsLinq(currText);
+                PruneItemsLinq(currText); //? Sử dụng Linq để lọc các mục
             }
             else
             {
-                PruneItemsArray(currText);
+                PruneItemsArray(currText); //? Duyệt qua mảng thủ công để lọc các mục.
             }
         }
 
         private void PruneItemsLinq(string currText)
         {
             currText = currText.ToLower();
-            var toPrune = _panelItems.Where(x => !x.Contains(currText)).ToArray();
+            //! Lưu ý rằng _panelItems khởi tạo ngay từ đầu bằng với AvailableOptions
+            //? Lọc _panelItems ra List<string> không chứa currText và chuyển thành dạng Array [string]
+            var toPrune = _panelItems.Where(x => !x.ToLower().Contains(currText)).ToArray();
+
             foreach (string key in toPrune)
             {
-                panelObjects[key].SetActive(false);
-                _panelItems.Remove(key);
-                _prunedPanelItems.Add(key);
+                panelObjects[key].SetActive(false); //Ẩn mục không khớp
+                _panelItems.Remove(key);            //Loại bỏ mục không khớp khỏi danh sách hiển thị
+                _prunedPanelItems.Add(key);         //Thêm mục không khớp vào danh sách bị loại bỏ
             }
-
-            var toAddBack = _prunedPanelItems.Where(x => x.Contains(currText)).ToArray();
+            //? Lọc _prunedPanelItems ra List<string> chứa currText và chuyển thành dạng Array [string]
+            var toAddBack = _prunedPanelItems.Where(x => x.ToLower().Contains(currText)).ToArray();
             foreach (string key in toAddBack)
             {
-                panelObjects[key].SetActive(true);
-                _panelItems.Add(key);
-                _prunedPanelItems.Remove(key);
+                panelObjects[key].SetActive(true); //Hiện mục khớp
+                _panelItems.Add(key);              //Thêm mục khớp vào danh sách hiển thị
+                _prunedPanelItems.Remove(key);     //Loại bỏ mục khớp khỏi danh sách bị loại bỏ
             }
+            //! ==> Kết qủa cuối cùng là danh sách hiển thị chỉ chứa các mục khớp với currText => _panelItems.count
         }
 
         //Updated to not use Linq

@@ -16,22 +16,28 @@ public class Gain_List_Devices_For_Search : MonoBehaviour
 
     void Start()
     {
-        number_Of_Devices = GlobalVariable_Search_Devices.devices_Model_By_Grapper.Count;
+        int number_Of_Devices = GlobalVariable_Search_Devices.devices_Model_By_Grapper.Count;
         for (int i = 0; i < number_Of_Devices; i++)
         {
             DeviceModel new_Device = GlobalVariable_Search_Devices.devices_Model_By_Grapper[i];
-            GameObject new_Object = Instantiate(prefab_Device, parent_Object.transform);
-            new_Object.name = new_Device.code;
 
-            if (new_Object != null)
-            {
-                Debug.Log("New object was created");
-            }
+            // Tạo đối tượng với tên dựa trên code
+            GameObject code_Object = Instantiate(prefab_Device, parent_Object.transform);
+            code_Object.name = $"{new_Device.code}";
+            Debug.Log("New object with code was created");
+            UpdateDeviceInformation(code_Object, new_Device);
+            code_Object.SetActive(false);
 
-            UpdateDeviceInformation(new_Object, new_Device);
-            new_Object.SetActive(false);
+            // Tạo đối tượng với tên dựa trên function
+            GameObject function_Object = Instantiate(prefab_Device, parent_Object.transform);
+            function_Object.name = $"{new_Device.function}";
+            Debug.Log("New object with function was created");
+            UpdateDeviceInformation(function_Object, new_Device);
+            function_Object.SetActive(false);
         }
+
         Destroy(prefab_Device.gameObject);
+
     }
 
     private void UpdateDeviceInformation(GameObject new_GameObject, DeviceModel device)
@@ -51,7 +57,7 @@ public class Gain_List_Devices_For_Search : MonoBehaviour
         I_O.text = device.ioAddress;
 
         List<string> jb_infor = JB_SplitString(device.jbConnection);
-        jb_name.text = jb_infor[0];
+        jb_name.text = $"{jb_infor[0]}:";
         jb_location.text = jb_infor[1];
     }
 
