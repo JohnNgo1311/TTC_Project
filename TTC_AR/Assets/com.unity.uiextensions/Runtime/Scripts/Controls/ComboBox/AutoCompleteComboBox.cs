@@ -147,10 +147,16 @@ namespace UnityEngine.UI.Extensions
 
         public void Awake()
         {
-            Initialize();
         }
         public void Start()
         {
+            if (GlobalVariable_Search_Devices.devices_Model_For_Filter != null && GlobalVariable_Search_Devices.devices_Model_For_Filter.Count > 0)
+            {
+                AvailableOptions = GlobalVariable_Search_Devices.devices_Model_For_Filter;
+            }
+
+            Initialize();
+
             if (SelectFirstItemOnStart && AvailableOptions.Count > 0)
             {
                 ToggleDropdownPanel(false);
@@ -162,7 +168,6 @@ namespace UnityEngine.UI.Extensions
         private bool Initialize()
         {
 
-            AvailableOptions = GlobalVariable_Search_Devices.devices_Model_For_Filter;
             bool success = true;
             try
             {

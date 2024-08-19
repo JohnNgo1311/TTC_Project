@@ -1,92 +1,109 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
-using System.Linq;
-using UnityEngine.AddressableAssets;
-using UnityEngine.ResourceManagement.AsyncOperations;
-using System;
 
 public class Gain_List_Devices_For_Search : MonoBehaviour
 {
     public GameObject parent_Object;
     public GameObject prefab_Device;
+    public TMP_Text title_TEST;
 
-    private int number_Of_Devices;
+    private List<GameObject> deviceObjectsPool = new List<GameObject>();
+    private int activeDeviceCount = 0;
 
-    void Start()
+    private void Awake()
     {
-        int number_Of_Devices = GlobalVariable_Search_Devices.devices_Model_By_Grapper.Count;
-        for (int i = 0; i < number_Of_Devices; i++)
+        if (GlobalVariable_Search_Devices.devices_Model_For_Filter != null && GlobalVariable_Search_Devices.devices_Model_For_Filter.Count > 0)
         {
-            DeviceModel new_Device = GlobalVariable_Search_Devices.devices_Model_By_Grapper[i];
+            // Chuẩn bị object pooling dựa trên số lượng thiết bị
+            PrepareObjectPooling(GlobalVariable_Search_Devices.devices_Model_For_Filter.Count);
+            // Tạo đối tượng với tên dựa trên code và function
+            foreach (var device in GlobalVariable_Search_Devices.devices_Model_By_Grapper)
+            {
+                CreateOrReuseDeviceObject(device.code, device);
+                CreateOrReuseDeviceObject(device.function, device);
+            }
+            //Destroy(prefab_Device);
+        }
+        else
+        {
+            title_TEST.text = "Total devices: 0";
+        }
+    }
 
-            // Tạo đối tượng với tên dựa trên code
-            GameObject code_Object = Instantiate(prefab_Device, parent_Object.transform);
-            code_Object.name = $"{new_Device.code}";
-            Debug.Log("New object with code was created");
-            UpdateDeviceInformation(code_Object, new_Device);
-            code_Object.SetActive(false);
+    private void PrepareObjectPooling(int requiredCount)
+    {
+        for (int i = deviceObjectsPool.Count; i < requiredCount; i++)
+        {
+            GameObject deviceObject = Instantiate(prefab_Device, parent_Object.transform);
+            if (deviceObject != null)
+            {
+                deviceObject.SetActive(false);
+                deviceObjectsPool.Add(deviceObject);
+            }
+            title_TEST.text = $"Total devices: {deviceObjectsPool.Count}";
+        }
+    }
 
-            // Tạo đối tượng với tên dựa trên function
-            GameObject function_Object = Instantiate(prefab_Device, parent_Object.transform);
-            function_Object.name = $"{new_Device.function}";
-            Debug.Log("New object with function was created");
-            UpdateDeviceInformation(function_Object, new_Device);
-            function_Object.SetActive(false);
+    private void CreateOrReuseDeviceObject(string name, DeviceModel device)
+    {
+        GameObject deviceObject;
+        if (activeDeviceCount < deviceObjectsPool.Count)
+        {
+            deviceObject = deviceObjectsPool[activeDeviceCount];
+        }
+        else
+        {
+            deviceObject = Instantiate(prefab_Device, parent_Object.transform);
+            deviceObjectsPool.Add(deviceObject);
         }
 
-        Destroy(prefab_Device.gameObject);
-
+        deviceObject.name = name;
+        UpdateDeviceInformation(deviceObject, device);
+        deviceObject.SetActive(false);
+        activeDeviceCount++;
     }
 
     private void UpdateDeviceInformation(GameObject new_GameObject, DeviceModel device)
     {
-        // Lấy các thành phần TMP_Text từ object mới
-        TMP_Text code = new_GameObject.transform.Find("information/code_group/code").GetComponent<TMP_Text>();
-        TMP_Text function = new_GameObject.transform.Find("information/function_group/function").GetComponent<TMP_Text>();
-        TMP_Text range_measurement = new_GameObject.transform.Find("information/range_measurement_group/range_measurement").GetComponent<TMP_Text>();
-        TMP_Text I_O = new_GameObject.transform.Find("information/I_O_group/I_O").GetComponent<TMP_Text>();
-        TMP_Text jb_name = new_GameObject.transform.Find("jb_information_group/jb_name").GetComponent<TMP_Text>();
-        TMP_Text jb_location = new_GameObject.transform.Find("jb_information_group/jb_location").GetComponent<TMP_Text>();
+        // Tối ưu hóa: Chỉ cập nhật nếu có thay đổi
+        TMP_Text code = GetOrAddTextComponent(new_GameObject, "information/code_group/code", device.code);
+        TMP_Text function = GetOrAddTextComponent(new_GameObject, "information/function_group/function", device.function);
+        TMP_Text range_measurement = GetOrAddTextComponent(new_GameObject, "information/range_measurement_group/range_measurement", device.rangeMeasurement);
+        TMP_Text I_O = GetOrAddTextComponent(new_GameObject, "information/I_O_group/I_O", device.ioAddress);
 
-        // Cập nhật giá trị text từ DeviceModel
-        code.text = device.code;
-        function.text = device.function;
-        range_measurement.text = device.rangeMeasurement;
-        I_O.text = device.ioAddress;
+        var jb_infor = JB_SplitString(device.jbConnection);
+        TMP_Text jb_name = GetOrAddTextComponent(new_GameObject, "jb_information_group/jb_name", $"{jb_infor[0]}:");
+        TMP_Text jb_location = GetOrAddTextComponent(new_GameObject, "jb_information_group/jb_location", jb_infor[1]);
+    }
 
-        List<string> jb_infor = JB_SplitString(device.jbConnection);
-        jb_name.text = $"{jb_infor[0]}:";
-        jb_location.text = jb_infor[1];
+    private TMP_Text GetOrAddTextComponent(GameObject gameObject, string path, string newText)
+    {
+        Transform transform = gameObject.transform.Find(path);
+        if (transform != null)
+        {
+            TMP_Text textComponent = transform.GetComponent<TMP_Text>();
+            if (textComponent != null && textComponent.text != newText)
+            {
+                textComponent.text = newText;
+            }
+            return textComponent;
+        }
+        Debug.LogError($"Component not found at path: {path}");
+        return null;
     }
 
     private List<string> JB_SplitString(string jb_infor)
     {
-        string[] parts = jb_infor.Split('_');
-        string jb_Name = parts[0];
-        string jb_Location = parts[1];
-        return new List<string> { jb_Name, jb_Location };
+        var parts = jb_infor.Split('_');
+        if (parts.Length >= 2)
+        {
+            return new List<string> { parts[0], parts[1] };
+        }
+        else
+        {
+            Debug.LogError("Invalid JB information format.");
+            return new List<string> { "Unknown", "Unknown" };
+        }
     }
-
-
-    /* private void PreloadSprites()
-     {
-         Addressables.LoadAssetsAsync<Sprite>($"GrapperA_Module_Location_Rack{device_information[3]}", OnSpriteLoaded).Completed += OnSpritesLoadComplete;
-         Addressables.LoadAssetsAsync<Sprite>("Real_Outdoor_JB_TSD", OnSpriteLoaded).Completed += OnSpritesLoadComplete;
-         Addressables.LoadAssetsAsync<Sprite>("default", OnSpriteLoaded).Completed += OnSpritesLoadComplete;
-     }
-     private void OnSpriteLoaded(Sprite sprite)
-     {
-         spriteCache[sprite.name] = sprite;
-     }
-
-     private void OnSpritesLoadComplete(AsyncOperationHandle<IList<Sprite>> handle)
-     {
-         if (handle.Status != AsyncOperationStatus.Succeeded)
-         {
-             Debug.LogError("Failed to load sprites: " + handle.OperationException);
-         }
-     }*/
-
 }

@@ -3,27 +3,29 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
 
 public class Get_Devices_By_Grapper : MonoBehaviour
 {
-    // public string grapper;
     private string filePath;
+    public string grapper;
 
     private void Awake()
     {
-    }
-    public void Get_Devices(string grapper)
-    {
+        // Xác định đường dẫn file dựa trên platform
         filePath = Path.Combine(Application.streamingAssetsPath, $"Device_Grapper{grapper}.json");
+        // Bắt đầu coroutine để tải dữ liệu JSON
         StartCoroutine(LoadJsonData());
     }
+
     private IEnumerator LoadJsonData()
     {
         string jsonData = null;
 
-        if (filePath.Contains("://") || filePath.Contains(":///"))
+        // Kiểm tra nếu filePath là URL hay là đường dẫn địa phương
+        if (filePath.StartsWith("http") || filePath.StartsWith("https") || filePath.StartsWith("file://"))
         {
             using (UnityWebRequest www = UnityWebRequest.Get(filePath))
             {
@@ -61,6 +63,7 @@ public class Get_Devices_By_Grapper : MonoBehaviour
 
         try
         {
+            // Deserialize dữ liệu JSON
             GlobalVariable_Search_Devices.devices_Model_By_Grapper = JsonConvert.DeserializeObject<List<DeviceModel>>(jsonData);
             GlobalVariable_Search_Devices.devices_Model_For_Filter = GetDeviceForFilter();
         }
@@ -74,14 +77,14 @@ public class Get_Devices_By_Grapper : MonoBehaviour
     {
         List<DeviceModel> deviceModels = GlobalVariable_Search_Devices.devices_Model_By_Grapper;
         List<string> devicesForFilter = new List<string>();
-        for (int i = 0; i < deviceModels.Count; i++)
+
+        // Thêm các mã và chức năng của thiết bị vào danh sách lọc
+        foreach (var device in deviceModels)
         {
-            devicesForFilter.Add(deviceModels[i].code);
+            devicesForFilter.Add(device.code);
+            devicesForFilter.Add(device.function);
         }
-        for (int i = 0; i < deviceModels.Count; i++)
-        {
-            devicesForFilter.Add(deviceModels[i].function);
-        }
+
         return devicesForFilter;
     }
 }
