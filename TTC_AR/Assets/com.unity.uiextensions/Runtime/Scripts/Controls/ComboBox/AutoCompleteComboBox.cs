@@ -1,6 +1,7 @@
 ﻿///Credit perchik
 ///Sourced from - http://forum.unity3d.com/threads/receive-onclick-event-and-pass-it-on-to-lower-ui-elements.293642/
 
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
@@ -18,8 +19,8 @@ namespace UnityEngine.UI.Extensions
     public class AutoCompleteComboBox : MonoBehaviour
     {
         public Color disabledTextColor;
-        private List<string> optionsGrapperA_by_code = GlobalVariable_Search_Devices.devicesGrapperA_code;
-        private List<string> optionsGrapperA_by_function = GlobalVariable_Search_Devices.devicesGrapperA_function;
+        //    private List<string> optionsGrapperA_by_code = GlobalVariable_Search_Devices.devicesGrapperA_code;
+        //  private List<string> optionsGrapperA_by_function = GlobalVariable_Search_Devices.devicesGrapperA_function;
 
         public DropDownListItem SelectedItem { get; private set; } //outside world gets to get this, not set it
 
@@ -147,57 +148,95 @@ namespace UnityEngine.UI.Extensions
 
         public void Awake()
         {
-        }
-        public void Start()
-        {
-            if (GlobalVariable_Search_Devices.devices_Model_For_Filter != null && GlobalVariable_Search_Devices.devices_Model_For_Filter.Count > 0)
+            if (GlobalVariable_Search_Devices.devices_Model_For_Filter?.Count > 0)
             {
                 AvailableOptions = GlobalVariable_Search_Devices.devices_Model_For_Filter;
             }
 
-            Initialize();
+        }
 
+
+        public void Start()
+        {
+            Debug.Log("awake_Cobobox");
+            Initialize();
+            // Kiểm tra và chọn phần tử đầu tiên nếu cần thiết
             if (SelectFirstItemOnStart && AvailableOptions.Count > 0)
             {
                 ToggleDropdownPanel(false);
                 OnItemClicked(AvailableOptions[0]);
             }
+
+            // Vẽ lại giao diện
             RedrawPanel();
         }
 
         private bool Initialize()
         {
-
             bool success = true;
+
             try
             {
-                _rectTransform = GetComponent<RectTransform>();
-                _inputRT = _rectTransform.Find("InputField").GetComponent<RectTransform>();
-                _mainInput = _inputRT.GetComponent<TMP_InputField>();
+                _rectTransform = GetComponent<RectTransform>(); // lấy transform của combobox
 
-                //_arrow_Button = _rectTransform.FindChild ("ArrowBtn").GetComponent<Button> ();
+                // Tìm kiếm các thành phần UI con
+                Transform inputTransform = _rectTransform.Find("InputField");
+                if (inputTransform != null)
+                {
+                    _inputRT = inputTransform.GetComponent<RectTransform>();
+                    _mainInput = _inputRT.GetComponent<TMP_InputField>();
+                }
 
-                _overlayRT = _rectTransform.Find("Overlay").GetComponent<RectTransform>();
-                _overlayRT.gameObject.SetActive(false);
+                // Tìm kiếm các thành phần UI khác
+                Transform overlayTransform = _rectTransform.Find("Overlay");
+                if (overlayTransform != null)
+                {
+                    _overlayRT = overlayTransform.GetComponent<RectTransform>();
+                    _overlayRT.gameObject.SetActive(false);
 
+                    Transform scrollPanelTransform = _overlayRT.Find("ScrollPanel");
+                    if (scrollPanelTransform != null)
+                    {
+                        _scrollPanelRT = scrollPanelTransform.GetComponent<RectTransform>();
 
-                _scrollPanelRT = _overlayRT.Find("ScrollPanel").GetComponent<RectTransform>();
-                _scrollBarRT = _scrollPanelRT.Find("Scrollbar").GetComponent<RectTransform>();
-                _slidingAreaRT = _scrollBarRT.Find("SlidingArea").GetComponent<RectTransform>();
-                _scrollHandleRT = _slidingAreaRT.Find("Handle").GetComponent<RectTransform>();
-                _itemsPanelRT = _scrollPanelRT.Find("Items").GetComponent<RectTransform>();
-                //itemPanelLayout = itemsPanelRT.gameObject.GetComponent<LayoutGroup>();
+                        Transform scrollbarTransform = _scrollPanelRT.Find("Scrollbar");
+                        if (scrollbarTransform != null)
+                        {
+                            _scrollBarRT = scrollbarTransform.GetComponent<RectTransform>();
 
-                _canvas = GetComponentInParent<Canvas>();
-                _canvasRT = _canvas.GetComponent<RectTransform>();
+                            Transform slidingAreaTransform = _scrollBarRT.Find("SlidingArea");
+                            if (slidingAreaTransform != null)
+                            {
+                                _slidingAreaRT = slidingAreaTransform.GetComponent<RectTransform>();
+                                _scrollHandleRT = _slidingAreaRT.Find("Handle")?.GetComponent<RectTransform>();
+                            }
+                        }
 
-                _scrollRect = _scrollPanelRT.GetComponent<ScrollRect>();
-                _scrollRect.scrollSensitivity = _rectTransform.sizeDelta.y / 2;
-                _scrollRect.movementType = ScrollRect.MovementType.Clamped;
-                _scrollRect.content = _itemsPanelRT;
+                        _itemsPanelRT = _scrollPanelRT.Find("Items")?.GetComponent<RectTransform>();
+                    }
+                }
 
-                itemTemplate = _rectTransform.Find("ItemTemplate").gameObject;
-                itemTemplate.SetActive(false);
+                _canvas = GetComponentInParent<Canvas>(); // lấy canvas chứa combobox (từ parent)
+                _canvasRT = _canvas?.GetComponent<RectTransform>();
+
+                // Cấu hình ScrollRect nếu tìm thấy
+                if (_scrollPanelRT != null)
+                {
+                    _scrollRect = _scrollPanelRT.GetComponent<ScrollRect>();
+                    if (_scrollRect != null)
+                    {
+                        _scrollRect.scrollSensitivity = _rectTransform.sizeDelta.y / 2;
+                        _scrollRect.movementType = ScrollRect.MovementType.Clamped;
+                        _scrollRect.content = _itemsPanelRT;
+                    }
+                }
+
+                // Tìm template item
+                itemTemplate = _rectTransform.Find("ItemTemplate")?.gameObject;
+                if (itemTemplate != null)
+                {
+                    itemTemplate.SetActive(false);
+                }
             }
             catch (System.NullReferenceException ex)
             {
@@ -205,14 +244,17 @@ namespace UnityEngine.UI.Extensions
                 Debug.LogError("Something is setup incorrectly with the dropdownlist component causing a Null Reference Exception");
                 success = false;
             }
-            panelObjects = new Dictionary<string, GameObject>();
 
+            // Khởi tạo các danh sách trống ngay từ ban đầu
+            panelObjects = new Dictionary<string, GameObject>();
             _prunedPanelItems = new List<string>();
             _panelItems = new List<string>();
-
+            // Xây dựng lại giao diện panel
             RebuildPanel();
+
             return success;
         }
+
 
 
         /// <summary>
@@ -296,54 +338,63 @@ namespace UnityEngine.UI.Extensions
         {
             if (_isPanelActive) ToggleDropdownPanel();
 
-            //panel starts with all options
+            //! Xóa và làm sạch các danh sách
             _panelItems.Clear();
             _prunedPanelItems.Clear();
             panelObjects.Clear();
-
-            //clear Autocomplete children in scene
+            // Xóa tất cả các đối tượng con trong _itemsPanelRT
             foreach (Transform child in _itemsPanelRT.transform)
             {
                 Destroy(child.gameObject);
             }
 
-            foreach (string option in AvailableOptions)
-            {
-                _panelItems.Add(option);
-            }
+            // Thêm tất cả các tùy chọn vào _panelItems
+            _panelItems.AddRange(AvailableOptions);   //! _panelItems = AvailableOptions => chắc chắn có
 
+            // Tạo danh sách đối tượng để sử dụng lại
             List<GameObject> itemObjs = new List<GameObject>(panelObjects.Values);
 
-            int indx = 0;
-            while (itemObjs.Count < AvailableOptions.Count)
+            int currentCount = itemObjs.Count;
+            int requiredCount = AvailableOptions.Count;
+
+            // Khởi tạo các đối tượng mới nếu cần
+            for (int i = currentCount; i < requiredCount; i++)
             {
-                GameObject newItem = Instantiate(itemTemplate) as GameObject;
-                newItem.name = "Item " + indx;
-                newItem.transform.SetParent(_itemsPanelRT, false);
+                GameObject newItem = Instantiate(itemTemplate, _itemsPanelRT);
+                newItem.name = $"Item {i}";
                 itemObjs.Add(newItem);
-                indx++;
             }
 
+            // Cập nhật các đối tượng và thiết lập sự kiện cho mỗi nút
             for (int i = 0; i < itemObjs.Count; i++)
             {
-                itemObjs[i].SetActive(i <= AvailableOptions.Count);
-                if (i < AvailableOptions.Count)
-                {
-                    itemObjs[i].name = "Item " + i + " " + _panelItems[i];
-                    itemObjs[i].transform.Find("Text").GetComponent<TMP_Text>().text = AvailableOptions[i]; //set the text value
+                GameObject itemObj = itemObjs[i];
+                bool isActive = i < requiredCount;
 
-                    Button itemBtn = itemObjs[i].GetComponent<Button>();
+                // Chỉ gọi SetActive nếu cần thiết
+                if (itemObj.activeSelf != isActive)
+                {
+                    itemObj.SetActive(isActive);
+                }
+
+                if (isActive)
+                {
+                    string option = _panelItems[i];
+                    TMP_Text itemText = itemObj.transform.Find("Text").GetComponent<TMP_Text>();
+                    itemText.text = option;
+
+                    Button itemBtn = itemObj.GetComponent<Button>();
                     itemBtn.onClick.RemoveAllListeners();
-                    string textOfItem = _panelItems[i]; //has to be copied for anonymous function or it gets garbage collected away
-                    itemBtn.onClick.AddListener(() =>
-                    {
-                        OnItemClicked(textOfItem);
-                    });
-                    panelObjects[_panelItems[i]] = itemObjs[i];
+                    itemBtn.onClick.AddListener(() => OnItemClicked(option));
+
+                    itemObj.name = $"Item {i} {option}";
+                    panelObjects[option] = itemObj;
                 }
             }
+
             SetInputTextColor();
         }
+
 
         /// <summary>
         /// what happens when an item in the list is selected
@@ -406,6 +457,7 @@ namespace UnityEngine.UI.Extensions
 
                 //make the overlay fill the screen
                 _overlayRT.SetParent(_canvas.transform, false); //attach it to top level object
+                //? SetSizeWithCurrentAnchors: Set the size of the RectTransform relative to the anchors following canvas.
                 _overlayRT.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, _canvasRT.sizeDelta.x);
                 _overlayRT.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, _canvasRT.sizeDelta.y);
 

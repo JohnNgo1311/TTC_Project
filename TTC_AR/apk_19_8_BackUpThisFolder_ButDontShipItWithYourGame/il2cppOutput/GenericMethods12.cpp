@@ -213,8 +213,6 @@ struct Dictionary_2_t17BB14695909F39BA5B9F9F51F527D09419C12FC;
 struct Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55;
 // System.Collections.Generic.Dictionary`2<System.Object,System.Object>
 struct Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA;
-// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject>
-struct Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE;
 // System.Collections.Generic.Dictionary`2<System.String,UnityEngine.UIElements.StyleSheets.StylePropertyValue>
 struct Dictionary_2_t645C7B1DAE2D839B52A5E387C165CE13D5465B00;
 // System.Collections.Generic.Dictionary`2<System.String,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
@@ -949,8 +947,6 @@ struct AsyncProtocolRequest_tF31CF30F8C57A3D5DC10A9FB0A5568FA254DFE86;
 struct AtlasBase_t196C45243F41C19DC6258965057BBAA150D278BC;
 // System.Attribute
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA;
-// UnityEngine.UI.Extensions.AutoCompleteComboBox
-struct AutoCompleteComboBox_t1F23D72B62485C2A134E7C85B2E36A05E770083F;
 // UnityEngine.EventSystems.BaseRaycaster
 struct BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832;
 // UnityEngine.UIElements.BaseRuntimePanel
@@ -975,8 +971,6 @@ struct CallSiteBinder_tAFC922BA1DD2D1AEF6BC2742E0E375F936D5059F;
 struct CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4;
 // System.Threading.CancellationTokenSource
 struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
-// UnityEngine.Canvas
-struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
 // UnityEngine.Networking.CertificateHandler
 struct CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804;
 // UnityEngine.UIElements.ClickDetector
@@ -1025,8 +1019,6 @@ struct DefaultExpression_t68E278AD7534F283D174570B240C596979B26533;
 struct Delegate_t;
 // System.DelegateData
 struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
-// UnityEngine.UI.Extensions.DropDownListItem
-struct DropDownListItem_t8B8C449A2E1DAE4796D253408595ACE249B036DE;
 // UnityEngine.UIElements.ElementUnderPointer
 struct ElementUnderPointer_tB43AD64F79C6F06829D8B90318AF1A6BBE9C1904;
 // UnityEngine.Event
@@ -1187,8 +1179,6 @@ struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
 struct SavePersistentViewData_tFE77B8450170D95B16B3017D62F81F2139D4F716;
 // UnityEngine.ScriptableObject
 struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
-// UnityEngine.UI.ScrollRect
-struct ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E;
 // UnityEngine.UIElements.ScrollView
 struct ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9;
 // UnityEngine.UI.Selectable
@@ -1219,8 +1209,6 @@ struct StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428;
 struct StyleVariableContext_tF74F2787CE1F6BEBBFBFF0771CF493AC9E403527;
 // System.Threading.SynchronizationContext
 struct SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0;
-// TMPro.TMP_InputField
-struct TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F;
 // System.Threading.Tasks.Task
 struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572;
 // System.Threading.Tasks.TaskFactory
@@ -1281,12 +1269,6 @@ struct YogaConfig_tE8B56F99460C291C1F7F46DBD8BAC9F0B653A345;
 struct YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA;
 // System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner
 struct MoveNextRunner_t57DA5A6E2423AE86889DAA6D20097BBE3C75101E;
-// UnityEngine.UI.Extensions.AutoCompleteComboBox/SelectionChangedEvent
-struct SelectionChangedEvent_tF29A42A54C48C8B27509E44E59FE4DAD3C44D8F1;
-// UnityEngine.UI.Extensions.AutoCompleteComboBox/SelectionTextChangedEvent
-struct SelectionTextChangedEvent_tB261AFED103412EE32D3C86ACF96318279330439;
-// UnityEngine.UI.Extensions.AutoCompleteComboBox/SelectionValidityChangedEvent
-struct SelectionValidityChangedEvent_t23ED6C2DA1A242C8D2EE0C58E3DB4A1ABA386453;
 // UnityEngine.UI.Extensions.BoxSlider/BoxSliderEvent
 struct BoxSliderEvent_t4A1D0A044DBE91C02DA6991FCB7BAD3FE09B55AF;
 // System.Reflection.CustomAttributeData/LazyCAttrData
@@ -1299,8 +1281,6 @@ struct Panel_t3A0D2006E8AEA607A6DF5188138E463A26085295;
 struct Widget_tE8D6AF1D7525CC84E8F2C3B73162016736A6A2FF;
 // UnityEngine.UIElements.DefaultEventSystem/IInput
 struct IInput_t5B034697E44657CF7B5B7F4CA12E3653B3BBAFC3;
-// UnityEngine.RectTransform/ReapplyDrivenProperties
-struct ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24;
 // System.Threading.Tasks.Task/ContingentProperties
 struct ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540;
 // UnityEngine.UIElements.VisualElement/CustomStyleAccess
@@ -10003,11 +9983,6 @@ struct Touch_t07A55E11962F143607E917F0B6FEFB36EE2DDA70_marshaled_com
 	Record_t4205712C85C6F00A9F1DC4D23E20F595FCB4F6A4 ___m_TouchRecord_1;
 };
 
-// UnityEngine.Transform
-struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
-{
-};
-
 // Vuforia.AreaTargetCaptureBehaviour/<CancelGenerationAsync>d__62
 struct U3CCancelGenerationAsyncU3Ed__62_tD6DD941C0E724ED2E7C2964E468D311EF971E623 
 {
@@ -10577,102 +10552,6 @@ struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behavio
 // UnityEngine.UIElements.PointerUpEvent
 struct PointerUpEvent_tCE779E8B94675B6A2758B82F6A84771CB26913D9  : public PointerEventBase_1_t2DFB78320E5810F8163F6CF5D3C5537CF40B2496
 {
-};
-
-// UnityEngine.RectTransform
-struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5  : public Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1
-{
-};
-
-struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_StaticFields
-{
-	// UnityEngine.RectTransform/ReapplyDrivenProperties UnityEngine.RectTransform::reapplyDrivenProperties
-	ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24* ___reapplyDrivenProperties_4;
-};
-
-// UnityEngine.UI.Extensions.AutoCompleteComboBox
-struct AutoCompleteComboBox_t1F23D72B62485C2A134E7C85B2E36A05E770083F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// UnityEngine.Color UnityEngine.UI.Extensions.AutoCompleteComboBox::disabledTextColor
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___disabledTextColor_4;
-	// System.Collections.Generic.List`1<System.String> UnityEngine.UI.Extensions.AutoCompleteComboBox::optionsGrapperA_by_code
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___optionsGrapperA_by_code_5;
-	// System.Collections.Generic.List`1<System.String> UnityEngine.UI.Extensions.AutoCompleteComboBox::optionsGrapperA_by_function
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___optionsGrapperA_by_function_6;
-	// UnityEngine.UI.Extensions.DropDownListItem UnityEngine.UI.Extensions.AutoCompleteComboBox::<SelectedItem>k__BackingField
-	DropDownListItem_t8B8C449A2E1DAE4796D253408595ACE249B036DE* ___U3CSelectedItemU3Ek__BackingField_7;
-	// System.Collections.Generic.List`1<System.String> UnityEngine.UI.Extensions.AutoCompleteComboBox::AvailableOptions
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___AvailableOptions_8;
-	// System.Boolean UnityEngine.UI.Extensions.AutoCompleteComboBox::_isPanelActive
-	bool ____isPanelActive_9;
-	// System.Boolean UnityEngine.UI.Extensions.AutoCompleteComboBox::_hasDrawnOnce
-	bool ____hasDrawnOnce_10;
-	// TMPro.TMP_InputField UnityEngine.UI.Extensions.AutoCompleteComboBox::_mainInput
-	TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* ____mainInput_11;
-	// UnityEngine.RectTransform UnityEngine.UI.Extensions.AutoCompleteComboBox::_inputRT
-	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ____inputRT_12;
-	// UnityEngine.GameObject UnityEngine.UI.Extensions.AutoCompleteComboBox::_arrow_Button_Down
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____arrow_Button_Down_13;
-	// UnityEngine.GameObject UnityEngine.UI.Extensions.AutoCompleteComboBox::_arrow_Button_Up
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____arrow_Button_Up_14;
-	// UnityEngine.RectTransform UnityEngine.UI.Extensions.AutoCompleteComboBox::_rectTransform
-	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ____rectTransform_15;
-	// UnityEngine.RectTransform UnityEngine.UI.Extensions.AutoCompleteComboBox::_overlayRT
-	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ____overlayRT_16;
-	// UnityEngine.RectTransform UnityEngine.UI.Extensions.AutoCompleteComboBox::_scrollPanelRT
-	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ____scrollPanelRT_17;
-	// UnityEngine.RectTransform UnityEngine.UI.Extensions.AutoCompleteComboBox::_scrollBarRT
-	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ____scrollBarRT_18;
-	// UnityEngine.RectTransform UnityEngine.UI.Extensions.AutoCompleteComboBox::_slidingAreaRT
-	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ____slidingAreaRT_19;
-	// UnityEngine.RectTransform UnityEngine.UI.Extensions.AutoCompleteComboBox::_scrollHandleRT
-	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ____scrollHandleRT_20;
-	// UnityEngine.RectTransform UnityEngine.UI.Extensions.AutoCompleteComboBox::_itemsPanelRT
-	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ____itemsPanelRT_21;
-	// UnityEngine.Canvas UnityEngine.UI.Extensions.AutoCompleteComboBox::_canvas
-	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ____canvas_22;
-	// UnityEngine.RectTransform UnityEngine.UI.Extensions.AutoCompleteComboBox::_canvasRT
-	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ____canvasRT_23;
-	// UnityEngine.UI.ScrollRect UnityEngine.UI.Extensions.AutoCompleteComboBox::_scrollRect
-	ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* ____scrollRect_24;
-	// System.Collections.Generic.List`1<System.String> UnityEngine.UI.Extensions.AutoCompleteComboBox::_panelItems
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____panelItems_25;
-	// System.Collections.Generic.List`1<System.String> UnityEngine.UI.Extensions.AutoCompleteComboBox::_prunedPanelItems
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____prunedPanelItems_26;
-	// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject> UnityEngine.UI.Extensions.AutoCompleteComboBox::panelObjects
-	Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* ___panelObjects_27;
-	// UnityEngine.GameObject UnityEngine.UI.Extensions.AutoCompleteComboBox::itemTemplate
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___itemTemplate_28;
-	// System.String UnityEngine.UI.Extensions.AutoCompleteComboBox::<Text>k__BackingField
-	String_t* ___U3CTextU3Ek__BackingField_29;
-	// System.Single UnityEngine.UI.Extensions.AutoCompleteComboBox::_scrollBarWidth
-	float ____scrollBarWidth_30;
-	// System.Int32 UnityEngine.UI.Extensions.AutoCompleteComboBox::_itemsToDisplay
-	int32_t ____itemsToDisplay_31;
-	// System.Boolean UnityEngine.UI.Extensions.AutoCompleteComboBox::SelectFirstItemOnStart
-	bool ___SelectFirstItemOnStart_32;
-	// System.Boolean UnityEngine.UI.Extensions.AutoCompleteComboBox::_ChangeInputTextColorBasedOnMatchingItems
-	bool ____ChangeInputTextColorBasedOnMatchingItems_33;
-	// System.Single UnityEngine.UI.Extensions.AutoCompleteComboBox::DropdownOffset
-	float ___DropdownOffset_34;
-	// UnityEngine.Color UnityEngine.UI.Extensions.AutoCompleteComboBox::ValidSelectionTextColor
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___ValidSelectionTextColor_35;
-	// UnityEngine.Color UnityEngine.UI.Extensions.AutoCompleteComboBox::MatchingItemsRemainingTextColor
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___MatchingItemsRemainingTextColor_36;
-	// UnityEngine.Color UnityEngine.UI.Extensions.AutoCompleteComboBox::NoItemsRemainingTextColor
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___NoItemsRemainingTextColor_37;
-	// UnityEngine.UI.Extensions.AutoCompleteSearchType UnityEngine.UI.Extensions.AutoCompleteComboBox::autocompleteSearchType
-	int32_t ___autocompleteSearchType_38;
-	// System.Boolean UnityEngine.UI.Extensions.AutoCompleteComboBox::_displayPanelAbove
-	bool ____displayPanelAbove_39;
-	// System.Boolean UnityEngine.UI.Extensions.AutoCompleteComboBox::_selectionIsValid
-	bool ____selectionIsValid_40;
-	// UnityEngine.UI.Extensions.AutoCompleteComboBox/SelectionTextChangedEvent UnityEngine.UI.Extensions.AutoCompleteComboBox::OnSelectionTextChanged
-	SelectionTextChangedEvent_tB261AFED103412EE32D3C86ACF96318279330439* ___OnSelectionTextChanged_41;
-	// UnityEngine.UI.Extensions.AutoCompleteComboBox/SelectionValidityChangedEvent UnityEngine.UI.Extensions.AutoCompleteComboBox::OnSelectionValidityChanged
-	SelectionValidityChangedEvent_t23ED6C2DA1A242C8D2EE0C58E3DB4A1ABA386453* ___OnSelectionValidityChanged_42;
-	// UnityEngine.UI.Extensions.AutoCompleteComboBox/SelectionChangedEvent UnityEngine.UI.Extensions.AutoCompleteComboBox::OnSelectionChanged
-	SelectionChangedEvent_tF29A42A54C48C8B27509E44E59FE4DAD3C44D8F1* ___OnSelectionChanged_43;
 };
 
 // UnityEngine.Rendering.UI.DebugUIHandlerWidget
@@ -38775,27 +38654,6 @@ IL_003c:
 	{
 		RuntimeObject* L_12 = V_3;
 		return L_12;
-	}
-}
-// T UnityEngine.UI.Extensions.AutoCompleteComboBox::GetComponent<System.Object>(UnityEngine.RectTransform)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AutoCompleteComboBox_GetComponent_TisRuntimeObject_mF8BF906A05A4F698644A0A7C02CF841878B497F3_gshared (AutoCompleteComboBox_t1F23D72B62485C2A134E7C85B2E36A05E770083F* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___transform0, const RuntimeMethod* method) 
-{
-	RuntimeObject* V_0 = NULL;
-	{
-		// return transform.GetComponent<T>();
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___transform0;
-		NullCheck((Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*)L_0);
-		RuntimeObject* L_1;
-		L_1 = ((  RuntimeObject* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))((Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*)L_0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		V_0 = L_1;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// }
-		RuntimeObject* L_2 = V_0;
-		return L_2;
 	}
 }
 // System.Void UnityEngine.Events.BaseInvokableCall::ThrowOnInvalidArg<System.Boolean>(System.Object)

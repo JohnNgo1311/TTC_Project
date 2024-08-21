@@ -1,69 +1,60 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using Newtonsoft.Json;
-using TMPro;
 using UnityEngine;
+using Newtonsoft.Json;
 using UnityEngine.Networking;
+using System.Collections;
 
 public class Get_Devices_By_Grapper : MonoBehaviour
 {
-    private string filePath;
     public string grapper;
+    private string jsonData;
 
     private void Awake()
     {
-        // Xác định đường dẫn file dựa trên platform
-        filePath = Path.Combine(Application.streamingAssetsPath, $"Device_Grapper{grapper}.json");
-        // Bắt đầu coroutine để tải dữ liệu JSON
-        StartCoroutine(LoadJsonData());
-    }
-
-    private IEnumerator LoadJsonData()
-    {
-        string jsonData = null;
-
-        // Kiểm tra nếu filePath là URL hay là đường dẫn địa phương
-        if (filePath.StartsWith("http") || filePath.StartsWith("https") || filePath.StartsWith("file://"))
+        if (Application.platform == RuntimePlatform.Android)
         {
-            using (UnityWebRequest www = UnityWebRequest.Get(filePath))
+            string filePath = Path.Combine(Application.streamingAssetsPath, $"Device_Grapper{grapper}.json");
+            if (filePath != null)
             {
-                yield return www.SendWebRequest();
-
-                if (www.result == UnityWebRequest.Result.Success)
-                {
-                    jsonData = www.downloadHandler.text;
-                }
-                else
-                {
-                    Debug.LogError($"Failed to load JSON data from {filePath}: {www.error}");
-                    yield break;
-                }
+                filePath = Path.Combine("jar:file://" + Application.dataPath + "!/assets", $"Device_Grapper{grapper}.json");
             }
+            // Đọc file từ StreamingAssets trên Android
+            StartCoroutine(LoadJsonFromAndroid(filePath));
         }
         else
         {
-            if (File.Exists(filePath))
+            string filePath = Path.Combine(Application.streamingAssetsPath, $"Device_Grapper{grapper}.json");
+
+            jsonData = File.ReadAllText(filePath);
+            ProcessJsonData(jsonData);
+            Debug.Log("Read file from StreamingAssets on non-Android platform");
+        }
+    }
+
+    private IEnumerator LoadJsonFromAndroid(string filePath)
+    {
+        using (UnityWebRequest www = UnityWebRequest.Get(filePath))
+        {
+            yield return www.SendWebRequest();
+
+            if (www.result != UnityWebRequest.Result.Success)
             {
-                jsonData = File.ReadAllText(filePath);
+                Debug.LogError($"Failed to load JSON file on Android: {www.error}");
             }
             else
             {
-                Debug.LogError($"File not found: {filePath}");
-                yield break;
+                jsonData = www.downloadHandler.text;
+                ProcessJsonData(jsonData);
             }
         }
+    }
 
-        if (string.IsNullOrEmpty(jsonData))
-        {
-            Debug.LogError($"Loaded JSON data is null or empty: {filePath}");
-            yield break;
-        }
-
+    private void ProcessJsonData(string jsonData)
+    {
         try
         {
-            // Deserialize dữ liệu JSON
             GlobalVariable_Search_Devices.devices_Model_By_Grapper = JsonConvert.DeserializeObject<List<DeviceModel>>(jsonData);
             GlobalVariable_Search_Devices.devices_Model_For_Filter = GetDeviceForFilter();
         }
@@ -78,7 +69,6 @@ public class Get_Devices_By_Grapper : MonoBehaviour
         List<DeviceModel> deviceModels = GlobalVariable_Search_Devices.devices_Model_By_Grapper;
         List<string> devicesForFilter = new List<string>();
 
-        // Thêm các mã và chức năng của thiết bị vào danh sách lọc
         foreach (var device in deviceModels)
         {
             devicesForFilter.Add(device.code);

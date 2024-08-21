@@ -14,8 +14,10 @@
 	"Range Measurement": "0 - 120 °C",
 	"I/O Address": "A4.5.I.02",
 	"JB Connection": "JB1_Hầm cáp MCC búa"
-    },
-    {  
+    }
+  
+,
+	  {  
     "Location": "GrapperA",
     "Code":"01TT008", 
     "Function": "Nhiệt độ dầu bả dê Motor búa đập phía khớp nối",

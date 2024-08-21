@@ -1,43 +1,44 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI.Extensions;
-using UnityEngine.iOS;
 
 public class DropdownSearch : MonoBehaviour
 {
     [SerializeField]
     private TMP_InputField inputField;
-    public GameObject parentGameObject; // GameObject cha chứa các GameObject mục tiêu
+    [SerializeField]
+    private GameObject parentGameObject; // GameObject cha chứa các GameObject mục tiêu
+
     void Awake()
     {
-    }
-    void Start()
-    {
-        Debug.Log(GlobalVariable_Search_Devices.devices_Model_By_Grapper.Count);
+        // Kiểm tra nếu `inputField` hoặc `parentGameObject` không được gán
+        if (inputField == null || parentGameObject == null)
+        {
+            Debug.LogError("InputField hoặc ParentGameObject không được gán!");
+        }
     }
 
     public void OnInputValueChanged(string input)
     {
-        if (inputField != null)
-        {
-            // Vô hiệu hóa tất cả các GameObject con của GameObject cha
-            foreach (Transform child in parentGameObject.transform)
-            {
-                child.gameObject.SetActive(false);
-            }
+        if (string.IsNullOrEmpty(input)) return;
 
-            // Kiểm tra văn bản của InputField và kích hoạt GameObject tương ứng
-            foreach (Transform child in parentGameObject.transform)
+        bool foundMatch = false;
+
+        foreach (Transform child in parentGameObject.transform)
+        {
+            bool isMatch = string.Equals(child.gameObject.name, input, System.StringComparison.OrdinalIgnoreCase);
+            child.gameObject.SetActive(isMatch);
+            if (isMatch)
             {
-                if (child.gameObject.name.ToLower() == input.ToLower())
-                {
-                    child.gameObject.SetActive(true);
-                    break; // Dừng lại sau khi kích hoạt phần tử khớp
-                }
+                foundMatch = true;
+                break; // Dừng lại sau khi kích hoạt phần tử khớp
             }
         }
 
+        // Nếu không tìm thấy khớp, có thể thực hiện xử lý bổ sung ở đây
+        if (!foundMatch)
+        {
+            Debug.Log("Không tìm thấy mục nào khớp với đầu vào: " + input);
+        }
     }
 }

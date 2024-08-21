@@ -13,22 +13,29 @@ public class Gain_List_Devices_For_Search : MonoBehaviour
 
     private void Awake()
     {
+        Debug.Log("Awake_Gain_List_Devices_For_Search");
         if (GlobalVariable_Search_Devices.devices_Model_For_Filter != null && GlobalVariable_Search_Devices.devices_Model_For_Filter.Count > 0)
         {
             // Chuẩn bị object pooling dựa trên số lượng thiết bị
-            PrepareObjectPooling(GlobalVariable_Search_Devices.devices_Model_For_Filter.Count);
-            // Tạo đối tượng với tên dựa trên code và function
-            foreach (var device in GlobalVariable_Search_Devices.devices_Model_By_Grapper)
-            {
-                CreateOrReuseDeviceObject(device.code, device);
-                CreateOrReuseDeviceObject(device.function, device);
-            }
-            //Destroy(prefab_Device);
+            /*  PrepareObjectPooling(GlobalVariable_Search_Devices.devices_Model_For_Filter.Count);
+              // Tạo đối tượng với tên dựa trên code và function
+              foreach (var device in GlobalVariable_Search_Devices.devices_Model_By_Grapper)
+              {
+                  CreateOrReuseDeviceObject(device.code, device);
+                  CreateOrReuseDeviceObject(device.function, device);
+              }
+              if (parent_Object.transform.childCount >= GlobalVariable_Search_Devices.devices_Model_For_Filter.Count)
+              {
+                  Destroy(prefab_Device);
+              }*/
+            title_TEST.text = $"Total devices: {GlobalVariable_Search_Devices.devices_Model_For_Filter.Count}";
+
         }
         else
         {
             title_TEST.text = "Total devices: 0";
         }
+
     }
 
     private void PrepareObjectPooling(int requiredCount)
@@ -42,7 +49,9 @@ public class Gain_List_Devices_For_Search : MonoBehaviour
                 deviceObjectsPool.Add(deviceObject);
             }
             title_TEST.text = $"Total devices: {deviceObjectsPool.Count}";
+
         }
+
     }
 
     private void CreateOrReuseDeviceObject(string name, DeviceModel device)

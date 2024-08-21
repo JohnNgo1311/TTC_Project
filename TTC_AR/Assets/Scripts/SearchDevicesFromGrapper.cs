@@ -6,7 +6,6 @@ using UnityEngine.UI;
 using System;
 using JetBrains.Annotations;
 using Mono.Cecil.Cil;
-using UnityEngine.iOS;
 
 public class SearchDevicesFromGrapper : MonoBehaviour
 {
@@ -60,62 +59,62 @@ public class SearchDevicesFromGrapper : MonoBehaviour
                 list_Grapper_Devices.Add(device);
             }
         }
-       // contentPanel.SetActive(false);
+        // contentPanel.SetActive(false);
     }
 
 
 
-  /*  public void OnValueChange(int value)
-    {
+    /*  public void OnValueChange(int value)
+      {
 
-        if (value > 0 && value <= list_All_Devices.Count)
-        {
-            string selectedOption = dropdown.options[value].text;
-            deviceInfor = GetDeviceByCode(selectedOption);
-            if (deviceInfor != null)
-            {
-                Updatedevice_Code_Of_Grapper(deviceInfor);
-            }
-            else
-            {
-                Debug.LogWarning($"No device found with code: {selectedOption}");
-            }
-            if (contentPanel.activeSelf == false)
-            {
-                contentPanel.SetActive(true);
-            }
-            //dropdown.RefreshShownValue();
+          if (value > 0 && value <= list_All_Devices.Count)
+          {
+              string selectedOption = dropdown.options[value].text;
+              deviceInfor = GetDeviceByCode(selectedOption);
+              if (deviceInfor != null)
+              {
+                  Updatedevice_Code_Of_Grapper(deviceInfor);
+              }
+              else
+              {
+                  Debug.LogWarning($"No device found with code: {selectedOption}");
+              }
+              if (contentPanel.activeSelf == false)
+              {
+                  contentPanel.SetActive(true);
+              }
+              //dropdown.RefreshShownValue();
 
-        }
-        else if (value == 0)
-        {
-            contentPanel.SetActive(false);
-            //   dropdown.RefreshShownValue();
+          }
+          else if (value == 0)
+          {
+              contentPanel.SetActive(false);
+              //   dropdown.RefreshShownValue();
 
-        }
+          }
 
-    }
-    private DeviceModel GetDeviceByCode(string codeDevice)
-    {
-        DeviceModel listDevice = list_All_Devices.Find(device => device.code == codeDevice);
-        // Debug.Log(listDevice.code);
-        return listDevice;
-    }
-    private void Updatedevice_Code_Of_Grapper(DeviceModel device)
-    {
-        device_Code_Of_Grapper[0] = device.code;
-        device_Code_Of_Grapper[1] = device.function;
-        device_Code_Of_Grapper[2] = device.rangeMeasurement;
-        device_Code_Of_Grapper[3] = device.ioAddress;
-        string jbName = device.jbConnection.Split('_')[0];
-        string jBLocation = device.jbConnection.Split('_')[1];
-        device_Code_Of_Grapper[4] = jbName;
-        device_Code_Of_Grapper[5] = jBLocation;
-    }*/
-   /* private void OnDestroy()
-    {
-        dropdown.onValueChanged.RemoveListener(OnValueChange);
-    }*/
+      }
+      private DeviceModel GetDeviceByCode(string codeDevice)
+      {
+          DeviceModel listDevice = list_All_Devices.Find(device => device.code == codeDevice);
+          // Debug.Log(listDevice.code);
+          return listDevice;
+      }
+      private void Updatedevice_Code_Of_Grapper(DeviceModel device)
+      {
+          device_Code_Of_Grapper[0] = device.code;
+          device_Code_Of_Grapper[1] = device.function;
+          device_Code_Of_Grapper[2] = device.rangeMeasurement;
+          device_Code_Of_Grapper[3] = device.ioAddress;
+          string jbName = device.jbConnection.Split('_')[0];
+          string jBLocation = device.jbConnection.Split('_')[1];
+          device_Code_Of_Grapper[4] = jbName;
+          device_Code_Of_Grapper[5] = jBLocation;
+      }*/
+    /* private void OnDestroy()
+     {
+         dropdown.onValueChanged.RemoveListener(OnValueChange);
+     }*/
 
 
 }
