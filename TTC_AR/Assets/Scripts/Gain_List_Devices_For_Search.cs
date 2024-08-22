@@ -28,7 +28,7 @@ public class Gain_List_Devices_For_Search : MonoBehaviour
               {
                   Destroy(prefab_Device);
               }*/
-            title_TEST.text = $"Total devices: {GlobalVariable_Search_Devices.devices_Model_For_Filter.Count}";
+            //title_TEST.text = $"Total devices: {GlobalVariable_Search_Devices.devices_Model_For_Filter.Count}";
 
         }
         else

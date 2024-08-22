@@ -36242,6 +36242,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	VuMeshObservationBlock_tE6EB4D4BD9AA468CDB198D07F697FFD717E04963 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -36268,6 +36270,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -36322,6 +36325,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	VuModelTargetStateInfo_t9B26867D304B04B7A64BDD5F340CA2BFA372F117 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -36348,6 +36353,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -36402,6 +36408,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	VuVector2F_t79CCE33CCEFEED608BEE3AAA2C00C8AB4FF9E1B8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -36428,6 +36436,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -36481,6 +36490,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	WebCamDevice_t3D72A89B7F52FD27192023A67254D19E89D9738C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -36507,6 +36518,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -36561,6 +36573,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	WordInfo_tA466206097891A5A2590896EE164AFC406EB060D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -36587,6 +36601,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -36641,6 +36656,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -36667,6 +36684,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -36721,6 +36739,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	X509ChainStatus_t5A57DDA24AA1FCA9F2B8D70B767CDDF388E4A80D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -36747,6 +36767,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -36801,6 +36822,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	XPathNode_t4A9DCD8092B3B7DBA0A6DA09C03DB5274D43C3CA V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -36827,6 +36850,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -36881,6 +36905,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	XPathNodeRef_tF695A4CACB9D70FDCBCC9EE7F3AE77D1CAF06470 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -36907,6 +36933,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -36961,6 +36988,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -36987,6 +37016,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -37040,6 +37070,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	XRCameraConfiguration_t36D3B10519762ADD407F4A4F171D120CE2B3BD63 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -37066,6 +37098,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -37119,6 +37152,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -37145,6 +37180,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -37198,6 +37234,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -37224,6 +37262,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -37277,6 +37316,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	XRFeatureDescriptor_t690E672A6BBBEFBB8AF221485C1884507EAFB5B2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -37303,6 +37344,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -37357,6 +37399,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	XRNodeState_t683158812A1D80A6BC73DB97405BB0B795A9111A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -37383,6 +37427,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -37437,6 +37482,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -37463,6 +37510,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -37516,6 +37564,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -37542,6 +37592,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -37595,6 +37646,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	XRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -37621,6 +37674,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -37674,6 +37728,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -37700,6 +37756,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -37753,6 +37810,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	XRTrackedImage_t0F99DAB96B2D6422D0F8DA720F9BEFD3655DDFDD V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -37779,6 +37838,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -37832,6 +37892,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	XRView_t2ECA2D8B3ACBDF90DAD643B2766AF68A56E12A27 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -37858,6 +37920,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -37912,6 +37975,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	XmlTagAttribute_t2F0EE4823C3BB8B9ED6844183CA998A44EA1AB59 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -37938,6 +38003,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -37992,6 +38058,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ZBin_t2B4F59EC396F7A7EC8EE6A15C15176B9888125A5 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -38018,6 +38086,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -38072,6 +38141,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -38098,6 +38169,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -38151,6 +38223,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -38177,6 +38251,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -38230,6 +38305,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -38256,6 +38333,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -38310,6 +38388,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -38336,6 +38416,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -38389,6 +38470,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	FaceRegionWithARCorePose_tB9B76D03166A36772E2545A2BF0551E85BE30CAA V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -38415,6 +38498,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -38469,6 +38553,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Anchor_t3DA9B0DC41D0E2960E0EBEFA43A6AB410D052845 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -38495,6 +38581,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -38549,6 +38636,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ShadowResolutionRequest_tE0E30FA18ACE318D6540C2BA217F4E8B3E6766CA V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -38575,6 +38664,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -38629,6 +38719,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	AttributeEntry_t646320DFCA1CFF9E19700C8AEBF785FE35BB2A9D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -38655,6 +38747,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -38709,6 +38802,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	MatchContext_t04110FFA271D89A23BC1918BE657634A7DC06253 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -38735,6 +38830,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -38789,6 +38885,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	OrderBlock_t62FD6F6544F34B5298DEF2F77AAE446F269B7837 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -38815,6 +38913,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -38869,6 +38968,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Page_t04FE552A388BF55B12C8868E19589136957E00A5 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -38895,6 +38996,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -38949,6 +39051,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -38975,6 +39079,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -39029,6 +39134,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TableRange_tD242F3D62C818E84B6903C18A6CE33399672B497 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -39055,6 +39162,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -39109,6 +39217,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	CylinderTargetData_t44BC2130A9D17AF0DA730F85E07FD43BB6104FE9 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -39135,6 +39245,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -39189,6 +39300,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ImageTargetData_tAC7CDC3C9AFC3FD2AEA91228C1A7E56E3F2BD54B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -39215,6 +39328,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -39269,6 +39383,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	MultiTargetData_t06F442BF6288A84E28C091779A69B363A9E58EDD V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -39295,6 +39411,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -39349,6 +39466,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	MultiTargetPartData_t0F57F55AEC2B8AAFA77D7FE23052537D3AC2DACB V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -39375,6 +39494,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -39429,6 +39549,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Bucket_tD54DB870BCFF42B2F81826B5D585BFFACB9D42FD V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -39455,6 +39577,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -39509,6 +39632,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TypeConvertKey_t2C27BFF39BA05B5EC16008FFC0B6D79B05AECE97 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -39535,6 +39660,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -39588,6 +39714,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RecognizedAttribute_t67AAD871D05C66CFF976B98E4492B979993FB7D3 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -39614,6 +39742,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -39668,6 +39797,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -39694,6 +39825,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -39748,6 +39880,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	AlbedoDebugValidationPresetData_tCCFD994474750370F3F5AAEE6312FDF5F06C106B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -39774,6 +39908,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -39828,6 +39963,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TypeNameKey_t78E5EF22DCB1F7E0AD6ABFA394C44CB8E7B5D1D1 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -39854,6 +39991,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -39907,6 +40045,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	DrawCall_t704B8D7A804DDC8CD64E065EC39E89AD61AD405B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -39933,6 +40073,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -39987,6 +40128,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ComputeBufferInfo_t80547B512CE5E2A035DE3413E5DFFDD2BAE5BFE8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -40013,6 +40156,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -40067,6 +40211,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	PrePunctualLight_tB2AE96558E3D58EFE8EB29BE572FB53CC4202ACE V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -40093,6 +40239,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -40147,6 +40294,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	DelegateInfo_t718C124E89FB2703D642911A3CEC87D645D62232 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -40173,6 +40322,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -40227,6 +40377,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	DispatchContext_tFA37790A5FF30508B0146B79E4FF1880EB82E455 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -40253,6 +40405,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -40307,6 +40460,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	EventRecord_tEC2901C48A23F5AFE20A9E8D4F05F3799EA62BF2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -40333,6 +40488,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -40387,6 +40543,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ReservedWords_t2834E11516C795E0AD880A651793517590DFCF87 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -40413,6 +40571,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -40467,6 +40626,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	FocusedElement_t1EE083A1C5276213C533A38C6B5DC02E9DE5CBEF V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -40493,6 +40654,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -40547,6 +40709,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	HIDCollectionDescriptor_t9235094BD1880EA02E4E07F9C02AC98088EFB9F7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -40573,6 +40737,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -40627,6 +40792,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	HIDElementDescriptor_t18CA9618F730F541BA1C873745A1AE71823D4CED V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -40653,6 +40820,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -40707,6 +40875,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	HIDReportData_t2F0D5DFC9087B851FA3288EFBB6FF4EAA863BB4F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -40733,6 +40903,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -40787,6 +40958,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	HIDPageUsage_t13808EE79B93302D9F7E841A0DEEAA6671BA591F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -40813,6 +40986,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -40867,6 +41041,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	bucket_t3217998B0CD54EA2DEDD93DEF8556E72602C7D4E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -40893,6 +41069,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -40947,6 +41124,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	HebrewValue_tC21FD2DC21D49A9CC5EBCB7895A9431A5DF0801C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -40973,6 +41152,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -41027,6 +41207,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	BindingJson_tD39890E66B1818DE8FEDA640970E315109723F7A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -41053,6 +41235,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -41107,6 +41290,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ReadActionJson_t912C3AB53939E37EA2AAE5AC5E50CABB2CE52A75 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -41133,6 +41318,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -41187,6 +41373,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ReadMapJson_t4C2C1BF7E023C8F056170F9BB2E037A0C2BED356 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -41213,6 +41401,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -41267,6 +41456,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	WriteActionJson_t42C7FFE506F2CC1ADC4FFA45CCE53AD6AC00404A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -41293,6 +41484,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -41347,6 +41539,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	WriteMapJson_tC52CE27F1307259B5B16A31FA675ACC13305A0A5 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -41373,6 +41567,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -41427,6 +41622,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ParameterOverride_tC0D5877125AE0F07C6A1EF2110FB799B3DCB89BA V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -41453,6 +41650,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -41507,6 +41705,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	PartBinding_tB263B939F5CC92F02FD1C8892A194F9BC8A53D38 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -41533,6 +41733,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -41587,6 +41788,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ControlItem_t25B2C46F52E78ADC5F54903F9E769364B02CD4AD V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -41613,6 +41816,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -41667,6 +41871,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	DeviceRequirement_t80E71C44DF1923C15D3AA025242B7348EBF8B056 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -41693,6 +41899,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -41746,6 +41953,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SchemeJson_t35D7E80205240ADFCEC9BDED04EFD8AC94D18E80 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -41772,6 +41981,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -41826,6 +42036,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	AvailableDevice_tEA24B4A4D9BF644F85FECF7EEACF2D02369940B6 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -41852,6 +42064,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -41906,6 +42119,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StateChangeMonitorListener_t8DDE11DEF769AE92B7A6B6554D41511AA2A7BDDA V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -41932,6 +42147,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -41986,6 +42202,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StateChangeMonitorTimeout_t9D00677B36798F8E8A4FA1DC5797CBD5F5C4F1DE V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -42012,6 +42230,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -42066,6 +42285,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StateChangeMonitorsForDevice_t1D72E96B14B577C50ECFE5DB631E9D7EC32CC0C1 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -42092,6 +42313,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -42146,6 +42368,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RemoteInputDevice_tF7E8C5EB795DA20F3EABAA259FE5A118C976C5AE V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -42172,6 +42396,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -42226,6 +42451,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RemoteSender_tDE9BD8E2CF827F718C3C22D9A38F8E84AC188736 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -42252,6 +42479,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -42306,6 +42534,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Record_tF7FF07DC502355356B48CE78337FB16B196E2EE0 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -42332,6 +42562,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -42385,6 +42616,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	InputActionReferenceState_t4704CE84127FDB4DDB6AAD752B3ED2530768C4F9 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -42411,6 +42644,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -42465,6 +42699,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -42491,6 +42727,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -42545,6 +42782,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	JsonValue_t01DB320267C848E729A400EF2345979978F851D2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -42571,6 +42810,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -42624,6 +42864,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -42650,6 +42892,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -42704,6 +42947,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	LightCookieMapping_t76B317D9FDE96056FA698B46B45D7F0937BD02D2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -42730,6 +42975,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -42784,6 +43030,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	BitRegion_tFE885CE2CC6C0287CF86BF59672C19D86D8DFC4C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -42810,6 +43058,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -42864,6 +43113,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -42890,6 +43141,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -42944,6 +43196,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RuntimeBuildLog_tC62F0400E684D90B60B597ECD125F3D154A4156E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -42970,6 +43224,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -43024,6 +43279,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	FormatParam_t76A31D70C9964751A9AAFD4CE6951437E6C1CD8E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -43050,6 +43307,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -43104,6 +43362,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Particle_tF16C89682A98AB276CCBE4DA0A6E82F98500F79D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -43130,6 +43390,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -43184,6 +43445,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	PointerLocation_t4E582463D283A22822997C2841D5E1A30D16FCF6 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -43210,6 +43473,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -43264,6 +43528,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	State_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -43290,6 +43556,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -43344,6 +43611,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	CachedCodeEntryKey_t8A54BDD6E52145D17DB1A2EB0CE0B4D4CB112F31 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -43370,6 +43639,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -43423,6 +43693,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	LowerCaseMapping_t3E26F9E4ED2CCDA7404B4E4C123B0175FF5F8FF1 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -43449,6 +43721,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -43503,6 +43776,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SingleRange_tB50C1C2B62BDC445BDBA41FD3CDC77A45A211BBC V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -43529,6 +43804,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -43583,6 +43859,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -43609,6 +43887,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -43663,6 +43942,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	DeferredCallbackRegisterRequest_tA5BE4066185FD0EB6B33A28B02B58660CE4A22AD V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -43689,6 +43970,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -43743,6 +44025,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -43769,6 +44053,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -43823,6 +44108,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SequenceConstructPosContext_tDEC4FB1B8F19EFD1AC27C150D561C2D4F6090BA7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -43849,6 +44136,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -43903,6 +44191,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	LightData_tAC4023737E9903DE3F96B993AA323E062ABCB9ED V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -43929,6 +44219,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -43983,6 +44274,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	WSABUF_tCBB60A3DE1FB95395F72DA6C6F9D33FE3C40140B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -44009,6 +44302,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -44063,6 +44357,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	PseudoStateData_tE5B3EBF682E8DE88E9325F44841D5B95FEB6F3A8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -44089,6 +44385,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -44143,6 +44440,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -44169,6 +44468,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -44223,6 +44523,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ImportStruct_t8CE0AC0405305E6E27224A07CF153167E99C98B1 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -44249,6 +44551,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -44303,6 +44606,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SheetHandleKey_tD6F2FE5B26CB5B86F18F74C8D47B5FA63D77B574 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -44329,6 +44634,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -44383,6 +44689,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ResolveContext_tEF37DBA22D641E4FE1568C5EBE1605A98D86C992 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -44409,6 +44717,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -44463,6 +44772,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	UnicodeChar_tB86B7DE9203E1D985B08268AF1964DECB8A5F722 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -44489,6 +44800,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -44543,6 +44855,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	AttributeOverride_t58F1DF22E69714D48ECBEEAD266D443A858BADEF V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -44569,6 +44883,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -44623,6 +44938,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	IconName_tBCA4C696FFEC8647D761120E0B5E5AF85E4ECB24 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -44649,6 +44966,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -44703,6 +45021,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	FontAssetRef_t7B8E634754BC5683F1E6601D7CD0061285A28FF3 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -44729,6 +45049,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -44783,6 +45104,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	FontReferenceMap_t1C0CECF3F0F650BE4A881A50A25EFB26965E7831 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -44809,6 +45132,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -44863,6 +45187,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	BlitInfo_t6D4C0580BBEF65F5EAD39FB6DBC85F360CF6A357 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -44889,6 +45215,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -44943,6 +45270,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TextureInfo_t581C305A0444F786E0E7405054714685BE3A5A5B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -44969,6 +45298,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -45023,6 +45353,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TZifType_t3ACBE0BB45077721E9D8DAF1414503F7990621D4 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -45049,6 +45381,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -45103,6 +45436,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RaycastHitData_t5EAB266730389AB27715962670C2512800451841 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -45129,6 +45464,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -45183,6 +45519,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	PoseData_t67ECD1DA6257206C1935CCD030E1E1EF57E1443A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -45209,6 +45547,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -45263,6 +45602,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TreeViewItemWrapper_t8130863A8182C5BF6925A88AF5E77192A4D519CE V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -45289,6 +45630,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -45343,6 +45685,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Entry_tB8765CA56422E2C92887314844384843688DCB9F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -45369,6 +45713,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -45423,6 +45768,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	AllocToFree_tC46982856CB8220A92BB724F5FB75CCCD09C67D8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -45449,6 +45796,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -45503,6 +45851,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	AllocToUpdate_tD0221D0ABC5378DDE5AAB1DAA219C337E562B512 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -45529,6 +45879,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -45583,6 +45934,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	DeviceToFree_tF2AD2D5F5C1936F25516AEF0736CF4BCA1B3052B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -45609,6 +45962,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -45663,6 +46017,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	DateMapping_tD71D0AF5C7C6CB4F9517C292B1B61D7AF7CFCCFD V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -45689,6 +46045,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -45743,6 +46100,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	WorkRequest_t8AF542F2E248D9234341817CDB5F76C27D348B44 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -45769,6 +46128,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -45823,6 +46183,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	VertexAnim_tFF5399F548EE5426E46DEB662F561DDE129E20D7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -45849,6 +46211,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -45903,6 +46266,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TextureData_tE94917EF09AA9845384F5F7D4E3AA38747674119 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -45929,6 +46294,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -45983,6 +46349,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SlotDefinition_t2E39E965BBE5A336DD1B93A115DD01044D1A66F8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -46009,6 +46377,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -46063,6 +46432,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SlotUsageEntry_t73A628038C799E4FD44436E093EC19D2B9EA1B76 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -46089,6 +46460,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -46143,6 +46515,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	UsingEntry_t0454AD34026FDFD1733CE07BD4AE807B0FBCE484 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -46169,6 +46543,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -46223,6 +46598,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ProfileData_tA2B9E7119CD0F5AE7EDAF3E1141BBA4905FDDAC6 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -46249,6 +46626,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -46303,6 +46681,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	XmlEvent_t71D4A86D45FCBC2D95E47F0EC32CEC49FEA1E0B2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -46329,6 +46709,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -46383,6 +46764,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	NamespaceDeclaration_tF445C0E2CA7FE3EF3357E2FC0D282A04136174F4 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -46409,6 +46792,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -46463,6 +46847,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	VirtualAttribute_tA52A03466D0572EE2CA47743C4A08EEE73A66D49 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -46489,6 +46875,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -46543,6 +46930,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	XmlSchemaObjectEntry_t79D1310E1F5CA860FAD243853E59A3C2ACDB83CD V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -46569,6 +46958,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -46623,6 +47013,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	AttrInfo_tE531B225E6B37BA755A3F7B0DE8FCC6D3AB453AE V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -46649,6 +47041,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -46703,6 +47096,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ElemInfo_t4643E7FF61D3697F995A85EDF42BF479EA30B235 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -46729,6 +47124,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -46783,6 +47179,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	QName_tA3E1CB09850DEF9376C068A29697FEDB0F82C156 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -46809,6 +47207,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -46862,6 +47261,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ParsingState_tF0FABA16483FCC2DB710460D11CD79D35C4E2886 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -46888,6 +47289,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -46942,6 +47344,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Namespace_t98C96E77A64CE0105E85EEF2416A270C2AFA6853 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -46968,6 +47372,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -47022,6 +47427,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TagInfo_tDECE4D67D7F52936C9E8F58DE38BE11733108F5C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -47048,6 +47455,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -47102,6 +47510,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	AttrName_t0B37BBC030EEC83B4B00DFCDD9C1DB43A31675F2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -47128,6 +47538,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -47182,6 +47593,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ElementScope_t7BA86196EE58918EA5CA952D37FE3C7B19A33592 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -47208,6 +47621,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -47262,6 +47676,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Namespace_tC7546D20184E40E3566060C1246B764E4DBA55A0 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -47288,6 +47704,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -47342,6 +47759,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	AndNode_tD84E0D831AD339630C4170F558969F4ACAD73653 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -47368,6 +47787,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -47422,6 +47842,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ContextMenuItem_t0D29D1ECB0C1F769EFC9ACA2D0AE6B1A8A4736A9 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -47448,6 +47870,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -47502,6 +47925,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	PowerOvfl_t00CAEB1B84D897513AD903AC683159A172CA9304 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -47528,6 +47953,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -47582,6 +48008,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Map_t130828B38036909DD82C3A4CCCB9AA0130113AA7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -47608,6 +48036,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -47662,6 +48091,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	LayoutMatcher_t0D8F5E32A7C82BC292EBA0FAA3EB2D9F1F72A0A6 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -47688,6 +48119,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -47742,6 +48174,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	PrecompiledLayout_tEFFE070A47145E8B18D5003F777983D278034A63 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -47768,6 +48202,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -47822,6 +48257,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	DeviceJson_t62221814EF0AB9D5DB20A870D7C15C45A8AC06F2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -47848,6 +48285,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -47902,6 +48340,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Capability_t1A686C4F719B0408BCBB428021405F440196E16E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -47928,6 +48368,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -47982,6 +48423,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	InstructionView_tA381D8A27DEDDEE43C71B3BB3A2FADC0CD059A3D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -48008,6 +48451,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -48058,6 +48502,8 @@ IL_0055:
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.ArraySegment`1<System.Byte>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_mFB56E788384983EB2CBD538F25A26DDEC95AA5FA_gshared (RuntimeArray* __this, ArraySegment_1U5BU5D_tBC678C23B85C510321B1831B36907C2FECE21C3F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48072,6 +48518,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisAsyncOperationHandle_1_tDD1D892D87C7A0C3189DD56DDB997AB1A2089A74_m08BB35731458173DB9EE6CF60ABD5F5EC968E568_gshared (RuntimeArray* __this, AsyncOperationHandle_1U5BU5D_tC322A803F4FB00759286F28E6B71283EB857D2EF* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48086,6 +48534,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.Background>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEmptyData_t3ADF94D95DAB6657C31C89FBD83359BCC8B247EC_m7A6B2979AF3B68AEBA36352EEEF68826531E031C_gshared (RuntimeArray* __this, EmptyDataU5BU5D_t4FC6419C796BBADFEC77D9CB97A3FB7B1C6D5CB8* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48100,6 +48550,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.Color>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEmptyData_t48DAAB7E0603E64673C08055B3C11B08F9AB5A83_m6AF546EEE7D4C2BED0E8271E47A70095FB71085E_gshared (RuntimeArray* __this, EmptyDataU5BU5D_tDFE3104887D7AEB406BC646123D7C8AA698EB58A* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48114,6 +48566,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.FontDefinition>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEmptyData_tF289285BF36F0D81770920F887D038CEE0FDE022_m494F9E7999EC4D0DD1E7B3861EC84EE9D62CF261_gshared (RuntimeArray* __this, EmptyDataU5BU5D_t568C72D6625FA05F854FF86F02910C531D98B72E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48128,6 +48582,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<System.Int32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEmptyData_t02ECBE01728C0979248845C107F3FCE871DDC9E3_m18E6F6288B8B09A33D30C7DC1B8D8C3DC3E3106C_gshared (RuntimeArray* __this, EmptyDataU5BU5D_t920355EC41DECEE4E1D5688CEA971923802FC9A3* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48142,6 +48598,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.Length>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEmptyData_tB976A2FB38B5384D01F0E788A4C35E43321C374C_m73FFCC722E59E6C338D829B96E6519E19BFABA6D_gshared (RuntimeArray* __this, EmptyDataU5BU5D_tE2C14BF5968870FDDD993014F93FDE3FC5572837* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48156,6 +48614,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEmptyData_tF13A138DEF2627A8D32807954AEF9E30615B8182_m45D900DF9A73BCB703C690624CA990DF9136CF5B_gshared (RuntimeArray* __this, EmptyDataU5BU5D_t543192ACC732EF0DB4B419407C24CD12260A485B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48170,6 +48630,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.Rotate>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEmptyData_t4FC1686BC526371087AD5A5B28DBE30D1ECDD533_m34DB99DB207660F387434A9D7744DB25D85E4DE7_gshared (RuntimeArray* __this, EmptyDataU5BU5D_t4EA7859B72A26B20006E0BD02EC63611C4C71485* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48184,6 +48646,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.Scale>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEmptyData_t4A4F82A772FE766AA090A0628F398EA4D55646F0_mAC0F5BAC59D29A2AA95CE515555A0E48A4637728_gshared (RuntimeArray* __this, EmptyDataU5BU5D_tF2D26ADE6FCC1E97FB2FFC1DC56D63F08E711A3C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48198,6 +48662,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<System.Single>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEmptyData_t43DE49ADBBE9CFA603DCA7C5CDC998DE6DC976A1_m626705FBF1139DA24A61CBC97753492AEFE10E54_gshared (RuntimeArray* __this, EmptyDataU5BU5D_t60D6EDC5438323017497721F3A8E4A0376F2B741* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48212,6 +48678,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.TextShadow>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEmptyData_tA8769B9E6E130745DA8CFF6D496ED462ED74B44F_mDF5DF43C6ACADF59447F3097EF007DA5BAA60211_gshared (RuntimeArray* __this, EmptyDataU5BU5D_t8EE2FFAAC9B7C301CF4690109183A2EFDFC5A20F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48226,6 +48694,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.TransformOrigin>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEmptyData_t2CB75995D335E22F6BF31D1CB979DB1067C5025E_m235501DDD9552F3EF71743FC306E2519B27153AE_gshared (RuntimeArray* __this, EmptyDataU5BU5D_tB3A736D4DE7E747B7C1B6CA7B36EB41FA6207653* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48240,6 +48710,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.Translate>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEmptyData_tED1BB22234DD4A2FBA90416759D025535300EDCB_mE80867BA16D8E74D3EBC922997672DB95EF4B3CE_gshared (RuntimeArray* __this, EmptyDataU5BU5D_tFD0240910F0FF75CC94A141EDE346043BD9C179C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48254,6 +48726,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Xml.Linq.XHashtable`1/XHashtableState/Entry<System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t6E72C722C46949F140550D563C1F41E304752583_mFAA318BD653C8009587CAE72EFD2DAE185D3B1F7_gshared (RuntimeArray* __this, EntryU5BU5D_tA5AD9C5E098FD22F628C31033C0DAD7AD6F59635* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48268,6 +48742,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tEA99553F325828A74A65B889F46BE09836044044_m4B4975EDD2DF08B4EF62772B38241595C25F04F6_gshared (RuntimeArray* __this, EntryU5BU5D_tE46176A35243AEC153CF23839E01E097E9D24BD8* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48282,6 +48758,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.ValueTuple`2<System.Object,System.Object>,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t9E54CCBCBF389A3EB228FFF39B2963CCB6661448_mD09D94A9774EC61057CBE566F5D938D0B60A04EF_gshared (RuntimeArray* __this, EntryU5BU5D_t520AA07AED73E0A49370ECDF320E581859F860A9* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48296,6 +48774,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Guid,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t4BAC0D992203B05A8D2645406D4CF9E24E0F5BEF_mE31F66E7C6E57A0A3BB69A9205E96D574A70A5CC_gshared (RuntimeArray* __this, EntryU5BU5D_tE0A05522E3E044A0A153A33D678D14E918FFAD4F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48310,6 +48790,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.Hash128,System.Int32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t899F478E066573053AECA9BF68F5B4E9D05CD67D_mDED31D1B1305E4342A154F59EE988C29FBAF9E6E_gshared (RuntimeArray* __this, EntryU5BU5D_t922E0E3923DED813CD2D7F43D2886F5E19802D11* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48324,6 +48806,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.Hash128,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t343716AA7796A6C22FFA9AEBC18EF142FCBDB10F_mB500AE96A55B879F519D48E58AD8747C3F3B3E22_gshared (RuntimeArray* __this, EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48338,6 +48822,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.ValueTuple`2<UnityEngine.Vector4,UnityEngine.Vector2Int>>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t008CACF55D7F47352355FB69BA62E34489CF2116_m84EAC5651E06225B6CBE69E8116EB16DB2DCE456_gshared (RuntimeArray* __this, EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48352,6 +48838,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Boolean>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t740F919D5BA6D1FE201C58777E6EB966B35EE2EE_m9FC6A078CD183CC5FE2BBDACA35C5267375D9C63_gshared (RuntimeArray* __this, EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48366,6 +48854,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Char>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t5A1DD43C826878A3853C7DF32E971C3D19805227_m9560261716A5675618CE71B77179E57671CD9520_gshared (RuntimeArray* __this, EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48380,6 +48870,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int32,UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tFFBE6CED43071BF3A2C52D1BB70EE6197C7D5444_m05745EB7EF6687874038C2E9B9DD20AB5AA9FB1D_gshared (RuntimeArray* __this, EntryU5BU5D_tCCD045F0F6433C37180994A7564BEB3C1FBBF2B5* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48394,6 +48886,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Int32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tA212E7034D981AC2F7E219C600769EE485919684_m70EF3B38D19A3563DD5C037FB7099FF7B59BE49B_gshared (RuntimeArray* __this, EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48408,6 +48902,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Int32Enum>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t56DFE5C32B6C0F59B83A080FD15B9AFB39F27185_m797DA410795D875B30AAAB8C7DF790997C89B460_gshared (RuntimeArray* __this, EntryU5BU5D_tEB9732C241FC514B953B7068BC51B96627BEA85F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48422,6 +48918,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Int64>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t4F374F13C9422AE969BA033893F5B076AEE88131_mCB6998CBDE73BDD65BE5803800D4D7C7118B4679_gshared (RuntimeArray* __this, EntryU5BU5D_t19CA95B544EBD9F254D17342F41A7F9203BB2515* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48436,6 +48934,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t59E90724C756CA6F3F5F5B2D04D9E6A4FDDFC339_mAA9FD5F7B8E6951B513F8CDCE44184AE884CDBD4_gshared (RuntimeArray* __this, EntryU5BU5D_tFE752FEFBBCDEA0ABFB46556A567D61EFF176FD1* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48450,6 +48950,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Single>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t532FECF491646E3372F9D145FEC277E0C5089CBC_m5F6C8A6F6CF9772934EDB13AC62987613C9B3117_gshared (RuntimeArray* __this, EntryU5BU5D_t073FACA530F2690A9E997B1617C81029BBC8FD2C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48464,6 +48966,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.UInt64>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tEF6BEA499CCB8C4F2AA974BD354B4E3BCFE5EC4B_mC983A84939265BE2D8F5AEE127FCACEA6FCD8673_gshared (RuntimeArray* __this, EntryU5BU5D_tFAF4D87C3987A02E157A61882ED59B7715DF7F48* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48478,6 +48982,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int32,UnityEngine.Vector2Int>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t6ED579DFEA7ED1704F2C549D6B01A492B6E4BEF5_mA1F3B0C4C25BD89DCB8B183E42B6A8FA67477F4C_gshared (RuntimeArray* __this, EntryU5BU5D_t718A030046AAAA47E1322BB35AC6413A79C7E21D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48492,6 +48998,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int32,Vuforia.VuMatrix44F>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t3931D073D20E5270318C5CBBF20CD9B44F0047B5_mDA0E499E9571A544801A904E00DF68291BCEAA2C_gshared (RuntimeArray* __this, EntryU5BU5D_t02DAAC21BF14207A581558C0C87DCA9BBFB1D53F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48506,6 +49014,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int32,UnityEngine.TextCore.Text.TextResourceManager/FontAssetRef>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tAB4AC6D6C313741B7F6F6C4694EF22BCDEBF5B20_m16A51457647DC6FA3022DF2B7725D1DFB47E747F_gshared (RuntimeArray* __this, EntryU5BU5D_t1A2CD9285C48598A04F408DAE442164E7A2BFC20* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48520,6 +49030,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int32Enum,System.Boolean>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t7B3861A33B85B48715972326859F7104EAEFDF50_m0FAA163E15522250F7DAEE22D8019473458BBD00_gshared (RuntimeArray* __this, EntryU5BU5D_tE14467D2438A024662CB5769B4C67675D5751EDA* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48534,6 +49046,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int32Enum,UnityEngine.Color>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t01E46B58E4A1F22397FE59A950E544EFDA00F748_mD9B0C63D672DD69C548906674E84532DF0074E98_gshared (RuntimeArray* __this, EntryU5BU5D_tA979F8B47062BDBB5C347D8BF283BB763F2F704A* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48548,6 +49062,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int32Enum,System.Int32Enum>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tFF4285DE3B86A2B349258B4BD7E12C0EE4A4B74A_m4F516CDC2DB95362F84945B7480F1A239A8C6FC5_gshared (RuntimeArray* __this, EntryU5BU5D_t74DBBEDFEA84979EC7428ADBFE28C5FA3A7DB67A* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48562,6 +49078,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int32Enum,UnityEngine.Matrix4x4>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tA4CE377ED53530282179BE10A55FE3A4E4A5CF4E_m33FBBE302D043D8215B7EFA2BAC1E2DE6CAD18BB_gshared (RuntimeArray* __this, EntryU5BU5D_t12BF6A1AF8AF69F2424A9F62485C2079AB57DF10* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48576,6 +49094,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int32Enum,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t4D5A107E6414D8B9DE012405A201C46AACFACF98_mB92BCFDC32024C7B5DC80DC375E6869E7F42CE42_gshared (RuntimeArray* __this, EntryU5BU5D_tDDBB3C07C36F178929A69EB8B8CE07B49AE02252* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48590,6 +49110,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int32Enum,UnityEngine.Vector3>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tCAA5E8C25DBDD41FDE687FAC9279F16A616DCEC6_m2106E20F8E3627C7FD41FCABEA161EE405296402_gshared (RuntimeArray* __this, EntryU5BU5D_tE9D39ABCFE60D603F5CED7D08FC5538DEFF28EC4* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48604,6 +49126,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int64,UnityEngine.UIElements.ComputedStyle>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tA76B18EF78BF0132EE1736D5F5B829D890C26E5C_m73E3CFAEE1146AAD5A6317D335683AFCB112F40C_gshared (RuntimeArray* __this, EntryU5BU5D_t05E52844511353E4ABF08A5014CE9794F2BC7FB2* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48618,6 +49142,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Int64,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tFFDF932514D611FAE4AB69C8DDC8FA5F889B6438_m1726DD2A669C078CAB42F33786109D175371D3E4_gshared (RuntimeArray* __this, EntryU5BU5D_t37A30D502FEB00D75695A63792AE99DC7C4D68D1* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48632,6 +49158,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tE8CF104B482ED92A3BF31C2B151BD3FEBFAF2F6F_mE35C44CBC608F149FD6F85D9A34D2F0D7971C65E_gshared (RuntimeArray* __this, EntryU5BU5D_tEB41C94D728A2A116E7C01CCB2ACEBA8AD296C60* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48646,6 +49174,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.InputSystem.Utilities.InternedString,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t575ADA8FFB2EED66C64622ACC70ED8CF7A732FFA_m16D65A5B718F0B0A853AADA0E446B8A901DFF0A7_gshared (RuntimeArray* __this, EntryU5BU5D_tF90C1A9AA8FB837F38C14CA88F31279CBDA264AA* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48660,6 +49190,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputControlLayout/Collection/PrecompiledLayout>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t5DA42CAF95F196F03BDD802C9D4F704954B556AB_mBDCE4549FAF8BF1FFFCD865D68E183C95424FBC0_gshared (RuntimeArray* __this, EntryU5BU5D_t6FFF9155A8574DAE59AE5E53B83EB0E1FBFF79E4* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48674,6 +49206,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Object>>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t8B8123A4CF4482E637F2DD10E1381A07127AC71E_mCD8063BFA9541F2341C029E76EEC0EEFCB4A91CB_gshared (RuntimeArray* __this, EntryU5BU5D_tB551A706A1689C0BC3FF0A5BF20619E4DDD256F2* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48688,6 +49222,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t56E8626AECB5D45050816DA6ED6BBCCD6D029A47_m0E95659B7022BB4183182EF406C85EA73FAAA5E3_gshared (RuntimeArray* __this, EntryU5BU5D_t5FA6115A3FAF582B80A559148321244CC163D844* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48702,6 +49238,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Boolean>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tF9C4D725857FFCC0AD98E4629FD00A7E064A0C1C_m5E96CEC1C1CB3ABDE1611BB847FC4A35B0C6CCD5_gshared (RuntimeArray* __this, EntryU5BU5D_t6DE30D037976CA42E046CF78CF4BEF758A9E886B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48716,6 +49254,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.Color32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tE39771EB73DA3008BB0DF74028FF7285866C18C8_mC4303A72417BFFA7FF6FF6C8130CDDBDE2E4E6BA_gshared (RuntimeArray* __this, EntryU5BU5D_tFE726D463F611E4E4A72D28490134171736CC1FF* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48730,6 +49270,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Int32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t3E9BC9EC2D9161E6078E219EF6BEE9162020CD39_m45A6BC1ABA036C4A6981090EF749DF9B29C44632_gshared (RuntimeArray* __this, EntryU5BU5D_t8A61658460FB17254FA3796E021DC61AED164F75* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48744,6 +49286,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Int32Enum>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t1FBA063A7158A877EF3D4306E7BE0559C3A13202_mE733F89919928F0D5E44ACF3AF4E35C03A4927FC_gshared (RuntimeArray* __this, EntryU5BU5D_t0220227FE7D910BF17D745D71ADA52496FAB6D01* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48758,6 +49302,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tCCEE77FB83F33718CFB5E786A11E06DC9D5B63CC_m3A941A454F03FB2C530DD6C99A7222BF3E6AA926_gshared (RuntimeArray* __this, EntryU5BU5D_t1E85CBF91297C9D62A0FC2AD29FD24E33C8A5E54* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48772,6 +49318,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Single>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tC44036EDE3BC084F847AF870E0FA6D39AA7CF48A_m924D29AF127D2D37E7FBDD5E9AB952CAC140D45E_gshared (RuntimeArray* __this, EntryU5BU5D_t6C29FF550EBFCB1FB1D47B65646B53092304C037* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48786,6 +49334,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.UIElements.StyleSheets.StylePropertyValue>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t6C6FFC8A6877137F14C5BA9B9205BADAE8258F98_m8019C22A4F9A827F47224CCAB41B1A723DFE8158_gshared (RuntimeArray* __this, EntryU5BU5D_t681D6B3E50190F640BD08E9878A41E14158EB33D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48800,6 +49350,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.UIElements.TextureId>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t8C80D6795974A124B4CD390BBB064C11BAD5D216_m78B8DD2DA76177D7D284E7B3C616876755EFF5D7_gshared (RuntimeArray* __this, EntryU5BU5D_tDF87A2AD202A006BDD4A64C39DE586A5F7C3EF71* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48814,6 +49366,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.Vector2>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tDA878B789C830BB6D853BCCA94EC9A56473F9192_m1D288FBD57C887CE25CABF7AFC79D280E4F95407_gshared (RuntimeArray* __this, EntryU5BU5D_tB701640026CE382655A04D3448D52F314990B3AF* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48828,6 +49382,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.Vector3>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t9C565819818CEE927F7310B20154140C74FF0587_m8567EF8FCDB7400F8D1983F5E8ED4A5D6503FAC7_gshared (RuntimeArray* __this, EntryU5BU5D_t482B8BF6CB1E67267C93BA600051FEE169698310* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48842,6 +49398,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,Vuforia.ConfigData/CylinderTargetData>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t78A47A3F6CEEC34154BDF4FD6C3969CE5616A1B1_mD1D505DCAEFE1D6A4C982BCE03E87C36C6DE7E4D_gshared (RuntimeArray* __this, EntryU5BU5D_tDAC5AADECBA99BF915AE3A640F1EDE61ECB3C277* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48856,6 +49414,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,Vuforia.ConfigData/ImageTargetData>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tE4247208050F1CE52403ACCE7C5BFB29A7F983CF_m201CF823E270A3B400EE11771839B1A04B9C759F_gshared (RuntimeArray* __this, EntryU5BU5D_t68F939A21B972A47EDDD21A8504E110DF449D970* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48870,6 +49430,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,Vuforia.ConfigData/MultiTargetData>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t71C45DDCCD78FD0E7AF3AF206A8A18DE08416B9A_mEC8C23E362660A8123AC51D225E5337448B2DF77_gshared (RuntimeArray* __this, EntryU5BU5D_t5C4EBD77F3DF0926D547A197C89D26A016F4FA8D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48884,6 +49446,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tBE79E9CAC9D7DD54B4635CEE784E7DC034A6E98B_m07F41DAE32BABE4E57D1BA93A4F275B8420E5B03_gshared (RuntimeArray* __this, EntryU5BU5D_t0B11BAC8066C644EAA02F51602A7FC8B5076C203* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48898,6 +49462,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.InputSystem.UI.InputSystemUIInputModule/InputActionReferenceState>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t24F25ECA3BDA03521151C33B3297BAAE878226BF_mDB66865E430B831159FD6CEF51916364D364627A_gshared (RuntimeArray* __this, EntryU5BU5D_tDDF12105BD92AF82B8947833A2E92194B0A03F8B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48912,6 +49478,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tD8875C96F18F04DE9948C96AC2CB648E8901D064_mB25F46F9F0902EC705FDF276C9DDD04050C2755B_gshared (RuntimeArray* __this, EntryU5BU5D_t8B84F57E005FB31D4A6D3EFA12239FB8B8513813* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48926,6 +49494,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.UIElements.StyleComplexSelector/PseudoStateData>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t7570C0657D5A1E8127DA80AE9CF398FAE7F58164_m63E1B83C3ECD06DB1392CE1682D45C8A00A48D61_gshared (RuntimeArray* __this, EntryU5BU5D_t68CA0D1367AB2807A569CCED387E01680CB52ED7* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48940,6 +49510,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Object,Vuforia.WebCamProfile/ProfileData>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t220AA9583FC76C1A60DB0B8C1F33ADB13276D772_m65F600526902CA20A304026BA899E8D082CD8A2D_gshared (RuntimeArray* __this, EntryU5BU5D_t3DFA64AD7F5306D6E07C486B2B999820361C7C46* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48954,6 +49526,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<Vuforia.Newtonsoft.Json.Serialization.ResolverContractKey,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tBAEFB89FD352BA2CD9D132E006C00C47400BE501_m5853F5D5DAE705BBD265749D5282013B2D4DA7F3_gshared (RuntimeArray* __this, EntryU5BU5D_tCC65ED4555C15D0F610BA839ADF8195BA6A5CA6E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48968,6 +49542,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.XR.ARSubsystems.TrackableId,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tDF21A2C43AE7F49B112EBF9BFBD462DA12AAD529_m15CE426D0718CDE5CE541A95FE4B37DB5DDBC0D9_gshared (RuntimeArray* __this, EntryU5BU5D_tEEBC325525D376ACE7560303EB517C440A2A49F5* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48982,6 +49558,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.UInt32,UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t58E99ABABD435BCC040760EDD6D161FA4AFAD578_m4743140BC686FFF274205A1467555A2B34B07FCB_gshared (RuntimeArray* __this, EntryU5BU5D_t68A3C3C2FF61504922EC13C363BED0E17D474FA8* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -48996,6 +49574,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.UInt32,System.Int32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t2679F25F22E3E7DB5F988C82C064BA4BE59F5677_mBD9983A5E24C519C0C1060ED23E42F7C34086281_gshared (RuntimeArray* __this, EntryU5BU5D_t35030C67317CFD76395CF623751D571A97DFB1E5* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49010,6 +49590,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.UInt32,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t1F21171535DEAE77D533CFCFAF0EF8C51862C715_mC9388642E41AEC549AA629F73F30C053A8375240_gshared (RuntimeArray* __this, EntryU5BU5D_tD5D9F69AD8B9069CB4748A06D69B3FEB0A3285C4* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49024,6 +49606,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<MS.Internal.Xml.Cache.XPathNodeRef,MS.Internal.Xml.Cache.XPathNodeRef>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tE850363938764CC80F151D8A949A63B1588A5BF9_m89AB04241F5FEADCA8A64C65472E65731297BD18_gshared (RuntimeArray* __this, EntryU5BU5D_tB41736D0B14C835560EDC6DACAFDBBB71A62660B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49038,6 +49622,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<Vuforia.Newtonsoft.Json.Utilities.ConvertUtils/TypeConvertKey,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t0E2CC75B90BBFC454F3E79503FBD8780C02E77F1_m23C0345E7EBEFF42C0452C0909EBB12D255777FC_gshared (RuntimeArray* __this, EntryU5BU5D_tFE7456DB0DD0A50F5A26CD761A815619E4E880C6* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49052,6 +49638,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<Vuforia.Newtonsoft.Json.Serialization.DefaultSerializationBinder/TypeNameKey,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t9E8521226167A335876EC9B6F8E4B192E6F8C907_m639342D573AC0DCD3A26DD92A5ADEAA91115CF5C_gshared (RuntimeArray* __this, EntryU5BU5D_tA7CB46BB07234A7DB833A7ABADC3F5589A33DF9D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49066,6 +49654,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<System.Text.RegularExpressions.Regex/CachedCodeEntryKey,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tEC2FCD90BA00C992320FFF0D4A74509526BF8CA1_mB405E4EF5A54E68B90BEA28D98D6F895CE8F8B7C_gshared (RuntimeArray* __this, EntryU5BU5D_tE17B785CAD3F80F2B4B61714A3D2A975C55DC34F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49080,6 +49670,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,System.Int32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t50EA0C1E8A8EE9E0CC561055CA772A2BF21F8A5E_m8E6B695929E7FC7BEF35A378C3220F12137CD52A_gshared (RuntimeArray* __this, EntryU5BU5D_tA2540CF07A907BE88ADCEB3AF3785F9B00F1E760* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49094,6 +49686,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,System.Int32Enum>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tBFCAF6DF9FBB6B7CB44FAA838B615D233C134CAB_m6FB22B8B5E28F279504E391D1B412228D80A6865_gshared (RuntimeArray* __this, EntryU5BU5D_t52DB08136C23308859B3EBE1F2751AC002E126E2* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49108,6 +49702,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tC6BA3FCE24005B80AD289EB230B5E04466EEDC86_m6766B7C9ABC7E5227D1BF4AC943E9DB2D595A077_gshared (RuntimeArray* __this, EntryU5BU5D_t25E6E3385E909292D9EDC1103947B32EB24B5B0B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49122,6 +49718,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.UIElements.StyleSheets.StyleSheetCache/SheetHandleKey,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_t9DD41777766A237ECDB0E269740F073135AB4A64_m2107F32B15BD7FCFEF12BB1155939965028C4247_gshared (RuntimeArray* __this, EntryU5BU5D_t07D6F8693F4D0B3C951D3AC26EBB0DDAD42EACCB* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49136,6 +49734,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tAC0330F506B0E9163D3B28C7146DC5ACD338DC13_m6EF96FF72347603682F3C60EE3B444E4C355B7B0_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_tACD908777033B8995C07FBFB0FD04E41C2B688B1* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49150,6 +49750,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Object,System.Object>,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t3F2A3CB7BBA975883A7BEA65F8283E2D7BE1E52B_m7F6B1858A5D93BA9C29DF9BF71E179395AAE2A0E_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_tAC99501646DFCF9C6125740453E90250343AABAD* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49164,6 +49766,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.ValueTuple`2<System.Object,System.Object>,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t2A9D1B7DEBB99A68011F37B017FDD44CFE5AEC14_m6D3FC71F348FE100D61F2D232D0E119D251D2F63_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_tF0A0AABC82DE189C18BE91E0D9CC0C01C2449460* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49178,6 +49782,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Guid,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t669A5BAF37ED0ABC96A30943A6E7D0442310B936_m65904BC1CA70A07FFE54A84701F9C5BE71E028BC_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t6E8559F0FEDC952C1C97D197BC8286FDA93AB882* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49192,6 +49798,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.Hash128,System.Int32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t8B567619A9CCBA5161B66419D348897D6AECB008_mEFB8492480A351963123411960A3C53A483D6EB8_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_tE484704C1E25ECDD50F3F633C726CE317744C004* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49206,6 +49814,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.Hash128,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t1F845C75952D49E12CC3AA3713F4701056F14BC1_mFA4CC3F7165CAA9FA94A5C50736531E9EBA04038_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t626BABC2124A36CCE5AC227FE6C96C89979528E5* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49220,6 +49830,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int32,System.ValueTuple`2<UnityEngine.Vector4,UnityEngine.Vector2Int>>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tB999B4329040B950BC24C49C2E5CAD7574557D0B_m8A795D24B5B7FCCB03E506348489B7F38E592330_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_tDF16CFF57580819CD4D0454C2F6CDF876FEDBBC4* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49234,6 +49846,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Boolean>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t0EAC8DA2D95957AFA60DD198D013622384C0D213_mA8DF426F5615AA50308B4CDA476F9003892DF267_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t00F1189D6659F8334E1D51B328A743FBD809CFB6* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49248,6 +49862,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Char>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t25871D01DA51BBB8CEF1F27E727B5D3A545FD4EF_mEE54F912C9426874C24A1219B0BE013B045E8782_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t185EF1C22979145FBA3233EFBDF557ECDC08113C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49262,6 +49878,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t6B535D6C2549F3B53E90E9A0B879ABB41334E244_m12198837648F232700EB93A7D98DFE7A98FD0F03_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t184FA83B53A5F57D08E1CE3322DE106E68C7308E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49276,6 +49894,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tA6BE5EEAC56CB97CB7383FCC3CC6C84FAF129189_m46C0CF501AF7B34504F8F968E9EC1044B30AA14F_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t45BAFB41C049BDC49B00275E5A255BB6DEB1396C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49290,6 +49910,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32Enum>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t59FB72438A8C1A0E1CBC80F6A2F18FA16FC5295C_mB516C0C9B5082CC20E1F789CF96E9CF71EE1F5FA_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t0B8FDECF09BB8091151DCC6CC160984F49DA001A* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49304,6 +49926,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int64>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t90B506CAD143B28FB88CA6965C9B35679F8F9678_m8029477F4F07951863FAA26B11A852BDB18CC505_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t12A0EB4C16F8EA483E22FBD9E7E25C5321B4DE39* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49318,6 +49942,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tDC26B09C26BA829DDE331BCB6AF7C508C763D7A3_m11B30DEC467A786C5F46121B59839E94F9ABB990_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t1686C7CBCFA68BF77F16B9983BACAA457DCDE265* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49332,6 +49958,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Single>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t891D449DA189ED572EFC0E4457FE9D980AF86555_mE9DA79040839B19FE95F1421DDDE56996FCE83E9_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t16E0C6DDF0634150681FF9DFA15FE5458E30BC32* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49346,6 +49974,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int32,System.UInt64>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tB80CFCE1FE63EA90A1922B957B5C34F1F5C3C606_m585CAC9024F8ADC5FF7BCAB709C61D0967895730_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_tFF54E7626FCEA432C4442CA81E5CBC429FE8DBDB* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49360,6 +49990,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.Vector2Int>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tE2ABFF555671907C54C1F6ACA927B7D1D1249AFE_m793D120782D50B62B1F56EA5ED52FAA467C0E85D_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t202762757E275B4E3A6680756B1099BC35C0F20A* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49374,6 +50006,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.VuMatrix44F>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t758D218BF34F33D9F3457E619DC4B799BAE72E45_mAF491996BC99B521878EAC5C37CA0F9F20305DF7_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t2BCD9AC1A4DB68E875A2E10C7AC789C49837D631* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49388,6 +50022,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.TextCore.Text.TextResourceManager/FontAssetRef>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t39179BF27CE980AB00F738EC85DF2D428FAAB65A_m7DA3629B487EFE6974BC5DF8137458DA6B2B0EFF_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t91BE937EA50734F6991A1AD67A397F5B7B347C54* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49402,6 +50038,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int32Enum,System.Boolean>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t763E38DF50581B1045C4F039531270BA08203934_mD8DC23F1803C3D0F47A325B1CE636F254A54DF09_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_tF7CBFAF1839297054EA6223F4DB8458613BCE72E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49416,6 +50054,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int32Enum,UnityEngine.Color>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tAB2E6B469D42F09998674AC2B639470892C3CE5F_m9C77590A60135F836C4A89EA15EA8D752F86EB65_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t37D05EADD1A24045255FA94E8758BA3F46E24932* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49430,6 +50070,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int32Enum,System.Int32Enum>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tC032038170A998E9F4AE89CDC2DBC2E5F88F91E3_m33365BA5BDE3B9F1A90DF3519CF4781730693863_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_tC7E1241752D3938233F4232553B8BF255A92C37F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49444,6 +50086,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int32Enum,UnityEngine.Matrix4x4>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tF73F53965CC04C7018C460F8A3C7B211797A2D4D_mB819E74FFCE12BECBAD6D63793622FDB835C5CE4_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t1818DBBAF3B46F3408F9797217A7385FA9ECBC18* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49458,6 +50102,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int32Enum,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tF70DDE0C5A349727371FB070D433FA147032A13B_m2E927FD408F4426BBC529FC8FFD7B6726D8E067C_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t33D62956ECFF975DD2EA432AA8856C8E2F9E7200* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49472,6 +50118,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int32Enum,UnityEngine.Vector3>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t4FE3608051BEBD190AEB2C7B27376911D8EF25B0_m71207D8F90AA000AC68387E1FEA9180D7EBE774F_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t428BDFA67EC413026CCBB7BFD59FECAD9913298C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49486,6 +50134,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int64,UnityEngine.UIElements.ComputedStyle>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tA1F840CB30C9D8AC1E1F1BC4347D21B598D5F0D5_m5E310024884CBD2073D3752736CAE43D35ED88F1_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t00549C5C4B070BB711BB3181DFD881A1CA1278E9* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49500,6 +50150,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Int64,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t88288FD7C987CABEE070E49639E8603D27AF799F_mB94C5C20E7AACE342D19D67AB135F500D7334B2B_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t2ADC9B361CD06A7E28663E978B538081E9917B21* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49514,6 +50166,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t91EA25BC5C63ED04F5E7DDC2D2E48D53C13A8B16_m5A452413BDDCAB02D9B200731F965D5B6195BD22_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t0CB4AF159300238194477F2A3A204F6A6C6DBB48* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49528,6 +50182,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.InputSystem.Utilities.InternedString,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tC24A74EF64A292F5C6BA77D0B04CD6620D2DE3AC_m772AE5D02404655C73E3E133F6E11616702790B8_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_tF8154B2302178CCE00D745DBF55F703880469DFC* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49542,6 +50198,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputControlLayout/Collection/PrecompiledLayout>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tE49DF4AB63A71F3F1079BB2829B680B3F8A3BE16_m71DF291D14F1984864673D8118F48055B0189B4C_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t0BE517F10D4376DF2EE6482CC1ABC4791DB17FC9* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49556,6 +50214,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Object>>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t17002D3A73FAA92AAA4DE89FE8B478A66C52718B_mC975055D593BC58C480DC517063CED7B3C52126B_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t1FF2B150904BD62D41D27D357A57F77D19EAF469* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49570,6 +50230,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t785B6EC223E70438CF66901A31D788AB0B36E29A_mD7D19BB4C175C2EA940B1591B6B84B63BC87C73B_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_tCC55A48ADCDE98BB48C38587D81226A1461B28EA* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49584,6 +50246,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,System.Boolean>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t7E5E41B933054DBF6F52C6CDF0BC2CB4B1606423_m043341D2D07F6BFDF86BFB08E200074AE1C9DE63_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_tBF6D6F778484697BCA6E3EE3B452F4A00B7117A7* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49598,6 +50262,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.Color32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tE15BD34F75B584F06758FD8C5E0A50897E927167_m1B6972C93F199C030E8CCBC29FD3B5BF10C649D0_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t1844EDEB8CC8F42C51E6F4C8039BA9BA5BDDBFF5* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49612,6 +50278,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tF11CA6D20F09EC4DAB7CB3C2C394F6F2C394E6B8_m5ED6DC6A9157C33F595011F7C04A57C4C8218080_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_tF5EFD20ACC3BB6CE90DBB51F3461B2C8F1D2E2F3* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49626,6 +50294,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int32Enum>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t35AA315F507A224F8B43D106DA0814C9811D8A7E_m98A96E6B84B264C4B005107F41F0CAB463BCD746_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_tE4B30B0755E4E979D68C7D8B7601F0D2A823049A* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49640,6 +50310,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230_m45A4386E7957411430A09049AE1C787AA51BB201_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t105762EC2DE353037ECAD13437FC19081314CE67* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49654,6 +50326,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,System.Single>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tA76653DFC8A4C9B07EC11B4FF878E42681D3EACE_m14D54A4947FC6ADDD77950460EC6332B1A25CDBD_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t93F25F26E1CDDB662EBE58D0452D04DDB6F30DEE* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49668,6 +50342,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.UIElements.StyleSheets.StylePropertyValue>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t1F6CA1DFD5BE9F6E000B16910DAC52C42E9B1567_mD6470F315D2D2E5B5F3D837D427B4FAD7A87C776_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t2F8B6745F061C171C430E783D1B25395AC92080B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49682,6 +50358,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.UIElements.TextureId>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tCDE07F3B8CB119BF2539CFB17A3B21E4D3C5FA33_m99FAEEBF168E61A01424C604026DB20E4C443C7F_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t99A5FD3F0B536B6D37DEBFD081CD6687E35E7DE4* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49696,6 +50374,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.Vector2>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t5FCDCECBAC4615B1D6C16612A028BBBF368C51D4_mA49952D3CF8E0390E7CC0172B0FA9EFC0981261C_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_tD9CA47909C5DBB11E7BBC75787D8858E0668B81F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49710,6 +50390,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.Vector3>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tFE7039CE3AFB1C8CD8922BB30673227BFDF26796_mD3C6F73F1CFD477F3C22B695F3CB5FEC6FE557DE_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_tAC9D915BB0D4985981C810C4DEF05313E1CFD2C6* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49724,6 +50406,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,Vuforia.ConfigData/CylinderTargetData>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t1E5042FB1CBB193BBDE5E8D0EEC1C87C9EF79EB9_m9C0B80264C3795DCCCBDDB9285820E4273BE04A7_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t5E7FCC4957289D8E67D2E042E05A9BA156E94BEA* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49738,6 +50422,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,Vuforia.ConfigData/ImageTargetData>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t6C36FCB67DF7DEEAE38D150B43F6C235648FF208_m0B3F19A105138467A5CED98344AC8606D2E1D6B1_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t65692417917E79F0E2DF35C27A9602550731C7D1* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49752,6 +50438,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,Vuforia.ConfigData/MultiTargetData>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t159008DD34B5ECEF00BA86CB3C0C036C82D795D9_m01EDE9CA7947F96B51FE9D0899E15EFE3C136A8E_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t4EEE3EF1151FFC75E630A7D174405EDD45B3AAA6* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49766,6 +50454,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tF5DD05EDBC520DD8097B5B6C4F393A65598F1A63_mB24F12BA58B1BB9FEDEE3258A7D6252749FB8510_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t465C837D307B25DB0C75DFA93BDBF1E7E0860628* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49780,6 +50470,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.InputSystem.UI.InputSystemUIInputModule/InputActionReferenceState>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t2B62FB8D7EFA99D41CE5EE3B1DF022212B1A3CDD_m1E1DF9BC2773BDADDCDF357BB40AE9EA01E56D57_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t328C5B067EAC969C589C29600689A4E0B1F563DE* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49794,6 +50486,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tF857B1C753163D05D6CE5351B5146D32C33F0B0C_mAA0901C6C1136385E42BF4009950357FF73E0976_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t23EB7B590043EB535E2B7A8C2765588E9D6DC674* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49808,6 +50502,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.UIElements.StyleComplexSelector/PseudoStateData>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t852F23A435B740B3D14D3CE08B14FFD4690334E7_m4DF7B4EB04AF62E548E3B5223C2EF3BE13D1309E_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t889086771E46EA552EA0DA1AE810C66A494D9F78* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49822,6 +50518,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Object,Vuforia.WebCamProfile/ProfileData>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t0DE777F3FF0D632868C7FED0E21B66A150D405A1_mBBFA5300845B2C985336EDC40902BDD44302E24F_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t12AB46EFFB93140DA33146ED84ECDE3F726D324D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49836,6 +50534,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.PropertyName,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t7D311E49C5BFA7AD0E1B6BDE838D7428E2CEDA13_mA6050FF9FAA3F62EAC2630885B3D858F25044D50_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t08FD13FB597B19940BEDC54974E7DE6FB8E54DEF* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49850,6 +50550,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<Vuforia.Newtonsoft.Json.Serialization.ResolverContractKey,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tC0FB5A0426DEC26F1C1B4B0F0EAD4E03BB5F1848_mE58E33FF3AC43E16032C86D27E85788C6C62B897_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t46DA875206D4F15C4C9F95A38CB3ECB469B52733* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49864,6 +50566,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t53ED52B6CCF9EE67874B20217661A725F4B0AC33_mABE113F27906A6D05F61911F774880BEDB386454_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t3E4871A874ADF8957776A2EDBD285897285C2FDF* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49878,6 +50582,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.UInt32,UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t757A11D5E61E20A1FA1D66746C464E68C7970041_mA0642C80E2170CB625BCE28065BE3C114E8C4E5F_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_tED1940A1C4FC6418ADC81623D38A87DDECFAE075* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49892,6 +50598,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.UInt32,System.Int32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t5A3FDAC04D913E59FF60D58CAFA8264F5F43A655_m24D33BD10F7F98B007AED9825C26983E67110BEC_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t0350226BB9E4C60CF912E824A7683D032D4B3FBF* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49906,6 +50614,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.UInt32,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tAC06C9E6230AA7E6BDA2F07D910C3CBE2F36399B_mCBA80DC391B73C7870C455DFCAEF2B3E82CB003E_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t507CDA5432F6D20050CE99321FB52CEF9E776871* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49920,6 +50630,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<MS.Internal.Xml.Cache.XPathNodeRef,MS.Internal.Xml.Cache.XPathNodeRef>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tF34E5A81603AC7D66F6CC0579133888A275D3937_mFB1B0CC4B7453482C973DF905EB4FED01B5C6DE2_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t074CDE742B1876B064906E345B1A1909777F980F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49934,6 +50646,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<Vuforia.Newtonsoft.Json.Utilities.ConvertUtils/TypeConvertKey,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_tEE6F2578D70264B7405027FB1D98E19C8246B6ED_mA6A98F450F28532E741C7A3BA4E2E463FE74523B_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t366B9AC5E3C218493E04B1D16EEBAE2525884584* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49948,6 +50662,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<Vuforia.Newtonsoft.Json.Serialization.DefaultSerializationBinder/TypeNameKey,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t9B22F42D40D79AAFB996058FB59BF64569DCA63F_m5237DC5DF0838D9A7D79E07D95D751AA518C8466_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_tB4526A768D668C2ABF97F2E990EDCE7E90B51A0D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49962,6 +50678,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<System.Text.RegularExpressions.Regex/CachedCodeEntryKey,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t07280F39D0691CE3006447A5EF281C3A867EAF95_m7E9E1DA380D3A1477414AC43FDBF8C1EC53466FC_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_tB128EB55E20DABB15A722F760383F1C23CB6BC12* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49976,6 +50694,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,System.Int32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t5262B590CA16F81E0E225FA2B90314261B2B4BC6_mDB3CFFF8295DF0619631A943EAE5D81B282F29EE_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t95A94889CB658E7B4C12C188D2EA1791F827BF83* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -49990,6 +50710,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,System.Int32Enum>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t68435994E8A66E579434AAA75502B7B6137A7B2A_mA79E70CF55AD957A4A1C129DB71E3F1FE4752B00_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_tA37DB0B7611E442F177E3F568EB45718B30EB635* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50004,6 +50726,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t5EA39A38B18A7FBA9D70D487DBE55714255FAAA6_m9541E4DD4AE672768D0CAB565FFEF65981C2DD9C_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t18981E8B4DA835E5A8BEC453FB6196F9A462D869* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50018,6 +50742,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StyleSheets.StyleSheetCache/SheetHandleKey,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyValuePair_2_t4D486866736280C7A079662D170F5444C27E50C6_m23D7F848538E7ECD3DDE2F8794799EB42A6A9B25_gshared (RuntimeArray* __this, KeyValuePair_2U5BU5D_t483C9A7E1529730398DA7E05E2540845C629FED3* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50032,6 +50758,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Unity.Collections.NativeArray`1<UnityEngine.Rendering.Universal.PreTile>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisNativeArray_1_t65CDBEDCEF4486754ED91C90C782929F1397FD01_m4A08AEFB4E76AF9EC6670855DA038A6B1948C73E_gshared (RuntimeArray* __this, NativeArray_1U5BU5D_t706B0D4A35032C9A9E45368A0B1D085DFFA910B0* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50046,6 +50774,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Unity.Collections.NativeArray`1<System.UInt16>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisNativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934_m1385F539425DAF54FCE826397523DDB531DCCBC2_gshared (RuntimeArray* __this, NativeArray_1U5BU5D_t5708752E67A3741D4DA0AC623A13517FB9F14F1F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50060,6 +50790,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Unity.Collections.NativeArray`1<UnityEngine.UIElements.Vertex>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisNativeArray_1_tB60512C6E4578B7CC8EB79321680E495E69ABF81_m403A36F38923897DFFF0C00A88E033FBC0900F9C_gshared (RuntimeArray* __this, NativeArray_1U5BU5D_t2AD369913045ED9C475A11EE2E250E110374E1E0* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50074,6 +50806,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRRaycastHit>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisNativeArray_1_t1ABEAB84724CAEAFCB8767B8502FD3185AC9CAD0_mC5C9E1445C1C28237837B84DF27D87FE2C576AE9_gshared (RuntimeArray* __this, NativeArray_1U5BU5D_tDE03AA4E156F57D3C8AB46696D4EE33FF8021124* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50088,6 +50822,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Data.RBTree`1/Node<System.Int32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisNode_tA8F7ED85FD786FE388B1ED3CF8DDFEDC56587258_mCB83C48225419EE97B1E823E5EE85E5B25884E02_gshared (RuntimeArray* __this, NodeU5BU5D_t9A048A3F7EEEBFF785C128A6FBAA7559BA9060BA* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50102,6 +50838,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Data.RBTree`1/Node<System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisNode_t39E89F54A46CA848B0AED9F5454D71E99D318FDB_m4416DAE0909FFC5578CC55B74AE3791F0AFCFBBC_gshared (RuntimeArray* __this, NodeU5BU5D_t0F850FD85FF7F257D5AE177EE5D0F953B15E505D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50116,6 +50854,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.LowLevel.InputStateHistory`1/Record<UnityEngine.InputSystem.LowLevel.TouchState>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRecord_t4205712C85C6F00A9F1DC4D23E20F595FCB4F6A4_mD92BC112F185A2206274F774713C3FB24AC802B6_gshared (RuntimeArray* __this, RecordU5BU5D_t235BEFB4F19741F75E720E16AE3426D37AF934AA* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50130,6 +50870,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.HashSet`1/Slot<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSlot_t71761A19CE5F0D3E3D6E46AAB9D13904F556A605_mE9D5401CA67ACEFDCE0EE2676979A5DBA308B774_gshared (RuntimeArray* __this, SlotU5BU5D_t6B99CFD639A3651E2F5D7B18D7BCF69B759B7508* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50144,6 +50886,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Linq.Set`1/Slot<System.Char>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSlot_t3D6F59B8061C33D6ADE1DDB6081830EA9663C334_m3D29DDFDA50836DF25D351672161CBBF8C959CCA_gshared (RuntimeArray* __this, SlotU5BU5D_t12A0B0E2B7B30A593E514A89B14D5D20B4ACAB91* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50158,6 +50902,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.HashSet`1/Slot<System.Int32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSlot_t22B135B722F7D592A58FAEDAD31DDA9BB7CD2FC8_m240973B7775544E9782F1FF6714A9F37616100DD_gshared (RuntimeArray* __this, SlotU5BU5D_tC4D7CD3E804DC835CCF2F990797BC1D9AE4330D7* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50172,6 +50918,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Linq.Set`1/Slot<System.Int32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSlot_tEA2D8282E9A5C3740D622EF2860F93438167A05D_mBB588B72B9B03F4A397BFCEF64BFB89591A883F8_gshared (RuntimeArray* __this, SlotU5BU5D_tB71D35C12A91C058A20499E93B4CE990F48FD301* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50186,6 +50934,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.HashSet`1/Slot<System.Int32Enum>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSlot_t0A95045068CA69D35855DB49026245B2D7F2E059_m513D698E8BAEC4225BC6AE0F46E80B4BB54B9138_gshared (RuntimeArray* __this, SlotU5BU5D_tF983180619181B43E8A87C70A9FC0D8456A499FD* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50200,6 +50950,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Linq.Set`1/Slot<System.Int32Enum>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSlot_tE875BCBFEE9E643CF0F37AE67222AE69E269B9A8_mD331FFA40FD302D65E64547164AA4A04094CF5AC_gshared (RuntimeArray* __this, SlotU5BU5D_t454C7B882E8BE30BA5A13CC4256D63D7AC93FD43* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50214,6 +50966,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.HashSet`1/Slot<UnityEngine.InputSystem.Utilities.InternedString>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSlot_t99E1DAD9EC10BC2CA3AD0951B37A54FB9B0C1992_m01214B5CA5301B6F06817D761713F70123D066FD_gshared (RuntimeArray* __this, SlotU5BU5D_t123558B2D530E4B5BD1DE3DEE7D54DDEEF5B44F0* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50228,6 +50982,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.HashSet`1/Slot<System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSlot_t4BB8CC974E5E3453C5B4BD5E6DC16498D0EF7744_m71947937A540F7C0225ADFC4D7E959B64B8AF2FD_gshared (RuntimeArray* __this, SlotU5BU5D_tF596AD324082C553DB364C768406A40BB3C85343* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50242,6 +50998,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Linq.Set`1/Slot<System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSlot_tE40ADD3E3758BFA1DB21D9E728F98EBFEF2AE27E_m437E5E2C73F1024FFB20B72C3ABA7148D30BD7B2_gshared (RuntimeArray* __this, SlotU5BU5D_tDFA127B491A86C278F29B78F2D76CBA3E1DB9B5F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50256,6 +51014,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Concurrent.ConcurrentQueue`1/Segment/Slot<System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSlot_t36E7BD2C949C62077BDCD89A5CA092508944F177_m00E24259E8E900B6DACC79550AE82FFA221530FE_gshared (RuntimeArray* __this, SlotU5BU5D_t50AA161D0E0CA4901F88A99B082CD5FA953B023B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50270,6 +51030,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.HashSet`1/Slot<UnityEngine.XR.ARSubsystems.TrackableId>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSlot_t0AF5775D319D73D08B84598B85F12FC5D1EFE5E5_mF09197B171CE95F6A676074D9183227CC406A97E_gshared (RuntimeArray* __this, SlotU5BU5D_t8B6763663F83272EA8D1F0278A6E57A7EE836B73* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50284,6 +51046,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Generic.HashSet`1/Slot<System.UInt32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSlot_t0F2C4321FC082433EA1889FA7952BA1F9A0D2382_m0F8891BCB888593F5332A8E2362038E5AC2E0681_gshared (RuntimeArray* __this, SlotU5BU5D_tBF418274114DA8D3D070D784415BF0500C1960C6* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50298,6 +51062,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Object,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStructMultiKey_2_tBE8AC1F77387A29245D48FBA8C8C8E1763344DD5_m6A85E128CD8665CA9DA761C372E09157CAA5AC0D_gshared (RuntimeArray* __this, StructMultiKey_2U5BU5D_t479B5DFCA62364D5370217B3F06CB45C19170E64* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50312,6 +51078,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.Background>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStyleData_t333EEFF82EBFC5313C5D5BD07C3E5258C87D2CC6_mC877FF8F5C3B838997A6103E8CA25719B4C1B620_gshared (RuntimeArray* __this, StyleDataU5BU5D_tF87CDE51588E78D4C87C144731581FB5284776E0* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50326,6 +51094,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.Color>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStyleData_t8548533307092B4D7E241CBD2A66549683A33C1D_m0C533BCE6A1214DCA48AE9D5484A333F54EAD3DF_gshared (RuntimeArray* __this, StyleDataU5BU5D_t73BFD33363F897414B879236BE0A0DCA6962B9AB* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50340,6 +51110,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.FontDefinition>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStyleData_t7B881346F61A413495F318F9A8EF71C751EC6472_m544335CE23323281EDE27ECE1F972FA891F3BB95_gshared (RuntimeArray* __this, StyleDataU5BU5D_tD406BDE6B313334D7A7241DDEA636226CC9C0043* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50354,6 +51126,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<System.Int32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStyleData_t8D7506F1365A34AF8BCC7E63AABBB64F8330C595_m0B6AB5AF662AE72F9129A8E9617E8D92CA8EAE7E_gshared (RuntimeArray* __this, StyleDataU5BU5D_tDA10AD1016A9574B39F73BE1DBE2E3A55720EAA9* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50368,6 +51142,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.Length>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStyleData_tD9916786C46848BD8A33B29D97785D1FB3886628_m2CB7AD7E05C6850DC3FDEA9A4D1B10B38A00746B_gshared (RuntimeArray* __this, StyleDataU5BU5D_t8ACFC9D6C572747CB5326B98E34DEE3AC989D876* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50382,6 +51158,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStyleData_t8D2C4DFD73B2CF505708E2AC1C384DE4D6CE30C6_mCE5BF3803715BA7682A6E081663E8EEE58D69200_gshared (RuntimeArray* __this, StyleDataU5BU5D_t93B88656D82161E5A58053D74E6C823720B88361* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50396,6 +51174,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.Rotate>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStyleData_tF4F082E86CEF208DCF726577323A81818B156F1C_mFB2F1A20AA6091D92AAFEC95C865B87BE1A2FCC7_gshared (RuntimeArray* __this, StyleDataU5BU5D_tBB18CE54D6B9B54229E01AFF7CCB44B8305F2386* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50410,6 +51190,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.Scale>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStyleData_t81910989C0A6416625FEA66A143ED9AA9CE6EAD1_mF53C681F6C84DE0F69D3D3E9CF9C6A9BE000550E_gshared (RuntimeArray* __this, StyleDataU5BU5D_t988DBB7FAB3D7D4E114C94A5CF2E305E3FFB2A7F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50424,6 +51206,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<System.Single>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStyleData_t3B3F0F1CEB43B375FD26CB3095AAC800DC07A976_m4F9CD7364D481B80F560A1F6C9D032F61838929D_gshared (RuntimeArray* __this, StyleDataU5BU5D_t73D276E94B9F65AFF0A22B0D465D05D5E9438F5E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50438,6 +51222,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.TextShadow>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStyleData_t8550AC117CD613FE87B52CC3540296500B7F3DF8_m944839E296B64CEEFD91957628BCD21C49650D03_gshared (RuntimeArray* __this, StyleDataU5BU5D_t597C3C3BF0BFFC87AB6037E85E0829D999602263* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50452,6 +51238,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.TransformOrigin>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStyleData_tDA8B8711D8BD18C0D6EB99A929976DDC956DD167_mE927461F452F267D595B1ADA254C8836A9AA3C10_gshared (RuntimeArray* __this, StyleDataU5BU5D_tDCCCED3D71A0A84CDB77E5222463121D4EB611CC* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50466,6 +51254,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.Translate>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStyleData_t516B303180A937637806C9C217FE06E3AACDEE23_m1442EEAACB1EEF837F5E639A1D201FECF9A9DB1E_gshared (RuntimeArray* __this, StyleDataU5BU5D_tAD21796096D8CBCE199118430F1C659AA1DFB822* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50480,6 +51270,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.TMP_TextProcessingStack`1<UnityEngine.Color32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3_m537D2622749E568B861D72D5ABDDDB948C093577_gshared (RuntimeArray* __this, TMP_TextProcessingStack_1U5BU5D_tFF25E22ABFD4865EABDC60ED9FDDFE3647B082A5* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50494,6 +51286,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.TMP_TextProcessingStack`1<TMPro.HighlightState>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D_m4A9450180B1FC428BEB980B700B553C391091C76_gshared (RuntimeArray* __this, TMP_TextProcessingStack_1U5BU5D_t8449E56A6E128DE785304DE016DF042C920D7AC9* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50508,6 +51302,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.TMP_TextProcessingStack`1<System.Int32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C_m2E2E3A6B8AC6FF3233CFD5F770B61FD161723B3E_gshared (RuntimeArray* __this, TMP_TextProcessingStack_1U5BU5D_t08293E0BB072311BB96170F351D1083BCA97B9B2* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50522,6 +51318,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.TMP_TextProcessingStack`1<System.Int32Enum>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTMP_TextProcessingStack_1_tA1252F156B42CCD2773D5A32C56DA9E021706659_mD37284BB5E0990E0251710155A326EC023690FD4_gshared (RuntimeArray* __this, TMP_TextProcessingStack_1U5BU5D_tAF886A1B0D80751EE78E2AD20BA95C8C8256EB23* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50536,6 +51334,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.TMP_TextProcessingStack`1<TMPro.MaterialReference>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9_m0D78D18E9EAE8F72A8C29CC322EBEA7D504A462A_gshared (RuntimeArray* __this, TMP_TextProcessingStack_1U5BU5D_t477EE2238D7DFB346A2CECA1BBFE7F0FD915FDEB* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50550,6 +51350,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.TMP_TextProcessingStack`1<System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTMP_TextProcessingStack_1_t2A4A4F86DEC2892F4B6D6B29A6473437E6C9EE35_m797C77F6679440FB6C4FBDC63DE8C9C80E9CE008_gshared (RuntimeArray* __this, TMP_TextProcessingStack_1U5BU5D_t82D7FF4C5702130372DA5F4AB3E4E2E94F14013C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50564,6 +51366,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.TMP_TextProcessingStack`1<System.Single>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9_mB75A7A2143E054371C2D342A86267F513EE1E330_gshared (RuntimeArray* __this, TMP_TextProcessingStack_1U5BU5D_t65801C3C42622672C53F341EA7D51ED282DBE189* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50578,6 +51382,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.TMP_TextProcessingStack`1<TMPro.WordWrapState>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F_mD349ACFA4AF72D1E6EE137074103E1D2B5D8C249_gshared (RuntimeArray* __this, TMP_TextProcessingStack_1U5BU5D_t27B296F19A63566DD36A1D9D40ADEA8229CEC1A9* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50592,6 +51398,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.UIElements.Background>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTimingData_t9A97DB81A0CFA7AC972B32A494B47406B711AD0D_mA9E180AC905986433368A376EBD3C38EB6476029_gshared (RuntimeArray* __this, TimingDataU5BU5D_t0DDECCB612303E94B577E5978AB4B36B5192AFB1* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50606,6 +51414,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.Color>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTimingData_t34C4E95C26A0148A8A1940FA3BE460BD371FE5FE_m93136546F980AEE7DEFA35B6517A6737C476810A_gshared (RuntimeArray* __this, TimingDataU5BU5D_t03C8C38B8DBF52B9A23FB2B77BEC41E63D4A3994* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50620,6 +51430,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.UIElements.FontDefinition>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF_m03E50DBFCFB8CBA245A5A2185839C02DE0839F04_gshared (RuntimeArray* __this, TimingDataU5BU5D_t45DAD27FEA03547B7581715461816FA37E7EC651* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50634,6 +51446,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<System.Int32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTimingData_tB9F07E55FE507E685F5E816A57949C38DCD6E263_m474A256A1B7E27A87F5ED1383ED4A2B8F1C3B317_gshared (RuntimeArray* __this, TimingDataU5BU5D_t9253C6811381B1932706D115D067841C7175C077* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50648,6 +51462,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.UIElements.Length>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTimingData_t9FA7CAC423BACD236FBF49326BDD83D06DF44288_m8B5B2A7A92F37A69ABDE1526ED9F29BD7D55EA4E_gshared (RuntimeArray* __this, TimingDataU5BU5D_tA5BE0E019AB587A0072682D5535D2295EC6F04B9* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50662,6 +51478,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTimingData_tAC897652D090176D4DE63A3E05988D165A785F09_m6B8F9D670BC31BA7DA80CB7F756B90B460E3EDED_gshared (RuntimeArray* __this, TimingDataU5BU5D_t86A2877F21E58289C845548B2244BFCA090918B1* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50676,6 +51494,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.UIElements.Rotate>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTimingData_t9F5BE2ECB5F5FDBD04072B4459F64CB033858F11_m668513CD93B8C572A024F50DB179EF1C22923835_gshared (RuntimeArray* __this, TimingDataU5BU5D_tE963FB40D15F6761CC687300F7A3EFCD58A8505A* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50690,6 +51510,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.UIElements.Scale>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTimingData_t098AB9F533C2FCADF814F88C5A5C79F7AF2FCF49_mAAAE9D686688BD188A383CD9D2FB6CD8270CE3ED_gshared (RuntimeArray* __this, TimingDataU5BU5D_t0BCD78985159E6EF1D974E34B209EDE880E06269* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50704,6 +51526,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<System.Single>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTimingData_t7E5D81E44DD38F0BFB0350F529E539BB94000C7A_m8348D2CADB9EB23EAE3AB32EC7D1633872B34D3D_gshared (RuntimeArray* __this, TimingDataU5BU5D_t370B0476A79A76456F04BA6664A963CC579E9CD0* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50718,6 +51542,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.UIElements.TextShadow>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTimingData_t70F8D4FF0A51972717A1ED53525241240EF457FE_m50CF775D22202F1BF5D56A11A1A12EDFE539FDC3_gshared (RuntimeArray* __this, TimingDataU5BU5D_tE92E1403336542C4CF4B76824A22545D0EB14E14* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50732,6 +51558,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.UIElements.TransformOrigin>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTimingData_t0F88AE7B3D3525F39CAAED92C1983CCCF4961B92_mE8D499D2AA609F14E1BA9BE9D9452283B8CE3B1E_gshared (RuntimeArray* __this, TimingDataU5BU5D_t1C0E9B6D937D57C27438BFA33BC2DB905EE4973E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50746,6 +51574,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.UIElements.Translate>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTimingData_tD402D38A47B4E24DECDDD6B9725E579AD10131F3_mF22F9159DB9EC161FDAB1D3A92C1D8702DB515DC_gshared (RuntimeArray* __this, TimingDataU5BU5D_t634CA6261A1EDA23867D38722881D8D9610065E3* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50760,6 +51590,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.ARCore.ARCoreFaceSubsystem/ARCoreProvider/Triangle`1<System.Int32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTriangle_1_tCB71783FB3769A6B5EC63107AA1E6A0C2F41283C_m16CEFA0C6F1FB2420D739C42D224C900FE4FCE4C_gshared (RuntimeArray* __this, Triangle_1U5BU5D_tD7DDB80A62841510C1D8E43405E9FA436D46B4BC* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50774,6 +51606,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.ARCore.ARCoreFaceSubsystem/ARCoreProvider/Triangle`1<System.UInt16>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTriangle_1_t37AD500EBA0FF178D5A11334D2731DE378640303_m617C36833BBC7FA8D1EDF3148B466A6D43FC208F_gshared (RuntimeArray* __this, Triangle_1U5BU5D_tB6A3C8B3C22E2122C72D5E9F3C15FC140404C76D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50788,6 +51622,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.ValueTuple`1<System.Boolean>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisValueTuple_1_tBFF71B8F72F9D197DB09CFE88F0C8C7FE97CEF75_m7571347CE5EBEA8BFB2F35CC84A1E8CD72BBA898_gshared (RuntimeArray* __this, ValueTuple_1U5BU5D_t9FB5BE00DFD52CBD30706C8E4D1B688743C97DBD* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50802,6 +51638,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.ValueTuple`2<System.Object,System.Int32>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisValueTuple_2_tC57529B8C1EE84CA3D138FBE3836C013C6DC40AC_mE4274CA2458AE9CF4AD76EFC75F68E959F934766_gshared (RuntimeArray* __this, ValueTuple_2U5BU5D_t110F884211ABF43A43543A6BF0C2969D0C080468* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50816,6 +51654,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.ValueTuple`2<System.Object,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisValueTuple_2_tC3717D4552EE1E5FC27BFBA3F5155741BC04557A_m6CDA7470F9C0174F31A567F30F6DF239417CDAFB_gshared (RuntimeArray* __this, ValueTuple_2U5BU5D_tDEEAFCC1B39456246D3A0D4D92FF7592CA9EC962* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50830,6 +51670,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.ValueTuple`2<UnityEngine.Vector4,UnityEngine.Vector2Int>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26_mBAF9C3B42A2262B1A8B03478F066DC4D6FE4984C_gshared (RuntimeArray* __this, ValueTuple_2U5BU5D_t1F1756C7CD3A03247CEEFEE7EB2191DBA662550C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50844,6 +51686,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.ValueTuple`3<System.Object,System.Object,System.Object>>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisValueTuple_3_tC9C1846E6BD237797AE9B56D5138EE67C1B5FA01_mF88E2CB7C13AA37A66600689C20BF57206A211CB_gshared (RuntimeArray* __this, ValueTuple_3U5BU5D_t319659A4FB23B5B8E7D33757A6BDF3ADFA31AF80* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50858,6 +51702,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.ARCore.ARCoreFaceRegionData>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisARCoreFaceRegionData_tC5ABC889AB00A0DB777FFB44FD943E772F8A4F11_m2A697EC21DDF6AD4BE8C9990B39A83161D5E8C26_gshared (RuntimeArray* __this, ARCoreFaceRegionDataU5BU5D_tC81C80D5685EF3C0AAE2FCD99DD9D9B79B98E1F2* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50872,6 +51718,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.ARFoundation.ARRaycastHit>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70_m7BFE1C1BE30E024EF80F40739387BF6924C56231_gshared (RuntimeArray* __this, ARRaycastHitU5BU5D_t34FE14E360F945895923A0FE69CC277E7D13027E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50886,6 +51734,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.ARFoundation.ARTextureInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisARTextureInfo_t008DA41DF9555306803303A0353619E5C0917261_m06D5BEEF87D5B52C747E4DBD75BBD02999FD8C91_gshared (RuntimeArray* __this, ARTextureInfoU5BU5D_tB48816C80657AA138EF9EA6F8496EE9D88835B86* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50900,6 +51750,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisAsyncOperationHandle_t58B507DCAA6531B85FDBA6188D8E1F7DF89D3F5D_m10B490E7F6D06F79F2121645B897349A988F9F90_gshared (RuntimeArray* __this, AsyncOperationHandleU5BU5D_t968CEAAAE58B36C9BDFD590CE6407374A8526562* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50914,6 +51766,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.AttachmentDescriptor>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisAttachmentDescriptor_tBAC9B26B50BB0838C5C0CC22BB296F9DFF41276E_m56AD08A2B5EF1B86B91DDDB40638287F4203164B_gshared (RuntimeArray* __this, AttachmentDescriptorU5BU5D_tC70107EBD955FE94BA31C7FDC146069EF9C547C1* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50928,6 +51782,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.Background>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisBackground_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8_mC7AE74ABC68620BDB0165B228187954D96BAFA10_gshared (RuntimeArray* __this, BackgroundU5BU5D_t29762095DD694E79A85A59135735FF02E54C4B46* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50942,6 +51798,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.BatchVisibility>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisBatchVisibility_t0AC94FB0AE271C762F911D4602604F4D83837CEA_mA60702B08C0595C830AB64DA4E7161BF8E0529FF_gshared (RuntimeArray* __this, BatchVisibilityU5BU5D_t2D291BCF45E35B3919FE6CE23527BEAD7196AFA4* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50956,6 +51814,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Numerics.BigInteger>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisBigInteger_tF7779A0AA6D6B9BE0E0C1C293E7708765DEF7D0F_m7C45975998DF51EFB6235AF4531F86C0C84B6CDF_gshared (RuntimeArray* __this, BigIntegerU5BU5D_t784AAD3CDE7065E98D5CF564F12BC30C7816BEDB* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50970,6 +51830,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Boolean>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m9956958784E0E6EB5172924EC653204D532DA234_gshared (RuntimeArray* __this, BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50984,6 +51846,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.ARSubsystems.BoundedPlane>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisBoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE_m69FCA08816A64A02A78423608526CB2D55405D81_gshared (RuntimeArray* __this, BoundedPlaneU5BU5D_t74294DC62204922A8A751FB478FB4E919A56F554* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -50998,6 +51862,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Byte>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mD9FB22B023BC482D89EEC2AA9DD137DF8995B444_gshared (RuntimeArray* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51012,6 +51878,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.ByteEnum>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisByteEnum_t2A464EF5EC59CBA8ED5E194537D5832168B1A692_mF1DB40AFD61CF20F10C322F8756E989FC7BD928A_gshared (RuntimeArray* __this, ByteEnumU5BU5D_t3412BE199EF8E81F3771FD71C58E2AC4F6DA7D62* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51026,6 +51894,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Char>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_m31D8C2E5D3E90B25B48AB573C5A98741BEBFBE40_gshared (RuntimeArray* __this, CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51040,6 +51910,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Color>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_mBDE99BBFF3C4C32F37A8FAC69F6BEF1A7DF2E2D4_gshared (RuntimeArray* __this, ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51054,6 +51926,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Color32>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisColor32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B_m1C663D44BB551D2D1ABE8C11ECDF693A6B7F444E_gshared (RuntimeArray* __this, Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51068,6 +51942,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UI.ColorBlock>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11_m6C28FC07CCF2F21DE91BCB331937EDCE17883505_gshared (RuntimeArray* __this, ColorBlockU5BU5D_t15403DAEAB234FE5927F08FC9968B78E2B1D14B6* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51082,6 +51958,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.ComputedStyle>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_m659CF5E96A2F2601A7EC5FC2E6142A369B713A4C_gshared (RuntimeArray* __this, ComputedStyleU5BU5D_t5788A65BE5BB84772F17BF2F6961F00560B3FF90* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51096,6 +51974,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.ComputedTransitionProperty>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1_m25A5DD741E1E773E693845B73A083C0BEB49964D_gshared (RuntimeArray* __this, ComputedTransitionPropertyU5BU5D_t25B9E78F5276CDA297C8215C316452CAB8219E82* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51110,6 +51990,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.ARSubsystems.ConfigurationDescriptor>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisConfigurationDescriptor_tD16AA30B812AA662D234FBFE6575AF8A328CA3A1_m613E54286975D950A758A34C804A9C535CE29E85_gshared (RuntimeArray* __this, ConfigurationDescriptorU5BU5D_t3FC9B972F52001F3F67A05FCF3EC23E68B9AB28A* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51124,6 +52006,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.ContactPoint>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisContactPoint_t241857959C0D517C21F541BB04B63FA6C1EAB3F9_mA9E1831ABD6ECF3B300089465464FAE7D7A98A6F_gshared (RuntimeArray* __this, ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51138,6 +52022,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.ContactPoint2D>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisContactPoint2D_t16A7EE2DDFB4FA3A09C6554E11F30CEDAEBFA801_m47A898102469081D2473D78539809201E1A32984_gshared (RuntimeArray* __this, ContactPoint2DU5BU5D_t427621BF8902AE33C86E7BF384D9B2B5B781F949* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51152,6 +52038,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Reflection.CustomAttributeNamedArgument>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisCustomAttributeNamedArgument_t4EC1C2BB9943BEB7E77AC0870BE2A899E23B4E02_m9912C82AB6A5ED4F6A24FADD7D64D652FE76DF5A_gshared (RuntimeArray* __this, CustomAttributeNamedArgumentU5BU5D_tC0A39D9401E28662213F5958EFF5D26D0681B440* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51166,6 +52054,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Reflection.CustomAttributeTypedArgument>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisCustomAttributeTypedArgument_tAAA19ADE66B16A67D030C8C67D7ADB29A7BEC75F_m5C2881F581B2D5E95D13BD859B383AE4C5EDF3B0_gshared (RuntimeArray* __this, CustomAttributeTypedArgumentU5BU5D_t6CAA09EC6AACBED57FC8B02C587D50BF6B738C6B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51180,6 +52070,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.DateTime>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisDateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_m30F32EF34E4ABA3F5C043882E19F6095510B56F3_gshared (RuntimeArray* __this, DateTimeU5BU5D_t8F9285FE729A200A620421ED546CFB3DCF386EA1* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51194,6 +52086,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.DateTimeOffset>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisDateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4_m2B166C77203B7774037E4686E7A66FD4FB243D9E_gshared (RuntimeArray* __this, DateTimeOffsetU5BU5D_t4B1B162A847F71BD683074F71C599EF82CA8235E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51208,6 +52102,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Decimal>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisDecimal_tDA6C877282B2D789CF97C0949661CC11D643969F_m32AA998081DF3C3469190AEA7CB2C952C61053C3_gshared (RuntimeArray* __this, DecimalU5BU5D_t93BA0C88FA80728F73B792EE1A5199D0C060B615* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51222,6 +52118,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.Universal.Internal.DeferredTiler>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisDeferredTiler_t2F171ACEF3B3A64DDAC0C713A2358FFE9D169F8F_m2280A5F825235EA81AD7DF0157AC272C1748FE21_gshared (RuntimeArray* __this, DeferredTilerU5BU5D_t5968121C14BD0308FEA2AED51AEE342621CED3DA* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51236,6 +52134,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisDiagnosticEvent_t33E1175DA005D137D20535AB25ACE16837A3A274_m7F81B3FEEDE5ADEC56FAA86B44EB7730C3D2F837_gshared (RuntimeArray* __this, DiagnosticEventU5BU5D_t94E38C770CB7D8D3703DFD4FDDBC92FC4D473A95* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51250,6 +52150,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.DictionaryEntry>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisDictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB_mC1CB29B271CD91446A3B134BC6B68EE4A107FFBF_gshared (RuntimeArray* __this, DictionaryEntryU5BU5D_t410156653E754D17B5E1161CC6CF565103B63533* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51264,6 +52166,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StyleSheets.Dimension>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisDimension_t5B1EAB500AE32C3789A2BCC4D43F7A29996DF3F8_m3BC17291936FDF1A1B6E3FC48F05375686739940_gshared (RuntimeArray* __this, DimensionU5BU5D_t1EE1B3F9368D444E779CAB3E1CBD9959F8762F4B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51278,6 +52182,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Double>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_m626DA408529B5A61E403052F502E287CEE78E822_gshared (RuntimeArray* __this, DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51292,6 +52198,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.UIR.DrawBufferRange>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisDrawBufferRange_t684F255F5C954760B12F6689F84E78811040C7A4_mB573E3446F7313858C952F2D8159093BA5432984_gshared (RuntimeArray* __this, DrawBufferRangeU5BU5D_t0B6561301C657E693EB8179784179C5C85DFE66D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51306,6 +52214,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Vuforia.DriverCameraMode>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisDriverCameraMode_t987B41E6764485C11BD523B51898D0F8ED226C9A_m460B813300DDA9C7EBF6E99CF7CE12ECC4309E75_gshared (RuntimeArray* __this, DriverCameraModeU5BU5D_t20A33275D2A197484BD31153ACC12596433CCE5C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51320,6 +52230,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.EasingFunction>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4_m6CB08F19DCB09BCCFECB81A8F1C1B0BA88F7B77F_gshared (RuntimeArray* __this, EasingFunctionU5BU5D_t3EEBBFFAD92EA74C3960D5F78D2A98BCEEA62E49* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51334,6 +52246,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Runtime.CompilerServices.Ephemeron>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEphemeron_t74F279F5E7CF4A0CFC21C822431DD840572C6DA2_m3E0B156B6381933AACDDF670B5001DE163351C0D_gshared (RuntimeArray* __this, EphemeronU5BU5D_t4F80428A1142C3102C946127F8190063001742E8* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51348,6 +52262,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.FontDefinition>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisFontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C_m46163910CCE8118AEA3422388C2765DE5649C35A_gshared (RuntimeArray* __this, FontDefinitionU5BU5D_t31BDC3E2D72918B36F815F95F7CBA1F057E3DA39* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51362,6 +52278,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.TextCore.Text.FontWeightPair>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisFontWeightPair_tB94169BD86D0DFC25D651F890B15991A3E0ADA42_m20DBE8099AD68A4AA5278480C5CEE8E949E73201_gshared (RuntimeArray* __this, FontWeightPairU5BU5D_t76E8DB55C81EEBEFA2E6D1D3E3B3EA1FB4C4954F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51376,6 +52294,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Runtime.InteropServices.GCHandle>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisGCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC_m558B9BAA65BD0A58F5F8E5ECAC98AF8CA57E0798_gshared (RuntimeArray* __this, GCHandleU5BU5D_t7EA6F2FA83CDF86871001174CF7D30033AC4A785* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51390,6 +52310,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.UIR.GfxUpdateBufferRange>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_m91D1C17146FB974767D3E588D064385AC506D9D2_gshared (RuntimeArray* __this, GfxUpdateBufferRangeU5BU5D_t0940AD0FE789F25AEBABCBD8F7BFB27AE3DAAE84* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51404,6 +52326,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisGlyphMarshallingStruct_tB45F92185E1A4A7880004B36591D7C73E4A2B87C_mBF049561772FDF4365140461DC5CAF7FDF8A8925_gshared (RuntimeArray* __this, GlyphMarshallingStructU5BU5D_t9424A4B1FAAD615472A9346208026B1B9E22069E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51418,6 +52342,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisGlyphPairAdjustmentRecord_t6E4295094D349DBF22BC59116FBC8F22EA55420E_mB43096051FEF41C8CB75DA8CDB2BD0CD698BF048_gshared (RuntimeArray* __this, GlyphPairAdjustmentRecordU5BU5D_tD5DD2A739A4CA745E7F28ECCB2CD0BD0A65A38F7* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51432,6 +52358,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.TextCore.GlyphRect>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisGlyphRect_tB6D225B9318A527A1CBC1B4078EB923398EB808D_m6F55B16C0B9B23386EAF9D6344685C9696C1D2B9_gshared (RuntimeArray* __this, GlyphRectU5BU5D_t494B690215E3F3F42B6F216930A461256CE2CC70* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51446,6 +52374,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.GradientAlphaKey>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisGradientAlphaKey_tF469955E4BBAF1044320D956CD8D990F1A26EAA0_m501E3BFF84C701D5355F312D9091B199B26E8F1D_gshared (RuntimeArray* __this, GradientAlphaKeyU5BU5D_tA5D7ED787780B5C01635C8C59B15B2BC01AEC50E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51460,6 +52390,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.GradientColorKey>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisGradientColorKey_tBD03A613338639E3774A10265CC5F3619C13421A_m38DE928AC9C3BC59477442390829222C0D4EAC32_gshared (RuntimeArray* __this, GradientColorKeyU5BU5D_tB8929E6EE130CA1F3C1664B300BE83A95A642C18* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51474,6 +52406,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.GradientSettings>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisGradientSettings_tADA3CAA17319C58811DE187298039CC950FBAAF3_mBF4317F178F709823AA41ABF4C952C3E65F20294_gshared (RuntimeArray* __this, GradientSettingsU5BU5D_t5A316EDE81269563C087800A519341276F98AF9C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51488,6 +52422,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Guid>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisGuid_t_m68D0101065524F30A16988B1074D897CD6657988_gshared (RuntimeArray* __this, GuidU5BU5D_t0B65C049D6CE72B5A2BF6E42AE9C98CEC1BE6B42* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51502,6 +52438,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Hash128>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisHash128_t93367F504B687578F893CDBCD13FB95AC8A87A40_mA3D178E95C1EEF1AA296193EA657404612D8CD6D_gshared (RuntimeArray* __this, Hash128U5BU5D_tB104E7247B842648E447B7FCF4748077DC1F8C98* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51516,6 +52454,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Net.HeaderVariantInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisHeaderVariantInfo_t99223ED0C557730FBD8AA572065B994254F3386A_mC89C1D26A088449E6FCB856567C7809FE3C8C6A0_gshared (RuntimeArray* __this, HeaderVariantInfoU5BU5D_tA7C0539249B1D08DAB6416355720F4D28D6CE747* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51530,6 +52470,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.HighlightState>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisHighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B_mACE2F132609663294F4E2F2E86D503F090424A47_gshared (RuntimeArray* __this, HighlightStateU5BU5D_tA878A0AF1F4F52882ACD29515AADC277EE135622* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51544,6 +52486,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Data.IndexField>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisIndexField_t6285D0782FB7D55EC60F7DFB20AF7D3E7D37B795_m62C72EBF4F13514F34AEEFF4D1FFA0B86F8BD0E2_gshared (RuntimeArray* __this, IndexFieldU5BU5D_t2E1FE07C5E6C8080FCF4908199FFDFEBA1EECA3E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51558,6 +52502,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.InputBinding>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisInputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5_m220FA0A4BCF5B50D2E1364EF8F1B91E1D8B93601_gshared (RuntimeArray* __this, InputBindingU5BU5D_t7E47E87B9CAE12B6F6A0659008B425C58D84BB57* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51572,6 +52518,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.InputControlScheme>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisInputControlScheme_tB60FB32F414727140B32E1A0447679DC7ABC8434_m46A034B7663B827E402A9047CF4B848FA2FA75C8_gshared (RuntimeArray* __this, InputControlSchemeU5BU5D_tAE603126FBD4D6B8F67EA6F8CFA531A646C63D86* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51586,6 +52534,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.InputDevice>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisInputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD_m39DA6F4413039E76E5C3CB67875EC029D82238A8_gshared (RuntimeArray* __this, InputDeviceU5BU5D_t1361FC6DDFE12D211F933B024E51B7E5CF073F63* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51600,6 +52550,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.LowLevel.InputEventPtr>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisInputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0_m44AC1EC4F37148E2A1627E3AC62A643D5EA5C993_gshared (RuntimeArray* __this, InputEventPtrU5BU5D_tC8D2CB7018396F4C074F2202E79522E9B0979821* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51614,6 +52566,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Int16>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_m4D4B012E4F892645475578DC599D81CB4FE72E6A_gshared (RuntimeArray* __this, Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51628,6 +52582,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Int32>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m6C30393D3A91B77A08F43BE0E8D425ED92B62A40_gshared (RuntimeArray* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51642,6 +52598,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Int32Enum>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mD3EBFF0450E60B614EAD33124B924CA321FBF2DE_gshared (RuntimeArray* __this, Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51656,6 +52614,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Int64>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m83C0F6509D2EC503B08D200210787E02476F6778_gshared (RuntimeArray* __this, Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51670,6 +52630,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.IntPtr>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisIntPtr_t_m9C0235998D05F7E53F42C2A7F1C8997842E29CBF_gshared (RuntimeArray* __this, IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51684,6 +52646,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Globalization.InternalCodePageDataItem>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisInternalCodePageDataItem_t6B4913D6507B26FFAE0B805874644D3DBE78F316_mA55DA9AD0CB64A0B3CB7D914F27920419B03C6AD_gshared (RuntimeArray* __this, InternalCodePageDataItemU5BU5D_t33622E365514085FB25BF5886B358FC250BFD1B4* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51698,6 +52662,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Globalization.InternalEncodingDataItem>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisInternalEncodingDataItem_t1D6DA6BCE8389C12ECC229A644D2CA45A86C06EB_m9D2DCFADC1A8ED816E63733BD3696ABF7F2A488C_gshared (RuntimeArray* __this, InternalEncodingDataItemU5BU5D_t49FE80FF7C98C9D6DA8B7F41AF7F053B2B4B387E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51712,6 +52678,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.Utilities.InternedString>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisInternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735_m1619A8119D0FB0DD1F2B35280AB446234DA646E2_gshared (RuntimeArray* __this, InternedStringU5BU5D_t0B851758733FC0B118D84BE83AED10A0404C18D5* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51726,6 +52694,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Linq.Expressions.Interpreter.InterpretedFrameInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisInterpretedFrameInfo_tEF62B79D176B8D032C22953AA0D5B581C4076321_mEBCF7D0AFCCEA4058C2487786BBE28BA8A721BD4_gshared (RuntimeArray* __this, InterpretedFrameInfoU5BU5D_t97E24C7783C90A15DDACF04305E730DBAEC0A8BB* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51740,6 +52710,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Unity.Jobs.JobHandle>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisJobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08_m5906757843FC056333F876E341A41DC11A887481_gshared (RuntimeArray* __this, JobHandleU5BU5D_tE3F0B60D91B15CD5B332314268E9315F48F79CEC* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51754,6 +52726,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Newtonsoft.Json.JsonPosition>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisJsonPosition_t7788656A280615072710710E8C15D23285850E8E_mC941747286A28B128278574FE819EA76B3C3053C_gshared (RuntimeArray* __this, JsonPositionU5BU5D_t529EF84770C7EF9DFD154612EED7169C4AF13338* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51768,6 +52742,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Vuforia.Newtonsoft.Json.JsonPosition>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisJsonPosition_tA78E88A83CDF482A154F39054277D613031379DB_mBEB42CF878BB8B051D22AF79AFD7C557BA804CD3_gshared (RuntimeArray* __this, JsonPositionU5BU5D_t0770A9CAABADDE8CF4C17B63B0F5E8CB039057B3* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51782,6 +52758,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Keyframe>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisKeyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0_m3128D981A9C91271021747DD125A5DED7A250BB9_gshared (RuntimeArray* __this, KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51796,6 +52774,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.Length>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisLength_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256_m58F0A6BFD7419C0ED87D4F54C614237E24923508_gshared (RuntimeArray* __this, LengthU5BU5D_t6E92E14664BA86924824C32A0BBE10AEC53C7FAE* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51810,6 +52790,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Experimental.GlobalIllumination.LightDataGI>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisLightDataGI_t47D2197E863C0DDA40C2182FBF0A21367E468E21_mE1732FCB3DE4D049E3E239D9EE562E3D8B862008_gshared (RuntimeArray* __this, LightDataGIU5BU5D_t601249761317191DDFD88CC86C182176C9EFD713* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51824,6 +52806,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.Universal.LightMinMaxZ>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisLightMinMaxZ_t35F5D7C894F59869B016DD721281363A277594A6_m8453904E661A05077F5E3FE6683300B41701E575_gshared (RuntimeArray* __this, LightMinMaxZU5BU5D_tE9EE00CD75944C1D176D55BB085342925FE7AD92* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51838,6 +52822,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.TextCore.Text.LineInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisLineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5_m7C029F9DD52208D6AF734EB2ED5BE7E618676413_gshared (RuntimeArray* __this, LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51852,6 +52838,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.TextCore.Text.LinkInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisLinkInfo_tE85DDAFDFBDA635E6405C88EE4FD5941A9243DD8_mE3E30C1D587651097A9D7588B8F34458D662D0E6_gshared (RuntimeArray* __this, LinkInfoU5BU5D_tB7EB23E47AF29CCBEC884F9D0DB95BC97F62AE51* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51866,6 +52854,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Linq.Expressions.Interpreter.LocalDefinition>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisLocalDefinition_t7B90DE35AAE919E1C79BA7EAFB99BF70589B1C02_mD7A4E1CDF436EE224A06F2506E837E4F74594709_gshared (RuntimeArray* __this, LocalDefinitionU5BU5D_tE2AEBDCD1C209B76F74C1A118B36CCD165B1563E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51880,6 +52870,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.ManipulatorActivationFilter>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisManipulatorActivationFilter_t866A0295DA75EA271B30BDC1F9EEA2C4FDEB1A81_mC6B0B1122FC4A6FF0CD1257FBF8C9848013EEA2A_gshared (RuntimeArray* __this, ManipulatorActivationFilterU5BU5D_tE2A0BDE194B3B4600164AE8238C8CE2B20DBD4D7* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51894,6 +52886,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.MaterialReference>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisMaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B_mD59C7862048C09BA58BAB93D3B537714B7FA677D_gshared (RuntimeArray* __this, MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51908,6 +52902,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.TextCore.Text.MaterialReference>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisMaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26_mB93645290045514C162F4CE2CD3467E0D1BB8415_gshared (RuntimeArray* __this, MaterialReferenceU5BU5D_t4A9B88114E223BD96CE5121053664023CE2DE07E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51922,6 +52918,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Matrix4x4>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisMatrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_mE9476A7E0A667CDC18A0CC74C89BF5A66A5821E4_gshared (RuntimeArray* __this, Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51936,6 +52934,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.TextCore.Text.MeshInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisMeshInfo_tE55C4A8846CC2C399CCC3FE989476D987B86AB2F_m591C2241D4824EA5701077B3C317A9E1412AD0CD_gshared (RuntimeArray* __this, MeshInfoU5BU5D_t3DF8B75BF4A213334EED197AD25E432212894AC6* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51950,6 +52950,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.ModifiableContactPair>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisModifiableContactPair_t8D3CA3E20AF1718A5421A6098D633DDA67399960_mBF3BAE8D4863B390CDC05B3FFDA2964558929C80_gshared (RuntimeArray* __this, ModifiableContactPairU5BU5D_t49FEE281D78348FA04D235768FBD95339F730D5B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51964,6 +52966,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.Utilities.NameAndParameters>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisNameAndParameters_t8F37102128EFD31CA57808AE6E3D1244758DEA01_m1B5AD239154DA5A6D922CC2407650A0E194D0843_gshared (RuntimeArray* __this, NameAndParametersU5BU5D_tA6C2AC34ACDB1967A7A2CEF4BE1D717ADA695CA2* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51978,6 +52982,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.Utilities.NamedValue>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisNamedValue_t1D89B1ACD11D2B5284666865014E67683742B8ED_mDA3E812953BC9A53BF9EAB45E305F79095F29A56_gshared (RuntimeArray* __this, NamedValueU5BU5D_tADD8F1373B88C55F68499688D72C21A97F63303A* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -51992,6 +52998,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UI.Navigation>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisNavigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_m27FA4EEF9C1639A6F9FAC929E82CA67EB9DC559A_gshared (RuntimeArray* __this, NavigationU5BU5D_t483F9B11FAE385AD99CDEB565C84D993648C5670* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52006,6 +53014,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Object>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRuntimeObject_m89881ED268CE3786A337D583D71BEF42A51F1975_gshared (RuntimeArray* __this, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52020,6 +53030,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.ResourceManagement.Util.ObjectInitializationData>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisObjectInitializationData_t78311D34B13F6FC91296EA33C601DB29CB8C84E3_m2E16F37514A64DF9691C1037264180E1AB2FB31E_gshared (RuntimeArray* __this, ObjectInitializationDataU5BU5D_t27CD67BDEC9A5CFBEC907601E4762EE9188560B7* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52034,6 +53046,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.TextCore.Text.PageInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisPageInfo_tFFF6B289E9A37E4D69353B32F941421180DA5909_m9F9B8F8EE7683698E46EEC5C0DCC3FB8DBB65537_gshared (RuntimeArray* __this, PageInfoU5BU5D_tFEA2CF88695491CFC2F2A2EF6BDCC56E52B0A6D4* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52048,6 +53062,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Reflection.ParameterModifier>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisParameterModifier_t75F1AF13B2AD5EDBD3A3579FD337D0A66E3FF510_mC9D2E374213FEE36D4EB2F661158A57B45E917FC_gshared (RuntimeArray* __this, ParameterModifierU5BU5D_t685261AD991B1E6582A0E53243DEE3B745E13364* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52062,6 +53078,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Plane>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisPlane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C_m3E6802ADCF8499AFD5C8E28462F5C637A6B36050_gshared (RuntimeArray* __this, PlaneU5BU5D_t4EEF66BAA8B0140EFFF34F6183CE7F80546592BE* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52076,6 +53094,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Playables.PlayableBinding>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisPlayableBinding_tB68B3BAC47F4F4C559640472174D5BEF93CB6AB4_m6B66A9E2B1E431321427AB226382E5D48AA77798_gshared (RuntimeArray* __this, PlayableBindingU5BU5D_tC50C3F27A8E4246488F7A5998CAABAC4811A92CD* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52090,6 +53110,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.LowLevel.PlayerLoopSystem>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisPlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F_m0B16EC9568779978FF28100525A5290E1FE9B1C8_gshared (RuntimeArray* __this, PlayerLoopSystemU5BU5D_t07C04E53AAC3CDA17603E8BA1B41D7E1AC083C6D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52104,6 +53126,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.UI.PointerModel>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisPointerModel_t6E979AA49D01ACA529A68AF8F48624E73484CD42_mE8F340DCAF82754938AAC607950E60ED905512C4_gshared (RuntimeArray* __this, PointerModelU5BU5D_tE7B1CA281F392BD0840E1A81754AC94AF44FEE81* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52118,6 +53142,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Pose>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisPose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_mADC67E9B7FA39457E8E2BEA27B18997A34927EAC_gshared (RuntimeArray* __this, PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52132,6 +53158,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.Universal.PreTile>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisPreTile_tC36F9BE4B86094E64EF591A02D06185EF5ECBDDD_mB82230C324C9B4776311405F7E5710D2C975C0BA_gshared (RuntimeArray* __this, PreTileU5BU5D_tEEBD83383AEA69DBA9CEE101A03DD2587170D17C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52146,6 +53174,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Quaternion>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisQuaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_mDCD5BE11FC7E8723623EF76FDCB83F79765BEC8F_gshared (RuntimeArray* __this, QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52160,6 +53190,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Xml.Schema.RangePositionInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F_m5BA7D725DAFE1E46110B1BD9726CB4AC4A823861_gshared (RuntimeArray* __this, RangePositionInfoU5BU5D_t4EC7E6B087B769D7CE0228CDD7F2AA48F37B747B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52174,6 +53206,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.RaycastHit>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5_m4A11936B1AF78BA3548E38023E3320483E94E589_gshared (RuntimeArray* __this, RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52188,6 +53222,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.RaycastHit2D>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA_m159AC590495654E92DE53C0AF0988A7BC5473273_gshared (RuntimeArray* __this, RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52202,6 +53238,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.EventSystems.RaycastResult>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_mFC8B458506FA996CD3163DF4C79E5B96A04706AD_gshared (RuntimeArray* __this, RaycastResultU5BU5D_tEAF6B3C3088179304676571328CBB001D8CECBC7* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52216,6 +53254,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rect>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_m1E8C94D330DA4067BDBFD0D8DDD06045135FBF96_gshared (RuntimeArray* __this, RectU5BU5D_t83297CB2E61BDF9D27DCB1A3E5C78EBCE9F7C993* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52230,6 +53270,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.RectInt>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8_m8B639895146AEAAAF3445F663C3F578444FCBAAF_gshared (RuntimeArray* __this, RectIntU5BU5D_t0497041D1621D80C656705FB9F0AB63AD4D8698F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52244,6 +53286,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.UIR.RenderChainTextEntry>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_mABA1D4B2839863FF53D5FEC9E44C9C77A5A0734E_gshared (RuntimeArray* __this, RenderChainTextEntryU5BU5D_tD38698D193EAB301825EAD81C1D10280631FBD62* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52258,6 +53302,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.RenderStateBlock>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRenderStateBlock_tFC570EF2C8F3A817FECD578E385D18CEEEA06733_m9B8890DADFC7F8C2D94B5DA07332FB570A58D222_gshared (RuntimeArray* __this, RenderStateBlockU5BU5D_tB3277DEBE81600D781CFFD366CF0B6E363775468* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52272,6 +53318,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.Universal.RenderTargetHandle>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRenderTargetHandle_tB5C2670041BF377223D41FDF9290F6D8BFB7BA66_m441157B01CA0515B537831180803F9F78032309F_gshared (RuntimeArray* __this, RenderTargetHandleU5BU5D_t1D2C6654EE06932E97BE9429E59098DEBF2CE233* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52286,6 +53334,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.RenderTargetIdentifier>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRenderTargetIdentifier_tA528663AC6EB3911D8E91AA40F7070FA5455442B_mD4701AC3827330BD52D2A2D98B7BFAA1DB1E2F0C_gshared (RuntimeArray* __this, RenderTargetIdentifierU5BU5D_t179798C153B7CE381B41C57863F98CB24023C4CE* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52300,6 +53350,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Resolution>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisResolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525_m25648190DF24C9FDFB59034A4521DC531696656B_gshared (RuntimeArray* __this, ResolutionU5BU5D_t943BB1FE2B73E9E630A701D55F4C6EED8B54175A* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52314,6 +53366,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Vuforia.Newtonsoft.Json.Serialization.ResolverContractKey>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisResolverContractKey_tE2D82D8CA1856116845C671153EF76D834A7B45E_mDCA348185344E69E15D166FB6E078F6DB2E905BF_gshared (RuntimeArray* __this, ResolverContractKeyU5BU5D_tEE3C4BBEF57B08762F45462C4C8F45BD4B4AAF6E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52328,6 +53382,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.RichTextTagAttribute>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRichTextTagAttribute_t1BB51A8FD6C14746D177D8E84E281A4FD4A720E0_m115862CD9201533B4768DBA7ABD8CA57B825BBDA_gshared (RuntimeArray* __this, RichTextTagAttributeU5BU5D_t5816316EFD8F59DBC30B9F88E15828C564E47B6D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52342,6 +53398,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.TextCore.Text.RichTextTagAttribute>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRichTextTagAttribute_t0600951F833208392F1D8EE3E6A58AD5C797F9DA_m86BEAA4DC22CF65719CE6BB4C2F6272569746133_gshared (RuntimeArray* __this, RichTextTagAttributeU5BU5D_tEE9D071B3246F23742DBF4226567620BCBB24A14* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52356,6 +53414,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.Rotate>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRotate_tE965CA0281A547AB38B881A3416FF97756D3F4D7_m1F77385DA4E4DCAD42C7F869BAA16A06F309A8DA_gshared (RuntimeArray* __this, RotateU5BU5D_tD482C518713DEC5763C34C827A9B6DB565776772* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52370,6 +53430,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.RuleMatcher>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRuleMatcher_t327CFEB02C81AA20E639DE949DCBBAB5E92FF28E_m92F6A973C4BDB9C860A125D48A224C67F77DC587_gshared (RuntimeArray* __this, RuleMatcherU5BU5D_t0135EA06151E72D04414F3EAF9420CB85EE2236C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52384,6 +53446,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Linq.Expressions.Interpreter.RuntimeLabel>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRuntimeLabel_tD233E2C3F1E1A1877FFE3E9DFB3A69C57D40A548_mD270566BF6E1F148DD17E5185BD0A0DE3C074595_gshared (RuntimeArray* __this, RuntimeLabelU5BU5D_t7B07C229EF5FA8E68637F8C76A93B0B74B47B684* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52398,6 +53462,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.SByte>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_m706B33B91693C9C72B95765A6CF9D432EB513B18_gshared (RuntimeArray* __this, SByteU5BU5D_t88116DA68378C3333DB73E7D36C1A06AFAA91913* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52412,6 +53478,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.SByteEnum>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSByteEnum_t0782AA0EFC5D1042A39675F37D7DD7C098781DD9_m70E993C3E8F0C414E9E7F325526D142E19DDC4DB_gshared (RuntimeArray* __this, SByteEnumU5BU5D_tE9ED9101825006ECD8D9DC7E2DCEB3749884C881* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52426,6 +53494,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StyleSheets.ScalableImage>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_m8D9DC68A9E5E3A7E237FD8CF7321268AC4AE5196_gshared (RuntimeArray* __this, ScalableImageU5BU5D_t8C989174900062AED19A057FDCF0529F8C594A52* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52440,6 +53510,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.Scale>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisScale_t5594C69C1AC9398B57ABF6C4FA0D4E791B7A4DC7_m4612BCF36738300C17B785BCA4707D69EF7AB38F_gshared (RuntimeArray* __this, ScaleU5BU5D_tE608175710457D7343DD849244BF59B58157F0EF* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52454,6 +53526,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StyleSheets.SelectorMatchRecord>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSelectorMatchRecord_t1E93CDB54312CFB4A67768BB25ABB9AFB31BC5D7_m423525ECA0CE827E90B6060A41EB9A4F13E993E6_gshared (RuntimeArray* __this, SelectorMatchRecordU5BU5D_t6033C70B62D6E4C7261F40F64F75070577947A19* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52468,6 +53542,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.ResourceManagement.Util.SerializedType>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSerializedType_t1FB0F9A8B8F766AC18F067F0882CE74E0014C6F1_m64650C003536A9A746B9866834842A66A66A26ED_gshared (RuntimeArray* __this, SerializedTypeU5BU5D_t42666BF2533B0E84FF8C734CD1DACB81F1C13EAA* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52482,6 +53558,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.ShaderTagId>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisShaderTagId_t453E2085B5EE9448FF75E550CAB111EFF690ECB0_m6819D653E0A5061FD3CCE3A16ABAAD3945AA409D_gshared (RuntimeArray* __this, ShaderTagIdU5BU5D_tE1BA124E13B8096153E25C5AF9C1D15D71466143* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52496,6 +53574,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.Universal.ShadowSliceData>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisShadowSliceData_t1BCFEDC63BECA994949FE1F4245CEE930EE69E20_mB3E27400C099D289BC2603D4A71BD4DEB4B85031_gshared (RuntimeArray* __this, ShadowSliceDataU5BU5D_t3B41B7A06BAB3677671AEE84FBCF1A23B7DC7D04* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52510,6 +53590,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Single>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m30BF6939523C3A8E2E28BCE106CB87E8CB3D5E75_gshared (RuntimeArray* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52524,6 +53606,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UI.SpriteState>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_m4F9A51AF2638D2B28FB227A27A166AA097D3D328_gshared (RuntimeArray* __this, SpriteStateU5BU5D_tA29A384A9388A48E02C8A6CC1EADBB8B75BFCAC3* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52538,6 +53622,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Data.SqlTypes.SqlBinary>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSqlBinary_tEFB13C14B44E4388798A2F7DB48438E16DE4E347_mCED86173BD39ED4DD8A3FA66956E9BE5373C2396_gshared (RuntimeArray* __this, SqlBinaryU5BU5D_t8E3A1E28F0CB6D2595EB732C723E09C7EEA6799C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52552,6 +53638,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Data.SqlTypes.SqlBoolean>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSqlBoolean_tAD22108BE5F656A5AAFE19B054B2CA56C0AEE1D7_mADB5CE900F89AD46E7763B1268D7A4827F4C8698_gshared (RuntimeArray* __this, SqlBooleanU5BU5D_t27C7294426E836AF0537705F07B3F8F2C307A0CA* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52566,6 +53654,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Data.SqlTypes.SqlByte>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSqlByte_t39089DB566BD0047D5ED18807B145019FB0F0B46_m9255C4920B00982B4E7CF4CAB283A6AF85054804_gshared (RuntimeArray* __this, SqlByteU5BU5D_t646E7014D5B92F5FD66A1AF494A59B543F4A52DC* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52580,6 +53670,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Data.SqlTypes.SqlDateTime>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSqlDateTime_tFB5902479382E8A61934E274E7BBF3280A3D25B2_m5221E04B139786DFD21976C7063A6904376D0E74_gshared (RuntimeArray* __this, SqlDateTimeU5BU5D_t7E4446D3E3ECAD129C7E5EDC653AE3587C0131AE* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52594,6 +53686,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Data.SqlTypes.SqlDecimal>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSqlDecimal_t7A833A6D857AB79C4B2E4011CB728AEC6954D406_m7E474C1BFD1C872A69690D1007239E99D0202FAE_gshared (RuntimeArray* __this, SqlDecimalU5BU5D_tC71EA63727B3817E83E7D17E93D8B133162144C0* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52608,6 +53702,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Data.SqlTypes.SqlDouble>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSqlDouble_t028838C05B8C2E359848BEDB40C41CCCAA11CC98_m39F3414E4348155E778327D67EA9BF9686A3BC4C_gshared (RuntimeArray* __this, SqlDoubleU5BU5D_t1C3FE0489B161EBF4B6323B2CC193EC0B8FC2A5B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52622,6 +53718,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Data.SqlTypes.SqlGuid>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSqlGuid_t93C33E370E5D3A344A15F9EFD9A2D4177576DED7_m762B32D141912B69A14096EAB0E7074281248885_gshared (RuntimeArray* __this, SqlGuidU5BU5D_tCBB38E054A58066ACF39C1DBF914AF27281AD216* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52636,6 +53734,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Data.SqlTypes.SqlInt16>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSqlInt16_t30ED9856D3373398B6005B34D664C64EE224260B_m2DF6A710CD57B3CEA5FC06948A45619C4405EE99_gshared (RuntimeArray* __this, SqlInt16U5BU5D_tDD936048A83186BA3F6D44E4FD9D51ABE8E8EFC8* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52650,6 +53750,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Data.SqlTypes.SqlInt32>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSqlInt32_t50DA35BC9FD9C46AA933DCF8195B2EE92064D152_mA3F2225935506E01CBC5E0C4A8042324DFF1F44F_gshared (RuntimeArray* __this, SqlInt32U5BU5D_t1E00F20A1ECD2BAD191D079A1C18DCABAD9F9D25* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52664,6 +53766,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Data.SqlTypes.SqlInt64>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSqlInt64_t6F2A4BE192CBAA1059DDAB0D02FEDF4EDEAD6272_m029E9AAA0E5B523F5ADF79DB05DAB1B8625C5953_gshared (RuntimeArray* __this, SqlInt64U5BU5D_t34A517F2911137271C1654BDBB4D01D9AD3123E4* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52678,6 +53782,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Data.SqlTypes.SqlMoney>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSqlMoney_t88BD587F422EA297502BC57B18010762C03531BB_m2D360330D9F45AAF8287A3B2D17369A674702175_gshared (RuntimeArray* __this, SqlMoneyU5BU5D_t7F3F717D6EDE45B43255ACB24168648A47115E7A* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52692,6 +53798,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Data.SqlTypes.SqlSingle>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSqlSingle_tE807CFF8CCE4E77475D51223A37ADC73BC205767_mA8111A8CEEB6FAC720B009A4677B7ECECC915D71_gshared (RuntimeArray* __this, SqlSingleU5BU5D_t24423849DE9EE77FCC6B717A10C70B23DF58135D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52706,6 +53814,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Data.SqlTypes.SqlString>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_mE79F51AD7A4EFE6264915E3736B6F7205BDD9CEF_gshared (RuntimeArray* __this, SqlStringU5BU5D_t8083BC7AE79AB16E186256FC6732AD8666E85ED7* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52720,6 +53830,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyName>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF_m2060654E7D8A1F0078C6274AE520DE3B37EF3174_gshared (RuntimeArray* __this, StylePropertyNameU5BU5D_t531626CF806E3F3D348D1F38A9109767014C35F8* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52734,6 +53846,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StyleSheets.StylePropertyValue>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStylePropertyValue_tED32F617FABE99611B213BFCF9D1D909E7F141C2_m148C3330262E76153DA3300B4F74BBCD94F84D28_gshared (RuntimeArray* __this, StylePropertyValueU5BU5D_t4DE6509822A9A487529DC8DC8C08CB8822CE8688* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52748,6 +53862,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StyleSelectorPart>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470_m537454F90898B60F3FB41A2624727232358717D7_gshared (RuntimeArray* __this, StyleSelectorPartU5BU5D_tBA574FB3E75E94E52874FDB7B05B9048E8A5421B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52762,6 +53878,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxToken>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStyleSyntaxToken_tE4474F86F800F298F966FFDE947528453E769E0C_m9E81904F6EB4898A3C4FB18ACC5A73C5745AC872_gshared (RuntimeArray* __this, StyleSyntaxTokenU5BU5D_t47245051E1F0EBD45B56D9E0ED113E9586B33CD8* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52776,6 +53894,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StyleSheets.StyleValue>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStyleValue_t56307594EC04E04EFBCC3220595B4AAD66FF93C5_mD6D7C1AE0B89C374C27D61F22CF48414B32273C2_gshared (RuntimeArray* __this, StyleValueU5BU5D_t544D1F13B44DC23CA765A18E32B7779768FDF0C8* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52790,6 +53910,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StyleValueHandle>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStyleValueHandle_t5831643AAA7AD8C5C43A4498C5E0A2545F78227D_mB67B98FD566760B196D381D1AF41554138EFF246_gshared (RuntimeArray* __this, StyleValueHandleU5BU5D_t66B7732469E9E30B1FB9A6E386315DAB36914ADE* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52804,6 +53926,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StyleSheets.StyleValueManaged>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStyleValueManaged_t68DFBEC1594279E4DC56634FD5092318D1E9A5F4_mE02FD42EF4CA0D6DBB50F77A30E39EF31BF5604E_gshared (RuntimeArray* __this, StyleValueManagedU5BU5D_tA36DD573E215D5C8EE43B4BD109BE2AA3902E1E9* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52818,6 +53942,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StyleVariable>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStyleVariable_t5D4DEC936102A13961F4F2C6214B83D6CDC56269_m953DA06BA5449E44ACD05F911248EC43A50BE9FC_gshared (RuntimeArray* __this, StyleVariableU5BU5D_tFE786BD2C1F914C1605C072F0BB10C405C0B4D96* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52832,6 +53958,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.Utilities.Substring>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSubstring_t2E16755269E6716C22074D6BC0A9099915E67849_m5607EDF1724243C0FC2BBD91327FE1980AAD738F_gshared (RuntimeArray* __this, SubstringU5BU5D_t9973080FDB519ED771E9FB3E6FDC90DF45211B77* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52846,6 +53974,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.TMP_CharacterInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8_m274BE26AA4A7BC00DB44335893385653F9F6D37D_gshared (RuntimeArray* __this, TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52860,6 +53990,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.TMP_FontWeightPair>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTMP_FontWeightPair_t2835DA6BF1309AC6C817ECF878232CCF9DDB703E_m4E5CA8D0A2114084916129550E399AF4D4A7B44E_gshared (RuntimeArray* __this, TMP_FontWeightPairU5BU5D_t0A3A5955F13FEB2F7329D81BA157110DB99F9F37* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52874,6 +54006,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.TMP_LineInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3_mA1F62DA9F9530F767CE66CE4FE660F941F7168D4_gshared (RuntimeArray* __this, TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52888,6 +54022,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.TMP_LinkInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTMP_LinkInfo_t9DC08E8BF8C5E8094AFF8C9FB3C251AF88B92DA6_m6CF54841EB692CE1B670E1DEFEBC31D20D4354CF_gshared (RuntimeArray* __this, TMP_LinkInfoU5BU5D_tE11BE54A5923BD2148E716289F44EA465E06536E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52902,6 +54038,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.TMP_MeshInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B_m3336642184BE51DED674C63B876D0E8053779009_gshared (RuntimeArray* __this, TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52916,6 +54054,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.TMP_PageInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTMP_PageInfo_t062E56948480FAB066C168E14DC79CC83CC369B4_mE99F26839F07D0E1631BEEA2881A6DC6D7FBF4CD_gshared (RuntimeArray* __this, TMP_PageInfoU5BU5D_tE3DAAA8E2E9147F97C424A9034F677A516E8DAF9* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52930,6 +54070,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.TMP_WordInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTMP_WordInfo_t825112AF0B76E4461F9C7DD336A02CC6A090A983_m6C232C7004A38DA1D40271D15C9A5747E910E589_gshared (RuntimeArray* __this, TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52944,6 +54086,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.TextCore.Text.TextElementInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_m8050D242372AE77976D3765225019B01830A8D5C_gshared (RuntimeArray* __this, TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52958,6 +54102,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.TextShadow>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05_m15BC48573210C73D520B356C4939091488EB885D_gshared (RuntimeArray* __this, TextShadowU5BU5D_tF37C87EBD3D8745BEDABCE2EA499DE16C15B5D8C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52972,6 +54118,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.TextVertex>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_m20B314A25436F25DE3C31E44EFFE82D69839DC77_gshared (RuntimeArray* __this, TextVertexU5BU5D_t95853B13211C259BC9EB2E8E8F24227449D05043* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -52986,6 +54134,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.TextureId>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58_mD55A9C8B5329D0047CFFCD5DCC2636D527F093CC_gshared (RuntimeArray* __this, TextureIdU5BU5D_t03041DBB5C72B7E6F5F694A36DC5FEA75432188A* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53000,6 +54150,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.TimeSpan>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_m23242590FC3BB147FADFA9CAC94142F47E874070_gshared (RuntimeArray* __this, TimeSpanU5BU5D_tC920B81B0E6DCA110DB9D62B5C3850B4BECB87E6* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53014,6 +54166,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.TimeValue>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E_m94A0206AF6A9098389FCA82F83AB99AF7A3CC9A9_gshared (RuntimeArray* __this, TimeValueU5BU5D_t3EB79C5975D39A0E711250FD8A9547F5312746DE* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53028,6 +54182,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Touch>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTouch_t03E51455ED508492B3F278903A0114FA0E87B417_m4562D7B7AA2D3D200E7998BC180AC1F42D2FFD58_gshared (RuntimeArray* __this, TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53042,6 +54198,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.EnhancedTouch.Touch>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTouch_t07A55E11962F143607E917F0B6FEFB36EE2DDA70_m169827697A20B7B9EA1AE2FE00E669B49E0D3A2C_gshared (RuntimeArray* __this, TouchU5BU5D_t32B2235E604E83356406C886C1A817C01F7C6354* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53056,6 +54214,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.ARSubsystems.TrackableId>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m0588E8FBB4279B8EE11FCD539879E70C5524217E_gshared (RuntimeArray* __this, TrackableIdU5BU5D_tDB6E301F3B66EC6C487F725B5811B3A581ED4FD0* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53070,6 +54230,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.UIR.Transform3x4>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTransform3x4_t9F79FC0112A00D3FFD7AFAD2D10AD22DF929052F_m654C67004302C0E051F932006A9DCB671DEEE528_gshared (RuntimeArray* __this, Transform3x4U5BU5D_t9E24C701B0AEB20DA429E31763AAA5701AFED97E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53084,6 +54246,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.TransformOrigin>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502_mCF9A7689DF734E0BE208C6E3061C2E4C58E6CE2C_gshared (RuntimeArray* __this, TransformOriginU5BU5D_t0BDBC9C8F1888009152284DC2903B3C289F826DA* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53098,6 +54262,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.Translate>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTranslate_t494F6E802F8A640D67819C9D26BE62DED1218A8E_m9888EB68B672309EF31DE6D51E49E52F59113478_gshared (RuntimeArray* __this, TranslateU5BU5D_t9199DFD72A8EC5FA4C33D75E5F85242F9F97E358* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53112,6 +54278,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UICharInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisUICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD_mAF5736D7B85F4F62501178092295D3DA21AFD2E8_gshared (RuntimeArray* __this, UICharInfoU5BU5D_t98D25C0197327978FA4E11B3518901A4839E086C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53126,6 +54294,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UILineInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisUILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC_m95A44F696D5F153E7796B0D7E9FA463786FCE82B_gshared (RuntimeArray* __this, UILineInfoU5BU5D_tDD6C8909B58F997A6FB1A17F360E8DBE387204BC* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53140,6 +54310,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIVertex>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisUIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207_m3669C96959A915A240567A06509A53E1906FFAC9_gshared (RuntimeArray* __this, UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53154,6 +54326,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.UInt16>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m5D6543FE15A3A12EA840F011EF7E226F9D958B57_gshared (RuntimeArray* __this, UInt16U5BU5D_tEB7C42D811D999D2AA815BADC3FCCDD9C67B3F83* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53168,6 +54342,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.UInt16Enum>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisUInt16Enum_t481D129F5FAE551E8684190D640F0FAEFB237CF8_m43B461AF9C92A20C05CEF79AC3AE0A3A14C03DA0_gshared (RuntimeArray* __this, UInt16EnumU5BU5D_t6AF575445773A0D35BB2678A871A357BBD5F7AAF* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53182,6 +54358,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.UInt32>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisUInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_m3C4516CFD46C695DADD7B6728F61D0A37124F8E0_gshared (RuntimeArray* __this, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53196,6 +54374,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.UInt32Enum>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisUInt32Enum_t7B4F5C6C14D2C4B2A5927C59620BE3868714DACF_m87C12E44FE5B9CA8D149C04261F58B0DFACF9EE8_gshared (RuntimeArray* __this, UInt32EnumU5BU5D_t98241E73F566A0C7C43B1F407869881BF951BE1A* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53210,6 +54390,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.UInt64>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m1569B36B21AAEDA2CBEAD804C3473F6450B9FFD6_gshared (RuntimeArray* __this, UInt64U5BU5D_tAB1A62450AC0899188486EDB9FC066B8BEED9299* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53224,6 +54406,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.XR.UsageHint>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisUsageHint_tFD7259AF9E91500CF1D0CE602394B40FD2397AB1_m68862065DB35B2BE20ABD4A57C72417E05D00499_gshared (RuntimeArray* __this, UsageHintU5BU5D_t678E554916FB102DB4E2DC2C6CC0976DC145BF23* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53238,6 +54422,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Vector2>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8AB15D269ACED010C6E2948FF017B1C3923D501E_gshared (RuntimeArray* __this, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53252,6 +54438,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Vector2Int>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisVector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_mA53C9A207C846B89D07D54ADEE79DCF9F2F58C61_gshared (RuntimeArray* __this, Vector2IntU5BU5D_tF9E2BDAC11B246DF7EEB9137B826A0CBEBD59534* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53266,6 +54454,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Vector3>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m518CC3BEAE079B75469CD759E6676350405DF91D_gshared (RuntimeArray* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53280,6 +54470,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UI.Extensions.Vector3_Array2D>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisVector3_Array2D_t58E77C561A10746E13FDFF893FEC1EC9B1569C0D_m4806755D5A3787EF640BE96AFF282A1AA4609D0B_gshared (RuntimeArray* __this, Vector3_Array2DU5BU5D_t26FF18C6B3F8123CE01D654B0B2E59C677ECA400* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53294,6 +54486,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Vector4>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m989FF91D8FB730023AA6846CDAD3EDF6CDE483B1_gshared (RuntimeArray* __this, Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53308,6 +54502,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.VectorImageVertex>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisVectorImageVertex_t9D42377517CC059BD40E2A626ECEBE0C94CA0948_m38E78784A5014EBF10B5B9B94D693D2DFE7F7078_gshared (RuntimeArray* __this, VectorImageVertexU5BU5D_tA19C37074824265F1A5684A6F2C156559455C1C4* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53322,6 +54518,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.Vertex>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisVertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7_mFA67A159C8C52062605EA9F5FA9B95870C450BA6_gshared (RuntimeArray* __this, VertexU5BU5D_t2C3F4FF6AFD6D7E9DD7E1D69446FD8E8FC033185* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53336,6 +54534,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.VertexAttributeDescriptor>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisVertexAttributeDescriptor_tD4231FBF57335465D16308D2A18E8E83D36BFA76_m5608586628052D52EACF17799602BC833BABBD22_gshared (RuntimeArray* __this, VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53350,6 +54550,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.VisibleLight>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisVisibleLight_t0A4DF5B22865A00F618A0352B805277FA0132805_m3F5ABC1FD07BCD42E544CB0754D32E00EB328392_gshared (RuntimeArray* __this, VisibleLightU5BU5D_t9CED3FB90EE56547ABEB83868042BC6AAD24081C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53364,6 +54566,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Vuforia.VuCameraVideoMode>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisVuCameraVideoMode_tB492EBEB0605860CCAC237A94369C4C29011350D_mAECA8A5997C1B24EEBFA488214D5BA922004BED6_gshared (RuntimeArray* __this, VuCameraVideoModeU5BU5D_t3718BDCD2EFAC16CADA492C6249FCEEBD7F6FF30* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53378,6 +54582,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Vuforia.VuDatabaseTargetInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisVuDatabaseTargetInfo_tACF0C984E38A6AA4F6FB07B5AAEFEA516A651E6E_mAED10B82A6F668F814AD6421C9A77A2F4EC46979_gshared (RuntimeArray* __this, VuDatabaseTargetInfoU5BU5D_tECA659335F7B5A0F51AF7519C4803719E311E8F9* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53392,6 +54598,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Vuforia.VuMatrix44F>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisVuMatrix44F_tC75A0AF8524BED265F800A953806F30FA28B8DE6_mA76DFE6374C4C3E912B8142EB6118E05689FAD96_gshared (RuntimeArray* __this, VuMatrix44FU5BU5D_t4D2FCF05A467D1365A4BD46EFBD33FAA0174F07D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53406,6 +54614,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Vuforia.VuMeshObservationBlock>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisVuMeshObservationBlock_tE6EB4D4BD9AA468CDB198D07F697FFD717E04963_m8B89CC9DB024FCB5F31B2088CD5F3A5370C864D6_gshared (RuntimeArray* __this, VuMeshObservationBlockU5BU5D_tC0BBF0EDD2047EEC1F1F7CC27796CBFDEA8C7678* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53420,6 +54630,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Vuforia.VuModelTargetStateInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisVuModelTargetStateInfo_t9B26867D304B04B7A64BDD5F340CA2BFA372F117_m2D9BCA804658032A12C0A5AA6A37AD0CC67882FF_gshared (RuntimeArray* __this, VuModelTargetStateInfoU5BU5D_t1AEC3C5A735E152FD4CE8D990AA171288744E663* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53434,6 +54646,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Vuforia.VuVector2F>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisVuVector2F_t79CCE33CCEFEED608BEE3AAA2C00C8AB4FF9E1B8_mD2EFF1E03D2AF0383F20D43D0CD3E574D1C4457D_gshared (RuntimeArray* __this, VuVector2FU5BU5D_tE2852C71BB83C14C441BC48C2582A074C967DBD9* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53448,6 +54662,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.WebCamDevice>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisWebCamDevice_t3D72A89B7F52FD27192023A67254D19E89D9738C_mA64B67A5A52243D4FFBA9EC157A92A910227FB3A_gshared (RuntimeArray* __this, WebCamDeviceU5BU5D_tA5B1352BDE6FE233B66C3ABF96E00EB3215629F5* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53462,6 +54678,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.TextCore.Text.WordInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisWordInfo_tA466206097891A5A2590896EE164AFC406EB060D_m846537FE903C5C397A4639DE535334729752B95A_gshared (RuntimeArray* __this, WordInfoU5BU5D_tAD74C9720883D7BB229A20FFAE9EFD2CF9963F7B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53476,6 +54694,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.WordWrapState>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisWordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A_m02C7FCF69973738A96B221CF6E2EE6D1AD9BDCA6_gshared (RuntimeArray* __this, WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53490,6 +54710,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Security.Cryptography.X509Certificates.X509ChainStatus>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisX509ChainStatus_t5A57DDA24AA1FCA9F2B8D70B767CDDF388E4A80D_m5B36C7165FBDD5F8ECA4CD320B2892D6E5D248D7_gshared (RuntimeArray* __this, X509ChainStatusU5BU5D_tA4CB502E13E6D62B9C824B15F3193FE7EC889299* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53504,6 +54726,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<MS.Internal.Xml.Cache.XPathNode>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisXPathNode_t4A9DCD8092B3B7DBA0A6DA09C03DB5274D43C3CA_mC1EBF070C2E98CD444F05786C4EB157454F1EF38_gshared (RuntimeArray* __this, XPathNodeU5BU5D_tABD91BA95C61EF982E9FB7D2386FCE4C39F8B90C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53518,6 +54742,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<MS.Internal.Xml.Cache.XPathNodeRef>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisXPathNodeRef_tF695A4CACB9D70FDCBCC9EE7F3AE77D1CAF06470_mEB05FA44BEC549E2444DD5DAC6077B2944A7CE6E_gshared (RuntimeArray* __this, XPathNodeRefU5BU5D_tFAE5241CF1C5434237DB66C07CFF73BB76134E79* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53532,6 +54758,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.ARSubsystems.XRAnchor>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisXRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82_m8E68007950CFA0FBF76DDC69857CB8D066F2EDCF_gshared (RuntimeArray* __this, XRAnchorU5BU5D_t0AE263CDEFBD56AA58C2227E6EFA4A1A5D3956B8* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53546,6 +54774,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.ARSubsystems.XRCameraConfiguration>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisXRCameraConfiguration_t36D3B10519762ADD407F4A4F171D120CE2B3BD63_m59291EFB3CB41B980DBAE4AA169B6AAF433E601C_gshared (RuntimeArray* __this, XRCameraConfigurationU5BU5D_t7E84AA3EA55630F4F6576518F6F2605880F6F9E2* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53560,6 +54790,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.ARSubsystems.XREnvironmentProbe>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisXREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9_m968F956378144ADAADE956E08E490BE941D33AEC_gshared (RuntimeArray* __this, XREnvironmentProbeU5BU5D_t064AC6C6851B7D13FACCD20E7B9180B73C706F3B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53574,6 +54806,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.ARSubsystems.XRFace>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisXRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB_m853C64E721CD8CEB0F56203E968AAC13EF0570F7_gshared (RuntimeArray* __this, XRFaceU5BU5D_t9FBC63A41C1E8974B0C908A2305A05831E8A5009* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53588,6 +54822,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.XR.XRFeatureDescriptor>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisXRFeatureDescriptor_t690E672A6BBBEFBB8AF221485C1884507EAFB5B2_mF8FB3FCBCA80DA95F085A0F3B1A4D3C847193402_gshared (RuntimeArray* __this, XRFeatureDescriptorU5BU5D_tBB735747E74DA05050B124BFE3525E40EC4114A7* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53602,6 +54838,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.XRNodeState>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisXRNodeState_t683158812A1D80A6BC73DB97405BB0B795A9111A_m33398289117CEA5A8C5263D7A33957567659B1C6_gshared (RuntimeArray* __this, XRNodeStateU5BU5D_tEC64805398059D44C2FBA68AABAEFFB262B93845* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53616,6 +54854,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.ARSubsystems.XRPointCloud>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisXRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C_mF0BCEADB36FA5FA7E85BE725CD6CE73BDA19FB9E_gshared (RuntimeArray* __this, XRPointCloudU5BU5D_tF1F9E3EDA1357BE8A11CF28854A97CD14D07AC98* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53630,6 +54870,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.ARSubsystems.XRRaycast>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisXRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103_mFC01D93D2C90BEF1CD55AF3A8856EE00CF5780CC_gshared (RuntimeArray* __this, XRRaycastU5BU5D_t11CE4213D469682AE36AB35DB86629F0CFFE2959* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53644,6 +54886,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.ARSubsystems.XRRaycastHit>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisXRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780_mB349353055F99CFCAC5A14ED25AFB0D577530846_gshared (RuntimeArray* __this, XRRaycastHitU5BU5D_t4AD8ABF7B63B1F2E624E814413CAB4182945AF94* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53658,6 +54902,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.ARSubsystems.XRTextureDescriptor>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisXRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19_m34735935DA23916DBFC753B07879DE0FE4A69E6D_gshared (RuntimeArray* __this, XRTextureDescriptorU5BU5D_t8E65FB40ADC0DAE52AB65013636DD130F3084066* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53672,6 +54918,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.ARSubsystems.XRTrackedImage>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisXRTrackedImage_t0F99DAB96B2D6422D0F8DA720F9BEFD3655DDFDD_m459BDD3724D722E3B880F6B2637A8E3C896BA322_gshared (RuntimeArray* __this, XRTrackedImageU5BU5D_tA015752ED0E5439CB078220C2F2605CFA0AE988E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53686,6 +54934,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.Universal.XRView>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisXRView_t2ECA2D8B3ACBDF90DAD643B2766AF68A56E12A27_mB4F7A86F0C0D7B49E15E18B9DCF3129E76B81FB4_gshared (RuntimeArray* __this, XRViewU5BU5D_t772A2B1A72B1254498E4FB4A796AE3302E3F4BBE* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53700,6 +54950,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.TextCore.Text.XmlTagAttribute>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisXmlTagAttribute_t2F0EE4823C3BB8B9ED6844183CA998A44EA1AB59_m7A8A5084A6D961E4CD46B3647EB7FAD0C457CCEA_gshared (RuntimeArray* __this, XmlTagAttributeU5BU5D_tEDFE75BDDC81D11CEA2F2A12583516D3BFB309B2* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53714,6 +54966,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.Universal.ZBin>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisZBin_t2B4F59EC396F7A7EC8EE6A15C15176B9888125A5_mA59C9020E7B82587A465C10F6A8F4788E42C30C6_gshared (RuntimeArray* __this, ZBinU5BU5D_tA0404A57CE7EB2B0C8F5122ACBDA3B88D9F06724* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53728,6 +54982,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Unity.Mathematics.float3>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_m7D36F689CC719B42834865375946E3E655B55B7F_gshared (RuntimeArray* __this, float3U5BU5D_t94C1DF28FA7E0FA017D0C77B720D9FF3519E0D45* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53742,6 +54998,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Unity.Mathematics.float4>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_Tisfloat4_t89D9A294E7A79BD81BFBDD18654508532958555E_m2E326F4246E4EE48DA329870899F26DA772DE307_gshared (RuntimeArray* __this, float4U5BU5D_t2BC471F1A0829AE3002CE1E416600ACD8E8942F8* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53756,6 +55014,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.jvalue>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_Tisjvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225_m887AAE022B7EAA1F93196C6EE0B4F3374C33BAC6_gshared (RuntimeArray* __this, jvalueU5BU5D_t2232DC04C2D2643358141038962889D92D3B5E6F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53770,6 +55030,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Unity.Mathematics.uint4>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_Tisuint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9_m296C991CDB84FF502FF16A31EE47C8D05B8007E8_gshared (RuntimeArray* __this, uint4U5BU5D_tC3C72CBDC9B643A3C6E8EBF8ABD8FBBA259BD1AB* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53784,6 +55046,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.ARCore.ARCoreFaceSubsystem/FaceRegionWithARCorePose>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisFaceRegionWithARCorePose_tB9B76D03166A36772E2545A2BF0551E85BE30CAA_m7AF56F3F97A44179F4F906DD2285C19042631AD7_gshared (RuntimeArray* __this, FaceRegionWithARCorePoseU5BU5D_t9C07A9F194EC28911F455835BB07239B2C97456E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53798,6 +55062,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Vuforia.Internal.ARFoundation.ARFoundationAnchorManager/Anchor>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisAnchor_t3DA9B0DC41D0E2960E0EBEFA43A6AB410D052845_mBF870EBC09F2EFC8CD201E842BCD05562FFAB937_gshared (RuntimeArray* __this, AnchorU5BU5D_t34ECD6B769E16DAD01EAB9F674E721E7B993304D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53812,6 +55078,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.Universal.Internal.AdditionalLightsShadowCasterPass/ShadowResolutionRequest>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisShadowResolutionRequest_tE0E30FA18ACE318D6540C2BA217F4E8B3E6766CA_m92C25AA08C7C52DA6EF7DDBB4CF3EC9AAB1425BF_gshared (RuntimeArray* __this, ShadowResolutionRequestU5BU5D_t3D199791CBD21072E390C90C6EEFF32FABFF6B08* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53826,6 +55094,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.ComponentModel.AttributeCollection/AttributeEntry>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisAttributeEntry_t646320DFCA1CFF9E19700C8AEBF785FE35BB2A9D_m4CE631B3895C8CFDE30C3C1EA072B0EBD784F334_gshared (RuntimeArray* __this, AttributeEntryU5BU5D_tF39C046D81AC79FBD2B0C1FBC7513DA6B66BA64F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53840,6 +55110,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StyleSheets.BaseStyleMatcher/MatchContext>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisMatchContext_t04110FFA271D89A23BC1918BE657634A7DC06253_m499A7F345FCA35702E51868582AE768CFD51358A_gshared (RuntimeArray* __this, MatchContextU5BU5D_t49C4E5DA5C1F9B06B211BE6F94AC6BD4D0ABCAE5* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53854,6 +55126,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.BeforeRenderHelper/OrderBlock>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisOrderBlock_t62FD6F6544F34B5298DEF2F77AAE446F269B7837_mC8637995FC54CD1D858599D36E088A8FAF0C5311_gshared (RuntimeArray* __this, OrderBlockU5BU5D_tD67C39FB212889AFAAB991BE1AE144ED8D35EE88* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53868,6 +55142,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.UIR.BitmapAllocator32/Page>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisPage_t04FE552A388BF55B12C8868E19589136957E00A5_mE7462F45AF6C354D24A35A068A3EBC38878C0C18_gshared (RuntimeArray* __this, PageU5BU5D_tFCE8198B6D8AF479FBA546791B9CF3DD8A2D75C9* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53882,6 +55158,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Camera/RenderRequest>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A_mFDCE29D126106F039B39B1DBFD008DBB5AE4F199_gshared (RuntimeArray* __this, RenderRequestU5BU5D_tFE888F219954AB94F31C62B8A20A4AC46AD2B940* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53896,6 +55174,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Mono.Globalization.Unicode.CodePointIndexer/TableRange>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTableRange_tD242F3D62C818E84B6903C18A6CE33399672B497_m6F77E74520D72733C4ECC6039F0F6065BDFE48E3_gshared (RuntimeArray* __this, TableRangeU5BU5D_t48FDC71BE004C7C65E25D6794D545C3A17133F21* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53910,6 +55190,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Vuforia.ConfigData/CylinderTargetData>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisCylinderTargetData_t44BC2130A9D17AF0DA730F85E07FD43BB6104FE9_m50584C02D5542573AA14A495AC2AA466921D11B3_gshared (RuntimeArray* __this, CylinderTargetDataU5BU5D_tCBB89AC4F96F535086032F5A1C87AFFC2595021A* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53924,6 +55206,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Vuforia.ConfigData/ImageTargetData>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisImageTargetData_tAC7CDC3C9AFC3FD2AEA91228C1A7E56E3F2BD54B_m9CFA47F1A8163D12AED498AA722EBBEA612380E0_gshared (RuntimeArray* __this, ImageTargetDataU5BU5D_tE752578872EB3B17A2056C422098EFC456F235F6* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53938,6 +55222,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Vuforia.ConfigData/MultiTargetData>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisMultiTargetData_t06F442BF6288A84E28C091779A69B363A9E58EDD_mA3D6B6B1316AD449F4F7A5B03CB341D8FADDDEA3_gshared (RuntimeArray* __this, MultiTargetDataU5BU5D_tD3A75AADF9876F9E35F22158C00958FF7EAB84B6* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53952,6 +55238,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Vuforia.ConfigData/MultiTargetPartData>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisMultiTargetPartData_t0F57F55AEC2B8AAFA77D7FE23052537D3AC2DACB_m4E5BEBE10E2FF2E1737E4EB9BC0A80698C5FD837_gshared (RuntimeArray* __this, MultiTargetPartDataU5BU5D_t45CC3184FA4BEAF1D6FF2D087EA1AF54E69C95DC* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53966,6 +55254,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData/Bucket>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisBucket_tD54DB870BCFF42B2F81826B5D585BFFACB9D42FD_m6D1CF83937648433D8377FF5A3EC6EAA9BE8871E_gshared (RuntimeArray* __this, BucketU5BU5D_t3EA2BC246444E6325121FCF678D239F569C6D41E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53980,6 +55270,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Vuforia.Newtonsoft.Json.Utilities.ConvertUtils/TypeConvertKey>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTypeConvertKey_t2C27BFF39BA05B5EC16008FFC0B6D79B05AECE97_m538B50253E243BF78197783D60C6D8B1E0F69F92_gshared (RuntimeArray* __this, TypeConvertKeyU5BU5D_tC12F71AB14A9E63FB1A75CBE5BD0EDD24168A369* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -53994,6 +55286,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Net.CookieTokenizer/RecognizedAttribute>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRecognizedAttribute_t67AAD871D05C66CFF976B98E4492B979993FB7D3_m9F75F2D0FE248F807A1105B7EB521E2AEB51B1AE_gshared (RuntimeArray* __this, RecognizedAttributeU5BU5D_tF55AF95465B53446D24FF5DF90476E3AC1D4BB2C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54008,6 +55302,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Data.DataError/ColumnError>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_m6756CD91747071874983A1A3D00D41AD1EA8E849_gshared (RuntimeArray* __this, ColumnErrorU5BU5D_t3DC865949E819468DBDCBA14A3C2CA78C4B34CA1* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54022,6 +55318,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.Universal.DebugDisplaySettingsMaterial/AlbedoDebugValidationPresetData>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisAlbedoDebugValidationPresetData_tCCFD994474750370F3F5AAEE6312FDF5F06C106B_m3769AB6D86F9E9C1C43C6B7165CE9BE22256A28C_gshared (RuntimeArray* __this, AlbedoDebugValidationPresetDataU5BU5D_t7FAFE4A7B7415D45975EE3D4FE3D20D2D687BE26* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54036,6 +55334,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Vuforia.Newtonsoft.Json.Serialization.DefaultSerializationBinder/TypeNameKey>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTypeNameKey_t78E5EF22DCB1F7E0AD6ABFA394C44CB8E7B5D1D1_m4BA4012DB919848161428E8A3ED9E9D17ED0821D_gshared (RuntimeArray* __this, TypeNameKeyU5BU5D_t78965B783970A360624C690C766A0CB4F2C88D65* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54050,6 +55350,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.Universal.Internal.DeferredLights/DrawCall>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisDrawCall_t704B8D7A804DDC8CD64E065EC39E89AD61AD405B_m171B54102139ED5C03539501DC8561673315123E_gshared (RuntimeArray* __this, DrawCallU5BU5D_t8098A5B704B79030252B14884A4F37CB7DBDC50C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54064,6 +55366,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.Universal.DeferredShaderData/ComputeBufferInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisComputeBufferInfo_t80547B512CE5E2A035DE3413E5DFFDD2BAE5BFE8_mE6E2C2345A54E1B0469B27EA086B72A85EA311A4_gshared (RuntimeArray* __this, ComputeBufferInfoU5BU5D_t120A7C257C8E60B0000398850B56DDE56F04D16D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54078,6 +55382,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.Universal.Internal.DeferredTiler/PrePunctualLight>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisPrePunctualLight_tB2AE96558E3D58EFE8EB29BE572FB53CC4202ACE_m8F0C55F73987E018AC648182D46F907B76144BDD_gshared (RuntimeArray* __this, PrePunctualLightU5BU5D_t4CF42E004F2DB147437AB8F7656C43EF638213AF* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54092,6 +55398,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.ResourceManagement.Util.DelayedActionManager/DelegateInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisDelegateInfo_t718C124E89FB2703D642911A3CEC87D645D62232_mF471837C199EA8B9099DE1AF857F65A4CDA43D09_gshared (RuntimeArray* __this, DelegateInfoU5BU5D_tBCC10C3DD4D55DB1585CC2DB859B317633BC3EBC* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54106,6 +55414,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.EventDispatcher/DispatchContext>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisDispatchContext_tFA37790A5FF30508B0146B79E4FF1880EB82E455_m9FC380307213CFACA6F9027EC3234C5C34F69C19_gshared (RuntimeArray* __this, DispatchContextU5BU5D_t23932F8BEADFC827A9CA5636867F6721AD971757* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54120,6 +55430,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.EventDispatcher/EventRecord>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEventRecord_tEC2901C48A23F5AFE20A9E8D4F05F3799EA62BF2_mE404449532CC9A31BA4D1F0024F701176E37C581_gshared (RuntimeArray* __this, EventRecordU5BU5D_tB7CC04280192D9B2B4980F107F93ABBBE4E4DCA8* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54134,6 +55446,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Data.ExpressionParser/ReservedWords>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisReservedWords_t2834E11516C795E0AD880A651793517590DFCF87_m6A59B5B7663926E11979FC657A07C61F7B6A6756_gshared (RuntimeArray* __this, ReservedWordsU5BU5D_t4DFBEC514B916E1E20FF4DFC7CF3735BB2299AB2* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54148,6 +55462,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.FocusController/FocusedElement>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisFocusedElement_t1EE083A1C5276213C533A38C6B5DC02E9DE5CBEF_mF15ABC072811349867BED85C1AFFA56071F6F205_gshared (RuntimeArray* __this, FocusedElementU5BU5D_tE2EC8928994D7E368EC55BC3876976AAED693E58* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54162,6 +55478,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.HID.HID/HIDCollectionDescriptor>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisHIDCollectionDescriptor_t9235094BD1880EA02E4E07F9C02AC98088EFB9F7_m33B4A71D50F622BC6D10E3091088EB1105882FA8_gshared (RuntimeArray* __this, HIDCollectionDescriptorU5BU5D_t2EE9F27CC218220B385B2D167312D3873741FCD5* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54176,6 +55494,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.HID.HID/HIDElementDescriptor>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisHIDElementDescriptor_t18CA9618F730F541BA1C873745A1AE71823D4CED_m1CD4D3F441EB25D09BEDE54C62DE32A0A2931FAD_gshared (RuntimeArray* __this, HIDElementDescriptorU5BU5D_t9E391A41D8235F774682AAD7A77842E6436DF50D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54190,6 +55510,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.HID.HIDParser/HIDReportData>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisHIDReportData_t2F0D5DFC9087B851FA3288EFBB6FF4EAA863BB4F_m25F515B66C08F4D4A01E3EDDC2FA93B4FCE0D8D9_gshared (RuntimeArray* __this, HIDReportDataU5BU5D_t41883CE4CD3C7687A98524CFDB47083CCBE55955* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54204,6 +55526,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.HID.HIDSupport/HIDPageUsage>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisHIDPageUsage_t13808EE79B93302D9F7E841A0DEEAA6671BA591F_m40C9E59E1EF8DB84A8F1407D386E135E79FD9078_gshared (RuntimeArray* __this, HIDPageUsageU5BU5D_t021CBAE17F584DBB0E9E003DA47E89ADE04211CD* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54218,6 +55542,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Collections.Hashtable/bucket>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_Tisbucket_t3217998B0CD54EA2DEDD93DEF8556E72602C7D4E_m5AD941BA007155358D4F096F50FF285BE8895A7E_gshared (RuntimeArray* __this, bucketU5BU5D_t59F1C7BC4EBFE874CA0B3F391EA65717E3C8D587* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54232,6 +55558,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Globalization.HebrewNumber/HebrewValue>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisHebrewValue_tC21FD2DC21D49A9CC5EBCB7895A9431A5DF0801C_m938636B430144C3D1BF2AB69D175D906A63A3ACC_gshared (RuntimeArray* __this, HebrewValueU5BU5D_t74627095B11140FB9055CC7AA5A3E98286CDEF3A* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54246,6 +55574,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.InputActionMap/BindingJson>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisBindingJson_tD39890E66B1818DE8FEDA640970E315109723F7A_m4C364B394A1388B33F31A4391E4588D05C52626B_gshared (RuntimeArray* __this, BindingJsonU5BU5D_t29AC06DF255ED44F4154C5D663FA094BE8A65B5D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54260,6 +55590,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.InputActionMap/ReadActionJson>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisReadActionJson_t912C3AB53939E37EA2AAE5AC5E50CABB2CE52A75_m51E5984D6C2DA409B4C0D2A55181FD4CFCA4256C_gshared (RuntimeArray* __this, ReadActionJsonU5BU5D_t77929C62C9D95D0C5DF96AEB33748B4CD11EF89D* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54274,6 +55606,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.InputActionMap/ReadMapJson>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisReadMapJson_t4C2C1BF7E023C8F056170F9BB2E037A0C2BED356_m415F10AF03A323429718DD9C54133A368C3268EA_gshared (RuntimeArray* __this, ReadMapJsonU5BU5D_t68A2EDFE76A2A6CBA2E01CEB45D87BF711694308* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54288,6 +55622,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.InputActionMap/WriteActionJson>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisWriteActionJson_t42C7FFE506F2CC1ADC4FFA45CCE53AD6AC00404A_mACF5D7A8E0827E72E2DBE525FF129AECD55FAF99_gshared (RuntimeArray* __this, WriteActionJsonU5BU5D_t028B15E467D7812D1C4C9B6F905E414007BEF46A* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54302,6 +55638,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.InputActionMap/WriteMapJson>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisWriteMapJson_tC52CE27F1307259B5B16A31FA675ACC13305A0A5_m7BAAB9DBBA850A7B470F7F35E87D993AC5211651_gshared (RuntimeArray* __this, WriteMapJsonU5BU5D_t1EAB4643E85B94D085A480A170E86E912A5FB2F4* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54316,6 +55654,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.InputActionRebindingExtensions/ParameterOverride>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisParameterOverride_tC0D5877125AE0F07C6A1EF2110FB799B3DCB89BA_m8550B9FA78FB7B9D7EDF239FE29091663C1AC3BF_gshared (RuntimeArray* __this, ParameterOverrideU5BU5D_tC408277D7E98D32E4B0AEFA1E2EDDB74790897EE* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54330,6 +55670,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.InputBindingCompositeContext/PartBinding>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisPartBinding_tB263B939F5CC92F02FD1C8892A194F9BC8A53D38_mC324D85DD959364C4D22616A1312754F19FD7326_gshared (RuntimeArray* __this, PartBindingU5BU5D_tA4C265F715E8BB7F1FFB84B872B12B42E2862CBA* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54344,6 +55686,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisControlItem_t25B2C46F52E78ADC5F54903F9E769364B02CD4AD_mCEDA1820EF26CBF8A3291FE488BA587D193F5E6F_gshared (RuntimeArray* __this, ControlItemU5BU5D_t7798E8B7C7F58B8F6D13B567539CD82E962C7104* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54358,6 +55702,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.InputControlScheme/DeviceRequirement>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisDeviceRequirement_t80E71C44DF1923C15D3AA025242B7348EBF8B056_m06793536A3026ECE091392A2D5B88066958B7302_gshared (RuntimeArray* __this, DeviceRequirementU5BU5D_t0496FAAB7554B7BFC270BA53BA6A5EFD5DE061CE* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54372,6 +55718,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.InputControlScheme/SchemeJson>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSchemeJson_t35D7E80205240ADFCEC9BDED04EFD8AC94D18E80_mF27B934041FDCC44D20251A1EFFF888D985D4A3A_gshared (RuntimeArray* __this, SchemeJsonU5BU5D_tE8D200C4C143F0FE243B6AE24496ED24284FEC28* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54386,6 +55734,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.InputManager/AvailableDevice>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisAvailableDevice_tEA24B4A4D9BF644F85FECF7EEACF2D02369940B6_m132C8F5A6FCCDDDB8CC0940E0F2052F350A72FD0_gshared (RuntimeArray* __this, AvailableDeviceU5BU5D_t47A5F4F158146E9E9066D29DB4494D96AF8F1DB5* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54400,6 +55750,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.InputManager/StateChangeMonitorListener>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStateChangeMonitorListener_t8DDE11DEF769AE92B7A6B6554D41511AA2A7BDDA_m6E409565ABCDADB7099ACFA1DB8CDDBEB4BF8940_gshared (RuntimeArray* __this, StateChangeMonitorListenerU5BU5D_tEF042EA5E57858FE7C48A9F1AF7A55B249ADB5A9* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54414,6 +55766,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.InputManager/StateChangeMonitorTimeout>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStateChangeMonitorTimeout_t9D00677B36798F8E8A4FA1DC5797CBD5F5C4F1DE_m55E524EE6C83A200910182A0D755E1933E3AB3AA_gshared (RuntimeArray* __this, StateChangeMonitorTimeoutU5BU5D_t475D94CE66B17064D5DE2966779E7E9006A09D82* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54428,6 +55782,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.InputManager/StateChangeMonitorsForDevice>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisStateChangeMonitorsForDevice_t1D72E96B14B577C50ECFE5DB631E9D7EC32CC0C1_mAC4D3408AC7B1282C9D63A42327A13640F88E592_gshared (RuntimeArray* __this, StateChangeMonitorsForDeviceU5BU5D_tA1D732EEFF09F568D8FDA6908633B6DAD38B61F4* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54442,6 +55798,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.InputRemoting/RemoteInputDevice>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRemoteInputDevice_tF7E8C5EB795DA20F3EABAA259FE5A118C976C5AE_m1A20306BF494586D1CB058F2433F292409C26B05_gshared (RuntimeArray* __this, RemoteInputDeviceU5BU5D_tB3C8B8C0AAE6347DB4E4D58D94254291C1FDD7F5* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54456,6 +55814,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.InputRemoting/RemoteSender>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRemoteSender_tDE9BD8E2CF827F718C3C22D9A38F8E84AC188736_mAC17EDAB2E39F00C0747239323829CEF415CDFBD_gshared (RuntimeArray* __this, RemoteSenderU5BU5D_t1922213A574223D2FDD72B1D937A6B26AA31CEBA* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54470,6 +55830,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.LowLevel.InputStateHistory/Record>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRecord_tF7FF07DC502355356B48CE78337FB16B196E2EE0_m9E17AE3DAB5AA9270A1E753BE5F9F5A31625AE07_gshared (RuntimeArray* __this, RecordU5BU5D_t56A215069BA0FBDB26A7214AA6474FC8A1FC0AD8* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54484,6 +55846,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.UI.InputSystemUIInputModule/InputActionReferenceState>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisInputActionReferenceState_t4704CE84127FDB4DDB6AAD752B3ED2530768C4F9_m76DCA8D6D3369FCFC142DE9C69BEDB14E7DB1CFA_gshared (RuntimeArray* __this, InputActionReferenceStateU5BU5D_t54C822F1EEFBD5E1A28291831DB5E395D16D90D4* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54498,6 +55862,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F_m9E09F4B7762566D5F4EE8054F326EEDB87D4E31C_gshared (RuntimeArray* __this, TreeViewItemWrapperU5BU5D_tA8CE70B133105201BE01C82F78D06FACBBDBF55A* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54512,6 +55878,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisJsonValue_t01DB320267C848E729A400EF2345979978F851D2_m30669DDA781A9B07596A8498A4B85B146A55D74B_gshared (RuntimeArray* __this, JsonValueU5BU5D_tCC9BDCF1DE43F923B72BEF6FE9AB4FBAEF445DB3* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54526,6 +55894,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Lean.Touch.LeanSelectableByFinger/SelectedPair>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880_m11D0CA0B040E26991888CB19215ECFCE23C5DE61_gshared (RuntimeArray* __this, SelectedPairU5BU5D_t78F89EFFD73AEF5E8EC230556C957E33C4CFCF42* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54540,6 +55910,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.Universal.LightCookieManager/LightCookieMapping>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisLightCookieMapping_t76B317D9FDE96056FA698B46B45D7F0937BD02D2_mA36DEB89A81E8BE7787851C01FF529C2B9BE5AF6_gshared (RuntimeArray* __this, LightCookieMappingU5BU5D_tE1F10A7D54920D3636F1DB7774B3D5F5B560E263* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54554,6 +55926,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.Utilities.MemoryHelpers/BitRegion>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisBitRegion_tFE885CE2CC6C0287CF86BF59672C19D86D8DFC4C_m31481190D9C4394DDC1C20FB7F61A2DAAB19DB11_gshared (RuntimeArray* __this, BitRegionU5BU5D_t6D477477F7EB84242BA07FA65BC1BD6DA74A3D39* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54568,6 +55942,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289_m10A681382A5953D05454250C9256391A3F5884F1_gshared (RuntimeArray* __this, SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54582,6 +55958,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<PackedPlayModeBuildLogs/RuntimeBuildLog>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRuntimeBuildLog_tC62F0400E684D90B60B597ECD125F3D154A4156E_mF3E284D0C488181EE0B3859A5BD2A664F237039F_gshared (RuntimeArray* __this, RuntimeBuildLogU5BU5D_t38D8F77A5EDCF269781A6530D67BBA92CE052ED7* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54596,6 +55974,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.ParameterizedStrings/FormatParam>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisFormatParam_t76A31D70C9964751A9AAFD4CE6951437E6C1CD8E_mE34BD4D0310F04184AC83AAD7D47D8E418106C1C_gshared (RuntimeArray* __this, FormatParamU5BU5D_tE531750630A0C71690726BE4447AF0CAD2222F6F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54610,6 +55990,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.ParticleSystem/Particle>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisParticle_tF16C89682A98AB276CCBE4DA0A6E82F98500F79D_m48D29B33DE6BCCCE116CD77F3EBCD77615B7C060_gshared (RuntimeArray* __this, ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54624,6 +56006,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.PointerDeviceState/PointerLocation>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisPointerLocation_t4E582463D283A22822997C2841D5E1A30D16FCF6_m42C8A11A23B7B2D5A5D859498D1BB7CA5E706EE8_gshared (RuntimeArray* __this, PointerLocationU5BU5D_t431E8046CB55B8A220C0447DDB6CF6A20DE8A1A4* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54638,6 +56022,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Random/State>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisState_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1_mB7A0AB555ED4F11FFAC7FC74E15ABB7400BD062D_gshared (RuntimeArray* __this, StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54652,6 +56038,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Text.RegularExpressions.Regex/CachedCodeEntryKey>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisCachedCodeEntryKey_t8A54BDD6E52145D17DB1A2EB0CE0B4D4CB112F31_m79B6040E615640D00F52B5137D2A2387EC2C73B9_gshared (RuntimeArray* __this, CachedCodeEntryKeyU5BU5D_tC40BCA06B0B1553C015B809472A7A59A50E6C7E9* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54666,6 +56054,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Text.RegularExpressions.RegexCharClass/LowerCaseMapping>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisLowerCaseMapping_t3E26F9E4ED2CCDA7404B4E4C123B0175FF5F8FF1_m943DB1AFEEC01C0AC6B08096D685080270A2FB37_gshared (RuntimeArray* __this, LowerCaseMappingU5BU5D_t62316DC53695F1B45BBB5EB506991F814910A3D1* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54680,6 +56070,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Text.RegularExpressions.RegexCharClass/SingleRange>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSingleRange_tB50C1C2B62BDC445BDBA41FD3CDC77A45A211BBC_m0184F1B64461AE8DE98E4D0C8E10AC59F7D5F3B6_gshared (RuntimeArray* __this, SingleRangeU5BU5D_t9F938F2249733D85C4F97842A125778D69A843D6* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54694,6 +56086,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.UIR.RenderChain/RenderNodeData>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_mE7D94CEB2998F8B4614FBA6EEED0340581D39DF6_gshared (RuntimeArray* __this, RenderNodeDataU5BU5D_t73A42A22EC1354DE8A25C10A2E408E1DA7C41B7E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54708,6 +56102,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.ResourceManagement.ResourceManager/DeferredCallbackRegisterRequest>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisDeferredCallbackRegisterRequest_tA5BE4066185FD0EB6B33A28B02B58660CE4A22AD_m0DEA84B2DB3B9D7C4BAB7820934D9AF34E36B333_gshared (RuntimeArray* __this, DeferredCallbackRegisterRequestU5BU5D_t9EE53271E1B9497444A02DA609314E924A546CE4* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54722,6 +56118,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.SendMouseEvents/HitInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisHitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_mF524D63B79EF4ADE86EB28C7C0867C66B6D69811_gshared (RuntimeArray* __this, HitInfoU5BU5D_tDAE7DF0D2B0BE3EB2FD25FB4418704E27A2BF1D5* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54736,6 +56134,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Xml.Schema.SequenceNode/SequenceConstructPosContext>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSequenceConstructPosContext_tDEC4FB1B8F19EFD1AC27C150D561C2D4F6090BA7_mBA0D55142B9FA26DF518DEE75A8AE53890D06FD3_gshared (RuntimeArray* __this, SequenceConstructPosContextU5BU5D_t6A625135AE7744062F12A256302E6E6D2FD0A545* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54750,6 +56150,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.Universal.ShaderInput/LightData>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisLightData_tAC4023737E9903DE3F96B993AA323E062ABCB9ED_m4FA27A79F8CE4FC261612F21F28D34F456399973_gshared (RuntimeArray* __this, LightDataU5BU5D_t964B7E2BC84D26719DA1EFB1402E9985EEA70799* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54764,6 +56166,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Net.Sockets.Socket/WSABUF>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisWSABUF_tCBB60A3DE1FB95395F72DA6C6F9D33FE3C40140B_m572C952C14ED3A7215C49F84A8211BF2235F1813_gshared (RuntimeArray* __this, WSABUFU5BU5D_tDFA281008DA84E266D4360D29E402099CBC3BDE7* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54778,6 +56182,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StyleComplexSelector/PseudoStateData>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisPseudoStateData_tE5B3EBF682E8DE88E9325F44841D5B95FEB6F3A8_m6CC62D6AA2FEB5703467A6961AC3EDEF2F573427_gshared (RuntimeArray* __this, PseudoStateDataU5BU5D_t9BCF1529FD67601DCC4EF281432261DE3D79BC16* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54792,6 +56198,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_mA1A2A552F708E592021C41B41685C51DC6A6A82F_gshared (RuntimeArray* __this, ElementPropertyPairU5BU5D_t6FF58980E8CE0FF5D09ED3CFB640CA161657E558* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54806,6 +56214,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StyleSheet/ImportStruct>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisImportStruct_t8CE0AC0405305E6E27224A07CF153167E99C98B1_m392F42AC58464CBB0386D083A6EDD4B0E0BE447C_gshared (RuntimeArray* __this, ImportStructU5BU5D_t42D231FD5BB4B620965D7BED87D56D531B4C7AE9* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54820,6 +56230,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StyleSheets.StyleSheetCache/SheetHandleKey>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSheetHandleKey_tD6F2FE5B26CB5B86F18F74C8D47B5FA63D77B574_m0D0EFBF519493F5E5F182169A9F8126C3A32EB0A_gshared (RuntimeArray* __this, SheetHandleKeyU5BU5D_t0692F3925E22E3E4A05A3D3A3EF1CF46BA4D13D7* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54834,6 +56246,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.StyleVariableResolver/ResolveContext>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisResolveContext_tEF37DBA22D641E4FE1568C5EBE1605A98D86C992_mB05531B0274B83B6A69151FA836C76A86A63519A_gshared (RuntimeArray* __this, ResolveContextU5BU5D_tA44F71F5EFF2CE305C748D326687E840F314B3FB* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54848,6 +56262,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.TMP_Text/UnicodeChar>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisUnicodeChar_tB86B7DE9203E1D985B08268AF1964DECB8A5F722_m8812ECBA3E995FA27CD800697048F82D54A02A46_gshared (RuntimeArray* __this, UnicodeCharU5BU5D_t67F27D09F8EB28D2C42DFF16FE60054F157012F5* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54862,6 +56278,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.TemplateAsset/AttributeOverride>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisAttributeOverride_t58F1DF22E69714D48ECBEEAD266D443A858BADEF_m22B895953FD81E23031FCDB63CE0BE4E73118885_gshared (RuntimeArray* __this, AttributeOverrideU5BU5D_t4D2E0B93EF3A1A1EB58AC1F48E6CFE20A0EA27E8* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54876,6 +56294,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UI.Extensions.TextPic/IconName>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisIconName_tBCA4C696FFEC8647D761120E0B5E5AF85E4ECB24_m856FDCF3CE77340A57D6CDAE8D08E61510897A31_gshared (RuntimeArray* __this, IconNameU5BU5D_tA87AEC1A450418605D5B7398B57AE570403861D3* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54890,6 +56310,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.TextCore.Text.TextResourceManager/FontAssetRef>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisFontAssetRef_t7B8E634754BC5683F1E6601D7CD0061285A28FF3_m6A7E5A21328FCA2D6927A3E5A0996CACFD9C69E4_gshared (RuntimeArray* __this, FontAssetRefU5BU5D_tCFE90C7F0A1519B26B8734B50C8476003EEA40D3* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54904,6 +56326,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.TextCore.Text.TextSettings/FontReferenceMap>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisFontReferenceMap_t1C0CECF3F0F650BE4A881A50A25EFB26965E7831_m6A9C1CB372E92264579CFBBDACC2A08AB4863F57_gshared (RuntimeArray* __this, FontReferenceMapU5BU5D_tFA470305A1935D0EBE0F74758328811439915118* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54918,6 +56342,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.UIR.TextureBlitter/BlitInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisBlitInfo_t6D4C0580BBEF65F5EAD39FB6DBC85F360CF6A357_mF1D5614227440A669576DC6E948293C0D4B672CF_gshared (RuntimeArray* __this, BlitInfoU5BU5D_t090EAE36AF18528B2F72B1D3BBA4831E32F287BA* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54932,6 +56358,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.TextureRegistry/TextureInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTextureInfo_t581C305A0444F786E0E7405054714685BE3A5A5B_mCB93E2BE05BA2FFF0620C4C911B0B7936880DFFC_gshared (RuntimeArray* __this, TextureInfoU5BU5D_t0571178EAC2A0DE9A1F27F2C00A9301E04AAFB83* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54946,6 +56374,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.TimeZoneInfo/TZifType>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTZifType_t3ACBE0BB45077721E9D8DAF1414503F7990621D4_m52C9C75CC8E0F3FFA7E8231661F702EA4BB4328F_gshared (RuntimeArray* __this, TZifTypeU5BU5D_tE399ACB8300400499E8949CFB73AE9BA3F21CD98* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54960,6 +56390,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.UI.TrackedDeviceRaycaster/RaycastHitData>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisRaycastHitData_t5EAB266730389AB27715962670C2512800451841_mE83D9E6882517952224229AAB770B6B3ADB5046E_gshared (RuntimeArray* __this, RaycastHitDataU5BU5D_t98BBA3CE354036B88621172C27ED5C5DD7CB9279* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54974,6 +56406,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription/PoseData>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisPoseData_t67ECD1DA6257206C1935CCD030E1E1EF57E1443A_m4FA275A996C7732BDFAD2430EFE780A2F4ED06F0_gshared (RuntimeArray* __this, PoseDataU5BU5D_t2C3BAD03F54ECC8DA545558F23FC7A58A33BD566* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -54988,6 +56422,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.TreeView/TreeViewItemWrapper>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTreeViewItemWrapper_t8130863A8182C5BF6925A88AF5E77192A4D519CE_m96DB34B812D810362118AE5CB18159A78D07ABB0_gshared (RuntimeArray* __this, TreeViewItemWrapperU5BU5D_tCCD55ED60CE42FB0F213A8032C56CE86A641DC4B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55002,6 +56438,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.UIR.Implementation.UIRStylePainter/Entry>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisEntry_tB8765CA56422E2C92887314844384843688DCB9F_m646051376C7B29C991F88F2334712ABBDB9BCABB_gshared (RuntimeArray* __this, EntryU5BU5D_t0E1B13D46D84865A64150BC9C0299A2189F6F1E8* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55016,6 +56454,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.UIR.UIRenderDevice/AllocToFree>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisAllocToFree_tC46982856CB8220A92BB724F5FB75CCCD09C67D8_mAE3652C96FEA513FFBB5D76CBB7CDB5E6437634D_gshared (RuntimeArray* __this, AllocToFreeU5BU5D_tABB7AF052966F0E8DFAA88DF107B682ED5411788* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55030,6 +56470,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.UIR.UIRenderDevice/AllocToUpdate>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisAllocToUpdate_tD0221D0ABC5378DDE5AAB1DAA219C337E562B512_m104B42FF8B7B026B3FE9CD4F0E6735B11E1D3CEA_gshared (RuntimeArray* __this, AllocToUpdateU5BU5D_tC52656BA0214FA47884361867D3ED2D23CE612C3* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55044,6 +56486,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.UIR.UIRenderDevice/DeviceToFree>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisDeviceToFree_tF2AD2D5F5C1936F25516AEF0736CF4BCA1B3052B_mE70F250202BE3584A3E09F90B01D2A5FE99A29EF_gshared (RuntimeArray* __this, DeviceToFreeU5BU5D_t1A352607EF4B168AD01A686333C52A10A28F9429* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55058,6 +56502,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Globalization.UmAlQuraCalendar/DateMapping>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisDateMapping_tD71D0AF5C7C6CB4F9517C292B1B61D7AF7CFCCFD_m2DAE64D45199650F525B1E8A3A182E08857138DF_gshared (RuntimeArray* __this, DateMappingU5BU5D_tAE26CCACFFC820ECD4675D0D35E04EF7D2A7BA0A* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55072,6 +56518,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UnitySynchronizationContext/WorkRequest>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisWorkRequest_t8AF542F2E248D9234341817CDB5F76C27D348B44_mEC68C018A97889F7F1CD609F779D3D21067364FC_gshared (RuntimeArray* __this, WorkRequestU5BU5D_t1B912B8BE58CF60CAF3A4FEC0A5C0F5BB6D99577* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55086,6 +56534,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<TMPro.Examples.VertexJitter/VertexAnim>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisVertexAnim_tFF5399F548EE5426E46DEB662F561DDE129E20D7_m5A1A8229103F131EF25411D2A4F2CE26DB530251_gshared (RuntimeArray* __this, VertexAnimU5BU5D_tC74236D4EB454A8EF2CE1E6145CE5F78E1D5CF38* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55100,6 +56550,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Vuforia.Internal.Rendering.VideoBackgroundTextureUpdater/TextureData>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTextureData_tE94917EF09AA9845384F5F7D4E3AA38747674119_m1BAB99754D9622E12495059B67E34A54D763AB99_gshared (RuntimeArray* __this, TextureDataU5BU5D_tF50D03A92133D3F8BD17E52CB70600C6A4BCA5A9* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55114,6 +56566,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.VisualTreeAsset/SlotDefinition>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSlotDefinition_t2E39E965BBE5A336DD1B93A115DD01044D1A66F8_m1A5941FC04AABF9842806889AF0B521CDA700F91_gshared (RuntimeArray* __this, SlotDefinitionU5BU5D_t9003D04EBDD74C44DD8490A99624A727154E1299* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55128,6 +56582,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.VisualTreeAsset/SlotUsageEntry>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisSlotUsageEntry_t73A628038C799E4FD44436E093EC19D2B9EA1B76_mB723C7AF89CB9DE60E88F8227839B78D6F6925AF_gshared (RuntimeArray* __this, SlotUsageEntryU5BU5D_t02CCAC4881F115443BE39FCBE8439A9DCFC1C67A* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55142,6 +56598,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.UIElements.VisualTreeAsset/UsingEntry>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisUsingEntry_t0454AD34026FDFD1733CE07BD4AE807B0FBCE484_m32ECA8F7691149574B1B8762444F34B81DAB7EE1_gshared (RuntimeArray* __this, UsingEntryU5BU5D_t3E321CB1464DE1D2F7FDE3790BD4AD8B72FBE811* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55156,6 +56614,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<Vuforia.WebCamProfile/ProfileData>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisProfileData_tA2B9E7119CD0F5AE7EDAF3E1141BBA4905FDDAC6_mC3B33A2F04A28E7EC23A4446DDF974003A6B9ADA_gshared (RuntimeArray* __this, ProfileDataU5BU5D_t1C7CF6A1A3A5B856E48C0D355D841D17ACDB660B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55170,6 +56630,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Xml.XmlEventCache/XmlEvent>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisXmlEvent_t71D4A86D45FCBC2D95E47F0EC32CEC49FEA1E0B2_m75AFF0AC7258A88865989C6A3E97769CB9F07BD0_gshared (RuntimeArray* __this, XmlEventU5BU5D_t9B0948C5BC3C8285A5EBE47A7A7C604859A399A2* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55184,6 +56646,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Xml.XmlNamespaceManager/NamespaceDeclaration>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisNamespaceDeclaration_tF445C0E2CA7FE3EF3357E2FC0D282A04136174F4_m26DBF587B5FCED0A701B7A6E5F173D2F4F5AB311_gshared (RuntimeArray* __this, NamespaceDeclarationU5BU5D_t4DF48D3A2EB82C491A60E8748DE4BAFAA95A0F60* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55198,6 +56662,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Xml.XmlNodeReaderNavigator/VirtualAttribute>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisVirtualAttribute_tA52A03466D0572EE2CA47743C4A08EEE73A66D49_m3D1FBA4EAE22C3DFB9B05F08492A48CD1E98E0A9_gshared (RuntimeArray* __this, VirtualAttributeU5BU5D_t15B4DCB20E70B3A9A3E256B3EC01658ED46E0D83* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55212,6 +56678,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Xml.Schema.XmlSchemaObjectTable/XmlSchemaObjectEntry>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisXmlSchemaObjectEntry_t79D1310E1F5CA860FAD243853E59A3C2ACDB83CD_m4B2831D54B43F3EF81184ECB7C38B933DA3EC7FC_gshared (RuntimeArray* __this, XmlSchemaObjectEntryU5BU5D_tBCEE5881A0EF3ACBC998EFA679ACBF1ED8256E27* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55226,6 +56694,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Xml.XmlSqlBinaryReader/AttrInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisAttrInfo_tE531B225E6B37BA755A3F7B0DE8FCC6D3AB453AE_m30A128586573068C5788C71913AF07C7D50855E3_gshared (RuntimeArray* __this, AttrInfoU5BU5D_tE03F07A01FD491481AD6E60E9E172CC63CF0CF5B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55240,6 +56710,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Xml.XmlSqlBinaryReader/ElemInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisElemInfo_t4643E7FF61D3697F995A85EDF42BF479EA30B235_mB02ED9A926109D76B478CF8FD3AEE59883D80FA7_gshared (RuntimeArray* __this, ElemInfoU5BU5D_tC4C081494489517ABD5C5E1EE92F1336EAFC4BF3* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55254,6 +56726,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Xml.XmlSqlBinaryReader/QName>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisQName_tA3E1CB09850DEF9376C068A29697FEDB0F82C156_mD72A17C5FE87B7AB6A8CBF4640F67B28E479F251_gshared (RuntimeArray* __this, QNameU5BU5D_tE6EE30AC34834B1416E7CB4152DB3C0904CBB684* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55268,6 +56742,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Xml.XmlTextReaderImpl/ParsingState>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisParsingState_tF0FABA16483FCC2DB710460D11CD79D35C4E2886_m68349913237E8F794E064826AE29F5C9F462C6B7_gshared (RuntimeArray* __this, ParsingStateU5BU5D_t6DBF0A43B3A9658C0218546F90EC15DCF17F3E29* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55282,6 +56758,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Xml.XmlTextWriter/Namespace>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisNamespace_t98C96E77A64CE0105E85EEF2416A270C2AFA6853_m13F253528C44349123563007E092FDA1FCEB056B_gshared (RuntimeArray* __this, NamespaceU5BU5D_tF0F2AD10B1537EBB0F35B1611FD7D89D48FA9E93* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55296,6 +56774,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Xml.XmlTextWriter/TagInfo>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisTagInfo_tDECE4D67D7F52936C9E8F58DE38BE11733108F5C_m42B6F6DD7618A9595F5A8741700BC4C828C5B842_gshared (RuntimeArray* __this, TagInfoU5BU5D_tC6FBAFF4593190EF8F7EEBAB8913C4E17D645776* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55310,6 +56790,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Xml.XmlWellFormedWriter/AttrName>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisAttrName_t0B37BBC030EEC83B4B00DFCDD9C1DB43A31675F2_m9C8D0246D13179398E21366AEC9108043F6DD333_gshared (RuntimeArray* __this, AttrNameU5BU5D_t501369F3E8EBC0B2B32AF603424921032B14A983* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55324,6 +56806,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Xml.XmlWellFormedWriter/ElementScope>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisElementScope_t7BA86196EE58918EA5CA952D37FE3C7B19A33592_m40380BC0B5219ED3B820CE4C9A8BF3AE70B8D90F_gshared (RuntimeArray* __this, ElementScopeU5BU5D_t68B3D6D2E3C34832F1D1BBDB096CCF5270D5DBD9* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55338,6 +56822,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Xml.XmlWellFormedWriter/Namespace>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisNamespace_tC7546D20184E40E3566060C1246B764E4DBA55A0_m602941335319CC509E3FF6C904E4F507C61A0F0B_gshared (RuntimeArray* __this, NamespaceU5BU5D_tA809858A8257718546DA87C05CA3DAF0B8C37AB7* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55352,6 +56838,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Dynamic.BindingRestrictions/TestBuilder/AndNode>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisAndNode_tD84E0D831AD339630C4170F558969F4ACAD73653_m8E0ED37C92577529CF8265D5C01478BE6C2AE4B0_gshared (RuntimeArray* __this, AndNodeU5BU5D_tB441383F35641A763CF3684AB72D92BE6CD35C3C* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55366,6 +56854,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.Rendering.DebugUI/Foldout/ContextMenuItem>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisContextMenuItem_t0D29D1ECB0C1F769EFC9ACA2D0AE6B1A8A4736A9_m0A4E2D26981E2CA525A0EBCBC38D346E34A82B3D_gshared (RuntimeArray* __this, ContextMenuItemU5BU5D_tFD4FC81929646BCD206377E2AC8E290E93FEE279* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55380,6 +56870,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Decimal/DecCalc/PowerOvfl>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisPowerOvfl_t00CAEB1B84D897513AD903AC683159A172CA9304_mC881518FFC89095035586BA48F633A2B1D46BC19_gshared (RuntimeArray* __this, PowerOvflU5BU5D_t8BB6F43AF19F1F7C7558815B4684875BC320735B* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55394,6 +56886,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Xml.Schema.FacetsChecker/FacetsCompiler/Map>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisMap_t130828B38036909DD82C3A4CCCB9AA0130113AA7_mA58A42C101986238EEDA920B733AB51D6CA8FA3D_gshared (RuntimeArray* __this, MapU5BU5D_t356001CA2965F0531E87F2D86A2B06529814B9FD* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55408,6 +56902,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.Layouts.InputControlLayout/Collection/LayoutMatcher>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisLayoutMatcher_t0D8F5E32A7C82BC292EBA0FAA3EB2D9F1F72A0A6_m035049DB64B43569FD521008F1B9AA66ACBD9CE0_gshared (RuntimeArray* __this, LayoutMatcherU5BU5D_t790C71C3787F12C3EE9F7ABDC24DFCEB5281F90E* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55422,6 +56918,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.Layouts.InputControlLayout/Collection/PrecompiledLayout>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisPrecompiledLayout_tEFFE070A47145E8B18D5003F777983D278034A63_m70A73AF94AAC6A5FC8CE50430C53EAE619D0DA2C_gshared (RuntimeArray* __this, PrecompiledLayoutU5BU5D_t1869AF68DD01B58B3BC18854CF18B58B8BE00C5F* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55436,6 +56934,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.InputControlScheme/SchemeJson/DeviceJson>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisDeviceJson_t62221814EF0AB9D5DB20A870D7C15C45A8AC06F2_m274A08DFC8FDF21C3510F834FBB2829E2050F02F_gshared (RuntimeArray* __this, DeviceJsonU5BU5D_tD8A3D5639BB87977D72F14C0AEDA8EBC7C625278* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55450,6 +56950,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<UnityEngine.InputSystem.Layouts.InputDeviceMatcher/MatcherJson/Capability>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisCapability_t1A686C4F719B0408BCBB428021405F440196E16E_m8ECA236C2AC3ACCF01BAD113B9E373614D2A2AAE_gshared (RuntimeArray* __this, CapabilityU5BU5D_tAB21826273F0E3FC45A0E93F8F7B6368653124EA* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55464,6 +56966,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Void System.Array::InternalArray__ICollection_CopyTo<System.Linq.Expressions.Interpreter.InstructionList/DebugView/InstructionView>(T[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_TisInstructionView_tA381D8A27DEDDEE43C71B3BB3A2FADC0CD059A3D_m8561D4EFBEE750E326B216A4AB2C9372903B086C_gshared (RuntimeArray* __this, InstructionViewU5BU5D_t2A200DCB627CD67C1DDBD22595A355894F2646A3* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(__this, 0, NULL);
@@ -55478,6 +56982,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_CopyTo_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.ArraySegment`1<System.Byte>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_m051821ECB9C09F885A6B941CC3626CE0BF549E2F_gshared (RuntimeArray* __this, ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55488,6 +56994,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisAsyncOperationHandle_1_tDD1D892D87C7A0C3189DD56DDB997AB1A2089A74_m32D3DAE6AA9BA083830A384C3AD3BA439F390542_gshared (RuntimeArray* __this, AsyncOperationHandle_1_tDD1D892D87C7A0C3189DD56DDB997AB1A2089A74 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55498,6 +57006,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.Background>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEmptyData_t3ADF94D95DAB6657C31C89FBD83359BCC8B247EC_m2DFDC4D4ED980728478FF2DA376AA1A863800175_gshared (RuntimeArray* __this, EmptyData_t3ADF94D95DAB6657C31C89FBD83359BCC8B247EC ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55508,6 +57018,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.Color>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEmptyData_t48DAAB7E0603E64673C08055B3C11B08F9AB5A83_m66EBAF4BE59B0A8BBB93BB558058DEEF0528EEBF_gshared (RuntimeArray* __this, EmptyData_t48DAAB7E0603E64673C08055B3C11B08F9AB5A83 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55518,6 +57030,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.FontDefinition>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEmptyData_tF289285BF36F0D81770920F887D038CEE0FDE022_m07B3A1566F1323015EC6FAB22679132455DC107B_gshared (RuntimeArray* __this, EmptyData_tF289285BF36F0D81770920F887D038CEE0FDE022 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55528,6 +57042,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<System.Int32>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEmptyData_t02ECBE01728C0979248845C107F3FCE871DDC9E3_mE919B7C6E1D857BC303D8C805118498F2E9183CB_gshared (RuntimeArray* __this, EmptyData_t02ECBE01728C0979248845C107F3FCE871DDC9E3 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55538,6 +57054,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.Length>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEmptyData_tB976A2FB38B5384D01F0E788A4C35E43321C374C_mA8FC0958FAEE0BB5B58EFCF9B1FE37FE991E9BEB_gshared (RuntimeArray* __this, EmptyData_tB976A2FB38B5384D01F0E788A4C35E43321C374C ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55548,6 +57066,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEmptyData_tF13A138DEF2627A8D32807954AEF9E30615B8182_m4F25CB88041C84752AA3CBD734D6B7679A957768_gshared (RuntimeArray* __this, EmptyData_tF13A138DEF2627A8D32807954AEF9E30615B8182 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55558,6 +57078,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.Rotate>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEmptyData_t4FC1686BC526371087AD5A5B28DBE30D1ECDD533_m450F1BBE3FCB406B2DEE939105E4FF37E514BA79_gshared (RuntimeArray* __this, EmptyData_t4FC1686BC526371087AD5A5B28DBE30D1ECDD533 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55568,6 +57090,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.Scale>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEmptyData_t4A4F82A772FE766AA090A0628F398EA4D55646F0_mE4CB751D56CB3CF0C020275D67A0D30CC15F60F8_gshared (RuntimeArray* __this, EmptyData_t4A4F82A772FE766AA090A0628F398EA4D55646F0 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55578,6 +57102,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<System.Single>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEmptyData_t43DE49ADBBE9CFA603DCA7C5CDC998DE6DC976A1_mC7A11F1F8206866B37BFF2E68CA09D8E4C83524C_gshared (RuntimeArray* __this, EmptyData_t43DE49ADBBE9CFA603DCA7C5CDC998DE6DC976A1 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55588,6 +57114,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.TextShadow>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEmptyData_tA8769B9E6E130745DA8CFF6D496ED462ED74B44F_m4EED15E725633717BDDE6278B62AADF9D89E6747_gshared (RuntimeArray* __this, EmptyData_tA8769B9E6E130745DA8CFF6D496ED462ED74B44F ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55598,6 +57126,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.TransformOrigin>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEmptyData_t2CB75995D335E22F6BF31D1CB979DB1067C5025E_m047734B8080606DB42A57A8AAFD3F9EF098BE5BF_gshared (RuntimeArray* __this, EmptyData_t2CB75995D335E22F6BF31D1CB979DB1067C5025E ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55608,6 +57138,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.Translate>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEmptyData_tED1BB22234DD4A2FBA90416759D025535300EDCB_m030364C8EBB479FDEB6D6968BC1348E2DD46F08D_gshared (RuntimeArray* __this, EmptyData_tED1BB22234DD4A2FBA90416759D025535300EDCB ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55618,6 +57150,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Xml.Linq.XHashtable`1/XHashtableState/Entry<System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t6E72C722C46949F140550D563C1F41E304752583_m1E1763E9E759F0C5241668C4A6460C1915D455DD_gshared (RuntimeArray* __this, Entry_t6E72C722C46949F140550D563C1F41E304752583 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55628,6 +57162,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tEA99553F325828A74A65B889F46BE09836044044_mC3D1938B02F2CE6BEDD3BA3F30C81FCA56B2F0DA_gshared (RuntimeArray* __this, Entry_tEA99553F325828A74A65B889F46BE09836044044 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55638,6 +57174,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.ValueTuple`2<System.Object,System.Object>,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t9E54CCBCBF389A3EB228FFF39B2963CCB6661448_mEC2F39D9543BF0C0819B6750CFDFDC7E1E808A48_gshared (RuntimeArray* __this, Entry_t9E54CCBCBF389A3EB228FFF39B2963CCB6661448 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55648,6 +57186,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Guid,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t4BAC0D992203B05A8D2645406D4CF9E24E0F5BEF_m92C9CF986CCD516287AA85A960487C3D8335423E_gshared (RuntimeArray* __this, Entry_t4BAC0D992203B05A8D2645406D4CF9E24E0F5BEF ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55658,6 +57198,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.Hash128,System.Int32>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t899F478E066573053AECA9BF68F5B4E9D05CD67D_m440DCE937AB27BF6BC52AD0CA9B679009764D86E_gshared (RuntimeArray* __this, Entry_t899F478E066573053AECA9BF68F5B4E9D05CD67D ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55668,6 +57210,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.Hash128,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t343716AA7796A6C22FFA9AEBC18EF142FCBDB10F_mCE06F38849A1656C88C1DA8B72DC21C0AB27B085_gshared (RuntimeArray* __this, Entry_t343716AA7796A6C22FFA9AEBC18EF142FCBDB10F ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55678,6 +57222,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.ValueTuple`2<UnityEngine.Vector4,UnityEngine.Vector2Int>>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t008CACF55D7F47352355FB69BA62E34489CF2116_mD3E453443A008159193C0047DF966BCA843967EE_gshared (RuntimeArray* __this, Entry_t008CACF55D7F47352355FB69BA62E34489CF2116 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55688,6 +57234,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Boolean>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t740F919D5BA6D1FE201C58777E6EB966B35EE2EE_m5082BB47369C4160E5821C828AE395470A732987_gshared (RuntimeArray* __this, Entry_t740F919D5BA6D1FE201C58777E6EB966B35EE2EE ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55698,6 +57246,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Char>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t5A1DD43C826878A3853C7DF32E971C3D19805227_m0BD5FA0BA82913A0E3ABA4071CBD0433B1FD3B92_gshared (RuntimeArray* __this, Entry_t5A1DD43C826878A3853C7DF32E971C3D19805227 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55708,6 +57258,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int32,UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tFFBE6CED43071BF3A2C52D1BB70EE6197C7D5444_mF5EAD673EAFAAA97A10BBC9BF0049DD77E8CBBA7_gshared (RuntimeArray* __this, Entry_tFFBE6CED43071BF3A2C52D1BB70EE6197C7D5444 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55718,6 +57270,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Int32>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tA212E7034D981AC2F7E219C600769EE485919684_m6EA0EDABB65A8373AF42079E94B93C7B3E503EB5_gshared (RuntimeArray* __this, Entry_tA212E7034D981AC2F7E219C600769EE485919684 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55728,6 +57282,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Int32Enum>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t56DFE5C32B6C0F59B83A080FD15B9AFB39F27185_m4A3BE8469E32A94C51E21E1D035528EEDE0BD0AE_gshared (RuntimeArray* __this, Entry_t56DFE5C32B6C0F59B83A080FD15B9AFB39F27185 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55738,6 +57294,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Int64>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t4F374F13C9422AE969BA033893F5B076AEE88131_m083CD322BC7FD337738A46A0DED83A62A2038E91_gshared (RuntimeArray* __this, Entry_t4F374F13C9422AE969BA033893F5B076AEE88131 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55748,6 +57306,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t59E90724C756CA6F3F5F5B2D04D9E6A4FDDFC339_mED49C6C8FD0B5C92741323570231C9B632EB86A0_gshared (RuntimeArray* __this, Entry_t59E90724C756CA6F3F5F5B2D04D9E6A4FDDFC339 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55758,6 +57318,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Single>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t532FECF491646E3372F9D145FEC277E0C5089CBC_m76CA5B7C9F6B2E6454A2942E4D302F7B5DB21C20_gshared (RuntimeArray* __this, Entry_t532FECF491646E3372F9D145FEC277E0C5089CBC ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55768,6 +57330,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.UInt64>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tEF6BEA499CCB8C4F2AA974BD354B4E3BCFE5EC4B_mD45BC7A78272E17402DF8BA2205536199BD3281E_gshared (RuntimeArray* __this, Entry_tEF6BEA499CCB8C4F2AA974BD354B4E3BCFE5EC4B ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55778,6 +57342,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int32,UnityEngine.Vector2Int>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t6ED579DFEA7ED1704F2C549D6B01A492B6E4BEF5_m31FB0848998F985ADDB57C5727CD3FF913B0FA1B_gshared (RuntimeArray* __this, Entry_t6ED579DFEA7ED1704F2C549D6B01A492B6E4BEF5 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55788,6 +57354,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int32,Vuforia.VuMatrix44F>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t3931D073D20E5270318C5CBBF20CD9B44F0047B5_m30C4966B60352CB1C33803A1A6E3703AFC5868E9_gshared (RuntimeArray* __this, Entry_t3931D073D20E5270318C5CBBF20CD9B44F0047B5 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55798,6 +57366,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int32,UnityEngine.TextCore.Text.TextResourceManager/FontAssetRef>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tAB4AC6D6C313741B7F6F6C4694EF22BCDEBF5B20_m7A81DB66FD989863EEDEC91C644BD92AA1BE11FF_gshared (RuntimeArray* __this, Entry_tAB4AC6D6C313741B7F6F6C4694EF22BCDEBF5B20 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55808,6 +57378,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int32Enum,System.Boolean>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t7B3861A33B85B48715972326859F7104EAEFDF50_mE0E4CCAA581BDA5477CB1583F47416C26CEBCCAD_gshared (RuntimeArray* __this, Entry_t7B3861A33B85B48715972326859F7104EAEFDF50 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55818,6 +57390,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int32Enum,UnityEngine.Color>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t01E46B58E4A1F22397FE59A950E544EFDA00F748_m6C22B4A0614BA896442465A27F8447350F7A1851_gshared (RuntimeArray* __this, Entry_t01E46B58E4A1F22397FE59A950E544EFDA00F748 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55828,6 +57402,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int32Enum,System.Int32Enum>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tFF4285DE3B86A2B349258B4BD7E12C0EE4A4B74A_mCC9AFD18C20CF7C31AAFE025A1DBB607587176E6_gshared (RuntimeArray* __this, Entry_tFF4285DE3B86A2B349258B4BD7E12C0EE4A4B74A ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55838,6 +57414,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int32Enum,UnityEngine.Matrix4x4>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tA4CE377ED53530282179BE10A55FE3A4E4A5CF4E_m084F614CF43EA6F9FE3BC2B42B22820A77E16ADE_gshared (RuntimeArray* __this, Entry_tA4CE377ED53530282179BE10A55FE3A4E4A5CF4E ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55848,6 +57426,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int32Enum,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t4D5A107E6414D8B9DE012405A201C46AACFACF98_m731A8C622635E7F73AE761DAA50E2B26BDF26DF1_gshared (RuntimeArray* __this, Entry_t4D5A107E6414D8B9DE012405A201C46AACFACF98 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55858,6 +57438,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int32Enum,UnityEngine.Vector3>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tCAA5E8C25DBDD41FDE687FAC9279F16A616DCEC6_mF2D68934769A1E9900E39B3E70D8DECAF0D0A5BA_gshared (RuntimeArray* __this, Entry_tCAA5E8C25DBDD41FDE687FAC9279F16A616DCEC6 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55868,6 +57450,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int64,UnityEngine.UIElements.ComputedStyle>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tA76B18EF78BF0132EE1736D5F5B829D890C26E5C_mAA7F61D714DDB5A42A293A4FDD2DBA414E89CADA_gshared (RuntimeArray* __this, Entry_tA76B18EF78BF0132EE1736D5F5B829D890C26E5C ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55878,6 +57462,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Int64,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tFFDF932514D611FAE4AB69C8DDC8FA5F889B6438_mEDC94797FD80C7D46DCE93BB5B22F5D287C55FA9_gshared (RuntimeArray* __this, Entry_tFFDF932514D611FAE4AB69C8DDC8FA5F889B6438 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55888,6 +57474,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tE8CF104B482ED92A3BF31C2B151BD3FEBFAF2F6F_mA7E1D9AFB00C633ECB633DBA61E69AA9CB804D36_gshared (RuntimeArray* __this, Entry_tE8CF104B482ED92A3BF31C2B151BD3FEBFAF2F6F ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55898,6 +57486,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.InputSystem.Utilities.InternedString,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t575ADA8FFB2EED66C64622ACC70ED8CF7A732FFA_mE94DE14FA022B45BA0220A11805F64D4C1ED21FB_gshared (RuntimeArray* __this, Entry_t575ADA8FFB2EED66C64622ACC70ED8CF7A732FFA ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55908,6 +57498,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputControlLayout/Collection/PrecompiledLayout>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t5DA42CAF95F196F03BDD802C9D4F704954B556AB_mFCBBCCBC5BC8E2699E221B7EE0FC2E296B7F37A9_gshared (RuntimeArray* __this, Entry_t5DA42CAF95F196F03BDD802C9D4F704954B556AB ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55918,6 +57510,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Object>>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t8B8123A4CF4482E637F2DD10E1381A07127AC71E_m9D2CA70EF28BDBC9E3501077FBE0E7EC856BF247_gshared (RuntimeArray* __this, Entry_t8B8123A4CF4482E637F2DD10E1381A07127AC71E ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55928,6 +57522,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t56E8626AECB5D45050816DA6ED6BBCCD6D029A47_mFEAFB20E3CE9A75BCEA9C40D340B2F05C4F15CC7_gshared (RuntimeArray* __this, Entry_t56E8626AECB5D45050816DA6ED6BBCCD6D029A47 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55938,6 +57534,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Boolean>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tF9C4D725857FFCC0AD98E4629FD00A7E064A0C1C_m2723BB41A9A6E83BCB6AC4987BAB74A5F550ECB6_gshared (RuntimeArray* __this, Entry_tF9C4D725857FFCC0AD98E4629FD00A7E064A0C1C ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55948,6 +57546,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.Color32>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tE39771EB73DA3008BB0DF74028FF7285866C18C8_mC124CB8E1783733AC110015F1E046C5FDCE6AD1F_gshared (RuntimeArray* __this, Entry_tE39771EB73DA3008BB0DF74028FF7285866C18C8 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55958,6 +57558,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Int32>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t3E9BC9EC2D9161E6078E219EF6BEE9162020CD39_m9E1E096EC1A91480E94CF1A2D1795D37AF8FB303_gshared (RuntimeArray* __this, Entry_t3E9BC9EC2D9161E6078E219EF6BEE9162020CD39 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55968,6 +57570,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Int32Enum>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t1FBA063A7158A877EF3D4306E7BE0559C3A13202_mF74EFF55650775705C92F85B282E7722C7BDC8AC_gshared (RuntimeArray* __this, Entry_t1FBA063A7158A877EF3D4306E7BE0559C3A13202 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55978,6 +57582,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tCCEE77FB83F33718CFB5E786A11E06DC9D5B63CC_m9B8224C598AE85357E0A8437FAEFECF5E4F05144_gshared (RuntimeArray* __this, Entry_tCCEE77FB83F33718CFB5E786A11E06DC9D5B63CC ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55988,6 +57594,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Single>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tC44036EDE3BC084F847AF870E0FA6D39AA7CF48A_m81A60417FC511D28BC7789FB6B45C84A7747CF14_gshared (RuntimeArray* __this, Entry_tC44036EDE3BC084F847AF870E0FA6D39AA7CF48A ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -55998,6 +57606,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.UIElements.StyleSheets.StylePropertyValue>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t6C6FFC8A6877137F14C5BA9B9205BADAE8258F98_m1B39A5D75CB4E965EF3A05EED7119C9357CB3393_gshared (RuntimeArray* __this, Entry_t6C6FFC8A6877137F14C5BA9B9205BADAE8258F98 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56008,6 +57618,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.UIElements.TextureId>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t8C80D6795974A124B4CD390BBB064C11BAD5D216_mD61AAB9D93890AA549C20E141A4C351E829AB0C7_gshared (RuntimeArray* __this, Entry_t8C80D6795974A124B4CD390BBB064C11BAD5D216 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56018,6 +57630,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.Vector2>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tDA878B789C830BB6D853BCCA94EC9A56473F9192_m5A001F3B6757C06748EF91322446375C78EDD859_gshared (RuntimeArray* __this, Entry_tDA878B789C830BB6D853BCCA94EC9A56473F9192 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56028,6 +57642,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.Vector3>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t9C565819818CEE927F7310B20154140C74FF0587_m19AC5787AADD959C7FFA2A87624720D3D9366327_gshared (RuntimeArray* __this, Entry_t9C565819818CEE927F7310B20154140C74FF0587 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56038,6 +57654,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,Vuforia.ConfigData/CylinderTargetData>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t78A47A3F6CEEC34154BDF4FD6C3969CE5616A1B1_m9C78744AF9BA48C488691C8763BBE3FB4A1D6C64_gshared (RuntimeArray* __this, Entry_t78A47A3F6CEEC34154BDF4FD6C3969CE5616A1B1 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56048,6 +57666,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,Vuforia.ConfigData/ImageTargetData>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tE4247208050F1CE52403ACCE7C5BFB29A7F983CF_mF315E0392CAEF764DEEB7D2D30A2EFFCED4E4FF7_gshared (RuntimeArray* __this, Entry_tE4247208050F1CE52403ACCE7C5BFB29A7F983CF ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56058,6 +57678,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,Vuforia.ConfigData/MultiTargetData>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t71C45DDCCD78FD0E7AF3AF206A8A18DE08416B9A_mE24371D932D439BA9893C9802F30CB1354538FD6_gshared (RuntimeArray* __this, Entry_t71C45DDCCD78FD0E7AF3AF206A8A18DE08416B9A ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56068,6 +57690,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tBE79E9CAC9D7DD54B4635CEE784E7DC034A6E98B_mC9E32CAB98858D0524F22C145F6974F490504648_gshared (RuntimeArray* __this, Entry_tBE79E9CAC9D7DD54B4635CEE784E7DC034A6E98B ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56078,6 +57702,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.InputSystem.UI.InputSystemUIInputModule/InputActionReferenceState>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t24F25ECA3BDA03521151C33B3297BAAE878226BF_m199D1ABBAFC878192C37A252D650B261C290CC4B_gshared (RuntimeArray* __this, Entry_t24F25ECA3BDA03521151C33B3297BAAE878226BF ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56088,6 +57714,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tD8875C96F18F04DE9948C96AC2CB648E8901D064_mE8B0BDD56D71346279A8CEBF8A9B61DE6492BD30_gshared (RuntimeArray* __this, Entry_tD8875C96F18F04DE9948C96AC2CB648E8901D064 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56098,6 +57726,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.UIElements.StyleComplexSelector/PseudoStateData>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t7570C0657D5A1E8127DA80AE9CF398FAE7F58164_mDD0E0D71125EDECD6AD9405AB81C831AB8BBE8DB_gshared (RuntimeArray* __this, Entry_t7570C0657D5A1E8127DA80AE9CF398FAE7F58164 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56108,6 +57738,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Object,Vuforia.WebCamProfile/ProfileData>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t220AA9583FC76C1A60DB0B8C1F33ADB13276D772_mDFF40ADB451E424B0B389A47A79973418D52EAA3_gshared (RuntimeArray* __this, Entry_t220AA9583FC76C1A60DB0B8C1F33ADB13276D772 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56118,6 +57750,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<Vuforia.Newtonsoft.Json.Serialization.ResolverContractKey,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tBAEFB89FD352BA2CD9D132E006C00C47400BE501_mF4E2086B6B7E78498F06C2BDDC8DAAAC734B1066_gshared (RuntimeArray* __this, Entry_tBAEFB89FD352BA2CD9D132E006C00C47400BE501 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56128,6 +57762,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.XR.ARSubsystems.TrackableId,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tDF21A2C43AE7F49B112EBF9BFBD462DA12AAD529_m52B024F2EF321DCDC6B6B38E734A3D9600BE8766_gshared (RuntimeArray* __this, Entry_tDF21A2C43AE7F49B112EBF9BFBD462DA12AAD529 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56138,6 +57774,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.UInt32,UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t58E99ABABD435BCC040760EDD6D161FA4AFAD578_m064A699D2E5639A504EDC58DD96AABF370F63285_gshared (RuntimeArray* __this, Entry_t58E99ABABD435BCC040760EDD6D161FA4AFAD578 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56148,6 +57786,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.UInt32,System.Int32>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t2679F25F22E3E7DB5F988C82C064BA4BE59F5677_mCAB129040B828F870554040499C40ADEBCAC7369_gshared (RuntimeArray* __this, Entry_t2679F25F22E3E7DB5F988C82C064BA4BE59F5677 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56158,6 +57798,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.UInt32,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t1F21171535DEAE77D533CFCFAF0EF8C51862C715_m8237F451C371E80FEAFDE1C2FF574E6B351F3B3F_gshared (RuntimeArray* __this, Entry_t1F21171535DEAE77D533CFCFAF0EF8C51862C715 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56168,6 +57810,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<MS.Internal.Xml.Cache.XPathNodeRef,MS.Internal.Xml.Cache.XPathNodeRef>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tE850363938764CC80F151D8A949A63B1588A5BF9_mFABE3EDAF7D4A6295392A799E9D9BE713CCFD5B2_gshared (RuntimeArray* __this, Entry_tE850363938764CC80F151D8A949A63B1588A5BF9 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56178,6 +57822,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<Vuforia.Newtonsoft.Json.Utilities.ConvertUtils/TypeConvertKey,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t0E2CC75B90BBFC454F3E79503FBD8780C02E77F1_m3E157064B63C4A9C5D44C708EB76BE2E7FCE7C21_gshared (RuntimeArray* __this, Entry_t0E2CC75B90BBFC454F3E79503FBD8780C02E77F1 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56188,6 +57834,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<Vuforia.Newtonsoft.Json.Serialization.DefaultSerializationBinder/TypeNameKey,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t9E8521226167A335876EC9B6F8E4B192E6F8C907_mD1F13F8DB20FF0CDC82C01E6D962108263E8D955_gshared (RuntimeArray* __this, Entry_t9E8521226167A335876EC9B6F8E4B192E6F8C907 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56198,6 +57846,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<System.Text.RegularExpressions.Regex/CachedCodeEntryKey,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tEC2FCD90BA00C992320FFF0D4A74509526BF8CA1_m4DFBCFC57CC680772B70E0BFFB375EC2E50F1713_gshared (RuntimeArray* __this, Entry_tEC2FCD90BA00C992320FFF0D4A74509526BF8CA1 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56208,6 +57858,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,System.Int32>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t50EA0C1E8A8EE9E0CC561055CA772A2BF21F8A5E_m555FDA04E55894586EA98188FE3BA4ED6644EE62_gshared (RuntimeArray* __this, Entry_t50EA0C1E8A8EE9E0CC561055CA772A2BF21F8A5E ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56218,6 +57870,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,System.Int32Enum>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tBFCAF6DF9FBB6B7CB44FAA838B615D233C134CAB_m305D28F7629196DCB6F86B42C8C8DBFE12EF86AA_gshared (RuntimeArray* __this, Entry_tBFCAF6DF9FBB6B7CB44FAA838B615D233C134CAB ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56228,6 +57882,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_tC6BA3FCE24005B80AD289EB230B5E04466EEDC86_m4F060C677FC67418C167610A33038E702B87C3B0_gshared (RuntimeArray* __this, Entry_tC6BA3FCE24005B80AD289EB230B5E04466EEDC86 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56238,6 +57894,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.UIElements.StyleSheets.StyleSheetCache/SheetHandleKey,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisEntry_t9DD41777766A237ECDB0E269740F073135AB4A64_m19DE0289ED7DFBC4F30DB0174F7CBC7478F3D2C9_gshared (RuntimeArray* __this, Entry_t9DD41777766A237ECDB0E269740F073135AB4A64 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56248,6 +57906,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.KeyValuePair`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisKeyValuePair_2_tAC0330F506B0E9163D3B28C7146DC5ACD338DC13_mCFCE346B39CB7157A58D935A02E3E8386F92AA66_gshared (RuntimeArray* __this, KeyValuePair_2_tAC0330F506B0E9163D3B28C7146DC5ACD338DC13 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56258,6 +57918,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.KeyValuePair`2<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Object,System.Object>,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisKeyValuePair_2_t3F2A3CB7BBA975883A7BEA65F8283E2D7BE1E52B_mBDD3618F2577EB9CFE8CB6AF6ED7883324536606_gshared (RuntimeArray* __this, KeyValuePair_2_t3F2A3CB7BBA975883A7BEA65F8283E2D7BE1E52B ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -56268,6 +57930,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_
 // System.Boolean System.Array::InternalArray__ICollection_Remove<System.Collections.Generic.KeyValuePair`2<System.ValueTuple`2<System.Object,System.Object>,System.Object>>(T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Remove_TisKeyValuePair_2_t2A9D1B7DEBB99A68011F37B017FDD44CFE5AEC14_m35520EC76532AA995E91503201BCE86BEE05AC8D_gshared (RuntimeArray* __this, KeyValuePair_2_t2A9D1B7DEBB99A68011F37B017FDD44CFE5AEC14 ___item0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);

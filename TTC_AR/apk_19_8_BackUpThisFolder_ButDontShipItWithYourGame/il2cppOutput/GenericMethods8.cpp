@@ -329,6 +329,7 @@ struct UpdateFunction_t1C48B7EECBE47AC123A9D9D7D9D2A9EE951C56C4;
 // System.Xml.XmlSqlBinaryReader/NamespaceDecl
 struct NamespaceDecl_t0B5D3E28F9E6733D3ADBBE7CAF3FA4DD11787D49;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CoreModule[];
 IL2CPP_EXTERN_C RuntimeClass* ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RankException_t57E52FB1527D150EF5B5E031D2BA08B85BAE91BA_il2cpp_TypeInfo_var;
@@ -1094,6 +1095,10 @@ IL2CPP_EXTERN_C const RuntimeMethod* Array_InternalArray__get_Item_TisEntry_tF9C
 IL2CPP_EXTERN_C const RuntimeMethod* Array_InternalArray__get_Item_TisEntry_tFF4285DE3B86A2B349258B4BD7E12C0EE4A4B74A_mDE06285A1F1C61691B5EB25C1BB986CB9C4287CF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_InternalArray__get_Item_TisEntry_tFFBE6CED43071BF3A2C52D1BB70EE6197C7D5444_m5F23867EEEB54CED63CBBEE538164F19C18BE84A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_InternalArray__get_Item_TisEntry_tFFDF932514D611FAE4AB69C8DDC8FA5F889B6438_mF3F63DC0B9094BF571EE82E9B17ADEB9D30E6A40_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector4_Equals_m73FAA65A1A565EE28D6C9385603829894B7D4392_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector4_Equals_mC2596CA0F441D25DE7A9419BE66A8FA2DA355CB9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var;
 struct BindingJson_tD39890E66B1818DE8FEDA640970E315109723F7A_marshaled_com;
 struct BindingJson_tD39890E66B1818DE8FEDA640970E315109723F7A_marshaled_pinvoke;
 struct BitRegion_tFE885CE2CC6C0287CF86BF59672C19D86D8DFC4C;
@@ -14295,6 +14300,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisVecto
 	int32_t V_1 = 0;
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14321,6 +14328,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -14382,6 +14390,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisVecto
 	int32_t V_1 = 0;
 	VectorImageVertex_t9D42377517CC059BD40E2A626ECEBE0C94CA0948 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14408,6 +14418,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -14470,6 +14481,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisVerte
 	int32_t V_1 = 0;
 	Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14496,6 +14509,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -14558,6 +14572,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisVerte
 	int32_t V_1 = 0;
 	VertexAttributeDescriptor_tD4231FBF57335465D16308D2A18E8E83D36BFA76 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14584,6 +14600,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -14645,6 +14662,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisVisib
 	int32_t V_1 = 0;
 	VisibleLight_t0A4DF5B22865A00F618A0352B805277FA0132805 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14671,6 +14690,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -14732,6 +14752,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisVuCam
 	int32_t V_1 = 0;
 	VuCameraVideoMode_tB492EBEB0605860CCAC237A94369C4C29011350D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14758,6 +14780,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -14820,6 +14843,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisVuDat
 	int32_t V_1 = 0;
 	VuDatabaseTargetInfo_tACF0C984E38A6AA4F6FB07B5AAEFEA516A651E6E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14846,6 +14871,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -14908,6 +14934,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisVuMat
 	int32_t V_1 = 0;
 	VuMatrix44F_tC75A0AF8524BED265F800A953806F30FA28B8DE6 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14934,6 +14962,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -14995,6 +15024,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisVuMes
 	int32_t V_1 = 0;
 	VuMeshObservationBlock_tE6EB4D4BD9AA468CDB198D07F697FFD717E04963 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15021,6 +15052,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -15083,6 +15115,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisVuMod
 	int32_t V_1 = 0;
 	VuModelTargetStateInfo_t9B26867D304B04B7A64BDD5F340CA2BFA372F117 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15109,6 +15143,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -15171,6 +15206,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisVuVec
 	int32_t V_1 = 0;
 	VuVector2F_t79CCE33CCEFEED608BEE3AAA2C00C8AB4FF9E1B8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15197,6 +15234,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -15258,6 +15296,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisWebCa
 	int32_t V_1 = 0;
 	WebCamDevice_t3D72A89B7F52FD27192023A67254D19E89D9738C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15284,6 +15324,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -15346,6 +15387,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisWordI
 	int32_t V_1 = 0;
 	WordInfo_tA466206097891A5A2590896EE164AFC406EB060D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15372,6 +15415,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -15434,6 +15478,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisWordW
 	int32_t V_1 = 0;
 	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15460,6 +15506,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -15522,6 +15569,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisX509C
 	int32_t V_1 = 0;
 	X509ChainStatus_t5A57DDA24AA1FCA9F2B8D70B767CDDF388E4A80D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15548,6 +15597,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -15610,6 +15660,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisXPath
 	int32_t V_1 = 0;
 	XPathNode_t4A9DCD8092B3B7DBA0A6DA09C03DB5274D43C3CA V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15636,6 +15688,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -15698,6 +15751,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisXPath
 	int32_t V_1 = 0;
 	XPathNodeRef_tF695A4CACB9D70FDCBCC9EE7F3AE77D1CAF06470 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15724,6 +15779,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -15786,6 +15842,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisXRAnc
 	int32_t V_1 = 0;
 	XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15812,6 +15870,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -15873,6 +15932,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisXRCam
 	int32_t V_1 = 0;
 	XRCameraConfiguration_t36D3B10519762ADD407F4A4F171D120CE2B3BD63 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15899,6 +15960,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -15960,6 +16022,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisXREnv
 	int32_t V_1 = 0;
 	XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15986,6 +16050,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -16047,6 +16112,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisXRFac
 	int32_t V_1 = 0;
 	XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16073,6 +16140,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -16134,6 +16202,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisXRFea
 	int32_t V_1 = 0;
 	XRFeatureDescriptor_t690E672A6BBBEFBB8AF221485C1884507EAFB5B2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16160,6 +16230,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -16222,6 +16293,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisXRNod
 	int32_t V_1 = 0;
 	XRNodeState_t683158812A1D80A6BC73DB97405BB0B795A9111A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16248,6 +16321,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -16310,6 +16384,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisXRPoi
 	int32_t V_1 = 0;
 	XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16336,6 +16412,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -16397,6 +16474,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisXRRay
 	int32_t V_1 = 0;
 	XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16423,6 +16502,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -16484,6 +16564,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisXRRay
 	int32_t V_1 = 0;
 	XRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16510,6 +16592,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -16571,6 +16654,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisXRTex
 	int32_t V_1 = 0;
 	XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16597,6 +16682,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -16658,6 +16744,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisXRTra
 	int32_t V_1 = 0;
 	XRTrackedImage_t0F99DAB96B2D6422D0F8DA720F9BEFD3655DDFDD V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16684,6 +16772,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -16745,6 +16834,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisXRVie
 	int32_t V_1 = 0;
 	XRView_t2ECA2D8B3ACBDF90DAD643B2766AF68A56E12A27 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16771,6 +16862,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -16833,6 +16925,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisXmlTa
 	int32_t V_1 = 0;
 	XmlTagAttribute_t2F0EE4823C3BB8B9ED6844183CA998A44EA1AB59 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16859,6 +16953,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -16921,6 +17016,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisZBin_
 	int32_t V_1 = 0;
 	ZBin_t2B4F59EC396F7A7EC8EE6A15C15176B9888125A5 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16947,6 +17044,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -17009,6 +17107,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_Tisfloat
 	int32_t V_1 = 0;
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17035,6 +17135,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -17096,6 +17197,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_Tisfloat
 	int32_t V_1 = 0;
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17122,6 +17225,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -17183,6 +17287,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_Tisjvalu
 	int32_t V_1 = 0;
 	jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17209,6 +17315,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -17271,6 +17378,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_Tisuint4
 	int32_t V_1 = 0;
 	uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17297,6 +17406,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -17358,6 +17468,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisFaceR
 	int32_t V_1 = 0;
 	FaceRegionWithARCorePose_tB9B76D03166A36772E2545A2BF0551E85BE30CAA V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17384,6 +17496,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -17446,6 +17559,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisAncho
 	int32_t V_1 = 0;
 	Anchor_t3DA9B0DC41D0E2960E0EBEFA43A6AB410D052845 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17472,6 +17587,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -17534,6 +17650,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisShado
 	int32_t V_1 = 0;
 	ShadowResolutionRequest_tE0E30FA18ACE318D6540C2BA217F4E8B3E6766CA V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17560,6 +17678,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -17622,6 +17741,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisAttri
 	int32_t V_1 = 0;
 	AttributeEntry_t646320DFCA1CFF9E19700C8AEBF785FE35BB2A9D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17648,6 +17769,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -17710,6 +17832,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisMatch
 	int32_t V_1 = 0;
 	MatchContext_t04110FFA271D89A23BC1918BE657634A7DC06253 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17736,6 +17860,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -17798,6 +17923,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisOrder
 	int32_t V_1 = 0;
 	OrderBlock_t62FD6F6544F34B5298DEF2F77AAE446F269B7837 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17824,6 +17951,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -17886,6 +18014,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisPage_
 	int32_t V_1 = 0;
 	Page_t04FE552A388BF55B12C8868E19589136957E00A5 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17912,6 +18042,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -17974,6 +18105,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisRende
 	int32_t V_1 = 0;
 	RenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18000,6 +18133,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -18062,6 +18196,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisTable
 	int32_t V_1 = 0;
 	TableRange_tD242F3D62C818E84B6903C18A6CE33399672B497 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18088,6 +18224,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -18150,6 +18287,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisCylin
 	int32_t V_1 = 0;
 	CylinderTargetData_t44BC2130A9D17AF0DA730F85E07FD43BB6104FE9 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18176,6 +18315,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -18238,6 +18378,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisImage
 	int32_t V_1 = 0;
 	ImageTargetData_tAC7CDC3C9AFC3FD2AEA91228C1A7E56E3F2BD54B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18264,6 +18406,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -18326,6 +18469,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisMulti
 	int32_t V_1 = 0;
 	MultiTargetData_t06F442BF6288A84E28C091779A69B363A9E58EDD V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18352,6 +18497,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -18414,6 +18560,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisMulti
 	int32_t V_1 = 0;
 	MultiTargetPartData_t0F57F55AEC2B8AAFA77D7FE23052537D3AC2DACB V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18440,6 +18588,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -18502,6 +18651,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisBucke
 	int32_t V_1 = 0;
 	Bucket_tD54DB870BCFF42B2F81826B5D585BFFACB9D42FD V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18528,6 +18679,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -18590,6 +18742,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisTypeC
 	int32_t V_1 = 0;
 	TypeConvertKey_t2C27BFF39BA05B5EC16008FFC0B6D79B05AECE97 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18616,6 +18770,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -18677,6 +18832,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisRecog
 	int32_t V_1 = 0;
 	RecognizedAttribute_t67AAD871D05C66CFF976B98E4492B979993FB7D3 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18703,6 +18860,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -18765,6 +18923,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisColum
 	int32_t V_1 = 0;
 	ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18791,6 +18951,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -18853,6 +19014,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisAlbed
 	int32_t V_1 = 0;
 	AlbedoDebugValidationPresetData_tCCFD994474750370F3F5AAEE6312FDF5F06C106B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18879,6 +19042,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -18941,6 +19105,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisTypeN
 	int32_t V_1 = 0;
 	TypeNameKey_t78E5EF22DCB1F7E0AD6ABFA394C44CB8E7B5D1D1 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18967,6 +19133,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -19028,6 +19195,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisDrawC
 	int32_t V_1 = 0;
 	DrawCall_t704B8D7A804DDC8CD64E065EC39E89AD61AD405B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19054,6 +19223,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -19116,6 +19286,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisCompu
 	int32_t V_1 = 0;
 	ComputeBufferInfo_t80547B512CE5E2A035DE3413E5DFFDD2BAE5BFE8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19142,6 +19314,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -19204,6 +19377,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisPrePu
 	int32_t V_1 = 0;
 	PrePunctualLight_tB2AE96558E3D58EFE8EB29BE572FB53CC4202ACE V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19230,6 +19405,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -19292,6 +19468,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisDeleg
 	int32_t V_1 = 0;
 	DelegateInfo_t718C124E89FB2703D642911A3CEC87D645D62232 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19318,6 +19496,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -19380,6 +19559,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisDispa
 	int32_t V_1 = 0;
 	DispatchContext_tFA37790A5FF30508B0146B79E4FF1880EB82E455 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19406,6 +19587,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -19468,6 +19650,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisEvent
 	int32_t V_1 = 0;
 	EventRecord_tEC2901C48A23F5AFE20A9E8D4F05F3799EA62BF2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19494,6 +19678,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -19556,6 +19741,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisReser
 	int32_t V_1 = 0;
 	ReservedWords_t2834E11516C795E0AD880A651793517590DFCF87 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19582,6 +19769,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -19644,6 +19832,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisFocus
 	int32_t V_1 = 0;
 	FocusedElement_t1EE083A1C5276213C533A38C6B5DC02E9DE5CBEF V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19670,6 +19860,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -19732,6 +19923,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisHIDCo
 	int32_t V_1 = 0;
 	HIDCollectionDescriptor_t9235094BD1880EA02E4E07F9C02AC98088EFB9F7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19758,6 +19951,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -19820,6 +20014,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisHIDEl
 	int32_t V_1 = 0;
 	HIDElementDescriptor_t18CA9618F730F541BA1C873745A1AE71823D4CED V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19846,6 +20042,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -19908,6 +20105,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisHIDRe
 	int32_t V_1 = 0;
 	HIDReportData_t2F0D5DFC9087B851FA3288EFBB6FF4EAA863BB4F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19934,6 +20133,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -19996,6 +20196,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisHIDPa
 	int32_t V_1 = 0;
 	HIDPageUsage_t13808EE79B93302D9F7E841A0DEEAA6671BA591F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20022,6 +20224,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -20084,6 +20287,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_Tisbucke
 	int32_t V_1 = 0;
 	bucket_t3217998B0CD54EA2DEDD93DEF8556E72602C7D4E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20110,6 +20315,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -20172,6 +20378,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisHebre
 	int32_t V_1 = 0;
 	HebrewValue_tC21FD2DC21D49A9CC5EBCB7895A9431A5DF0801C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20198,6 +20406,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -20260,6 +20469,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisBindi
 	int32_t V_1 = 0;
 	BindingJson_tD39890E66B1818DE8FEDA640970E315109723F7A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20286,6 +20497,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -20348,6 +20560,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisReadA
 	int32_t V_1 = 0;
 	ReadActionJson_t912C3AB53939E37EA2AAE5AC5E50CABB2CE52A75 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20374,6 +20588,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -20436,6 +20651,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisReadM
 	int32_t V_1 = 0;
 	ReadMapJson_t4C2C1BF7E023C8F056170F9BB2E037A0C2BED356 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20462,6 +20679,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -20524,6 +20742,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisWrite
 	int32_t V_1 = 0;
 	WriteActionJson_t42C7FFE506F2CC1ADC4FFA45CCE53AD6AC00404A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20550,6 +20770,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -20612,6 +20833,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisWrite
 	int32_t V_1 = 0;
 	WriteMapJson_tC52CE27F1307259B5B16A31FA675ACC13305A0A5 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20638,6 +20861,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -20700,6 +20924,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisParam
 	int32_t V_1 = 0;
 	ParameterOverride_tC0D5877125AE0F07C6A1EF2110FB799B3DCB89BA V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20726,6 +20952,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -20788,6 +21015,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisPartB
 	int32_t V_1 = 0;
 	PartBinding_tB263B939F5CC92F02FD1C8892A194F9BC8A53D38 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20814,6 +21043,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -20876,6 +21106,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisContr
 	int32_t V_1 = 0;
 	ControlItem_t25B2C46F52E78ADC5F54903F9E769364B02CD4AD V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20902,6 +21134,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -20964,6 +21197,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisDevic
 	int32_t V_1 = 0;
 	DeviceRequirement_t80E71C44DF1923C15D3AA025242B7348EBF8B056 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20990,6 +21225,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -21051,6 +21287,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisSchem
 	int32_t V_1 = 0;
 	SchemeJson_t35D7E80205240ADFCEC9BDED04EFD8AC94D18E80 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21077,6 +21315,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -21139,6 +21378,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisAvail
 	int32_t V_1 = 0;
 	AvailableDevice_tEA24B4A4D9BF644F85FECF7EEACF2D02369940B6 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21165,6 +21406,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -21227,6 +21469,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisState
 	int32_t V_1 = 0;
 	StateChangeMonitorListener_t8DDE11DEF769AE92B7A6B6554D41511AA2A7BDDA V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21253,6 +21497,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -21315,6 +21560,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisState
 	int32_t V_1 = 0;
 	StateChangeMonitorTimeout_t9D00677B36798F8E8A4FA1DC5797CBD5F5C4F1DE V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21341,6 +21588,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -21403,6 +21651,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisState
 	int32_t V_1 = 0;
 	StateChangeMonitorsForDevice_t1D72E96B14B577C50ECFE5DB631E9D7EC32CC0C1 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21429,6 +21679,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -21491,6 +21742,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisRemot
 	int32_t V_1 = 0;
 	RemoteInputDevice_tF7E8C5EB795DA20F3EABAA259FE5A118C976C5AE V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21517,6 +21770,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -21579,6 +21833,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisRemot
 	int32_t V_1 = 0;
 	RemoteSender_tDE9BD8E2CF827F718C3C22D9A38F8E84AC188736 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21605,6 +21861,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -21667,6 +21924,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisRecor
 	int32_t V_1 = 0;
 	Record_tF7FF07DC502355356B48CE78337FB16B196E2EE0 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21693,6 +21952,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -21754,6 +22014,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisInput
 	int32_t V_1 = 0;
 	InputActionReferenceState_t4704CE84127FDB4DDB6AAD752B3ED2530768C4F9 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21780,6 +22042,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -21842,6 +22105,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisTreeV
 	int32_t V_1 = 0;
 	TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21868,6 +22133,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -21930,6 +22196,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisJsonV
 	int32_t V_1 = 0;
 	JsonValue_t01DB320267C848E729A400EF2345979978F851D2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21956,6 +22224,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -22017,6 +22286,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisSelec
 	int32_t V_1 = 0;
 	SelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22043,6 +22314,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -22105,6 +22377,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisLight
 	int32_t V_1 = 0;
 	LightCookieMapping_t76B317D9FDE96056FA698B46B45D7F0937BD02D2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22131,6 +22405,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -22193,6 +22468,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisBitRe
 	int32_t V_1 = 0;
 	BitRegion_tFE885CE2CC6C0287CF86BF59672C19D86D8DFC4C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22219,6 +22496,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -22281,6 +22559,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisSeria
 	int32_t V_1 = 0;
 	SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22307,6 +22587,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -22369,6 +22650,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisRunti
 	int32_t V_1 = 0;
 	RuntimeBuildLog_tC62F0400E684D90B60B597ECD125F3D154A4156E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22395,6 +22678,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -22457,6 +22741,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisForma
 	int32_t V_1 = 0;
 	FormatParam_t76A31D70C9964751A9AAFD4CE6951437E6C1CD8E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22483,6 +22769,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -22545,6 +22832,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisParti
 	int32_t V_1 = 0;
 	Particle_tF16C89682A98AB276CCBE4DA0A6E82F98500F79D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22571,6 +22860,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -22633,6 +22923,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisPoint
 	int32_t V_1 = 0;
 	PointerLocation_t4E582463D283A22822997C2841D5E1A30D16FCF6 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22659,6 +22951,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -22721,6 +23014,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisState
 	int32_t V_1 = 0;
 	State_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22747,6 +23042,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -22809,6 +23105,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisCache
 	int32_t V_1 = 0;
 	CachedCodeEntryKey_t8A54BDD6E52145D17DB1A2EB0CE0B4D4CB112F31 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22835,6 +23133,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -22896,6 +23195,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisLower
 	int32_t V_1 = 0;
 	LowerCaseMapping_t3E26F9E4ED2CCDA7404B4E4C123B0175FF5F8FF1 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22922,6 +23223,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -22984,6 +23286,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisSingl
 	int32_t V_1 = 0;
 	SingleRange_tB50C1C2B62BDC445BDBA41FD3CDC77A45A211BBC V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23010,6 +23314,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -23072,6 +23377,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisRende
 	int32_t V_1 = 0;
 	RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23098,6 +23405,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -23160,6 +23468,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisDefer
 	int32_t V_1 = 0;
 	DeferredCallbackRegisterRequest_tA5BE4066185FD0EB6B33A28B02B58660CE4A22AD V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23186,6 +23496,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -23248,6 +23559,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisHitIn
 	int32_t V_1 = 0;
 	HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23274,6 +23587,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -23336,6 +23650,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisSeque
 	int32_t V_1 = 0;
 	SequenceConstructPosContext_tDEC4FB1B8F19EFD1AC27C150D561C2D4F6090BA7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23362,6 +23678,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -23424,6 +23741,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisLight
 	int32_t V_1 = 0;
 	LightData_tAC4023737E9903DE3F96B993AA323E062ABCB9ED V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23450,6 +23769,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -23512,6 +23832,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisWSABU
 	int32_t V_1 = 0;
 	WSABUF_tCBB60A3DE1FB95395F72DA6C6F9D33FE3C40140B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23538,6 +23860,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -23600,6 +23923,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisPseud
 	int32_t V_1 = 0;
 	PseudoStateData_tE5B3EBF682E8DE88E9325F44841D5B95FEB6F3A8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23626,6 +23951,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -23688,6 +24014,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisEleme
 	int32_t V_1 = 0;
 	ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23714,6 +24042,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -23776,6 +24105,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisImpor
 	int32_t V_1 = 0;
 	ImportStruct_t8CE0AC0405305E6E27224A07CF153167E99C98B1 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23802,6 +24133,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -23864,6 +24196,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisSheet
 	int32_t V_1 = 0;
 	SheetHandleKey_tD6F2FE5B26CB5B86F18F74C8D47B5FA63D77B574 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23890,6 +24224,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -23952,6 +24287,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisResol
 	int32_t V_1 = 0;
 	ResolveContext_tEF37DBA22D641E4FE1568C5EBE1605A98D86C992 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23978,6 +24315,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -24040,6 +24378,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisUnico
 	int32_t V_1 = 0;
 	UnicodeChar_tB86B7DE9203E1D985B08268AF1964DECB8A5F722 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24066,6 +24406,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -24128,6 +24469,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisAttri
 	int32_t V_1 = 0;
 	AttributeOverride_t58F1DF22E69714D48ECBEEAD266D443A858BADEF V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24154,6 +24497,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -24216,6 +24560,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisIconN
 	int32_t V_1 = 0;
 	IconName_tBCA4C696FFEC8647D761120E0B5E5AF85E4ECB24 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24242,6 +24588,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -24304,6 +24651,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisFontA
 	int32_t V_1 = 0;
 	FontAssetRef_t7B8E634754BC5683F1E6601D7CD0061285A28FF3 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24330,6 +24679,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -24392,6 +24742,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisFontR
 	int32_t V_1 = 0;
 	FontReferenceMap_t1C0CECF3F0F650BE4A881A50A25EFB26965E7831 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24418,6 +24770,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -24480,6 +24833,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisBlitI
 	int32_t V_1 = 0;
 	BlitInfo_t6D4C0580BBEF65F5EAD39FB6DBC85F360CF6A357 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24506,6 +24861,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -24568,6 +24924,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisTextu
 	int32_t V_1 = 0;
 	TextureInfo_t581C305A0444F786E0E7405054714685BE3A5A5B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24594,6 +24952,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -24656,6 +25015,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisTZifT
 	int32_t V_1 = 0;
 	TZifType_t3ACBE0BB45077721E9D8DAF1414503F7990621D4 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24682,6 +25043,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -24744,6 +25106,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisRayca
 	int32_t V_1 = 0;
 	RaycastHitData_t5EAB266730389AB27715962670C2512800451841 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24770,6 +25134,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -24832,6 +25197,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisPoseD
 	int32_t V_1 = 0;
 	PoseData_t67ECD1DA6257206C1935CCD030E1E1EF57E1443A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24858,6 +25225,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -24920,6 +25288,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisTreeV
 	int32_t V_1 = 0;
 	TreeViewItemWrapper_t8130863A8182C5BF6925A88AF5E77192A4D519CE V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24946,6 +25316,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -25008,6 +25379,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisEntry
 	int32_t V_1 = 0;
 	Entry_tB8765CA56422E2C92887314844384843688DCB9F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25034,6 +25407,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -25096,6 +25470,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisAlloc
 	int32_t V_1 = 0;
 	AllocToFree_tC46982856CB8220A92BB724F5FB75CCCD09C67D8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25122,6 +25498,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -25184,6 +25561,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisAlloc
 	int32_t V_1 = 0;
 	AllocToUpdate_tD0221D0ABC5378DDE5AAB1DAA219C337E562B512 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25210,6 +25589,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -25272,6 +25652,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisDevic
 	int32_t V_1 = 0;
 	DeviceToFree_tF2AD2D5F5C1936F25516AEF0736CF4BCA1B3052B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25298,6 +25680,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -25360,6 +25743,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisDateM
 	int32_t V_1 = 0;
 	DateMapping_tD71D0AF5C7C6CB4F9517C292B1B61D7AF7CFCCFD V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25386,6 +25771,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -25448,6 +25834,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisWorkR
 	int32_t V_1 = 0;
 	WorkRequest_t8AF542F2E248D9234341817CDB5F76C27D348B44 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25474,6 +25862,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -25536,6 +25925,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisVerte
 	int32_t V_1 = 0;
 	VertexAnim_tFF5399F548EE5426E46DEB662F561DDE129E20D7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25562,6 +25953,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -25624,6 +26016,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisTextu
 	int32_t V_1 = 0;
 	TextureData_tE94917EF09AA9845384F5F7D4E3AA38747674119 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25650,6 +26044,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -25712,6 +26107,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisSlotD
 	int32_t V_1 = 0;
 	SlotDefinition_t2E39E965BBE5A336DD1B93A115DD01044D1A66F8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25738,6 +26135,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -25800,6 +26198,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisSlotU
 	int32_t V_1 = 0;
 	SlotUsageEntry_t73A628038C799E4FD44436E093EC19D2B9EA1B76 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25826,6 +26226,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -25888,6 +26289,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisUsing
 	int32_t V_1 = 0;
 	UsingEntry_t0454AD34026FDFD1733CE07BD4AE807B0FBCE484 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25914,6 +26317,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -25976,6 +26380,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisProfi
 	int32_t V_1 = 0;
 	ProfileData_tA2B9E7119CD0F5AE7EDAF3E1141BBA4905FDDAC6 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26002,6 +26408,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -26064,6 +26471,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisXmlEv
 	int32_t V_1 = 0;
 	XmlEvent_t71D4A86D45FCBC2D95E47F0EC32CEC49FEA1E0B2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26090,6 +26499,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -26152,6 +26562,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisNames
 	int32_t V_1 = 0;
 	NamespaceDeclaration_tF445C0E2CA7FE3EF3357E2FC0D282A04136174F4 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26178,6 +26590,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -26240,6 +26653,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisVirtu
 	int32_t V_1 = 0;
 	VirtualAttribute_tA52A03466D0572EE2CA47743C4A08EEE73A66D49 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26266,6 +26681,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -26328,6 +26744,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisXmlSc
 	int32_t V_1 = 0;
 	XmlSchemaObjectEntry_t79D1310E1F5CA860FAD243853E59A3C2ACDB83CD V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26354,6 +26772,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -26416,6 +26835,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisAttrI
 	int32_t V_1 = 0;
 	AttrInfo_tE531B225E6B37BA755A3F7B0DE8FCC6D3AB453AE V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26442,6 +26863,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -26504,6 +26926,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisElemI
 	int32_t V_1 = 0;
 	ElemInfo_t4643E7FF61D3697F995A85EDF42BF479EA30B235 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26530,6 +26954,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -26592,6 +27017,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisQName
 	int32_t V_1 = 0;
 	QName_tA3E1CB09850DEF9376C068A29697FEDB0F82C156 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26618,6 +27045,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -26679,6 +27107,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisParsi
 	int32_t V_1 = 0;
 	ParsingState_tF0FABA16483FCC2DB710460D11CD79D35C4E2886 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26705,6 +27135,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -26767,6 +27198,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisNames
 	int32_t V_1 = 0;
 	Namespace_t98C96E77A64CE0105E85EEF2416A270C2AFA6853 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26793,6 +27226,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -26855,6 +27289,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisTagIn
 	int32_t V_1 = 0;
 	TagInfo_tDECE4D67D7F52936C9E8F58DE38BE11733108F5C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26881,6 +27317,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -26943,6 +27380,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisAttrN
 	int32_t V_1 = 0;
 	AttrName_t0B37BBC030EEC83B4B00DFCDD9C1DB43A31675F2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26969,6 +27408,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -27031,6 +27471,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisEleme
 	int32_t V_1 = 0;
 	ElementScope_t7BA86196EE58918EA5CA952D37FE3C7B19A33592 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27057,6 +27499,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -27119,6 +27562,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisNames
 	int32_t V_1 = 0;
 	Namespace_tC7546D20184E40E3566060C1246B764E4DBA55A0 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27145,6 +27590,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -27207,6 +27653,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisAndNo
 	int32_t V_1 = 0;
 	AndNode_tD84E0D831AD339630C4170F558969F4ACAD73653 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27233,6 +27681,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -27295,6 +27744,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisConte
 	int32_t V_1 = 0;
 	ContextMenuItem_t0D29D1ECB0C1F769EFC9ACA2D0AE6B1A8A4736A9 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27321,6 +27772,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -27383,6 +27835,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisPower
 	int32_t V_1 = 0;
 	PowerOvfl_t00CAEB1B84D897513AD903AC683159A172CA9304 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27409,6 +27863,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -27471,6 +27926,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisMap_t
 	int32_t V_1 = 0;
 	Map_t130828B38036909DD82C3A4CCCB9AA0130113AA7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27497,6 +27954,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -27559,6 +28017,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisLayou
 	int32_t V_1 = 0;
 	LayoutMatcher_t0D8F5E32A7C82BC292EBA0FAA3EB2D9F1F72A0A6 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27585,6 +28045,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -27647,6 +28108,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisPreco
 	int32_t V_1 = 0;
 	PrecompiledLayout_tEFFE070A47145E8B18D5003F777983D278034A63 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27673,6 +28136,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -27735,6 +28199,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisDevic
 	int32_t V_1 = 0;
 	DeviceJson_t62221814EF0AB9D5DB20A870D7C15C45A8AC06F2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27761,6 +28227,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -27823,6 +28290,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisCapab
 	int32_t V_1 = 0;
 	Capability_t1A686C4F719B0408BCBB428021405F440196E16E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27849,6 +28318,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -27911,6 +28381,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_InternalArray__IndexOf_TisInstr
 	int32_t V_1 = 0;
 	InstructionView_tA381D8A27DEDDEE43C71B3BB3A2FADC0CD059A3D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27937,6 +28409,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_0042;
@@ -27995,6 +28468,8 @@ IL_0065:
 // System.Void System.Array::InternalArray__Insert<System.ArraySegment`1<System.Byte>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_m314F69352F273B49C3D148E1309233E3BACE1F3B_gshared (RuntimeArray* __this, int32_t ___index0, ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28005,6 +28480,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisArraySegm
 // System.Void System.Array::InternalArray__Insert<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAsyncOperationHandle_1_tDD1D892D87C7A0C3189DD56DDB997AB1A2089A74_m9CEC54B91DA03FC8ED0B67DA843EE553BCFF66DD_gshared (RuntimeArray* __this, int32_t ___index0, AsyncOperationHandle_1_tDD1D892D87C7A0C3189DD56DDB997AB1A2089A74 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28015,6 +28492,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAsyncOper
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.Background>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData_t3ADF94D95DAB6657C31C89FBD83359BCC8B247EC_mDD91C37EC3F8EB264876226ADBE309F82864C7EB_gshared (RuntimeArray* __this, int32_t ___index0, EmptyData_t3ADF94D95DAB6657C31C89FBD83359BCC8B247EC ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28025,6 +28504,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.Color>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData_t48DAAB7E0603E64673C08055B3C11B08F9AB5A83_mFFAF8BB3EFDF5060C0DCB8B947D9824EEEFCFEE1_gshared (RuntimeArray* __this, int32_t ___index0, EmptyData_t48DAAB7E0603E64673C08055B3C11B08F9AB5A83 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28035,6 +28516,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.FontDefinition>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData_tF289285BF36F0D81770920F887D038CEE0FDE022_mD11F36CBB17CEDC356294E2A6BD921E71BBDC0EF_gshared (RuntimeArray* __this, int32_t ___index0, EmptyData_tF289285BF36F0D81770920F887D038CEE0FDE022 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28045,6 +28528,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<System.Int32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData_t02ECBE01728C0979248845C107F3FCE871DDC9E3_m78331CCC18EFD3A68E20ADD07C5AA844D919D57D_gshared (RuntimeArray* __this, int32_t ___index0, EmptyData_t02ECBE01728C0979248845C107F3FCE871DDC9E3 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28055,6 +28540,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.Length>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData_tB976A2FB38B5384D01F0E788A4C35E43321C374C_m9572804B67904EACD78E5F8D78E499F34E934DA5_gshared (RuntimeArray* __this, int32_t ___index0, EmptyData_tB976A2FB38B5384D01F0E788A4C35E43321C374C ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28065,6 +28552,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData_tF13A138DEF2627A8D32807954AEF9E30615B8182_mC95327291CD283A9F3253A753B47503DC8BC5406_gshared (RuntimeArray* __this, int32_t ___index0, EmptyData_tF13A138DEF2627A8D32807954AEF9E30615B8182 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28075,6 +28564,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.Rotate>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData_t4FC1686BC526371087AD5A5B28DBE30D1ECDD533_mD8FE840A114E43E4AA4779FF7F12B45D738F1850_gshared (RuntimeArray* __this, int32_t ___index0, EmptyData_t4FC1686BC526371087AD5A5B28DBE30D1ECDD533 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28085,6 +28576,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.Scale>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData_t4A4F82A772FE766AA090A0628F398EA4D55646F0_m05CABF3A27739D88F97C652FA07C889EF524A0D8_gshared (RuntimeArray* __this, int32_t ___index0, EmptyData_t4A4F82A772FE766AA090A0628F398EA4D55646F0 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28095,6 +28588,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<System.Single>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData_t43DE49ADBBE9CFA603DCA7C5CDC998DE6DC976A1_mBFE0F071FEA4238E142D656EB860C097331068D3_gshared (RuntimeArray* __this, int32_t ___index0, EmptyData_t43DE49ADBBE9CFA603DCA7C5CDC998DE6DC976A1 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28105,6 +28600,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.TextShadow>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData_tA8769B9E6E130745DA8CFF6D496ED462ED74B44F_mB59D57020A8BA457DDA7B38D10CF53CE4EF2E8A1_gshared (RuntimeArray* __this, int32_t ___index0, EmptyData_tA8769B9E6E130745DA8CFF6D496ED462ED74B44F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28115,6 +28612,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.TransformOrigin>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData_t2CB75995D335E22F6BF31D1CB979DB1067C5025E_m06C63068AD2D6555442052B6B8BD103A007B1D9A_gshared (RuntimeArray* __this, int32_t ___index0, EmptyData_t2CB75995D335E22F6BF31D1CB979DB1067C5025E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28125,6 +28624,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/EmptyData<UnityEngine.UIElements.Translate>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData_tED1BB22234DD4A2FBA90416759D025535300EDCB_m67EE0EAB15B63389D791F507AAD16D6C485F25DD_gshared (RuntimeArray* __this, int32_t ___index0, EmptyData_tED1BB22234DD4A2FBA90416759D025535300EDCB ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28135,6 +28636,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEmptyData
 // System.Void System.Array::InternalArray__Insert<System.Xml.Linq.XHashtable`1/XHashtableState/Entry<System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t6E72C722C46949F140550D563C1F41E304752583_m0ED5C89C81D24171B6FD8C9718C3A497A235C4CF_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t6E72C722C46949F140550D563C1F41E304752583 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28145,6 +28648,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t6E
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tEA99553F325828A74A65B889F46BE09836044044_m01A9D4BEE15F6B4309FD801D4EE5F3B0152A0F47_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tEA99553F325828A74A65B889F46BE09836044044 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28155,6 +28660,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tEA
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.ValueTuple`2<System.Object,System.Object>,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t9E54CCBCBF389A3EB228FFF39B2963CCB6661448_m8FA8D029CBA9CF562E15D497FCB1206AFE78A06F_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t9E54CCBCBF389A3EB228FFF39B2963CCB6661448 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28165,6 +28672,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t9E
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Guid,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t4BAC0D992203B05A8D2645406D4CF9E24E0F5BEF_m6214821C1AFFC81312CB32C17D9D6E9A2AD94D85_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t4BAC0D992203B05A8D2645406D4CF9E24E0F5BEF ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28175,6 +28684,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t4B
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.Hash128,System.Int32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t899F478E066573053AECA9BF68F5B4E9D05CD67D_m6A15984853375E3EBB56C00A9DF11363F21633BC_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t899F478E066573053AECA9BF68F5B4E9D05CD67D ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28185,6 +28696,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t89
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.Hash128,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t343716AA7796A6C22FFA9AEBC18EF142FCBDB10F_mC0171B2B356904DAA7C0E120D0E132E2FD4C8D83_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t343716AA7796A6C22FFA9AEBC18EF142FCBDB10F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28195,6 +28708,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t34
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.ValueTuple`2<UnityEngine.Vector4,UnityEngine.Vector2Int>>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t008CACF55D7F47352355FB69BA62E34489CF2116_m37E5014F647CFF8CB392C76DC6924A77B13D6C67_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t008CACF55D7F47352355FB69BA62E34489CF2116 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28205,6 +28720,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t00
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Boolean>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t740F919D5BA6D1FE201C58777E6EB966B35EE2EE_mF87C2901411DF09497E5EA9EE60917D237E81049_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t740F919D5BA6D1FE201C58777E6EB966B35EE2EE ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28215,6 +28732,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t74
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Char>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t5A1DD43C826878A3853C7DF32E971C3D19805227_m11DED3080CA11A4690814F465FC2DDF49F630606_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t5A1DD43C826878A3853C7DF32E971C3D19805227 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28225,6 +28744,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t5A
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int32,UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tFFBE6CED43071BF3A2C52D1BB70EE6197C7D5444_m838617721602C2A557ACB983FA741490000B74B9_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tFFBE6CED43071BF3A2C52D1BB70EE6197C7D5444 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28235,6 +28756,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tFF
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Int32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tA212E7034D981AC2F7E219C600769EE485919684_m7DE05A76E0313C1C4BA91A674F23A6E2BA9E05E4_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tA212E7034D981AC2F7E219C600769EE485919684 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28245,6 +28768,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tA2
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Int32Enum>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t56DFE5C32B6C0F59B83A080FD15B9AFB39F27185_m2E7D39631E40E1C5033BD959EB574F0BF759B9C5_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t56DFE5C32B6C0F59B83A080FD15B9AFB39F27185 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28255,6 +28780,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t56
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Int64>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t4F374F13C9422AE969BA033893F5B076AEE88131_m4F8F1AF6401723741E21F3E3AC3751FC7290106F_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t4F374F13C9422AE969BA033893F5B076AEE88131 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28265,6 +28792,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t4F
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t59E90724C756CA6F3F5F5B2D04D9E6A4FDDFC339_m508C778EC3299E72EF498E4796B441D48B35C8AE_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t59E90724C756CA6F3F5F5B2D04D9E6A4FDDFC339 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28275,6 +28804,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t59
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.Single>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t532FECF491646E3372F9D145FEC277E0C5089CBC_m668E265388ABD68F73AA94BC9500A11ED4B75C25_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t532FECF491646E3372F9D145FEC277E0C5089CBC ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28285,6 +28816,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t53
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int32,System.UInt64>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tEF6BEA499CCB8C4F2AA974BD354B4E3BCFE5EC4B_m609BF6C0C1491512EFC6C3B8BA4268BB371F6048_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tEF6BEA499CCB8C4F2AA974BD354B4E3BCFE5EC4B ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28295,6 +28828,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tEF
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int32,UnityEngine.Vector2Int>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t6ED579DFEA7ED1704F2C549D6B01A492B6E4BEF5_m82E24B57C866F1F20C842979FF5C64D4B13C216D_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t6ED579DFEA7ED1704F2C549D6B01A492B6E4BEF5 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28305,6 +28840,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t6E
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int32,Vuforia.VuMatrix44F>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t3931D073D20E5270318C5CBBF20CD9B44F0047B5_m00612A22F4DA5B2C87F05215585246D9DAFCDF55_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t3931D073D20E5270318C5CBBF20CD9B44F0047B5 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28315,6 +28852,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t39
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int32,UnityEngine.TextCore.Text.TextResourceManager/FontAssetRef>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tAB4AC6D6C313741B7F6F6C4694EF22BCDEBF5B20_m5E59915B810EE242E2C3A0D27C501614DE1D91B5_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tAB4AC6D6C313741B7F6F6C4694EF22BCDEBF5B20 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28325,6 +28864,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tAB
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int32Enum,System.Boolean>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t7B3861A33B85B48715972326859F7104EAEFDF50_m55DFE2CE93CCE3296B0C49D1F7B3FD6C7107155D_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t7B3861A33B85B48715972326859F7104EAEFDF50 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28335,6 +28876,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t7B
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int32Enum,UnityEngine.Color>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t01E46B58E4A1F22397FE59A950E544EFDA00F748_m5D33DAACEB0EFB81B1314EA516259EAA555748A2_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t01E46B58E4A1F22397FE59A950E544EFDA00F748 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28345,6 +28888,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t01
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int32Enum,System.Int32Enum>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tFF4285DE3B86A2B349258B4BD7E12C0EE4A4B74A_m78FC61CF97EF4821137A8F5441717A6DA166123D_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tFF4285DE3B86A2B349258B4BD7E12C0EE4A4B74A ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28355,6 +28900,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tFF
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int32Enum,UnityEngine.Matrix4x4>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tA4CE377ED53530282179BE10A55FE3A4E4A5CF4E_m95678DE0AD46677655897AF4A1142A9DE06CEB16_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tA4CE377ED53530282179BE10A55FE3A4E4A5CF4E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28365,6 +28912,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tA4
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int32Enum,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t4D5A107E6414D8B9DE012405A201C46AACFACF98_m4525A499EB167CBAE14F03976A50AA1B2F61B3A2_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t4D5A107E6414D8B9DE012405A201C46AACFACF98 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28375,6 +28924,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t4D
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int32Enum,UnityEngine.Vector3>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tCAA5E8C25DBDD41FDE687FAC9279F16A616DCEC6_m38A6A8F408098D9724AE6D5CFCABEF5433A43B1D_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tCAA5E8C25DBDD41FDE687FAC9279F16A616DCEC6 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28385,6 +28936,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tCA
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int64,UnityEngine.UIElements.ComputedStyle>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tA76B18EF78BF0132EE1736D5F5B829D890C26E5C_mF0BA4EB2D2C1A42E24A5C7EC04BB87F410018004_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tA76B18EF78BF0132EE1736D5F5B829D890C26E5C ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28395,6 +28948,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tA7
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Int64,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tFFDF932514D611FAE4AB69C8DDC8FA5F889B6438_mE0D556598F5A308003B63FBEB0D4AF78F18AB26C_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tFFDF932514D611FAE4AB69C8DDC8FA5F889B6438 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28405,6 +28960,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tFF
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tE8CF104B482ED92A3BF31C2B151BD3FEBFAF2F6F_mBBF79A0BDA569EF4E938A45670FFB0844D2C93EA_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tE8CF104B482ED92A3BF31C2B151BD3FEBFAF2F6F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28415,6 +28972,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tE8
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.InputSystem.Utilities.InternedString,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t575ADA8FFB2EED66C64622ACC70ED8CF7A732FFA_m501AEDD776F60C965795A09EFA26EB7EE014DB00_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t575ADA8FFB2EED66C64622ACC70ED8CF7A732FFA ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28425,6 +28984,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t57
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputControlLayout/Collection/PrecompiledLayout>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t5DA42CAF95F196F03BDD802C9D4F704954B556AB_m05E8DBA8E50B11CE5842498BAEC2BA43FE99DC56_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t5DA42CAF95F196F03BDD802C9D4F704954B556AB ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28435,6 +28996,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t5D
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Object>>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t8B8123A4CF4482E637F2DD10E1381A07127AC71E_m57FC0DD7B063E4C455D2DC598933FE2BB1309B42_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t8B8123A4CF4482E637F2DD10E1381A07127AC71E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28445,6 +29008,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t8B
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t56E8626AECB5D45050816DA6ED6BBCCD6D029A47_m78010EEFB74C3BBD511D8EE70290A992933CE3B4_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t56E8626AECB5D45050816DA6ED6BBCCD6D029A47 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28455,6 +29020,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t56
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Boolean>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tF9C4D725857FFCC0AD98E4629FD00A7E064A0C1C_m9736C2CCF17DC4310A3D14EFD306CCF719874A47_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tF9C4D725857FFCC0AD98E4629FD00A7E064A0C1C ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28465,6 +29032,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tF9
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.Color32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tE39771EB73DA3008BB0DF74028FF7285866C18C8_m3017D56AC2AF0D18D7653DC8D6EA902E0C6BB6F2_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tE39771EB73DA3008BB0DF74028FF7285866C18C8 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28475,6 +29044,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tE3
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Int32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t3E9BC9EC2D9161E6078E219EF6BEE9162020CD39_m67CAFF8F487DD85F0544EAF82289F0F2E0487741_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t3E9BC9EC2D9161E6078E219EF6BEE9162020CD39 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28485,6 +29056,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t3E
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Int32Enum>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t1FBA063A7158A877EF3D4306E7BE0559C3A13202_mA098AEB0AE8B5C1328F2043D045DAB09BC57EE53_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t1FBA063A7158A877EF3D4306E7BE0559C3A13202 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28495,6 +29068,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t1F
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tCCEE77FB83F33718CFB5E786A11E06DC9D5B63CC_mF2CD865AF12B1E19DB9B7AB31DD11C62FF699AD9_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tCCEE77FB83F33718CFB5E786A11E06DC9D5B63CC ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28505,6 +29080,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tCC
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Single>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tC44036EDE3BC084F847AF870E0FA6D39AA7CF48A_m4A716AABA3163046398D8401F18BA797F90B76B0_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tC44036EDE3BC084F847AF870E0FA6D39AA7CF48A ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28515,6 +29092,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tC4
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.UIElements.StyleSheets.StylePropertyValue>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t6C6FFC8A6877137F14C5BA9B9205BADAE8258F98_m4604444E87D4C6070D734B5571BC3959DE7774B4_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t6C6FFC8A6877137F14C5BA9B9205BADAE8258F98 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28525,6 +29104,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t6C
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.UIElements.TextureId>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t8C80D6795974A124B4CD390BBB064C11BAD5D216_m68EB115D169E18697BB6200C2389DD320DCFF497_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t8C80D6795974A124B4CD390BBB064C11BAD5D216 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28535,6 +29116,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t8C
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.Vector2>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tDA878B789C830BB6D853BCCA94EC9A56473F9192_mF4CA2AFA1D1D64F82B81D68691DFC73FB6BDB26E_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tDA878B789C830BB6D853BCCA94EC9A56473F9192 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28545,6 +29128,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tDA
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.Vector3>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t9C565819818CEE927F7310B20154140C74FF0587_m9EE309676DC229543731B8D014D938ADD5F05818_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t9C565819818CEE927F7310B20154140C74FF0587 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28555,6 +29140,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t9C
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,Vuforia.ConfigData/CylinderTargetData>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t78A47A3F6CEEC34154BDF4FD6C3969CE5616A1B1_m4C6F7C40C2565A637D51E1AB589D2F6C601112F9_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t78A47A3F6CEEC34154BDF4FD6C3969CE5616A1B1 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28565,6 +29152,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t78
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,Vuforia.ConfigData/ImageTargetData>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tE4247208050F1CE52403ACCE7C5BFB29A7F983CF_mF8B603B86B25A3C15FD23312F42DEAA019AF35FC_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tE4247208050F1CE52403ACCE7C5BFB29A7F983CF ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28575,6 +29164,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tE4
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,Vuforia.ConfigData/MultiTargetData>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t71C45DDCCD78FD0E7AF3AF206A8A18DE08416B9A_m68EC727D65071362D5FBAB84D5CE5C7A4B4D6EF9_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t71C45DDCCD78FD0E7AF3AF206A8A18DE08416B9A ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28585,6 +29176,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t71
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tBE79E9CAC9D7DD54B4635CEE784E7DC034A6E98B_m0CFBCF77F91DE3370F67291B2EEA314400F12C44_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tBE79E9CAC9D7DD54B4635CEE784E7DC034A6E98B ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28595,6 +29188,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tBE
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.InputSystem.UI.InputSystemUIInputModule/InputActionReferenceState>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t24F25ECA3BDA03521151C33B3297BAAE878226BF_m87FF9106DC20E59911AFC26A8B8B0DF704938305_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t24F25ECA3BDA03521151C33B3297BAAE878226BF ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28605,6 +29200,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t24
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tD8875C96F18F04DE9948C96AC2CB648E8901D064_m62E42AC4BAD2865FBD2DEA3941F0C17F935D09DC_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tD8875C96F18F04DE9948C96AC2CB648E8901D064 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28615,6 +29212,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tD8
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.UIElements.StyleComplexSelector/PseudoStateData>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t7570C0657D5A1E8127DA80AE9CF398FAE7F58164_m116EF753783F1FAB4816F77E6FE591AE81BE8606_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t7570C0657D5A1E8127DA80AE9CF398FAE7F58164 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28625,6 +29224,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t75
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Object,Vuforia.WebCamProfile/ProfileData>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t220AA9583FC76C1A60DB0B8C1F33ADB13276D772_mCC2F073CCE73F1DCB31A5A327100A23E7C004CDB_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t220AA9583FC76C1A60DB0B8C1F33ADB13276D772 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28635,6 +29236,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t22
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<Vuforia.Newtonsoft.Json.Serialization.ResolverContractKey,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tBAEFB89FD352BA2CD9D132E006C00C47400BE501_mD1A64E76F6C63DE38145903B54C3CED8615268D7_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tBAEFB89FD352BA2CD9D132E006C00C47400BE501 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28645,6 +29248,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tBA
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.XR.ARSubsystems.TrackableId,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tDF21A2C43AE7F49B112EBF9BFBD462DA12AAD529_m79F196C47D9BD713F37FB52B56696654C5028064_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tDF21A2C43AE7F49B112EBF9BFBD462DA12AAD529 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28655,6 +29260,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tDF
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.UInt32,UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t58E99ABABD435BCC040760EDD6D161FA4AFAD578_mE64040F2C104B94E317E7A66F436711EEED0C20F_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t58E99ABABD435BCC040760EDD6D161FA4AFAD578 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28665,6 +29272,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t58
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.UInt32,System.Int32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t2679F25F22E3E7DB5F988C82C064BA4BE59F5677_m2EE7A2B9DF7A6AB98DB38FF637578D7E569DB5B1_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t2679F25F22E3E7DB5F988C82C064BA4BE59F5677 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28675,6 +29284,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t26
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.UInt32,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t1F21171535DEAE77D533CFCFAF0EF8C51862C715_m984E989135146A6512D9C0F7098A19A37A42EB87_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t1F21171535DEAE77D533CFCFAF0EF8C51862C715 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28685,6 +29296,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t1F
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<MS.Internal.Xml.Cache.XPathNodeRef,MS.Internal.Xml.Cache.XPathNodeRef>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tE850363938764CC80F151D8A949A63B1588A5BF9_mA8EB5F48E674DE73F4B1F3477320D7F1D686355F_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tE850363938764CC80F151D8A949A63B1588A5BF9 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28695,6 +29308,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tE8
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<Vuforia.Newtonsoft.Json.Utilities.ConvertUtils/TypeConvertKey,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t0E2CC75B90BBFC454F3E79503FBD8780C02E77F1_m7131A65DE273ABE4D072BB63B16C64C6D51EEECA_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t0E2CC75B90BBFC454F3E79503FBD8780C02E77F1 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28705,6 +29320,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t0E
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<Vuforia.Newtonsoft.Json.Serialization.DefaultSerializationBinder/TypeNameKey,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t9E8521226167A335876EC9B6F8E4B192E6F8C907_mC142BBED0888872AB7723E355B221AD89303C5A0_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t9E8521226167A335876EC9B6F8E4B192E6F8C907 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28715,6 +29332,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t9E
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<System.Text.RegularExpressions.Regex/CachedCodeEntryKey,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tEC2FCD90BA00C992320FFF0D4A74509526BF8CA1_m02B5485A354258838A3BEEA0CB2ACAA176B93115_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tEC2FCD90BA00C992320FFF0D4A74509526BF8CA1 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28725,6 +29344,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tEC
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,System.Int32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t50EA0C1E8A8EE9E0CC561055CA772A2BF21F8A5E_m822199169AD39861E318806F8B5B126DB2511534_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t50EA0C1E8A8EE9E0CC561055CA772A2BF21F8A5E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28735,6 +29356,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t50
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,System.Int32Enum>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tBFCAF6DF9FBB6B7CB44FAA838B615D233C134CAB_m540F0D774D1E6689E3BA5AA00ABEE0E3808FA3B4_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tBFCAF6DF9FBB6B7CB44FAA838B615D233C134CAB ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28745,6 +29368,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tBF
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tC6BA3FCE24005B80AD289EB230B5E04466EEDC86_m53A0C4BB8DC2DB09B3FA758257FA5E9E5525F0E7_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tC6BA3FCE24005B80AD289EB230B5E04466EEDC86 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28755,6 +29380,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tC6
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.Dictionary`2/Entry<UnityEngine.UIElements.StyleSheets.StyleSheetCache/SheetHandleKey,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t9DD41777766A237ECDB0E269740F073135AB4A64_mC83DE3EF62A8240042042A79733BAC9019935E9E_gshared (RuntimeArray* __this, int32_t ___index0, Entry_t9DD41777766A237ECDB0E269740F073135AB4A64 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28765,6 +29392,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_t9D
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tAC0330F506B0E9163D3B28C7146DC5ACD338DC13_m979D16D2287F5E0D5A5C4CD9C12E23AAD87E797E_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tAC0330F506B0E9163D3B28C7146DC5ACD338DC13 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28775,6 +29404,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Object,System.Object>,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t3F2A3CB7BBA975883A7BEA65F8283E2D7BE1E52B_m595B525F2E49DF4FBDCD48EDE001A0AB96911223_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t3F2A3CB7BBA975883A7BEA65F8283E2D7BE1E52B ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28785,6 +29416,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.ValueTuple`2<System.Object,System.Object>,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t2A9D1B7DEBB99A68011F37B017FDD44CFE5AEC14_m476C66106A6409EC4D5BE8D65183F9A3A9C1E5D3_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t2A9D1B7DEBB99A68011F37B017FDD44CFE5AEC14 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28795,6 +29428,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Guid,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t669A5BAF37ED0ABC96A30943A6E7D0442310B936_m4DD4A621AE7C62CCCFE0F911FB6AD9CF73B15097_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t669A5BAF37ED0ABC96A30943A6E7D0442310B936 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28805,6 +29440,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<UnityEngine.Hash128,System.Int32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t8B567619A9CCBA5161B66419D348897D6AECB008_m833AC6E75CDDAA84331AF60F09A8A228B69B09E8_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t8B567619A9CCBA5161B66419D348897D6AECB008 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28815,6 +29452,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<UnityEngine.Hash128,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t1F845C75952D49E12CC3AA3713F4701056F14BC1_m1CB20DEA0709FCFF96E638466845FE3036592A9B_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t1F845C75952D49E12CC3AA3713F4701056F14BC1 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28825,6 +29464,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int32,System.ValueTuple`2<UnityEngine.Vector4,UnityEngine.Vector2Int>>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tB999B4329040B950BC24C49C2E5CAD7574557D0B_m1548A00A20CE6E06900045E9A82A3B47A68513BB_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tB999B4329040B950BC24C49C2E5CAD7574557D0B ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28835,6 +29476,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Boolean>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t0EAC8DA2D95957AFA60DD198D013622384C0D213_m2F129A9D6FBC97C3B36C0F7CD08899532C4A7442_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t0EAC8DA2D95957AFA60DD198D013622384C0D213 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28845,6 +29488,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Char>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t25871D01DA51BBB8CEF1F27E727B5D3A545FD4EF_m7F67DDB2F98296F876425432FEF64C004CC317BF_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t25871D01DA51BBB8CEF1F27E727B5D3A545FD4EF ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28855,6 +29500,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t6B535D6C2549F3B53E90E9A0B879ABB41334E244_m2D16973565572AF921983F20AB0D7FCE2AB10573_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t6B535D6C2549F3B53E90E9A0B879ABB41334E244 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28865,6 +29512,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tA6BE5EEAC56CB97CB7383FCC3CC6C84FAF129189_m28B877AC1B4B5B7C95C9C6805FA6D81C2E754384_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tA6BE5EEAC56CB97CB7383FCC3CC6C84FAF129189 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28875,6 +29524,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32Enum>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t59FB72438A8C1A0E1CBC80F6A2F18FA16FC5295C_mA6D32F3A4BCAADF83BF3FD31D91E049297B00522_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t59FB72438A8C1A0E1CBC80F6A2F18FA16FC5295C ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28885,6 +29536,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int64>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t90B506CAD143B28FB88CA6965C9B35679F8F9678_mD0391F225A723C54B3BCDEF38B8A3AC6BAF7DDEB_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t90B506CAD143B28FB88CA6965C9B35679F8F9678 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28895,6 +29548,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tDC26B09C26BA829DDE331BCB6AF7C508C763D7A3_m3F0F959B82F38C785E9BAC89084C1AF279B049C2_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tDC26B09C26BA829DDE331BCB6AF7C508C763D7A3 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28905,6 +29560,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Single>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t891D449DA189ED572EFC0E4457FE9D980AF86555_m2FC3B3135836FCD54A86E09391C564E63D5BADD7_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t891D449DA189ED572EFC0E4457FE9D980AF86555 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28915,6 +29572,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int32,System.UInt64>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tB80CFCE1FE63EA90A1922B957B5C34F1F5C3C606_mC640DC0CA91ECCB7DEAD9058D0DA008105973591_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tB80CFCE1FE63EA90A1922B957B5C34F1F5C3C606 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28925,6 +29584,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.Vector2Int>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tE2ABFF555671907C54C1F6ACA927B7D1D1249AFE_m57B608E2F18FCD2E953BDEE40BC686206F9197C0_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tE2ABFF555671907C54C1F6ACA927B7D1D1249AFE ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28935,6 +29596,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.VuMatrix44F>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t758D218BF34F33D9F3457E619DC4B799BAE72E45_m71EBAF62EB2E6C48A4F1C7F80CAA59F5F161C953_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t758D218BF34F33D9F3457E619DC4B799BAE72E45 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28945,6 +29608,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.TextCore.Text.TextResourceManager/FontAssetRef>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t39179BF27CE980AB00F738EC85DF2D428FAAB65A_m846098823BAA6A3D78C556BAE5CB3AF0BB14969C_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t39179BF27CE980AB00F738EC85DF2D428FAAB65A ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28955,6 +29620,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int32Enum,System.Boolean>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t763E38DF50581B1045C4F039531270BA08203934_mF2DEF0FB12C0419F345AB9F5B231F139F879C777_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t763E38DF50581B1045C4F039531270BA08203934 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28965,6 +29632,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int32Enum,UnityEngine.Color>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tAB2E6B469D42F09998674AC2B639470892C3CE5F_m0443C87DE9B4CA0D8E5DA9FACF6196C5EBAA60D7_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tAB2E6B469D42F09998674AC2B639470892C3CE5F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28975,6 +29644,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int32Enum,System.Int32Enum>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tC032038170A998E9F4AE89CDC2DBC2E5F88F91E3_mA36B0F05E3AE780BFF298F1F5DB09EEA33A84C5C_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tC032038170A998E9F4AE89CDC2DBC2E5F88F91E3 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28985,6 +29656,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int32Enum,UnityEngine.Matrix4x4>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tF73F53965CC04C7018C460F8A3C7B211797A2D4D_mA7B1D397C6FFF8A55C8894D1BCE832139ED167EF_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tF73F53965CC04C7018C460F8A3C7B211797A2D4D ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -28995,6 +29668,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int32Enum,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tF70DDE0C5A349727371FB070D433FA147032A13B_m4C6984C74AEC073F3869018C121082F25A79681C_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tF70DDE0C5A349727371FB070D433FA147032A13B ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29005,6 +29680,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int32Enum,UnityEngine.Vector3>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t4FE3608051BEBD190AEB2C7B27376911D8EF25B0_m8ECA1F67B0D598816D753386620DB955BE0197EB_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t4FE3608051BEBD190AEB2C7B27376911D8EF25B0 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29015,6 +29692,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int64,UnityEngine.UIElements.ComputedStyle>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tA1F840CB30C9D8AC1E1F1BC4347D21B598D5F0D5_m9FAE0E18BC06C6F01329BA10085BEA48EBD0B704_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tA1F840CB30C9D8AC1E1F1BC4347D21B598D5F0D5 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29025,6 +29704,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Int64,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t88288FD7C987CABEE070E49639E8603D27AF799F_m999B0D002630137D9C80B8BD904BFB3156DBEC37_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t88288FD7C987CABEE070E49639E8603D27AF799F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29035,6 +29716,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t91EA25BC5C63ED04F5E7DDC2D2E48D53C13A8B16_mC699C8B94DFC24C24FE21298A1E5E86610931695_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t91EA25BC5C63ED04F5E7DDC2D2E48D53C13A8B16 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29045,6 +29728,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<UnityEngine.InputSystem.Utilities.InternedString,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tC24A74EF64A292F5C6BA77D0B04CD6620D2DE3AC_mCAB76EEB7B07B1C20222BFBC1B8704B2D1ABB716_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tC24A74EF64A292F5C6BA77D0B04CD6620D2DE3AC ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29055,6 +29740,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputControlLayout/Collection/PrecompiledLayout>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tE49DF4AB63A71F3F1079BB2829B680B3F8A3BE16_mB9F8D0D877E7960DC20155B6C8AF76C6895D0D87_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tE49DF4AB63A71F3F1079BB2829B680B3F8A3BE16 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29065,6 +29752,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Object>>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t17002D3A73FAA92AAA4DE89FE8B478A66C52718B_mDED52ACCF21D49BAB5806D7C7C7DA53ED285E8A2_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t17002D3A73FAA92AAA4DE89FE8B478A66C52718B ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29075,6 +29764,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t785B6EC223E70438CF66901A31D788AB0B36E29A_mEAD99BB3745CAC92FD703EEAE9C0830517B4E53E_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t785B6EC223E70438CF66901A31D788AB0B36E29A ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29085,6 +29776,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,System.Boolean>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t7E5E41B933054DBF6F52C6CDF0BC2CB4B1606423_mE1612C862BB59481A6267FF244501FB7C8B6F3AA_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t7E5E41B933054DBF6F52C6CDF0BC2CB4B1606423 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29095,6 +29788,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.Color32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tE15BD34F75B584F06758FD8C5E0A50897E927167_m525AE059351821E8EE44542871C1DBB185A61482_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tE15BD34F75B584F06758FD8C5E0A50897E927167 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29105,6 +29800,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tF11CA6D20F09EC4DAB7CB3C2C394F6F2C394E6B8_m163B2211D50FFEBB5A7C6C43E7D88379D670DDA8_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tF11CA6D20F09EC4DAB7CB3C2C394F6F2C394E6B8 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29115,6 +29812,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int32Enum>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t35AA315F507A224F8B43D106DA0814C9811D8A7E_m6A16FC8D407BFB5616CB49CCAD37D67C54245371_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t35AA315F507A224F8B43D106DA0814C9811D8A7E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29125,6 +29824,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230_mF78AA587B3439535B77F71EDA1F5D20A40441E3F_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29135,6 +29836,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,System.Single>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tA76653DFC8A4C9B07EC11B4FF878E42681D3EACE_mC6EB04957067EC59FEBC59A9243A9190E2EBB882_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tA76653DFC8A4C9B07EC11B4FF878E42681D3EACE ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29145,6 +29848,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.UIElements.StyleSheets.StylePropertyValue>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t1F6CA1DFD5BE9F6E000B16910DAC52C42E9B1567_m6E0D52A3E3644EB0F54A82A434BC0EA988841CC8_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t1F6CA1DFD5BE9F6E000B16910DAC52C42E9B1567 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29155,6 +29860,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.UIElements.TextureId>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tCDE07F3B8CB119BF2539CFB17A3B21E4D3C5FA33_mF747F03FD28A189611589D84CFA62A75228408D9_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tCDE07F3B8CB119BF2539CFB17A3B21E4D3C5FA33 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29165,6 +29872,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.Vector2>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t5FCDCECBAC4615B1D6C16612A028BBBF368C51D4_m46D5FC906E03EC0A6D00887EB72C700D7AF2E68D_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t5FCDCECBAC4615B1D6C16612A028BBBF368C51D4 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29175,6 +29884,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.Vector3>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tFE7039CE3AFB1C8CD8922BB30673227BFDF26796_mA2978AD85E900218AEB3ABE5C3B2EAAB36E13688_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tFE7039CE3AFB1C8CD8922BB30673227BFDF26796 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29185,6 +29896,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,Vuforia.ConfigData/CylinderTargetData>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t1E5042FB1CBB193BBDE5E8D0EEC1C87C9EF79EB9_m4D756167E9B0D862C9D956B5226D286B22443D52_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t1E5042FB1CBB193BBDE5E8D0EEC1C87C9EF79EB9 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29195,6 +29908,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,Vuforia.ConfigData/ImageTargetData>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t6C36FCB67DF7DEEAE38D150B43F6C235648FF208_m0B15FB292AD99D0782ADBAA31278B814B4AE5B3C_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t6C36FCB67DF7DEEAE38D150B43F6C235648FF208 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29205,6 +29920,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,Vuforia.ConfigData/MultiTargetData>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t159008DD34B5ECEF00BA86CB3C0C036C82D795D9_m4A28B53080CEAC7BBA6690DB22E71ED5230E1190_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t159008DD34B5ECEF00BA86CB3C0C036C82D795D9 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29215,6 +29932,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tF5DD05EDBC520DD8097B5B6C4F393A65598F1A63_mABFECE8FE67F8143965A448B1E4C72780BF306EF_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tF5DD05EDBC520DD8097B5B6C4F393A65598F1A63 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29225,6 +29944,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.InputSystem.UI.InputSystemUIInputModule/InputActionReferenceState>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t2B62FB8D7EFA99D41CE5EE3B1DF022212B1A3CDD_m8A7867958418C894C217E956A494A2D1A7EEC283_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t2B62FB8D7EFA99D41CE5EE3B1DF022212B1A3CDD ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29235,6 +29956,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tF857B1C753163D05D6CE5351B5146D32C33F0B0C_m0EE0168BE85E26FD9CE49469C194746F23FED3D6_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tF857B1C753163D05D6CE5351B5146D32C33F0B0C ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29245,6 +29968,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.UIElements.StyleComplexSelector/PseudoStateData>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t852F23A435B740B3D14D3CE08B14FFD4690334E7_m90EDBD13E7211FD38F4F214E3320E04DE8CD664A_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t852F23A435B740B3D14D3CE08B14FFD4690334E7 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29255,6 +29980,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Object,Vuforia.WebCamProfile/ProfileData>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t0DE777F3FF0D632868C7FED0E21B66A150D405A1_m1702103126E6419112705C7233FC5A77FD7E4D64_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t0DE777F3FF0D632868C7FED0E21B66A150D405A1 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29265,6 +29992,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<UnityEngine.PropertyName,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t7D311E49C5BFA7AD0E1B6BDE838D7428E2CEDA13_m6BC90C6747D418B311AB6A44B8911CCE446F7CDA_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t7D311E49C5BFA7AD0E1B6BDE838D7428E2CEDA13 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29275,6 +30004,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<Vuforia.Newtonsoft.Json.Serialization.ResolverContractKey,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tC0FB5A0426DEC26F1C1B4B0F0EAD4E03BB5F1848_mA441EC56234C10AA3038DF07ED527EDA4D78B376_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tC0FB5A0426DEC26F1C1B4B0F0EAD4E03BB5F1848 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29285,6 +30016,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t53ED52B6CCF9EE67874B20217661A725F4B0AC33_mE1DC8E29838D0DB2B8A932389DFA77FD35598325_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t53ED52B6CCF9EE67874B20217661A725F4B0AC33 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29295,6 +30028,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.UInt32,UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t757A11D5E61E20A1FA1D66746C464E68C7970041_mC342F8BCBA1AAA92BCDE11B352CA3CB9F5C68E30_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t757A11D5E61E20A1FA1D66746C464E68C7970041 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29305,6 +30040,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.UInt32,System.Int32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t5A3FDAC04D913E59FF60D58CAFA8264F5F43A655_m40CD018E9E4FAA331ECD57F9EA4335A21FE297A6_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t5A3FDAC04D913E59FF60D58CAFA8264F5F43A655 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29315,6 +30052,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.UInt32,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tAC06C9E6230AA7E6BDA2F07D910C3CBE2F36399B_m287434F4BF1CF9918C5A415423BDEF3C58584565_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tAC06C9E6230AA7E6BDA2F07D910C3CBE2F36399B ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29325,6 +30064,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<MS.Internal.Xml.Cache.XPathNodeRef,MS.Internal.Xml.Cache.XPathNodeRef>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tF34E5A81603AC7D66F6CC0579133888A275D3937_m7C95606EDF6D0201A84EBA2A214F0C203CCB3CDB_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tF34E5A81603AC7D66F6CC0579133888A275D3937 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29335,6 +30076,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<Vuforia.Newtonsoft.Json.Utilities.ConvertUtils/TypeConvertKey,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_tEE6F2578D70264B7405027FB1D98E19C8246B6ED_mA4A9F0E9BB74A322AD9CE851E7E3DD165285EFF8_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_tEE6F2578D70264B7405027FB1D98E19C8246B6ED ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29345,6 +30088,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<Vuforia.Newtonsoft.Json.Serialization.DefaultSerializationBinder/TypeNameKey,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t9B22F42D40D79AAFB996058FB59BF64569DCA63F_m893B8FAFD0630B4BB1E769E580C03453A4D5D830_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t9B22F42D40D79AAFB996058FB59BF64569DCA63F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29355,6 +30100,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<System.Text.RegularExpressions.Regex/CachedCodeEntryKey,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t07280F39D0691CE3006447A5EF281C3A867EAF95_m870D34E4728EF75340FF944760EB0C172842C71D_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t07280F39D0691CE3006447A5EF281C3A867EAF95 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29365,6 +30112,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,System.Int32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t5262B590CA16F81E0E225FA2B90314261B2B4BC6_m498069BC2073B12393678021EE4BC9824F6E409B_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t5262B590CA16F81E0E225FA2B90314261B2B4BC6 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29375,6 +30124,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,System.Int32Enum>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t68435994E8A66E579434AAA75502B7B6137A7B2A_mEFB14F5AABD8DC32B1E6A85FAC9C582FEBBD3BFF_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t68435994E8A66E579434AAA75502B7B6137A7B2A ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29385,6 +30136,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t5EA39A38B18A7FBA9D70D487DBE55714255FAAA6_mF875A91B9F96E23B41F231E57FAD32657A03E0CA_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t5EA39A38B18A7FBA9D70D487DBE55714255FAAA6 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29395,6 +30148,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StyleSheets.StyleSheetCache/SheetHandleKey,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValuePair_2_t4D486866736280C7A079662D170F5444C27E50C6_m83B1BC8C267277C4B158334223FBD26A16D9D7B1_gshared (RuntimeArray* __this, int32_t ___index0, KeyValuePair_2_t4D486866736280C7A079662D170F5444C27E50C6 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29405,6 +30160,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyValueP
 // System.Void System.Array::InternalArray__Insert<Unity.Collections.NativeArray`1<UnityEngine.Rendering.Universal.PreTile>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNativeArray_1_t65CDBEDCEF4486754ED91C90C782929F1397FD01_mFD4AEC6339024F97CD616E077E1905392EF21E25_gshared (RuntimeArray* __this, int32_t ___index0, NativeArray_1_t65CDBEDCEF4486754ED91C90C782929F1397FD01 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29415,6 +30172,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNativeArr
 // System.Void System.Array::InternalArray__Insert<Unity.Collections.NativeArray`1<System.UInt16>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934_mA8E122ABA0DF56504140DFD1AF7DDB2E00B8F6A0_gshared (RuntimeArray* __this, int32_t ___index0, NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29425,6 +30184,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNativeArr
 // System.Void System.Array::InternalArray__Insert<Unity.Collections.NativeArray`1<UnityEngine.UIElements.Vertex>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNativeArray_1_tB60512C6E4578B7CC8EB79321680E495E69ABF81_m0CBA0E312445843794F82747C66335D1C3331550_gshared (RuntimeArray* __this, int32_t ___index0, NativeArray_1_tB60512C6E4578B7CC8EB79321680E495E69ABF81 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29435,6 +30196,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNativeArr
 // System.Void System.Array::InternalArray__Insert<Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRRaycastHit>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNativeArray_1_t1ABEAB84724CAEAFCB8767B8502FD3185AC9CAD0_m38597ECD471E2D7AFFA467F209631C3AFAF2939E_gshared (RuntimeArray* __this, int32_t ___index0, NativeArray_1_t1ABEAB84724CAEAFCB8767B8502FD3185AC9CAD0 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29445,6 +30208,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNativeArr
 // System.Void System.Array::InternalArray__Insert<System.Data.RBTree`1/Node<System.Int32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNode_tA8F7ED85FD786FE388B1ED3CF8DDFEDC56587258_m3F9618866B8F873173C4AAA300958EBD2444038C_gshared (RuntimeArray* __this, int32_t ___index0, Node_tA8F7ED85FD786FE388B1ED3CF8DDFEDC56587258 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29455,6 +30220,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNode_tA8F
 // System.Void System.Array::InternalArray__Insert<System.Data.RBTree`1/Node<System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNode_t39E89F54A46CA848B0AED9F5454D71E99D318FDB_m43F84A70E3527CD71B8B225897CF35613FC61DE9_gshared (RuntimeArray* __this, int32_t ___index0, Node_t39E89F54A46CA848B0AED9F5454D71E99D318FDB ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29465,6 +30232,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNode_t39E
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.LowLevel.InputStateHistory`1/Record<UnityEngine.InputSystem.LowLevel.TouchState>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRecord_t4205712C85C6F00A9F1DC4D23E20F595FCB4F6A4_m8FAAE0E5AB6C0059143CC0127B3ADE6862020390_gshared (RuntimeArray* __this, int32_t ___index0, Record_t4205712C85C6F00A9F1DC4D23E20F595FCB4F6A4 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29475,6 +30244,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRecord_t4
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.HashSet`1/Slot<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_t71761A19CE5F0D3E3D6E46AAB9D13904F556A605_mD59406F52B2967A5A615E196DD804702A0A644B1_gshared (RuntimeArray* __this, int32_t ___index0, Slot_t71761A19CE5F0D3E3D6E46AAB9D13904F556A605 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29485,6 +30256,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_t717
 // System.Void System.Array::InternalArray__Insert<System.Linq.Set`1/Slot<System.Char>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_t3D6F59B8061C33D6ADE1DDB6081830EA9663C334_m1A6EE53C04BB636A5FAF10CD3A09EF9DA227C167_gshared (RuntimeArray* __this, int32_t ___index0, Slot_t3D6F59B8061C33D6ADE1DDB6081830EA9663C334 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29495,6 +30268,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_t3D6
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.HashSet`1/Slot<System.Int32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_t22B135B722F7D592A58FAEDAD31DDA9BB7CD2FC8_mCBB407A23374D003CC849C65B36B68CCB12BA03A_gshared (RuntimeArray* __this, int32_t ___index0, Slot_t22B135B722F7D592A58FAEDAD31DDA9BB7CD2FC8 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29505,6 +30280,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_t22B
 // System.Void System.Array::InternalArray__Insert<System.Linq.Set`1/Slot<System.Int32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_tEA2D8282E9A5C3740D622EF2860F93438167A05D_m86DF83D050700CE4B23DC669D542D9DF25503DB5_gshared (RuntimeArray* __this, int32_t ___index0, Slot_tEA2D8282E9A5C3740D622EF2860F93438167A05D ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29515,6 +30292,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_tEA2
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.HashSet`1/Slot<System.Int32Enum>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_t0A95045068CA69D35855DB49026245B2D7F2E059_m2DF2D6E17576738AD04553C40C7903415593BA49_gshared (RuntimeArray* __this, int32_t ___index0, Slot_t0A95045068CA69D35855DB49026245B2D7F2E059 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29525,6 +30304,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_t0A9
 // System.Void System.Array::InternalArray__Insert<System.Linq.Set`1/Slot<System.Int32Enum>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_tE875BCBFEE9E643CF0F37AE67222AE69E269B9A8_mD56991DED1A99F1B59DFD989E07472C8497C7643_gshared (RuntimeArray* __this, int32_t ___index0, Slot_tE875BCBFEE9E643CF0F37AE67222AE69E269B9A8 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29535,6 +30316,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_tE87
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.HashSet`1/Slot<UnityEngine.InputSystem.Utilities.InternedString>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_t99E1DAD9EC10BC2CA3AD0951B37A54FB9B0C1992_m8F5556340545E001D24D10B37828D01DB2E28E34_gshared (RuntimeArray* __this, int32_t ___index0, Slot_t99E1DAD9EC10BC2CA3AD0951B37A54FB9B0C1992 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29545,6 +30328,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_t99E
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.HashSet`1/Slot<System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_t4BB8CC974E5E3453C5B4BD5E6DC16498D0EF7744_m12CBB5D14AD9042331C47671C28C2B0B983077FD_gshared (RuntimeArray* __this, int32_t ___index0, Slot_t4BB8CC974E5E3453C5B4BD5E6DC16498D0EF7744 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29555,6 +30340,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_t4BB
 // System.Void System.Array::InternalArray__Insert<System.Linq.Set`1/Slot<System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_tE40ADD3E3758BFA1DB21D9E728F98EBFEF2AE27E_m03D806C4B3CA2F935ACD2E19335DA626C864C97A_gshared (RuntimeArray* __this, int32_t ___index0, Slot_tE40ADD3E3758BFA1DB21D9E728F98EBFEF2AE27E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29565,6 +30352,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_tE40
 // System.Void System.Array::InternalArray__Insert<System.Collections.Concurrent.ConcurrentQueue`1/Segment/Slot<System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_t36E7BD2C949C62077BDCD89A5CA092508944F177_m9BBEACB967A1946953336E52B136878255AED486_gshared (RuntimeArray* __this, int32_t ___index0, Slot_t36E7BD2C949C62077BDCD89A5CA092508944F177 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29575,6 +30364,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_t36E
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.HashSet`1/Slot<UnityEngine.XR.ARSubsystems.TrackableId>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_t0AF5775D319D73D08B84598B85F12FC5D1EFE5E5_m02A21F5F32334F0FFE06D2B6A9D24FABC0E0B68B_gshared (RuntimeArray* __this, int32_t ___index0, Slot_t0AF5775D319D73D08B84598B85F12FC5D1EFE5E5 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29585,6 +30376,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_t0AF
 // System.Void System.Array::InternalArray__Insert<System.Collections.Generic.HashSet`1/Slot<System.UInt32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_t0F2C4321FC082433EA1889FA7952BA1F9A0D2382_mEBC1E1C97C38DC30E1AE561C228328CA5D2FC524_gshared (RuntimeArray* __this, int32_t ___index0, Slot_t0F2C4321FC082433EA1889FA7952BA1F9A0D2382 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29595,6 +30388,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlot_t0F2
 // System.Void System.Array::InternalArray__Insert<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Object,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStructMultiKey_2_tBE8AC1F77387A29245D48FBA8C8C8E1763344DD5_mC3DE0AFFC2002B35CACFA6E0AB1F32EDC55C82EB_gshared (RuntimeArray* __this, int32_t ___index0, StructMultiKey_2_tBE8AC1F77387A29245D48FBA8C8C8E1763344DD5 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29605,6 +30400,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStructMul
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.Background>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData_t333EEFF82EBFC5313C5D5BD07C3E5258C87D2CC6_mE2CF60E80BCA1F70AE5379A265B0967CEFBCDEA1_gshared (RuntimeArray* __this, int32_t ___index0, StyleData_t333EEFF82EBFC5313C5D5BD07C3E5258C87D2CC6 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29615,6 +30412,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.Color>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData_t8548533307092B4D7E241CBD2A66549683A33C1D_mC015A2B39E241CB7A96BB1AB6508B9B6A8A42137_gshared (RuntimeArray* __this, int32_t ___index0, StyleData_t8548533307092B4D7E241CBD2A66549683A33C1D ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29625,6 +30424,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.FontDefinition>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData_t7B881346F61A413495F318F9A8EF71C751EC6472_m62692C331C203AB60252D3601A0B27714739E9DF_gshared (RuntimeArray* __this, int32_t ___index0, StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29635,6 +30436,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<System.Int32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData_t8D7506F1365A34AF8BCC7E63AABBB64F8330C595_m27E71E3A8C24427E7800284762F3D35854625BCC_gshared (RuntimeArray* __this, int32_t ___index0, StyleData_t8D7506F1365A34AF8BCC7E63AABBB64F8330C595 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29645,6 +30448,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.Length>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData_tD9916786C46848BD8A33B29D97785D1FB3886628_mA6BFC156FA518CC83E95C9BF3097F671AD2F58A7_gshared (RuntimeArray* __this, int32_t ___index0, StyleData_tD9916786C46848BD8A33B29D97785D1FB3886628 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29655,6 +30460,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData_t8D2C4DFD73B2CF505708E2AC1C384DE4D6CE30C6_mF368BA8AE5AAB26A67AA5C88B22E223EC329905D_gshared (RuntimeArray* __this, int32_t ___index0, StyleData_t8D2C4DFD73B2CF505708E2AC1C384DE4D6CE30C6 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29665,6 +30472,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.Rotate>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData_tF4F082E86CEF208DCF726577323A81818B156F1C_mC1D3979F9FBA21644157685460653C0C033EE219_gshared (RuntimeArray* __this, int32_t ___index0, StyleData_tF4F082E86CEF208DCF726577323A81818B156F1C ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29675,6 +30484,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.Scale>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData_t81910989C0A6416625FEA66A143ED9AA9CE6EAD1_m9537A9741B62296EE0F6643736D53B8248683C73_gshared (RuntimeArray* __this, int32_t ___index0, StyleData_t81910989C0A6416625FEA66A143ED9AA9CE6EAD1 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29685,6 +30496,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<System.Single>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData_t3B3F0F1CEB43B375FD26CB3095AAC800DC07A976_m44D149161FA656F642A0A3F44D7D08EB5F8FBD76_gshared (RuntimeArray* __this, int32_t ___index0, StyleData_t3B3F0F1CEB43B375FD26CB3095AAC800DC07A976 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29695,6 +30508,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.TextShadow>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData_t8550AC117CD613FE87B52CC3540296500B7F3DF8_mEE923A1E415CAD3ACA2D9937AA7ED564F39CF2D0_gshared (RuntimeArray* __this, int32_t ___index0, StyleData_t8550AC117CD613FE87B52CC3540296500B7F3DF8 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29705,6 +30520,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.TransformOrigin>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData_tDA8B8711D8BD18C0D6EB99A929976DDC956DD167_m61F1CEA8599A0FEC4EC2EA5EF3AB3FE83F632D42_gshared (RuntimeArray* __this, int32_t ___index0, StyleData_tDA8B8711D8BD18C0D6EB99A929976DDC956DD167 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29715,6 +30532,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.Translate>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData_t516B303180A937637806C9C217FE06E3AACDEE23_mBDA39257F3AF9013E59E329473C35D67EBCBE10B_gshared (RuntimeArray* __this, int32_t ___index0, StyleData_t516B303180A937637806C9C217FE06E3AACDEE23 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29725,6 +30544,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleData
 // System.Void System.Array::InternalArray__Insert<TMPro.TMP_TextProcessingStack`1<UnityEngine.Color32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3_mA4C76F29E63F13CAEE45DAC1FB9C91EA5C7512F6_gshared (RuntimeArray* __this, int32_t ___index0, TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29735,6 +30556,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_TextP
 // System.Void System.Array::InternalArray__Insert<TMPro.TMP_TextProcessingStack`1<TMPro.HighlightState>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D_m09ACA8D412A042C9F715ECC0A2F73ADABA2597A2_gshared (RuntimeArray* __this, int32_t ___index0, TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29745,6 +30568,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_TextP
 // System.Void System.Array::InternalArray__Insert<TMPro.TMP_TextProcessingStack`1<System.Int32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C_mBEA5176BF9C5022692D6476BD9EDB78E5A433E1C_gshared (RuntimeArray* __this, int32_t ___index0, TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29755,6 +30580,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_TextP
 // System.Void System.Array::InternalArray__Insert<TMPro.TMP_TextProcessingStack`1<System.Int32Enum>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_TextProcessingStack_1_tA1252F156B42CCD2773D5A32C56DA9E021706659_m11ABC8CB2C20184AA6B3B87C4D9F06BA379201D0_gshared (RuntimeArray* __this, int32_t ___index0, TMP_TextProcessingStack_1_tA1252F156B42CCD2773D5A32C56DA9E021706659 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29765,6 +30592,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_TextP
 // System.Void System.Array::InternalArray__Insert<TMPro.TMP_TextProcessingStack`1<TMPro.MaterialReference>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9_mEC77FD80E6D9E7541EAEA027911EC59CD16D5BE7_gshared (RuntimeArray* __this, int32_t ___index0, TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29775,6 +30604,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_TextP
 // System.Void System.Array::InternalArray__Insert<TMPro.TMP_TextProcessingStack`1<System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_TextProcessingStack_1_t2A4A4F86DEC2892F4B6D6B29A6473437E6C9EE35_mA64E4B203EC1B8EF7C6FD625D8DFEB9F7CC8F73C_gshared (RuntimeArray* __this, int32_t ___index0, TMP_TextProcessingStack_1_t2A4A4F86DEC2892F4B6D6B29A6473437E6C9EE35 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29785,6 +30616,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_TextP
 // System.Void System.Array::InternalArray__Insert<TMPro.TMP_TextProcessingStack`1<System.Single>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9_m75D9EEE699E4B1A8D1D90FD61DB8EA0C76FA8A4F_gshared (RuntimeArray* __this, int32_t ___index0, TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29795,6 +30628,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_TextP
 // System.Void System.Array::InternalArray__Insert<TMPro.TMP_TextProcessingStack`1<TMPro.WordWrapState>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F_mA79237C94901B326A5EC78E0FC745E703CD21247_gshared (RuntimeArray* __this, int32_t ___index0, TMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29805,6 +30640,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_TextP
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.UIElements.Background>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingData_t9A97DB81A0CFA7AC972B32A494B47406B711AD0D_m5685027C0A880C377D4710E2122680F52CC1B2DE_gshared (RuntimeArray* __this, int32_t ___index0, TimingData_t9A97DB81A0CFA7AC972B32A494B47406B711AD0D ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29815,6 +30652,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingDat
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.Color>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingData_t34C4E95C26A0148A8A1940FA3BE460BD371FE5FE_mC4EF21BE05E795FBA4B85E762C8DEE300A7F2AF6_gshared (RuntimeArray* __this, int32_t ___index0, TimingData_t34C4E95C26A0148A8A1940FA3BE460BD371FE5FE ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29825,6 +30664,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingDat
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.UIElements.FontDefinition>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF_m1F10BD135EEE3ECB7959587B2170FF60F936B4F4_gshared (RuntimeArray* __this, int32_t ___index0, TimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29835,6 +30676,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingDat
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<System.Int32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingData_tB9F07E55FE507E685F5E816A57949C38DCD6E263_mF812EA60EFC7D6A31B16F067A7B5D0D7791472F7_gshared (RuntimeArray* __this, int32_t ___index0, TimingData_tB9F07E55FE507E685F5E816A57949C38DCD6E263 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29845,6 +30688,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingDat
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.UIElements.Length>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingData_t9FA7CAC423BACD236FBF49326BDD83D06DF44288_m674EE3CA09568D288EE5C71195CDD80B450431D3_gshared (RuntimeArray* __this, int32_t ___index0, TimingData_t9FA7CAC423BACD236FBF49326BDD83D06DF44288 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29855,6 +30700,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingDat
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingData_tAC897652D090176D4DE63A3E05988D165A785F09_mF61DC5AB0A1F7AFBA74934112983DA690963894C_gshared (RuntimeArray* __this, int32_t ___index0, TimingData_tAC897652D090176D4DE63A3E05988D165A785F09 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29865,6 +30712,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingDat
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.UIElements.Rotate>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingData_t9F5BE2ECB5F5FDBD04072B4459F64CB033858F11_m03317477DB884046A20C02713F078C03A06594DB_gshared (RuntimeArray* __this, int32_t ___index0, TimingData_t9F5BE2ECB5F5FDBD04072B4459F64CB033858F11 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29875,6 +30724,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingDat
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.UIElements.Scale>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingData_t098AB9F533C2FCADF814F88C5A5C79F7AF2FCF49_mA8A24739F9EDCB326D9B39CEDBE33FE3CAA62594_gshared (RuntimeArray* __this, int32_t ___index0, TimingData_t098AB9F533C2FCADF814F88C5A5C79F7AF2FCF49 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29885,6 +30736,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingDat
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<System.Single>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingData_t7E5D81E44DD38F0BFB0350F529E539BB94000C7A_m0C3B41E563693C46363E28814E2262AF8DC8A6F8_gshared (RuntimeArray* __this, int32_t ___index0, TimingData_t7E5D81E44DD38F0BFB0350F529E539BB94000C7A ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29895,6 +30748,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingDat
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.UIElements.TextShadow>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingData_t70F8D4FF0A51972717A1ED53525241240EF457FE_mEA9055072B4042F4A467C370D1CBAD9A6F925C10_gshared (RuntimeArray* __this, int32_t ___index0, TimingData_t70F8D4FF0A51972717A1ED53525241240EF457FE ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29905,6 +30760,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingDat
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.UIElements.TransformOrigin>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingData_t0F88AE7B3D3525F39CAAED92C1983CCCF4961B92_m795DB57FBFBBBED818976344B65A311BF11E96FA_gshared (RuntimeArray* __this, int32_t ___index0, TimingData_t0F88AE7B3D3525F39CAAED92C1983CCCF4961B92 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29915,6 +30772,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingDat
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.UIElements.Translate>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingData_tD402D38A47B4E24DECDDD6B9725E579AD10131F3_m265490599BF2802E10229D47B9ED83BDADB400DF_gshared (RuntimeArray* __this, int32_t ___index0, TimingData_tD402D38A47B4E24DECDDD6B9725E579AD10131F3 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29925,6 +30784,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimingDat
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.ARCore.ARCoreFaceSubsystem/ARCoreProvider/Triangle`1<System.Int32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTriangle_1_tCB71783FB3769A6B5EC63107AA1E6A0C2F41283C_m141189CABD4ED6C6CA4BEAF35551877C6A776500_gshared (RuntimeArray* __this, int32_t ___index0, Triangle_1_tCB71783FB3769A6B5EC63107AA1E6A0C2F41283C ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29935,6 +30796,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTriangle_
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.ARCore.ARCoreFaceSubsystem/ARCoreProvider/Triangle`1<System.UInt16>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTriangle_1_t37AD500EBA0FF178D5A11334D2731DE378640303_mC50E388C82D0A564C37D36334EEB909C4BD28F09_gshared (RuntimeArray* __this, int32_t ___index0, Triangle_1_t37AD500EBA0FF178D5A11334D2731DE378640303 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29945,6 +30808,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTriangle_
 // System.Void System.Array::InternalArray__Insert<System.ValueTuple`1<System.Boolean>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisValueTuple_1_tBFF71B8F72F9D197DB09CFE88F0C8C7FE97CEF75_mA655E6FB980D80DEE47B30BF650A46D60726D300_gshared (RuntimeArray* __this, int32_t ___index0, ValueTuple_1_tBFF71B8F72F9D197DB09CFE88F0C8C7FE97CEF75 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29955,6 +30820,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisValueTupl
 // System.Void System.Array::InternalArray__Insert<System.ValueTuple`2<System.Object,System.Int32>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisValueTuple_2_tC57529B8C1EE84CA3D138FBE3836C013C6DC40AC_mE97EE23755CE182C5EA17C12AA2BCCF8A29D4384_gshared (RuntimeArray* __this, int32_t ___index0, ValueTuple_2_tC57529B8C1EE84CA3D138FBE3836C013C6DC40AC ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29965,6 +30832,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisValueTupl
 // System.Void System.Array::InternalArray__Insert<System.ValueTuple`2<System.Object,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisValueTuple_2_tC3717D4552EE1E5FC27BFBA3F5155741BC04557A_mE6B213FA76B6E7BEF00E44E178D476A94CEE0F5C_gshared (RuntimeArray* __this, int32_t ___index0, ValueTuple_2_tC3717D4552EE1E5FC27BFBA3F5155741BC04557A ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29975,6 +30844,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisValueTupl
 // System.Void System.Array::InternalArray__Insert<System.ValueTuple`2<UnityEngine.Vector4,UnityEngine.Vector2Int>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26_m30F7DDA5732C6485BF7843CE9828E3DE5A2B272C_gshared (RuntimeArray* __this, int32_t ___index0, ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29985,6 +30856,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisValueTupl
 // System.Void System.Array::InternalArray__Insert<System.ValueTuple`3<System.Object,System.Object,System.Object>>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisValueTuple_3_tC9C1846E6BD237797AE9B56D5138EE67C1B5FA01_m331C1B6D35FA99D6DE7E28D33F6D2794333DD5AA_gshared (RuntimeArray* __this, int32_t ___index0, ValueTuple_3_tC9C1846E6BD237797AE9B56D5138EE67C1B5FA01 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -29995,6 +30868,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisValueTupl
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.ARCore.ARCoreFaceRegionData>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisARCoreFaceRegionData_tC5ABC889AB00A0DB777FFB44FD943E772F8A4F11_m9D76FC7D266F645584B40FE4FE9CBDD3F707BB88_gshared (RuntimeArray* __this, int32_t ___index0, ARCoreFaceRegionData_tC5ABC889AB00A0DB777FFB44FD943E772F8A4F11 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30005,6 +30880,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisARCoreFac
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.ARFoundation.ARRaycastHit>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70_m79C1420456EBC1A976F9694A33FB55E087E56407_gshared (RuntimeArray* __this, int32_t ___index0, ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30015,6 +30892,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisARRaycast
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.ARFoundation.ARTextureInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisARTextureInfo_t008DA41DF9555306803303A0353619E5C0917261_mAF4F6B29A5725843579E25166541DA3E6BDCBB26_gshared (RuntimeArray* __this, int32_t ___index0, ARTextureInfo_t008DA41DF9555306803303A0353619E5C0917261 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30025,6 +30904,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisARTexture
 // System.Void System.Array::InternalArray__Insert<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAsyncOperationHandle_t58B507DCAA6531B85FDBA6188D8E1F7DF89D3F5D_m62A8294B2B0D4239A203BE3C84F36DD700812ED9_gshared (RuntimeArray* __this, int32_t ___index0, AsyncOperationHandle_t58B507DCAA6531B85FDBA6188D8E1F7DF89D3F5D ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30035,6 +30916,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAsyncOper
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.AttachmentDescriptor>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAttachmentDescriptor_tBAC9B26B50BB0838C5C0CC22BB296F9DFF41276E_m4F5145E67CF5C6B1ECF3965F9D36181FFC210871_gshared (RuntimeArray* __this, int32_t ___index0, AttachmentDescriptor_tBAC9B26B50BB0838C5C0CC22BB296F9DFF41276E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30045,6 +30928,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAttachmen
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.Background>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisBackground_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8_mD66FAD2CA79EDD1165C0BD704D7B7B121F2DF163_gshared (RuntimeArray* __this, int32_t ___index0, Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30055,6 +30940,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisBackgroun
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.BatchVisibility>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisBatchVisibility_t0AC94FB0AE271C762F911D4602604F4D83837CEA_mE6CA04E6B5E609C31A71C40EC18C9DD0E0A241A9_gshared (RuntimeArray* __this, int32_t ___index0, BatchVisibility_t0AC94FB0AE271C762F911D4602604F4D83837CEA ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30065,6 +30952,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisBatchVisi
 // System.Void System.Array::InternalArray__Insert<System.Numerics.BigInteger>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisBigInteger_tF7779A0AA6D6B9BE0E0C1C293E7708765DEF7D0F_mD3DA8C2529D674503A6CA3871093717510520491_gshared (RuntimeArray* __this, int32_t ___index0, BigInteger_tF7779A0AA6D6B9BE0E0C1C293E7708765DEF7D0F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30075,6 +30964,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisBigIntege
 // System.Void System.Array::InternalArray__Insert<System.Boolean>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mC2A8D204295D5CE3BD0CD0DD5FF967F51402EEE7_gshared (RuntimeArray* __this, int32_t ___index0, bool ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30085,6 +30976,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisBoolean_t
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.ARSubsystems.BoundedPlane>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisBoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE_mC94717CFE0D825DCCC623EAD31C5ECA707113E4A_gshared (RuntimeArray* __this, int32_t ___index0, BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30095,6 +30988,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisBoundedPl
 // System.Void System.Array::InternalArray__Insert<System.Byte>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mA87B014B672B04A611A7A07EC90D43509842E4FD_gshared (RuntimeArray* __this, int32_t ___index0, uint8_t ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30105,6 +31000,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisByte_t94D
 // System.Void System.Array::InternalArray__Insert<System.ByteEnum>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisByteEnum_t2A464EF5EC59CBA8ED5E194537D5832168B1A692_m840E03263E9A045BCD48375EA21B22C7D1638202_gshared (RuntimeArray* __this, int32_t ___index0, uint8_t ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30115,6 +31012,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisByteEnum_
 // System.Void System.Array::InternalArray__Insert<System.Char>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_mB6B30D2A953A9FFFA14796E99798E1E0BA22E9CC_gshared (RuntimeArray* __this, int32_t ___index0, Il2CppChar ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30125,6 +31024,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisChar_t521
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Color>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_m54E3A36E7AB46A1F8AEA91D8C8824B51C9619F84_gshared (RuntimeArray* __this, int32_t ___index0, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30135,6 +31036,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisColor_tD0
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Color32>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisColor32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B_mF0B17A2D045ECA80E7098B512EF26D1AA77EE1B4_gshared (RuntimeArray* __this, int32_t ___index0, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30145,6 +31048,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisColor32_t
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UI.ColorBlock>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11_mACE529F31A3513BCC054B568BFF607C591D5B94D_gshared (RuntimeArray* __this, int32_t ___index0, ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30155,6 +31060,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisColorBloc
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.ComputedStyle>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_m2CE335B268515CE75C505AFCA001D3F51CE0745C_gshared (RuntimeArray* __this, int32_t ___index0, ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30165,6 +31072,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisComputedS
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.ComputedTransitionProperty>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1_m9874C47F11048A1A5EEB46382D221F8D9517057C_gshared (RuntimeArray* __this, int32_t ___index0, ComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30175,6 +31084,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisComputedT
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.ARSubsystems.ConfigurationDescriptor>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisConfigurationDescriptor_tD16AA30B812AA662D234FBFE6575AF8A328CA3A1_m3BB2C62000756D10A60D22EA2F364FEB04AEB87A_gshared (RuntimeArray* __this, int32_t ___index0, ConfigurationDescriptor_tD16AA30B812AA662D234FBFE6575AF8A328CA3A1 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30185,6 +31096,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisConfigura
 // System.Void System.Array::InternalArray__Insert<UnityEngine.ContactPoint>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisContactPoint_t241857959C0D517C21F541BB04B63FA6C1EAB3F9_m5AF9107790C849D93AEDD0434503B77C584CB1F2_gshared (RuntimeArray* __this, int32_t ___index0, ContactPoint_t241857959C0D517C21F541BB04B63FA6C1EAB3F9 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30195,6 +31108,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisContactPo
 // System.Void System.Array::InternalArray__Insert<UnityEngine.ContactPoint2D>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisContactPoint2D_t16A7EE2DDFB4FA3A09C6554E11F30CEDAEBFA801_mC603C0C5CC4C5514D451C6E901594202A84E42B8_gshared (RuntimeArray* __this, int32_t ___index0, ContactPoint2D_t16A7EE2DDFB4FA3A09C6554E11F30CEDAEBFA801 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30205,6 +31120,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisContactPo
 // System.Void System.Array::InternalArray__Insert<System.Reflection.CustomAttributeNamedArgument>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisCustomAttributeNamedArgument_t4EC1C2BB9943BEB7E77AC0870BE2A899E23B4E02_m422D49CBD58DF0A13750CC975162A6B2EE286351_gshared (RuntimeArray* __this, int32_t ___index0, CustomAttributeNamedArgument_t4EC1C2BB9943BEB7E77AC0870BE2A899E23B4E02 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30215,6 +31132,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisCustomAtt
 // System.Void System.Array::InternalArray__Insert<System.Reflection.CustomAttributeTypedArgument>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisCustomAttributeTypedArgument_tAAA19ADE66B16A67D030C8C67D7ADB29A7BEC75F_m25AE42CCCD9080BC0B0963FE37265C08DC1C95E4_gshared (RuntimeArray* __this, int32_t ___index0, CustomAttributeTypedArgument_tAAA19ADE66B16A67D030C8C67D7ADB29A7BEC75F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30225,6 +31144,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisCustomAtt
 // System.Void System.Array::InternalArray__Insert<System.DateTime>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_m3C4C9A35F7A6631BA330C77780B74A3E20217E70_gshared (RuntimeArray* __this, int32_t ___index0, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30235,6 +31156,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDateTime_
 // System.Void System.Array::InternalArray__Insert<System.DateTimeOffset>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4_mE148B618A7B7CA461B002A52E37B6712173CE54C_gshared (RuntimeArray* __this, int32_t ___index0, DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30245,6 +31168,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDateTimeO
 // System.Void System.Array::InternalArray__Insert<System.Decimal>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDecimal_tDA6C877282B2D789CF97C0949661CC11D643969F_m3A6DBE183C23415A3A960365AF39B5B9FCB58897_gshared (RuntimeArray* __this, int32_t ___index0, Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30255,6 +31180,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDecimal_t
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.Universal.Internal.DeferredTiler>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDeferredTiler_t2F171ACEF3B3A64DDAC0C713A2358FFE9D169F8F_mDEA27D27887CFA2255DA78981A89312D50D65704_gshared (RuntimeArray* __this, int32_t ___index0, DeferredTiler_t2F171ACEF3B3A64DDAC0C713A2358FFE9D169F8F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30265,6 +31192,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDeferredT
 // System.Void System.Array::InternalArray__Insert<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDiagnosticEvent_t33E1175DA005D137D20535AB25ACE16837A3A274_m6DDA83D3F727BD44D11E6309F87D03A6446FC937_gshared (RuntimeArray* __this, int32_t ___index0, DiagnosticEvent_t33E1175DA005D137D20535AB25ACE16837A3A274 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30275,6 +31204,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDiagnosti
 // System.Void System.Array::InternalArray__Insert<System.Collections.DictionaryEntry>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB_mACAE27EDFE5D1F49A0759C3885FAC99B94E3E8B5_gshared (RuntimeArray* __this, int32_t ___index0, DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30285,6 +31216,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDictionar
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StyleSheets.Dimension>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDimension_t5B1EAB500AE32C3789A2BCC4D43F7A29996DF3F8_mAA6610211A8119BBDAFA575F4507CFA6E8B05590_gshared (RuntimeArray* __this, int32_t ___index0, Dimension_t5B1EAB500AE32C3789A2BCC4D43F7A29996DF3F8 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30295,6 +31228,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDimension
 // System.Void System.Array::InternalArray__Insert<System.Double>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_mF78879264DA14041A426885837F047225BA2E4D8_gshared (RuntimeArray* __this, int32_t ___index0, double ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30305,6 +31240,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDouble_tE
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.UIR.DrawBufferRange>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDrawBufferRange_t684F255F5C954760B12F6689F84E78811040C7A4_mCE370D1BC5776078BE0C7365C49658B53EEF65AB_gshared (RuntimeArray* __this, int32_t ___index0, DrawBufferRange_t684F255F5C954760B12F6689F84E78811040C7A4 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30315,6 +31252,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDrawBuffe
 // System.Void System.Array::InternalArray__Insert<Vuforia.DriverCameraMode>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDriverCameraMode_t987B41E6764485C11BD523B51898D0F8ED226C9A_m28433384AB20227D1A45EA5D20357E37C583252F_gshared (RuntimeArray* __this, int32_t ___index0, DriverCameraMode_t987B41E6764485C11BD523B51898D0F8ED226C9A ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30325,6 +31264,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDriverCam
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.EasingFunction>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4_mAB1F84143551B9710BFD20CB92853F90732483CE_gshared (RuntimeArray* __this, int32_t ___index0, EasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30335,6 +31276,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEasingFun
 // System.Void System.Array::InternalArray__Insert<System.Runtime.CompilerServices.Ephemeron>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEphemeron_t74F279F5E7CF4A0CFC21C822431DD840572C6DA2_m157820BCABBB375FC84A17667D494ECB86563A8D_gshared (RuntimeArray* __this, int32_t ___index0, Ephemeron_t74F279F5E7CF4A0CFC21C822431DD840572C6DA2 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30345,6 +31288,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEphemeron
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.FontDefinition>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisFontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C_m0D9BB01CCC9CF0D4DDA6842877EFF0DD184CB2ED_gshared (RuntimeArray* __this, int32_t ___index0, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30355,6 +31300,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisFontDefin
 // System.Void System.Array::InternalArray__Insert<UnityEngine.TextCore.Text.FontWeightPair>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisFontWeightPair_tB94169BD86D0DFC25D651F890B15991A3E0ADA42_mD29A3ED1BC2AC949DF25BDC279091B4C9EC0AE4C_gshared (RuntimeArray* __this, int32_t ___index0, FontWeightPair_tB94169BD86D0DFC25D651F890B15991A3E0ADA42 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30365,6 +31312,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisFontWeigh
 // System.Void System.Array::InternalArray__Insert<System.Runtime.InteropServices.GCHandle>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisGCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC_mFA0C428EFC330FCDEA95FBD180EBDADDDABC01F0_gshared (RuntimeArray* __this, int32_t ___index0, GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30375,6 +31324,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisGCHandle_
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.UIR.GfxUpdateBufferRange>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_m2C536E93B9FBA7970B7B504D2C023A86EB622B74_gshared (RuntimeArray* __this, int32_t ___index0, GfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30385,6 +31336,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisGfxUpdate
 // System.Void System.Array::InternalArray__Insert<UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisGlyphMarshallingStruct_tB45F92185E1A4A7880004B36591D7C73E4A2B87C_m3A3F8034499F240AB814F0C0599B847274567A7C_gshared (RuntimeArray* __this, int32_t ___index0, GlyphMarshallingStruct_tB45F92185E1A4A7880004B36591D7C73E4A2B87C ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30395,6 +31348,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisGlyphMars
 // System.Void System.Array::InternalArray__Insert<UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisGlyphPairAdjustmentRecord_t6E4295094D349DBF22BC59116FBC8F22EA55420E_m166613470531439E8A4D5E802E05E1F960A09FD6_gshared (RuntimeArray* __this, int32_t ___index0, GlyphPairAdjustmentRecord_t6E4295094D349DBF22BC59116FBC8F22EA55420E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30405,6 +31360,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisGlyphPair
 // System.Void System.Array::InternalArray__Insert<UnityEngine.TextCore.GlyphRect>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisGlyphRect_tB6D225B9318A527A1CBC1B4078EB923398EB808D_mB2A398BBF0F6BC9468B789EFAD43781FEE8A19CF_gshared (RuntimeArray* __this, int32_t ___index0, GlyphRect_tB6D225B9318A527A1CBC1B4078EB923398EB808D ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30415,6 +31372,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisGlyphRect
 // System.Void System.Array::InternalArray__Insert<UnityEngine.GradientAlphaKey>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisGradientAlphaKey_tF469955E4BBAF1044320D956CD8D990F1A26EAA0_m1D6B6469033814E21E1DF79BE634EA5F5F7768E3_gshared (RuntimeArray* __this, int32_t ___index0, GradientAlphaKey_tF469955E4BBAF1044320D956CD8D990F1A26EAA0 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30425,6 +31384,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisGradientA
 // System.Void System.Array::InternalArray__Insert<UnityEngine.GradientColorKey>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisGradientColorKey_tBD03A613338639E3774A10265CC5F3619C13421A_mEDD7D1E064AE8F769380D39C8483B74D7994F265_gshared (RuntimeArray* __this, int32_t ___index0, GradientColorKey_tBD03A613338639E3774A10265CC5F3619C13421A ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30435,6 +31396,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisGradientC
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.GradientSettings>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisGradientSettings_tADA3CAA17319C58811DE187298039CC950FBAAF3_m4EE030FE9760695FC63C60D8BC5993571DA12A36_gshared (RuntimeArray* __this, int32_t ___index0, GradientSettings_tADA3CAA17319C58811DE187298039CC950FBAAF3 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30445,6 +31408,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisGradientS
 // System.Void System.Array::InternalArray__Insert<System.Guid>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisGuid_t_mD2A47C295EDC872ADF853441CCD232BEAAA7FEB6_gshared (RuntimeArray* __this, int32_t ___index0, Guid_t ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30455,6 +31420,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisGuid_t_mD
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Hash128>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisHash128_t93367F504B687578F893CDBCD13FB95AC8A87A40_m9B18CCAA9FFF0A502A964B22A4BDD3CA010C6D00_gshared (RuntimeArray* __this, int32_t ___index0, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30465,6 +31432,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisHash128_t
 // System.Void System.Array::InternalArray__Insert<System.Net.HeaderVariantInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisHeaderVariantInfo_t99223ED0C557730FBD8AA572065B994254F3386A_m4D715FA9762F718CAC8FE80F2282249825D16024_gshared (RuntimeArray* __this, int32_t ___index0, HeaderVariantInfo_t99223ED0C557730FBD8AA572065B994254F3386A ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30475,6 +31444,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisHeaderVar
 // System.Void System.Array::InternalArray__Insert<TMPro.HighlightState>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisHighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B_m63375019C0B3B7C468C416EB35FD0ECA98D0D684_gshared (RuntimeArray* __this, int32_t ___index0, HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30485,6 +31456,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisHighlight
 // System.Void System.Array::InternalArray__Insert<System.Data.IndexField>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisIndexField_t6285D0782FB7D55EC60F7DFB20AF7D3E7D37B795_m92E45459491CE2B12B1C5712C30A6DAAE66AD6EC_gshared (RuntimeArray* __this, int32_t ___index0, IndexField_t6285D0782FB7D55EC60F7DFB20AF7D3E7D37B795 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30495,6 +31468,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisIndexFiel
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.InputBinding>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5_mA323BF40BC60098C17A24573EC773EF07F1A4E0C_gshared (RuntimeArray* __this, int32_t ___index0, InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30505,6 +31480,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInputBind
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.InputControlScheme>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInputControlScheme_tB60FB32F414727140B32E1A0447679DC7ABC8434_m7C6C88FBD7F646D838E88461CAC1E70DF35FC1DB_gshared (RuntimeArray* __this, int32_t ___index0, InputControlScheme_tB60FB32F414727140B32E1A0447679DC7ABC8434 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30515,6 +31492,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInputCont
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.InputDevice>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD_m08B6EB6DD5DFEB6A2ABBA0F22432EFC9454A3DC0_gshared (RuntimeArray* __this, int32_t ___index0, InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30525,6 +31504,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInputDevi
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.LowLevel.InputEventPtr>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0_mBD858EBA0F9B20F80D09751114CBE4FC53C5B04F_gshared (RuntimeArray* __this, int32_t ___index0, InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30535,6 +31516,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInputEven
 // System.Void System.Array::InternalArray__Insert<System.Int16>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_m9426B580759250E98BE0A896158A8DC406618344_gshared (RuntimeArray* __this, int32_t ___index0, int16_t ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30545,6 +31528,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInt16_tB8
 // System.Void System.Array::InternalArray__Insert<System.Int32>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m745E670C77DD4A90DD4573DB401FEE7114BFE815_gshared (RuntimeArray* __this, int32_t ___index0, int32_t ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30555,6 +31540,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInt32_t68
 // System.Void System.Array::InternalArray__Insert<System.Int32Enum>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m78638775441611B045766DD43ECCAA3446FA1DBD_gshared (RuntimeArray* __this, int32_t ___index0, int32_t ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30565,6 +31552,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInt32Enum
 // System.Void System.Array::InternalArray__Insert<System.Int64>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m4C9AD71A628A4BA91B8EAA20B606548FAF30D65F_gshared (RuntimeArray* __this, int32_t ___index0, int64_t ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30575,6 +31564,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInt64_t09
 // System.Void System.Array::InternalArray__Insert<System.IntPtr>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisIntPtr_t_m5F559A7084925D9DDE3073756042963B0B9EDA5A_gshared (RuntimeArray* __this, int32_t ___index0, intptr_t ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30585,6 +31576,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisIntPtr_t_
 // System.Void System.Array::InternalArray__Insert<System.Globalization.InternalCodePageDataItem>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInternalCodePageDataItem_t6B4913D6507B26FFAE0B805874644D3DBE78F316_mAA4CDA6D97E8A77CBD7102D4C1391D453C539E09_gshared (RuntimeArray* __this, int32_t ___index0, InternalCodePageDataItem_t6B4913D6507B26FFAE0B805874644D3DBE78F316 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30595,6 +31588,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInternalC
 // System.Void System.Array::InternalArray__Insert<System.Globalization.InternalEncodingDataItem>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInternalEncodingDataItem_t1D6DA6BCE8389C12ECC229A644D2CA45A86C06EB_m9FD96452F0669FA71EE4317D047707875FAC9B8F_gshared (RuntimeArray* __this, int32_t ___index0, InternalEncodingDataItem_t1D6DA6BCE8389C12ECC229A644D2CA45A86C06EB ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30605,6 +31600,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInternalE
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.Utilities.InternedString>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735_m6A4D65B2E38AC3BA086FCF019AFCCBEAF6A85962_gshared (RuntimeArray* __this, int32_t ___index0, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30615,6 +31612,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInternedS
 // System.Void System.Array::InternalArray__Insert<System.Linq.Expressions.Interpreter.InterpretedFrameInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInterpretedFrameInfo_tEF62B79D176B8D032C22953AA0D5B581C4076321_m600E7E098CA026B5A94ECE941E6BEA10EAC2CB2E_gshared (RuntimeArray* __this, int32_t ___index0, InterpretedFrameInfo_tEF62B79D176B8D032C22953AA0D5B581C4076321 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30625,6 +31624,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInterpret
 // System.Void System.Array::InternalArray__Insert<Unity.Jobs.JobHandle>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisJobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08_m7FE71F0C76A00C1D39BB6ED70D4EDE613C4CC4FC_gshared (RuntimeArray* __this, int32_t ___index0, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30635,6 +31636,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisJobHandle
 // System.Void System.Array::InternalArray__Insert<Newtonsoft.Json.JsonPosition>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisJsonPosition_t7788656A280615072710710E8C15D23285850E8E_mAD71E7C07902F127CA497A92CE0CAAFD8D0BE231_gshared (RuntimeArray* __this, int32_t ___index0, JsonPosition_t7788656A280615072710710E8C15D23285850E8E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30645,6 +31648,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisJsonPosit
 // System.Void System.Array::InternalArray__Insert<Vuforia.Newtonsoft.Json.JsonPosition>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisJsonPosition_tA78E88A83CDF482A154F39054277D613031379DB_mC9B447D9A2CECB37D82675DA066438147091E954_gshared (RuntimeArray* __this, int32_t ___index0, JsonPosition_tA78E88A83CDF482A154F39054277D613031379DB ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30655,6 +31660,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisJsonPosit
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Keyframe>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0_m7EA9450D1B5155119BE660E65C3CD812454F6231_gshared (RuntimeArray* __this, int32_t ___index0, Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30665,6 +31672,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisKeyframe_
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.Length>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLength_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256_mF22B17F03505E7BCFB667019E2CDE42E56FF6393_gshared (RuntimeArray* __this, int32_t ___index0, Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30675,6 +31684,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLength_t9
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Experimental.GlobalIllumination.LightDataGI>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLightDataGI_t47D2197E863C0DDA40C2182FBF0A21367E468E21_m38773C1D00CF75CD67BCDEDFF4345AFDD249958C_gshared (RuntimeArray* __this, int32_t ___index0, LightDataGI_t47D2197E863C0DDA40C2182FBF0A21367E468E21 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30685,6 +31696,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLightData
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.Universal.LightMinMaxZ>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLightMinMaxZ_t35F5D7C894F59869B016DD721281363A277594A6_m8EE3892DA9270D5FB152CF9E7F1C717DB7B4BA7B_gshared (RuntimeArray* __this, int32_t ___index0, LightMinMaxZ_t35F5D7C894F59869B016DD721281363A277594A6 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30695,6 +31708,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLightMinM
 // System.Void System.Array::InternalArray__Insert<UnityEngine.TextCore.Text.LineInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5_m41E97F844CB22AFACF5425FB0185CB9EB37CD7D3_gshared (RuntimeArray* __this, int32_t ___index0, LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30705,6 +31720,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLineInfo_
 // System.Void System.Array::InternalArray__Insert<UnityEngine.TextCore.Text.LinkInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLinkInfo_tE85DDAFDFBDA635E6405C88EE4FD5941A9243DD8_m1168CFEA4BECC4AD506A039221004C4E769AB026_gshared (RuntimeArray* __this, int32_t ___index0, LinkInfo_tE85DDAFDFBDA635E6405C88EE4FD5941A9243DD8 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30715,6 +31732,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLinkInfo_
 // System.Void System.Array::InternalArray__Insert<System.Linq.Expressions.Interpreter.LocalDefinition>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLocalDefinition_t7B90DE35AAE919E1C79BA7EAFB99BF70589B1C02_m5873E1E35386133E19C05291C403D04D97D12062_gshared (RuntimeArray* __this, int32_t ___index0, LocalDefinition_t7B90DE35AAE919E1C79BA7EAFB99BF70589B1C02 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30725,6 +31744,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLocalDefi
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.ManipulatorActivationFilter>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisManipulatorActivationFilter_t866A0295DA75EA271B30BDC1F9EEA2C4FDEB1A81_mC2815DFDC0B206D2EB9F6EA81A318A9F2970477B_gshared (RuntimeArray* __this, int32_t ___index0, ManipulatorActivationFilter_t866A0295DA75EA271B30BDC1F9EEA2C4FDEB1A81 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30735,6 +31756,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisManipulat
 // System.Void System.Array::InternalArray__Insert<TMPro.MaterialReference>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisMaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B_m3B57DDB444064459C5CBAB8D67F2CB1CDC45A55F_gshared (RuntimeArray* __this, int32_t ___index0, MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30745,6 +31768,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisMaterialR
 // System.Void System.Array::InternalArray__Insert<UnityEngine.TextCore.Text.MaterialReference>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisMaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26_mFC534836F4A6755D17766C8FF16DA92D8172677B_gshared (RuntimeArray* __this, int32_t ___index0, MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30755,6 +31780,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisMaterialR
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Matrix4x4>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisMatrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_m9C894BC0C19A94FA7D2A1A92A9B8A1433B694D25_gshared (RuntimeArray* __this, int32_t ___index0, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30765,6 +31792,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisMatrix4x4
 // System.Void System.Array::InternalArray__Insert<UnityEngine.TextCore.Text.MeshInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisMeshInfo_tE55C4A8846CC2C399CCC3FE989476D987B86AB2F_mE8EBC18C41251C1D177CEDDC1FDC0394947CCC5D_gshared (RuntimeArray* __this, int32_t ___index0, MeshInfo_tE55C4A8846CC2C399CCC3FE989476D987B86AB2F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30775,6 +31804,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisMeshInfo_
 // System.Void System.Array::InternalArray__Insert<UnityEngine.ModifiableContactPair>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisModifiableContactPair_t8D3CA3E20AF1718A5421A6098D633DDA67399960_m6BE2461EFDAD2FAA03AD7C13190231F66D68767D_gshared (RuntimeArray* __this, int32_t ___index0, ModifiableContactPair_t8D3CA3E20AF1718A5421A6098D633DDA67399960 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30785,6 +31816,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisModifiabl
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.Utilities.NameAndParameters>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNameAndParameters_t8F37102128EFD31CA57808AE6E3D1244758DEA01_m0A73F5957566EF05D97D5A24089B9182C18AC144_gshared (RuntimeArray* __this, int32_t ___index0, NameAndParameters_t8F37102128EFD31CA57808AE6E3D1244758DEA01 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30795,6 +31828,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNameAndPa
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.Utilities.NamedValue>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNamedValue_t1D89B1ACD11D2B5284666865014E67683742B8ED_m30423E72F30BA8C3A8F71C7D1E6825E19F3266C9_gshared (RuntimeArray* __this, int32_t ___index0, NamedValue_t1D89B1ACD11D2B5284666865014E67683742B8ED ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30805,6 +31840,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNamedValu
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UI.Navigation>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNavigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_m665C3395F46275CAC33143F86E5E182957BBED00_gshared (RuntimeArray* __this, int32_t ___index0, Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30815,6 +31852,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNavigatio
 // System.Void System.Array::InternalArray__Insert<System.Object>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRuntimeObject_mB8BB8BC70473D76E62148B8D4EBB70F9579CD0E7_gshared (RuntimeArray* __this, int32_t ___index0, RuntimeObject* ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30825,6 +31864,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRuntimeOb
 // System.Void System.Array::InternalArray__Insert<UnityEngine.ResourceManagement.Util.ObjectInitializationData>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisObjectInitializationData_t78311D34B13F6FC91296EA33C601DB29CB8C84E3_m894A7D03E75D8000244D0CE7052E5626180B172C_gshared (RuntimeArray* __this, int32_t ___index0, ObjectInitializationData_t78311D34B13F6FC91296EA33C601DB29CB8C84E3 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30835,6 +31876,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisObjectIni
 // System.Void System.Array::InternalArray__Insert<UnityEngine.TextCore.Text.PageInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPageInfo_tFFF6B289E9A37E4D69353B32F941421180DA5909_m7C3519A4D988A3C5D521905984E243D4B4FCBEB0_gshared (RuntimeArray* __this, int32_t ___index0, PageInfo_tFFF6B289E9A37E4D69353B32F941421180DA5909 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30845,6 +31888,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPageInfo_
 // System.Void System.Array::InternalArray__Insert<System.Reflection.ParameterModifier>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisParameterModifier_t75F1AF13B2AD5EDBD3A3579FD337D0A66E3FF510_m2A6774712FC31FB735EDD9CC1FFACF8F20BFEFC3_gshared (RuntimeArray* __this, int32_t ___index0, ParameterModifier_t75F1AF13B2AD5EDBD3A3579FD337D0A66E3FF510 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30855,6 +31900,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisParameter
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Plane>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPlane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C_mA82458865865DE8A19E16C45739A281EF88373FA_gshared (RuntimeArray* __this, int32_t ___index0, Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30865,6 +31912,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPlane_tB7
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Playables.PlayableBinding>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPlayableBinding_tB68B3BAC47F4F4C559640472174D5BEF93CB6AB4_m4074A77BA2C3CDD246B5513716BE84E12ECC1434_gshared (RuntimeArray* __this, int32_t ___index0, PlayableBinding_tB68B3BAC47F4F4C559640472174D5BEF93CB6AB4 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30875,6 +31924,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPlayableB
 // System.Void System.Array::InternalArray__Insert<UnityEngine.LowLevel.PlayerLoopSystem>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F_mE3AC3C14D3473C7C11C04FF25D5484659F1D2738_gshared (RuntimeArray* __this, int32_t ___index0, PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30885,6 +31936,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPlayerLoo
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.UI.PointerModel>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPointerModel_t6E979AA49D01ACA529A68AF8F48624E73484CD42_m9EFB13F8564C4AB80AF296A382E2632FE592C988_gshared (RuntimeArray* __this, int32_t ___index0, PointerModel_t6E979AA49D01ACA529A68AF8F48624E73484CD42 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30895,6 +31948,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPointerMo
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Pose>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_m45BEA717283715591F96D660128E839638CF1B15_gshared (RuntimeArray* __this, int32_t ___index0, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30905,6 +31960,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPose_t06B
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.Universal.PreTile>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPreTile_tC36F9BE4B86094E64EF591A02D06185EF5ECBDDD_mFC608F391E95455B2A62D8481180B40DB7CF7ABD_gshared (RuntimeArray* __this, int32_t ___index0, PreTile_tC36F9BE4B86094E64EF591A02D06185EF5ECBDDD ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30915,6 +31972,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPreTile_t
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Quaternion>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisQuaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_m8D677BBC5D36B071B6F4AFD5A2B7643B429191DE_gshared (RuntimeArray* __this, int32_t ___index0, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30925,6 +31984,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisQuaternio
 // System.Void System.Array::InternalArray__Insert<System.Xml.Schema.RangePositionInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F_mEE2CD18DB762C73D4FF4A551B0E43B479585E584_gshared (RuntimeArray* __this, int32_t ___index0, RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30935,6 +31996,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRangePosi
 // System.Void System.Array::InternalArray__Insert<UnityEngine.RaycastHit>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5_mFBC98DACD0CBB2EA3CEEB8944F82767FC1E909F4_gshared (RuntimeArray* __this, int32_t ___index0, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30945,6 +32008,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRaycastHi
 // System.Void System.Array::InternalArray__Insert<UnityEngine.RaycastHit2D>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA_m4AE74C995C3368D34B7DCB6617FEDF0991DD193F_gshared (RuntimeArray* __this, int32_t ___index0, RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30955,6 +32020,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRaycastHi
 // System.Void System.Array::InternalArray__Insert<UnityEngine.EventSystems.RaycastResult>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_m58587D644F63E8073F163EC8E55E463562602CFA_gshared (RuntimeArray* __this, int32_t ___index0, RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30965,6 +32032,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRaycastRe
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rect>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_m43481CDD15ECC80415AB7468F28C9A2269173282_gshared (RuntimeArray* __this, int32_t ___index0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30975,6 +32044,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRect_tA04
 // System.Void System.Array::InternalArray__Insert<UnityEngine.RectInt>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8_mA6909094C1EFB1B6F93AF9E49F0E797ADF6E662A_gshared (RuntimeArray* __this, int32_t ___index0, RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30985,6 +32056,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRectInt_t
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.UIR.RenderChainTextEntry>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_m7C247C0C28E42A4352FE892E70AFE5A43E5F476C_gshared (RuntimeArray* __this, int32_t ___index0, RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -30995,6 +32068,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRenderCha
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.RenderStateBlock>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRenderStateBlock_tFC570EF2C8F3A817FECD578E385D18CEEEA06733_m864A3817DC72659F33DDC007663751334A5D98E3_gshared (RuntimeArray* __this, int32_t ___index0, RenderStateBlock_tFC570EF2C8F3A817FECD578E385D18CEEEA06733 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31005,6 +32080,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRenderSta
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.Universal.RenderTargetHandle>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRenderTargetHandle_tB5C2670041BF377223D41FDF9290F6D8BFB7BA66_mDCD01FB80A18899A6CB7A2AE61BA318EB1C1DF9C_gshared (RuntimeArray* __this, int32_t ___index0, RenderTargetHandle_tB5C2670041BF377223D41FDF9290F6D8BFB7BA66 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31015,6 +32092,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRenderTar
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.RenderTargetIdentifier>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRenderTargetIdentifier_tA528663AC6EB3911D8E91AA40F7070FA5455442B_m21BD13FE25FD901AFCD1E75EB9E08BA8C3034418_gshared (RuntimeArray* __this, int32_t ___index0, RenderTargetIdentifier_tA528663AC6EB3911D8E91AA40F7070FA5455442B ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31025,6 +32104,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRenderTar
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Resolution>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisResolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525_m48D2A1946D7013EB5579A318FD11EACCC5001128_gshared (RuntimeArray* __this, int32_t ___index0, Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31035,6 +32116,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisResolutio
 // System.Void System.Array::InternalArray__Insert<Vuforia.Newtonsoft.Json.Serialization.ResolverContractKey>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisResolverContractKey_tE2D82D8CA1856116845C671153EF76D834A7B45E_m484D99768D92E3A466774E3AAF8A5A1710604059_gshared (RuntimeArray* __this, int32_t ___index0, ResolverContractKey_tE2D82D8CA1856116845C671153EF76D834A7B45E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31045,6 +32128,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisResolverC
 // System.Void System.Array::InternalArray__Insert<TMPro.RichTextTagAttribute>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRichTextTagAttribute_t1BB51A8FD6C14746D177D8E84E281A4FD4A720E0_m3FDBE03D2EA60B9F0CF24C49BF87DE6FE5610452_gshared (RuntimeArray* __this, int32_t ___index0, RichTextTagAttribute_t1BB51A8FD6C14746D177D8E84E281A4FD4A720E0 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31055,6 +32140,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRichTextT
 // System.Void System.Array::InternalArray__Insert<UnityEngine.TextCore.Text.RichTextTagAttribute>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRichTextTagAttribute_t0600951F833208392F1D8EE3E6A58AD5C797F9DA_mB2DFAC9FA3F2647F63D5350EA07A912AF22D0438_gshared (RuntimeArray* __this, int32_t ___index0, RichTextTagAttribute_t0600951F833208392F1D8EE3E6A58AD5C797F9DA ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31065,6 +32152,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRichTextT
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.Rotate>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRotate_tE965CA0281A547AB38B881A3416FF97756D3F4D7_m6BBC6707D98359EE925F274B192C9AAE3590B907_gshared (RuntimeArray* __this, int32_t ___index0, Rotate_tE965CA0281A547AB38B881A3416FF97756D3F4D7 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31075,6 +32164,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRotate_tE
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.RuleMatcher>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRuleMatcher_t327CFEB02C81AA20E639DE949DCBBAB5E92FF28E_m796CDBD2D32D017D29C828FC7CEFFEA4583ED4B8_gshared (RuntimeArray* __this, int32_t ___index0, RuleMatcher_t327CFEB02C81AA20E639DE949DCBBAB5E92FF28E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31085,6 +32176,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRuleMatch
 // System.Void System.Array::InternalArray__Insert<System.Linq.Expressions.Interpreter.RuntimeLabel>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRuntimeLabel_tD233E2C3F1E1A1877FFE3E9DFB3A69C57D40A548_mEF819C4EDE46D019BCA4C9155D40480AD142A3D5_gshared (RuntimeArray* __this, int32_t ___index0, RuntimeLabel_tD233E2C3F1E1A1877FFE3E9DFB3A69C57D40A548 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31095,6 +32188,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRuntimeLa
 // System.Void System.Array::InternalArray__Insert<System.SByte>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_mE6030BA3D73CFD45F233424459ACE73601F2C1C7_gshared (RuntimeArray* __this, int32_t ___index0, int8_t ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31105,6 +32200,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSByte_tFE
 // System.Void System.Array::InternalArray__Insert<System.SByteEnum>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSByteEnum_t0782AA0EFC5D1042A39675F37D7DD7C098781DD9_m6C95C4FC9B9E1264B121B722B5C4415C84569C26_gshared (RuntimeArray* __this, int32_t ___index0, int8_t ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31115,6 +32212,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSByteEnum
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StyleSheets.ScalableImage>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_mED8DAAEECDA774B547D6597B3968B5BE4F8BD25E_gshared (RuntimeArray* __this, int32_t ___index0, ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31125,6 +32224,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisScalableI
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.Scale>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisScale_t5594C69C1AC9398B57ABF6C4FA0D4E791B7A4DC7_m40CF8F889D92D9A9B76660DC162655D8412C2BAD_gshared (RuntimeArray* __this, int32_t ___index0, Scale_t5594C69C1AC9398B57ABF6C4FA0D4E791B7A4DC7 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31135,6 +32236,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisScale_t55
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StyleSheets.SelectorMatchRecord>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSelectorMatchRecord_t1E93CDB54312CFB4A67768BB25ABB9AFB31BC5D7_m5C4EAA83F1C58BA1827FAD513DCD41EBD259020E_gshared (RuntimeArray* __this, int32_t ___index0, SelectorMatchRecord_t1E93CDB54312CFB4A67768BB25ABB9AFB31BC5D7 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31145,6 +32248,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSelectorM
 // System.Void System.Array::InternalArray__Insert<UnityEngine.ResourceManagement.Util.SerializedType>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSerializedType_t1FB0F9A8B8F766AC18F067F0882CE74E0014C6F1_mB083E864DC6B7279E38C47B250B8E1F244CD2B06_gshared (RuntimeArray* __this, int32_t ___index0, SerializedType_t1FB0F9A8B8F766AC18F067F0882CE74E0014C6F1 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31155,6 +32260,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSerialize
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.ShaderTagId>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisShaderTagId_t453E2085B5EE9448FF75E550CAB111EFF690ECB0_m682F753A2FE87F6DC1EEEF51EEC7AC3CD416D7C2_gshared (RuntimeArray* __this, int32_t ___index0, ShaderTagId_t453E2085B5EE9448FF75E550CAB111EFF690ECB0 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31165,6 +32272,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisShaderTag
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.Universal.ShadowSliceData>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisShadowSliceData_t1BCFEDC63BECA994949FE1F4245CEE930EE69E20_m3820DE4915A4C045CFEDBC00FFC36FFC2A9363F5_gshared (RuntimeArray* __this, int32_t ___index0, ShadowSliceData_t1BCFEDC63BECA994949FE1F4245CEE930EE69E20 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31175,6 +32284,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisShadowSli
 // System.Void System.Array::InternalArray__Insert<System.Single>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m9998C46E4F5C860F93F367CEDE685E0A221E49E3_gshared (RuntimeArray* __this, int32_t ___index0, float ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31185,6 +32296,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSingle_t4
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UI.SpriteState>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_m95866C088BE785D33B7C890184655DE20D425123_gshared (RuntimeArray* __this, int32_t ___index0, SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31195,6 +32308,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSpriteSta
 // System.Void System.Array::InternalArray__Insert<System.Data.SqlTypes.SqlBinary>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlBinary_tEFB13C14B44E4388798A2F7DB48438E16DE4E347_m9F8FD37302D2087F7A2D553CFB0D25540CD5A535_gshared (RuntimeArray* __this, int32_t ___index0, SqlBinary_tEFB13C14B44E4388798A2F7DB48438E16DE4E347 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31205,6 +32320,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlBinary
 // System.Void System.Array::InternalArray__Insert<System.Data.SqlTypes.SqlBoolean>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlBoolean_tAD22108BE5F656A5AAFE19B054B2CA56C0AEE1D7_m8556626F0914C09D9ADAEF2870E780253E46A945_gshared (RuntimeArray* __this, int32_t ___index0, SqlBoolean_tAD22108BE5F656A5AAFE19B054B2CA56C0AEE1D7 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31215,6 +32332,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlBoolea
 // System.Void System.Array::InternalArray__Insert<System.Data.SqlTypes.SqlByte>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlByte_t39089DB566BD0047D5ED18807B145019FB0F0B46_m341A7FAD1A19C23D948AB8872F57BD1F14BF8E64_gshared (RuntimeArray* __this, int32_t ___index0, SqlByte_t39089DB566BD0047D5ED18807B145019FB0F0B46 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31225,6 +32344,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlByte_t
 // System.Void System.Array::InternalArray__Insert<System.Data.SqlTypes.SqlDateTime>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlDateTime_tFB5902479382E8A61934E274E7BBF3280A3D25B2_m6876882DA3C3BCBCEE4D8C564D7FC8D8F3DC5533_gshared (RuntimeArray* __this, int32_t ___index0, SqlDateTime_tFB5902479382E8A61934E274E7BBF3280A3D25B2 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31235,6 +32356,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlDateTi
 // System.Void System.Array::InternalArray__Insert<System.Data.SqlTypes.SqlDecimal>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlDecimal_t7A833A6D857AB79C4B2E4011CB728AEC6954D406_m08419BF40ABBAF4D28C194F561120C5AAC94597D_gshared (RuntimeArray* __this, int32_t ___index0, SqlDecimal_t7A833A6D857AB79C4B2E4011CB728AEC6954D406 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31245,6 +32368,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlDecima
 // System.Void System.Array::InternalArray__Insert<System.Data.SqlTypes.SqlDouble>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlDouble_t028838C05B8C2E359848BEDB40C41CCCAA11CC98_m89455C0F36A41465D6F82302494969522FD1CF8E_gshared (RuntimeArray* __this, int32_t ___index0, SqlDouble_t028838C05B8C2E359848BEDB40C41CCCAA11CC98 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31255,6 +32380,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlDouble
 // System.Void System.Array::InternalArray__Insert<System.Data.SqlTypes.SqlGuid>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlGuid_t93C33E370E5D3A344A15F9EFD9A2D4177576DED7_m707BC993605DF3A66BA7270E6E37C56A106494CE_gshared (RuntimeArray* __this, int32_t ___index0, SqlGuid_t93C33E370E5D3A344A15F9EFD9A2D4177576DED7 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31265,6 +32392,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlGuid_t
 // System.Void System.Array::InternalArray__Insert<System.Data.SqlTypes.SqlInt16>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlInt16_t30ED9856D3373398B6005B34D664C64EE224260B_m8F3B6ADA4D6366274113D73CCBC5FA14E42FBFBA_gshared (RuntimeArray* __this, int32_t ___index0, SqlInt16_t30ED9856D3373398B6005B34D664C64EE224260B ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31275,6 +32404,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlInt16_
 // System.Void System.Array::InternalArray__Insert<System.Data.SqlTypes.SqlInt32>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlInt32_t50DA35BC9FD9C46AA933DCF8195B2EE92064D152_m97B90F7955AB6C176B80AFA1EA0A8E38280241C8_gshared (RuntimeArray* __this, int32_t ___index0, SqlInt32_t50DA35BC9FD9C46AA933DCF8195B2EE92064D152 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31285,6 +32416,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlInt32_
 // System.Void System.Array::InternalArray__Insert<System.Data.SqlTypes.SqlInt64>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlInt64_t6F2A4BE192CBAA1059DDAB0D02FEDF4EDEAD6272_m70033E5A937E533DC1BAF086EA981733DB6DBE3C_gshared (RuntimeArray* __this, int32_t ___index0, SqlInt64_t6F2A4BE192CBAA1059DDAB0D02FEDF4EDEAD6272 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31295,6 +32428,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlInt64_
 // System.Void System.Array::InternalArray__Insert<System.Data.SqlTypes.SqlMoney>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlMoney_t88BD587F422EA297502BC57B18010762C03531BB_m8ED15A57078C51455FB456E9C5AE83ACF9A31B14_gshared (RuntimeArray* __this, int32_t ___index0, SqlMoney_t88BD587F422EA297502BC57B18010762C03531BB ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31305,6 +32440,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlMoney_
 // System.Void System.Array::InternalArray__Insert<System.Data.SqlTypes.SqlSingle>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlSingle_tE807CFF8CCE4E77475D51223A37ADC73BC205767_m1B490A803FB6DC0939994A5D8088195E79441E21_gshared (RuntimeArray* __this, int32_t ___index0, SqlSingle_tE807CFF8CCE4E77475D51223A37ADC73BC205767 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31315,6 +32452,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlSingle
 // System.Void System.Array::InternalArray__Insert<System.Data.SqlTypes.SqlString>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_m42D26761D7FC68FDB518C3A58187AB14DEB3F517_gshared (RuntimeArray* __this, int32_t ___index0, SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31325,6 +32464,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSqlString
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyName>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF_mD3D92C3F9ACAB058FE9C86D2BF4993F1C8C94C71_gshared (RuntimeArray* __this, int32_t ___index0, StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31335,6 +32476,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleProp
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StyleSheets.StylePropertyValue>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStylePropertyValue_tED32F617FABE99611B213BFCF9D1D909E7F141C2_m033559BE748A28BB01D2B1F26602FD296B8BADE1_gshared (RuntimeArray* __this, int32_t ___index0, StylePropertyValue_tED32F617FABE99611B213BFCF9D1D909E7F141C2 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31345,6 +32488,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleProp
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StyleSelectorPart>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470_m81826276FF81F74FC360F973DDDCDC0F36E4F50D_gshared (RuntimeArray* __this, int32_t ___index0, StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31355,6 +32500,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleSele
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxToken>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleSyntaxToken_tE4474F86F800F298F966FFDE947528453E769E0C_m366DEF80AAFEDA15844574934E70BC5A953EE5F3_gshared (RuntimeArray* __this, int32_t ___index0, StyleSyntaxToken_tE4474F86F800F298F966FFDE947528453E769E0C ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31365,6 +32512,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleSynt
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StyleSheets.StyleValue>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleValue_t56307594EC04E04EFBCC3220595B4AAD66FF93C5_m3605987AEBBAC5275815A00F7130CA9744DC16ED_gshared (RuntimeArray* __this, int32_t ___index0, StyleValue_t56307594EC04E04EFBCC3220595B4AAD66FF93C5 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31375,6 +32524,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleValu
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StyleValueHandle>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleValueHandle_t5831643AAA7AD8C5C43A4498C5E0A2545F78227D_mE36405592CC0F5F9BB16B9DF745EED2E638A4E39_gshared (RuntimeArray* __this, int32_t ___index0, StyleValueHandle_t5831643AAA7AD8C5C43A4498C5E0A2545F78227D ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31385,6 +32536,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleValu
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StyleSheets.StyleValueManaged>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleValueManaged_t68DFBEC1594279E4DC56634FD5092318D1E9A5F4_m68CE5FF8263C16B4B36DC419379DBE00A6568333_gshared (RuntimeArray* __this, int32_t ___index0, StyleValueManaged_t68DFBEC1594279E4DC56634FD5092318D1E9A5F4 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31395,6 +32548,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleValu
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StyleVariable>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleVariable_t5D4DEC936102A13961F4F2C6214B83D6CDC56269_mD2D650C9C12684B0A66D912CB81160CC6894E34A_gshared (RuntimeArray* __this, int32_t ___index0, StyleVariable_t5D4DEC936102A13961F4F2C6214B83D6CDC56269 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31405,6 +32560,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStyleVari
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.Utilities.Substring>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSubstring_t2E16755269E6716C22074D6BC0A9099915E67849_m6C6D917F2DF4260C38287D9A4829D93B8A3D3B62_gshared (RuntimeArray* __this, int32_t ___index0, Substring_t2E16755269E6716C22074D6BC0A9099915E67849 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31415,6 +32572,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSubstring
 // System.Void System.Array::InternalArray__Insert<TMPro.TMP_CharacterInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8_m4311FB41BD5F2F6C066B59306A0F0D280BC72131_gshared (RuntimeArray* __this, int32_t ___index0, TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31425,6 +32584,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_Chara
 // System.Void System.Array::InternalArray__Insert<TMPro.TMP_FontWeightPair>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_FontWeightPair_t2835DA6BF1309AC6C817ECF878232CCF9DDB703E_mF1EBB657AAEB4058A6B5EBF771B345BF134C4BC6_gshared (RuntimeArray* __this, int32_t ___index0, TMP_FontWeightPair_t2835DA6BF1309AC6C817ECF878232CCF9DDB703E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31435,6 +32596,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_FontW
 // System.Void System.Array::InternalArray__Insert<TMPro.TMP_LineInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3_m37338BFF657DDF18157482A9CE7FBB0ED5E4D9FE_gshared (RuntimeArray* __this, int32_t ___index0, TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31445,6 +32608,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_LineI
 // System.Void System.Array::InternalArray__Insert<TMPro.TMP_LinkInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_LinkInfo_t9DC08E8BF8C5E8094AFF8C9FB3C251AF88B92DA6_m6B22F7431F26D03828F87D35AF6D823F28F0BDD8_gshared (RuntimeArray* __this, int32_t ___index0, TMP_LinkInfo_t9DC08E8BF8C5E8094AFF8C9FB3C251AF88B92DA6 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31455,6 +32620,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_LinkI
 // System.Void System.Array::InternalArray__Insert<TMPro.TMP_MeshInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B_m5009CA4A94C316C7D3DE47B693DD59DD5506B115_gshared (RuntimeArray* __this, int32_t ___index0, TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31465,6 +32632,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_MeshI
 // System.Void System.Array::InternalArray__Insert<TMPro.TMP_PageInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_PageInfo_t062E56948480FAB066C168E14DC79CC83CC369B4_m299B31388631728E3A3B89871669F8975C860047_gshared (RuntimeArray* __this, int32_t ___index0, TMP_PageInfo_t062E56948480FAB066C168E14DC79CC83CC369B4 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31475,6 +32644,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_PageI
 // System.Void System.Array::InternalArray__Insert<TMPro.TMP_WordInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_WordInfo_t825112AF0B76E4461F9C7DD336A02CC6A090A983_m9784473A2AD88D2C6681475441FF81066D2F2DA8_gshared (RuntimeArray* __this, int32_t ___index0, TMP_WordInfo_t825112AF0B76E4461F9C7DD336A02CC6A090A983 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31485,6 +32656,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTMP_WordI
 // System.Void System.Array::InternalArray__Insert<UnityEngine.TextCore.Text.TextElementInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_m03ADFDEDCCD748C12262497CD732AF408C45FC7E_gshared (RuntimeArray* __this, int32_t ___index0, TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31495,6 +32668,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTextEleme
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.TextShadow>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05_m6D023074D2EF8272CB9F164C494A727405A51E6D_gshared (RuntimeArray* __this, int32_t ___index0, TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31505,6 +32680,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTextShado
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.TextVertex>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_mFFF3DF9DA106AAB138E47508982B8FA16DB8AB59_gshared (RuntimeArray* __this, int32_t ___index0, TextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31515,6 +32692,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTextVerte
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.TextureId>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58_m0AAD9315541E5F13CDCE30C688AAF3C7CD1BCECF_gshared (RuntimeArray* __this, int32_t ___index0, TextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31525,6 +32704,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTextureId
 // System.Void System.Array::InternalArray__Insert<System.TimeSpan>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_mC2BDAE390C1FA454788E7E9DFAC4CF1BC74DE585_gshared (RuntimeArray* __this, int32_t ___index0, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31535,6 +32716,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimeSpan_
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.TimeValue>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E_m4A0AECDB2829E1706F3B2241D66180FC858E0737_gshared (RuntimeArray* __this, int32_t ___index0, TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31545,6 +32728,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTimeValue
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Touch>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTouch_t03E51455ED508492B3F278903A0114FA0E87B417_m2B0FE11525E01587073DC4E81D0149A7E4E0CF50_gshared (RuntimeArray* __this, int32_t ___index0, Touch_t03E51455ED508492B3F278903A0114FA0E87B417 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31555,6 +32740,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTouch_t03
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.EnhancedTouch.Touch>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTouch_t07A55E11962F143607E917F0B6FEFB36EE2DDA70_mD2B3F3B5EF3FE74E637E4E7401D4931AD8A6A044_gshared (RuntimeArray* __this, int32_t ___index0, Touch_t07A55E11962F143607E917F0B6FEFB36EE2DDA70 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31565,6 +32752,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTouch_t07
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.ARSubsystems.TrackableId>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_m57AD79981CC68F4B454B06C295A1EC099DAFD104_gshared (RuntimeArray* __this, int32_t ___index0, TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31575,6 +32764,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTrackable
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.UIR.Transform3x4>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTransform3x4_t9F79FC0112A00D3FFD7AFAD2D10AD22DF929052F_mE4FB4C9DBB29B8B069407D461A6CBEAC86C155D0_gshared (RuntimeArray* __this, int32_t ___index0, Transform3x4_t9F79FC0112A00D3FFD7AFAD2D10AD22DF929052F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31585,6 +32776,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTransform
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.TransformOrigin>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502_m49C5062BEA048E194A7E28CA3715738822308980_gshared (RuntimeArray* __this, int32_t ___index0, TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31595,6 +32788,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTransform
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.Translate>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTranslate_t494F6E802F8A640D67819C9D26BE62DED1218A8E_m4D198D8E8B37E422ECD715D83C1E3BF49BEA941A_gshared (RuntimeArray* __this, int32_t ___index0, Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31605,6 +32800,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTranslate
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UICharInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD_m2FD91C866A68A6E1338D54C59D4F870A582B248C_gshared (RuntimeArray* __this, int32_t ___index0, UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31615,6 +32812,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUICharInf
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UILineInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC_m0F71BE85B7EBD08408077921D7A67551DA70F57E_gshared (RuntimeArray* __this, int32_t ___index0, UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31625,6 +32824,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUILineInf
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIVertex>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207_mA01966634FBE21C5286C423843D99CE9CE8DFFF0_gshared (RuntimeArray* __this, int32_t ___index0, UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31635,6 +32836,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUIVertex_
 // System.Void System.Array::InternalArray__Insert<System.UInt16>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m690F737CFBBE5CE088E24499748F41E67303473F_gshared (RuntimeArray* __this, int32_t ___index0, uint16_t ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31645,6 +32848,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUInt16_tF
 // System.Void System.Array::InternalArray__Insert<System.UInt16Enum>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUInt16Enum_t481D129F5FAE551E8684190D640F0FAEFB237CF8_m544508CBF10EB305265BDB23341072485404F83C_gshared (RuntimeArray* __this, int32_t ___index0, uint16_t ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31655,6 +32860,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUInt16Enu
 // System.Void System.Array::InternalArray__Insert<System.UInt32>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_mE413926F989267D42636E5EDF16E0E261C38F745_gshared (RuntimeArray* __this, int32_t ___index0, uint32_t ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31665,6 +32872,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUInt32_t1
 // System.Void System.Array::InternalArray__Insert<System.UInt32Enum>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUInt32Enum_t7B4F5C6C14D2C4B2A5927C59620BE3868714DACF_mFDBC6562CE2F7E2EBFE171CFF94C2C9F7D8B57AF_gshared (RuntimeArray* __this, int32_t ___index0, uint32_t ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31675,6 +32884,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUInt32Enu
 // System.Void System.Array::InternalArray__Insert<System.UInt64>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m27004060A816BD5F9CB60E489888508FF36533D1_gshared (RuntimeArray* __this, int32_t ___index0, uint64_t ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31685,6 +32896,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUInt64_t8
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.XR.UsageHint>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUsageHint_tFD7259AF9E91500CF1D0CE602394B40FD2397AB1_mA50E3D7C88A11F11967A2E218AC1ACDA34A0BF8C_gshared (RuntimeArray* __this, int32_t ___index0, UsageHint_tFD7259AF9E91500CF1D0CE602394B40FD2397AB1 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31695,6 +32908,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUsageHint
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Vector2>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_mE60BB19C1ED1D51BAD95C729B5590DDAEB0AD5CF_gshared (RuntimeArray* __this, int32_t ___index0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31705,6 +32920,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVector2_t
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Vector2Int>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_m123FBD1B004CEAA926FFF78B84AD87180E037FAB_gshared (RuntimeArray* __this, int32_t ___index0, Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31715,6 +32932,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVector2In
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Vector3>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m425EF33C6C73FB8D5FC159D1D9AA9B08F1BC2A1E_gshared (RuntimeArray* __this, int32_t ___index0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31725,6 +32944,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVector3_t
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UI.Extensions.Vector3_Array2D>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVector3_Array2D_t58E77C561A10746E13FDFF893FEC1EC9B1569C0D_mB68A36D6AF8755CA46AB405B449C8D47CDAB2CB8_gshared (RuntimeArray* __this, int32_t ___index0, Vector3_Array2D_t58E77C561A10746E13FDFF893FEC1EC9B1569C0D ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31735,6 +32956,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVector3_A
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Vector4>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m61F1DD70E0989B4930FADA1C42BDB7301BB4223E_gshared (RuntimeArray* __this, int32_t ___index0, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31745,6 +32968,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVector4_t
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.VectorImageVertex>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVectorImageVertex_t9D42377517CC059BD40E2A626ECEBE0C94CA0948_m716DA80E2D1E34E32625F9D9AF1EB478F819C17B_gshared (RuntimeArray* __this, int32_t ___index0, VectorImageVertex_t9D42377517CC059BD40E2A626ECEBE0C94CA0948 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31755,6 +32980,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVectorIma
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.Vertex>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7_mB46D2960208866FEF730E9545E7D3EBF5C99AF5D_gshared (RuntimeArray* __this, int32_t ___index0, Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31765,6 +32992,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVertex_t0
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.VertexAttributeDescriptor>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVertexAttributeDescriptor_tD4231FBF57335465D16308D2A18E8E83D36BFA76_m8F9FA9A75AB143F56ABD0C3CF9E97B395102BD3A_gshared (RuntimeArray* __this, int32_t ___index0, VertexAttributeDescriptor_tD4231FBF57335465D16308D2A18E8E83D36BFA76 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31775,6 +33004,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVertexAtt
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.VisibleLight>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVisibleLight_t0A4DF5B22865A00F618A0352B805277FA0132805_mE1FCEA725128F53EF31E12BAEEC83063D4944744_gshared (RuntimeArray* __this, int32_t ___index0, VisibleLight_t0A4DF5B22865A00F618A0352B805277FA0132805 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31785,6 +33016,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVisibleLi
 // System.Void System.Array::InternalArray__Insert<Vuforia.VuCameraVideoMode>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVuCameraVideoMode_tB492EBEB0605860CCAC237A94369C4C29011350D_m007FBB6774810361EE8640FADB1F787F8815DC4B_gshared (RuntimeArray* __this, int32_t ___index0, VuCameraVideoMode_tB492EBEB0605860CCAC237A94369C4C29011350D ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31795,6 +33028,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVuCameraV
 // System.Void System.Array::InternalArray__Insert<Vuforia.VuDatabaseTargetInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVuDatabaseTargetInfo_tACF0C984E38A6AA4F6FB07B5AAEFEA516A651E6E_m024A59E22CF6B1F546A1CCB41F6DBAB50BACED4B_gshared (RuntimeArray* __this, int32_t ___index0, VuDatabaseTargetInfo_tACF0C984E38A6AA4F6FB07B5AAEFEA516A651E6E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31805,6 +33040,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVuDatabas
 // System.Void System.Array::InternalArray__Insert<Vuforia.VuMatrix44F>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVuMatrix44F_tC75A0AF8524BED265F800A953806F30FA28B8DE6_mC1FE31F5FF012FB951351644DCB8792F0295C711_gshared (RuntimeArray* __this, int32_t ___index0, VuMatrix44F_tC75A0AF8524BED265F800A953806F30FA28B8DE6 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31815,6 +33052,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVuMatrix4
 // System.Void System.Array::InternalArray__Insert<Vuforia.VuMeshObservationBlock>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVuMeshObservationBlock_tE6EB4D4BD9AA468CDB198D07F697FFD717E04963_m986BB72CE377AC2CFD287E632377229C4CBAAF73_gshared (RuntimeArray* __this, int32_t ___index0, VuMeshObservationBlock_tE6EB4D4BD9AA468CDB198D07F697FFD717E04963 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31825,6 +33064,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVuMeshObs
 // System.Void System.Array::InternalArray__Insert<Vuforia.VuModelTargetStateInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVuModelTargetStateInfo_t9B26867D304B04B7A64BDD5F340CA2BFA372F117_mBB99D716EDA5E54B700497C8F25454DE7970D945_gshared (RuntimeArray* __this, int32_t ___index0, VuModelTargetStateInfo_t9B26867D304B04B7A64BDD5F340CA2BFA372F117 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31835,6 +33076,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVuModelTa
 // System.Void System.Array::InternalArray__Insert<Vuforia.VuVector2F>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVuVector2F_t79CCE33CCEFEED608BEE3AAA2C00C8AB4FF9E1B8_m91FBC4F6DCC1BA56AF7BAB9CB3C09A8846CA783C_gshared (RuntimeArray* __this, int32_t ___index0, VuVector2F_t79CCE33CCEFEED608BEE3AAA2C00C8AB4FF9E1B8 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31845,6 +33088,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVuVector2
 // System.Void System.Array::InternalArray__Insert<UnityEngine.WebCamDevice>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisWebCamDevice_t3D72A89B7F52FD27192023A67254D19E89D9738C_m519D015922D2371AF13786CB29ABF0CD7FBE4AB9_gshared (RuntimeArray* __this, int32_t ___index0, WebCamDevice_t3D72A89B7F52FD27192023A67254D19E89D9738C ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31855,6 +33100,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisWebCamDev
 // System.Void System.Array::InternalArray__Insert<UnityEngine.TextCore.Text.WordInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisWordInfo_tA466206097891A5A2590896EE164AFC406EB060D_mE8E377B3EBB2DD2D028A5AAEC0F64EDBAABB51B4_gshared (RuntimeArray* __this, int32_t ___index0, WordInfo_tA466206097891A5A2590896EE164AFC406EB060D ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31865,6 +33112,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisWordInfo_
 // System.Void System.Array::InternalArray__Insert<TMPro.WordWrapState>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisWordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A_m1183E6E4112BD8630CEDA0F7FEC876886B40868A_gshared (RuntimeArray* __this, int32_t ___index0, WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31875,6 +33124,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisWordWrapS
 // System.Void System.Array::InternalArray__Insert<System.Security.Cryptography.X509Certificates.X509ChainStatus>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisX509ChainStatus_t5A57DDA24AA1FCA9F2B8D70B767CDDF388E4A80D_mC338A672E28C9AC7A98ABDBF07F7B9906076E31F_gshared (RuntimeArray* __this, int32_t ___index0, X509ChainStatus_t5A57DDA24AA1FCA9F2B8D70B767CDDF388E4A80D ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31885,6 +33136,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisX509Chain
 // System.Void System.Array::InternalArray__Insert<MS.Internal.Xml.Cache.XPathNode>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXPathNode_t4A9DCD8092B3B7DBA0A6DA09C03DB5274D43C3CA_m2F01DCB1AF9E61ED048FCCC4EF974DF677C5B4C8_gshared (RuntimeArray* __this, int32_t ___index0, XPathNode_t4A9DCD8092B3B7DBA0A6DA09C03DB5274D43C3CA ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31895,6 +33148,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXPathNode
 // System.Void System.Array::InternalArray__Insert<MS.Internal.Xml.Cache.XPathNodeRef>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXPathNodeRef_tF695A4CACB9D70FDCBCC9EE7F3AE77D1CAF06470_mBA230C3C3552CA079833974FD184DB389C852857_gshared (RuntimeArray* __this, int32_t ___index0, XPathNodeRef_tF695A4CACB9D70FDCBCC9EE7F3AE77D1CAF06470 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31905,6 +33160,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXPathNode
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.ARSubsystems.XRAnchor>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82_mEFE6F648BD7E346D762F1394767F2BD95459B211_gshared (RuntimeArray* __this, int32_t ___index0, XRAnchor_tDD427E66CAA09DE7B058EA76223EF7DC3880FE82 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31915,6 +33172,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRAnchor_
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.ARSubsystems.XRCameraConfiguration>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRCameraConfiguration_t36D3B10519762ADD407F4A4F171D120CE2B3BD63_mCBCDFF089A1770C76AAF0250137426757571221D_gshared (RuntimeArray* __this, int32_t ___index0, XRCameraConfiguration_t36D3B10519762ADD407F4A4F171D120CE2B3BD63 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31925,6 +33184,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRCameraC
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.ARSubsystems.XREnvironmentProbe>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9_m69E988F4ED9B2F9EFF25082423138976B6CA38B4_gshared (RuntimeArray* __this, int32_t ___index0, XREnvironmentProbe_tAA657FAB648E2599B519F9FD66A1CEED65034DD9 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31935,6 +33196,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXREnviron
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.ARSubsystems.XRFace>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB_m7F3E96D6C14D1F61356E9C134E2EC5FC2768A2A2_gshared (RuntimeArray* __this, int32_t ___index0, XRFace_t235F951F4AC7CC6A0CA6829CECA05210D64982FB ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31945,6 +33208,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRFace_t2
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.XR.XRFeatureDescriptor>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRFeatureDescriptor_t690E672A6BBBEFBB8AF221485C1884507EAFB5B2_mCCEB3EBF9FF9620DAC0A33A1F1400CB12561F3A0_gshared (RuntimeArray* __this, int32_t ___index0, XRFeatureDescriptor_t690E672A6BBBEFBB8AF221485C1884507EAFB5B2 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31955,6 +33220,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRFeature
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.XRNodeState>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRNodeState_t683158812A1D80A6BC73DB97405BB0B795A9111A_mDCCEE915B644C868A30F50F50FAEE202422C6A62_gshared (RuntimeArray* __this, int32_t ___index0, XRNodeState_t683158812A1D80A6BC73DB97405BB0B795A9111A ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31965,6 +33232,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRNodeSta
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.ARSubsystems.XRPointCloud>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C_m8D930FA916DB1701199808D8228763B37E802943_gshared (RuntimeArray* __this, int32_t ___index0, XRPointCloud_t99DB921A9C92F53CEA3EB29A64E2DECDA6EA7D8C ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31975,6 +33244,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRPointCl
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.ARSubsystems.XRRaycast>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103_m60C50271604E23D431E36988495F9CAA9F8A524E_gshared (RuntimeArray* __this, int32_t ___index0, XRRaycast_t100015712885CDF4EF42820EB36277DC6DDC8103 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31985,6 +33256,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRRaycast
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.ARSubsystems.XRRaycastHit>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780_mD66D8A062CCF1AC9B4B1FFD116F7BF03DC7EB015_gshared (RuntimeArray* __this, int32_t ___index0, XRRaycastHit_t87A29A58C1D41AF1B3995B73777A7494B0695780 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -31995,6 +33268,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRRaycast
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.ARSubsystems.XRTextureDescriptor>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19_mDB0EFCFA7B00523D621871916D0FE122ACE657DA_gshared (RuntimeArray* __this, int32_t ___index0, XRTextureDescriptor_t699023EDE6E2593F61CE969A68B5E56CD04CFA19 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32005,6 +33280,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRTexture
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.ARSubsystems.XRTrackedImage>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRTrackedImage_t0F99DAB96B2D6422D0F8DA720F9BEFD3655DDFDD_m4E9E6E384BB7B0BCB05FBA1AC067351381C1DDFC_gshared (RuntimeArray* __this, int32_t ___index0, XRTrackedImage_t0F99DAB96B2D6422D0F8DA720F9BEFD3655DDFDD ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32015,6 +33292,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRTracked
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.Universal.XRView>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRView_t2ECA2D8B3ACBDF90DAD643B2766AF68A56E12A27_m6F511E60EB9DAB15C085C788189900F967A3B798_gshared (RuntimeArray* __this, int32_t ___index0, XRView_t2ECA2D8B3ACBDF90DAD643B2766AF68A56E12A27 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32025,6 +33304,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXRView_t2
 // System.Void System.Array::InternalArray__Insert<UnityEngine.TextCore.Text.XmlTagAttribute>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXmlTagAttribute_t2F0EE4823C3BB8B9ED6844183CA998A44EA1AB59_m0C479D4BDB6153DA54EC4A2B4285A023F0F06BA7_gshared (RuntimeArray* __this, int32_t ___index0, XmlTagAttribute_t2F0EE4823C3BB8B9ED6844183CA998A44EA1AB59 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32035,6 +33316,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXmlTagAtt
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.Universal.ZBin>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisZBin_t2B4F59EC396F7A7EC8EE6A15C15176B9888125A5_mA2D3DC60FF7B4E003DE9E005067F31DCE69FFC0D_gshared (RuntimeArray* __this, int32_t ___index0, ZBin_t2B4F59EC396F7A7EC8EE6A15C15176B9888125A5 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32045,6 +33328,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisZBin_t2B4
 // System.Void System.Array::InternalArray__Insert<Unity.Mathematics.float3>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_m0C8BF0DC5ACB17E9BBB24184B56BBE668F5DAE6D_gshared (RuntimeArray* __this, int32_t ___index0, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32055,6 +33340,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_Tisfloat3_t4
 // System.Void System.Array::InternalArray__Insert<Unity.Mathematics.float4>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_Tisfloat4_t89D9A294E7A79BD81BFBDD18654508532958555E_m9D0D108D1D9DE1F6FA33F8167B3C31D6F9186E8C_gshared (RuntimeArray* __this, int32_t ___index0, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32065,6 +33352,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_Tisfloat4_t8
 // System.Void System.Array::InternalArray__Insert<UnityEngine.jvalue>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_Tisjvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225_mA438D6AD3645764E3A4E143C4F91013E6B11B764_gshared (RuntimeArray* __this, int32_t ___index0, jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32075,6 +33364,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_Tisjvalue_t1
 // System.Void System.Array::InternalArray__Insert<Unity.Mathematics.uint4>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_Tisuint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9_mAB62509045834A6559F442241BF7E20828D08D7C_gshared (RuntimeArray* __this, int32_t ___index0, uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32085,6 +33376,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_Tisuint4_t6C
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.ARCore.ARCoreFaceSubsystem/FaceRegionWithARCorePose>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisFaceRegionWithARCorePose_tB9B76D03166A36772E2545A2BF0551E85BE30CAA_m87CB1D53B502BFC2DD00450A072C57FBA7EA340D_gshared (RuntimeArray* __this, int32_t ___index0, FaceRegionWithARCorePose_tB9B76D03166A36772E2545A2BF0551E85BE30CAA ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32095,6 +33388,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisFaceRegio
 // System.Void System.Array::InternalArray__Insert<Vuforia.Internal.ARFoundation.ARFoundationAnchorManager/Anchor>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAnchor_t3DA9B0DC41D0E2960E0EBEFA43A6AB410D052845_m83C77671AFCDE021926C8514065542D18DF318C2_gshared (RuntimeArray* __this, int32_t ___index0, Anchor_t3DA9B0DC41D0E2960E0EBEFA43A6AB410D052845 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32105,6 +33400,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAnchor_t3
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.Universal.Internal.AdditionalLightsShadowCasterPass/ShadowResolutionRequest>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisShadowResolutionRequest_tE0E30FA18ACE318D6540C2BA217F4E8B3E6766CA_m5951586DB3C5F17C4D17333B48199B144D62C76E_gshared (RuntimeArray* __this, int32_t ___index0, ShadowResolutionRequest_tE0E30FA18ACE318D6540C2BA217F4E8B3E6766CA ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32115,6 +33412,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisShadowRes
 // System.Void System.Array::InternalArray__Insert<System.ComponentModel.AttributeCollection/AttributeEntry>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAttributeEntry_t646320DFCA1CFF9E19700C8AEBF785FE35BB2A9D_mFEE9301E5A164D187BDF2EC2088BE957071AC265_gshared (RuntimeArray* __this, int32_t ___index0, AttributeEntry_t646320DFCA1CFF9E19700C8AEBF785FE35BB2A9D ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32125,6 +33424,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAttribute
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StyleSheets.BaseStyleMatcher/MatchContext>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisMatchContext_t04110FFA271D89A23BC1918BE657634A7DC06253_mE63E59BA0290C2C32839AC8A918916E1C0840CE7_gshared (RuntimeArray* __this, int32_t ___index0, MatchContext_t04110FFA271D89A23BC1918BE657634A7DC06253 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32135,6 +33436,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisMatchCont
 // System.Void System.Array::InternalArray__Insert<UnityEngine.BeforeRenderHelper/OrderBlock>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisOrderBlock_t62FD6F6544F34B5298DEF2F77AAE446F269B7837_m69E318B2711B946B3CE94360C864D69FFF7C8B62_gshared (RuntimeArray* __this, int32_t ___index0, OrderBlock_t62FD6F6544F34B5298DEF2F77AAE446F269B7837 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32145,6 +33448,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisOrderBloc
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.UIR.BitmapAllocator32/Page>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPage_t04FE552A388BF55B12C8868E19589136957E00A5_m7889783C798A054D41EE5EE5DC72D79611246C72_gshared (RuntimeArray* __this, int32_t ___index0, Page_t04FE552A388BF55B12C8868E19589136957E00A5 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32155,6 +33460,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPage_t04F
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Camera/RenderRequest>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A_m595F1B8E56C83D82AA7140176577BEAF48E91C73_gshared (RuntimeArray* __this, int32_t ___index0, RenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32165,6 +33472,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRenderReq
 // System.Void System.Array::InternalArray__Insert<Mono.Globalization.Unicode.CodePointIndexer/TableRange>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTableRange_tD242F3D62C818E84B6903C18A6CE33399672B497_m5BCD2ADF351D954C2D4CBCDCDB95E76A5BF65C24_gshared (RuntimeArray* __this, int32_t ___index0, TableRange_tD242F3D62C818E84B6903C18A6CE33399672B497 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32175,6 +33484,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTableRang
 // System.Void System.Array::InternalArray__Insert<Vuforia.ConfigData/CylinderTargetData>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisCylinderTargetData_t44BC2130A9D17AF0DA730F85E07FD43BB6104FE9_m43AE217566E135515C7DA60CD4F86F12F04F44E4_gshared (RuntimeArray* __this, int32_t ___index0, CylinderTargetData_t44BC2130A9D17AF0DA730F85E07FD43BB6104FE9 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32185,6 +33496,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisCylinderT
 // System.Void System.Array::InternalArray__Insert<Vuforia.ConfigData/ImageTargetData>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisImageTargetData_tAC7CDC3C9AFC3FD2AEA91228C1A7E56E3F2BD54B_mBC5B0D27935476AD62C3D65ABBAC8DEAC2BC260D_gshared (RuntimeArray* __this, int32_t ___index0, ImageTargetData_tAC7CDC3C9AFC3FD2AEA91228C1A7E56E3F2BD54B ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32195,6 +33508,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisImageTarg
 // System.Void System.Array::InternalArray__Insert<Vuforia.ConfigData/MultiTargetData>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisMultiTargetData_t06F442BF6288A84E28C091779A69B363A9E58EDD_m4B51E8F5036AA36ADE750518788C36DE281EC8D2_gshared (RuntimeArray* __this, int32_t ___index0, MultiTargetData_t06F442BF6288A84E28C091779A69B363A9E58EDD ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32205,6 +33520,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisMultiTarg
 // System.Void System.Array::InternalArray__Insert<Vuforia.ConfigData/MultiTargetPartData>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisMultiTargetPartData_t0F57F55AEC2B8AAFA77D7FE23052537D3AC2DACB_mC4887B3EAB4F7965AE4DEB15EA927C6AF8A4A9A5_gshared (RuntimeArray* __this, int32_t ___index0, MultiTargetPartData_t0F57F55AEC2B8AAFA77D7FE23052537D3AC2DACB ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32215,6 +33532,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisMultiTarg
 // System.Void System.Array::InternalArray__Insert<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData/Bucket>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisBucket_tD54DB870BCFF42B2F81826B5D585BFFACB9D42FD_m7736857E938A3D94C6ED8FBACCBF19819C9ECCF0_gshared (RuntimeArray* __this, int32_t ___index0, Bucket_tD54DB870BCFF42B2F81826B5D585BFFACB9D42FD ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32225,6 +33544,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisBucket_tD
 // System.Void System.Array::InternalArray__Insert<Vuforia.Newtonsoft.Json.Utilities.ConvertUtils/TypeConvertKey>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTypeConvertKey_t2C27BFF39BA05B5EC16008FFC0B6D79B05AECE97_mEC6BCF2AE2454A4FC1EF098D300FCAA8298A7D15_gshared (RuntimeArray* __this, int32_t ___index0, TypeConvertKey_t2C27BFF39BA05B5EC16008FFC0B6D79B05AECE97 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32235,6 +33556,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTypeConve
 // System.Void System.Array::InternalArray__Insert<System.Net.CookieTokenizer/RecognizedAttribute>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRecognizedAttribute_t67AAD871D05C66CFF976B98E4492B979993FB7D3_m726C13E5ACF22A70870DB1189D01FDDD0EE0C7C0_gshared (RuntimeArray* __this, int32_t ___index0, RecognizedAttribute_t67AAD871D05C66CFF976B98E4492B979993FB7D3 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32245,6 +33568,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRecognize
 // System.Void System.Array::InternalArray__Insert<System.Data.DataError/ColumnError>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_m64FA62E0B2D78C7A525CA8F5858A7FA2A428E217_gshared (RuntimeArray* __this, int32_t ___index0, ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32255,6 +33580,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisColumnErr
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.Universal.DebugDisplaySettingsMaterial/AlbedoDebugValidationPresetData>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAlbedoDebugValidationPresetData_tCCFD994474750370F3F5AAEE6312FDF5F06C106B_mE5B8D435C12149F5449FC3A0D684163E3B4D9960_gshared (RuntimeArray* __this, int32_t ___index0, AlbedoDebugValidationPresetData_tCCFD994474750370F3F5AAEE6312FDF5F06C106B ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32265,6 +33592,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAlbedoDeb
 // System.Void System.Array::InternalArray__Insert<Vuforia.Newtonsoft.Json.Serialization.DefaultSerializationBinder/TypeNameKey>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTypeNameKey_t78E5EF22DCB1F7E0AD6ABFA394C44CB8E7B5D1D1_mD07D4F8EDACC4CD951151B0B42A3A8B1B7A91009_gshared (RuntimeArray* __this, int32_t ___index0, TypeNameKey_t78E5EF22DCB1F7E0AD6ABFA394C44CB8E7B5D1D1 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32275,6 +33604,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTypeNameK
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.Universal.Internal.DeferredLights/DrawCall>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDrawCall_t704B8D7A804DDC8CD64E065EC39E89AD61AD405B_mDAD0041E1E214A5BA1CCDAF260CA3769E1965BA6_gshared (RuntimeArray* __this, int32_t ___index0, DrawCall_t704B8D7A804DDC8CD64E065EC39E89AD61AD405B ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32285,6 +33616,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDrawCall_
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.Universal.DeferredShaderData/ComputeBufferInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisComputeBufferInfo_t80547B512CE5E2A035DE3413E5DFFDD2BAE5BFE8_m4FDB63D4B246FD92CC425EAC6E4559096559B3EA_gshared (RuntimeArray* __this, int32_t ___index0, ComputeBufferInfo_t80547B512CE5E2A035DE3413E5DFFDD2BAE5BFE8 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32295,6 +33628,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisComputeBu
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.Universal.Internal.DeferredTiler/PrePunctualLight>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPrePunctualLight_tB2AE96558E3D58EFE8EB29BE572FB53CC4202ACE_mE76BBFD34ABB280BAF42ED9A792B78AE2E22FDE4_gshared (RuntimeArray* __this, int32_t ___index0, PrePunctualLight_tB2AE96558E3D58EFE8EB29BE572FB53CC4202ACE ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32305,6 +33640,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPrePunctu
 // System.Void System.Array::InternalArray__Insert<UnityEngine.ResourceManagement.Util.DelayedActionManager/DelegateInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDelegateInfo_t718C124E89FB2703D642911A3CEC87D645D62232_mEF41D4213B3DFED26AF60F92A9414CFD21E197B2_gshared (RuntimeArray* __this, int32_t ___index0, DelegateInfo_t718C124E89FB2703D642911A3CEC87D645D62232 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32315,6 +33652,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDelegateI
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.EventDispatcher/DispatchContext>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDispatchContext_tFA37790A5FF30508B0146B79E4FF1880EB82E455_m42E3F0859476BAF5064C6C4E9032893F64816608_gshared (RuntimeArray* __this, int32_t ___index0, DispatchContext_tFA37790A5FF30508B0146B79E4FF1880EB82E455 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32325,6 +33664,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDispatchC
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.EventDispatcher/EventRecord>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEventRecord_tEC2901C48A23F5AFE20A9E8D4F05F3799EA62BF2_m772FDBB04082845CF5499EFF702701FAB7E54DAC_gshared (RuntimeArray* __this, int32_t ___index0, EventRecord_tEC2901C48A23F5AFE20A9E8D4F05F3799EA62BF2 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32335,6 +33676,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEventReco
 // System.Void System.Array::InternalArray__Insert<System.Data.ExpressionParser/ReservedWords>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisReservedWords_t2834E11516C795E0AD880A651793517590DFCF87_mD62AD03F48A7FF28B864A79C4D7D58475C4E875B_gshared (RuntimeArray* __this, int32_t ___index0, ReservedWords_t2834E11516C795E0AD880A651793517590DFCF87 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32345,6 +33688,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisReservedW
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.FocusController/FocusedElement>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisFocusedElement_t1EE083A1C5276213C533A38C6B5DC02E9DE5CBEF_m451C3004E544C9B5079B9B4A7A84640EDB7CAA62_gshared (RuntimeArray* __this, int32_t ___index0, FocusedElement_t1EE083A1C5276213C533A38C6B5DC02E9DE5CBEF ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32355,6 +33700,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisFocusedEl
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.HID.HID/HIDCollectionDescriptor>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisHIDCollectionDescriptor_t9235094BD1880EA02E4E07F9C02AC98088EFB9F7_mD2EA4E694340A83E2E15ED39D14ADE858FAB53BF_gshared (RuntimeArray* __this, int32_t ___index0, HIDCollectionDescriptor_t9235094BD1880EA02E4E07F9C02AC98088EFB9F7 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32365,6 +33712,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisHIDCollec
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.HID.HID/HIDElementDescriptor>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisHIDElementDescriptor_t18CA9618F730F541BA1C873745A1AE71823D4CED_m6A503BB7B0105D00F4A7E2D208412C488BC64541_gshared (RuntimeArray* __this, int32_t ___index0, HIDElementDescriptor_t18CA9618F730F541BA1C873745A1AE71823D4CED ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32375,6 +33724,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisHIDElemen
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.HID.HIDParser/HIDReportData>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisHIDReportData_t2F0D5DFC9087B851FA3288EFBB6FF4EAA863BB4F_m81BB79D590AC19878D5EA589952AAE398BBF06A2_gshared (RuntimeArray* __this, int32_t ___index0, HIDReportData_t2F0D5DFC9087B851FA3288EFBB6FF4EAA863BB4F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32385,6 +33736,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisHIDReport
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.HID.HIDSupport/HIDPageUsage>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisHIDPageUsage_t13808EE79B93302D9F7E841A0DEEAA6671BA591F_m81B311963C7A9139DD0542A310A038B313866F7E_gshared (RuntimeArray* __this, int32_t ___index0, HIDPageUsage_t13808EE79B93302D9F7E841A0DEEAA6671BA591F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32395,6 +33748,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisHIDPageUs
 // System.Void System.Array::InternalArray__Insert<System.Collections.Hashtable/bucket>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_Tisbucket_t3217998B0CD54EA2DEDD93DEF8556E72602C7D4E_mF8C7072D49C106BA73C1C457C252EAC8B44D4CC1_gshared (RuntimeArray* __this, int32_t ___index0, bucket_t3217998B0CD54EA2DEDD93DEF8556E72602C7D4E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32405,6 +33760,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_Tisbucket_t3
 // System.Void System.Array::InternalArray__Insert<System.Globalization.HebrewNumber/HebrewValue>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisHebrewValue_tC21FD2DC21D49A9CC5EBCB7895A9431A5DF0801C_m5BE2EC6A90BCBD8ABCB6BA5FB820898034D9CF22_gshared (RuntimeArray* __this, int32_t ___index0, HebrewValue_tC21FD2DC21D49A9CC5EBCB7895A9431A5DF0801C ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32415,6 +33772,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisHebrewVal
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.InputActionMap/BindingJson>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisBindingJson_tD39890E66B1818DE8FEDA640970E315109723F7A_m128DDFF0AEB4AC2B925A388BBE38C6911E67F33B_gshared (RuntimeArray* __this, int32_t ___index0, BindingJson_tD39890E66B1818DE8FEDA640970E315109723F7A ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32425,6 +33784,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisBindingJs
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.InputActionMap/ReadActionJson>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisReadActionJson_t912C3AB53939E37EA2AAE5AC5E50CABB2CE52A75_m0B93917558C251D29C74B09F1944465E6C175D84_gshared (RuntimeArray* __this, int32_t ___index0, ReadActionJson_t912C3AB53939E37EA2AAE5AC5E50CABB2CE52A75 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32435,6 +33796,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisReadActio
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.InputActionMap/ReadMapJson>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisReadMapJson_t4C2C1BF7E023C8F056170F9BB2E037A0C2BED356_m9957897FBD6152AABED1B517C500FF4CFDCF326D_gshared (RuntimeArray* __this, int32_t ___index0, ReadMapJson_t4C2C1BF7E023C8F056170F9BB2E037A0C2BED356 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32445,6 +33808,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisReadMapJs
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.InputActionMap/WriteActionJson>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisWriteActionJson_t42C7FFE506F2CC1ADC4FFA45CCE53AD6AC00404A_mB1F406AC177A7185236DE4C6985C4914141D00BF_gshared (RuntimeArray* __this, int32_t ___index0, WriteActionJson_t42C7FFE506F2CC1ADC4FFA45CCE53AD6AC00404A ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32455,6 +33820,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisWriteActi
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.InputActionMap/WriteMapJson>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisWriteMapJson_tC52CE27F1307259B5B16A31FA675ACC13305A0A5_mDC04052D2A929A8B724EB04302B0C3C29ECEE514_gshared (RuntimeArray* __this, int32_t ___index0, WriteMapJson_tC52CE27F1307259B5B16A31FA675ACC13305A0A5 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32465,6 +33832,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisWriteMapJ
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.InputActionRebindingExtensions/ParameterOverride>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisParameterOverride_tC0D5877125AE0F07C6A1EF2110FB799B3DCB89BA_m6E9B605D4F0E321DBAF658099009170610EC4FBE_gshared (RuntimeArray* __this, int32_t ___index0, ParameterOverride_tC0D5877125AE0F07C6A1EF2110FB799B3DCB89BA ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32475,6 +33844,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisParameter
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.InputBindingCompositeContext/PartBinding>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPartBinding_tB263B939F5CC92F02FD1C8892A194F9BC8A53D38_m84B67B644751A34A83BCEA060685157433CB50FE_gshared (RuntimeArray* __this, int32_t ___index0, PartBinding_tB263B939F5CC92F02FD1C8892A194F9BC8A53D38 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32485,6 +33856,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPartBindi
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisControlItem_t25B2C46F52E78ADC5F54903F9E769364B02CD4AD_mCFA67F3CDC85D44F8C8FC678F232D20E1749363E_gshared (RuntimeArray* __this, int32_t ___index0, ControlItem_t25B2C46F52E78ADC5F54903F9E769364B02CD4AD ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32495,6 +33868,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisControlIt
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.InputControlScheme/DeviceRequirement>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDeviceRequirement_t80E71C44DF1923C15D3AA025242B7348EBF8B056_m7593A14513DE42260806833A2086A872DB98CCB4_gshared (RuntimeArray* __this, int32_t ___index0, DeviceRequirement_t80E71C44DF1923C15D3AA025242B7348EBF8B056 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32505,6 +33880,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDeviceReq
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.InputControlScheme/SchemeJson>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSchemeJson_t35D7E80205240ADFCEC9BDED04EFD8AC94D18E80_mFD405329F498B03E0C90836871E12C80F9DDA9EF_gshared (RuntimeArray* __this, int32_t ___index0, SchemeJson_t35D7E80205240ADFCEC9BDED04EFD8AC94D18E80 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32515,6 +33892,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSchemeJso
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.InputManager/AvailableDevice>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAvailableDevice_tEA24B4A4D9BF644F85FECF7EEACF2D02369940B6_m09918E6BFD28FD875BCE0F64734D4476C26CA832_gshared (RuntimeArray* __this, int32_t ___index0, AvailableDevice_tEA24B4A4D9BF644F85FECF7EEACF2D02369940B6 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32525,6 +33904,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAvailable
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.InputManager/StateChangeMonitorListener>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStateChangeMonitorListener_t8DDE11DEF769AE92B7A6B6554D41511AA2A7BDDA_mA4FC379DBFE0EA01C8C921E56CCA15F6834C6D50_gshared (RuntimeArray* __this, int32_t ___index0, StateChangeMonitorListener_t8DDE11DEF769AE92B7A6B6554D41511AA2A7BDDA ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32535,6 +33916,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStateChan
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.InputManager/StateChangeMonitorTimeout>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStateChangeMonitorTimeout_t9D00677B36798F8E8A4FA1DC5797CBD5F5C4F1DE_mB93FD91BC2FD4C139D900885B20A1A1B87C5C5A4_gshared (RuntimeArray* __this, int32_t ___index0, StateChangeMonitorTimeout_t9D00677B36798F8E8A4FA1DC5797CBD5F5C4F1DE ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32545,6 +33928,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStateChan
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.InputManager/StateChangeMonitorsForDevice>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStateChangeMonitorsForDevice_t1D72E96B14B577C50ECFE5DB631E9D7EC32CC0C1_mDF01D09E6B05DCD47266E9BA2227986CB073DAC0_gshared (RuntimeArray* __this, int32_t ___index0, StateChangeMonitorsForDevice_t1D72E96B14B577C50ECFE5DB631E9D7EC32CC0C1 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32555,6 +33940,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisStateChan
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.InputRemoting/RemoteInputDevice>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRemoteInputDevice_tF7E8C5EB795DA20F3EABAA259FE5A118C976C5AE_mED59BEBB5692AA279D7F977355C68D3B34C0C027_gshared (RuntimeArray* __this, int32_t ___index0, RemoteInputDevice_tF7E8C5EB795DA20F3EABAA259FE5A118C976C5AE ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32565,6 +33952,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRemoteInp
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.InputRemoting/RemoteSender>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRemoteSender_tDE9BD8E2CF827F718C3C22D9A38F8E84AC188736_mF09CD8976185A5A2021A399BF2FC60E3227ED7B2_gshared (RuntimeArray* __this, int32_t ___index0, RemoteSender_tDE9BD8E2CF827F718C3C22D9A38F8E84AC188736 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32575,6 +33964,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRemoteSen
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.LowLevel.InputStateHistory/Record>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRecord_tF7FF07DC502355356B48CE78337FB16B196E2EE0_mEB0B1E9588A6BE8704ADEECD41952A57ECEB9893_gshared (RuntimeArray* __this, int32_t ___index0, Record_tF7FF07DC502355356B48CE78337FB16B196E2EE0 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32585,6 +33976,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRecord_tF
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.UI.InputSystemUIInputModule/InputActionReferenceState>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInputActionReferenceState_t4704CE84127FDB4DDB6AAD752B3ED2530768C4F9_m3AEFC0E93AB7C468A91DC741D16731CA58BAB6F9_gshared (RuntimeArray* __this, int32_t ___index0, InputActionReferenceState_t4704CE84127FDB4DDB6AAD752B3ED2530768C4F9 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32595,6 +33988,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInputActi
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F_m25834B23C708B81286B8C6C3F0233886D14F8D14_gshared (RuntimeArray* __this, int32_t ___index0, TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32605,6 +34000,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTreeViewI
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisJsonValue_t01DB320267C848E729A400EF2345979978F851D2_mA175A74044A3992580431C6B7A2E674EEF3AC0D0_gshared (RuntimeArray* __this, int32_t ___index0, JsonValue_t01DB320267C848E729A400EF2345979978F851D2 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32615,6 +34012,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisJsonValue
 // System.Void System.Array::InternalArray__Insert<Lean.Touch.LeanSelectableByFinger/SelectedPair>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880_m7B09B1DEE33C6CC718805794B45EA9E9EE5014F5_gshared (RuntimeArray* __this, int32_t ___index0, SelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32625,6 +34024,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSelectedP
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.Universal.LightCookieManager/LightCookieMapping>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLightCookieMapping_t76B317D9FDE96056FA698B46B45D7F0937BD02D2_m65022A51D87E5FAEDE16E99183B734E2437AE806_gshared (RuntimeArray* __this, int32_t ___index0, LightCookieMapping_t76B317D9FDE96056FA698B46B45D7F0937BD02D2 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32635,6 +34036,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLightCook
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.Utilities.MemoryHelpers/BitRegion>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisBitRegion_tFE885CE2CC6C0287CF86BF59672C19D86D8DFC4C_m449036810125B44434F7CB45B414B8D3ED52BF6D_gshared (RuntimeArray* __this, int32_t ___index0, BitRegion_tFE885CE2CC6C0287CF86BF59672C19D86D8DFC4C ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32645,6 +34048,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisBitRegion
 // System.Void System.Array::InternalArray__Insert<UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289_mFCD9AB2F111F6D68C1DAA96C9E58513139FDFAEB_gshared (RuntimeArray* __this, int32_t ___index0, SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32655,6 +34060,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSerialize
 // System.Void System.Array::InternalArray__Insert<PackedPlayModeBuildLogs/RuntimeBuildLog>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRuntimeBuildLog_tC62F0400E684D90B60B597ECD125F3D154A4156E_mF78D778DA12F14FEA4F87E7ADE1024824F1B5ECC_gshared (RuntimeArray* __this, int32_t ___index0, RuntimeBuildLog_tC62F0400E684D90B60B597ECD125F3D154A4156E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32665,6 +34072,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRuntimeBu
 // System.Void System.Array::InternalArray__Insert<System.ParameterizedStrings/FormatParam>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisFormatParam_t76A31D70C9964751A9AAFD4CE6951437E6C1CD8E_mA279AC350E9576B6F989FCB7F190037A195FF414_gshared (RuntimeArray* __this, int32_t ___index0, FormatParam_t76A31D70C9964751A9AAFD4CE6951437E6C1CD8E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32675,6 +34084,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisFormatPar
 // System.Void System.Array::InternalArray__Insert<UnityEngine.ParticleSystem/Particle>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisParticle_tF16C89682A98AB276CCBE4DA0A6E82F98500F79D_m19BDB7C0C2B78AFE67C670A06E6FFF6941E19B02_gshared (RuntimeArray* __this, int32_t ___index0, Particle_tF16C89682A98AB276CCBE4DA0A6E82F98500F79D ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32685,6 +34096,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisParticle_
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.PointerDeviceState/PointerLocation>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPointerLocation_t4E582463D283A22822997C2841D5E1A30D16FCF6_mC888FA58918FDCDEE69E920C9D326FFECC628D94_gshared (RuntimeArray* __this, int32_t ___index0, PointerLocation_t4E582463D283A22822997C2841D5E1A30D16FCF6 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32695,6 +34108,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPointerLo
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Random/State>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisState_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1_mDEFAD9A0EAF025A61D68D19BA285D0B144268477_gshared (RuntimeArray* __this, int32_t ___index0, State_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32705,6 +34120,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisState_tA3
 // System.Void System.Array::InternalArray__Insert<System.Text.RegularExpressions.Regex/CachedCodeEntryKey>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisCachedCodeEntryKey_t8A54BDD6E52145D17DB1A2EB0CE0B4D4CB112F31_mCFCBF5897E0F2D358761FF449ABE519392E3869E_gshared (RuntimeArray* __this, int32_t ___index0, CachedCodeEntryKey_t8A54BDD6E52145D17DB1A2EB0CE0B4D4CB112F31 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32715,6 +34132,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisCachedCod
 // System.Void System.Array::InternalArray__Insert<System.Text.RegularExpressions.RegexCharClass/LowerCaseMapping>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLowerCaseMapping_t3E26F9E4ED2CCDA7404B4E4C123B0175FF5F8FF1_m5FF1D29A8DA4E4687D076F392C639F91A776ACB4_gshared (RuntimeArray* __this, int32_t ___index0, LowerCaseMapping_t3E26F9E4ED2CCDA7404B4E4C123B0175FF5F8FF1 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32725,6 +34144,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLowerCase
 // System.Void System.Array::InternalArray__Insert<System.Text.RegularExpressions.RegexCharClass/SingleRange>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSingleRange_tB50C1C2B62BDC445BDBA41FD3CDC77A45A211BBC_m7C447C66B7FD385EC320B5037D6A153931222056_gshared (RuntimeArray* __this, int32_t ___index0, SingleRange_tB50C1C2B62BDC445BDBA41FD3CDC77A45A211BBC ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32735,6 +34156,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSingleRan
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.UIR.RenderChain/RenderNodeData>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_mC9D4E0BE8B079D0C724E8302DC3CE709002ABC15_gshared (RuntimeArray* __this, int32_t ___index0, RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32745,6 +34168,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRenderNod
 // System.Void System.Array::InternalArray__Insert<UnityEngine.ResourceManagement.ResourceManager/DeferredCallbackRegisterRequest>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDeferredCallbackRegisterRequest_tA5BE4066185FD0EB6B33A28B02B58660CE4A22AD_m0284316720C045C9B01762938B85E7971E273B1A_gshared (RuntimeArray* __this, int32_t ___index0, DeferredCallbackRegisterRequest_tA5BE4066185FD0EB6B33A28B02B58660CE4A22AD ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32755,6 +34180,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDeferredC
 // System.Void System.Array::InternalArray__Insert<UnityEngine.SendMouseEvents/HitInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisHitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_mDD04B209F2E394C4386E19E32DE21E2F9EFD1071_gshared (RuntimeArray* __this, int32_t ___index0, HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32765,6 +34192,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisHitInfo_t
 // System.Void System.Array::InternalArray__Insert<System.Xml.Schema.SequenceNode/SequenceConstructPosContext>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSequenceConstructPosContext_tDEC4FB1B8F19EFD1AC27C150D561C2D4F6090BA7_m0F0537800C29A58A81EF5387A25CDEB6A0B195B4_gshared (RuntimeArray* __this, int32_t ___index0, SequenceConstructPosContext_tDEC4FB1B8F19EFD1AC27C150D561C2D4F6090BA7 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32775,6 +34204,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSequenceC
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.Universal.ShaderInput/LightData>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLightData_tAC4023737E9903DE3F96B993AA323E062ABCB9ED_mC363DE14712C6D9D8DF0744EAF6F73D9FF024535_gshared (RuntimeArray* __this, int32_t ___index0, LightData_tAC4023737E9903DE3F96B993AA323E062ABCB9ED ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32785,6 +34216,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLightData
 // System.Void System.Array::InternalArray__Insert<System.Net.Sockets.Socket/WSABUF>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisWSABUF_tCBB60A3DE1FB95395F72DA6C6F9D33FE3C40140B_mD2010E93C8D73C181AFB10F4E921142FD3676FED_gshared (RuntimeArray* __this, int32_t ___index0, WSABUF_tCBB60A3DE1FB95395F72DA6C6F9D33FE3C40140B ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32795,6 +34228,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisWSABUF_tC
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StyleComplexSelector/PseudoStateData>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPseudoStateData_tE5B3EBF682E8DE88E9325F44841D5B95FEB6F3A8_m14C08D3E4DD0F05B1A70CA37AE0F71CE07D04AB9_gshared (RuntimeArray* __this, int32_t ___index0, PseudoStateData_tE5B3EBF682E8DE88E9325F44841D5B95FEB6F3A8 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32805,6 +34240,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPseudoSta
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_m197FAB645A2FC21C06B011475004C4C9E395298F_gshared (RuntimeArray* __this, int32_t ___index0, ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32815,6 +34252,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisElementPr
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StyleSheet/ImportStruct>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisImportStruct_t8CE0AC0405305E6E27224A07CF153167E99C98B1_mB5FAB3F693542D30D1B576D74C75870703E46B4C_gshared (RuntimeArray* __this, int32_t ___index0, ImportStruct_t8CE0AC0405305E6E27224A07CF153167E99C98B1 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32825,6 +34264,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisImportStr
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StyleSheets.StyleSheetCache/SheetHandleKey>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSheetHandleKey_tD6F2FE5B26CB5B86F18F74C8D47B5FA63D77B574_mDD969C7B60F96E326BE1CABF4957208EB9C98E12_gshared (RuntimeArray* __this, int32_t ___index0, SheetHandleKey_tD6F2FE5B26CB5B86F18F74C8D47B5FA63D77B574 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32835,6 +34276,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSheetHand
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.StyleVariableResolver/ResolveContext>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisResolveContext_tEF37DBA22D641E4FE1568C5EBE1605A98D86C992_m1F1614A2C09DAAD139F562547C9149F7D16526D6_gshared (RuntimeArray* __this, int32_t ___index0, ResolveContext_tEF37DBA22D641E4FE1568C5EBE1605A98D86C992 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32845,6 +34288,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisResolveCo
 // System.Void System.Array::InternalArray__Insert<TMPro.TMP_Text/UnicodeChar>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUnicodeChar_tB86B7DE9203E1D985B08268AF1964DECB8A5F722_mC97A7FC781740CEDD47A4D5C3122148B2BD8B9E3_gshared (RuntimeArray* __this, int32_t ___index0, UnicodeChar_tB86B7DE9203E1D985B08268AF1964DECB8A5F722 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32855,6 +34300,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUnicodeCh
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.TemplateAsset/AttributeOverride>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAttributeOverride_t58F1DF22E69714D48ECBEEAD266D443A858BADEF_mB4192C519563A1DB4A0F135A22DC0C583FF5FC8B_gshared (RuntimeArray* __this, int32_t ___index0, AttributeOverride_t58F1DF22E69714D48ECBEEAD266D443A858BADEF ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32865,6 +34312,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAttribute
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UI.Extensions.TextPic/IconName>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisIconName_tBCA4C696FFEC8647D761120E0B5E5AF85E4ECB24_m6320A16988DD621AE978021CFF5A4DBE629F89C1_gshared (RuntimeArray* __this, int32_t ___index0, IconName_tBCA4C696FFEC8647D761120E0B5E5AF85E4ECB24 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32875,6 +34324,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisIconName_
 // System.Void System.Array::InternalArray__Insert<UnityEngine.TextCore.Text.TextResourceManager/FontAssetRef>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisFontAssetRef_t7B8E634754BC5683F1E6601D7CD0061285A28FF3_m1D2634D06607E6D7466B1A480A17C17BA05FE0DD_gshared (RuntimeArray* __this, int32_t ___index0, FontAssetRef_t7B8E634754BC5683F1E6601D7CD0061285A28FF3 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32885,6 +34336,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisFontAsset
 // System.Void System.Array::InternalArray__Insert<UnityEngine.TextCore.Text.TextSettings/FontReferenceMap>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisFontReferenceMap_t1C0CECF3F0F650BE4A881A50A25EFB26965E7831_mDD527C69D3E8C5B4C0984DBABC278C2418DBE3CA_gshared (RuntimeArray* __this, int32_t ___index0, FontReferenceMap_t1C0CECF3F0F650BE4A881A50A25EFB26965E7831 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32895,6 +34348,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisFontRefer
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.UIR.TextureBlitter/BlitInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisBlitInfo_t6D4C0580BBEF65F5EAD39FB6DBC85F360CF6A357_m1C525FA0ACB34FAB14D6D268F90497125DB0B440_gshared (RuntimeArray* __this, int32_t ___index0, BlitInfo_t6D4C0580BBEF65F5EAD39FB6DBC85F360CF6A357 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32905,6 +34360,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisBlitInfo_
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.TextureRegistry/TextureInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTextureInfo_t581C305A0444F786E0E7405054714685BE3A5A5B_mABA1EE71C425D0F8D09C4B7C59C6D362B8BAFB0B_gshared (RuntimeArray* __this, int32_t ___index0, TextureInfo_t581C305A0444F786E0E7405054714685BE3A5A5B ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32915,6 +34372,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTextureIn
 // System.Void System.Array::InternalArray__Insert<System.TimeZoneInfo/TZifType>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTZifType_t3ACBE0BB45077721E9D8DAF1414503F7990621D4_m825F8B3F0E87A65FC9DDAF11A30A45966599AF79_gshared (RuntimeArray* __this, int32_t ___index0, TZifType_t3ACBE0BB45077721E9D8DAF1414503F7990621D4 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32925,6 +34384,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTZifType_
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.UI.TrackedDeviceRaycaster/RaycastHitData>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRaycastHitData_t5EAB266730389AB27715962670C2512800451841_mE098908C32A8A5D3EB6DA97771078B0CB3DF308F_gshared (RuntimeArray* __this, int32_t ___index0, RaycastHitData_t5EAB266730389AB27715962670C2512800451841 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32935,6 +34396,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisRaycastHi
 // System.Void System.Array::InternalArray__Insert<UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription/PoseData>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPoseData_t67ECD1DA6257206C1935CCD030E1E1EF57E1443A_m6B4342893042CB8483F94C7BFE72E9EA33B5A164_gshared (RuntimeArray* __this, int32_t ___index0, PoseData_t67ECD1DA6257206C1935CCD030E1E1EF57E1443A ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32945,6 +34408,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPoseData_
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.TreeView/TreeViewItemWrapper>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTreeViewItemWrapper_t8130863A8182C5BF6925A88AF5E77192A4D519CE_mDAD17631C2A13E1E8D54F6B278105615BC836DE4_gshared (RuntimeArray* __this, int32_t ___index0, TreeViewItemWrapper_t8130863A8182C5BF6925A88AF5E77192A4D519CE ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32955,6 +34420,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTreeViewI
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.UIR.Implementation.UIRStylePainter/Entry>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tB8765CA56422E2C92887314844384843688DCB9F_m7A6BA8DBE185E244A16803D15B8939F60FA05041_gshared (RuntimeArray* __this, int32_t ___index0, Entry_tB8765CA56422E2C92887314844384843688DCB9F ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32965,6 +34432,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisEntry_tB8
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.UIR.UIRenderDevice/AllocToFree>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAllocToFree_tC46982856CB8220A92BB724F5FB75CCCD09C67D8_m25D3661E6B43FC96861944901CC9BEF93D90231A_gshared (RuntimeArray* __this, int32_t ___index0, AllocToFree_tC46982856CB8220A92BB724F5FB75CCCD09C67D8 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32975,6 +34444,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAllocToFr
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.UIR.UIRenderDevice/AllocToUpdate>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAllocToUpdate_tD0221D0ABC5378DDE5AAB1DAA219C337E562B512_mB5720E7BBC60EFF178F389BE98A84994DF71F2D2_gshared (RuntimeArray* __this, int32_t ___index0, AllocToUpdate_tD0221D0ABC5378DDE5AAB1DAA219C337E562B512 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32985,6 +34456,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAllocToUp
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.UIR.UIRenderDevice/DeviceToFree>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDeviceToFree_tF2AD2D5F5C1936F25516AEF0736CF4BCA1B3052B_mC17D796F72C8018F7838D62538D6F3F15652D18C_gshared (RuntimeArray* __this, int32_t ___index0, DeviceToFree_tF2AD2D5F5C1936F25516AEF0736CF4BCA1B3052B ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -32995,6 +34468,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDeviceToF
 // System.Void System.Array::InternalArray__Insert<System.Globalization.UmAlQuraCalendar/DateMapping>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDateMapping_tD71D0AF5C7C6CB4F9517C292B1B61D7AF7CFCCFD_m5A909636DE9AFB0B428A88D51E6D7BC1757A4D0C_gshared (RuntimeArray* __this, int32_t ___index0, DateMapping_tD71D0AF5C7C6CB4F9517C292B1B61D7AF7CFCCFD ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33005,6 +34480,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDateMappi
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UnitySynchronizationContext/WorkRequest>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisWorkRequest_t8AF542F2E248D9234341817CDB5F76C27D348B44_m69C3D07ED8B065B5DE91A96767C5F8E01637685A_gshared (RuntimeArray* __this, int32_t ___index0, WorkRequest_t8AF542F2E248D9234341817CDB5F76C27D348B44 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33015,6 +34492,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisWorkReque
 // System.Void System.Array::InternalArray__Insert<TMPro.Examples.VertexJitter/VertexAnim>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVertexAnim_tFF5399F548EE5426E46DEB662F561DDE129E20D7_m51CF7D651908D5129C459FB609687C53164F16ED_gshared (RuntimeArray* __this, int32_t ___index0, VertexAnim_tFF5399F548EE5426E46DEB662F561DDE129E20D7 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33025,6 +34504,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVertexAni
 // System.Void System.Array::InternalArray__Insert<Vuforia.Internal.Rendering.VideoBackgroundTextureUpdater/TextureData>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTextureData_tE94917EF09AA9845384F5F7D4E3AA38747674119_mD0D7291F9040D8F12EAA1CF407E1370D143A6CF6_gshared (RuntimeArray* __this, int32_t ___index0, TextureData_tE94917EF09AA9845384F5F7D4E3AA38747674119 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33035,6 +34516,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTextureDa
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.VisualTreeAsset/SlotDefinition>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlotDefinition_t2E39E965BBE5A336DD1B93A115DD01044D1A66F8_m150184D6D656EF70A6E03552D81613C758C260FB_gshared (RuntimeArray* __this, int32_t ___index0, SlotDefinition_t2E39E965BBE5A336DD1B93A115DD01044D1A66F8 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33045,6 +34528,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlotDefin
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.VisualTreeAsset/SlotUsageEntry>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlotUsageEntry_t73A628038C799E4FD44436E093EC19D2B9EA1B76_m3161987E0D7390D54189FAF1DC94A3288FDD6ECE_gshared (RuntimeArray* __this, int32_t ___index0, SlotUsageEntry_t73A628038C799E4FD44436E093EC19D2B9EA1B76 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33055,6 +34540,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisSlotUsage
 // System.Void System.Array::InternalArray__Insert<UnityEngine.UIElements.VisualTreeAsset/UsingEntry>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUsingEntry_t0454AD34026FDFD1733CE07BD4AE807B0FBCE484_m1AD6FB722AE37E194DD30EC2B87C45AE105F80B4_gshared (RuntimeArray* __this, int32_t ___index0, UsingEntry_t0454AD34026FDFD1733CE07BD4AE807B0FBCE484 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33065,6 +34552,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisUsingEntr
 // System.Void System.Array::InternalArray__Insert<Vuforia.WebCamProfile/ProfileData>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisProfileData_tA2B9E7119CD0F5AE7EDAF3E1141BBA4905FDDAC6_m8C193159FFEA1D68D37151403E47629360B248C6_gshared (RuntimeArray* __this, int32_t ___index0, ProfileData_tA2B9E7119CD0F5AE7EDAF3E1141BBA4905FDDAC6 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33075,6 +34564,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisProfileDa
 // System.Void System.Array::InternalArray__Insert<System.Xml.XmlEventCache/XmlEvent>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXmlEvent_t71D4A86D45FCBC2D95E47F0EC32CEC49FEA1E0B2_m787F316F1F06DE0A64E1033A6DB808E7BCC78047_gshared (RuntimeArray* __this, int32_t ___index0, XmlEvent_t71D4A86D45FCBC2D95E47F0EC32CEC49FEA1E0B2 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33085,6 +34576,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXmlEvent_
 // System.Void System.Array::InternalArray__Insert<System.Xml.XmlNamespaceManager/NamespaceDeclaration>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNamespaceDeclaration_tF445C0E2CA7FE3EF3357E2FC0D282A04136174F4_mF90948AC2B63300E2E516B8EA48B7658EA167C26_gshared (RuntimeArray* __this, int32_t ___index0, NamespaceDeclaration_tF445C0E2CA7FE3EF3357E2FC0D282A04136174F4 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33095,6 +34588,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNamespace
 // System.Void System.Array::InternalArray__Insert<System.Xml.XmlNodeReaderNavigator/VirtualAttribute>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVirtualAttribute_tA52A03466D0572EE2CA47743C4A08EEE73A66D49_mB552A981B0BFC72B984933E8B7263F010EDE2D7A_gshared (RuntimeArray* __this, int32_t ___index0, VirtualAttribute_tA52A03466D0572EE2CA47743C4A08EEE73A66D49 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33105,6 +34600,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisVirtualAt
 // System.Void System.Array::InternalArray__Insert<System.Xml.Schema.XmlSchemaObjectTable/XmlSchemaObjectEntry>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXmlSchemaObjectEntry_t79D1310E1F5CA860FAD243853E59A3C2ACDB83CD_m60830C7608F2D2BAE661D3D4E58AE7951998E1BB_gshared (RuntimeArray* __this, int32_t ___index0, XmlSchemaObjectEntry_t79D1310E1F5CA860FAD243853E59A3C2ACDB83CD ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33115,6 +34612,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisXmlSchema
 // System.Void System.Array::InternalArray__Insert<System.Xml.XmlSqlBinaryReader/AttrInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAttrInfo_tE531B225E6B37BA755A3F7B0DE8FCC6D3AB453AE_mBF3D5FA65899449090B29851B541A1FB27830C14_gshared (RuntimeArray* __this, int32_t ___index0, AttrInfo_tE531B225E6B37BA755A3F7B0DE8FCC6D3AB453AE ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33125,6 +34624,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAttrInfo_
 // System.Void System.Array::InternalArray__Insert<System.Xml.XmlSqlBinaryReader/ElemInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisElemInfo_t4643E7FF61D3697F995A85EDF42BF479EA30B235_mD2D4E6ABC8BEE969B8A297DF90FB080C6128C2C0_gshared (RuntimeArray* __this, int32_t ___index0, ElemInfo_t4643E7FF61D3697F995A85EDF42BF479EA30B235 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33135,6 +34636,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisElemInfo_
 // System.Void System.Array::InternalArray__Insert<System.Xml.XmlSqlBinaryReader/QName>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisQName_tA3E1CB09850DEF9376C068A29697FEDB0F82C156_mAFF5D86B2EE7ECEDD2CE074220A098794E557E89_gshared (RuntimeArray* __this, int32_t ___index0, QName_tA3E1CB09850DEF9376C068A29697FEDB0F82C156 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33145,6 +34648,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisQName_tA3
 // System.Void System.Array::InternalArray__Insert<System.Xml.XmlTextReaderImpl/ParsingState>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisParsingState_tF0FABA16483FCC2DB710460D11CD79D35C4E2886_m1B30551EC7BBFE1DAA1E69AC8DBA280F1B550076_gshared (RuntimeArray* __this, int32_t ___index0, ParsingState_tF0FABA16483FCC2DB710460D11CD79D35C4E2886 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33155,6 +34660,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisParsingSt
 // System.Void System.Array::InternalArray__Insert<System.Xml.XmlTextWriter/Namespace>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNamespace_t98C96E77A64CE0105E85EEF2416A270C2AFA6853_m832B4D8F26BB62BA728C796E862CEFE842D9C0EF_gshared (RuntimeArray* __this, int32_t ___index0, Namespace_t98C96E77A64CE0105E85EEF2416A270C2AFA6853 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33165,6 +34672,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNamespace
 // System.Void System.Array::InternalArray__Insert<System.Xml.XmlTextWriter/TagInfo>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTagInfo_tDECE4D67D7F52936C9E8F58DE38BE11733108F5C_m19A2B8D0138D6FCD56783517994EE3DD15B8E30B_gshared (RuntimeArray* __this, int32_t ___index0, TagInfo_tDECE4D67D7F52936C9E8F58DE38BE11733108F5C ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33175,6 +34684,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisTagInfo_t
 // System.Void System.Array::InternalArray__Insert<System.Xml.XmlWellFormedWriter/AttrName>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAttrName_t0B37BBC030EEC83B4B00DFCDD9C1DB43A31675F2_m7F352BFFBF0A872688C006B882630F08E6377734_gshared (RuntimeArray* __this, int32_t ___index0, AttrName_t0B37BBC030EEC83B4B00DFCDD9C1DB43A31675F2 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33185,6 +34696,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAttrName_
 // System.Void System.Array::InternalArray__Insert<System.Xml.XmlWellFormedWriter/ElementScope>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisElementScope_t7BA86196EE58918EA5CA952D37FE3C7B19A33592_m058C7CC3C4E40C434DF8962ECE76E0C2A126C2DD_gshared (RuntimeArray* __this, int32_t ___index0, ElementScope_t7BA86196EE58918EA5CA952D37FE3C7B19A33592 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33195,6 +34708,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisElementSc
 // System.Void System.Array::InternalArray__Insert<System.Xml.XmlWellFormedWriter/Namespace>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNamespace_tC7546D20184E40E3566060C1246B764E4DBA55A0_mBB61AE49E455654FDB3D7C46C86B64FCC06FB002_gshared (RuntimeArray* __this, int32_t ___index0, Namespace_tC7546D20184E40E3566060C1246B764E4DBA55A0 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33205,6 +34720,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisNamespace
 // System.Void System.Array::InternalArray__Insert<System.Dynamic.BindingRestrictions/TestBuilder/AndNode>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAndNode_tD84E0D831AD339630C4170F558969F4ACAD73653_m87BAE2ED4618B9860D854871F14B0D6B97ED7A59_gshared (RuntimeArray* __this, int32_t ___index0, AndNode_tD84E0D831AD339630C4170F558969F4ACAD73653 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33215,6 +34732,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisAndNode_t
 // System.Void System.Array::InternalArray__Insert<UnityEngine.Rendering.DebugUI/Foldout/ContextMenuItem>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisContextMenuItem_t0D29D1ECB0C1F769EFC9ACA2D0AE6B1A8A4736A9_m67D34F1929912D898455B17C5402E3CBCAE8FF30_gshared (RuntimeArray* __this, int32_t ___index0, ContextMenuItem_t0D29D1ECB0C1F769EFC9ACA2D0AE6B1A8A4736A9 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33225,6 +34744,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisContextMe
 // System.Void System.Array::InternalArray__Insert<System.Decimal/DecCalc/PowerOvfl>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPowerOvfl_t00CAEB1B84D897513AD903AC683159A172CA9304_m8AC6812416D850D5F5C6F44D09C4443AB5A61051_gshared (RuntimeArray* __this, int32_t ___index0, PowerOvfl_t00CAEB1B84D897513AD903AC683159A172CA9304 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33235,6 +34756,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPowerOvfl
 // System.Void System.Array::InternalArray__Insert<System.Xml.Schema.FacetsChecker/FacetsCompiler/Map>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisMap_t130828B38036909DD82C3A4CCCB9AA0130113AA7_m9A36551523E5A19DB1CEE405C6359308013B50EB_gshared (RuntimeArray* __this, int32_t ___index0, Map_t130828B38036909DD82C3A4CCCB9AA0130113AA7 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33245,6 +34768,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisMap_t1308
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.Layouts.InputControlLayout/Collection/LayoutMatcher>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLayoutMatcher_t0D8F5E32A7C82BC292EBA0FAA3EB2D9F1F72A0A6_m6D3055A49A14D99499CE5C18A2910E86D008A06B_gshared (RuntimeArray* __this, int32_t ___index0, LayoutMatcher_t0D8F5E32A7C82BC292EBA0FAA3EB2D9F1F72A0A6 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33255,6 +34780,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisLayoutMat
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.Layouts.InputControlLayout/Collection/PrecompiledLayout>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPrecompiledLayout_tEFFE070A47145E8B18D5003F777983D278034A63_m551E3AE2BC6B7B01A2EE8A25B5DF8DC6887867ED_gshared (RuntimeArray* __this, int32_t ___index0, PrecompiledLayout_tEFFE070A47145E8B18D5003F777983D278034A63 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33265,6 +34792,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisPrecompil
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.InputControlScheme/SchemeJson/DeviceJson>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDeviceJson_t62221814EF0AB9D5DB20A870D7C15C45A8AC06F2_mBF946524E99118A25AD8D7EA3221DB4E9A760628_gshared (RuntimeArray* __this, int32_t ___index0, DeviceJson_t62221814EF0AB9D5DB20A870D7C15C45A8AC06F2 ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33275,6 +34804,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisDeviceJso
 // System.Void System.Array::InternalArray__Insert<UnityEngine.InputSystem.Layouts.InputDeviceMatcher/MatcherJson/Capability>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisCapability_t1A686C4F719B0408BCBB428021405F440196E16E_m7B85280CE7082D5DA37F91AC1CD75FFD2AF5315E_gshared (RuntimeArray* __this, int32_t ___index0, Capability_t1A686C4F719B0408BCBB428021405F440196E16E ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33285,6 +34816,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisCapabilit
 // System.Void System.Array::InternalArray__Insert<System.Linq.Expressions.Interpreter.InstructionList/DebugView/InstructionView>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__Insert_TisInstructionView_tA381D8A27DEDDEE43C71B3BB3A2FADC0CD059A3D_m5FCE46C47B303577870CB3FD9B1A18234893112C_gshared (RuntimeArray* __this, int32_t ___index0, InstructionView_tA381D8A27DEDDEE43C71B3BB3A2FADC0CD059A3D ___item1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -33297,6 +34830,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArraySegment_1_t3DC888623B720A071D69279F1FCB9
 {
 	ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33326,6 +34861,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncOperationHandle_1_tDD1D892D87C7A0C3189DD
 {
 	AsyncOperationHandle_1_tDD1D892D87C7A0C3189DD56DDB997AB1A2089A74 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33355,6 +34892,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EmptyData_t3ADF94D95DAB6657C31C89FBD83359BCC8
 {
 	EmptyData_t3ADF94D95DAB6657C31C89FBD83359BCC8B247EC V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33384,6 +34923,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EmptyData_t48DAAB7E0603E64673C08055B3C11B08F9
 {
 	EmptyData_t48DAAB7E0603E64673C08055B3C11B08F9AB5A83 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33413,6 +34954,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EmptyData_tF289285BF36F0D81770920F887D038CEE0
 {
 	EmptyData_tF289285BF36F0D81770920F887D038CEE0FDE022 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33442,6 +34985,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EmptyData_t02ECBE01728C0979248845C107F3FCE871
 {
 	EmptyData_t02ECBE01728C0979248845C107F3FCE871DDC9E3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33471,6 +35016,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EmptyData_tB976A2FB38B5384D01F0E788A4C35E4332
 {
 	EmptyData_tB976A2FB38B5384D01F0E788A4C35E43321C374C V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33500,6 +35047,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EmptyData_tF13A138DEF2627A8D32807954AEF9E3061
 {
 	EmptyData_tF13A138DEF2627A8D32807954AEF9E30615B8182 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33529,6 +35078,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EmptyData_t4FC1686BC526371087AD5A5B28DBE30D1E
 {
 	EmptyData_t4FC1686BC526371087AD5A5B28DBE30D1ECDD533 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33558,6 +35109,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EmptyData_t4A4F82A772FE766AA090A0628F398EA4D5
 {
 	EmptyData_t4A4F82A772FE766AA090A0628F398EA4D55646F0 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33587,6 +35140,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EmptyData_t43DE49ADBBE9CFA603DCA7C5CDC998DE6D
 {
 	EmptyData_t43DE49ADBBE9CFA603DCA7C5CDC998DE6DC976A1 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33616,6 +35171,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EmptyData_tA8769B9E6E130745DA8CFF6D496ED462ED
 {
 	EmptyData_tA8769B9E6E130745DA8CFF6D496ED462ED74B44F V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33645,6 +35202,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EmptyData_t2CB75995D335E22F6BF31D1CB979DB1067
 {
 	EmptyData_t2CB75995D335E22F6BF31D1CB979DB1067C5025E V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33674,6 +35233,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EmptyData_tED1BB22234DD4A2FBA90416759D0255353
 {
 	EmptyData_tED1BB22234DD4A2FBA90416759D025535300EDCB V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33703,6 +35264,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t6E72C722C46949F140550D563C1F41E3047525
 {
 	Entry_t6E72C722C46949F140550D563C1F41E304752583 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33732,6 +35295,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tEA99553F325828A74A65B889F46BE098360440
 {
 	Entry_tEA99553F325828A74A65B889F46BE09836044044 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33761,6 +35326,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t9E54CCBCBF389A3EB228FFF39B2963CCB66614
 {
 	Entry_t9E54CCBCBF389A3EB228FFF39B2963CCB6661448 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33790,6 +35357,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t4BAC0D992203B05A8D2645406D4CF9E24E0F5B
 {
 	Entry_t4BAC0D992203B05A8D2645406D4CF9E24E0F5BEF V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33819,6 +35388,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t899F478E066573053AECA9BF68F5B4E9D05CD6
 {
 	Entry_t899F478E066573053AECA9BF68F5B4E9D05CD67D V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33848,6 +35419,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t343716AA7796A6C22FFA9AEBC18EF142FCBDB1
 {
 	Entry_t343716AA7796A6C22FFA9AEBC18EF142FCBDB10F V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33877,6 +35450,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t008CACF55D7F47352355FB69BA62E34489CF21
 {
 	Entry_t008CACF55D7F47352355FB69BA62E34489CF2116 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33906,6 +35481,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t740F919D5BA6D1FE201C58777E6EB966B35EE2
 {
 	Entry_t740F919D5BA6D1FE201C58777E6EB966B35EE2EE V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33935,6 +35512,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t5A1DD43C826878A3853C7DF32E971C3D198052
 {
 	Entry_t5A1DD43C826878A3853C7DF32E971C3D19805227 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33964,6 +35543,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tFFBE6CED43071BF3A2C52D1BB70EE6197C7D54
 {
 	Entry_tFFBE6CED43071BF3A2C52D1BB70EE6197C7D5444 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -33993,6 +35574,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tA212E7034D981AC2F7E219C600769EE4859196
 {
 	Entry_tA212E7034D981AC2F7E219C600769EE485919684 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34022,6 +35605,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t56DFE5C32B6C0F59B83A080FD15B9AFB39F271
 {
 	Entry_t56DFE5C32B6C0F59B83A080FD15B9AFB39F27185 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34051,6 +35636,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t4F374F13C9422AE969BA033893F5B076AEE881
 {
 	Entry_t4F374F13C9422AE969BA033893F5B076AEE88131 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34080,6 +35667,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t59E90724C756CA6F3F5F5B2D04D9E6A4FDDFC3
 {
 	Entry_t59E90724C756CA6F3F5F5B2D04D9E6A4FDDFC339 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34109,6 +35698,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t532FECF491646E3372F9D145FEC277E0C5089C
 {
 	Entry_t532FECF491646E3372F9D145FEC277E0C5089CBC V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34138,6 +35729,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tEF6BEA499CCB8C4F2AA974BD354B4E3BCFE5EC
 {
 	Entry_tEF6BEA499CCB8C4F2AA974BD354B4E3BCFE5EC4B V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34167,6 +35760,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t6ED579DFEA7ED1704F2C549D6B01A492B6E4BE
 {
 	Entry_t6ED579DFEA7ED1704F2C549D6B01A492B6E4BEF5 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34196,6 +35791,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t3931D073D20E5270318C5CBBF20CD9B44F0047
 {
 	Entry_t3931D073D20E5270318C5CBBF20CD9B44F0047B5 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34225,6 +35822,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tAB4AC6D6C313741B7F6F6C4694EF22BCDEBF5B
 {
 	Entry_tAB4AC6D6C313741B7F6F6C4694EF22BCDEBF5B20 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34254,6 +35853,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t7B3861A33B85B48715972326859F7104EAEFDF
 {
 	Entry_t7B3861A33B85B48715972326859F7104EAEFDF50 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34283,6 +35884,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t01E46B58E4A1F22397FE59A950E544EFDA00F7
 {
 	Entry_t01E46B58E4A1F22397FE59A950E544EFDA00F748 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34312,6 +35915,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tFF4285DE3B86A2B349258B4BD7E12C0EE4A4B7
 {
 	Entry_tFF4285DE3B86A2B349258B4BD7E12C0EE4A4B74A V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34341,6 +35946,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tA4CE377ED53530282179BE10A55FE3A4E4A5CF
 {
 	Entry_tA4CE377ED53530282179BE10A55FE3A4E4A5CF4E V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34370,6 +35977,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t4D5A107E6414D8B9DE012405A201C46AACFACF
 {
 	Entry_t4D5A107E6414D8B9DE012405A201C46AACFACF98 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34399,6 +36008,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tCAA5E8C25DBDD41FDE687FAC9279F16A616DCE
 {
 	Entry_tCAA5E8C25DBDD41FDE687FAC9279F16A616DCEC6 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34428,6 +36039,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tA76B18EF78BF0132EE1736D5F5B829D890C26E
 {
 	Entry_tA76B18EF78BF0132EE1736D5F5B829D890C26E5C V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34457,6 +36070,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tFFDF932514D611FAE4AB69C8DDC8FA5F889B64
 {
 	Entry_tFFDF932514D611FAE4AB69C8DDC8FA5F889B6438 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34486,6 +36101,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tE8CF104B482ED92A3BF31C2B151BD3FEBFAF2F
 {
 	Entry_tE8CF104B482ED92A3BF31C2B151BD3FEBFAF2F6F V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34515,6 +36132,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t575ADA8FFB2EED66C64622ACC70ED8CF7A732F
 {
 	Entry_t575ADA8FFB2EED66C64622ACC70ED8CF7A732FFA V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34544,6 +36163,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t5DA42CAF95F196F03BDD802C9D4F704954B556
 {
 	Entry_t5DA42CAF95F196F03BDD802C9D4F704954B556AB V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34573,6 +36194,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t8B8123A4CF4482E637F2DD10E1381A07127AC7
 {
 	Entry_t8B8123A4CF4482E637F2DD10E1381A07127AC71E V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34602,6 +36225,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t56E8626AECB5D45050816DA6ED6BBCCD6D029A
 {
 	Entry_t56E8626AECB5D45050816DA6ED6BBCCD6D029A47 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34631,6 +36256,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tF9C4D725857FFCC0AD98E4629FD00A7E064A0C
 {
 	Entry_tF9C4D725857FFCC0AD98E4629FD00A7E064A0C1C V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34660,6 +36287,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tE39771EB73DA3008BB0DF74028FF7285866C18
 {
 	Entry_tE39771EB73DA3008BB0DF74028FF7285866C18C8 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34689,6 +36318,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t3E9BC9EC2D9161E6078E219EF6BEE9162020CD
 {
 	Entry_t3E9BC9EC2D9161E6078E219EF6BEE9162020CD39 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34718,6 +36349,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t1FBA063A7158A877EF3D4306E7BE0559C3A132
 {
 	Entry_t1FBA063A7158A877EF3D4306E7BE0559C3A13202 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34747,6 +36380,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tCCEE77FB83F33718CFB5E786A11E06DC9D5B63
 {
 	Entry_tCCEE77FB83F33718CFB5E786A11E06DC9D5B63CC V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34776,6 +36411,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tC44036EDE3BC084F847AF870E0FA6D39AA7CF4
 {
 	Entry_tC44036EDE3BC084F847AF870E0FA6D39AA7CF48A V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34805,6 +36442,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t6C6FFC8A6877137F14C5BA9B9205BADAE8258F
 {
 	Entry_t6C6FFC8A6877137F14C5BA9B9205BADAE8258F98 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34834,6 +36473,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t8C80D6795974A124B4CD390BBB064C11BAD5D2
 {
 	Entry_t8C80D6795974A124B4CD390BBB064C11BAD5D216 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34863,6 +36504,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tDA878B789C830BB6D853BCCA94EC9A56473F91
 {
 	Entry_tDA878B789C830BB6D853BCCA94EC9A56473F9192 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34892,6 +36535,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t9C565819818CEE927F7310B20154140C74FF05
 {
 	Entry_t9C565819818CEE927F7310B20154140C74FF0587 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34921,6 +36566,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t78A47A3F6CEEC34154BDF4FD6C3969CE5616A1
 {
 	Entry_t78A47A3F6CEEC34154BDF4FD6C3969CE5616A1B1 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34950,6 +36597,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tE4247208050F1CE52403ACCE7C5BFB29A7F983
 {
 	Entry_tE4247208050F1CE52403ACCE7C5BFB29A7F983CF V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -34979,6 +36628,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t71C45DDCCD78FD0E7AF3AF206A8A18DE08416B
 {
 	Entry_t71C45DDCCD78FD0E7AF3AF206A8A18DE08416B9A V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -35008,6 +36659,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tBE79E9CAC9D7DD54B4635CEE784E7DC034A6E9
 {
 	Entry_tBE79E9CAC9D7DD54B4635CEE784E7DC034A6E98B V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -35037,6 +36690,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t24F25ECA3BDA03521151C33B3297BAAE878226
 {
 	Entry_t24F25ECA3BDA03521151C33B3297BAAE878226BF V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -35066,6 +36721,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tD8875C96F18F04DE9948C96AC2CB648E8901D0
 {
 	Entry_tD8875C96F18F04DE9948C96AC2CB648E8901D064 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -35095,6 +36752,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t7570C0657D5A1E8127DA80AE9CF398FAE7F581
 {
 	Entry_t7570C0657D5A1E8127DA80AE9CF398FAE7F58164 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -35124,6 +36783,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t220AA9583FC76C1A60DB0B8C1F33ADB13276D7
 {
 	Entry_t220AA9583FC76C1A60DB0B8C1F33ADB13276D772 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -35153,6 +36814,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tBAEFB89FD352BA2CD9D132E006C00C47400BE5
 {
 	Entry_tBAEFB89FD352BA2CD9D132E006C00C47400BE501 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -35182,6 +36845,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tDF21A2C43AE7F49B112EBF9BFBD462DA12AAD5
 {
 	Entry_tDF21A2C43AE7F49B112EBF9BFBD462DA12AAD529 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -35211,6 +36876,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t58E99ABABD435BCC040760EDD6D161FA4AFAD5
 {
 	Entry_t58E99ABABD435BCC040760EDD6D161FA4AFAD578 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -35240,6 +36907,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t2679F25F22E3E7DB5F988C82C064BA4BE59F56
 {
 	Entry_t2679F25F22E3E7DB5F988C82C064BA4BE59F5677 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -35269,6 +36938,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t1F21171535DEAE77D533CFCFAF0EF8C51862C7
 {
 	Entry_t1F21171535DEAE77D533CFCFAF0EF8C51862C715 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -35298,6 +36969,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_tE850363938764CC80F151D8A949A63B1588A5B
 {
 	Entry_tE850363938764CC80F151D8A949A63B1588A5BF9 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -35327,6 +37000,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t0E2CC75B90BBFC454F3E79503FBD8780C02E77
 {
 	Entry_t0E2CC75B90BBFC454F3E79503FBD8780C02E77F1 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -35356,6 +37031,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Entry_t9E8521226167A335876EC9B6F8E4B192E6F8C9
 {
 	Entry_t9E8521226167A335876EC9B6F8E4B192E6F8C907 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -35385,14 +37062,25 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector4_Equals_mC2596CA0F441
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_Equals_mC2596CA0F441D25DE7A9419BE66A8FA2DA355CB9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
 	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___other0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector4_Equals_mC2596CA0F441D25DE7A9419BE66A8FA2DA355CB9_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9384));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9385));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9386));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9387));
 		RuntimeObject* L_0 = ___other0;
 		V_0 = (bool)((((int32_t)((!(((RuntimeObject*)(RuntimeObject*)((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9388));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -35400,30 +37088,50 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector4_Equals_mC2596CA0F441
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9389));
 		V_1 = (bool)0;
 		goto IL_0024;
 	}
 
 IL_0015:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9390));
 		RuntimeObject* L_2 = ___other0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9391));
 		bool L_3;
 		L_3 = Vector4_Equals_m73FAA65A1A565EE28D6C9385603829894B7D4392_inline(__this, ((*(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*)((Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*)(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*)UnBox(L_2, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_il2cpp_TypeInfo_var)))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9391));
 		V_1 = L_3;
 		goto IL_0024;
 	}
 
 IL_0024:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9392));
 		bool L_4 = V_1;
 		return L_4;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector4_Equals_m73FAA65A1A565EE28D6C9385603829894B7D4392_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___other0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_Equals_m73FAA65A1A565EE28D6C9385603829894B7D4392_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___other0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector4_Equals_m73FAA65A1A565EE28D6C9385603829894B7D4392_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9393));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9394));
 	int32_t G_B5_0 = 0;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9395));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9396));
 		float L_0 = __this->___x_1;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_1 = ___other0;
 		float L_2 = L_1.___x_1;
@@ -35471,6 +37179,7 @@ IL_003c:
 
 IL_003f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9397));
 		bool L_12 = V_0;
 		return L_12;
 	}

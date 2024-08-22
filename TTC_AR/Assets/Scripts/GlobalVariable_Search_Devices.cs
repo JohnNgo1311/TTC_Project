@@ -10,8 +10,8 @@ public class GlobalVariable_Search_Devices : MonoBehaviour
 {
 
     public static List<DeviceModel> all_Device_Models;
-    public static List<DeviceModel> devices_Model_By_Grapper; // just Function and Code
-    public static List<string> devices_Model_For_Filter; // just Function and Code
+    public static List<DeviceModel> devices_Model_By_Grapper = new List<DeviceModel>(); // just Function and Code
+    public static List<string> devices_Model_For_Filter = new List<string>(); // just Function and Code
 
     public static List<string> devicesGrapperA_code = new List<string>(){
            "01TT005",
@@ -58,7 +58,8 @@ public class GlobalVariable_Search_Devices : MonoBehaviour
            "09LDT016",
            "09LT010",
            "09LT018",
-           "09LT019"
+           "09LT019",
+
         };
 
     public static List<string> devicesGrapperA_function = new List<string>()
@@ -113,6 +114,7 @@ public class GlobalVariable_Search_Devices : MonoBehaviour
 
 
 }
+
 [System.Serializable]
 public class DeviceModel
 {

@@ -681,14 +681,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6bb2f42bf178d54f824b95d81a22503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowButtonUp: {fileID: 1017141144}
-  arrowButtonDown: {fileID: 397911806}
-  itemPrefab: {fileID: 1484163266}
-  availableOptions: []
   combobox: {fileID: 322040067}
+  arrowButtonUp: {fileID: 1017141142}
+  arrowButtonDown: {fileID: 397911804}
+  itemPrefab: {fileID: 1484163266}
   inputField: {fileID: 56064248}
   scrollRect: {fileID: 756144901}
-  content: {fileID: 2139400620}
+  content: {fileID: 2139400619}
 --- !u!1 &397911804
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,8 +1265,8 @@ RectTransform:
   - {fileID: 819930935}
   - {fileID: 322040068}
   - {fileID: 1521707567}
-  m_Father: {fileID: 1150345094}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2115,8 +2114,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 621601245}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2550,7 +2548,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1803742723
 GameObject:
@@ -2988,6 +2986,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2139400620}
     m_Modifications:
+    - target: {fileID: 6073718244213770170, guid: 892645ba41bc548458c7674ce7b06768,
+        type: 3}
+      propertyPath: m_Name
+      value: Icon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073718244254608930, guid: 892645ba41bc548458c7674ce7b06768,
+        type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073718244254608930, guid: 892645ba41bc548458c7674ce7b06768,
+        type: 3}
+      propertyPath: m_overrideHtmlColors
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6073718245346258994, guid: 892645ba41bc548458c7674ce7b06768,
         type: 3}
       propertyPath: m_Name

@@ -230,6 +230,7 @@ struct CreateOutputMethod_tD18AFE3B69E6DDD913D82D5FA1D5D909CEEC8509;
 // UnityEngine.LowLevel.PlayerLoopSystem/UpdateFunction
 struct UpdateFunction_t1C48B7EECBE47AC123A9D9D7D9D2A9EE951C56C4;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CoreModule[];
 IL2CPP_EXTERN_C RuntimeClass* Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
@@ -525,6 +526,31 @@ IL2CPP_EXTERN_C const RuntimeMethod* Array_InternalArray__ICollection_Contains_T
 IL2CPP_EXTERN_C const RuntimeMethod* Array_InternalArray__ICollection_Contains_TisVuCameraVideoMode_tB492EBEB0605860CCAC237A94369C4C29011350D_m6AC3DBE9E81969CC96F0B9B94C708DA729D7E9FB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_InternalArray__ICollection_Contains_TisVuDatabaseTargetInfo_tACF0C984E38A6AA4F6FB07B5AAEFEA516A651E6E_m364EBDC13A761F00E9A3B16CA317A9800A37019A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_InternalArray__ICollection_Contains_TisVuMatrix44F_tC75A0AF8524BED265F800A953806F30FA28B8DE6_mEC09F0C3B4CC74E1E24CD06066C86780AC20E0A9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_Equals_m24E409BF329F25774C6577F18EFD3DE1253684D6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_Equals_mD297CAFFEBE9352C940873862FDF9A28F1F02435_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Matrix4x4_Equals_m35CFC5F304BB40EFFE011B92AA87B77CD8FF8F74_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Matrix4x4_Equals_mDB0C4CCC58BE3E108F1A40BE8DBDCD62E284CC51_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Quaternion_Equals_m25B95D8412B79CC7F8B34062BFAE662BD99578BE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Quaternion_Equals_mCF93B00BA4FCDDE6100918451343DB9A0583A0A0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2Int_Equals_m32811BA0576C096D5EB5C0CFD8231478F17229A6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2Int_Equals_m6D91EFAA6B3254334436BD262A4547EA08281BA3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2Int_get_x_mA2CACB1B6E6B5AD0CCC32B2CD2EDCE3ECEB50576_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2Int_get_y_m48454163ECF0B463FB5A16A0C4FC4B14DB0768B3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2_Equals_mA4E81D6FCE503DBD502BA499708344410F60DA4E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2_Equals_mDF84D5ED14E018609C6A9C9BAE016C1B33BCFF4C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_Equals_mB4BE43D5986864F5C22B919F2957E0309F10E3B4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_Equals_mEDEAF86793D229455BBF9BA5B30DDF438D6CABC1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector4_Equals_m73FAA65A1A565EE28D6C9385603829894B7D4392_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector4_Equals_mC2596CA0F441D25DE7A9419BE66A8FA2DA355CB9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var;
 struct Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B;
 struct ComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1_marshaled_com;
 struct ComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1_marshaled_pinvoke;
@@ -8862,6 +8888,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t763E38DF50581B1045C4F039531270BA08203934 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -8888,6 +8916,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -8942,6 +8971,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_tAB2E6B469D42F09998674AC2B639470892C3CE5F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -8968,6 +8999,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -9022,6 +9054,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_tC032038170A998E9F4AE89CDC2DBC2E5F88F91E3 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -9048,6 +9082,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -9102,6 +9137,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_tF73F53965CC04C7018C460F8A3C7B211797A2D4D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -9128,6 +9165,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -9182,6 +9220,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_tF70DDE0C5A349727371FB070D433FA147032A13B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -9208,6 +9248,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -9262,6 +9303,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t4FE3608051BEBD190AEB2C7B27376911D8EF25B0 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -9288,6 +9331,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -9342,6 +9386,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_tA1F840CB30C9D8AC1E1F1BC4347D21B598D5F0D5 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -9368,6 +9414,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -9422,6 +9469,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t88288FD7C987CABEE070E49639E8603D27AF799F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -9448,6 +9497,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -9502,6 +9552,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t91EA25BC5C63ED04F5E7DDC2D2E48D53C13A8B16 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -9528,6 +9580,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -9582,6 +9635,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_tC24A74EF64A292F5C6BA77D0B04CD6620D2DE3AC V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -9608,6 +9663,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -9662,6 +9718,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_tE49DF4AB63A71F3F1079BB2829B680B3F8A3BE16 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -9688,6 +9746,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -9742,6 +9801,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t17002D3A73FAA92AAA4DE89FE8B478A66C52718B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -9768,6 +9829,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -9822,6 +9884,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t785B6EC223E70438CF66901A31D788AB0B36E29A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -9848,6 +9912,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -9902,6 +9967,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t7E5E41B933054DBF6F52C6CDF0BC2CB4B1606423 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -9928,6 +9995,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -9982,6 +10050,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_tE15BD34F75B584F06758FD8C5E0A50897E927167 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -10008,6 +10078,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -10062,6 +10133,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_tF11CA6D20F09EC4DAB7CB3C2C394F6F2C394E6B8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -10088,6 +10161,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -10142,6 +10216,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t35AA315F507A224F8B43D106DA0814C9811D8A7E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -10168,6 +10244,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -10222,6 +10299,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -10248,6 +10327,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -10302,6 +10382,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_tA76653DFC8A4C9B07EC11B4FF878E42681D3EACE V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -10328,6 +10410,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -10382,6 +10465,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t1F6CA1DFD5BE9F6E000B16910DAC52C42E9B1567 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -10408,6 +10493,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -10462,6 +10548,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_tCDE07F3B8CB119BF2539CFB17A3B21E4D3C5FA33 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -10488,6 +10576,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -10542,6 +10631,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t5FCDCECBAC4615B1D6C16612A028BBBF368C51D4 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -10568,6 +10659,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -10622,6 +10714,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_tFE7039CE3AFB1C8CD8922BB30673227BFDF26796 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -10648,6 +10742,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -10702,6 +10797,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t1E5042FB1CBB193BBDE5E8D0EEC1C87C9EF79EB9 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -10728,6 +10825,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -10782,6 +10880,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t6C36FCB67DF7DEEAE38D150B43F6C235648FF208 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -10808,6 +10908,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -10862,6 +10963,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t159008DD34B5ECEF00BA86CB3C0C036C82D795D9 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -10888,6 +10991,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -10942,6 +11046,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_tF5DD05EDBC520DD8097B5B6C4F393A65598F1A63 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -10968,6 +11074,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -11022,6 +11129,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t2B62FB8D7EFA99D41CE5EE3B1DF022212B1A3CDD V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -11048,6 +11157,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -11102,6 +11212,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_tF857B1C753163D05D6CE5351B5146D32C33F0B0C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -11128,6 +11240,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -11182,6 +11295,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t852F23A435B740B3D14D3CE08B14FFD4690334E7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -11208,6 +11323,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -11262,6 +11378,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t0DE777F3FF0D632868C7FED0E21B66A150D405A1 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -11288,6 +11406,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -11342,6 +11461,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t7D311E49C5BFA7AD0E1B6BDE838D7428E2CEDA13 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -11368,6 +11489,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -11422,6 +11544,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_tC0FB5A0426DEC26F1C1B4B0F0EAD4E03BB5F1848 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -11448,6 +11572,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -11502,6 +11627,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t53ED52B6CCF9EE67874B20217661A725F4B0AC33 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -11528,6 +11655,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -11582,6 +11710,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t757A11D5E61E20A1FA1D66746C464E68C7970041 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -11608,6 +11738,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -11662,6 +11793,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t5A3FDAC04D913E59FF60D58CAFA8264F5F43A655 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -11688,6 +11821,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -11742,6 +11876,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_tAC06C9E6230AA7E6BDA2F07D910C3CBE2F36399B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -11768,6 +11904,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -11822,6 +11959,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_tF34E5A81603AC7D66F6CC0579133888A275D3937 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -11848,6 +11987,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -11902,6 +12042,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_tEE6F2578D70264B7405027FB1D98E19C8246B6ED V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -11928,6 +12070,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -11982,6 +12125,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t9B22F42D40D79AAFB996058FB59BF64569DCA63F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -12008,6 +12153,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -12062,6 +12208,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t07280F39D0691CE3006447A5EF281C3A867EAF95 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -12088,6 +12236,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -12142,6 +12291,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t5262B590CA16F81E0E225FA2B90314261B2B4BC6 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -12168,6 +12319,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -12222,6 +12374,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t68435994E8A66E579434AAA75502B7B6137A7B2A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -12248,6 +12402,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -12302,6 +12457,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t5EA39A38B18A7FBA9D70D487DBE55714255FAAA6 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -12328,6 +12485,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -12382,6 +12540,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	KeyValuePair_2_t4D486866736280C7A079662D170F5444C27E50C6 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -12408,6 +12568,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -12462,6 +12623,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	NativeArray_1_t65CDBEDCEF4486754ED91C90C782929F1397FD01 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -12488,6 +12651,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -12541,6 +12705,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -12567,6 +12733,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -12620,6 +12787,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	NativeArray_1_tB60512C6E4578B7CC8EB79321680E495E69ABF81 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -12646,6 +12815,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -12699,6 +12869,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	NativeArray_1_t1ABEAB84724CAEAFCB8767B8502FD3185AC9CAD0 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -12725,6 +12897,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -12778,6 +12951,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Node_tA8F7ED85FD786FE388B1ED3CF8DDFEDC56587258 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -12804,6 +12979,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -12858,6 +13034,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Node_t39E89F54A46CA848B0AED9F5454D71E99D318FDB V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -12884,6 +13062,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -12938,6 +13117,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Record_t4205712C85C6F00A9F1DC4D23E20F595FCB4F6A4 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -12964,6 +13145,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -13017,6 +13199,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Slot_t71761A19CE5F0D3E3D6E46AAB9D13904F556A605 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -13043,6 +13227,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -13097,6 +13282,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Slot_t3D6F59B8061C33D6ADE1DDB6081830EA9663C334 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -13123,6 +13310,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -13177,6 +13365,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Slot_t22B135B722F7D592A58FAEDAD31DDA9BB7CD2FC8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -13203,6 +13393,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -13257,6 +13448,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Slot_tEA2D8282E9A5C3740D622EF2860F93438167A05D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -13283,6 +13476,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -13337,6 +13531,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Slot_t0A95045068CA69D35855DB49026245B2D7F2E059 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -13363,6 +13559,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -13417,6 +13614,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Slot_tE875BCBFEE9E643CF0F37AE67222AE69E269B9A8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -13443,6 +13642,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -13497,6 +13697,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Slot_t99E1DAD9EC10BC2CA3AD0951B37A54FB9B0C1992 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -13523,6 +13725,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -13577,6 +13780,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Slot_t4BB8CC974E5E3453C5B4BD5E6DC16498D0EF7744 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -13603,6 +13808,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -13657,6 +13863,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Slot_tE40ADD3E3758BFA1DB21D9E728F98EBFEF2AE27E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -13683,6 +13891,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -13737,6 +13946,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Slot_t36E7BD2C949C62077BDCD89A5CA092508944F177 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -13763,6 +13974,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -13817,6 +14029,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Slot_t0AF5775D319D73D08B84598B85F12FC5D1EFE5E5 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -13843,6 +14057,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -13897,6 +14112,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Slot_t0F2C4321FC082433EA1889FA7952BA1F9A0D2382 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -13923,6 +14140,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -13977,6 +14195,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StructMultiKey_2_tBE8AC1F77387A29245D48FBA8C8C8E1763344DD5 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14003,6 +14223,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -14056,6 +14277,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StyleData_t333EEFF82EBFC5313C5D5BD07C3E5258C87D2CC6 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14082,6 +14305,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -14136,6 +14360,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StyleData_t8548533307092B4D7E241CBD2A66549683A33C1D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14162,6 +14388,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -14216,6 +14443,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14242,6 +14471,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -14296,6 +14526,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StyleData_t8D7506F1365A34AF8BCC7E63AABBB64F8330C595 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14322,6 +14554,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -14376,6 +14609,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StyleData_tD9916786C46848BD8A33B29D97785D1FB3886628 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14402,6 +14637,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -14456,6 +14692,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StyleData_t8D2C4DFD73B2CF505708E2AC1C384DE4D6CE30C6 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14482,6 +14720,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -14536,6 +14775,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StyleData_tF4F082E86CEF208DCF726577323A81818B156F1C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14562,6 +14803,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -14616,6 +14858,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StyleData_t81910989C0A6416625FEA66A143ED9AA9CE6EAD1 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14642,6 +14886,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -14696,6 +14941,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StyleData_t3B3F0F1CEB43B375FD26CB3095AAC800DC07A976 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14722,6 +14969,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -14776,6 +15024,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StyleData_t8550AC117CD613FE87B52CC3540296500B7F3DF8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14802,6 +15052,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -14856,6 +15107,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StyleData_tDA8B8711D8BD18C0D6EB99A929976DDC956DD167 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14882,6 +15135,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -14936,6 +15190,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StyleData_t516B303180A937637806C9C217FE06E3AACDEE23 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -14962,6 +15218,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -15016,6 +15273,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15042,6 +15301,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -15096,6 +15356,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15122,6 +15384,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -15176,6 +15439,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15202,6 +15467,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -15256,6 +15522,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TMP_TextProcessingStack_1_tA1252F156B42CCD2773D5A32C56DA9E021706659 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15282,6 +15550,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -15336,6 +15605,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15362,6 +15633,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -15416,6 +15688,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TMP_TextProcessingStack_1_t2A4A4F86DEC2892F4B6D6B29A6473437E6C9EE35 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15442,6 +15716,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -15496,6 +15771,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15522,6 +15799,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -15576,6 +15854,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15602,6 +15882,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -15656,6 +15937,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TimingData_t9A97DB81A0CFA7AC972B32A494B47406B711AD0D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15682,6 +15965,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -15736,6 +16020,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TimingData_t34C4E95C26A0148A8A1940FA3BE460BD371FE5FE V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15762,6 +16048,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -15816,6 +16103,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15842,6 +16131,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -15896,6 +16186,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TimingData_tB9F07E55FE507E685F5E816A57949C38DCD6E263 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -15922,6 +16214,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -15976,6 +16269,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TimingData_t9FA7CAC423BACD236FBF49326BDD83D06DF44288 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16002,6 +16297,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -16056,6 +16352,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TimingData_tAC897652D090176D4DE63A3E05988D165A785F09 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16082,6 +16380,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -16136,6 +16435,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TimingData_t9F5BE2ECB5F5FDBD04072B4459F64CB033858F11 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16162,6 +16463,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -16216,6 +16518,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TimingData_t098AB9F533C2FCADF814F88C5A5C79F7AF2FCF49 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16242,6 +16546,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -16296,6 +16601,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TimingData_t7E5D81E44DD38F0BFB0350F529E539BB94000C7A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16322,6 +16629,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -16376,6 +16684,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TimingData_t70F8D4FF0A51972717A1ED53525241240EF457FE V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16402,6 +16712,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -16456,6 +16767,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TimingData_t0F88AE7B3D3525F39CAAED92C1983CCCF4961B92 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16482,6 +16795,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -16536,6 +16850,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TimingData_tD402D38A47B4E24DECDDD6B9725E579AD10131F3 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16562,6 +16878,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -16616,6 +16933,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Triangle_1_tCB71783FB3769A6B5EC63107AA1E6A0C2F41283C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16642,6 +16961,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -16696,6 +17016,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Triangle_1_t37AD500EBA0FF178D5A11334D2731DE378640303 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16722,6 +17044,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -16776,6 +17099,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ValueTuple_1_tBFF71B8F72F9D197DB09CFE88F0C8C7FE97CEF75 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16802,6 +17127,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -16855,6 +17181,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ValueTuple_2_tC57529B8C1EE84CA3D138FBE3836C013C6DC40AC V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16881,6 +17209,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -16934,6 +17263,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ValueTuple_2_tC3717D4552EE1E5FC27BFBA3F5155741BC04557A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -16960,6 +17291,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -17013,6 +17345,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17039,6 +17373,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -17092,6 +17427,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ValueTuple_3_tC9C1846E6BD237797AE9B56D5138EE67C1B5FA01 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17118,6 +17455,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -17171,6 +17509,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ARCoreFaceRegionData_tC5ABC889AB00A0DB777FFB44FD943E772F8A4F11 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17197,6 +17537,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -17250,6 +17591,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17276,6 +17619,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -17329,6 +17673,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ARTextureInfo_t008DA41DF9555306803303A0353619E5C0917261 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17355,6 +17701,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -17408,6 +17755,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	AsyncOperationHandle_t58B507DCAA6531B85FDBA6188D8E1F7DF89D3F5D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17434,6 +17783,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -17488,6 +17838,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	AttachmentDescriptor_tBAC9B26B50BB0838C5C0CC22BB296F9DFF41276E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17514,6 +17866,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -17567,6 +17920,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17593,6 +17948,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -17646,6 +18002,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	BatchVisibility_t0AC94FB0AE271C762F911D4602604F4D83837CEA V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17672,6 +18030,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -17726,6 +18085,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	BigInteger_tF7779A0AA6D6B9BE0E0C1C293E7708765DEF7D0F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17752,6 +18113,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -17804,6 +18166,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	bool V_2 = false;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17830,6 +18194,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -17883,6 +18248,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17909,6 +18276,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -17961,6 +18329,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	uint8_t V_2 = 0x0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -17987,6 +18357,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -18039,6 +18410,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	uint8_t V_2 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18065,6 +18438,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -18118,6 +18492,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	Il2CppChar V_2 = 0x0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18144,6 +18520,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -18197,6 +18574,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18223,6 +18602,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -18276,6 +18656,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18302,6 +18684,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -18356,6 +18739,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18382,6 +18767,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -18435,6 +18821,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18461,6 +18849,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -18515,6 +18904,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18541,6 +18932,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -18595,6 +18987,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ConfigurationDescriptor_tD16AA30B812AA662D234FBFE6575AF8A328CA3A1 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18621,6 +19015,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -18674,6 +19069,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ContactPoint_t241857959C0D517C21F541BB04B63FA6C1EAB3F9 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18700,6 +19097,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -18754,6 +19152,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ContactPoint2D_t16A7EE2DDFB4FA3A09C6554E11F30CEDAEBFA801 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18780,6 +19180,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -18834,6 +19235,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	CustomAttributeNamedArgument_t4EC1C2BB9943BEB7E77AC0870BE2A899E23B4E02 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18860,6 +19263,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -18913,6 +19317,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	CustomAttributeTypedArgument_tAAA19ADE66B16A67D030C8C67D7ADB29A7BEC75F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -18939,6 +19345,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -18992,6 +19399,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19018,6 +19427,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -19071,6 +19481,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19097,6 +19509,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -19150,6 +19563,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19176,6 +19591,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -19229,6 +19645,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	DeferredTiler_t2F171ACEF3B3A64DDAC0C713A2358FFE9D169F8F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19255,6 +19673,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -19309,6 +19728,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	DiagnosticEvent_t33E1175DA005D137D20535AB25ACE16837A3A274 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19335,6 +19756,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -19389,6 +19811,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19415,6 +19839,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -19469,6 +19894,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Dimension_t5B1EAB500AE32C3789A2BCC4D43F7A29996DF3F8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19495,6 +19922,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -19547,6 +19975,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	double V_2 = 0.0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19573,6 +20003,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -19626,6 +20057,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	DrawBufferRange_t684F255F5C954760B12F6689F84E78811040C7A4 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19652,6 +20085,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -19706,6 +20140,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	DriverCameraMode_t987B41E6764485C11BD523B51898D0F8ED226C9A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19732,6 +20168,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -19786,6 +20223,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	EasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19812,6 +20251,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -19865,6 +20305,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Ephemeron_t74F279F5E7CF4A0CFC21C822431DD840572C6DA2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19891,6 +20333,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -19945,6 +20388,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -19971,6 +20416,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -20024,6 +20470,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	FontWeightPair_tB94169BD86D0DFC25D651F890B15991A3E0ADA42 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20050,6 +20498,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -20104,6 +20553,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20130,6 +20581,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -20183,6 +20635,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	GfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20209,6 +20663,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -20263,6 +20718,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	GlyphMarshallingStruct_tB45F92185E1A4A7880004B36591D7C73E4A2B87C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20289,6 +20746,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -20343,6 +20801,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	GlyphPairAdjustmentRecord_t6E4295094D349DBF22BC59116FBC8F22EA55420E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20369,6 +20829,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -20423,6 +20884,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	GlyphRect_tB6D225B9318A527A1CBC1B4078EB923398EB808D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20449,6 +20912,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -20502,6 +20966,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	GradientAlphaKey_tF469955E4BBAF1044320D956CD8D990F1A26EAA0 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20528,6 +20994,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -20582,6 +21049,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	GradientColorKey_tBD03A613338639E3774A10265CC5F3619C13421A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20608,6 +21077,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -20662,6 +21132,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	GradientSettings_tADA3CAA17319C58811DE187298039CC950FBAAF3 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20688,6 +21160,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -20742,6 +21215,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Guid_t V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20768,6 +21243,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -20821,6 +21297,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20847,6 +21325,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -20900,6 +21379,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	HeaderVariantInfo_t99223ED0C557730FBD8AA572065B994254F3386A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -20926,6 +21407,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -20980,6 +21462,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21006,6 +21490,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -21059,6 +21544,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	IndexField_t6285D0782FB7D55EC60F7DFB20AF7D3E7D37B795 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21085,6 +21572,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -21138,6 +21626,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21164,6 +21654,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -21217,6 +21708,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	InputControlScheme_tB60FB32F414727140B32E1A0447679DC7ABC8434 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21243,6 +21736,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -21296,6 +21790,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21322,6 +21818,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -21375,6 +21872,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21401,6 +21900,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -21453,6 +21953,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int16_t V_2 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21479,6 +21981,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -21531,6 +22034,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21557,6 +22062,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -21609,6 +22115,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21635,6 +22143,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -21688,6 +22197,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int64_t V_2 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21714,6 +22225,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -21767,6 +22279,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	intptr_t V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21793,6 +22307,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -21846,6 +22361,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	InternalCodePageDataItem_t6B4913D6507B26FFAE0B805874644D3DBE78F316 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21872,6 +22389,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -21926,6 +22444,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	InternalEncodingDataItem_t1D6DA6BCE8389C12ECC229A644D2CA45A86C06EB V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -21952,6 +22472,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -22006,6 +22527,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22032,6 +22555,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -22085,6 +22609,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	InterpretedFrameInfo_tEF62B79D176B8D032C22953AA0D5B581C4076321 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22111,6 +22637,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -22165,6 +22692,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22191,6 +22720,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -22245,6 +22775,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	JsonPosition_t7788656A280615072710710E8C15D23285850E8E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22271,6 +22803,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -22325,6 +22858,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	JsonPosition_tA78E88A83CDF482A154F39054277D613031379DB V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22351,6 +22886,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -22405,6 +22941,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22431,6 +22969,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -22485,6 +23024,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22511,6 +23052,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -22564,6 +23106,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	LightDataGI_t47D2197E863C0DDA40C2182FBF0A21367E468E21 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22590,6 +23134,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -22644,6 +23189,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	LightMinMaxZ_t35F5D7C894F59869B016DD721281363A277594A6 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22670,6 +23217,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -22724,6 +23272,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22750,6 +23300,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -22804,6 +23355,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	LinkInfo_tE85DDAFDFBDA635E6405C88EE4FD5941A9243DD8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22830,6 +23383,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -22884,6 +23438,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	LocalDefinition_t7B90DE35AAE919E1C79BA7EAFB99BF70589B1C02 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22910,6 +23466,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -22963,6 +23520,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ManipulatorActivationFilter_t866A0295DA75EA271B30BDC1F9EEA2C4FDEB1A81 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -22989,6 +23548,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -23042,6 +23602,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23068,6 +23630,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -23122,6 +23685,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23148,6 +23713,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -23202,6 +23768,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23228,6 +23796,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -23281,6 +23850,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	MeshInfo_tE55C4A8846CC2C399CCC3FE989476D987B86AB2F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23307,6 +23878,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -23361,6 +23933,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ModifiableContactPair_t8D3CA3E20AF1718A5421A6098D633DDA67399960 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23387,6 +23961,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -23441,6 +24016,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	NameAndParameters_t8F37102128EFD31CA57808AE6E3D1244758DEA01 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23467,6 +24044,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -23521,6 +24099,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	NamedValue_t1D89B1ACD11D2B5284666865014E67683742B8ED V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23547,6 +24127,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -23600,6 +24181,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23626,6 +24209,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -23679,6 +24263,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	RuntimeObject* V_2 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23705,6 +24291,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		RuntimeObject* L_4 = ___item0;
@@ -23765,6 +24352,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ObjectInitializationData_t78311D34B13F6FC91296EA33C601DB29CB8C84E3 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23791,6 +24380,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -23845,6 +24435,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	PageInfo_tFFF6B289E9A37E4D69353B32F941421180DA5909 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23871,6 +24463,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -23925,6 +24518,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ParameterModifier_t75F1AF13B2AD5EDBD3A3579FD337D0A66E3FF510 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -23951,6 +24546,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -24005,6 +24601,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24031,6 +24629,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -24085,6 +24684,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	PlayableBinding_tB68B3BAC47F4F4C559640472174D5BEF93CB6AB4 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24111,6 +24712,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -24165,6 +24767,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24191,6 +24795,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -24245,6 +24850,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	PointerModel_t6E979AA49D01ACA529A68AF8F48624E73484CD42 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24271,6 +24878,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -24325,6 +24933,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24351,6 +24961,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -24404,6 +25015,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	PreTile_tC36F9BE4B86094E64EF591A02D06185EF5ECBDDD V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24430,6 +25043,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -24484,6 +25098,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24510,6 +25126,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -24563,6 +25180,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24589,6 +25208,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -24643,6 +25263,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24669,6 +25291,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -24723,6 +25346,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24749,6 +25374,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -24803,6 +25429,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24829,6 +25457,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -24883,6 +25512,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24909,6 +25540,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -24962,6 +25594,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -24988,6 +25622,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -25042,6 +25677,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25068,6 +25705,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -25122,6 +25760,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RenderStateBlock_tFC570EF2C8F3A817FECD578E385D18CEEEA06733 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25148,6 +25788,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -25201,6 +25842,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RenderTargetHandle_tB5C2670041BF377223D41FDF9290F6D8BFB7BA66 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25227,6 +25870,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -25280,6 +25924,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RenderTargetIdentifier_tA528663AC6EB3911D8E91AA40F7070FA5455442B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25306,6 +25952,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -25359,6 +26006,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25385,6 +26034,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -25439,6 +26089,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ResolverContractKey_tE2D82D8CA1856116845C671153EF76D834A7B45E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25465,6 +26117,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -25518,6 +26171,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RichTextTagAttribute_t1BB51A8FD6C14746D177D8E84E281A4FD4A720E0 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25544,6 +26199,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -25598,6 +26254,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RichTextTagAttribute_t0600951F833208392F1D8EE3E6A58AD5C797F9DA V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25624,6 +26282,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -25678,6 +26337,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Rotate_tE965CA0281A547AB38B881A3416FF97756D3F4D7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25704,6 +26365,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -25757,6 +26419,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RuleMatcher_t327CFEB02C81AA20E639DE949DCBBAB5E92FF28E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25783,6 +26447,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -25837,6 +26502,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	RuntimeLabel_tD233E2C3F1E1A1877FFE3E9DFB3A69C57D40A548 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25863,6 +26530,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -25916,6 +26584,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int8_t V_2 = 0x0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -25942,6 +26612,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -25994,6 +26665,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int8_t V_2 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26020,6 +26693,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -26074,6 +26748,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26100,6 +26776,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -26154,6 +26831,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Scale_t5594C69C1AC9398B57ABF6C4FA0D4E791B7A4DC7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26180,6 +26859,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -26233,6 +26913,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SelectorMatchRecord_t1E93CDB54312CFB4A67768BB25ABB9AFB31BC5D7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26259,6 +26941,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -26313,6 +26996,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SerializedType_t1FB0F9A8B8F766AC18F067F0882CE74E0014C6F1 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26339,6 +27024,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -26393,6 +27079,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ShaderTagId_t453E2085B5EE9448FF75E550CAB111EFF690ECB0 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26419,6 +27107,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -26472,6 +27161,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	ShadowSliceData_t1BCFEDC63BECA994949FE1F4245CEE930EE69E20 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26498,6 +27189,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -26551,6 +27243,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	float V_2 = 0.0f;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26577,6 +27271,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -26630,6 +27325,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26656,6 +27353,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -26710,6 +27408,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SqlBinary_tEFB13C14B44E4388798A2F7DB48438E16DE4E347 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26736,6 +27436,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -26789,6 +27490,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SqlBoolean_tAD22108BE5F656A5AAFE19B054B2CA56C0AEE1D7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26815,6 +27518,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -26868,6 +27572,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SqlByte_t39089DB566BD0047D5ED18807B145019FB0F0B46 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26894,6 +27600,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -26947,6 +27654,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SqlDateTime_tFB5902479382E8A61934E274E7BBF3280A3D25B2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -26973,6 +27682,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -27026,6 +27736,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SqlDecimal_t7A833A6D857AB79C4B2E4011CB728AEC6954D406 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27052,6 +27764,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -27105,6 +27818,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SqlDouble_t028838C05B8C2E359848BEDB40C41CCCAA11CC98 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27131,6 +27846,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -27184,6 +27900,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SqlGuid_t93C33E370E5D3A344A15F9EFD9A2D4177576DED7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27210,6 +27928,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -27263,6 +27982,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SqlInt16_t30ED9856D3373398B6005B34D664C64EE224260B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27289,6 +28010,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -27342,6 +28064,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SqlInt32_t50DA35BC9FD9C46AA933DCF8195B2EE92064D152 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27368,6 +28092,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -27421,6 +28146,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SqlInt64_t6F2A4BE192CBAA1059DDAB0D02FEDF4EDEAD6272 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27447,6 +28174,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -27500,6 +28228,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SqlMoney_t88BD587F422EA297502BC57B18010762C03531BB V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27526,6 +28256,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -27579,6 +28310,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SqlSingle_tE807CFF8CCE4E77475D51223A37ADC73BC205767 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27605,6 +28338,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -27658,6 +28392,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27684,6 +28420,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -27737,6 +28474,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27763,6 +28502,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -27816,6 +28556,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StylePropertyValue_tED32F617FABE99611B213BFCF9D1D909E7F141C2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27842,6 +28584,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -27896,6 +28639,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -27922,6 +28667,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -27976,6 +28722,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StyleSyntaxToken_tE4474F86F800F298F966FFDE947528453E769E0C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -28002,6 +28750,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -28056,6 +28805,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StyleValue_t56307594EC04E04EFBCC3220595B4AAD66FF93C5 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -28082,6 +28833,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -28136,6 +28888,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StyleValueHandle_t5831643AAA7AD8C5C43A4498C5E0A2545F78227D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -28162,6 +28916,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -28216,6 +28971,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StyleValueManaged_t68DFBEC1594279E4DC56634FD5092318D1E9A5F4 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -28242,6 +28999,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -28296,6 +29054,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	StyleVariable_t5D4DEC936102A13961F4F2C6214B83D6CDC56269 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -28322,6 +29082,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -28376,6 +29137,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Substring_t2E16755269E6716C22074D6BC0A9099915E67849 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -28402,6 +29165,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -28455,6 +29219,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -28481,6 +29247,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -28535,6 +29302,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TMP_FontWeightPair_t2835DA6BF1309AC6C817ECF878232CCF9DDB703E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -28561,6 +29330,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -28615,6 +29385,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -28641,6 +29413,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -28695,6 +29468,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TMP_LinkInfo_t9DC08E8BF8C5E8094AFF8C9FB3C251AF88B92DA6 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -28721,6 +29496,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -28775,6 +29551,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -28801,6 +29579,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -28855,6 +29634,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TMP_PageInfo_t062E56948480FAB066C168E14DC79CC83CC369B4 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -28881,6 +29662,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -28935,6 +29717,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TMP_WordInfo_t825112AF0B76E4461F9C7DD336A02CC6A090A983 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -28961,6 +29745,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -29015,6 +29800,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -29041,6 +29828,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -29095,6 +29883,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -29121,6 +29911,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -29174,6 +29965,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -29200,6 +29993,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -29254,6 +30048,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -29280,6 +30076,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -29333,6 +30130,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -29359,6 +30158,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -29412,6 +30212,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -29438,6 +30240,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -29491,6 +30294,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Touch_t03E51455ED508492B3F278903A0114FA0E87B417 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -29517,6 +30322,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -29571,6 +30377,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Touch_t07A55E11962F143607E917F0B6FEFB36EE2DDA70 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -29597,6 +30405,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -29650,6 +30459,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -29676,6 +30487,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -29729,6 +30541,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Transform3x4_t9F79FC0112A00D3FFD7AFAD2D10AD22DF929052F V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -29755,6 +30569,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -29809,6 +30624,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -29835,6 +30652,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -29888,6 +30706,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -29914,6 +30734,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -29967,6 +30788,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -29993,6 +30816,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -30047,6 +30871,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -30073,6 +30899,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -30127,6 +30954,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -30153,6 +30982,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -30206,6 +31036,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	uint16_t V_2 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -30232,6 +31064,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -30284,6 +31117,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	uint16_t V_2 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -30310,6 +31145,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -30363,6 +31199,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	uint32_t V_2 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -30389,6 +31227,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -30441,6 +31280,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	uint32_t V_2 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -30467,6 +31308,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -30520,6 +31362,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	uint64_t V_2 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -30546,6 +31390,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -30599,6 +31444,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	UsageHint_tFD7259AF9E91500CF1D0CE602394B40FD2397AB1 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -30625,6 +31472,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -30679,6 +31527,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -30705,6 +31555,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -30758,6 +31609,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -30784,6 +31637,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -30837,6 +31691,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -30863,6 +31719,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -30916,6 +31773,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Vector3_Array2D_t58E77C561A10746E13FDFF893FEC1EC9B1569C0D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -30942,6 +31801,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -30996,6 +31856,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -31022,6 +31884,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -31075,6 +31938,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	VectorImageVertex_t9D42377517CC059BD40E2A626ECEBE0C94CA0948 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -31101,6 +31966,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -31155,6 +32021,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -31181,6 +32049,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -31235,6 +32104,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	VertexAttributeDescriptor_tD4231FBF57335465D16308D2A18E8E83D36BFA76 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -31261,6 +32132,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -31314,6 +32186,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	VisibleLight_t0A4DF5B22865A00F618A0352B805277FA0132805 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -31340,6 +32214,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -31393,6 +32268,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	VuCameraVideoMode_tB492EBEB0605860CCAC237A94369C4C29011350D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -31419,6 +32296,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -31473,6 +32351,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	VuDatabaseTargetInfo_tACF0C984E38A6AA4F6FB07B5AAEFEA516A651E6E V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -31499,6 +32379,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -31553,6 +32434,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Array_InternalArray__ICollection_Contain
 	int32_t V_1 = 0;
 	VuMatrix44F_tC75A0AF8524BED265F800A953806F30FA28B8DE6 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0;
 		L_0 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(__this, NULL);
@@ -31579,6 +32462,7 @@ IL_0014:
 
 IL_001f:
 	{
+		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		GetGenericValueImpl(__this, L_3, (&V_2));
 		goto IL_003a;
@@ -31630,14 +32514,25 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Color_Equals_m24E409BF329F25
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_Equals_m24E409BF329F25774C6577F18EFD3DE1253684D6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
 	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___other0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_Equals_m24E409BF329F25774C6577F18EFD3DE1253684D6_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10065));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10066));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10067));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10068));
 		RuntimeObject* L_0 = ___other0;
 		V_0 = (bool)((((int32_t)((!(((RuntimeObject*)(RuntimeObject*)((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10069));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -31645,21 +32540,26 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Color_Equals_m24E409BF329F25
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10070));
 		V_1 = (bool)0;
 		goto IL_0024;
 	}
 
 IL_0015:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10071));
 		RuntimeObject* L_2 = ___other0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10072));
 		bool L_3;
 		L_3 = Color_Equals_mD297CAFFEBE9352C940873862FDF9A28F1F02435_inline(__this, ((*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)((Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)UnBox(L_2, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_il2cpp_TypeInfo_var)))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10072));
 		V_1 = L_3;
 		goto IL_0024;
 	}
 
 IL_0024:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10073));
 		bool L_4 = V_1;
 		return L_4;
 	}
@@ -31669,14 +32569,25 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Matrix4x4_Equals_m35CFC5F304
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Matrix4x4_Equals_m35CFC5F304BB40EFFE011B92AA87B77CD8FF8F74_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
 	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___other0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Matrix4x4_Equals_m35CFC5F304BB40EFFE011B92AA87B77CD8FF8F74_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8975));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8976));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8977));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8978));
 		RuntimeObject* L_0 = ___other0;
 		V_0 = (bool)((((int32_t)((!(((RuntimeObject*)(RuntimeObject*)((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8979));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -31684,21 +32595,26 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Matrix4x4_Equals_m35CFC5F304
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8980));
 		V_1 = (bool)0;
 		goto IL_0024;
 	}
 
 IL_0015:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8981));
 		RuntimeObject* L_2 = ___other0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8982));
 		bool L_3;
 		L_3 = Matrix4x4_Equals_mDB0C4CCC58BE3E108F1A40BE8DBDCD62E284CC51_inline(__this, ((*(Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*)((Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*)(Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*)UnBox(L_2, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_il2cpp_TypeInfo_var)))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8982));
 		V_1 = L_3;
 		goto IL_0024;
 	}
 
 IL_0024:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8983));
 		bool L_4 = V_1;
 		return L_4;
 	}
@@ -31708,14 +32624,25 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_Equals_mCF93B00BA
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_Equals_mCF93B00BA4FCDDE6100918451343DB9A0583A0A0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
 	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___other0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Quaternion_Equals_mCF93B00BA4FCDDE6100918451343DB9A0583A0A0_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10397));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10398));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10399));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10400));
 		RuntimeObject* L_0 = ___other0;
 		V_0 = (bool)((((int32_t)((!(((RuntimeObject*)(RuntimeObject*)((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10401));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -31723,21 +32650,26 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_Equals_mCF93B00BA
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10402));
 		V_1 = (bool)0;
 		goto IL_0024;
 	}
 
 IL_0015:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10403));
 		RuntimeObject* L_2 = ___other0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10404));
 		bool L_3;
 		L_3 = Quaternion_Equals_m25B95D8412B79CC7F8B34062BFAE662BD99578BE_inline(__this, ((*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)UnBox(L_2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var)))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10404));
 		V_1 = L_3;
 		goto IL_0024;
 	}
 
 IL_0024:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10405));
 		bool L_4 = V_1;
 		return L_4;
 	}
@@ -31747,14 +32679,25 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_Equals_mA4E81D6FCE50
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_Equals_mA4E81D6FCE503DBD502BA499708344410F60DA4E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
 	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___other0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_Equals_mA4E81D6FCE503DBD502BA499708344410F60DA4E_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8571));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8572));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8573));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8574));
 		RuntimeObject* L_0 = ___other0;
 		V_0 = (bool)((((int32_t)((!(((RuntimeObject*)(RuntimeObject*)((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8575));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -31762,21 +32705,26 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_Equals_mA4E81D6FCE50
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8576));
 		V_1 = (bool)0;
 		goto IL_0024;
 	}
 
 IL_0015:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8577));
 		RuntimeObject* L_2 = ___other0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8578));
 		bool L_3;
 		L_3 = Vector2_Equals_mDF84D5ED14E018609C6A9C9BAE016C1B33BCFF4C_inline(__this, ((*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)UnBox(L_2, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var)))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8578));
 		V_1 = L_3;
 		goto IL_0024;
 	}
 
 IL_0024:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8579));
 		bool L_4 = V_1;
 		return L_4;
 	}
@@ -31786,14 +32734,25 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2Int_Equals_m6D91EFAA6
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_Equals_m6D91EFAA6B3254334436BD262A4547EA08281BA3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
 	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___other0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2Int_Equals_m6D91EFAA6B3254334436BD262A4547EA08281BA3_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8808));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8809));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8810));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8811));
 		RuntimeObject* L_0 = ___other0;
 		V_0 = (bool)((((int32_t)((!(((RuntimeObject*)(RuntimeObject*)((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8812));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -31801,21 +32760,26 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2Int_Equals_m6D91EFAA6
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8813));
 		V_1 = (bool)0;
 		goto IL_0024;
 	}
 
 IL_0015:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8814));
 		RuntimeObject* L_2 = ___other0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8815));
 		bool L_3;
 		L_3 = Vector2Int_Equals_m32811BA0576C096D5EB5C0CFD8231478F17229A6_inline(__this, ((*(Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A*)((Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A*)(Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A*)UnBox(L_2, Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_il2cpp_TypeInfo_var)))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8815));
 		V_1 = L_3;
 		goto IL_0024;
 	}
 
 IL_0024:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8816));
 		bool L_4 = V_1;
 		return L_4;
 	}
@@ -31825,14 +32789,25 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_Equals_mB4BE43D59868
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_Equals_mB4BE43D5986864F5C22B919F2957E0309F10E3B4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
 	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___other0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_Equals_mB4BE43D5986864F5C22B919F2957E0309F10E3B4_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9695));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9696));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9697));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9698));
 		RuntimeObject* L_0 = ___other0;
 		V_0 = (bool)((((int32_t)((!(((RuntimeObject*)(RuntimeObject*)((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9699));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -31840,21 +32815,26 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_Equals_mB4BE43D59868
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9700));
 		V_1 = (bool)0;
 		goto IL_0024;
 	}
 
 IL_0015:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9701));
 		RuntimeObject* L_2 = ___other0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9702));
 		bool L_3;
 		L_3 = Vector3_Equals_mEDEAF86793D229455BBF9BA5B30DDF438D6CABC1_inline(__this, ((*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)UnBox(L_2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var)))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9702));
 		V_1 = L_3;
 		goto IL_0024;
 	}
 
 IL_0024:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9703));
 		bool L_4 = V_1;
 		return L_4;
 	}
@@ -31864,14 +32844,25 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector4_Equals_mC2596CA0F441
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_Equals_mC2596CA0F441D25DE7A9419BE66A8FA2DA355CB9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
 	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___other0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector4_Equals_mC2596CA0F441D25DE7A9419BE66A8FA2DA355CB9_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9384));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9385));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9386));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9387));
 		RuntimeObject* L_0 = ___other0;
 		V_0 = (bool)((((int32_t)((!(((RuntimeObject*)(RuntimeObject*)((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9388));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -31879,35 +32870,57 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector4_Equals_mC2596CA0F441
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9389));
 		V_1 = (bool)0;
 		goto IL_0024;
 	}
 
 IL_0015:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9390));
 		RuntimeObject* L_2 = ___other0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9391));
 		bool L_3;
 		L_3 = Vector4_Equals_m73FAA65A1A565EE28D6C9385603829894B7D4392_inline(__this, ((*(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*)((Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*)(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*)UnBox(L_2, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_il2cpp_TypeInfo_var)))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9391));
 		V_1 = L_3;
 		goto IL_0024;
 	}
 
 IL_0024:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9392));
 		bool L_4 = V_1;
 		return L_4;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Color_Equals_mD297CAFFEBE9352C940873862FDF9A28F1F02435_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___other0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_Equals_mD297CAFFEBE9352C940873862FDF9A28F1F02435_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___other0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_Equals_mD297CAFFEBE9352C940873862FDF9A28F1F02435_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10074));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10075));
 	int32_t G_B5_0 = 0;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10076));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10077));
 		float* L_0 = (&__this->___r_0);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___other0;
 		float L_2 = L_1.___r_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10078));
 		bool L_3;
 		L_3 = Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9(L_0, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10078));
 		if (!L_3)
 		{
 			goto IL_004d;
@@ -31917,8 +32930,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Color_Equals_mD297CAFFEBE935
 		float* L_4 = (&__this->___g_1);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5 = ___other0;
 		float L_6 = L_5.___g_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10079));
 		bool L_7;
 		L_7 = Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9(L_4, L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10079));
 		if (!L_7)
 		{
 			goto IL_004d;
@@ -31928,8 +32943,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Color_Equals_mD297CAFFEBE935
 		float* L_8 = (&__this->___b_2);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = ___other0;
 		float L_10 = L_9.___b_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10080));
 		bool L_11;
 		L_11 = Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9(L_8, L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10080));
 		if (!L_11)
 		{
 			goto IL_004d;
@@ -31939,8 +32956,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Color_Equals_mD297CAFFEBE935
 		float* L_12 = (&__this->___a_3);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13 = ___other0;
 		float L_14 = L_13.___a_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10081));
 		bool L_15;
 		L_15 = Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9(L_12, L_14, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10081));
 		G_B5_0 = ((int32_t)(L_15));
 		goto IL_004e;
 	}
@@ -31958,63 +32977,104 @@ IL_004e:
 
 IL_0051:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10082));
 		bool L_16 = V_0;
 		return L_16;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Matrix4x4_Equals_mDB0C4CCC58BE3E108F1A40BE8DBDCD62E284CC51_inline (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___other0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Matrix4x4_Equals_mDB0C4CCC58BE3E108F1A40BE8DBDCD62E284CC51_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___other0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Matrix4x4_Equals_mDB0C4CCC58BE3E108F1A40BE8DBDCD62E284CC51_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8984));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8985));
 	int32_t G_B5_0 = 0;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8986));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8987));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8988));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_0;
 		L_0 = Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118(__this, 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8988));
 		V_0 = L_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8989));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_1;
 		L_1 = Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118((&___other0), 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8989));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8990));
 		bool L_2;
 		L_2 = Vector4_Equals_m73FAA65A1A565EE28D6C9385603829894B7D4392_inline((&V_0), L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8990));
 		if (!L_2)
 		{
 			goto IL_0065;
 		}
 	}
 	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8991));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_3;
 		L_3 = Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118(__this, 1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8991));
 		V_0 = L_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8992));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_4;
 		L_4 = Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118((&___other0), 1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8992));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8993));
 		bool L_5;
 		L_5 = Vector4_Equals_m73FAA65A1A565EE28D6C9385603829894B7D4392_inline((&V_0), L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8993));
 		if (!L_5)
 		{
 			goto IL_0065;
 		}
 	}
 	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8994));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_6;
 		L_6 = Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118(__this, 2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8994));
 		V_0 = L_6;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8995));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_7;
 		L_7 = Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118((&___other0), 2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8995));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8996));
 		bool L_8;
 		L_8 = Vector4_Equals_m73FAA65A1A565EE28D6C9385603829894B7D4392_inline((&V_0), L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8996));
 		if (!L_8)
 		{
 			goto IL_0065;
 		}
 	}
 	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8997));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_9;
 		L_9 = Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118(__this, 3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8997));
 		V_0 = L_9;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8998));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_10;
 		L_10 = Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118((&___other0), 3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8998));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8999));
 		bool L_11;
 		L_11 = Vector4_Equals_m73FAA65A1A565EE28D6C9385603829894B7D4392_inline((&V_0), L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8999));
 		G_B5_0 = ((int32_t)(L_11));
 		goto IL_0066;
 	}
@@ -32032,20 +33092,38 @@ IL_0066:
 
 IL_0069:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9000));
 		bool L_12 = V_1;
 		return L_12;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_Equals_m25B95D8412B79CC7F8B34062BFAE662BD99578BE_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___other0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_Equals_m25B95D8412B79CC7F8B34062BFAE662BD99578BE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___other0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Quaternion_Equals_m25B95D8412B79CC7F8B34062BFAE662BD99578BE_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10406));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10407));
 	int32_t G_B5_0 = 0;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10408));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10409));
 		float* L_0 = (&__this->___x_0);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = ___other0;
 		float L_2 = L_1.___x_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10410));
 		bool L_3;
 		L_3 = Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9(L_0, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10410));
 		if (!L_3)
 		{
 			goto IL_004d;
@@ -32055,8 +33133,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_Equals_m25B95D841
 		float* L_4 = (&__this->___y_1);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5 = ___other0;
 		float L_6 = L_5.___y_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10411));
 		bool L_7;
 		L_7 = Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9(L_4, L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10411));
 		if (!L_7)
 		{
 			goto IL_004d;
@@ -32066,8 +33146,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_Equals_m25B95D841
 		float* L_8 = (&__this->___z_2);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9 = ___other0;
 		float L_10 = L_9.___z_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10412));
 		bool L_11;
 		L_11 = Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9(L_8, L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10412));
 		if (!L_11)
 		{
 			goto IL_004d;
@@ -32077,8 +33159,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_Equals_m25B95D841
 		float* L_12 = (&__this->___w_3);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13 = ___other0;
 		float L_14 = L_13.___w_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10413));
 		bool L_15;
 		L_15 = Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9(L_12, L_14, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10413));
 		G_B5_0 = ((int32_t)(L_15));
 		goto IL_004e;
 	}
@@ -32096,15 +33180,31 @@ IL_004e:
 
 IL_0051:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10414));
 		bool L_16 = V_0;
 		return L_16;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_Equals_mDF84D5ED14E018609C6A9C9BAE016C1B33BCFF4C_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___other0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_Equals_mDF84D5ED14E018609C6A9C9BAE016C1B33BCFF4C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___other0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_Equals_mDF84D5ED14E018609C6A9C9BAE016C1B33BCFF4C_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8580));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8581));
 	int32_t G_B3_0 = 0;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8582));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8583));
 		float L_0 = __this->___x_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___other0;
 		float L_2 = L_1.___x_0;
@@ -32134,29 +33234,53 @@ IL_0020:
 
 IL_0023:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8584));
 		bool L_6 = V_0;
 		return L_6;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2Int_Equals_m32811BA0576C096D5EB5C0CFD8231478F17229A6_inline (Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* __this, Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___other0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_Equals_m32811BA0576C096D5EB5C0CFD8231478F17229A6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___other0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2Int_Equals_m32811BA0576C096D5EB5C0CFD8231478F17229A6_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8817));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8818));
 	int32_t G_B3_0 = 0;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8819));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8820));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8821));
 		int32_t L_0;
 		L_0 = Vector2Int_get_x_mA2CACB1B6E6B5AD0CCC32B2CD2EDCE3ECEB50576_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8821));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8822));
 		int32_t L_1;
 		L_1 = Vector2Int_get_x_mA2CACB1B6E6B5AD0CCC32B2CD2EDCE3ECEB50576_inline((&___other0), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8822));
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
 		{
 			goto IL_0021;
 		}
 	}
 	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8823));
 		int32_t L_2;
 		L_2 = Vector2Int_get_y_m48454163ECF0B463FB5A16A0C4FC4B14DB0768B3_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8823));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8824));
 		int32_t L_3;
 		L_3 = Vector2Int_get_y_m48454163ECF0B463FB5A16A0C4FC4B14DB0768B3_inline((&___other0), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8824));
 		G_B3_0 = ((((int32_t)L_2) == ((int32_t)L_3))? 1 : 0);
 		goto IL_0022;
 	}
@@ -32174,15 +33298,31 @@ IL_0022:
 
 IL_0025:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8825));
 		bool L_4 = V_0;
 		return L_4;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_Equals_mEDEAF86793D229455BBF9BA5B30DDF438D6CABC1_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___other0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_Equals_mEDEAF86793D229455BBF9BA5B30DDF438D6CABC1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___other0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_Equals_mEDEAF86793D229455BBF9BA5B30DDF438D6CABC1_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9704));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9705));
 	int32_t G_B4_0 = 0;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9706));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9707));
 		float L_0 = __this->___x_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___other0;
 		float L_2 = L_1.___x_2;
@@ -32221,15 +33361,31 @@ IL_002e:
 
 IL_0031:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9708));
 		bool L_9 = V_0;
 		return L_9;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector4_Equals_m73FAA65A1A565EE28D6C9385603829894B7D4392_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___other0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_Equals_m73FAA65A1A565EE28D6C9385603829894B7D4392_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___other0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector4_Equals_m73FAA65A1A565EE28D6C9385603829894B7D4392_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9393));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9394));
 	int32_t G_B5_0 = 0;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9395));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9396));
 		float L_0 = __this->___x_1;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_1 = ___other0;
 		float L_2 = L_1.___x_1;
@@ -32277,14 +33433,29 @@ IL_003c:
 
 IL_003f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9397));
 		bool L_12 = V_0;
 		return L_12;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector2Int_get_x_mA2CACB1B6E6B5AD0CCC32B2CD2EDCE3ECEB50576_inline (Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* __this, const RuntimeMethod* method) 
 {
-	int32_t V_0 = 0;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_get_x_mA2CACB1B6E6B5AD0CCC32B2CD2EDCE3ECEB50576_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2Int_get_x_mA2CACB1B6E6B5AD0CCC32B2CD2EDCE3ECEB50576_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8757));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8758));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8759));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8760));
 		int32_t L_0 = __this->___m_X_0;
 		V_0 = L_0;
 		goto IL_000a;
@@ -32292,14 +33463,29 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector2Int_get_x_mA2CACB1
 
 IL_000a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8761));
 		int32_t L_1 = V_0;
 		return L_1;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector2Int_get_y_m48454163ECF0B463FB5A16A0C4FC4B14DB0768B3_inline (Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* __this, const RuntimeMethod* method) 
 {
-	int32_t V_0 = 0;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_get_y_m48454163ECF0B463FB5A16A0C4FC4B14DB0768B3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2Int_get_y_m48454163ECF0B463FB5A16A0C4FC4B14DB0768B3_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8767));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8768));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8769));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8770));
 		int32_t L_0 = __this->___m_Y_1;
 		V_0 = L_0;
 		goto IL_000a;
@@ -32307,6 +33493,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector2Int_get_y_m4845416
 
 IL_000a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8771));
 		int32_t L_1 = V_0;
 		return L_1;
 	}

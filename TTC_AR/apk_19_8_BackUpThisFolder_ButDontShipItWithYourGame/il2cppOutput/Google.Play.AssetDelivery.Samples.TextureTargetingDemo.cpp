@@ -111,6 +111,8 @@ struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 // Google.Play.AssetDelivery.Samples.TextureTargetingDemo.Scripts.TexturedSceneLoader/<DownloadAssetBundles>d__1
 struct U3CDownloadAssetBundlesU3Ed__1_t439CE0D0B1197FA9E856F03862B0DBEC9F8631FA;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsGoogle_Play_AssetDelivery[];
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo[];
 IL2CPP_EXTERN_C RuntimeClass* AssetDeliveryErrorCode_tBDD13D9D0AAB694759166DB6CFEA5786CE363ACA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
@@ -126,7 +128,27 @@ IL2CPP_EXTERN_C String_t* _stringLiteral84718C692649EC76487A2052D6166E3A3AA88D1C
 IL2CPP_EXTERN_C String_t* _stringLiteral84921AC18E88111CEDAE69629BBCBAE44DE8D976;
 IL2CPP_EXTERN_C String_t* _stringLiteralA8D1A02E9FD26A91CE6B763902C1B362F4697025;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlayAssetBundleRequest_get_AssetBundle_m0126C158B7D2388FAEF7801881B1F910AC03798C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlayAssetBundleRequest_get_IsDone_mCE97AAD66758C70BBFFD23951ECE3958C45287F9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TextureFormatDisplayer_Start_mF683E8BADF202BEDC40DF111603A18E2791DC342_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TextureFormatDisplayer__ctor_mFB3929E743648602E540213533AF05F1F88A6091_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TexturedSceneLoader_DownloadAssetBundles_m2B5E8C0C829D00E577C66195D2E40BD18A158282_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TexturedSceneLoader_Start_m38735D1AABB38F8A8BFBE7CDDCFA7D914EBA4F0E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TexturedSceneLoader__ctor_mED4DE167F6865F180AEC3FD17A0E647A590D5126_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CDownloadAssetBundlesU3Ed__1_MoveNext_m0C7C3625732044B167EBC32DD45E3D3E803CD506_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CDownloadAssetBundlesU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF1677AE45FE1D0BE4D21A19569282FFDE6F97E88_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CDownloadAssetBundlesU3Ed__1_System_Collections_IEnumerator_Reset_mBD9EB9BF93D631D23FFDE4E99E7A26D29B4ABB2F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CDownloadAssetBundlesU3Ed__1_System_Collections_IEnumerator_get_Current_m2041761243F7F952EA2C21669EF82E9DCF1DB156_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CDownloadAssetBundlesU3Ed__1_System_IDisposable_Dispose_mCF4E1634BEC11A426B981C88C7AE0593F85F2789_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CDownloadAssetBundlesU3Ed__1__ctor_m4AD5AF7D2C2006BF0034B1AA79001CF54ECECC14_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* PlayAssetBundleRequest_tF91045E772B64A769998917B0141A4C7EEF03A14_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* String_t_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TextureFormatDisplayer_tC8E07147F31AF04D2D37208C1C90C514D735CF7D_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TexturedSceneLoader_t52A11DEB5F014BA4E3F19B0AD3656FD96B7252D5_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* U3CDownloadAssetBundlesU3Ed__1_t439CE0D0B1197FA9E856F03862B0DBEC9F8631FA_0_0_0_var;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 
@@ -742,13 +764,31 @@ inline Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* Component_GetComponent_Ti
 // System.Void Google.Play.AssetDelivery.Samples.TextureTargetingDemo.Scripts.TexturedSceneLoader::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TexturedSceneLoader_Start_m38735D1AABB38F8A8BFBE7CDDCFA7D914EBA4F0E (TexturedSceneLoader_t52A11DEB5F014BA4E3F19B0AD3656FD96B7252D5* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TexturedSceneLoader_Start_m38735D1AABB38F8A8BFBE7CDDCFA7D914EBA4F0E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TexturedSceneLoader_t52A11DEB5F014BA4E3F19B0AD3656FD96B7252D5_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TexturedSceneLoader_Start_m38735D1AABB38F8A8BFBE7CDDCFA7D914EBA4F0E_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 1));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 2));
 		// StartCoroutine(DownloadAssetBundles());
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 3));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 4));
 		RuntimeObject* L_0;
 		L_0 = TexturedSceneLoader_DownloadAssetBundles_m2B5E8C0C829D00E577C66195D2E40BD18A158282(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 4));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 5));
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
 		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 5));
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 6));
 		return;
 	}
 }
@@ -758,9 +798,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TexturedSceneLoader_DownloadAs
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TexturedSceneLoader_DownloadAssetBundles_m2B5E8C0C829D00E577C66195D2E40BD18A158282_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CDownloadAssetBundlesU3Ed__1_t439CE0D0B1197FA9E856F03862B0DBEC9F8631FA_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TexturedSceneLoader_DownloadAssetBundles_m2B5E8C0C829D00E577C66195D2E40BD18A158282_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		U3CDownloadAssetBundlesU3Ed__1_t439CE0D0B1197FA9E856F03862B0DBEC9F8631FA* L_0 = (U3CDownloadAssetBundlesU3Ed__1_t439CE0D0B1197FA9E856F03862B0DBEC9F8631FA*)il2cpp_codegen_object_new(U3CDownloadAssetBundlesU3Ed__1_t439CE0D0B1197FA9E856F03862B0DBEC9F8631FA_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
@@ -775,6 +818,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TexturedSceneLoader_DownloadAs
 // System.Void Google.Play.AssetDelivery.Samples.TextureTargetingDemo.Scripts.TexturedSceneLoader::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TexturedSceneLoader__ctor_mED4DE167F6865F180AEC3FD17A0E647A590D5126 (TexturedSceneLoader_t52A11DEB5F014BA4E3F19B0AD3656FD96B7252D5* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TexturedSceneLoader__ctor_mED4DE167F6865F180AEC3FD17A0E647A590D5126_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TexturedSceneLoader__ctor_mED4DE167F6865F180AEC3FD17A0E647A590D5126_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -791,6 +842,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TexturedSceneLoader__ctor_mED4DE167F6865
 // System.Void Google.Play.AssetDelivery.Samples.TextureTargetingDemo.Scripts.TexturedSceneLoader/<DownloadAssetBundles>d__1::.ctor(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDownloadAssetBundlesU3Ed__1__ctor_m4AD5AF7D2C2006BF0034B1AA79001CF54ECECC14 (U3CDownloadAssetBundlesU3Ed__1_t439CE0D0B1197FA9E856F03862B0DBEC9F8631FA* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CDownloadAssetBundlesU3Ed__1__ctor_m4AD5AF7D2C2006BF0034B1AA79001CF54ECECC14_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CDownloadAssetBundlesU3Ed__1__ctor_m4AD5AF7D2C2006BF0034B1AA79001CF54ECECC14_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		int32_t L_0 = ___U3CU3E1__state0;
@@ -801,6 +860,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDownloadAssetBundlesU3Ed__1__ctor_m4A
 // System.Void Google.Play.AssetDelivery.Samples.TextureTargetingDemo.Scripts.TexturedSceneLoader/<DownloadAssetBundles>d__1::System.IDisposable.Dispose()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDownloadAssetBundlesU3Ed__1_System_IDisposable_Dispose_mCF4E1634BEC11A426B981C88C7AE0593F85F2789 (U3CDownloadAssetBundlesU3Ed__1_t439CE0D0B1197FA9E856F03862B0DBEC9F8631FA* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CDownloadAssetBundlesU3Ed__1_System_IDisposable_Dispose_mCF4E1634BEC11A426B981C88C7AE0593F85F2789_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CDownloadAssetBundlesU3Ed__1_System_IDisposable_Dispose_mCF4E1634BEC11A426B981C88C7AE0593F85F2789_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		return;
 	}
@@ -812,9 +879,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDownloadAssetBundlesU3Ed__1_MoveNext_
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AssetDeliveryErrorCode_tBDD13D9D0AAB694759166DB6CFEA5786CE363ACA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CDownloadAssetBundlesU3Ed__1_MoveNext_m0C7C3625732044B167EBC32DD45E3D3E803CD506_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CDownloadAssetBundlesU3Ed__1_t439CE0D0B1197FA9E856F03862B0DBEC9F8631FA_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1C7F48A460D635145D3632382421015C728BF6ED);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6C1DBB84F21D416A0B7817A4EC5A4E80D9CE7CD4);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7DB27BBD4795971EF12075BDA924D0B06FC05E84);
@@ -826,8 +897,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDownloadAssetBundlesU3Ed__1_MoveNext_
 	bool V_1 = false;
 	bool V_2 = false;
 	bool V_3 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CDownloadAssetBundlesU3Ed__1_MoveNext_m0C7C3625732044B167EBC32DD45E3D3E803CD506_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 7));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 8));
 	int32_t G_B13_0 = 0;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 9));
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
 		int32_t L_1 = V_0;
@@ -870,25 +946,38 @@ IL_0016:
 IL_0018:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 10));
 		// Debug.Log("Starting to retrieve AssetBundle");
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 11));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 12));
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral7DB27BBD4795971EF12075BDA924D0B06FC05E84, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 12));
 		// var sceneAssetBundleRequest = PlayAssetDelivery.RetrieveAssetBundleAsync("sceneassetbundle");
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 13));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 14));
 		PlayAssetBundleRequest_tF91045E772B64A769998917B0141A4C7EEF03A14* L_3;
 		L_3 = PlayAssetDelivery_RetrieveAssetBundleAsync_m09BD8950FA5F26CEAFD3F583CEB0E168F8793B37(_stringLiteral6C1DBB84F21D416A0B7817A4EC5A4E80D9CE7CD4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 14));
 		__this->___U3CsceneAssetBundleRequestU3E5__1_3 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsceneAssetBundleRequestU3E5__1_3), (void*)L_3);
 		// var textureAssetBundleRequest = PlayAssetDelivery.RetrieveAssetBundleAsync("textureassetbundle");
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 15));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 16));
 		PlayAssetBundleRequest_tF91045E772B64A769998917B0141A4C7EEF03A14* L_4;
 		L_4 = PlayAssetDelivery_RetrieveAssetBundleAsync_m09BD8950FA5F26CEAFD3F583CEB0E168F8793B37(_stringLiteral1C7F48A460D635145D3632382421015C728BF6ED, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 16));
 		__this->___U3CtextureAssetBundleRequestU3E5__2_4 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtextureAssetBundleRequestU3E5__2_4), (void*)L_4);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 17));
 		goto IL_0066;
 	}
 
 IL_004d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 18));
 		// yield return null;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 19));
 		__this->___U3CU3E2__current_1 = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)NULL);
 		__this->___U3CU3E1__state_0 = 1;
@@ -897,16 +986,21 @@ IL_004d:
 
 IL_005e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 20));
 		__this->___U3CU3E1__state_0 = (-1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 21));
 	}
 
 IL_0066:
 	{
 		// while (!sceneAssetBundleRequest.IsDone && !textureAssetBundleRequest.IsDone)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 22));
 		PlayAssetBundleRequest_tF91045E772B64A769998917B0141A4C7EEF03A14* L_5 = __this->___U3CsceneAssetBundleRequestU3E5__1_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 23));
 		NullCheck(L_5);
 		bool L_6;
 		L_6 = PlayAssetBundleRequest_get_IsDone_mCE97AAD66758C70BBFFD23951ECE3958C45287F9_inline(L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 23));
 		if (L_6)
 		{
 			goto IL_0083;
@@ -914,9 +1008,11 @@ IL_0066:
 	}
 	{
 		PlayAssetBundleRequest_tF91045E772B64A769998917B0141A4C7EEF03A14* L_7 = __this->___U3CtextureAssetBundleRequestU3E5__2_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 24));
 		NullCheck(L_7);
 		bool L_8;
 		L_8 = PlayAssetBundleRequest_get_IsDone_mCE97AAD66758C70BBFFD23951ECE3958C45287F9_inline(L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 24));
 		G_B13_0 = ((((int32_t)L_8) == ((int32_t)0))? 1 : 0);
 		goto IL_0084;
 	}
@@ -929,6 +1025,7 @@ IL_0083:
 IL_0084:
 	{
 		V_1 = (bool)G_B13_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 25));
 		bool L_9 = V_1;
 		if (L_9)
 		{
@@ -937,11 +1034,15 @@ IL_0084:
 	}
 	{
 		// if (sceneAssetBundleRequest.Error != AssetDeliveryErrorCode.NoError)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 26));
 		PlayAssetBundleRequest_tF91045E772B64A769998917B0141A4C7EEF03A14* L_10 = __this->___U3CsceneAssetBundleRequestU3E5__1_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 27));
 		NullCheck(L_10);
 		int32_t L_11;
 		L_11 = VirtualFuncInvoker0< int32_t >::Invoke(11 /* Google.Play.AssetDelivery.AssetDeliveryErrorCode Google.Play.AssetDelivery.PlayAssetBundleRequest::get_Error() */, L_10);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 27));
 		V_2 = (bool)((!(((uint32_t)L_11) <= ((uint32_t)0)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 28));
 		bool L_12 = V_2;
 		if (!L_12)
 		{
@@ -949,32 +1050,43 @@ IL_0084:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 29));
 		// Debug.LogErrorFormat("Couldn't load sceneassetbundle: {0}", sceneAssetBundleRequest.Error);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 30));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_13 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14 = L_13;
 		PlayAssetBundleRequest_tF91045E772B64A769998917B0141A4C7EEF03A14* L_15 = __this->___U3CsceneAssetBundleRequestU3E5__1_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 31));
 		NullCheck(L_15);
 		int32_t L_16;
 		L_16 = VirtualFuncInvoker0< int32_t >::Invoke(11 /* Google.Play.AssetDelivery.AssetDeliveryErrorCode Google.Play.AssetDelivery.PlayAssetBundleRequest::get_Error() */, L_15);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 31));
 		int32_t L_17 = L_16;
 		RuntimeObject* L_18 = Box(AssetDeliveryErrorCode_tBDD13D9D0AAB694759166DB6CFEA5786CE363ACA_il2cpp_TypeInfo_var, &L_17);
 		NullCheck(L_14);
 		ArrayElementTypeCheck (L_14, L_18);
 		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_18);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 32));
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogErrorFormat_m96690322C941D23A125E5769C9803606859A707C(_stringLiteral84921AC18E88111CEDAE69629BBCBAE44DE8D976, L_14, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 32));
 		// yield break;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 33));
 		return (bool)0;
 	}
 
 IL_00c1:
 	{
 		// if (textureAssetBundleRequest.Error != AssetDeliveryErrorCode.NoError)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 34));
 		PlayAssetBundleRequest_tF91045E772B64A769998917B0141A4C7EEF03A14* L_19 = __this->___U3CtextureAssetBundleRequestU3E5__2_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 35));
 		NullCheck(L_19);
 		int32_t L_20;
 		L_20 = VirtualFuncInvoker0< int32_t >::Invoke(11 /* Google.Play.AssetDelivery.AssetDeliveryErrorCode Google.Play.AssetDelivery.PlayAssetBundleRequest::get_Error() */, L_19);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 35));
 		V_3 = (bool)((!(((uint32_t)L_20) <= ((uint32_t)0)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 36));
 		bool L_21 = V_3;
 		if (!L_21)
 		{
@@ -982,50 +1094,74 @@ IL_00c1:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 37));
 		// Debug.LogErrorFormat("Couldn't load textureassetbundle: {0}", textureAssetBundleRequest.Error);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 38));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_22 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_23 = L_22;
 		PlayAssetBundleRequest_tF91045E772B64A769998917B0141A4C7EEF03A14* L_24 = __this->___U3CtextureAssetBundleRequestU3E5__2_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 39));
 		NullCheck(L_24);
 		int32_t L_25;
 		L_25 = VirtualFuncInvoker0< int32_t >::Invoke(11 /* Google.Play.AssetDelivery.AssetDeliveryErrorCode Google.Play.AssetDelivery.PlayAssetBundleRequest::get_Error() */, L_24);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 39));
 		int32_t L_26 = L_25;
 		RuntimeObject* L_27 = Box(AssetDeliveryErrorCode_tBDD13D9D0AAB694759166DB6CFEA5786CE363ACA_il2cpp_TypeInfo_var, &L_26);
 		NullCheck(L_23);
 		ArrayElementTypeCheck (L_23, L_27);
 		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_27);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 40));
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogErrorFormat_m96690322C941D23A125E5769C9803606859A707C(_stringLiteralA8D1A02E9FD26A91CE6B763902C1B362F4697025, L_23, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 40));
 		// yield break;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 41));
 		return (bool)0;
 	}
 
 IL_00fa:
 	{
 		// var sceneToLoad = sceneAssetBundleRequest.AssetBundle.GetAllScenePaths()[0];
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 42));
 		PlayAssetBundleRequest_tF91045E772B64A769998917B0141A4C7EEF03A14* L_28 = __this->___U3CsceneAssetBundleRequestU3E5__1_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 43));
 		NullCheck(L_28);
 		AssetBundle_tB38418819A49060CD738CB21541649340F082943* L_29;
 		L_29 = PlayAssetBundleRequest_get_AssetBundle_m0126C158B7D2388FAEF7801881B1F910AC03798C_inline(L_28, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 43));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 44));
 		NullCheck(L_29);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_30;
 		L_30 = AssetBundle_GetAllScenePaths_m75D1CD4415067D64A8265A7929B6FF76B91B62FE(L_29, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 44));
 		NullCheck(L_30);
 		int32_t L_31 = 0;
 		String_t* L_32 = (L_30)->GetAt(static_cast<il2cpp_array_size_t>(L_31));
 		__this->___U3CsceneToLoadU3E5__3_5 = L_32;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsceneToLoadU3E5__3_5), (void*)L_32);
 		// SceneManager.LoadScene(sceneToLoad);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 45));
 		String_t* L_33 = __this->___U3CsceneToLoadU3E5__3_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 46));
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(L_33, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 46));
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 47));
 		return (bool)0;
 	}
 }
 // System.Object Google.Play.AssetDelivery.Samples.TextureTargetingDemo.Scripts.TexturedSceneLoader/<DownloadAssetBundles>d__1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDownloadAssetBundlesU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF1677AE45FE1D0BE4D21A19569282FFDE6F97E88 (U3CDownloadAssetBundlesU3Ed__1_t439CE0D0B1197FA9E856F03862B0DBEC9F8631FA* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CDownloadAssetBundlesU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF1677AE45FE1D0BE4D21A19569282FFDE6F97E88_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CDownloadAssetBundlesU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF1677AE45FE1D0BE4D21A19569282FFDE6F97E88_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
@@ -1034,6 +1170,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDownloadAssetBundlesU3Ed__1
 // System.Void Google.Play.AssetDelivery.Samples.TextureTargetingDemo.Scripts.TexturedSceneLoader/<DownloadAssetBundles>d__1::System.Collections.IEnumerator.Reset()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDownloadAssetBundlesU3Ed__1_System_Collections_IEnumerator_Reset_mBD9EB9BF93D631D23FFDE4E99E7A26D29B4ABB2F (U3CDownloadAssetBundlesU3Ed__1_t439CE0D0B1197FA9E856F03862B0DBEC9F8631FA* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CDownloadAssetBundlesU3Ed__1_System_Collections_IEnumerator_Reset_mBD9EB9BF93D631D23FFDE4E99E7A26D29B4ABB2F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CDownloadAssetBundlesU3Ed__1_System_Collections_IEnumerator_Reset_mBD9EB9BF93D631D23FFDE4E99E7A26D29B4ABB2F_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -1044,6 +1188,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDownloadAssetBundlesU3Ed__1_System_Co
 // System.Object Google.Play.AssetDelivery.Samples.TextureTargetingDemo.Scripts.TexturedSceneLoader/<DownloadAssetBundles>d__1::System.Collections.IEnumerator.get_Current()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDownloadAssetBundlesU3Ed__1_System_Collections_IEnumerator_get_Current_m2041761243F7F952EA2C21669EF82E9DCF1DB156 (U3CDownloadAssetBundlesU3Ed__1_t439CE0D0B1197FA9E856F03862B0DBEC9F8631FA* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CDownloadAssetBundlesU3Ed__1_System_Collections_IEnumerator_get_Current_m2041761243F7F952EA2C21669EF82E9DCF1DB156_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CDownloadAssetBundlesU3Ed__1_System_Collections_IEnumerator_get_Current_m2041761243F7F952EA2C21669EF82E9DCF1DB156_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
@@ -1065,50 +1217,87 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureFormatDisplayer_Start_mF683E8BADF
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureFormatDisplayer_Start_mF683E8BADF202BEDC40DF111603A18E2791DC342_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureFormatDisplayer_tC8E07147F31AF04D2D37208C1C90C514D735CF7D_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureFormat_t87A73E4A3850D3410DC211676FC14B94226C1C1D_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral84718C692649EC76487A2052D6166E3A3AA88D1C);
 		s_Il2CppMethodInitialized = true;
 	}
 	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* V_0 = NULL;
 	String_t* V_1 = NULL;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TextureFormatDisplayer_Start_mF683E8BADF202BEDC40DF111603A18E2791DC342_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 48));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 49));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 50));
 		// var material = rendererWithMaterial.material;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 51));
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = __this->___rendererWithMaterial_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 52));
 		NullCheck(L_0);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1;
 		L_1 = Renderer_get_material_m5BA2A00816C4CC66580D4B2E409CF10718C15656(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 52));
 		V_0 = L_1;
 		// var text = string.Format("Texture is {0}", ((Texture2D)material.mainTexture).format);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 53));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 54));
 		NullCheck(L_2);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_3;
 		L_3 = Material_get_mainTexture_mC6C6B860B44321F0342AEFA0DD7702384334F37D(L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 54));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 55));
 		NullCheck(((Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)CastclassSealed((RuntimeObject*)L_3, Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var)));
 		int32_t L_4;
 		L_4 = Texture2D_get_format_mE39DD922F83CA1097383309278BB6F20636A7D9D(((Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)CastclassSealed((RuntimeObject*)L_3, Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 55));
 		int32_t L_5 = L_4;
 		RuntimeObject* L_6 = Box(TextureFormat_t87A73E4A3850D3410DC211676FC14B94226C1C1D_il2cpp_TypeInfo_var, &L_5);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 56));
 		String_t* L_7;
 		L_7 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral84718C692649EC76487A2052D6166E3A3AA88D1C, L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 56));
 		V_1 = L_7;
 		// GetComponent<Text>().text = text;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 57));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 58));
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8;
 		L_8 = Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888(__this, Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 58));
 		String_t* L_9 = V_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 59));
 		NullCheck(L_8);
 		VirtualActionInvoker1< String_t* >::Invoke(71 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_8, L_9);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 59));
 		// Debug.Log(text);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 60));
 		String_t* L_10 = V_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 61));
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 61));
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo + 62));
 		return;
 	}
 }
 // System.Void Google.Play.AssetDelivery.Samples.TextureTargetingDemo.Scripts.TextureFormatDisplayer::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureFormatDisplayer__ctor_mFB3929E743648602E540213533AF05F1F88A6091 (TextureFormatDisplayer_tC8E07147F31AF04D2D37208C1C90C514D735CF7D* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureFormatDisplayer__ctor_mFB3929E743648602E540213533AF05F1F88A6091_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TextureFormatDisplayer__ctor_mFB3929E743648602E540213533AF05F1F88A6091_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -1119,16 +1308,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureFormatDisplayer__ctor_mFB3929E743
 #endif
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PlayAssetBundleRequest_get_IsDone_mCE97AAD66758C70BBFFD23951ECE3958C45287F9_inline (PlayAssetBundleRequest_tF91045E772B64A769998917B0141A4C7EEF03A14* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayAssetBundleRequest_get_IsDone_mCE97AAD66758C70BBFFD23951ECE3958C45287F9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayAssetBundleRequest_tF91045E772B64A769998917B0141A4C7EEF03A14_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PlayAssetBundleRequest_get_IsDone_mCE97AAD66758C70BBFFD23951ECE3958C45287F9_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery + 27));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery + 28));
 	{
 		// public bool IsDone { get; protected set; }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery + 29));
 		bool L_0 = __this->___U3CIsDoneU3Ek__BackingField_2;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AssetBundle_tB38418819A49060CD738CB21541649340F082943* PlayAssetBundleRequest_get_AssetBundle_m0126C158B7D2388FAEF7801881B1F910AC03798C_inline (PlayAssetBundleRequest_tF91045E772B64A769998917B0141A4C7EEF03A14* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayAssetBundleRequest_get_AssetBundle_m0126C158B7D2388FAEF7801881B1F910AC03798C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayAssetBundleRequest_tF91045E772B64A769998917B0141A4C7EEF03A14_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PlayAssetBundleRequest_get_AssetBundle_m0126C158B7D2388FAEF7801881B1F910AC03798C_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery + 36));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery + 37));
 	{
 		// public AssetBundle AssetBundle { get; protected set; }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_AssetDelivery + 38));
 		AssetBundle_tB38418819A49060CD738CB21541649340F082943* L_0 = __this->___U3CAssetBundleU3Ek__BackingField_4;
 		return L_0;
 	}

@@ -64,7 +64,21 @@ struct UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1;
 // System.Void
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_SharedInternalsModule[];
 IL2CPP_EXTERN_C RuntimeClass* CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RequiredByNativeCodeAttribute__ctor_m255C8498736E931A7FBB4ABC292F08AE43D3B7BF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RequiredByNativeCodeAttribute__ctor_mBCF284DE0C8F84F211ACE616928BE47E29055920_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RequiredByNativeCodeAttribute_set_GenerateProxy_m63E4D29F468D0F254136F1596AEA106BD9EDC89B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RequiredByNativeCodeAttribute_set_Name_mF218FB9A613487B6377AF13FA3531E5D581F487B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RequiredByNativeCodeAttribute_set_Optional_m009CBA1D24E7F6EDAE1411CB6A7A01CB2A13B541_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEngineModuleAssembly__ctor_m3F8B023CF6E911C448EF9284C72F7BE92C6E72E3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityString_Format_m98A0629641086A1BE20BBF7F4EADDE3FE3877D85_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UsedByNativeCodeAttribute__ctor_m3C75236A1A2C7E364179A7DEDE9E53E7C3CE334D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UsedByNativeCodeAttribute__ctor_m7C07CF71798D5A94EB849622EA3883E547927D88_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UsedByNativeCodeAttribute_set_Name_mF39ED6FE6040AF11CDCAE417EE6FE7DD6BD67E99_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* String_t_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1_0_0_0_var;
 struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com;
 struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke;
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com;
@@ -463,6 +477,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribut
 // System.Void UnityEngine.UnityEngineModuleAssembly::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEngineModuleAssembly__ctor_m3F8B023CF6E911C448EF9284C72F7BE92C6E72E3 (UnityEngineModuleAssembly_tB6587DA5BA2569921894019758C4D69095012710* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEngineModuleAssembly__ctor_m3F8B023CF6E911C448EF9284C72F7BE92C6E72E3_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnityEngineModuleAssembly__ctor_m3F8B023CF6E911C448EF9284C72F7BE92C6E72E3_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
 		return;
@@ -483,26 +505,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnityString_Format_m98A0629641086A1
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityString_Format_m98A0629641086A1BE20BBF7F4EADDE3FE3877D85_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	String_t* V_0 = NULL;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___fmt0), (&___args1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnityString_Format_m98A0629641086A1BE20BBF7F4EADDE3FE3877D85_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 1));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 3));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 4));
 		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
 		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_0;
 		L_0 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 4));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 5));
 		NullCheck(L_0);
 		NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* L_1;
 		L_1 = VirtualFuncInvoker0< NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* >::Invoke(12 /* System.Globalization.NumberFormatInfo System.Globalization.CultureInfo::get_NumberFormat() */, L_0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 5));
 		String_t* L_2 = ___fmt0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = ___args1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 6));
 		String_t* L_4;
 		L_4 = String_Format_m447B585713E5EB3EBF5D9D0710706D01E8A56D75(L_1, L_2, L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 6));
 		V_0 = L_4;
 		goto IL_0015;
 	}
 
 IL_0015:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 7));
 		String_t* L_5 = V_0;
 		return L_5;
 	}
@@ -518,25 +555,74 @@ IL_0015:
 // System.Void UnityEngine.Scripting.UsedByNativeCodeAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute__ctor_m7C07CF71798D5A94EB849622EA3883E547927D88 (UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UsedByNativeCodeAttribute__ctor_m7C07CF71798D5A94EB849622EA3883E547927D88_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UsedByNativeCodeAttribute__ctor_m7C07CF71798D5A94EB849622EA3883E547927D88_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 8));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 9));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 10));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 11));
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 11));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 12));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 13));
 		return;
 	}
 }
 // System.Void UnityEngine.Scripting.UsedByNativeCodeAttribute::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute__ctor_m3C75236A1A2C7E364179A7DEDE9E53E7C3CE334D (UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1* __this, String_t* ___name0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UsedByNativeCodeAttribute__ctor_m3C75236A1A2C7E364179A7DEDE9E53E7C3CE334D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___name0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UsedByNativeCodeAttribute__ctor_m3C75236A1A2C7E364179A7DEDE9E53E7C3CE334D_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 14));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 15));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 16));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 17));
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 17));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 18));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 19));
 		String_t* L_0 = ___name0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 20));
 		UsedByNativeCodeAttribute_set_Name_mF39ED6FE6040AF11CDCAE417EE6FE7DD6BD67E99_inline(__this, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 20));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 21));
 		return;
 	}
 }
 // System.Void UnityEngine.Scripting.UsedByNativeCodeAttribute::set_Name(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute_set_Name_mF39ED6FE6040AF11CDCAE417EE6FE7DD6BD67E99 (UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1* __this, String_t* ___value0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UsedByNativeCodeAttribute_set_Name_mF39ED6FE6040AF11CDCAE417EE6FE7DD6BD67E99_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UsedByNativeCodeAttribute_set_Name_mF39ED6FE6040AF11CDCAE417EE6FE7DD6BD67E99_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 22));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 23));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 24));
 		String_t* L_0 = ___value0;
 		__this->___U3CNameU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField_0), (void*)L_0);
@@ -554,25 +640,74 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute_set_Name_mF39E
 // System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute__ctor_mBCF284DE0C8F84F211ACE616928BE47E29055920 (RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequiredByNativeCodeAttribute__ctor_mBCF284DE0C8F84F211ACE616928BE47E29055920_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RequiredByNativeCodeAttribute__ctor_mBCF284DE0C8F84F211ACE616928BE47E29055920_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 25));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 26));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 27));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 28));
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 28));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 29));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 30));
 		return;
 	}
 }
 // System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute__ctor_m255C8498736E931A7FBB4ABC292F08AE43D3B7BF (RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA* __this, String_t* ___name0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequiredByNativeCodeAttribute__ctor_m255C8498736E931A7FBB4ABC292F08AE43D3B7BF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___name0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RequiredByNativeCodeAttribute__ctor_m255C8498736E931A7FBB4ABC292F08AE43D3B7BF_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 31));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 32));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 33));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 34));
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 34));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 35));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 36));
 		String_t* L_0 = ___name0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 37));
 		RequiredByNativeCodeAttribute_set_Name_mF218FB9A613487B6377AF13FA3531E5D581F487B_inline(__this, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 37));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 38));
 		return;
 	}
 }
 // System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::set_Name(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute_set_Name_mF218FB9A613487B6377AF13FA3531E5D581F487B (RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA* __this, String_t* ___value0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequiredByNativeCodeAttribute_set_Name_mF218FB9A613487B6377AF13FA3531E5D581F487B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RequiredByNativeCodeAttribute_set_Name_mF218FB9A613487B6377AF13FA3531E5D581F487B_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 39));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 40));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 41));
 		String_t* L_0 = ___value0;
 		__this->___U3CNameU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField_0), (void*)L_0);
@@ -582,7 +717,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute_set_Name_m
 // System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::set_Optional(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute_set_Optional_m009CBA1D24E7F6EDAE1411CB6A7A01CB2A13B541 (RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA* __this, bool ___value0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequiredByNativeCodeAttribute_set_Optional_m009CBA1D24E7F6EDAE1411CB6A7A01CB2A13B541_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RequiredByNativeCodeAttribute_set_Optional_m009CBA1D24E7F6EDAE1411CB6A7A01CB2A13B541_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 42));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 43));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 44));
 		bool L_0 = ___value0;
 		__this->___U3COptionalU3Ek__BackingField_1 = L_0;
 		return;
@@ -591,7 +739,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute_set_Option
 // System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::set_GenerateProxy(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute_set_GenerateProxy_m63E4D29F468D0F254136F1596AEA106BD9EDC89B (RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA* __this, bool ___value0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequiredByNativeCodeAttribute_set_GenerateProxy_m63E4D29F468D0F254136F1596AEA106BD9EDC89B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RequiredByNativeCodeAttribute_set_GenerateProxy_m63E4D29F468D0F254136F1596AEA106BD9EDC89B_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 45));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 46));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 47));
 		bool L_0 = ___value0;
 		__this->___U3CGenerateProxyU3Ek__BackingField_2 = L_0;
 		return;
@@ -602,7 +763,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute_set_Genera
 #endif
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute_set_Name_mF39ED6FE6040AF11CDCAE417EE6FE7DD6BD67E99_inline (UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1* __this, String_t* ___value0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UsedByNativeCodeAttribute_set_Name_mF39ED6FE6040AF11CDCAE417EE6FE7DD6BD67E99_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UsedByNativeCodeAttribute_t3FE9A7CDCC6A3A4122D8BF44F1D0A37BB38894C1_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UsedByNativeCodeAttribute_set_Name_mF39ED6FE6040AF11CDCAE417EE6FE7DD6BD67E99_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 22));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 23));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 24));
 		String_t* L_0 = ___value0;
 		__this->___U3CNameU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField_0), (void*)L_0);
@@ -611,7 +785,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UsedByNativeCodeAttribute_se
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequiredByNativeCodeAttribute_set_Name_mF218FB9A613487B6377AF13FA3531E5D581F487B_inline (RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA* __this, String_t* ___value0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequiredByNativeCodeAttribute_set_Name_mF218FB9A613487B6377AF13FA3531E5D581F487B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RequiredByNativeCodeAttribute_set_Name_mF218FB9A613487B6377AF13FA3531E5D581F487B_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 39));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 40));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SharedInternalsModule + 41));
 		String_t* L_0 = ___value0;
 		__this->___U3CNameU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField_0), (void*)L_0);

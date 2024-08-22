@@ -41,13 +41,26 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E;
 // System.Void
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule[];
 IL2CPP_EXTERN_C RuntimeClass* DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral3781CFEEF925855A4B7284E1783A7D715A6333F6;
 IL2CPP_EXTERN_C String_t* _stringLiteral7332B675802A1BF6F3B744C748D24F45B779C484;
+IL2CPP_EXTERN_C const RuntimeMethod* DownloadHandlerAssetBundle_CreateCached_m2223962440CA598D8360BBC6B0C7AB57DAA71C32_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DownloadHandlerAssetBundle_GetContent_m9E279B7987A8ADAB0D0B441BAB8C5A61C7DEB7C4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* DownloadHandlerAssetBundle_GetText_m8E10F95D9293C3406521AD495600762CEC2E88DC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DownloadHandlerAssetBundle_InternalCreateAssetBundleCached_m31658EBFF60F6E044DEF618E94332377959B2850_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DownloadHandlerAssetBundle_InternalCreateAssetBundle_m563CE0AFADE34C6EC1DDFE3B548880E0194968B0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DownloadHandlerAssetBundle__ctor_m48C37228D1A7F6B0CE2E3D1B65F49FE34DA4069F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DownloadHandlerAssetBundle__ctor_mB0E3A11A3124CD8FBA475FC66E7459C78BD003A5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* DownloadHandler_GetCheckedDownloader_TisDownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_m4E114F67753B734739AF1710AE5558A15915600E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityWebRequestAssetBundle_GetAssetBundle_m1701951B58D909D4FE4C62B86F4BF86C101DAB6B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityWebRequestAssetBundle_GetAssetBundle_m40F278316325A44A7A89AAB3B13EA7BED09B0D13_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityWebRequestAssetBundle_GetAssetBundle_mA08565578A5E7A07140D4C6327FD9B51E14D99F9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* AssetBundle_tB38418819A49060CD738CB21541649340F082943_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_0_0_0_var;
 struct CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804_marshaled_com;
 struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_com;
 struct Exception_t_marshaled_com;
@@ -466,17 +479,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AssetBundle_tB38418819A49060CD738CB2154164934
 // UnityEngine.Networking.UnityWebRequest UnityEngine.Networking.UnityWebRequestAssetBundle::GetAssetBundle(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* UnityWebRequestAssetBundle_GetAssetBundle_mA08565578A5E7A07140D4C6327FD9B51E14D99F9 (String_t* ___uri0, const RuntimeMethod* method) 
 {
-	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* V_0 = NULL;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityWebRequestAssetBundle_GetAssetBundle_mA08565578A5E7A07140D4C6327FD9B51E14D99F9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* V_0 = NULL;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___uri0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnityWebRequestAssetBundle_GetAssetBundle_mA08565578A5E7A07140D4C6327FD9B51E14D99F9_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 1));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 3));
 		String_t* L_0 = ___uri0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 4));
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_1;
 		L_1 = UnityWebRequestAssetBundle_GetAssetBundle_m1701951B58D909D4FE4C62B86F4BF86C101DAB6B(L_0, 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 4));
 		V_0 = L_1;
 		goto IL_000b;
 	}
 
 IL_000b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 5));
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_2 = V_0;
 		return L_2;
 	}
@@ -488,23 +517,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB0
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityWebRequestAssetBundle_GetAssetBundle_m1701951B58D909D4FE4C62B86F4BF86C101DAB6B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3781CFEEF925855A4B7284E1783A7D715A6333F6);
 		s_Il2CppMethodInitialized = true;
 	}
 	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* V_0 = NULL;
 	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* V_1 = NULL;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___uri0), (&___crc1));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnityWebRequestAssetBundle_GetAssetBundle_m1701951B58D909D4FE4C62B86F4BF86C101DAB6B_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 6));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 7));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 8));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 9));
 		String_t* L_0 = ___uri0;
 		String_t* L_1 = ___uri0;
 		uint32_t L_2 = ___crc1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 10));
 		DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* L_3 = (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C*)il2cpp_codegen_object_new(DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_il2cpp_TypeInfo_var);
 		NullCheck(L_3);
 		DownloadHandlerAssetBundle__ctor_m48C37228D1A7F6B0CE2E3D1B65F49FE34DA4069F(L_3, L_1, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 10));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 11));
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_4 = (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*)il2cpp_codegen_object_new(UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_il2cpp_TypeInfo_var);
 		NullCheck(L_4);
 		UnityWebRequest__ctor_m3798CB7D0BE685F2520AF1BBF83B523BBDD7980A(L_4, L_0, _stringLiteral3781CFEEF925855A4B7284E1783A7D715A6333F6, L_3, (UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 11));
 		V_0 = L_4;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 12));
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_5 = V_0;
 		V_1 = L_5;
 		goto IL_0019;
@@ -512,6 +555,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB0
 
 IL_0019:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 13));
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_6 = V_1;
 		return L_6;
 	}
@@ -523,24 +567,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB0
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityWebRequestAssetBundle_GetAssetBundle_m40F278316325A44A7A89AAB3B13EA7BED09B0D13_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3781CFEEF925855A4B7284E1783A7D715A6333F6);
 		s_Il2CppMethodInitialized = true;
 	}
 	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* V_0 = NULL;
 	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* V_1 = NULL;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___uri0), (&___cachedAssetBundle1), (&___crc2));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnityWebRequestAssetBundle_GetAssetBundle_m40F278316325A44A7A89AAB3B13EA7BED09B0D13_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 14));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 15));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 16));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 17));
 		String_t* L_0 = ___uri0;
 		String_t* L_1 = ___uri0;
 		CachedAssetBundle_t5C0C1D8D8AAF7DDC3D3CF7D81BBF581A89819E91 L_2 = ___cachedAssetBundle1;
 		uint32_t L_3 = ___crc2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 18));
 		DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* L_4 = (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C*)il2cpp_codegen_object_new(DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_il2cpp_TypeInfo_var);
 		NullCheck(L_4);
 		DownloadHandlerAssetBundle__ctor_mB0E3A11A3124CD8FBA475FC66E7459C78BD003A5(L_4, L_1, L_2, L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 18));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 19));
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_5 = (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*)il2cpp_codegen_object_new(UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_il2cpp_TypeInfo_var);
 		NullCheck(L_5);
 		UnityWebRequest__ctor_m3798CB7D0BE685F2520AF1BBF83B523BBDD7980A(L_5, L_0, _stringLiteral3781CFEEF925855A4B7284E1783A7D715A6333F6, L_4, (UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 19));
 		V_0 = L_5;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 20));
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_6 = V_0;
 		V_1 = L_6;
 		goto IL_001a;
@@ -548,6 +606,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB0
 
 IL_001a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 21));
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_7 = V_1;
 		return L_7;
 	}
@@ -605,6 +664,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DownloadHandlerAssetBundle_Create_mA
 // System.IntPtr UnityEngine.Networking.DownloadHandlerAssetBundle::CreateCached(UnityEngine.Networking.DownloadHandlerAssetBundle,System.String,System.String,UnityEngine.Hash128,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DownloadHandlerAssetBundle_CreateCached_m2223962440CA598D8360BBC6B0C7AB57DAA71C32 (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* ___obj0, String_t* ___url1, String_t* ___name2, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 ___hash3, uint32_t ___crc4, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerAssetBundle_CreateCached_m2223962440CA598D8360BBC6B0C7AB57DAA71C32_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DownloadHandlerAssetBundle_CreateCached_m2223962440CA598D8360BBC6B0C7AB57DAA71C32_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* L_0 = ___obj0;
 		String_t* L_1 = ___url1;
@@ -618,62 +685,155 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DownloadHandlerAssetBundle_CreateCac
 // System.Void UnityEngine.Networking.DownloadHandlerAssetBundle::InternalCreateAssetBundle(System.String,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAssetBundle_InternalCreateAssetBundle_m563CE0AFADE34C6EC1DDFE3B548880E0194968B0 (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* __this, String_t* ___url0, uint32_t ___crc1, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerAssetBundle_InternalCreateAssetBundle_m563CE0AFADE34C6EC1DDFE3B548880E0194968B0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___url0), (&___crc1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DownloadHandlerAssetBundle_InternalCreateAssetBundle_m563CE0AFADE34C6EC1DDFE3B548880E0194968B0_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 22));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 23));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 24));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 25));
 		String_t* L_0 = ___url0;
 		uint32_t L_1 = ___crc1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 26));
 		intptr_t L_2;
 		L_2 = DownloadHandlerAssetBundle_Create_mAE1EAD7D5059AB28C1271055B8010DC7121E61C6(__this, L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 26));
 		((DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB*)__this)->___m_Ptr_0 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 27));
 		return;
 	}
 }
 // System.Void UnityEngine.Networking.DownloadHandlerAssetBundle::InternalCreateAssetBundleCached(System.String,System.String,UnityEngine.Hash128,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAssetBundle_InternalCreateAssetBundleCached_m31658EBFF60F6E044DEF618E94332377959B2850 (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* __this, String_t* ___url0, String_t* ___name1, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 ___hash2, uint32_t ___crc3, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerAssetBundle_InternalCreateAssetBundleCached_m31658EBFF60F6E044DEF618E94332377959B2850_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___url0), (&___name1), (&___hash2), (&___crc3));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DownloadHandlerAssetBundle_InternalCreateAssetBundleCached_m31658EBFF60F6E044DEF618E94332377959B2850_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 28));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 29));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 30));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 31));
 		String_t* L_0 = ___url0;
 		String_t* L_1 = ___name1;
 		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_2 = ___hash2;
 		uint32_t L_3 = ___crc3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 32));
 		intptr_t L_4;
 		L_4 = DownloadHandlerAssetBundle_CreateCached_m2223962440CA598D8360BBC6B0C7AB57DAA71C32(__this, L_0, L_1, L_2, L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 32));
 		((DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB*)__this)->___m_Ptr_0 = L_4;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 33));
 		return;
 	}
 }
 // System.Void UnityEngine.Networking.DownloadHandlerAssetBundle::.ctor(System.String,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAssetBundle__ctor_m48C37228D1A7F6B0CE2E3D1B65F49FE34DA4069F (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* __this, String_t* ___url0, uint32_t ___crc1, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerAssetBundle__ctor_m48C37228D1A7F6B0CE2E3D1B65F49FE34DA4069F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___url0), (&___crc1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DownloadHandlerAssetBundle__ctor_m48C37228D1A7F6B0CE2E3D1B65F49FE34DA4069F_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 34));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 35));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 36));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 37));
 		DownloadHandler__ctor_m833275AC5FCAC0BFB4F2D5C1C0C7FD76416CE496(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 37));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 38));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 39));
 		String_t* L_0 = ___url0;
 		uint32_t L_1 = ___crc1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 40));
 		DownloadHandlerAssetBundle_InternalCreateAssetBundle_m563CE0AFADE34C6EC1DDFE3B548880E0194968B0(__this, L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 40));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 41));
 		return;
 	}
 }
 // System.Void UnityEngine.Networking.DownloadHandlerAssetBundle::.ctor(System.String,UnityEngine.CachedAssetBundle,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAssetBundle__ctor_mB0E3A11A3124CD8FBA475FC66E7459C78BD003A5 (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* __this, String_t* ___url0, CachedAssetBundle_t5C0C1D8D8AAF7DDC3D3CF7D81BBF581A89819E91 ___cachedBundle1, uint32_t ___crc2, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerAssetBundle__ctor_mB0E3A11A3124CD8FBA475FC66E7459C78BD003A5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___url0), (&___cachedBundle1), (&___crc2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DownloadHandlerAssetBundle__ctor_mB0E3A11A3124CD8FBA475FC66E7459C78BD003A5_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 42));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 43));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 44));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 45));
 		DownloadHandler__ctor_m833275AC5FCAC0BFB4F2D5C1C0C7FD76416CE496(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 45));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 46));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 47));
 		String_t* L_0 = ___url0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 48));
 		String_t* L_1;
 		L_1 = CachedAssetBundle_get_name_m07DF67334A1C4F36262498F4E47AD33525A13C5F((&___cachedBundle1), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 48));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 49));
 		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_2;
 		L_2 = CachedAssetBundle_get_hash_mE0D311588D701E6E0D68ADE21DB6CB8FFC0E6803((&___cachedBundle1), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 49));
 		uint32_t L_3 = ___crc2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 50));
 		DownloadHandlerAssetBundle_InternalCreateAssetBundleCached_m31658EBFF60F6E044DEF618E94332377959B2850(__this, L_0, L_1, L_2, L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 50));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 51));
 		return;
 	}
 }
 // System.String UnityEngine.Networking.DownloadHandlerAssetBundle::GetText()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DownloadHandlerAssetBundle_GetText_m8E10F95D9293C3406521AD495600762CEC2E88DC (DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerAssetBundle_GetText_m8E10F95D9293C3406521AD495600762CEC2E88DC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DownloadHandlerAssetBundle_GetText_m8E10F95D9293C3406521AD495600762CEC2E88DC_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 52));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 53));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 54));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 55));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 56));
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
 		NotSupportedException__ctor_mE174750CF0247BBB47544FFD71D66BB89630945B(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral7332B675802A1BF6F3B744C748D24F45B779C484)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 56));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DownloadHandlerAssetBundle_GetText_m8E10F95D9293C3406521AD495600762CEC2E88DC_RuntimeMethod_var)));
 	}
 }
@@ -722,23 +882,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AssetBundle_tB38418819A49060CD738CB2154164934
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AssetBundle_tB38418819A49060CD738CB21541649340F082943_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerAssetBundle_GetContent_m9E279B7987A8ADAB0D0B441BAB8C5A61C7DEB7C4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandler_GetCheckedDownloader_TisDownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_m4E114F67753B734739AF1710AE5558A15915600E_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	AssetBundle_tB38418819A49060CD738CB21541649340F082943* V_0 = NULL;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___www0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DownloadHandlerAssetBundle_GetContent_m9E279B7987A8ADAB0D0B441BAB8C5A61C7DEB7C4_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 57));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 58));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 59));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 60));
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_0 = ___www0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 61));
 		DownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C* L_1;
 		L_1 = DownloadHandler_GetCheckedDownloader_TisDownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_m4E114F67753B734739AF1710AE5558A15915600E(L_0, DownloadHandler_GetCheckedDownloader_TisDownloadHandlerAssetBundle_tCD9D8BA067912469251677D16DFCADD13CAD510C_m4E114F67753B734739AF1710AE5558A15915600E_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 61));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 62));
 		NullCheck(L_1);
 		AssetBundle_tB38418819A49060CD738CB21541649340F082943* L_2;
 		L_2 = DownloadHandlerAssetBundle_get_assetBundle_m9D07F738F7014C26AF2B7FD89132FD1CB5DDE0FE(L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 62));
 		V_0 = L_2;
 		goto IL_000f;
 	}
 
 IL_000f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityWebRequestAssetBundleModule + 63));
 		AssetBundle_tB38418819A49060CD738CB21541649340F082943* L_3 = V_0;
 		return L_3;
 	}

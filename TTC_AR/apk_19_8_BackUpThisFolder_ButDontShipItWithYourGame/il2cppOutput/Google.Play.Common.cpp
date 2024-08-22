@@ -152,6 +152,8 @@ struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 // UnityEngine.RectTransform/ReapplyDrivenProperties
 struct ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsGoogle_Play_Common[];
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CoreModule[];
 IL2CPP_EXTERN_C RuntimeClass* AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
@@ -174,9 +176,70 @@ IL2CPP_EXTERN_C String_t* _stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m56775E1085C53732A0C2D919F000176C7BC11C3D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LoadingBar_ApplyBorderWidth_mD3BDA848463EF26D8D29A4ED37E4BDD749ACEC5A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LoadingBar_FillUntilDone_m605B393DF242B4B0B817F69F34F12F87ADAE9121_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LoadingBar_SetProgress_m993F37353EB1287A71FDA8EA813E06B6CC3F92D9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LoadingBar_Update_mD250779416E913767A37A3B0307ED28BDF9E6DEC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LoadingBar__ctor_m9AB9E03A23849BC7311DA9AB09BF93782D9D4A4C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LoadingScreen_AttemptAssetBundleDownload_m6EE1DEC7C5F40C6E3194B6A12176D9679699C977_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LoadingScreen_AttemptAssetBundleDownloadsCo_mA64D96E40D7E7183DF7CF52EF64B991B012E3A1B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LoadingScreen_ButtonEventRetryDownload_m267CAF97BE25E762BFDA2593F43F2D1D4E686BC6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LoadingScreen_GetAssetBundle_m705702E899FB42C85DC9A3773C3754356FCEB7F6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LoadingScreen_HideRetryButton_mE1E748695CF010FBF809E8601C97805772E554E8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LoadingScreen_IsNetworkError_m3E912F67E222160D0D9841947DF95D22C9438BE7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LoadingScreen_ShowRetryButton_m4466BD4182CA104BEF80CD93E30222423E03C570_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LoadingScreen_StartAssetBundleDownload_m72274F60A893ECC9BD88DD43ED4EEC9650C7948A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LoadingScreen_Start_m7D161169ECA0C67241F2C01898F8D482C873727B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LoadingScreen__ctor_mC331C36679F6FE3DBA0FE08648D8F64C23041D16_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ScrollingFillAnimator_LazyInit_m501006080A45A9DD44AF50A84855EFF1870257FA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ScrollingFillAnimator_ScaleUvs_m4C2AAF8436112262FC506D129AB03E2528349EFE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ScrollingFillAnimator_ScrollUvs_m884B7515FDB7160E3A90229FCD9AF0F2D3306682_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ScrollingFillAnimator_Update_mE44FC9AF463A45F53708F30A3E67EACB751EA2D7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ScrollingFillAnimator__ctor_m5E62435BC4335A58290C864ADE13BA1E06860145_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CAttemptAssetBundleDownloadsCoU3Ed__11_MoveNext_m4DCAAB8359E74121B9E85DD8D81E2334E3B952E8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CAttemptAssetBundleDownloadsCoU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7711D6D016A7EC23D134CA78E7F4A07B7454B94D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CAttemptAssetBundleDownloadsCoU3Ed__11_System_Collections_IEnumerator_Reset_m429A35953FFD9B4B8FD4FDDFB18B89FA55CA185C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CAttemptAssetBundleDownloadsCoU3Ed__11_System_Collections_IEnumerator_get_Current_mFDDF2BA18BBC7F6AE0B7AD348A80957118C3B1B5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CAttemptAssetBundleDownloadsCoU3Ed__11_System_IDisposable_Dispose_mE2831F3488CBFABB8A77C6446575EC50CE19EADF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CAttemptAssetBundleDownloadsCoU3Ed__11__ctor_mBC09BF358BA2B5FE77B62F6421808088D3242F18_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CFillUntilDoneU3Ed__12_MoveNext_m6B7DB4BCD18CDB6295B2678A0DCBACB47AF899A7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CFillUntilDoneU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA14C65BD2F8B82DDFEA73BF4BD0189DD4E91AF1F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CFillUntilDoneU3Ed__12_System_Collections_IEnumerator_Reset_mA72123F9EC1FE7C4556B6779AE18EB8D97A3A7AF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CFillUntilDoneU3Ed__12_System_Collections_IEnumerator_get_Current_mB9959B8394D187C1C49CD4EDCB1FFABAB20AF78A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CFillUntilDoneU3Ed__12_System_IDisposable_Dispose_mD999DEC59E3F7AE9AB5CDED6643EA42CC7F912E7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CFillUntilDoneU3Ed__12__ctor_m717F76CBC042CB18A9EF71F73DFA0F110C411337_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CGetAssetBundleU3Ed__12_MoveNext_mC87EEE4F598A38D4B31308CC46E0E45285C055CB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CGetAssetBundleU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mED14706F6552BFA6CDAC1B8799B80728A6A1E428_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CGetAssetBundleU3Ed__12_System_Collections_IEnumerator_Reset_m9482DAC75D6CF9159AB69C07CE90E389BBC1200D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CGetAssetBundleU3Ed__12_System_Collections_IEnumerator_get_Current_mD2C7EDBE30CE7864B9DF6528AF80225E0F1AF8CF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CGetAssetBundleU3Ed__12_System_IDisposable_Dispose_m9D76E7F6C16343BC07BE72E0580F8F3D375A6732_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CGetAssetBundleU3Ed__12__ctor_m26F2BC8913AECFB4EED7D3F225653D21EF1D0AD5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityPlayerHelper_GetCurrentActivity_mA09053014AEE0D89580AB91CCB54123FDCD23000_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* VoidResult__ctor_m226B8B8194699C238D70445A700FCBEA4C82699A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* LoadingBar_t499215F28A93E9B219B9BF523B928A2A271B67C7_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* ScrollingFillAnimator_tB2E4FC8D635F7C3FD423116A5EB2C4B34363DACA_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* U3CAttemptAssetBundleDownloadsCoU3Ed__11_tA5C52C95C4A7679A2150373D7CE1E0A6C97D0B3C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* U3CFillUntilDoneU3Ed__12_t2D9DB4940E0BDFD0FB705189942416DC8F4BBCE0_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* U3CGetAssetBundleU3Ed__12_t2DA96A0797FB1FB643EEDA22A36ED90D5B1F2478_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var;
 struct CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804_marshaled_com;
 struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_com;
 struct Exception_t_marshaled_com;
@@ -1361,20 +1424,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaObject_t8FFB930F335C1178405B82AC2B
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityPlayerHelper_GetCurrentActivity_mA09053014AEE0D89580AB91CCB54123FDCD23000_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9);
 		s_Il2CppMethodInitialized = true;
 	}
 	AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* V_0 = NULL;
 	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* V_1 = NULL;
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnityPlayerHelper_GetCurrentActivity_mA09053014AEE0D89580AB91CCB54123FDCD23000_RuntimeMethod_var, NULL, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 54));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 55));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 56));
 		// using (var unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 57));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 58));
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_0 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)il2cpp_codegen_object_new(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389(L_0, _stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 58));
 		V_0 = L_0;
 	}
 	{
@@ -1383,7 +1457,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaObject_t8FFB930F335C1178405B82AC2B
 
 FINALLY_001b:
 			{// begin finally (depth: 1)
+				STORE_TRY_ID(methodExecutionContext, -1);
 				{
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 62));
 					AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_1 = V_0;
 					if (!L_1)
 					{
@@ -1392,23 +1468,31 @@ FINALLY_001b:
 				}
 				{
 					AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_2 = V_0;
+					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 63));
 					NullCheck(L_2);
 					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_2);
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 63));
 				}
 
 IL_0025:
 				{
+					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 64));
 					return;
 				}
 			}// end finally (depth: 1)
 		});
 		try
 		{// begin try (depth: 1)
+			STORE_TRY_ID(methodExecutionContext, 0);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 59));
 			// return unityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 60));
 			AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_3 = V_0;
+			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 61));
 			NullCheck(L_3);
 			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_4;
 			L_4 = AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD(L_3, _stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9, AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var);
+			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 61));
 			V_1 = L_4;
 			goto IL_0026;
 		}// end try (depth: 1)
@@ -1421,6 +1505,7 @@ IL_0025:
 IL_0026:
 	{
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 65));
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_5 = V_1;
 		return L_5;
 	}
@@ -1436,6 +1521,14 @@ IL_0026:
 // System.Void Google.Play.Common.VoidResult::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoidResult__ctor_m226B8B8194699C238D70445A700FCBEA4C82699A (VoidResult_t1A32C3292547F4C79A9ADAC564DBDFAC61F65DF8* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VoidResult__ctor_m226B8B8194699C238D70445A700FCBEA4C82699A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VoidResult__ctor_m226B8B8194699C238D70445A700FCBEA4C82699A_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -1452,11 +1545,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoidResult__ctor_m226B8B8194699C238D7044
 // System.Void Google.Play.Common.LoadingScreen.LoadingBar::Update()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadingBar_Update_mD250779416E913767A37A3B0307ED28BDF9E6DEC (LoadingBar_t499215F28A93E9B219B9BF523B928A2A271B67C7* __this, const RuntimeMethod* method) 
 {
-	bool V_0 = false;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingBar_Update_mD250779416E913767A37A3B0307ED28BDF9E6DEC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingBar_t499215F28A93E9B219B9BF523B928A2A271B67C7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LoadingBar_Update_mD250779416E913767A37A3B0307ED28BDF9E6DEC_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 66));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 67));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 68));
 		// if (ResizeAutomatically)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 69));
 		bool L_0 = __this->___ResizeAutomatically_6;
 		V_0 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 70));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -1464,75 +1572,139 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadingBar_Update_mD250779416E913767A37A
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 71));
 		// ApplyBorderWidth();
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 72));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 73));
 		LoadingBar_ApplyBorderWidth_mD3BDA848463EF26D8D29A4ED37E4BDD749ACEC5A(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 73));
 		// SetProgress(Progress);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 74));
 		float L_2 = __this->___Progress_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 75));
 		LoadingBar_SetProgress_m993F37353EB1287A71FDA8EA813E06B6CC3F92D9(__this, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 75));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 76));
 	}
 
 IL_0021:
 	{
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 77));
 		return;
 	}
 }
 // System.Void Google.Play.Common.LoadingScreen.LoadingBar::ApplyBorderWidth()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadingBar_ApplyBorderWidth_mD3BDA848463EF26D8D29A4ED37E4BDD749ACEC5A (LoadingBar_t499215F28A93E9B219B9BF523B928A2A271B67C7* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingBar_ApplyBorderWidth_mD3BDA848463EF26D8D29A4ED37E4BDD749ACEC5A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingBar_t499215F28A93E9B219B9BF523B928A2A271B67C7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LoadingBar_ApplyBorderWidth_mD3BDA848463EF26D8D29A4ED37E4BDD749ACEC5A_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 78));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 79));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 80));
 		// Outline.anchorMin = Vector3.zero;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 81));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___Outline_9;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 82));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 82));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 83));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
 		L_2 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 83));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 84));
 		NullCheck(L_0);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_0, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 84));
 		// Outline.anchorMax = Vector3.one;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 85));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = __this->___Outline_9;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 86));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 86));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 87));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5;
 		L_5 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 87));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 88));
 		NullCheck(L_3);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_3, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 88));
 		// Outline.sizeDelta = Vector2.one * (OutlineWidth + InnerBorderWidth);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 89));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6 = __this->___Outline_9;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 90));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
 		L_7 = Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 90));
 		float L_8 = __this->___OutlineWidth_4;
 		float L_9 = __this->___InnerBorderWidth_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 91));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
 		L_10 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_7, ((float)il2cpp_codegen_add(L_8, L_9)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 91));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 92));
 		NullCheck(L_6);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_6, L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 92));
 		// Background.anchorMin = Vector3.zero;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 93));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_11 = __this->___Background_8;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 94));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 94));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 95));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13;
 		L_13 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_12, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 95));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 96));
 		NullCheck(L_11);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_11, L_13, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 96));
 		// Background.anchorMax = Vector3.one;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 97));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = __this->___Background_8;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 98));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
 		L_15 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 98));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 99));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16;
 		L_16 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_15, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 99));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 100));
 		NullCheck(L_14);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_14, L_16, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 100));
 		// Background.sizeDelta = Vector2.one * (InnerBorderWidth);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 101));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_17 = __this->___Background_8;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 102));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18;
 		L_18 = Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 102));
 		float L_19 = __this->___InnerBorderWidth_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 103));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_20;
 		L_20 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_18, L_19, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 103));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 104));
 		NullCheck(L_17);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_17, L_20, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 104));
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 105));
 		return;
 	}
 }
@@ -1542,20 +1714,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadingBar_SetProgress_m993F37353EB1287A
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingBar_SetProgress_m993F37353EB1287A71FDA8EA813E06B6CC3F92D9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingBar_t499215F28A93E9B219B9BF523B928A2A271B67C7_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___proportionOfLoadingBar0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LoadingBar_SetProgress_m993F37353EB1287A71FDA8EA813E06B6CC3F92D9_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 106));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 107));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 108));
 		// Progress = proportionOfLoadingBar;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 109));
 		float L_0 = ___proportionOfLoadingBar0;
 		__this->___Progress_7 = L_0;
 		// if (ProgressFill != null)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 110));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = __this->___ProgressFill_11;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 111));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 111));
 		V_0 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 112));
 		bool L_3 = V_0;
 		if (!L_3)
 		{
@@ -1563,24 +1749,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadingBar_SetProgress_m993F37353EB1287A
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 113));
 		// ProgressFill.anchorMax = new Vector2(proportionOfLoadingBar, ProgressFill.anchorMax.y);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 114));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_4 = __this->___ProgressFill_11;
 		float L_5 = ___proportionOfLoadingBar0;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6 = __this->___ProgressFill_11;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 115));
 		NullCheck(L_6);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
 		L_7 = RectTransform_get_anchorMax_mEF870BE2A134CEB9C2326930A71D3961271297DB(L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 115));
 		float L_8 = L_7.___y_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 116));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_9), L_5, L_8, /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 116));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 117));
 		NullCheck(L_4);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_4, L_9, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 117));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 118));
 	}
 
 IL_003c:
 	{
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 119));
 		return;
 	}
 }
@@ -1590,9 +1786,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LoadingBar_FillUntilDone_m605B
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingBar_FillUntilDone_m605B393DF242B4B0B817F69F34F12F87ADAE9121_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CFillUntilDoneU3Ed__12_t2D9DB4940E0BDFD0FB705189942416DC8F4BBCE0_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LoadingBar_FillUntilDone_m605B393DF242B4B0B817F69F34F12F87ADAE9121_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		U3CFillUntilDoneU3Ed__12_t2D9DB4940E0BDFD0FB705189942416DC8F4BBCE0* L_0 = (U3CFillUntilDoneU3Ed__12_t2D9DB4940E0BDFD0FB705189942416DC8F4BBCE0*)il2cpp_codegen_object_new(U3CFillUntilDoneU3Ed__12_t2D9DB4940E0BDFD0FB705189942416DC8F4BBCE0_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
@@ -1624,18 +1823,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LoadingBar_FillUntilDone_m605B
 // System.Void Google.Play.Common.LoadingScreen.LoadingBar::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadingBar__ctor_m9AB9E03A23849BC7311DA9AB09BF93782D9D4A4C (LoadingBar_t499215F28A93E9B219B9BF523B928A2A271B67C7* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingBar__ctor_m9AB9E03A23849BC7311DA9AB09BF93782D9D4A4C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingBar_t499215F28A93E9B219B9BF523B928A2A271B67C7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LoadingBar__ctor_m9AB9E03A23849BC7311DA9AB09BF93782D9D4A4C_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 120));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 121));
 	{
 		// public float OutlineWidth = 6f;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 122));
 		__this->___OutlineWidth_4 = (6.0f);
 		// public float InnerBorderWidth = 6f;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 123));
 		__this->___InnerBorderWidth_5 = (6.0f);
 		// public bool ResizeAutomatically = true;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 124));
 		__this->___ResizeAutomatically_6 = (bool)1;
 		// public float Progress = 0.25f;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 125));
 		__this->___Progress_7 = (0.25f);
 		// public float AssetBundleDownloadToInstallRatio = 0.8f;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 126));
 		__this->___AssetBundleDownloadToInstallRatio_12 = (0.800000012f);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 127));
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 127));
 		return;
 	}
 }
@@ -1650,6 +1867,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadingBar__ctor_m9AB9E03A23849BC7311DA9
 // System.Void Google.Play.Common.LoadingScreen.LoadingBar/<FillUntilDone>d__12::.ctor(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFillUntilDoneU3Ed__12__ctor_m717F76CBC042CB18A9EF71F73DFA0F110C411337 (U3CFillUntilDoneU3Ed__12_t2D9DB4940E0BDFD0FB705189942416DC8F4BBCE0* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CFillUntilDoneU3Ed__12__ctor_m717F76CBC042CB18A9EF71F73DFA0F110C411337_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CFillUntilDoneU3Ed__12__ctor_m717F76CBC042CB18A9EF71F73DFA0F110C411337_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		int32_t L_0 = ___U3CU3E1__state0;
@@ -1660,6 +1885,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFillUntilDoneU3Ed__12__ctor_m717F76CB
 // System.Void Google.Play.Common.LoadingScreen.LoadingBar/<FillUntilDone>d__12::System.IDisposable.Dispose()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFillUntilDoneU3Ed__12_System_IDisposable_Dispose_mD999DEC59E3F7AE9AB5CDED6643EA42CC7F912E7 (U3CFillUntilDoneU3Ed__12_t2D9DB4940E0BDFD0FB705189942416DC8F4BBCE0* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CFillUntilDoneU3Ed__12_System_IDisposable_Dispose_mD999DEC59E3F7AE9AB5CDED6643EA42CC7F912E7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CFillUntilDoneU3Ed__12_System_IDisposable_Dispose_mD999DEC59E3F7AE9AB5CDED6643EA42CC7F912E7_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		return;
 	}
@@ -1667,11 +1900,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFillUntilDoneU3Ed__12_System_IDisposa
 // System.Boolean Google.Play.Common.LoadingScreen.LoadingBar/<FillUntilDone>d__12::MoveNext()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFillUntilDoneU3Ed__12_MoveNext_m6B7DB4BCD18CDB6295B2678A0DCBACB47AF899A7 (U3CFillUntilDoneU3Ed__12_t2D9DB4940E0BDFD0FB705189942416DC8F4BBCE0* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CFillUntilDoneU3Ed__12_MoveNext_m6B7DB4BCD18CDB6295B2678A0DCBACB47AF899A7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CFillUntilDoneU3Ed__12_t2D9DB4940E0BDFD0FB705189942416DC8F4BBCE0_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	bool V_2 = false;
 	bool V_3 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CFillUntilDoneU3Ed__12_MoveNext_m6B7DB4BCD18CDB6295B2678A0DCBACB47AF899A7_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 128));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 129));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 130));
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
 		int32_t L_1 = V_0;
@@ -1714,22 +1961,31 @@ IL_0019:
 IL_001b:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 131));
 		// var previousFillProportion = startingFillProportion;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 132));
 		float L_3 = __this->___startingFillProportion_3;
 		__this->___U3CpreviousFillProportionU3E5__1_7 = L_3;
 		// var isDone = false;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 133));
 		__this->___U3CisDoneU3E5__2_8 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 134));
 		goto IL_00c7;
 	}
 
 IL_003b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 135));
 		// if (operation.isDone)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 136));
 		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_4 = __this->___operation_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 137));
 		NullCheck(L_4);
 		bool L_5;
 		L_5 = AsyncOperation_get_isDone_m68A0682777E2132FC033182E9F50303566AA354D(L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 137));
 		V_1 = L_5;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 138));
 		bool L_6 = V_1;
 		if (!L_6)
 		{
@@ -1737,42 +1993,61 @@ IL_003b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 139));
 		// isDone = true;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 140));
 		__this->___U3CisDoneU3E5__2_8 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 141));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 142));
 		goto IL_00af;
 	}
 
 IL_0056:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 143));
 		// var fillProportion = Mathf.Lerp(startingFillProportion, endingFillProportion, operation.progress);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 144));
 		float L_7 = __this->___startingFillProportion_3;
 		float L_8 = __this->___endingFillProportion_4;
 		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_9 = __this->___operation_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 145));
 		NullCheck(L_9);
 		float L_10;
 		L_10 = AsyncOperation_get_progress_mF3B2837C1A5DDF3C2F7A3BA1E449DD4C71C632EE(L_9, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 145));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 146));
 		float L_11;
 		L_11 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_7, L_8, L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 146));
 		__this->___U3CfillProportionU3E5__4_10 = L_11;
 		// fillProportion = Mathf.Max(previousFillProportion, fillProportion); // Progress can only increase.
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 147));
 		float L_12 = __this->___U3CpreviousFillProportionU3E5__1_7;
 		float L_13 = __this->___U3CfillProportionU3E5__4_10;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 148));
 		float L_14;
 		L_14 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_12, L_13, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 148));
 		__this->___U3CfillProportionU3E5__4_10 = L_14;
 		// SetProgress(fillProportion);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 149));
 		LoadingBar_t499215F28A93E9B219B9BF523B928A2A271B67C7* L_15 = __this->___U3CU3E4__this_6;
 		float L_16 = __this->___U3CfillProportionU3E5__4_10;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 150));
 		NullCheck(L_15);
 		LoadingBar_SetProgress_m993F37353EB1287A71FDA8EA813E06B6CC3F92D9(L_15, L_16, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 150));
 		// previousFillProportion = fillProportion;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 151));
 		float L_17 = __this->___U3CfillProportionU3E5__4_10;
 		__this->___U3CpreviousFillProportionU3E5__1_7 = L_17;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 152));
 	}
 
 IL_00af:
 	{
 		// yield return null;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 153));
 		__this->___U3CU3E2__current_1 = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)NULL);
 		__this->___U3CU3E1__state_0 = 1;
@@ -1781,14 +2056,18 @@ IL_00af:
 
 IL_00bf:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 154));
 		__this->___U3CU3E1__state_0 = (-1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 155));
 	}
 
 IL_00c7:
 	{
 		// while (!isDone)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 156));
 		bool L_18 = __this->___U3CisDoneU3E5__2_8;
 		V_2 = (bool)((((int32_t)L_18) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 157));
 		bool L_19 = V_2;
 		if (L_19)
 		{
@@ -1797,8 +2076,10 @@ IL_00c7:
 	}
 	{
 		// if (skipFinalUpdate)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 158));
 		bool L_20 = __this->___skipFinalUpdate_5;
 		V_3 = L_20;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 159));
 		bool L_21 = V_3;
 		if (!L_21)
 		{
@@ -1806,40 +2087,62 @@ IL_00c7:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 160));
 		// yield break;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 161));
 		return (bool)0;
 	}
 
 IL_00e4:
 	{
 		// var finalFillProportion = Mathf.Lerp(startingFillProportion, endingFillProportion, operation.progress);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 162));
 		float L_22 = __this->___startingFillProportion_3;
 		float L_23 = __this->___endingFillProportion_4;
 		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_24 = __this->___operation_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 163));
 		NullCheck(L_24);
 		float L_25;
 		L_25 = AsyncOperation_get_progress_mF3B2837C1A5DDF3C2F7A3BA1E449DD4C71C632EE(L_24, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 163));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 164));
 		float L_26;
 		L_26 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_22, L_23, L_25, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 164));
 		__this->___U3CfinalFillProportionU3E5__3_9 = L_26;
 		// finalFillProportion = Mathf.Max(previousFillProportion, finalFillProportion);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 165));
 		float L_27 = __this->___U3CpreviousFillProportionU3E5__1_7;
 		float L_28 = __this->___U3CfinalFillProportionU3E5__3_9;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 166));
 		float L_29;
 		L_29 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_27, L_28, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 166));
 		__this->___U3CfinalFillProportionU3E5__3_9 = L_29;
 		// SetProgress(finalFillProportion);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 167));
 		LoadingBar_t499215F28A93E9B219B9BF523B928A2A271B67C7* L_30 = __this->___U3CU3E4__this_6;
 		float L_31 = __this->___U3CfinalFillProportionU3E5__3_9;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 168));
 		NullCheck(L_30);
 		LoadingBar_SetProgress_m993F37353EB1287A71FDA8EA813E06B6CC3F92D9(L_30, L_31, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 168));
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 169));
 		return (bool)0;
 	}
 }
 // System.Object Google.Play.Common.LoadingScreen.LoadingBar/<FillUntilDone>d__12::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFillUntilDoneU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA14C65BD2F8B82DDFEA73BF4BD0189DD4E91AF1F (U3CFillUntilDoneU3Ed__12_t2D9DB4940E0BDFD0FB705189942416DC8F4BBCE0* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CFillUntilDoneU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA14C65BD2F8B82DDFEA73BF4BD0189DD4E91AF1F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CFillUntilDoneU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA14C65BD2F8B82DDFEA73BF4BD0189DD4E91AF1F_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
@@ -1848,6 +2151,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFillUntilDoneU3Ed__12_Syste
 // System.Void Google.Play.Common.LoadingScreen.LoadingBar/<FillUntilDone>d__12::System.Collections.IEnumerator.Reset()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFillUntilDoneU3Ed__12_System_Collections_IEnumerator_Reset_mA72123F9EC1FE7C4556B6779AE18EB8D97A3A7AF (U3CFillUntilDoneU3Ed__12_t2D9DB4940E0BDFD0FB705189942416DC8F4BBCE0* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CFillUntilDoneU3Ed__12_System_Collections_IEnumerator_Reset_mA72123F9EC1FE7C4556B6779AE18EB8D97A3A7AF_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CFillUntilDoneU3Ed__12_System_Collections_IEnumerator_Reset_mA72123F9EC1FE7C4556B6779AE18EB8D97A3A7AF_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -1858,6 +2169,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFillUntilDoneU3Ed__12_System_Collecti
 // System.Object Google.Play.Common.LoadingScreen.LoadingBar/<FillUntilDone>d__12::System.Collections.IEnumerator.get_Current()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFillUntilDoneU3Ed__12_System_Collections_IEnumerator_get_Current_mB9959B8394D187C1C49CD4EDCB1FFABAB20AF78A (U3CFillUntilDoneU3Ed__12_t2D9DB4940E0BDFD0FB705189942416DC8F4BBCE0* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CFillUntilDoneU3Ed__12_System_Collections_IEnumerator_get_Current_mB9959B8394D187C1C49CD4EDCB1FFABAB20AF78A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CFillUntilDoneU3Ed__12_System_Collections_IEnumerator_get_Current_mB9959B8394D187C1C49CD4EDCB1FFABAB20AF78A_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
@@ -1874,20 +2193,52 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFillUntilDoneU3Ed__12_Syste
 // System.Void Google.Play.Common.LoadingScreen.LoadingScreen::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadingScreen_Start_m7D161169ECA0C67241F2C01898F8D482C873727B (LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingScreen_Start_m7D161169ECA0C67241F2C01898F8D482C873727B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LoadingScreen_Start_m7D161169ECA0C67241F2C01898F8D482C873727B_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 170));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 171));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 172));
 		// AttemptAssetBundleDownload(InitialAttemptCount);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 173));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 174));
 		LoadingScreen_AttemptAssetBundleDownload_m6EE1DEC7C5F40C6E3194B6A12176D9679699C977(__this, 3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 174));
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 175));
 		return;
 	}
 }
 // System.Void Google.Play.Common.LoadingScreen.LoadingScreen::ButtonEventRetryDownload()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadingScreen_ButtonEventRetryDownload_m267CAF97BE25E762BFDA2593F43F2D1D4E686BC6 (LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingScreen_ButtonEventRetryDownload_m267CAF97BE25E762BFDA2593F43F2D1D4E686BC6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LoadingScreen_ButtonEventRetryDownload_m267CAF97BE25E762BFDA2593F43F2D1D4E686BC6_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 176));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 177));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 178));
 		// AttemptAssetBundleDownload(1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 179));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 180));
 		LoadingScreen_AttemptAssetBundleDownload_m6EE1DEC7C5F40C6E3194B6A12176D9679699C977(__this, 1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 180));
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 181));
 		return;
 	}
 }
@@ -1897,15 +2248,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadingScreen_AttemptAssetBundleDownload
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingScreen_AttemptAssetBundleDownload_m6EE1DEC7C5F40C6E3194B6A12176D9679699C977_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0A27BFDFBF2F07BDFF2E1D6A935F49F51A85EA14);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___numberOfAttempts0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LoadingScreen_AttemptAssetBundleDownload_m6EE1DEC7C5F40C6E3194B6A12176D9679699C977_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 182));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 183));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 184));
 		// if (_downloading)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 185));
 		bool L_0 = __this->____downloading_11;
 		V_0 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 186));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -1913,30 +2275,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadingScreen_AttemptAssetBundleDownload
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 187));
 		// Debug.Log("Download attempt ignored because a download is already in progress.");
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 188));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 189));
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral0A27BFDFBF2F07BDFF2E1D6A935F49F51A85EA14, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 189));
 		// return;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 190));
 		goto IL_0039;
 	}
 
 IL_0019:
 	{
 		// HideRetryButton();
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 191));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 192));
 		LoadingScreen_HideRetryButton_mE1E748695CF010FBF809E8601C97805772E554E8(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 192));
 		// _maxLoadingBarProgress = 0f;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 193));
 		__this->____maxLoadingBarProgress_10 = (0.0f);
 		// StartCoroutine(AttemptAssetBundleDownloadsCo(numberOfAttempts));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 194));
 		int32_t L_2 = ___numberOfAttempts0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 195));
 		RuntimeObject* L_3;
 		L_3 = LoadingScreen_AttemptAssetBundleDownloadsCo_mA64D96E40D7E7183DF7CF52EF64B991B012E3A1B(__this, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 195));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 196));
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4;
 		L_4 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 196));
 	}
 
 IL_0039:
 	{
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 197));
 		return;
 	}
 }
@@ -1946,9 +2323,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LoadingScreen_AttemptAssetBund
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingScreen_AttemptAssetBundleDownloadsCo_mA64D96E40D7E7183DF7CF52EF64B991B012E3A1B_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CAttemptAssetBundleDownloadsCoU3Ed__11_tA5C52C95C4A7679A2150373D7CE1E0A6C97D0B3C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LoadingScreen_AttemptAssetBundleDownloadsCo_mA64D96E40D7E7183DF7CF52EF64B991B012E3A1B_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		U3CAttemptAssetBundleDownloadsCoU3Ed__11_tA5C52C95C4A7679A2150373D7CE1E0A6C97D0B3C* L_0 = (U3CAttemptAssetBundleDownloadsCoU3Ed__11_tA5C52C95C4A7679A2150373D7CE1E0A6C97D0B3C*)il2cpp_codegen_object_new(U3CAttemptAssetBundleDownloadsCoU3Ed__11_tA5C52C95C4A7679A2150373D7CE1E0A6C97D0B3C_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
@@ -1970,9 +2350,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LoadingScreen_GetAssetBundle_m
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingScreen_GetAssetBundle_m705702E899FB42C85DC9A3773C3754356FCEB7F6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetAssetBundleU3Ed__12_t2DA96A0797FB1FB643EEDA22A36ED90D5B1F2478_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LoadingScreen_GetAssetBundle_m705702E899FB42C85DC9A3773C3754356FCEB7F6_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		U3CGetAssetBundleU3Ed__12_t2DA96A0797FB1FB643EEDA22A36ED90D5B1F2478* L_0 = (U3CGetAssetBundleU3Ed__12_t2DA96A0797FB1FB643EEDA22A36ED90D5B1F2478*)il2cpp_codegen_object_new(U3CGetAssetBundleU3Ed__12_t2DA96A0797FB1FB643EEDA22A36ED90D5B1F2478_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
@@ -1992,59 +2375,120 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LoadingScreen_GetAssetBundle_m
 // System.Void Google.Play.Common.LoadingScreen.LoadingScreen::ShowRetryButton()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadingScreen_ShowRetryButton_m4466BD4182CA104BEF80CD93E30222423E03C570 (LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingScreen_ShowRetryButton_m4466BD4182CA104BEF80CD93E30222423E03C570_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LoadingScreen_ShowRetryButton_m4466BD4182CA104BEF80CD93E30222423E03C570_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 198));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 199));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 200));
 		// LoadingBar.gameObject.SetActive(false);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 201));
 		LoadingBar_t499215F28A93E9B219B9BF523B928A2A271B67C7* L_0 = __this->___LoadingBar_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 202));
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 202));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 203));
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 203));
 		// RetryButton.gameObject.SetActive(true);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 204));
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___RetryButton_6;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 205));
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 205));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 206));
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 206));
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 207));
 		return;
 	}
 }
 // System.Void Google.Play.Common.LoadingScreen.LoadingScreen::HideRetryButton()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadingScreen_HideRetryButton_mE1E748695CF010FBF809E8601C97805772E554E8 (LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingScreen_HideRetryButton_mE1E748695CF010FBF809E8601C97805772E554E8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LoadingScreen_HideRetryButton_mE1E748695CF010FBF809E8601C97805772E554E8_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 208));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 209));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 210));
 		// LoadingBar.gameObject.SetActive(true);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 211));
 		LoadingBar_t499215F28A93E9B219B9BF523B928A2A271B67C7* L_0 = __this->___LoadingBar_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 212));
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 212));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 213));
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 213));
 		// RetryButton.gameObject.SetActive(false);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 214));
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___RetryButton_6;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 215));
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 215));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 216));
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 216));
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 217));
 		return;
 	}
 }
 // System.Boolean Google.Play.Common.LoadingScreen.LoadingScreen::IsNetworkError(UnityEngine.Networking.UnityWebRequest)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LoadingScreen_IsNetworkError_m3E912F67E222160D0D9841947DF95D22C9438BE7 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___request0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingScreen_IsNetworkError_m3E912F67E222160D0D9841947DF95D22C9438BE7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	bool V_0 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___request0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LoadingScreen_IsNetworkError_m3E912F67E222160D0D9841947DF95D22C9438BE7_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 218));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 219));
 	int32_t G_B3_0 = 0;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 220));
 		// return request.result == UnityWebRequest.Result.ConnectionError ||
 		//        request.result == UnityWebRequest.Result.ProtocolError;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 221));
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_0 = ___request0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 222));
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = UnityWebRequest_get_result_mEF83848C5FCFB5E307CE4B57E42BF02FC9AED449(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 222));
 		if ((((int32_t)L_1) == ((int32_t)2)))
 		{
 			goto IL_0015;
@@ -2052,9 +2496,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LoadingScreen_IsNetworkError_m3E912F67E2
 	}
 	{
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_2 = ___request0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 223));
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = UnityWebRequest_get_result_mEF83848C5FCFB5E307CE4B57E42BF02FC9AED449(L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 223));
 		G_B3_0 = ((((int32_t)L_3) == ((int32_t)3))? 1 : 0);
 		goto IL_0016;
 	}
@@ -2073,6 +2519,7 @@ IL_0016:
 IL_0019:
 	{
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 224));
 		bool L_4 = V_0;
 		return L_4;
 	}
@@ -2080,21 +2527,39 @@ IL_0019:
 // UnityEngine.AsyncOperation Google.Play.Common.LoadingScreen.LoadingScreen::StartAssetBundleDownload(System.String,UnityEngine.Networking.UnityWebRequest&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* LoadingScreen_StartAssetBundleDownload_m72274F60A893ECC9BD88DD43ED4EEC9650C7948A (String_t* ___assetBundleUrl0, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F** ___webRequest1, const RuntimeMethod* method) 
 {
-	AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* V_0 = NULL;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingScreen_StartAssetBundleDownload_m72274F60A893ECC9BD88DD43ED4EEC9650C7948A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* V_0 = NULL;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___assetBundleUrl0), (&___webRequest1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LoadingScreen_StartAssetBundleDownload_m72274F60A893ECC9BD88DD43ED4EEC9650C7948A_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 225));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 226));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 227));
 		// webRequest = UnityWebRequestAssetBundle.GetAssetBundle(assetBundleUrl);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 228));
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F** L_0 = ___webRequest1;
 		String_t* L_1 = ___assetBundleUrl0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 229));
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_2;
 		L_2 = UnityWebRequestAssetBundle_GetAssetBundle_mA08565578A5E7A07140D4C6327FD9B51E14D99F9(L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 229));
 		*((RuntimeObject**)L_0) = (RuntimeObject*)L_2;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)L_2);
 		// return webRequest.SendWebRequest();
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 230));
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F** L_3 = ___webRequest1;
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_4 = *((UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F**)L_3);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 231));
 		NullCheck(L_4);
 		UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C* L_5;
 		L_5 = UnityWebRequest_SendWebRequest_mA3CD13983BAA5074A0640EDD661B1E46E6DB6C13(L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 231));
 		V_0 = L_5;
 		goto IL_0013;
 	}
@@ -2102,6 +2567,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncOperation_tD2789250E4B098DEDA92B366A577E
 IL_0013:
 	{
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 232));
 		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_6 = V_0;
 		return L_6;
 	}
@@ -2109,6 +2575,14 @@ IL_0013:
 // System.Void Google.Play.Common.LoadingScreen.LoadingScreen::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadingScreen__ctor_mC331C36679F6FE3DBA0FE08648D8F64C23041D16 (LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadingScreen__ctor_mC331C36679F6FE3DBA0FE08648D8F64C23041D16_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LoadingScreen__ctor_mC331C36679F6FE3DBA0FE08648D8F64C23041D16_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -2125,6 +2599,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadingScreen__ctor_mC331C36679F6FE3DBA0
 // System.Void Google.Play.Common.LoadingScreen.LoadingScreen/<AttemptAssetBundleDownloadsCo>d__11::.ctor(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAttemptAssetBundleDownloadsCoU3Ed__11__ctor_mBC09BF358BA2B5FE77B62F6421808088D3242F18 (U3CAttemptAssetBundleDownloadsCoU3Ed__11_tA5C52C95C4A7679A2150373D7CE1E0A6C97D0B3C* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CAttemptAssetBundleDownloadsCoU3Ed__11__ctor_mBC09BF358BA2B5FE77B62F6421808088D3242F18_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CAttemptAssetBundleDownloadsCoU3Ed__11__ctor_mBC09BF358BA2B5FE77B62F6421808088D3242F18_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		int32_t L_0 = ___U3CU3E1__state0;
@@ -2135,6 +2617,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAttemptAssetBundleDownloadsCoU3Ed__11
 // System.Void Google.Play.Common.LoadingScreen.LoadingScreen/<AttemptAssetBundleDownloadsCo>d__11::System.IDisposable.Dispose()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAttemptAssetBundleDownloadsCoU3Ed__11_System_IDisposable_Dispose_mE2831F3488CBFABB8A77C6446575EC50CE19EADF (U3CAttemptAssetBundleDownloadsCoU3Ed__11_tA5C52C95C4A7679A2150373D7CE1E0A6C97D0B3C* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CAttemptAssetBundleDownloadsCoU3Ed__11_System_IDisposable_Dispose_mE2831F3488CBFABB8A77C6446575EC50CE19EADF_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CAttemptAssetBundleDownloadsCoU3Ed__11_System_IDisposable_Dispose_mE2831F3488CBFABB8A77C6446575EC50CE19EADF_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		return;
 	}
@@ -2145,11 +2635,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAttemptAssetBundleDownloadsCoU3Ed__11
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CAttemptAssetBundleDownloadsCoU3Ed__11_MoveNext_m4DCAAB8359E74121B9E85DD8D81E2334E3B952E8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CAttemptAssetBundleDownloadsCoU3Ed__11_tA5C52C95C4A7679A2150373D7CE1E0A6C97D0B3C_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD1A8F12B8C70E9BC062F3AB917742AABE1ADBD65);
 		s_Il2CppMethodInitialized = true;
@@ -2159,7 +2653,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAttemptAssetBundleDownloadsCoU3Ed__11
 	int32_t V_2 = 0;
 	bool V_3 = false;
 	bool V_4 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CAttemptAssetBundleDownloadsCoU3Ed__11_MoveNext_m4DCAAB8359E74121B9E85DD8D81E2334E3B952E8_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 233));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 234));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 235));
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
 		int32_t L_1 = V_0;
@@ -2215,18 +2714,24 @@ IL_0030:
 IL_0032:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 236));
 		// _downloading = true;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 237));
 		LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* L_2 = __this->___U3CU3E4__this_3;
 		NullCheck(L_2);
 		L_2->____downloading_11 = (bool)1;
 		// for (var i = 0; i < numberOfAttempts; i++)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 238));
 		__this->___U3CiU3E5__3_6 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 239));
 		goto IL_0104;
 	}
 
 IL_0052:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 240));
 		// _assetBundleRetrievalAttemptCount++;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 241));
 		LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* L_3 = __this->___U3CU3E4__this_3;
 		LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* L_4 = __this->___U3CU3E4__this_3;
 		NullCheck(L_4);
@@ -2234,6 +2739,7 @@ IL_0052:
 		NullCheck(L_3);
 		L_3->____assetBundleRetrievalAttemptCount_9 = ((int32_t)il2cpp_codegen_add(L_5, 1));
 		// Debug.LogFormat("Attempt #{0} at downloading AssetBundle...", _assetBundleRetrievalAttemptCount);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 242));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_6;
 		LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* L_8 = __this->___U3CU3E4__this_3;
@@ -2244,16 +2750,21 @@ IL_0052:
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_11);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_11);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 243));
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogFormat_mD555556327B42AA3482D077EFAEB16B0AFDF72C7(_stringLiteralD1A8F12B8C70E9BC062F3AB917742AABE1ADBD65, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 243));
 		// yield return GetAssetBundle(AssetBundleUrl);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 244));
 		LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* L_12 = __this->___U3CU3E4__this_3;
 		LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* L_13 = __this->___U3CU3E4__this_3;
 		NullCheck(L_13);
 		String_t* L_14 = L_13->___AssetBundleUrl_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 245));
 		NullCheck(L_12);
 		RuntimeObject* L_15;
 		L_15 = LoadingScreen_GetAssetBundle_m705702E899FB42C85DC9A3773C3754356FCEB7F6(L_12, L_14, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 245));
 		__this->___U3CU3E2__current_1 = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_15);
 		__this->___U3CU3E1__state_0 = 1;
@@ -2262,15 +2773,20 @@ IL_0052:
 
 IL_00b4:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 246));
 		__this->___U3CU3E1__state_0 = (-1);
 		// if (_bundle != null)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 247));
 		LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* L_16 = __this->___U3CU3E4__this_3;
 		NullCheck(L_16);
 		AssetBundle_tB38418819A49060CD738CB21541649340F082943* L_17 = L_16->____bundle_8;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 248));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
 		L_18 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_17, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 248));
 		V_1 = L_18;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 249));
 		bool L_19 = V_1;
 		if (!L_19)
 		{
@@ -2278,16 +2794,21 @@ IL_00b4:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 250));
 		// break;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 251));
 		goto IL_0119;
 	}
 
 IL_00d3:
 	{
 		// yield return new WaitForSeconds(0.5f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 252));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 253));
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_20 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		NullCheck(L_20);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_20, (0.5f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 253));
 		__this->___U3CU3E2__current_1 = L_20;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_20);
 		__this->___U3CU3E1__state_0 = 2;
@@ -2296,8 +2817,11 @@ IL_00d3:
 
 IL_00ec:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 254));
 		__this->___U3CU3E1__state_0 = (-1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 255));
 		// for (var i = 0; i < numberOfAttempts; i++)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 256));
 		int32_t L_21 = __this->___U3CiU3E5__3_6;
 		V_2 = L_21;
 		int32_t L_22 = V_2;
@@ -2307,9 +2831,11 @@ IL_00ec:
 IL_0104:
 	{
 		// for (var i = 0; i < numberOfAttempts; i++)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 257));
 		int32_t L_23 = __this->___U3CiU3E5__3_6;
 		int32_t L_24 = __this->___numberOfAttempts_2;
 		V_3 = (bool)((((int32_t)L_23) < ((int32_t)L_24))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 258));
 		bool L_25 = V_3;
 		if (L_25)
 		{
@@ -2320,13 +2846,17 @@ IL_0104:
 IL_0119:
 	{
 		// if (_bundle == null)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 259));
 		LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* L_26 = __this->___U3CU3E4__this_3;
 		NullCheck(L_26);
 		AssetBundle_tB38418819A49060CD738CB21541649340F082943* L_27 = L_26->____bundle_8;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 260));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_28;
 		L_28 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_27, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 260));
 		V_4 = L_28;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 261));
 		bool L_29 = V_4;
 		if (!L_29)
 		{
@@ -2334,36 +2864,48 @@ IL_0119:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 262));
 		// ShowRetryButton();
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 263));
 		LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* L_30 = __this->___U3CU3E4__this_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 264));
 		NullCheck(L_30);
 		LoadingScreen_ShowRetryButton_m4466BD4182CA104BEF80CD93E30222423E03C570(L_30, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 264));
 		// _downloading = false;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 265));
 		LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* L_31 = __this->___U3CU3E4__this_3;
 		NullCheck(L_31);
 		L_31->____downloading_11 = (bool)0;
 		// yield break;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 266));
 		return (bool)0;
 	}
 
 IL_014b:
 	{
 		// var sceneLoadOperation = SceneManager.LoadSceneAsync(_bundle.GetAllScenePaths()[0]);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 267));
 		LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* L_32 = __this->___U3CU3E4__this_3;
 		NullCheck(L_32);
 		AssetBundle_tB38418819A49060CD738CB21541649340F082943* L_33 = L_32->____bundle_8;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 268));
 		NullCheck(L_33);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_34;
 		L_34 = AssetBundle_GetAllScenePaths_m75D1CD4415067D64A8265A7929B6FF76B91B62FE(L_33, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 268));
 		NullCheck(L_34);
 		int32_t L_35 = 0;
 		String_t* L_36 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 269));
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_37;
 		L_37 = SceneManager_LoadSceneAsync_m84D316B1993A4E69F9E8CDE30531687B701F9300(L_36, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 269));
 		__this->___U3CsceneLoadOperationU3E5__1_4 = L_37;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsceneLoadOperationU3E5__1_4), (void*)L_37);
 		// var installStartFill = Mathf.Max(LoadingBar.AssetBundleDownloadToInstallRatio, _maxLoadingBarProgress);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 270));
 		LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* L_38 = __this->___U3CU3E4__this_3;
 		NullCheck(L_38);
 		LoadingBar_t499215F28A93E9B219B9BF523B928A2A271B67C7* L_39 = L_38->___LoadingBar_5;
@@ -2372,18 +2914,23 @@ IL_014b:
 		LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* L_41 = __this->___U3CU3E4__this_3;
 		NullCheck(L_41);
 		float L_42 = L_41->____maxLoadingBarProgress_10;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 271));
 		float L_43;
 		L_43 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_40, L_42, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 271));
 		__this->___U3CinstallStartFillU3E5__2_5 = L_43;
 		// yield return LoadingBar.FillUntilDone(sceneLoadOperation, installStartFill, 1f, false);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 272));
 		LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* L_44 = __this->___U3CU3E4__this_3;
 		NullCheck(L_44);
 		LoadingBar_t499215F28A93E9B219B9BF523B928A2A271B67C7* L_45 = L_44->___LoadingBar_5;
 		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_46 = __this->___U3CsceneLoadOperationU3E5__1_4;
 		float L_47 = __this->___U3CinstallStartFillU3E5__2_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 273));
 		NullCheck(L_45);
 		RuntimeObject* L_48;
 		L_48 = LoadingBar_FillUntilDone_m605B393DF242B4B0B817F69F34F12F87ADAE9121(L_45, L_46, L_47, (1.0f), (bool)0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 273));
 		__this->___U3CU3E2__current_1 = L_48;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_48);
 		__this->___U3CU3E1__state_0 = 3;
@@ -2392,18 +2939,29 @@ IL_014b:
 
 IL_01bf:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 274));
 		__this->___U3CU3E1__state_0 = (-1);
 		// _downloading = false;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 275));
 		LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* L_49 = __this->___U3CU3E4__this_3;
 		NullCheck(L_49);
 		L_49->____downloading_11 = (bool)0;
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 276));
 		return (bool)0;
 	}
 }
 // System.Object Google.Play.Common.LoadingScreen.LoadingScreen/<AttemptAssetBundleDownloadsCo>d__11::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAttemptAssetBundleDownloadsCoU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7711D6D016A7EC23D134CA78E7F4A07B7454B94D (U3CAttemptAssetBundleDownloadsCoU3Ed__11_tA5C52C95C4A7679A2150373D7CE1E0A6C97D0B3C* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CAttemptAssetBundleDownloadsCoU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7711D6D016A7EC23D134CA78E7F4A07B7454B94D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CAttemptAssetBundleDownloadsCoU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7711D6D016A7EC23D134CA78E7F4A07B7454B94D_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
@@ -2412,6 +2970,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAttemptAssetBundleDownloads
 // System.Void Google.Play.Common.LoadingScreen.LoadingScreen/<AttemptAssetBundleDownloadsCo>d__11::System.Collections.IEnumerator.Reset()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAttemptAssetBundleDownloadsCoU3Ed__11_System_Collections_IEnumerator_Reset_m429A35953FFD9B4B8FD4FDDFB18B89FA55CA185C (U3CAttemptAssetBundleDownloadsCoU3Ed__11_tA5C52C95C4A7679A2150373D7CE1E0A6C97D0B3C* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CAttemptAssetBundleDownloadsCoU3Ed__11_System_Collections_IEnumerator_Reset_m429A35953FFD9B4B8FD4FDDFB18B89FA55CA185C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CAttemptAssetBundleDownloadsCoU3Ed__11_System_Collections_IEnumerator_Reset_m429A35953FFD9B4B8FD4FDDFB18B89FA55CA185C_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -2422,6 +2988,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAttemptAssetBundleDownloadsCoU3Ed__11
 // System.Object Google.Play.Common.LoadingScreen.LoadingScreen/<AttemptAssetBundleDownloadsCo>d__11::System.Collections.IEnumerator.get_Current()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAttemptAssetBundleDownloadsCoU3Ed__11_System_Collections_IEnumerator_get_Current_mFDDF2BA18BBC7F6AE0B7AD348A80957118C3B1B5 (U3CAttemptAssetBundleDownloadsCoU3Ed__11_tA5C52C95C4A7679A2150373D7CE1E0A6C97D0B3C* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CAttemptAssetBundleDownloadsCoU3Ed__11_System_Collections_IEnumerator_get_Current_mFDDF2BA18BBC7F6AE0B7AD348A80957118C3B1B5_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CAttemptAssetBundleDownloadsCoU3Ed__11_System_Collections_IEnumerator_get_Current_mFDDF2BA18BBC7F6AE0B7AD348A80957118C3B1B5_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
@@ -2438,6 +3012,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAttemptAssetBundleDownloads
 // System.Void Google.Play.Common.LoadingScreen.LoadingScreen/<GetAssetBundle>d__12::.ctor(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetAssetBundleU3Ed__12__ctor_m26F2BC8913AECFB4EED7D3F225653D21EF1D0AD5 (U3CGetAssetBundleU3Ed__12_t2DA96A0797FB1FB643EEDA22A36ED90D5B1F2478* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetAssetBundleU3Ed__12__ctor_m26F2BC8913AECFB4EED7D3F225653D21EF1D0AD5_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CGetAssetBundleU3Ed__12__ctor_m26F2BC8913AECFB4EED7D3F225653D21EF1D0AD5_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		int32_t L_0 = ___U3CU3E1__state0;
@@ -2448,6 +3030,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetAssetBundleU3Ed__12__ctor_m26F2BC8
 // System.Void Google.Play.Common.LoadingScreen.LoadingScreen/<GetAssetBundle>d__12::System.IDisposable.Dispose()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetAssetBundleU3Ed__12_System_IDisposable_Dispose_m9D76E7F6C16343BC07BE72E0580F8F3D375A6732 (U3CGetAssetBundleU3Ed__12_t2DA96A0797FB1FB643EEDA22A36ED90D5B1F2478* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetAssetBundleU3Ed__12_System_IDisposable_Dispose_m9D76E7F6C16343BC07BE72E0580F8F3D375A6732_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CGetAssetBundleU3Ed__12_System_IDisposable_Dispose_m9D76E7F6C16343BC07BE72E0580F8F3D375A6732_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		return;
 	}
@@ -2458,14 +3048,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGetAssetBundleU3Ed__12_MoveNext_mC87E
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetAssetBundleU3Ed__12_MoveNext_mC87EEE4F598A38D4B31308CC46E0E45285C055CB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetAssetBundleU3Ed__12_t2DA96A0797FB1FB643EEDA22A36ED90D5B1F2478_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral40BFB5DF8AE25B1C9DF19DF28018D56981ED8AFF);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
 	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CGetAssetBundleU3Ed__12_MoveNext_mC87EEE4F598A38D4B31308CC46E0E45285C055CB_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 277));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 278));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 279));
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
 		int32_t L_1 = V_0;
@@ -2508,15 +3107,20 @@ IL_0016:
 IL_0018:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 280));
 		// var downloadOperation = StartAssetBundleDownload(assetBundleUrl, out webRequest);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 281));
 		String_t* L_3 = __this->___assetBundleUrl_2;
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F** L_4 = (&__this->___U3CwebRequestU3E5__1_4);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 282));
 		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_5;
 		L_5 = LoadingScreen_StartAssetBundleDownload_m72274F60A893ECC9BD88DD43ED4EEC9650C7948A(L_3, L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 282));
 		__this->___U3CdownloadOperationU3E5__2_5 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdownloadOperationU3E5__2_5), (void*)L_5);
 		// yield return LoadingBar.FillUntilDone(downloadOperation,
 		//     _maxLoadingBarProgress, LoadingBar.AssetBundleDownloadToInstallRatio, true);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 283));
 		LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* L_6 = __this->___U3CU3E4__this_3;
 		NullCheck(L_6);
 		LoadingBar_t499215F28A93E9B219B9BF523B928A2A271B67C7* L_7 = L_6->___LoadingBar_5;
@@ -2529,9 +3133,11 @@ IL_0018:
 		LoadingBar_t499215F28A93E9B219B9BF523B928A2A271B67C7* L_12 = L_11->___LoadingBar_5;
 		NullCheck(L_12);
 		float L_13 = L_12->___AssetBundleDownloadToInstallRatio_12;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 284));
 		NullCheck(L_7);
 		RuntimeObject* L_14;
 		L_14 = LoadingBar_FillUntilDone_m605B393DF242B4B0B817F69F34F12F87ADAE9121(L_7, L_8, L_10, L_13, (bool)1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 284));
 		__this->___U3CU3E2__current_1 = L_14;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_14);
 		__this->___U3CU3E1__state_0 = 1;
@@ -2540,12 +3146,17 @@ IL_0018:
 
 IL_0078:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 285));
 		__this->___U3CU3E1__state_0 = (-1);
 		// if (IsNetworkError(webRequest))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 286));
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_15 = __this->___U3CwebRequestU3E5__1_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 287));
 		bool L_16;
 		L_16 = LoadingScreen_IsNetworkError_m3E912F67E222160D0D9841947DF95D22C9438BE7(L_15, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 287));
 		V_1 = L_16;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 288));
 		bool L_17 = V_1;
 		if (!L_17)
 		{
@@ -2553,7 +3164,9 @@ IL_0078:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 289));
 		// _maxLoadingBarProgress = LoadingBar.Progress;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 290));
 		LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* L_18 = __this->___U3CU3E4__this_3;
 		LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* L_19 = __this->___U3CU3E4__this_3;
 		NullCheck(L_19);
@@ -2563,41 +3176,62 @@ IL_0078:
 		NullCheck(L_18);
 		L_18->____maxLoadingBarProgress_10 = L_21;
 		// Debug.LogFormat("Failed to download AssetBundle: {0}", webRequest.error);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 291));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_22 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_23 = L_22;
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_24 = __this->___U3CwebRequestU3E5__1_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 292));
 		NullCheck(L_24);
 		String_t* L_25;
 		L_25 = UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F(L_24, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 292));
 		NullCheck(L_23);
 		ArrayElementTypeCheck (L_23, L_25);
 		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_25);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 293));
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogFormat_mD555556327B42AA3482D077EFAEB16B0AFDF72C7(_stringLiteral40BFB5DF8AE25B1C9DF19DF28018D56981ED8AFF, L_23, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 293));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 294));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 295));
 		goto IL_00e4;
 	}
 
 IL_00cc:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 296));
 		// _bundle = DownloadHandlerAssetBundle.GetContent(webRequest);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 297));
 		LoadingScreen_t25F9E57EAE1B72DF0EF2115E491C98DB0DFDDC01* L_26 = __this->___U3CU3E4__this_3;
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_27 = __this->___U3CwebRequestU3E5__1_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 298));
 		AssetBundle_tB38418819A49060CD738CB21541649340F082943* L_28;
 		L_28 = DownloadHandlerAssetBundle_GetContent_m9E279B7987A8ADAB0D0B441BAB8C5A61C7DEB7C4(L_27, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 298));
 		NullCheck(L_26);
 		L_26->____bundle_8 = L_28;
 		Il2CppCodeGenWriteBarrier((void**)(&L_26->____bundle_8), (void*)L_28);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 299));
 	}
 
 IL_00e4:
 	{
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 300));
 		return (bool)0;
 	}
 }
 // System.Object Google.Play.Common.LoadingScreen.LoadingScreen/<GetAssetBundle>d__12::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetAssetBundleU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mED14706F6552BFA6CDAC1B8799B80728A6A1E428 (U3CGetAssetBundleU3Ed__12_t2DA96A0797FB1FB643EEDA22A36ED90D5B1F2478* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetAssetBundleU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mED14706F6552BFA6CDAC1B8799B80728A6A1E428_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CGetAssetBundleU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mED14706F6552BFA6CDAC1B8799B80728A6A1E428_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
@@ -2606,6 +3240,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetAssetBundleU3Ed__12_Syst
 // System.Void Google.Play.Common.LoadingScreen.LoadingScreen/<GetAssetBundle>d__12::System.Collections.IEnumerator.Reset()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetAssetBundleU3Ed__12_System_Collections_IEnumerator_Reset_m9482DAC75D6CF9159AB69C07CE90E389BBC1200D (U3CGetAssetBundleU3Ed__12_t2DA96A0797FB1FB643EEDA22A36ED90D5B1F2478* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetAssetBundleU3Ed__12_System_Collections_IEnumerator_Reset_m9482DAC75D6CF9159AB69C07CE90E389BBC1200D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CGetAssetBundleU3Ed__12_System_Collections_IEnumerator_Reset_m9482DAC75D6CF9159AB69C07CE90E389BBC1200D_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
@@ -2616,6 +3258,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetAssetBundleU3Ed__12_System_Collect
 // System.Object Google.Play.Common.LoadingScreen.LoadingScreen/<GetAssetBundle>d__12::System.Collections.IEnumerator.get_Current()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetAssetBundleU3Ed__12_System_Collections_IEnumerator_get_Current_mD2C7EDBE30CE7864B9DF6528AF80225E0F1AF8CF (U3CGetAssetBundleU3Ed__12_t2DA96A0797FB1FB643EEDA22A36ED90D5B1F2478* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetAssetBundleU3Ed__12_System_Collections_IEnumerator_get_Current_mD2C7EDBE30CE7864B9DF6528AF80225E0F1AF8CF_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CGetAssetBundleU3Ed__12_System_Collections_IEnumerator_get_Current_mD2C7EDBE30CE7864B9DF6528AF80225E0F1AF8CF_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
@@ -2632,47 +3282,96 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetAssetBundleU3Ed__12_Syst
 // System.Void Google.Play.Common.LoadingScreen.ScrollingFillAnimator::Update()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollingFillAnimator_Update_mE44FC9AF463A45F53708F30A3E67EACB751EA2D7 (ScrollingFillAnimator_tB2E4FC8D635F7C3FD423116A5EB2C4B34363DACA* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScrollingFillAnimator_Update_mE44FC9AF463A45F53708F30A3E67EACB751EA2D7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScrollingFillAnimator_tB2E4FC8D635F7C3FD423116A5EB2C4B34363DACA_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ScrollingFillAnimator_Update_mE44FC9AF463A45F53708F30A3E67EACB751EA2D7_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 301));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 302));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 303));
 		// LazyInit();
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 304));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 305));
 		ScrollingFillAnimator_LazyInit_m501006080A45A9DD44AF50A84855EFF1870257FA(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 305));
 		// var uvRect = _image.uvRect;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 306));
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_0 = __this->____image_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 307));
 		NullCheck(L_0);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1;
 		L_1 = RawImage_get_uvRect_m83D2C4632C6AE437D1DC775904AC2FA8CB83D823(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 307));
 		V_0 = L_1;
 		// uvRect = ScrollUvs(uvRect);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 308));
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_2 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 309));
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_3;
 		L_3 = ScrollingFillAnimator_ScrollUvs_m884B7515FDB7160E3A90229FCD9AF0F2D3306682(__this, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 309));
 		V_0 = L_3;
 		// uvRect = ScaleUvs(uvRect);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 310));
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_4 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 311));
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_5;
 		L_5 = ScrollingFillAnimator_ScaleUvs_m4C2AAF8436112262FC506D129AB03E2528349EFE(__this, L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 311));
 		V_0 = L_5;
 		// _image.uvRect = uvRect;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 312));
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_6 = __this->____image_5;
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_7 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 313));
 		NullCheck(L_6);
 		RawImage_set_uvRect_m9DF6BBBC6AC46F7F3290A220ED6F076CAB4BC52F(L_6, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 313));
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 314));
 		return;
 	}
 }
 // UnityEngine.Rect Google.Play.Common.LoadingScreen.ScrollingFillAnimator::ScrollUvs(UnityEngine.Rect)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ScrollingFillAnimator_ScrollUvs_m884B7515FDB7160E3A90229FCD9AF0F2D3306682 (ScrollingFillAnimator_tB2E4FC8D635F7C3FD423116A5EB2C4B34363DACA* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___uvRect0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScrollingFillAnimator_ScrollUvs_m884B7515FDB7160E3A90229FCD9AF0F2D3306682_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScrollingFillAnimator_tB2E4FC8D635F7C3FD423116A5EB2C4B34363DACA_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	bool V_0 = false;
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___uvRect0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ScrollingFillAnimator_ScrollUvs_m884B7515FDB7160E3A90229FCD9AF0F2D3306682_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 315));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 316));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 317));
 		// if (Application.isPlaying)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 318));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 319));
 		bool L_0;
 		L_0 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 319));
 		V_0 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 320));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -2680,19 +3379,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 321));
 		// uvRect.x -= ScrollSpeed * Time.deltaTime;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 322));
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_2 = (&___uvRect0);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 323));
 		float L_3;
 		L_3 = Rect_get_x_mB267B718E0D067F2BAE31BA477647FBF964916EB(L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 323));
 		float L_4 = __this->___ScrollSpeed_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 324));
 		float L_5;
 		L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 324));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 325));
 		Rect_set_x_mAB91AB71898A20762BC66FD0723C4C739C4C3406(L_2, ((float)il2cpp_codegen_subtract(L_3, ((float)il2cpp_codegen_multiply(L_4, L_5)))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 325));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 326));
 	}
 
 IL_0027:
 	{
 		// return uvRect;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 327));
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_6 = ___uvRect0;
 		V_1 = L_6;
 		goto IL_002b;
@@ -2701,6 +3410,7 @@ IL_0027:
 IL_002b:
 	{
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 328));
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_7 = V_1;
 		return L_7;
 	}
@@ -2711,7 +3421,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScrollingFillAnimator_ScaleUvs_m4C2AAF8436112262FC506D129AB03E2528349EFE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScrollingFillAnimator_tB2E4FC8D635F7C3FD423116A5EB2C4B34363DACA_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
@@ -2719,16 +3433,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0
 	memset((&V_1), 0, sizeof(V_1));
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___uvRect0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ScrollingFillAnimator_ScaleUvs_m4C2AAF8436112262FC506D129AB03E2528349EFE_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 329));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 330));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 331));
 		// if (_image.texture == null)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 332));
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_0 = __this->____image_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 333));
 		NullCheck(L_0);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_1;
 		L_1 = RawImage_get_texture_m84CCFDF78F6886F73EBE5A7C78D6E9C3CA903813(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 333));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 334));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 334));
 		V_0 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 335));
 		bool L_3 = V_0;
 		if (!L_3)
 		{
@@ -2736,7 +3462,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 336));
 		// return uvRect;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 337));
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_4 = ___uvRect0;
 		V_1 = L_4;
 		goto IL_0076;
@@ -2746,39 +3474,61 @@ IL_001b:
 	{
 		// uvRect.size = new Vector2(_rectTransform.rect.width / _image.texture.width,
 		//     _rectTransform.rect.height / _image.texture.height);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 338));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = __this->____rectTransform_6;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 339));
 		NullCheck(L_5);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_6;
 		L_6 = RectTransform_get_rect_mC82A60F8C3805ED9833508CCC233689641207488(L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 339));
 		V_2 = L_6;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 340));
 		float L_7;
 		L_7 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9((&V_2), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 340));
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_8 = __this->____image_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 341));
 		NullCheck(L_8);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_9;
 		L_9 = RawImage_get_texture_m84CCFDF78F6886F73EBE5A7C78D6E9C3CA903813(L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 341));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 342));
 		NullCheck(L_9);
 		int32_t L_10;
 		L_10 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_9);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 342));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_11 = __this->____rectTransform_6;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 343));
 		NullCheck(L_11);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_12;
 		L_12 = RectTransform_get_rect_mC82A60F8C3805ED9833508CCC233689641207488(L_11, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 343));
 		V_2 = L_12;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 344));
 		float L_13;
 		L_13 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8((&V_2), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 344));
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_14 = __this->____image_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 345));
 		NullCheck(L_14);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_15;
 		L_15 = RawImage_get_texture_m84CCFDF78F6886F73EBE5A7C78D6E9C3CA903813(L_14, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 345));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 346));
 		NullCheck(L_15);
 		int32_t L_16;
 		L_16 = VirtualFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_15);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 346));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 347));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_17;
 		memset((&L_17), 0, sizeof(L_17));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_17), ((float)(L_7/((float)L_10))), ((float)(L_13/((float)L_16))), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 347));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 348));
 		Rect_set_size_m346E4F7077E5A1C0F4E21966232CD726CB9E6BAA((&___uvRect0), L_17, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 348));
 		// return uvRect;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 349));
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_18 = ___uvRect0;
 		V_1 = L_18;
 		goto IL_0076;
@@ -2787,6 +3537,7 @@ IL_001b:
 IL_0076:
 	{
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 350));
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_19 = V_1;
 		return L_19;
 	}
@@ -2797,20 +3548,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollingFillAnimator_LazyInit_m50100608
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m56775E1085C53732A0C2D919F000176C7BC11C3D_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScrollingFillAnimator_LazyInit_m501006080A45A9DD44AF50A84855EFF1870257FA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScrollingFillAnimator_tB2E4FC8D635F7C3FD423116A5EB2C4B34363DACA_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
 	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ScrollingFillAnimator_LazyInit_m501006080A45A9DD44AF50A84855EFF1870257FA_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 351));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 352));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 353));
 		// if (_rectTransform == null)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 354));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->____rectTransform_6;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 355));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 355));
 		V_0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 356));
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -2818,21 +3581,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollingFillAnimator_LazyInit_m50100608
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 357));
 		// _rectTransform = GetComponent<RectTransform>();
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 358));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 359));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3;
 		L_3 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(__this, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 359));
 		__this->____rectTransform_6 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____rectTransform_6), (void*)L_3);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 360));
 	}
 
 IL_001f:
 	{
 		// if (_image == null)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 361));
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_4 = __this->____image_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 362));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
 		L_5 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 362));
 		V_1 = L_5;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 363));
 		bool L_6 = V_1;
 		if (!L_6)
 		{
@@ -2840,26 +3612,46 @@ IL_001f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 364));
 		// _image = GetComponent<RawImage>();
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 365));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 366));
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_7;
 		L_7 = Component_GetComponent_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m56775E1085C53732A0C2D919F000176C7BC11C3D(__this, Component_GetComponent_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m56775E1085C53732A0C2D919F000176C7BC11C3D_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 366));
 		__this->____image_5 = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____image_5), (void*)L_7);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 367));
 	}
 
 IL_003d:
 	{
 		// }
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 368));
 		return;
 	}
 }
 // System.Void Google.Play.Common.LoadingScreen.ScrollingFillAnimator::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollingFillAnimator__ctor_m5E62435BC4335A58290C864ADE13BA1E06860145 (ScrollingFillAnimator_tB2E4FC8D635F7C3FD423116A5EB2C4B34363DACA* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScrollingFillAnimator__ctor_m5E62435BC4335A58290C864ADE13BA1E06860145_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScrollingFillAnimator_tB2E4FC8D635F7C3FD423116A5EB2C4B34363DACA_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ScrollingFillAnimator__ctor_m5E62435BC4335A58290C864ADE13BA1E06860145_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 369));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 370));
 	{
 		// public float ScrollSpeed = 2.5f;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 371));
 		__this->___ScrollSpeed_4 = (2.5f);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 372));
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsGoogle_Play_Common + 372));
 		return;
 	}
 }
@@ -2871,12 +3663,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9810));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9811));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9812));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9813));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector_5;
 		V_0 = L_0;
 		goto IL_0009;
@@ -2884,28 +3683,45 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 
 IL_0009:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9814));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
 		return L_1;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___v0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___v0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8702));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8703));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8704));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8705));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___v0;
 		float L_1 = L_0.___x_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___v0;
 		float L_3 = L_2.___y_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8706));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_4), L_1, L_3, /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8706));
 		V_0 = L_4;
 		goto IL_0015;
 	}
 
 IL_0015:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8707));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = V_0;
 		return L_5;
 	}
@@ -2915,12 +3731,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9815));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9816));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9817));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9818));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___oneVector_6;
 		V_0 = L_0;
 		goto IL_0009;
@@ -2928,6 +3751,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 
 IL_0009:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 9819));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
 		return L_1;
 	}
@@ -2937,12 +3761,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8719));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8720));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8721));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8722));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields*)il2cpp_codegen_static_fields_for(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))->___oneVector_3;
 		V_0 = L_0;
 		goto IL_0009;
@@ -2950,69 +3781,131 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 
 IL_0009:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8723));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = V_0;
 		return L_1;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___a0, float ___d1, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___a0), (&___d1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8671));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8672));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8673));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8674));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___a0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___d1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___a0;
 		float L_4 = L_3.___y_1;
 		float L_5 = ___d1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8675));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_6), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8675));
 		V_0 = L_6;
 		goto IL_0019;
 	}
 
 IL_0019:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8676));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = V_0;
 		return L_7;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___x0, float ___y1, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___x0), (&___y1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8481));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8482));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8483));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8484));
 		float L_0 = ___x0;
 		__this->___x_0 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8485));
 		float L_1 = ___y1;
 		__this->___y_1 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8486));
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___a0, float ___b1, float ___t2, const RuntimeMethod* method) 
 {
-	float V_0 = 0.0f;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___a0), (&___b1), (&___t2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10650));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10651));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10652));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10653));
 		float L_0 = ___a0;
 		float L_1 = ___b1;
 		float L_2 = ___a0;
 		float L_3 = ___t2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10654));
 		float L_4;
 		L_4 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10654));
 		V_0 = ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_2)), L_4))));
 		goto IL_0010;
 	}
 
 IL_0010:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10655));
 		float L_5 = V_0;
 		return L_5;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___a0, float ___b1, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	float V_0 = 0.0f;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___a0), (&___b1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10534));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10535));
 	float G_B3_0 = 0.0f;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10536));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10537));
 		float L_0 = ___a0;
 		float L_1 = ___b1;
 		if ((((float)L_0) > ((float)L_1)))
@@ -3040,18 +3933,34 @@ IL_0009:
 
 IL_000c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10538));
 		float L_4 = V_0;
 		return L_4;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___value0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	bool V_0 = false;
 	float V_1 = 0.0f;
 	bool V_2 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10639));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10640));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10641));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10642));
 		float L_0 = ___value0;
 		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10643));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -3059,14 +3968,17 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA83
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10644));
 		V_1 = (0.0f);
 		goto IL_002d;
 	}
 
 IL_0015:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10645));
 		float L_2 = ___value0;
 		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10646));
 		bool L_3 = V_2;
 		if (!L_3)
 		{
@@ -3074,12 +3986,14 @@ IL_0015:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10647));
 		V_1 = (1.0f);
 		goto IL_002d;
 	}
 
 IL_0029:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10648));
 		float L_4 = ___value0;
 		V_1 = L_4;
 		goto IL_002d;
@@ -3087,6 +4001,7 @@ IL_0029:
 
 IL_002d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 10649));
 		float L_5 = V_1;
 		return L_5;
 	}

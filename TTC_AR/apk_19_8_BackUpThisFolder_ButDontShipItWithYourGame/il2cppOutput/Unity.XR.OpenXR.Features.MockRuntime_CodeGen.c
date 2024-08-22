@@ -86,28 +86,28 @@ static Il2CppMethodPointer s_methodPointers[22] =
 };
 static const int32_t s_InvokerIndices[22] = 
 {
-	11529,
-	11529,
-	11713,
-	10601,
-	11100,
-	10673,
-	9875,
-	10679,
-	10679,
-	11243,
-	11243,
-	11754,
-	11754,
-	6245,
-	10679,
-	7720,
-	3387,
-	3181,
-	3387,
-	5077,
-	3387,
-	3385,
+	11528,
+	11528,
+	11712,
+	10600,
+	11099,
+	10672,
+	9874,
+	10678,
+	10678,
+	11242,
+	11242,
+	11753,
+	11753,
+	6244,
+	10678,
+	7719,
+	3386,
+	3180,
+	3386,
+	5076,
+	3386,
+	3384,
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[3] = 
 {
@@ -115,6 +115,7 @@ static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[3] =
 	{ 0x06000005, 7,  (void**)&MockRuntime_BeforeFunctionCallback_m70AB6148D0D9FCD315ACDB6B46131514D128380D_RuntimeMethod_var, 0 },
 	{ 0x06000006, 6,  (void**)&MockRuntime_AfterFunctionCallback_mFBBF94D9868CA6870E3A6A78D831145376372D46_RuntimeMethod_var, 0 },
 };
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnity_XR_OpenXR_Features_MockRuntime;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_MockRuntime_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_MockRuntime_CodeGenModule = 
 {
@@ -130,7 +131,7 @@ const Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_MockRuntime_CodeGenModule =
 	NULL,
 	0,
 	NULL,
-	NULL,
+	&g_DebuggerMetadataRegistrationUnity_XR_OpenXR_Features_MockRuntime,
 	NULL, // module initializer,
 	NULL,
 	NULL,

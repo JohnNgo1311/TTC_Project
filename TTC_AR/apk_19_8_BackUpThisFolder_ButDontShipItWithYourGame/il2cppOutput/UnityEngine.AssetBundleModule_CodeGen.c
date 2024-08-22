@@ -76,26 +76,26 @@ static Il2CppMethodPointer s_methodPointers[20] =
 };
 static const int32_t s_InvokerIndices[20] = 
 {
-	7720,
-	9539,
-	11243,
-	10332,
-	9539,
+	7719,
+	9538,
+	11242,
+	10331,
+	9538,
 	2668,
 	2668,
-	7580,
+	7579,
 	0,
-	5416,
+	5415,
 	2668,
-	6028,
-	7580,
+	6027,
+	7579,
 	2668,
-	7580,
-	7580,
-	7580,
-	7720,
-	7580,
-	7720,
+	7579,
+	7579,
+	7579,
+	7719,
+	7579,
+	7719,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
@@ -106,6 +106,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[1] =
 {
 	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_tC8CF0BFA5D22C4F7820EBABAAA7C4FF82150A459 },
 };
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_AssetBundleModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_AssetBundleModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_AssetBundleModule_CodeGenModule = 
 {
@@ -121,7 +122,7 @@ const Il2CppCodeGenModule g_UnityEngine_AssetBundleModule_CodeGenModule =
 	s_rgctxIndices,
 	1,
 	s_rgctxValues,
-	NULL,
+	&g_DebuggerMetadataRegistrationUnityEngine_AssetBundleModule,
 	NULL, // module initializer,
 	NULL,
 	NULL,

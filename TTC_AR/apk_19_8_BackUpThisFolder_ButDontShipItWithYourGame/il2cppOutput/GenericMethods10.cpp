@@ -534,6 +534,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralAE7FC72C0A8144676E285C7A23FCC75766669858
 IL2CPP_EXTERN_C String_t* _stringLiteralB829404B947F7E1629A30B5E953A49EB21CCD2ED;
 IL2CPP_EXTERN_C String_t* _stringLiteralE68FFE708FFE8FC1D5DA3BEDB8B81DE1CCC64C34;
 IL2CPP_EXTERN_C String_t* _stringLiteralE8744A8B8BD390EB66CA0CAE2376C973E6904FFB;
+IL2CPP_EXTERN_C const RuntimeMethod* Array_GetRawSzArrayData_m2F8F5B2A381AEF971F12866D9C0A6C4FBA59F6BB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_InternalArray__set_Item_TisAlbedoDebugValidationPresetData_tCCFD994474750370F3F5AAEE6312FDF5F06C106B_m9046EFE49580B5C6DF1CD524215A846EB9022750_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_InternalArray__set_Item_TisAllocToFree_tC46982856CB8220A92BB724F5FB75CCCD09C67D8_m731B004FAC1D66D4471C045EF809E30AF2605ED1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_InternalArray__set_Item_TisAllocToUpdate_tD0221D0ABC5378DDE5AAB1DAA219C337E562B512_m254A203CED315846868E66679FD29706E04525AE_RuntimeMethod_var;
@@ -16661,6 +16662,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisGCHandl
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -16715,6 +16718,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisGfxUpda
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -16769,6 +16774,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisGlyphMa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -16823,6 +16830,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisGlyphPa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -16877,6 +16886,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisGlyphRe
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -16931,6 +16942,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisGradien
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -16985,6 +16998,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisGradien
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -17039,6 +17054,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisGradien
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -17093,6 +17110,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisGuid_t_
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -17147,6 +17166,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisHash128
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -17201,6 +17222,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisHeaderV
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -17255,6 +17278,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisHighlig
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -17309,6 +17334,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisIndexFi
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -17363,6 +17390,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisInputBi
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -17417,6 +17446,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisInputCo
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -17471,6 +17502,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisInputDe
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -17525,6 +17558,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisInputEv
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -17579,6 +17614,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisInt16_t
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -17633,6 +17670,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisInt32_t
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -17687,6 +17726,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisInt32En
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -17741,6 +17782,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisInt64_t
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -17795,6 +17838,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisIntPtr_
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -17849,6 +17894,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisInterna
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -17903,6 +17950,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisInterna
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -17957,6 +18006,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisInterne
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -18011,6 +18062,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisInterpr
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -18065,6 +18118,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisJobHand
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -18119,6 +18174,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisJsonPos
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -18173,6 +18230,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisJsonPos
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -18227,6 +18286,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisKeyfram
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -18281,6 +18342,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisLength_
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -18335,6 +18398,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisLightDa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -18389,6 +18454,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisLightMi
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -18443,6 +18510,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisLineInf
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -18497,6 +18566,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisLinkInf
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -18551,6 +18622,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisLocalDe
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -18605,6 +18678,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisManipul
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -18659,6 +18734,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisMateria
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -18713,6 +18790,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisMateria
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -18767,6 +18846,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisMatrix4
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -18821,6 +18902,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisMeshInf
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -18875,6 +18958,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisModifia
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -18929,6 +19014,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisNameAnd
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -18983,6 +19070,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisNamedVa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -19037,6 +19126,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisNavigat
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -19091,6 +19182,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRuntime
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -19143,6 +19236,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisObjectI
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -19197,6 +19292,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisPageInf
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -19251,6 +19348,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisParamet
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -19305,6 +19404,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisPlane_t
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -19359,6 +19460,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisPlayabl
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -19413,6 +19516,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisPlayerL
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -19467,6 +19572,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisPointer
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -19521,6 +19628,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisPose_t0
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -19575,6 +19684,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisPreTile
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -19629,6 +19740,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisQuatern
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -19683,6 +19796,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRangePo
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -19737,6 +19852,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRaycast
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -19791,6 +19908,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRaycast
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -19845,6 +19964,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRaycast
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -19899,6 +20020,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRect_tA
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -19953,6 +20076,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRectInt
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -20007,6 +20132,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRenderC
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -20061,6 +20188,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRenderS
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -20115,6 +20244,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRenderT
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -20169,6 +20300,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRenderT
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -20223,6 +20356,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisResolut
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -20277,6 +20412,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisResolve
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -20331,6 +20468,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRichTex
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -20385,6 +20524,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRichTex
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -20439,6 +20580,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRotate_
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -20493,6 +20636,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRuleMat
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -20547,6 +20692,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRuntime
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -20601,6 +20748,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSByte_t
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -20655,6 +20804,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSByteEn
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -20709,6 +20860,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisScalabl
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -20763,6 +20916,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisScale_t
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -20817,6 +20972,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSelecto
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -20871,6 +21028,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSeriali
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -20925,6 +21084,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisShaderT
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -20979,6 +21140,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisShadowS
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -21033,6 +21196,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSingle_
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -21087,6 +21252,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSpriteS
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -21141,6 +21308,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSqlBina
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -21195,6 +21364,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSqlBool
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -21249,6 +21420,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSqlByte
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -21303,6 +21476,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSqlDate
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -21357,6 +21532,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSqlDeci
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -21411,6 +21588,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSqlDoub
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -21465,6 +21644,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSqlGuid
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -21519,6 +21700,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSqlInt1
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -21573,6 +21756,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSqlInt3
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -21627,6 +21812,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSqlInt6
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -21681,6 +21868,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSqlMone
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -21735,6 +21924,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSqlSing
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -21789,6 +21980,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSqlStri
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -21843,6 +22036,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisStylePr
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -21897,6 +22092,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisStylePr
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -21951,6 +22148,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisStyleSe
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -22005,6 +22204,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisStyleSy
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -22059,6 +22260,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisStyleVa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -22113,6 +22316,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisStyleVa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -22167,6 +22372,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisStyleVa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -22221,6 +22428,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisStyleVa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -22275,6 +22484,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSubstri
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -22329,6 +22540,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTMP_Cha
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -22383,6 +22596,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTMP_Fon
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -22437,6 +22652,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTMP_Lin
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -22491,6 +22708,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTMP_Lin
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -22545,6 +22764,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTMP_Mes
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -22599,6 +22820,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTMP_Pag
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -22653,6 +22876,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTMP_Wor
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -22707,6 +22932,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTextEle
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -22761,6 +22988,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTextSha
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -22815,6 +23044,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTextVer
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -22869,6 +23100,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTexture
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -22923,6 +23156,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTimeSpa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -22977,6 +23212,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTimeVal
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -23031,6 +23268,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTouch_t
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -23085,6 +23324,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTouch_t
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -23139,6 +23380,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTrackab
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -23193,6 +23436,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTransfo
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -23247,6 +23492,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTransfo
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -23301,6 +23548,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTransla
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -23355,6 +23604,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisUICharI
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -23409,6 +23660,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisUILineI
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -23463,6 +23716,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisUIVerte
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -23517,6 +23772,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisUInt16_
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -23571,6 +23828,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisUInt16E
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -23625,6 +23884,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisUInt32_
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -23679,6 +23940,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisUInt32E
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -23733,6 +23996,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisUInt64_
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -23787,6 +24052,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisUsageHi
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -23841,6 +24108,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisVector2
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -23895,6 +24164,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisVector2
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -23949,6 +24220,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisVector3
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -24003,6 +24276,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisVector3
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -24057,6 +24332,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisVector4
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -24111,6 +24388,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisVectorI
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -24165,6 +24444,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisVertex_
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -24219,6 +24500,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisVertexA
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -24273,6 +24556,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisVisible
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -24327,6 +24612,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisVuCamer
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -24381,6 +24668,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisVuDatab
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -24435,6 +24724,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisVuMatri
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -24489,6 +24780,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisVuMeshO
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -24543,6 +24836,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisVuModel
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -24597,6 +24892,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisVuVecto
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -24651,6 +24948,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisWebCamD
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -24705,6 +25004,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisWordInf
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -24759,6 +25060,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisWordWra
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -24813,6 +25116,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisX509Cha
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -24867,6 +25172,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisXPathNo
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -24921,6 +25228,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisXPathNo
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -24975,6 +25284,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisXRAncho
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -25029,6 +25340,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisXRCamer
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -25083,6 +25396,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisXREnvir
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -25137,6 +25452,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisXRFace_
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -25191,6 +25508,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisXRFeatu
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -25245,6 +25564,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisXRNodeS
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -25299,6 +25620,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisXRPoint
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -25353,6 +25676,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisXRRayca
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -25407,6 +25732,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisXRRayca
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -25461,6 +25788,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisXRTextu
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -25515,6 +25844,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisXRTrack
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -25569,6 +25900,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisXRView_
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -25623,6 +25956,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisXmlTagA
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -25677,6 +26012,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisZBin_t2
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -25731,6 +26068,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_Tisfloat3_
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -25785,6 +26124,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_Tisfloat4_
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -25839,6 +26180,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_Tisjvalue_
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -25893,6 +26236,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_Tisuint4_t
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -25947,6 +26292,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisFaceReg
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -26001,6 +26348,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisAnchor_
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -26055,6 +26404,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisShadowR
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -26109,6 +26460,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisAttribu
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -26163,6 +26516,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisMatchCo
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -26217,6 +26572,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisOrderBl
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -26271,6 +26628,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisPage_t0
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -26325,6 +26684,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRenderR
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -26379,6 +26740,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTableRa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -26433,6 +26796,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisCylinde
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -26487,6 +26852,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisImageTa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -26541,6 +26908,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisMultiTa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -26595,6 +26964,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisMultiTa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -26649,6 +27020,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisBucket_
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -26703,6 +27076,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTypeCon
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -26757,6 +27132,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRecogni
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -26811,6 +27188,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisColumnE
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -26865,6 +27244,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisAlbedoD
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -26919,6 +27300,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTypeNam
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -26973,6 +27356,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisDrawCal
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -27027,6 +27412,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisCompute
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -27081,6 +27468,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisPrePunc
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -27135,6 +27524,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisDelegat
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -27189,6 +27580,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisDispatc
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -27243,6 +27636,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisEventRe
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -27297,6 +27692,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisReserve
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -27351,6 +27748,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisFocused
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -27405,6 +27804,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisHIDColl
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -27459,6 +27860,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisHIDElem
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -27513,6 +27916,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisHIDRepo
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -27567,6 +27972,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisHIDPage
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -27621,6 +28028,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_Tisbucket_
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -27675,6 +28084,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisHebrewV
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -27729,6 +28140,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisBinding
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -27783,6 +28196,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisReadAct
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -27837,6 +28252,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisReadMap
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -27891,6 +28308,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisWriteAc
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -27945,6 +28364,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisWriteMa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -27999,6 +28420,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisParamet
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -28053,6 +28476,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisPartBin
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -28107,6 +28532,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisControl
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -28161,6 +28588,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisDeviceR
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -28215,6 +28644,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSchemeJ
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -28269,6 +28700,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisAvailab
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -28323,6 +28756,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisStateCh
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -28377,6 +28812,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisStateCh
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -28431,6 +28868,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisStateCh
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -28485,6 +28924,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRemoteI
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -28539,6 +28980,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRemoteS
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -28593,6 +29036,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRecord_
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -28647,6 +29092,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisInputAc
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -28701,6 +29148,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTreeVie
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -28755,6 +29204,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisJsonVal
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -28809,6 +29260,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSelecte
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -28863,6 +29316,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisLightCo
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -28917,6 +29372,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisBitRegi
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -28971,6 +29428,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSeriali
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -29025,6 +29484,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRuntime
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -29079,6 +29540,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisFormatP
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -29133,6 +29596,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisParticl
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -29187,6 +29652,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisPointer
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -29241,6 +29708,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisState_t
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -29295,6 +29764,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisCachedC
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -29349,6 +29820,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisLowerCa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -29403,6 +29876,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSingleR
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -29457,6 +29932,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRenderN
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -29511,6 +29988,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisDeferre
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -29565,6 +30044,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisHitInfo
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -29619,6 +30100,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSequenc
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -29673,6 +30156,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisLightDa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -29727,6 +30212,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisWSABUF_
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -29781,6 +30268,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisPseudoS
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -29835,6 +30324,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisElement
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -29889,6 +30380,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisImportS
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -29943,6 +30436,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSheetHa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -29997,6 +30492,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisResolve
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -30051,6 +30548,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisUnicode
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -30105,6 +30604,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisAttribu
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -30159,6 +30660,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisIconNam
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -30213,6 +30716,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisFontAss
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -30267,6 +30772,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisFontRef
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -30321,6 +30828,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisBlitInf
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -30375,6 +30884,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTexture
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -30429,6 +30940,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTZifTyp
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -30483,6 +30996,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisRaycast
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -30537,6 +31052,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisPoseDat
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -30591,6 +31108,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTreeVie
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -30645,6 +31164,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisEntry_t
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -30699,6 +31220,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisAllocTo
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -30753,6 +31276,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisAllocTo
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -30807,6 +31332,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisDeviceT
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -30861,6 +31388,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisDateMap
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -30915,6 +31444,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisWorkReq
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -30969,6 +31500,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisVertexA
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -31023,6 +31556,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTexture
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -31077,6 +31612,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSlotDef
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -31131,6 +31668,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisSlotUsa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -31185,6 +31724,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisUsingEn
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -31239,6 +31780,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisProfile
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -31293,6 +31836,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisXmlEven
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -31347,6 +31892,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisNamespa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -31401,6 +31948,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisVirtual
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -31455,6 +32004,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisXmlSche
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -31509,6 +32060,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisAttrInf
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -31563,6 +32116,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisElemInf
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -31617,6 +32172,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisQName_t
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -31671,6 +32228,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisParsing
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -31725,6 +32284,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisNamespa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -31779,6 +32340,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisTagInfo
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -31833,6 +32396,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisAttrNam
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -31887,6 +32452,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisElement
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -31941,6 +32508,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisNamespa
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -31995,6 +32564,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisAndNode
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -32049,6 +32620,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisContext
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -32103,6 +32676,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisPowerOv
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -32157,6 +32732,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisMap_t13
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -32211,6 +32788,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisLayoutM
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -32265,6 +32844,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisPrecomp
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -32319,6 +32900,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisDeviceJ
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -32373,6 +32956,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisCapabil
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -32427,6 +33012,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisInstruc
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___index0;
 		int32_t L_1;
@@ -32474,6 +33061,8 @@ IL_0028:
 // System.Int32 System.Array::LastIndexOf<System.Object>(T[],T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisRuntimeObject_mF80E7E1277188B3961F8D606EB5A1CC46EF0319E_gshared (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___array0, RuntimeObject* ___value1, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = ___array0;
 		if (L_0)
@@ -32504,6 +33093,8 @@ IL_000e:
 // System.Int32 System.Array::LastIndexOf<System.Int32>(T[],T,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m603821E13AA067379EA5D21B577261CBB0BEF8E6_gshared (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___array0, int32_t ___value1, int32_t ___startIndex2, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B4_0 = 0;
 	int32_t G_B4_1 = 0;
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* G_B4_2 = NULL;
@@ -32573,6 +33164,8 @@ IL_001b:
 // System.Int32 System.Array::LastIndexOf<System.Int32Enum>(T[],T,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m92EE93D981B3058A8384DCA90FFC1502242652F7_gshared (Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* ___array0, int32_t ___value1, int32_t ___startIndex2, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B4_0 = 0;
 	int32_t G_B4_1 = 0;
 	Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* G_B4_2 = NULL;
@@ -32642,6 +33235,8 @@ IL_001b:
 // System.Int32 System.Array::LastIndexOf<UnityEngine.Matrix4x4>(T[],T,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisMatrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_mFC821A119D3BD51B91A59F09A28A8FDC1C32F6FC_gshared (Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D* ___array0, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___value1, int32_t ___startIndex2, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B4_0 = 0;
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 G_B4_1;
 	memset((&G_B4_1), 0, sizeof(G_B4_1));
@@ -32714,6 +33309,8 @@ IL_001b:
 // System.Int32 System.Array::LastIndexOf<System.Object>(T[],T,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisRuntimeObject_m60B0AA749643DFCD60274810604B33A8A2CF0A40_gshared (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___array0, RuntimeObject* ___value1, int32_t ___startIndex2, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B4_0 = 0;
 	RuntimeObject* G_B4_1 = NULL;
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* G_B4_2 = NULL;
@@ -32783,6 +33380,8 @@ IL_001b:
 // System.Int32 System.Array::LastIndexOf<UnityEngine.Rect>(T[],T,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisRect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_mCEA7CE77FA45B1CB38444D71C46BC24E06A0ECA4_gshared (RectU5BU5D_t83297CB2E61BDF9D27DCB1A3E5C78EBCE9F7C993* ___array0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___value1, int32_t ___startIndex2, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B4_0 = 0;
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D G_B4_1;
 	memset((&G_B4_1), 0, sizeof(G_B4_1));
@@ -32855,6 +33454,8 @@ IL_001b:
 // System.Int32 System.Array::LastIndexOf<UnityEngine.UIElements.TextureId>(T[],T,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisTextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58_m5291A70BF372F7D73477976310C09A5B3BE49C90_gshared (TextureIdU5BU5D_t03041DBB5C72B7E6F5F694A36DC5FEA75432188A* ___array0, TextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58 ___value1, int32_t ___startIndex2, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B4_0 = 0;
 	TextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58 G_B4_1;
 	memset((&G_B4_1), 0, sizeof(G_B4_1));
@@ -32927,6 +33528,8 @@ IL_001b:
 // System.Int32 System.Array::LastIndexOf<UnityEngine.UIElements.StyleSheets.BaseStyleMatcher/MatchContext>(T[],T,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisMatchContext_t04110FFA271D89A23BC1918BE657634A7DC06253_mFFFE5789A9BEF9E2ED789FB50EC9F52BB8954B28_gshared (MatchContextU5BU5D_t49C4E5DA5C1F9B06B211BE6F94AC6BD4D0ABCAE5* ___array0, MatchContext_t04110FFA271D89A23BC1918BE657634A7DC06253 ___value1, int32_t ___startIndex2, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B4_0 = 0;
 	MatchContext_t04110FFA271D89A23BC1918BE657634A7DC06253 G_B4_1;
 	memset((&G_B4_1), 0, sizeof(G_B4_1));
@@ -32999,6 +33602,8 @@ IL_001b:
 // System.Int32 System.Array::LastIndexOf<UnityEngine.UIElements.EventDispatcher/DispatchContext>(T[],T,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisDispatchContext_tFA37790A5FF30508B0146B79E4FF1880EB82E455_m166E18AA28DAF024602CFD2C985E5DEF44EE4A3F_gshared (DispatchContextU5BU5D_t23932F8BEADFC827A9CA5636867F6721AD971757* ___array0, DispatchContext_tFA37790A5FF30508B0146B79E4FF1880EB82E455 ___value1, int32_t ___startIndex2, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B4_0 = 0;
 	DispatchContext_tFA37790A5FF30508B0146B79E4FF1880EB82E455 G_B4_1;
 	memset((&G_B4_1), 0, sizeof(G_B4_1));
@@ -33071,6 +33676,8 @@ IL_001b:
 // System.Int32 System.Array::LastIndexOf<UnityEngine.Random/State>(T[],T,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisState_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1_mAE413A36CE59DB52974081B152F1AECEEF6A1801_gshared (StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2* ___array0, State_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1 ___value1, int32_t ___startIndex2, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B4_0 = 0;
 	State_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1 G_B4_1;
 	memset((&G_B4_1), 0, sizeof(G_B4_1));
@@ -33143,6 +33750,8 @@ IL_001b:
 // System.Int32 System.Array::LastIndexOf<System.Xml.Schema.SequenceNode/SequenceConstructPosContext>(T[],T,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisSequenceConstructPosContext_tDEC4FB1B8F19EFD1AC27C150D561C2D4F6090BA7_m9DB0530A744D8E780B56CFE8151B4F546C8888F8_gshared (SequenceConstructPosContextU5BU5D_t6A625135AE7744062F12A256302E6E6D2FD0A545* ___array0, SequenceConstructPosContext_tDEC4FB1B8F19EFD1AC27C150D561C2D4F6090BA7 ___value1, int32_t ___startIndex2, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B4_0 = 0;
 	SequenceConstructPosContext_tDEC4FB1B8F19EFD1AC27C150D561C2D4F6090BA7 G_B4_1;
 	memset((&G_B4_1), 0, sizeof(G_B4_1));
@@ -33215,6 +33824,8 @@ IL_001b:
 // System.Int32 System.Array::LastIndexOf<UnityEngine.UIElements.StyleVariableResolver/ResolveContext>(T[],T,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisResolveContext_tEF37DBA22D641E4FE1568C5EBE1605A98D86C992_mC8AC923DA1C68CBB7AB50DA11BAB1CA71C75384E_gshared (ResolveContextU5BU5D_tA44F71F5EFF2CE305C748D326687E840F314B3FB* ___array0, ResolveContext_tEF37DBA22D641E4FE1568C5EBE1605A98D86C992 ___value1, int32_t ___startIndex2, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B4_0 = 0;
 	ResolveContext_tEF37DBA22D641E4FE1568C5EBE1605A98D86C992 G_B4_1;
 	memset((&G_B4_1), 0, sizeof(G_B4_1));
@@ -33287,6 +33898,8 @@ IL_001b:
 // System.Int32 System.Array::LastIndexOf<System.Dynamic.BindingRestrictions/TestBuilder/AndNode>(T[],T,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisAndNode_tD84E0D831AD339630C4170F558969F4ACAD73653_mA413BB7E30A78038DB859606FDD063F490822853_gshared (AndNodeU5BU5D_tB441383F35641A763CF3684AB72D92BE6CD35C3C* ___array0, AndNode_tD84E0D831AD339630C4170F558969F4ACAD73653 ___value1, int32_t ___startIndex2, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B4_0 = 0;
 	AndNode_tD84E0D831AD339630C4170F558969F4ACAD73653 G_B4_1;
 	memset((&G_B4_1), 0, sizeof(G_B4_1));
@@ -33359,6 +33972,8 @@ IL_001b:
 // System.Int32 System.Array::LastIndexOf<System.Int32>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m459730221F1EEF97FEF185B13132174BA7CA27E5_gshared (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___array0, int32_t ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = ___array0;
 		if (L_0)
@@ -33488,6 +34103,8 @@ IL_0074:
 // System.Int32 System.Array::LastIndexOf<System.Int32Enum>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mF1E956210B8DDD692E90FFF045604A2FA8DDE367_gshared (Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* ___array0, int32_t ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* L_0 = ___array0;
 		if (L_0)
@@ -33617,6 +34234,8 @@ IL_0074:
 // System.Int32 System.Array::LastIndexOf<UnityEngine.Matrix4x4>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisMatrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_mB245ACCEB3E8BE50E2E2831C02167C28E8DBE3E2_gshared (Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D* ___array0, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D* L_0 = ___array0;
 		if (L_0)
@@ -33746,6 +34365,8 @@ IL_0074:
 // System.Int32 System.Array::LastIndexOf<System.Object>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisRuntimeObject_m71A883897624019E6587A0716169FDF72475BC3D_gshared (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___array0, RuntimeObject* ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = ___array0;
 		if (L_0)
@@ -33875,6 +34496,8 @@ IL_0074:
 // System.Int32 System.Array::LastIndexOf<UnityEngine.Rect>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisRect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_m730763195958F13AD6B8092E477826248C67FB36_gshared (RectU5BU5D_t83297CB2E61BDF9D27DCB1A3E5C78EBCE9F7C993* ___array0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RectU5BU5D_t83297CB2E61BDF9D27DCB1A3E5C78EBCE9F7C993* L_0 = ___array0;
 		if (L_0)
@@ -34004,6 +34627,8 @@ IL_0074:
 // System.Int32 System.Array::LastIndexOf<UnityEngine.UIElements.TextureId>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisTextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58_m4D2A8B670B63D5D03C8662DE0DD58899F267130D_gshared (TextureIdU5BU5D_t03041DBB5C72B7E6F5F694A36DC5FEA75432188A* ___array0, TextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58 ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		TextureIdU5BU5D_t03041DBB5C72B7E6F5F694A36DC5FEA75432188A* L_0 = ___array0;
 		if (L_0)
@@ -34133,6 +34758,8 @@ IL_0074:
 // System.Int32 System.Array::LastIndexOf<UnityEngine.UIElements.StyleSheets.BaseStyleMatcher/MatchContext>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisMatchContext_t04110FFA271D89A23BC1918BE657634A7DC06253_m75B4027B1EFC3ED3B918682FE16C15B98A56D416_gshared (MatchContextU5BU5D_t49C4E5DA5C1F9B06B211BE6F94AC6BD4D0ABCAE5* ___array0, MatchContext_t04110FFA271D89A23BC1918BE657634A7DC06253 ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		MatchContextU5BU5D_t49C4E5DA5C1F9B06B211BE6F94AC6BD4D0ABCAE5* L_0 = ___array0;
 		if (L_0)
@@ -34262,6 +34889,8 @@ IL_0074:
 // System.Int32 System.Array::LastIndexOf<UnityEngine.UIElements.EventDispatcher/DispatchContext>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisDispatchContext_tFA37790A5FF30508B0146B79E4FF1880EB82E455_mFF6532E85AAD74C2BBBE8562E28CE86DEFC38925_gshared (DispatchContextU5BU5D_t23932F8BEADFC827A9CA5636867F6721AD971757* ___array0, DispatchContext_tFA37790A5FF30508B0146B79E4FF1880EB82E455 ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		DispatchContextU5BU5D_t23932F8BEADFC827A9CA5636867F6721AD971757* L_0 = ___array0;
 		if (L_0)
@@ -34391,6 +35020,8 @@ IL_0074:
 // System.Int32 System.Array::LastIndexOf<UnityEngine.Random/State>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisState_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1_mBD68D1AD8EB33993B754D45F134AF71C1D7D876A_gshared (StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2* ___array0, State_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1 ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2* L_0 = ___array0;
 		if (L_0)
@@ -34520,6 +35151,8 @@ IL_0074:
 // System.Int32 System.Array::LastIndexOf<System.Xml.Schema.SequenceNode/SequenceConstructPosContext>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisSequenceConstructPosContext_tDEC4FB1B8F19EFD1AC27C150D561C2D4F6090BA7_m2322DA2437DA045341058925DE9FDE7EC12F44F4_gshared (SequenceConstructPosContextU5BU5D_t6A625135AE7744062F12A256302E6E6D2FD0A545* ___array0, SequenceConstructPosContext_tDEC4FB1B8F19EFD1AC27C150D561C2D4F6090BA7 ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		SequenceConstructPosContextU5BU5D_t6A625135AE7744062F12A256302E6E6D2FD0A545* L_0 = ___array0;
 		if (L_0)
@@ -34649,6 +35282,8 @@ IL_0074:
 // System.Int32 System.Array::LastIndexOf<UnityEngine.UIElements.StyleVariableResolver/ResolveContext>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisResolveContext_tEF37DBA22D641E4FE1568C5EBE1605A98D86C992_mC03FC20BB7BDF6D2F85828231971FEBA53CBCEC4_gshared (ResolveContextU5BU5D_tA44F71F5EFF2CE305C748D326687E840F314B3FB* ___array0, ResolveContext_tEF37DBA22D641E4FE1568C5EBE1605A98D86C992 ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		ResolveContextU5BU5D_tA44F71F5EFF2CE305C748D326687E840F314B3FB* L_0 = ___array0;
 		if (L_0)
@@ -34778,6 +35413,8 @@ IL_0074:
 // System.Int32 System.Array::LastIndexOf<System.Dynamic.BindingRestrictions/TestBuilder/AndNode>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOf_TisAndNode_tD84E0D831AD339630C4170F558969F4ACAD73653_mDEC3C88408891ACBFB13F4EB253E92BEF2F41532_gshared (AndNodeU5BU5D_tB441383F35641A763CF3684AB72D92BE6CD35C3C* ___array0, AndNode_tD84E0D831AD339630C4170F558969F4ACAD73653 ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		AndNodeU5BU5D_tB441383F35641A763CF3684AB72D92BE6CD35C3C* L_0 = ___array0;
 		if (L_0)
@@ -34907,6 +35544,8 @@ IL_0074:
 // System.Int32 System.Array::LastIndexOfImpl<System.Int32>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m092F54B75DDDAB528550029D49077E5703B3C599_gshared (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___array0, int32_t ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* L_0;
 		L_0 = ((  EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))(il2cpp_rgctx_method(method->rgctx_data, 0));
@@ -34923,6 +35562,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisInt32_t680FF
 // System.Int32 System.Array::LastIndexOfImpl<System.Int32Enum>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mD78B0A82D988006A6D3F14FA46DFF75295A35D80_gshared (Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* ___array0, int32_t ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		EqualityComparer_1_tECD5E5244542BCEA9946E4E9E894173EFA97E8DF* L_0;
 		L_0 = ((  EqualityComparer_1_tECD5E5244542BCEA9946E4E9E894173EFA97E8DF* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))(il2cpp_rgctx_method(method->rgctx_data, 0));
@@ -34939,6 +35580,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisInt32Enum_tC
 // System.Int32 System.Array::LastIndexOfImpl<UnityEngine.Matrix4x4>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisMatrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_mEA30857AC1D047F0E2AD86F13C1D62CE7E3FE85F_gshared (Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D* ___array0, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		EqualityComparer_1_tAF026F8ED983153AA5769E5B9667B9CAAC28F0B5* L_0;
 		L_0 = ((  EqualityComparer_1_tAF026F8ED983153AA5769E5B9667B9CAAC28F0B5* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))(il2cpp_rgctx_method(method->rgctx_data, 0));
@@ -34955,6 +35598,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisMatrix4x4_tD
 // System.Int32 System.Array::LastIndexOfImpl<System.Object>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisRuntimeObject_mE7303DACD06CE029EA0F44ADF103A0276A96AA92_gshared (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___array0, RuntimeObject* ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		EqualityComparer_1_t92563A67F1C1ECDC3FE387C46498E2E56B59F3C2* L_0;
 		L_0 = ((  EqualityComparer_1_t92563A67F1C1ECDC3FE387C46498E2E56B59F3C2* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))(il2cpp_rgctx_method(method->rgctx_data, 0));
@@ -34971,6 +35616,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisRuntimeObjec
 // System.Int32 System.Array::LastIndexOfImpl<UnityEngine.Rect>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisRect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_m96B1A575262F5C420EB84B2D9F62F45ED7DA5F26_gshared (RectU5BU5D_t83297CB2E61BDF9D27DCB1A3E5C78EBCE9F7C993* ___array0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		EqualityComparer_1_t9072871D75372840EEF20C93E4B8909E005D3EF1* L_0;
 		L_0 = ((  EqualityComparer_1_t9072871D75372840EEF20C93E4B8909E005D3EF1* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))(il2cpp_rgctx_method(method->rgctx_data, 0));
@@ -34987,6 +35634,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisRect_tA04E0F
 // System.Int32 System.Array::LastIndexOfImpl<UnityEngine.UIElements.TextureId>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisTextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58_mC57DFEBBD93A29DD2AC8FFCE3229A65531DFBE27_gshared (TextureIdU5BU5D_t03041DBB5C72B7E6F5F694A36DC5FEA75432188A* ___array0, TextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58 ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		EqualityComparer_1_t6F269FFB501208619AE7D8A3B95BD94EF417A9CD* L_0;
 		L_0 = ((  EqualityComparer_1_t6F269FFB501208619AE7D8A3B95BD94EF417A9CD* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))(il2cpp_rgctx_method(method->rgctx_data, 0));
@@ -35003,6 +35652,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisTextureId_tF
 // System.Int32 System.Array::LastIndexOfImpl<UnityEngine.UIElements.StyleSheets.BaseStyleMatcher/MatchContext>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisMatchContext_t04110FFA271D89A23BC1918BE657634A7DC06253_mBA5DFAF04F939ECC3DE32DCB95426E300518A311_gshared (MatchContextU5BU5D_t49C4E5DA5C1F9B06B211BE6F94AC6BD4D0ABCAE5* ___array0, MatchContext_t04110FFA271D89A23BC1918BE657634A7DC06253 ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		EqualityComparer_1_tDDC4A81B372B2D2FCF4F45B8B1B6F1FFD2C3F0B2* L_0;
 		L_0 = ((  EqualityComparer_1_tDDC4A81B372B2D2FCF4F45B8B1B6F1FFD2C3F0B2* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))(il2cpp_rgctx_method(method->rgctx_data, 0));
@@ -35019,6 +35670,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisMatchContext
 // System.Int32 System.Array::LastIndexOfImpl<UnityEngine.UIElements.EventDispatcher/DispatchContext>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisDispatchContext_tFA37790A5FF30508B0146B79E4FF1880EB82E455_m23DA9350256B861281C4773510279C07A24C0E1D_gshared (DispatchContextU5BU5D_t23932F8BEADFC827A9CA5636867F6721AD971757* ___array0, DispatchContext_tFA37790A5FF30508B0146B79E4FF1880EB82E455 ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		EqualityComparer_1_tF48771D1989A71734CBB04CC7C9FCCFAC2097BB3* L_0;
 		L_0 = ((  EqualityComparer_1_tF48771D1989A71734CBB04CC7C9FCCFAC2097BB3* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))(il2cpp_rgctx_method(method->rgctx_data, 0));
@@ -35035,6 +35688,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisDispatchCont
 // System.Int32 System.Array::LastIndexOfImpl<UnityEngine.Random/State>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisState_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1_mDEBE1F3D70397EBE2208B2439A258C5FB2795442_gshared (StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2* ___array0, State_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1 ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		EqualityComparer_1_tF2F3A29FE97B6EE23A8D8E2BBC4D1E21BFDFAA31* L_0;
 		L_0 = ((  EqualityComparer_1_tF2F3A29FE97B6EE23A8D8E2BBC4D1E21BFDFAA31* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))(il2cpp_rgctx_method(method->rgctx_data, 0));
@@ -35051,6 +35706,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisState_tA37EB
 // System.Int32 System.Array::LastIndexOfImpl<System.Xml.Schema.SequenceNode/SequenceConstructPosContext>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisSequenceConstructPosContext_tDEC4FB1B8F19EFD1AC27C150D561C2D4F6090BA7_m33F2BDD44793C28EF26B4B447AC835DD2331D8CD_gshared (SequenceConstructPosContextU5BU5D_t6A625135AE7744062F12A256302E6E6D2FD0A545* ___array0, SequenceConstructPosContext_tDEC4FB1B8F19EFD1AC27C150D561C2D4F6090BA7 ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		EqualityComparer_1_tB3AB69C9D49F0B8A35CA79596858765777D6689E* L_0;
 		L_0 = ((  EqualityComparer_1_tB3AB69C9D49F0B8A35CA79596858765777D6689E* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))(il2cpp_rgctx_method(method->rgctx_data, 0));
@@ -35067,6 +35724,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisSequenceCons
 // System.Int32 System.Array::LastIndexOfImpl<UnityEngine.UIElements.StyleVariableResolver/ResolveContext>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisResolveContext_tEF37DBA22D641E4FE1568C5EBE1605A98D86C992_mFCCEB795609E94F17B876EDDA0A33944D58059FB_gshared (ResolveContextU5BU5D_tA44F71F5EFF2CE305C748D326687E840F314B3FB* ___array0, ResolveContext_tEF37DBA22D641E4FE1568C5EBE1605A98D86C992 ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		EqualityComparer_1_t0A800CA22585146EF50C47FDC1E5E0F4D8CE54B3* L_0;
 		L_0 = ((  EqualityComparer_1_t0A800CA22585146EF50C47FDC1E5E0F4D8CE54B3* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))(il2cpp_rgctx_method(method->rgctx_data, 0));
@@ -35083,6 +35742,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisResolveConte
 // System.Int32 System.Array::LastIndexOfImpl<System.Dynamic.BindingRestrictions/TestBuilder/AndNode>(T[],T,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_LastIndexOfImpl_TisAndNode_tD84E0D831AD339630C4170F558969F4ACAD73653_m6C5B50499E27E94007DA55BDA84E1426E769F906_gshared (AndNodeU5BU5D_tB441383F35641A763CF3684AB72D92BE6CD35C3C* ___array0, AndNode_tD84E0D831AD339630C4170F558969F4ACAD73653 ___value1, int32_t ___startIndex2, int32_t ___count3, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		EqualityComparer_1_tE9A1D7539A6B9EBDD7F74C4F257FE899AB9AFB7D* L_0;
 		L_0 = ((  EqualityComparer_1_tE9A1D7539A6B9EBDD7F74C4F257FE899AB9AFB7D* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))(il2cpp_rgctx_method(method->rgctx_data, 0));
@@ -35101,6 +35762,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisEmptyData_t3ADF94D95DAB6
 {
 	EmptyDataU5BU5D_t4FC6419C796BBADFEC77D9CB97A3FB7B1C6D5CB8* V_0 = NULL;
 	EmptyDataU5BU5D_t4FC6419C796BBADFEC77D9CB97A3FB7B1C6D5CB8* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	EmptyDataU5BU5D_t4FC6419C796BBADFEC77D9CB97A3FB7B1C6D5CB8* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -35220,6 +35883,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisEmptyData_t48DAAB7E0603E
 {
 	EmptyDataU5BU5D_tDFE3104887D7AEB406BC646123D7C8AA698EB58A* V_0 = NULL;
 	EmptyDataU5BU5D_tDFE3104887D7AEB406BC646123D7C8AA698EB58A* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	EmptyDataU5BU5D_tDFE3104887D7AEB406BC646123D7C8AA698EB58A* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -35339,6 +36004,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisEmptyData_tF289285BF36F0
 {
 	EmptyDataU5BU5D_t568C72D6625FA05F854FF86F02910C531D98B72E* V_0 = NULL;
 	EmptyDataU5BU5D_t568C72D6625FA05F854FF86F02910C531D98B72E* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	EmptyDataU5BU5D_t568C72D6625FA05F854FF86F02910C531D98B72E* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -35458,6 +36125,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisEmptyData_t02ECBE01728C0
 {
 	EmptyDataU5BU5D_t920355EC41DECEE4E1D5688CEA971923802FC9A3* V_0 = NULL;
 	EmptyDataU5BU5D_t920355EC41DECEE4E1D5688CEA971923802FC9A3* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	EmptyDataU5BU5D_t920355EC41DECEE4E1D5688CEA971923802FC9A3* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -35577,6 +36246,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisEmptyData_tB976A2FB38B53
 {
 	EmptyDataU5BU5D_tE2C14BF5968870FDDD993014F93FDE3FC5572837* V_0 = NULL;
 	EmptyDataU5BU5D_tE2C14BF5968870FDDD993014F93FDE3FC5572837* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	EmptyDataU5BU5D_tE2C14BF5968870FDDD993014F93FDE3FC5572837* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -35696,6 +36367,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisEmptyData_tF13A138DEF262
 {
 	EmptyDataU5BU5D_t543192ACC732EF0DB4B419407C24CD12260A485B* V_0 = NULL;
 	EmptyDataU5BU5D_t543192ACC732EF0DB4B419407C24CD12260A485B* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	EmptyDataU5BU5D_t543192ACC732EF0DB4B419407C24CD12260A485B* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -35815,6 +36488,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisEmptyData_t4FC1686BC5263
 {
 	EmptyDataU5BU5D_t4EA7859B72A26B20006E0BD02EC63611C4C71485* V_0 = NULL;
 	EmptyDataU5BU5D_t4EA7859B72A26B20006E0BD02EC63611C4C71485* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	EmptyDataU5BU5D_t4EA7859B72A26B20006E0BD02EC63611C4C71485* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -35934,6 +36609,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisEmptyData_t4A4F82A772FE7
 {
 	EmptyDataU5BU5D_tF2D26ADE6FCC1E97FB2FFC1DC56D63F08E711A3C* V_0 = NULL;
 	EmptyDataU5BU5D_tF2D26ADE6FCC1E97FB2FFC1DC56D63F08E711A3C* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	EmptyDataU5BU5D_tF2D26ADE6FCC1E97FB2FFC1DC56D63F08E711A3C* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -36053,6 +36730,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisEmptyData_t43DE49ADBBE9C
 {
 	EmptyDataU5BU5D_t60D6EDC5438323017497721F3A8E4A0376F2B741* V_0 = NULL;
 	EmptyDataU5BU5D_t60D6EDC5438323017497721F3A8E4A0376F2B741* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	EmptyDataU5BU5D_t60D6EDC5438323017497721F3A8E4A0376F2B741* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -36172,6 +36851,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisEmptyData_tA8769B9E6E130
 {
 	EmptyDataU5BU5D_t8EE2FFAAC9B7C301CF4690109183A2EFDFC5A20F* V_0 = NULL;
 	EmptyDataU5BU5D_t8EE2FFAAC9B7C301CF4690109183A2EFDFC5A20F* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	EmptyDataU5BU5D_t8EE2FFAAC9B7C301CF4690109183A2EFDFC5A20F* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -36291,6 +36972,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisEmptyData_t2CB75995D335E
 {
 	EmptyDataU5BU5D_tB3A736D4DE7E747B7C1B6CA7B36EB41FA6207653* V_0 = NULL;
 	EmptyDataU5BU5D_tB3A736D4DE7E747B7C1B6CA7B36EB41FA6207653* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	EmptyDataU5BU5D_tB3A736D4DE7E747B7C1B6CA7B36EB41FA6207653* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -36410,6 +37093,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisEmptyData_tED1BB22234DD4
 {
 	EmptyDataU5BU5D_tFD0240910F0FF75CC94A141EDE346043BD9C179C* V_0 = NULL;
 	EmptyDataU5BU5D_tFD0240910F0FF75CC94A141EDE346043BD9C179C* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	EmptyDataU5BU5D_tFD0240910F0FF75CC94A141EDE346043BD9C179C* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -36529,6 +37214,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisKeyValuePair_2_tC24A74EF
 {
 	KeyValuePair_2U5BU5D_tF8154B2302178CCE00D745DBF55F703880469DFC* V_0 = NULL;
 	KeyValuePair_2U5BU5D_tF8154B2302178CCE00D745DBF55F703880469DFC* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	KeyValuePair_2U5BU5D_tF8154B2302178CCE00D745DBF55F703880469DFC* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -36648,6 +37335,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisStyleData_t333EEFF82EBFC
 {
 	StyleDataU5BU5D_tF87CDE51588E78D4C87C144731581FB5284776E0* V_0 = NULL;
 	StyleDataU5BU5D_tF87CDE51588E78D4C87C144731581FB5284776E0* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	StyleDataU5BU5D_tF87CDE51588E78D4C87C144731581FB5284776E0* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -36767,6 +37456,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisStyleData_t8548533307092
 {
 	StyleDataU5BU5D_t73BFD33363F897414B879236BE0A0DCA6962B9AB* V_0 = NULL;
 	StyleDataU5BU5D_t73BFD33363F897414B879236BE0A0DCA6962B9AB* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	StyleDataU5BU5D_t73BFD33363F897414B879236BE0A0DCA6962B9AB* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -36886,6 +37577,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisStyleData_t7B881346F61A4
 {
 	StyleDataU5BU5D_tD406BDE6B313334D7A7241DDEA636226CC9C0043* V_0 = NULL;
 	StyleDataU5BU5D_tD406BDE6B313334D7A7241DDEA636226CC9C0043* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	StyleDataU5BU5D_tD406BDE6B313334D7A7241DDEA636226CC9C0043* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -37005,6 +37698,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisStyleData_t8D7506F1365A3
 {
 	StyleDataU5BU5D_tDA10AD1016A9574B39F73BE1DBE2E3A55720EAA9* V_0 = NULL;
 	StyleDataU5BU5D_tDA10AD1016A9574B39F73BE1DBE2E3A55720EAA9* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	StyleDataU5BU5D_tDA10AD1016A9574B39F73BE1DBE2E3A55720EAA9* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -37124,6 +37819,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisStyleData_tD9916786C4684
 {
 	StyleDataU5BU5D_t8ACFC9D6C572747CB5326B98E34DEE3AC989D876* V_0 = NULL;
 	StyleDataU5BU5D_t8ACFC9D6C572747CB5326B98E34DEE3AC989D876* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	StyleDataU5BU5D_t8ACFC9D6C572747CB5326B98E34DEE3AC989D876* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -37243,6 +37940,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisStyleData_t8D2C4DFD73B2C
 {
 	StyleDataU5BU5D_t93B88656D82161E5A58053D74E6C823720B88361* V_0 = NULL;
 	StyleDataU5BU5D_t93B88656D82161E5A58053D74E6C823720B88361* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	StyleDataU5BU5D_t93B88656D82161E5A58053D74E6C823720B88361* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -37362,6 +38061,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisStyleData_tF4F082E86CEF2
 {
 	StyleDataU5BU5D_tBB18CE54D6B9B54229E01AFF7CCB44B8305F2386* V_0 = NULL;
 	StyleDataU5BU5D_tBB18CE54D6B9B54229E01AFF7CCB44B8305F2386* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	StyleDataU5BU5D_tBB18CE54D6B9B54229E01AFF7CCB44B8305F2386* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -37481,6 +38182,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisStyleData_t81910989C0A64
 {
 	StyleDataU5BU5D_t988DBB7FAB3D7D4E114C94A5CF2E305E3FFB2A7F* V_0 = NULL;
 	StyleDataU5BU5D_t988DBB7FAB3D7D4E114C94A5CF2E305E3FFB2A7F* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	StyleDataU5BU5D_t988DBB7FAB3D7D4E114C94A5CF2E305E3FFB2A7F* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -37600,6 +38303,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisStyleData_t3B3F0F1CEB43B
 {
 	StyleDataU5BU5D_t73D276E94B9F65AFF0A22B0D465D05D5E9438F5E* V_0 = NULL;
 	StyleDataU5BU5D_t73D276E94B9F65AFF0A22B0D465D05D5E9438F5E* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	StyleDataU5BU5D_t73D276E94B9F65AFF0A22B0D465D05D5E9438F5E* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -37719,6 +38424,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisStyleData_t8550AC117CD61
 {
 	StyleDataU5BU5D_t597C3C3BF0BFFC87AB6037E85E0829D999602263* V_0 = NULL;
 	StyleDataU5BU5D_t597C3C3BF0BFFC87AB6037E85E0829D999602263* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	StyleDataU5BU5D_t597C3C3BF0BFFC87AB6037E85E0829D999602263* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -37838,6 +38545,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisStyleData_tDA8B8711D8BD1
 {
 	StyleDataU5BU5D_tDCCCED3D71A0A84CDB77E5222463121D4EB611CC* V_0 = NULL;
 	StyleDataU5BU5D_tDCCCED3D71A0A84CDB77E5222463121D4EB611CC* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	StyleDataU5BU5D_tDCCCED3D71A0A84CDB77E5222463121D4EB611CC* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -37957,6 +38666,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisStyleData_t516B303180A93
 {
 	StyleDataU5BU5D_tAD21796096D8CBCE199118430F1C659AA1DFB822* V_0 = NULL;
 	StyleDataU5BU5D_tAD21796096D8CBCE199118430F1C659AA1DFB822* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	StyleDataU5BU5D_tAD21796096D8CBCE199118430F1C659AA1DFB822* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -38076,6 +38787,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTimingData_t9A97DB81A0CF
 {
 	TimingDataU5BU5D_t0DDECCB612303E94B577E5978AB4B36B5192AFB1* V_0 = NULL;
 	TimingDataU5BU5D_t0DDECCB612303E94B577E5978AB4B36B5192AFB1* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TimingDataU5BU5D_t0DDECCB612303E94B577E5978AB4B36B5192AFB1* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -38195,6 +38908,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTimingData_t34C4E95C26A0
 {
 	TimingDataU5BU5D_t03C8C38B8DBF52B9A23FB2B77BEC41E63D4A3994* V_0 = NULL;
 	TimingDataU5BU5D_t03C8C38B8DBF52B9A23FB2B77BEC41E63D4A3994* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TimingDataU5BU5D_t03C8C38B8DBF52B9A23FB2B77BEC41E63D4A3994* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -38314,6 +39029,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTimingData_t450BF01CAD1A
 {
 	TimingDataU5BU5D_t45DAD27FEA03547B7581715461816FA37E7EC651* V_0 = NULL;
 	TimingDataU5BU5D_t45DAD27FEA03547B7581715461816FA37E7EC651* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TimingDataU5BU5D_t45DAD27FEA03547B7581715461816FA37E7EC651* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -38433,6 +39150,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTimingData_tB9F07E55FE50
 {
 	TimingDataU5BU5D_t9253C6811381B1932706D115D067841C7175C077* V_0 = NULL;
 	TimingDataU5BU5D_t9253C6811381B1932706D115D067841C7175C077* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TimingDataU5BU5D_t9253C6811381B1932706D115D067841C7175C077* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -38552,6 +39271,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTimingData_t9FA7CAC423BA
 {
 	TimingDataU5BU5D_tA5BE0E019AB587A0072682D5535D2295EC6F04B9* V_0 = NULL;
 	TimingDataU5BU5D_tA5BE0E019AB587A0072682D5535D2295EC6F04B9* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TimingDataU5BU5D_tA5BE0E019AB587A0072682D5535D2295EC6F04B9* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -38671,6 +39392,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTimingData_tAC897652D090
 {
 	TimingDataU5BU5D_t86A2877F21E58289C845548B2244BFCA090918B1* V_0 = NULL;
 	TimingDataU5BU5D_t86A2877F21E58289C845548B2244BFCA090918B1* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TimingDataU5BU5D_t86A2877F21E58289C845548B2244BFCA090918B1* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -38790,6 +39513,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTimingData_t9F5BE2ECB5F5
 {
 	TimingDataU5BU5D_tE963FB40D15F6761CC687300F7A3EFCD58A8505A* V_0 = NULL;
 	TimingDataU5BU5D_tE963FB40D15F6761CC687300F7A3EFCD58A8505A* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TimingDataU5BU5D_tE963FB40D15F6761CC687300F7A3EFCD58A8505A* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -38909,6 +39634,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTimingData_t098AB9F533C2
 {
 	TimingDataU5BU5D_t0BCD78985159E6EF1D974E34B209EDE880E06269* V_0 = NULL;
 	TimingDataU5BU5D_t0BCD78985159E6EF1D974E34B209EDE880E06269* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TimingDataU5BU5D_t0BCD78985159E6EF1D974E34B209EDE880E06269* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -39028,6 +39755,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTimingData_t7E5D81E44DD3
 {
 	TimingDataU5BU5D_t370B0476A79A76456F04BA6664A963CC579E9CD0* V_0 = NULL;
 	TimingDataU5BU5D_t370B0476A79A76456F04BA6664A963CC579E9CD0* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TimingDataU5BU5D_t370B0476A79A76456F04BA6664A963CC579E9CD0* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -39147,6 +39876,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTimingData_t70F8D4FF0A51
 {
 	TimingDataU5BU5D_tE92E1403336542C4CF4B76824A22545D0EB14E14* V_0 = NULL;
 	TimingDataU5BU5D_tE92E1403336542C4CF4B76824A22545D0EB14E14* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TimingDataU5BU5D_tE92E1403336542C4CF4B76824A22545D0EB14E14* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -39266,6 +39997,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTimingData_t0F88AE7B3D35
 {
 	TimingDataU5BU5D_t1C0E9B6D937D57C27438BFA33BC2DB905EE4973E* V_0 = NULL;
 	TimingDataU5BU5D_t1C0E9B6D937D57C27438BFA33BC2DB905EE4973E* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TimingDataU5BU5D_t1C0E9B6D937D57C27438BFA33BC2DB905EE4973E* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -39385,6 +40118,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTimingData_tD402D38A47B4
 {
 	TimingDataU5BU5D_t634CA6261A1EDA23867D38722881D8D9610065E3* V_0 = NULL;
 	TimingDataU5BU5D_t634CA6261A1EDA23867D38722881D8D9610065E3* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TimingDataU5BU5D_t634CA6261A1EDA23867D38722881D8D9610065E3* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -39504,6 +40239,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisBackground_t3C720DED4FAF
 {
 	BackgroundU5BU5D_t29762095DD694E79A85A59135735FF02E54C4B46* V_0 = NULL;
 	BackgroundU5BU5D_t29762095DD694E79A85A59135735FF02E54C4B46* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	BackgroundU5BU5D_t29762095DD694E79A85A59135735FF02E54C4B46* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -39623,6 +40360,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisColor_tD001788D726C3A7F1
 {
 	ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* V_0 = NULL;
 	ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -39742,6 +40481,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisColor32_t73C5004937BF5BB
 {
 	Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* V_0 = NULL;
 	Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -39861,6 +40602,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisDriverCameraMode_t987B41
 {
 	DriverCameraModeU5BU5D_t20A33275D2A197484BD31153ACC12596433CCE5C* V_0 = NULL;
 	DriverCameraModeU5BU5D_t20A33275D2A197484BD31153ACC12596433CCE5C* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	DriverCameraModeU5BU5D_t20A33275D2A197484BD31153ACC12596433CCE5C* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -39980,6 +40723,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisFontDefinition_t65281B0E
 {
 	FontDefinitionU5BU5D_t31BDC3E2D72918B36F815F95F7CBA1F057E3DA39* V_0 = NULL;
 	FontDefinitionU5BU5D_t31BDC3E2D72918B36F815F95F7CBA1F057E3DA39* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	FontDefinitionU5BU5D_t31BDC3E2D72918B36F815F95F7CBA1F057E3DA39* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -40099,6 +40844,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisGCHandle_tC44F6F72EE68BD
 {
 	GCHandleU5BU5D_t7EA6F2FA83CDF86871001174CF7D30033AC4A785* V_0 = NULL;
 	GCHandleU5BU5D_t7EA6F2FA83CDF86871001174CF7D30033AC4A785* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	GCHandleU5BU5D_t7EA6F2FA83CDF86871001174CF7D30033AC4A785* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -40218,6 +40965,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisGlyphPairAdjustmentRecor
 {
 	GlyphPairAdjustmentRecordU5BU5D_tD5DD2A739A4CA745E7F28ECCB2CD0BD0A65A38F7* V_0 = NULL;
 	GlyphPairAdjustmentRecordU5BU5D_tD5DD2A739A4CA745E7F28ECCB2CD0BD0A65A38F7* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	GlyphPairAdjustmentRecordU5BU5D_tD5DD2A739A4CA745E7F28ECCB2CD0BD0A65A38F7* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -40337,6 +41086,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisHighlightState_tE4F50287
 {
 	HighlightStateU5BU5D_tA878A0AF1F4F52882ACD29515AADC277EE135622* V_0 = NULL;
 	HighlightStateU5BU5D_tA878A0AF1F4F52882ACD29515AADC277EE135622* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	HighlightStateU5BU5D_tA878A0AF1F4F52882ACD29515AADC277EE135622* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -40456,6 +41207,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisInputBinding_t0D75BD1538
 {
 	InputBindingU5BU5D_t7E47E87B9CAE12B6F6A0659008B425C58D84BB57* V_0 = NULL;
 	InputBindingU5BU5D_t7E47E87B9CAE12B6F6A0659008B425C58D84BB57* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	InputBindingU5BU5D_t7E47E87B9CAE12B6F6A0659008B425C58D84BB57* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -40575,6 +41328,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisInt32_t680FF22E76F6EFAD4
 {
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_0 = NULL;
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -40694,6 +41449,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisInt32Enum_tCBAC8BA2BFF3A
 {
 	Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* V_0 = NULL;
 	Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -40813,6 +41570,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisInternedString_t8D62A48C
 {
 	InternedStringU5BU5D_t0B851758733FC0B118D84BE83AED10A0404C18D5* V_0 = NULL;
 	InternedStringU5BU5D_t0B851758733FC0B118D84BE83AED10A0404C18D5* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	InternedStringU5BU5D_t0B851758733FC0B118D84BE83AED10A0404C18D5* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -40932,6 +41691,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisLength_t90BB06D47DD6DB46
 {
 	LengthU5BU5D_t6E92E14664BA86924824C32A0BBE10AEC53C7FAE* V_0 = NULL;
 	LengthU5BU5D_t6E92E14664BA86924824C32A0BBE10AEC53C7FAE* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	LengthU5BU5D_t6E92E14664BA86924824C32A0BBE10AEC53C7FAE* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -41051,6 +41812,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisLinkInfo_tE85DDAFDFBDA63
 {
 	LinkInfoU5BU5D_tB7EB23E47AF29CCBEC884F9D0DB95BC97F62AE51* V_0 = NULL;
 	LinkInfoU5BU5D_tB7EB23E47AF29CCBEC884F9D0DB95BC97F62AE51* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	LinkInfoU5BU5D_tB7EB23E47AF29CCBEC884F9D0DB95BC97F62AE51* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -41170,6 +41933,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisMaterialReference_tFD98F
 {
 	MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2* V_0 = NULL;
 	MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -41289,6 +42054,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisMaterialReference_t86DB0
 {
 	MaterialReferenceU5BU5D_t4A9B88114E223BD96CE5121053664023CE2DE07E* V_0 = NULL;
 	MaterialReferenceU5BU5D_t4A9B88114E223BD96CE5121053664023CE2DE07E* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	MaterialReferenceU5BU5D_t4A9B88114E223BD96CE5121053664023CE2DE07E* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -41408,6 +42175,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisMatrix4x4_tDB70CF134A14B
 {
 	Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D* V_0 = NULL;
 	Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -41527,6 +42296,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisMeshInfo_tE55C4A8846CC2C
 {
 	MeshInfoU5BU5D_t3DF8B75BF4A213334EED197AD25E432212894AC6* V_0 = NULL;
 	MeshInfoU5BU5D_t3DF8B75BF4A213334EED197AD25E432212894AC6* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	MeshInfoU5BU5D_t3DF8B75BF4A213334EED197AD25E432212894AC6* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -41646,6 +42417,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisRuntimeObject_mE8D92C287
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -41765,6 +42538,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisPageInfo_tFFF6B289E9A37E
 {
 	PageInfoU5BU5D_tFEA2CF88695491CFC2F2A2EF6BDCC56E52B0A6D4* V_0 = NULL;
 	PageInfoU5BU5D_tFEA2CF88695491CFC2F2A2EF6BDCC56E52B0A6D4* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	PageInfoU5BU5D_tFEA2CF88695491CFC2F2A2EF6BDCC56E52B0A6D4* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -41884,6 +42659,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisPointerModel_t6E979AA49D
 {
 	PointerModelU5BU5D_tE7B1CA281F392BD0840E1A81754AC94AF44FEE81* V_0 = NULL;
 	PointerModelU5BU5D_tE7B1CA281F392BD0840E1A81754AC94AF44FEE81* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	PointerModelU5BU5D_tE7B1CA281F392BD0840E1A81754AC94AF44FEE81* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -42003,6 +42780,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisRect_tA04E0F8A1830E767F4
 {
 	RectU5BU5D_t83297CB2E61BDF9D27DCB1A3E5C78EBCE9F7C993* V_0 = NULL;
 	RectU5BU5D_t83297CB2E61BDF9D27DCB1A3E5C78EBCE9F7C993* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	RectU5BU5D_t83297CB2E61BDF9D27DCB1A3E5C78EBCE9F7C993* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -42122,6 +42901,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisRotate_tE965CA0281A547AB
 {
 	RotateU5BU5D_tD482C518713DEC5763C34C827A9B6DB565776772* V_0 = NULL;
 	RotateU5BU5D_tD482C518713DEC5763C34C827A9B6DB565776772* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	RotateU5BU5D_tD482C518713DEC5763C34C827A9B6DB565776772* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -42241,6 +43022,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisScale_t5594C69C1AC9398B5
 {
 	ScaleU5BU5D_tE608175710457D7343DD849244BF59B58157F0EF* V_0 = NULL;
 	ScaleU5BU5D_tE608175710457D7343DD849244BF59B58157F0EF* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	ScaleU5BU5D_tE608175710457D7343DD849244BF59B58157F0EF* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -42360,6 +43143,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisSingle_t4530F2FF86FCB0DC
 {
 	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_0 = NULL;
 	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -42479,6 +43264,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisSubstring_t2E16755269E67
 {
 	SubstringU5BU5D_t9973080FDB519ED771E9FB3E6FDC90DF45211B77* V_0 = NULL;
 	SubstringU5BU5D_t9973080FDB519ED771E9FB3E6FDC90DF45211B77* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	SubstringU5BU5D_t9973080FDB519ED771E9FB3E6FDC90DF45211B77* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -42598,6 +43385,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTMP_CharacterInfo_t8B8FF
 {
 	TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* V_0 = NULL;
 	TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -42717,6 +43506,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTMP_LinkInfo_t9DC08E8BF8
 {
 	TMP_LinkInfoU5BU5D_tE11BE54A5923BD2148E716289F44EA465E06536E* V_0 = NULL;
 	TMP_LinkInfoU5BU5D_tE11BE54A5923BD2148E716289F44EA465E06536E* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TMP_LinkInfoU5BU5D_tE11BE54A5923BD2148E716289F44EA465E06536E* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -42836,6 +43627,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTMP_MeshInfo_t320C52212E
 {
 	TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* V_0 = NULL;
 	TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -42955,6 +43748,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTMP_PageInfo_t062E569484
 {
 	TMP_PageInfoU5BU5D_tE3DAAA8E2E9147F97C424A9034F677A516E8DAF9* V_0 = NULL;
 	TMP_PageInfoU5BU5D_tE3DAAA8E2E9147F97C424A9034F677A516E8DAF9* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TMP_PageInfoU5BU5D_tE3DAAA8E2E9147F97C424A9034F677A516E8DAF9* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -43074,6 +43869,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTMP_WordInfo_t825112AF0B
 {
 	TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC* V_0 = NULL;
 	TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -43193,6 +43990,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTextElementInfo_tDD7A12E
 {
 	TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* V_0 = NULL;
 	TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -43312,6 +44111,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTextShadow_t6BADF37AB90A
 {
 	TextShadowU5BU5D_tF37C87EBD3D8745BEDABCE2EA499DE16C15B5D8C* V_0 = NULL;
 	TextShadowU5BU5D_tF37C87EBD3D8745BEDABCE2EA499DE16C15B5D8C* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TextShadowU5BU5D_tF37C87EBD3D8745BEDABCE2EA499DE16C15B5D8C* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -43431,6 +44232,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTextureId_tFF4B4AAE53408
 {
 	TextureIdU5BU5D_t03041DBB5C72B7E6F5F694A36DC5FEA75432188A* V_0 = NULL;
 	TextureIdU5BU5D_t03041DBB5C72B7E6F5F694A36DC5FEA75432188A* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TextureIdU5BU5D_t03041DBB5C72B7E6F5F694A36DC5FEA75432188A* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -43550,6 +44353,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTransformOrigin_tD11A368
 {
 	TransformOriginU5BU5D_t0BDBC9C8F1888009152284DC2903B3C289F826DA* V_0 = NULL;
 	TransformOriginU5BU5D_t0BDBC9C8F1888009152284DC2903B3C289F826DA* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TransformOriginU5BU5D_t0BDBC9C8F1888009152284DC2903B3C289F826DA* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -43669,6 +44474,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisTranslate_t494F6E802F8A6
 {
 	TranslateU5BU5D_t9199DFD72A8EC5FA4C33D75E5F85242F9F97E358* V_0 = NULL;
 	TranslateU5BU5D_t9199DFD72A8EC5FA4C33D75E5F85242F9F97E358* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	TranslateU5BU5D_t9199DFD72A8EC5FA4C33D75E5F85242F9F97E358* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -43788,6 +44595,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisUInt32_t1833D51FFA667B18
 {
 	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* V_0 = NULL;
 	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -43907,6 +44716,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisUInt64_t8F12534CC8FC4B58
 {
 	UInt64U5BU5D_tAB1A62450AC0899188486EDB9FC066B8BEED9299* V_0 = NULL;
 	UInt64U5BU5D_tAB1A62450AC0899188486EDB9FC066B8BEED9299* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	UInt64U5BU5D_tAB1A62450AC0899188486EDB9FC066B8BEED9299* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -44026,6 +44837,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisVector2_t1FD6F485C871E83
 {
 	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* V_0 = NULL;
 	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -44145,6 +44958,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisVector3_t24C512C7B96BBAB
 {
 	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* V_0 = NULL;
 	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -44264,6 +45079,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisVector4_t58B63D32F48C0DB
 {
 	Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* V_0 = NULL;
 	Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -44383,6 +45200,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisWordInfo_tA466206097891A
 {
 	WordInfoU5BU5D_tAD74C9720883D7BB229A20FFAE9EFD2CF9963F7B* V_0 = NULL;
 	WordInfoU5BU5D_tAD74C9720883D7BB229A20FFAE9EFD2CF9963F7B* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	WordInfoU5BU5D_tAD74C9720883D7BB229A20FFAE9EFD2CF9963F7B* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -44502,6 +45321,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisWordWrapState_t80F67D8CA
 {
 	WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9* V_0 = NULL;
 	WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -44621,6 +45442,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisMatchContext_t04110FFA27
 {
 	MatchContextU5BU5D_t49C4E5DA5C1F9B06B211BE6F94AC6BD4D0ABCAE5* V_0 = NULL;
 	MatchContextU5BU5D_t49C4E5DA5C1F9B06B211BE6F94AC6BD4D0ABCAE5* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	MatchContextU5BU5D_t49C4E5DA5C1F9B06B211BE6F94AC6BD4D0ABCAE5* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -44740,6 +45563,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisDispatchContext_tFA37790
 {
 	DispatchContextU5BU5D_t23932F8BEADFC827A9CA5636867F6721AD971757* V_0 = NULL;
 	DispatchContextU5BU5D_t23932F8BEADFC827A9CA5636867F6721AD971757* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	DispatchContextU5BU5D_t23932F8BEADFC827A9CA5636867F6721AD971757* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -44859,6 +45684,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisControlItem_t25B2C46F52E
 {
 	ControlItemU5BU5D_t7798E8B7C7F58B8F6D13B567539CD82E962C7104* V_0 = NULL;
 	ControlItemU5BU5D_t7798E8B7C7F58B8F6D13B567539CD82E962C7104* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	ControlItemU5BU5D_t7798E8B7C7F58B8F6D13B567539CD82E962C7104* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -44978,6 +45805,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisAvailableDevice_tEA24B4A
 {
 	AvailableDeviceU5BU5D_t47A5F4F158146E9E9066D29DB4494D96AF8F1DB5* V_0 = NULL;
 	AvailableDeviceU5BU5D_t47A5F4F158146E9E9066D29DB4494D96AF8F1DB5* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	AvailableDeviceU5BU5D_t47A5F4F158146E9E9066D29DB4494D96AF8F1DB5* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -45097,6 +45926,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisStateChangeMonitorListen
 {
 	StateChangeMonitorListenerU5BU5D_tEF042EA5E57858FE7C48A9F1AF7A55B249ADB5A9* V_0 = NULL;
 	StateChangeMonitorListenerU5BU5D_tEF042EA5E57858FE7C48A9F1AF7A55B249ADB5A9* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	StateChangeMonitorListenerU5BU5D_tEF042EA5E57858FE7C48A9F1AF7A55B249ADB5A9* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -45216,6 +46047,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisStateChangeMonitorTimeou
 {
 	StateChangeMonitorTimeoutU5BU5D_t475D94CE66B17064D5DE2966779E7E9006A09D82* V_0 = NULL;
 	StateChangeMonitorTimeoutU5BU5D_t475D94CE66B17064D5DE2966779E7E9006A09D82* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	StateChangeMonitorTimeoutU5BU5D_t475D94CE66B17064D5DE2966779E7E9006A09D82* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -45335,6 +46168,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisStateChangeMonitorsForDe
 {
 	StateChangeMonitorsForDeviceU5BU5D_tA1D732EEFF09F568D8FDA6908633B6DAD38B61F4* V_0 = NULL;
 	StateChangeMonitorsForDeviceU5BU5D_tA1D732EEFF09F568D8FDA6908633B6DAD38B61F4* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	StateChangeMonitorsForDeviceU5BU5D_tA1D732EEFF09F568D8FDA6908633B6DAD38B61F4* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -45454,6 +46289,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisRemoteInputDevice_tF7E8C
 {
 	RemoteInputDeviceU5BU5D_tB3C8B8C0AAE6347DB4E4D58D94254291C1FDD7F5* V_0 = NULL;
 	RemoteInputDeviceU5BU5D_tB3C8B8C0AAE6347DB4E4D58D94254291C1FDD7F5* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	RemoteInputDeviceU5BU5D_tB3C8B8C0AAE6347DB4E4D58D94254291C1FDD7F5* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -45573,6 +46410,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisRemoteSender_tDE9BD8E2CF
 {
 	RemoteSenderU5BU5D_t1922213A574223D2FDD72B1D937A6B26AA31CEBA* V_0 = NULL;
 	RemoteSenderU5BU5D_t1922213A574223D2FDD72B1D937A6B26AA31CEBA* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	RemoteSenderU5BU5D_t1922213A574223D2FDD72B1D937A6B26AA31CEBA* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -45692,6 +46531,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisBitRegion_tFE885CE2CC6C0
 {
 	BitRegionU5BU5D_t6D477477F7EB84242BA07FA65BC1BD6DA74A3D39* V_0 = NULL;
 	BitRegionU5BU5D_t6D477477F7EB84242BA07FA65BC1BD6DA74A3D39* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	BitRegionU5BU5D_t6D477477F7EB84242BA07FA65BC1BD6DA74A3D39* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -45811,6 +46652,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisState_tA37EB68FE687D41D4
 {
 	StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2* V_0 = NULL;
 	StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -45930,6 +46773,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisSequenceConstructPosCont
 {
 	SequenceConstructPosContextU5BU5D_t6A625135AE7744062F12A256302E6E6D2FD0A545* V_0 = NULL;
 	SequenceConstructPosContextU5BU5D_t6A625135AE7744062F12A256302E6E6D2FD0A545* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	SequenceConstructPosContextU5BU5D_t6A625135AE7744062F12A256302E6E6D2FD0A545* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -46049,6 +46894,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisResolveContext_tEF37DBA2
 {
 	ResolveContextU5BU5D_tA44F71F5EFF2CE305C748D326687E840F314B3FB* V_0 = NULL;
 	ResolveContextU5BU5D_tA44F71F5EFF2CE305C748D326687E840F314B3FB* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	ResolveContextU5BU5D_tA44F71F5EFF2CE305C748D326687E840F314B3FB* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -46168,6 +47015,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisUnicodeChar_tB86B7DE9203
 {
 	UnicodeCharU5BU5D_t67F27D09F8EB28D2C42DFF16FE60054F157012F5* V_0 = NULL;
 	UnicodeCharU5BU5D_t67F27D09F8EB28D2C42DFF16FE60054F157012F5* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	UnicodeCharU5BU5D_t67F27D09F8EB28D2C42DFF16FE60054F157012F5* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -46287,6 +47136,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisAndNode_tD84E0D831AD3396
 {
 	AndNodeU5BU5D_tB441383F35641A763CF3684AB72D92BE6CD35C3C* V_0 = NULL;
 	AndNodeU5BU5D_tB441383F35641A763CF3684AB72D92BE6CD35C3C* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	AndNodeU5BU5D_tB441383F35641A763CF3684AB72D92BE6CD35C3C* G_B7_1 = NULL;
 	int32_t G_B7_2 = 0;
@@ -46404,6 +47255,8 @@ IL_0048:
 // System.Void System.Array::Reverse<System.Byte>(T[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Reverse_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m4298AF0CA764FA936F9C5ED3606D1B4E2EC9EBA2_gshared (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___array0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___array0;
 		if (L_0)
@@ -46430,6 +47283,8 @@ IL_000e:
 // System.Void System.Array::Reverse<System.Object>(T[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Reverse_TisRuntimeObject_m99DAB37F8B79D6A07917FDB56F85DEF6B95A3BE7_gshared (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___array0, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = ___array0;
 		if (L_0)
@@ -46460,6 +47315,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Reverse_TisAsyncOperationHandle_1_
 	AsyncOperationHandle_1_tDD1D892D87C7A0C3189DD56DDB997AB1A2089A74* V_1 = NULL;
 	AsyncOperationHandle_1_tDD1D892D87C7A0C3189DD56DDB997AB1A2089A74 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	String_t* G_B7_0 = NULL;
 	{
 		AsyncOperationHandle_1U5BU5D_tC322A803F4FB00759286F28E6B71283EB857D2EF* L_0 = ___array0;
@@ -46570,6 +47427,7 @@ IL_0049:
 
 IL_0069:
 	{
+		CHECK_PAUSE_POINT;
 		AsyncOperationHandle_1_tDD1D892D87C7A0C3189DD56DDB997AB1A2089A74* L_20 = V_0;
 		AsyncOperationHandle_1_tDD1D892D87C7A0C3189DD56DDB997AB1A2089A74 L_21 = (*(AsyncOperationHandle_1_tDD1D892D87C7A0C3189DD56DDB997AB1A2089A74*)L_20);
 		V_2 = L_21;
@@ -46616,6 +47474,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Reverse_TisKeyValuePair_2_tDC26B09
 	KeyValuePair_2_tDC26B09C26BA829DDE331BCB6AF7C508C763D7A3* V_1 = NULL;
 	KeyValuePair_2_tDC26B09C26BA829DDE331BCB6AF7C508C763D7A3 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	String_t* G_B7_0 = NULL;
 	{
 		KeyValuePair_2U5BU5D_t1686C7CBCFA68BF77F16B9983BACAA457DCDE265* L_0 = ___array0;
@@ -46726,6 +47586,7 @@ IL_0049:
 
 IL_0069:
 	{
+		CHECK_PAUSE_POINT;
 		KeyValuePair_2_tDC26B09C26BA829DDE331BCB6AF7C508C763D7A3* L_20 = V_0;
 		KeyValuePair_2_tDC26B09C26BA829DDE331BCB6AF7C508C763D7A3 L_21 = (*(KeyValuePair_2_tDC26B09C26BA829DDE331BCB6AF7C508C763D7A3*)L_20);
 		V_2 = L_21;
@@ -46766,6 +47627,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Reverse_TisKeyValuePair_2_tF11CA6D
 	KeyValuePair_2_tF11CA6D20F09EC4DAB7CB3C2C394F6F2C394E6B8* V_1 = NULL;
 	KeyValuePair_2_tF11CA6D20F09EC4DAB7CB3C2C394F6F2C394E6B8 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	String_t* G_B7_0 = NULL;
 	{
 		KeyValuePair_2U5BU5D_tF5EFD20ACC3BB6CE90DBB51F3461B2C8F1D2E2F3* L_0 = ___array0;
@@ -46876,6 +47739,7 @@ IL_0049:
 
 IL_0069:
 	{
+		CHECK_PAUSE_POINT;
 		KeyValuePair_2_tF11CA6D20F09EC4DAB7CB3C2C394F6F2C394E6B8* L_20 = V_0;
 		KeyValuePair_2_tF11CA6D20F09EC4DAB7CB3C2C394F6F2C394E6B8 L_21 = (*(KeyValuePair_2_tF11CA6D20F09EC4DAB7CB3C2C394F6F2C394E6B8*)L_20);
 		V_2 = L_21;
@@ -46916,6 +47780,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Reverse_TisKeyValuePair_2_tFC32D25
 	KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* V_1 = NULL;
 	KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	String_t* G_B7_0 = NULL;
 	{
 		KeyValuePair_2U5BU5D_t105762EC2DE353037ECAD13437FC19081314CE67* L_0 = ___array0;
@@ -47026,6 +47892,7 @@ IL_0049:
 
 IL_0069:
 	{
+		CHECK_PAUSE_POINT;
 		KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* L_20 = V_0;
 		KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 L_21 = (*(KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)L_20);
 		V_2 = L_21;
@@ -47072,6 +47939,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Reverse_TisKeyValuePair_2_tF857B1C
 	KeyValuePair_2_tF857B1C753163D05D6CE5351B5146D32C33F0B0C* V_1 = NULL;
 	KeyValuePair_2_tF857B1C753163D05D6CE5351B5146D32C33F0B0C V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	String_t* G_B7_0 = NULL;
 	{
 		KeyValuePair_2U5BU5D_t23EB7B590043EB535E2B7A8C2765588E9D6DC674* L_0 = ___array0;
@@ -47182,6 +48051,7 @@ IL_0049:
 
 IL_0069:
 	{
+		CHECK_PAUSE_POINT;
 		KeyValuePair_2_tF857B1C753163D05D6CE5351B5146D32C33F0B0C* L_20 = V_0;
 		KeyValuePair_2_tF857B1C753163D05D6CE5351B5146D32C33F0B0C L_21 = (*(KeyValuePair_2_tF857B1C753163D05D6CE5351B5146D32C33F0B0C*)L_20);
 		V_2 = L_21;
@@ -47246,6 +48116,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Reverse_TisKeyValuePair_2_t7D311E4
 	KeyValuePair_2_t7D311E49C5BFA7AD0E1B6BDE838D7428E2CEDA13* V_1 = NULL;
 	KeyValuePair_2_t7D311E49C5BFA7AD0E1B6BDE838D7428E2CEDA13 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	String_t* G_B7_0 = NULL;
 	{
 		KeyValuePair_2U5BU5D_t08FD13FB597B19940BEDC54974E7DE6FB8E54DEF* L_0 = ___array0;
@@ -47356,6 +48228,7 @@ IL_0049:
 
 IL_0069:
 	{
+		CHECK_PAUSE_POINT;
 		KeyValuePair_2_t7D311E49C5BFA7AD0E1B6BDE838D7428E2CEDA13* L_20 = V_0;
 		KeyValuePair_2_t7D311E49C5BFA7AD0E1B6BDE838D7428E2CEDA13 L_21 = (*(KeyValuePair_2_t7D311E49C5BFA7AD0E1B6BDE838D7428E2CEDA13*)L_20);
 		V_2 = L_21;
@@ -47396,6 +48269,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Reverse_TisNativeArray_1_t275C00CC
 	NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934* V_1 = NULL;
 	NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	String_t* G_B7_0 = NULL;
 	{
 		NativeArray_1U5BU5D_t5708752E67A3741D4DA0AC623A13517FB9F14F1F* L_0 = ___array0;
@@ -47506,6 +48381,7 @@ IL_0049:
 
 IL_0069:
 	{
+		CHECK_PAUSE_POINT;
 		NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934* L_20 = V_0;
 		NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934 L_21 = (*(NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934*)L_20);
 		V_2 = L_21;
@@ -47544,6 +48420,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Reverse_TisNativeArray_1_tB60512C6
 	NativeArray_1_tB60512C6E4578B7CC8EB79321680E495E69ABF81* V_1 = NULL;
 	NativeArray_1_tB60512C6E4578B7CC8EB79321680E495E69ABF81 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	String_t* G_B7_0 = NULL;
 	{
 		NativeArray_1U5BU5D_t2AD369913045ED9C475A11EE2E250E110374E1E0* L_0 = ___array0;
@@ -47654,6 +48532,7 @@ IL_0049:
 
 IL_0069:
 	{
+		CHECK_PAUSE_POINT;
 		NativeArray_1_tB60512C6E4578B7CC8EB79321680E495E69ABF81* L_20 = V_0;
 		NativeArray_1_tB60512C6E4578B7CC8EB79321680E495E69ABF81 L_21 = (*(NativeArray_1_tB60512C6E4578B7CC8EB79321680E495E69ABF81*)L_20);
 		V_2 = L_21;
@@ -47692,6 +48571,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Reverse_TisNativeArray_1_t1ABEAB84
 	NativeArray_1_t1ABEAB84724CAEAFCB8767B8502FD3185AC9CAD0* V_1 = NULL;
 	NativeArray_1_t1ABEAB84724CAEAFCB8767B8502FD3185AC9CAD0 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	String_t* G_B7_0 = NULL;
 	{
 		NativeArray_1U5BU5D_tDE03AA4E156F57D3C8AB46696D4EE33FF8021124* L_0 = ___array0;
@@ -47802,6 +48683,7 @@ IL_0049:
 
 IL_0069:
 	{
+		CHECK_PAUSE_POINT;
 		NativeArray_1_t1ABEAB84724CAEAFCB8767B8502FD3185AC9CAD0* L_20 = V_0;
 		NativeArray_1_t1ABEAB84724CAEAFCB8767B8502FD3185AC9CAD0 L_21 = (*(NativeArray_1_t1ABEAB84724CAEAFCB8767B8502FD3185AC9CAD0*)L_20);
 		V_2 = L_21;
@@ -47840,6 +48722,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Reverse_TisARRaycastHit_tB32B56068
 	ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70* V_1 = NULL;
 	ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	String_t* G_B7_0 = NULL;
 	{
 		ARRaycastHitU5BU5D_t34FE14E360F945895923A0FE69CC277E7D13027E* L_0 = ___array0;
@@ -47950,6 +48834,7 @@ IL_0049:
 
 IL_0069:
 	{
+		CHECK_PAUSE_POINT;
 		ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70* L_20 = V_0;
 		ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 L_21 = (*(ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70*)L_20);
 		V_2 = L_21;
@@ -47996,6 +48881,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Reverse_TisARTextureInfo_t008DA41D
 	ARTextureInfo_t008DA41DF9555306803303A0353619E5C0917261* V_1 = NULL;
 	ARTextureInfo_t008DA41DF9555306803303A0353619E5C0917261 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	String_t* G_B7_0 = NULL;
 	{
 		ARTextureInfoU5BU5D_tB48816C80657AA138EF9EA6F8496EE9D88835B86* L_0 = ___array0;
@@ -48106,6 +48993,7 @@ IL_0049:
 
 IL_0069:
 	{
+		CHECK_PAUSE_POINT;
 		ARTextureInfo_t008DA41DF9555306803303A0353619E5C0917261* L_20 = V_0;
 		ARTextureInfo_t008DA41DF9555306803303A0353619E5C0917261 L_21 = (*(ARTextureInfo_t008DA41DF9555306803303A0353619E5C0917261*)L_20);
 		V_2 = L_21;
@@ -48146,6 +49034,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Reverse_TisAsyncOperationHandle_t5
 	AsyncOperationHandle_t58B507DCAA6531B85FDBA6188D8E1F7DF89D3F5D* V_1 = NULL;
 	AsyncOperationHandle_t58B507DCAA6531B85FDBA6188D8E1F7DF89D3F5D V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	String_t* G_B7_0 = NULL;
 	{
 		AsyncOperationHandleU5BU5D_t968CEAAAE58B36C9BDFD590CE6407374A8526562* L_0 = ___array0;
@@ -48256,6 +49146,7 @@ IL_0049:
 
 IL_0069:
 	{
+		CHECK_PAUSE_POINT;
 		AsyncOperationHandle_t58B507DCAA6531B85FDBA6188D8E1F7DF89D3F5D* L_20 = V_0;
 		AsyncOperationHandle_t58B507DCAA6531B85FDBA6188D8E1F7DF89D3F5D L_21 = (*(AsyncOperationHandle_t58B507DCAA6531B85FDBA6188D8E1F7DF89D3F5D*)L_20);
 		V_2 = L_21;
@@ -48301,6 +49192,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Reverse_TisBoolean_t09A6377A54BE2F
 	bool* V_0 = NULL;
 	bool* V_1 = NULL;
 	bool V_2 = false;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	String_t* G_B7_0 = NULL;
 	{
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_0 = ___array0;
@@ -48411,6 +49304,7 @@ IL_0049:
 
 IL_0069:
 	{
+		CHECK_PAUSE_POINT;
 		bool* L_20 = V_0;
 		bool L_21 = (*(bool*)L_20);
 		V_2 = L_21;
@@ -48448,6 +49342,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Reverse_TisByte_t94D9231AC217BE4D2
 	uint8_t* V_0 = NULL;
 	uint8_t* V_1 = NULL;
 	uint8_t V_2 = 0x0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	String_t* G_B7_0 = NULL;
 	{
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___array0;
@@ -48558,6 +49454,7 @@ IL_0049:
 
 IL_0069:
 	{
+		CHECK_PAUSE_POINT;
 		uint8_t* L_20 = V_0;
 		uint8_t L_21 = (*(uint8_t*)L_20);
 		V_2 = L_21;
@@ -48595,6 +49492,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Reverse_TisChar_t521A6F19B456D956A
 	Il2CppChar* V_0 = NULL;
 	Il2CppChar* V_1 = NULL;
 	Il2CppChar V_2 = 0x0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	String_t* G_B7_0 = NULL;
 	{
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_0 = ___array0;
@@ -48705,6 +49604,7 @@ IL_0049:
 
 IL_0069:
 	{
+		CHECK_PAUSE_POINT;
 		Il2CppChar* L_20 = V_0;
 		Il2CppChar L_21 = (*(Il2CppChar*)L_20);
 		V_2 = L_21;
@@ -48738,6 +49638,14 @@ IL_0069:
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t* Array_GetRawSzArrayData_m2F8F5B2A381AEF971F12866D9C0A6C4FBA59F6BB_inline (RuntimeArray* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_GetRawSzArrayData_m2F8F5B2A381AEF971F12866D9C0A6C4FBA59F6BB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Array_GetRawSzArrayData_m2F8F5B2A381AEF971F12866D9C0A6C4FBA59F6BB_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RawData_t37CAF2D3F74B7723974ED7CEEE9B297D8FA64ED0* L_0;
 		L_0 = il2cpp_unsafe_as<RawData_t37CAF2D3F74B7723974ED7CEEE9B297D8FA64ED0*>(__this);

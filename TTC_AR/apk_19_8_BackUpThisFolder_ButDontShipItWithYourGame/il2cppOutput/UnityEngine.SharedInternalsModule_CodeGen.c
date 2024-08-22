@@ -47,17 +47,18 @@ static Il2CppMethodPointer s_methodPointers[10] =
 };
 static const int32_t s_InvokerIndices[10] = 
 {
-	7720,
-	10327,
-	7720,
-	6131,
-	6131,
-	7720,
-	6131,
-	6131,
-	6028,
-	6028,
+	7719,
+	10326,
+	7719,
+	6130,
+	6130,
+	7719,
+	6130,
+	6130,
+	6027,
+	6027,
 };
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_SharedInternalsModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_SharedInternalsModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_SharedInternalsModule_CodeGenModule = 
 {
@@ -73,7 +74,7 @@ const Il2CppCodeGenModule g_UnityEngine_SharedInternalsModule_CodeGenModule =
 	NULL,
 	0,
 	NULL,
-	NULL,
+	&g_DebuggerMetadataRegistrationUnityEngine_SharedInternalsModule,
 	NULL, // module initializer,
 	NULL,
 	NULL,

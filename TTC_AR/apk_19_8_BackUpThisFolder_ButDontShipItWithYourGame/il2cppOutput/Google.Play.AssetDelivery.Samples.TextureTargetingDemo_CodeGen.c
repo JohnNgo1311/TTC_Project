@@ -50,18 +50,19 @@ static Il2CppMethodPointer s_methodPointers[11] =
 };
 static const int32_t s_InvokerIndices[11] = 
 {
-	7720,
-	7580,
-	7720,
-	6103,
-	7720,
-	7476,
-	7580,
-	7720,
-	7580,
-	7720,
-	7720,
+	7719,
+	7579,
+	7719,
+	6102,
+	7719,
+	7475,
+	7579,
+	7719,
+	7579,
+	7719,
+	7719,
 };
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Google_Play_AssetDelivery_Samples_TextureTargetingDemo_CodeGenModule;
 const Il2CppCodeGenModule g_Google_Play_AssetDelivery_Samples_TextureTargetingDemo_CodeGenModule = 
 {
@@ -77,7 +78,7 @@ const Il2CppCodeGenModule g_Google_Play_AssetDelivery_Samples_TextureTargetingDe
 	NULL,
 	0,
 	NULL,
-	NULL,
+	&g_DebuggerMetadataRegistrationGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo,
 	NULL, // module initializer,
 	NULL,
 	NULL,

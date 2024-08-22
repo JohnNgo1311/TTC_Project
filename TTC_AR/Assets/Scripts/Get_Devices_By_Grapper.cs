@@ -9,27 +9,33 @@ using System.Collections;
 public class Get_Devices_By_Grapper : MonoBehaviour
 {
     public string grapper;
-    private string jsonData;
 
     private void Awake()
     {
+        string filePath = Path.Combine(Application.streamingAssetsPath, $"Device_Grapper{grapper}.json");
+
         if (Application.platform == RuntimePlatform.Android)
         {
-            string filePath = Path.Combine(Application.streamingAssetsPath, $"Device_Grapper{grapper}.json");
-            if (filePath != null)
-            {
-                filePath = Path.Combine("jar:file://" + Application.dataPath + "!/assets", $"Device_Grapper{grapper}.json");
-            }
-            // Đọc file từ StreamingAssets trên Android
+            filePath = $"jar:file://{Application.dataPath}!/assets/Device_Grapper{grapper}.json";
             StartCoroutine(LoadJsonFromAndroid(filePath));
         }
         else
         {
-            string filePath = Path.Combine(Application.streamingAssetsPath, $"Device_Grapper{grapper}.json");
-
-            jsonData = File.ReadAllText(filePath);
-            ProcessJsonData(jsonData);
+            LoadJsonFromFile(filePath);
             Debug.Log("Read file from StreamingAssets on non-Android platform");
+        }
+    }
+
+    private void LoadJsonFromFile(string filePath)
+    {
+        try
+        {
+            string jsonData = File.ReadAllText(filePath);
+            ProcessJsonData(jsonData);
+        }
+        catch (Exception e)
+        {
+            Debug.LogError($"Failed to read JSON file: {e.Message}");
         }
     }
 
@@ -45,8 +51,7 @@ public class Get_Devices_By_Grapper : MonoBehaviour
             }
             else
             {
-                jsonData = www.downloadHandler.text;
-                ProcessJsonData(jsonData);
+                ProcessJsonData(www.downloadHandler.text);
             }
         }
     }
@@ -55,8 +60,12 @@ public class Get_Devices_By_Grapper : MonoBehaviour
     {
         try
         {
-            GlobalVariable_Search_Devices.devices_Model_By_Grapper = JsonConvert.DeserializeObject<List<DeviceModel>>(jsonData);
-            GlobalVariable_Search_Devices.devices_Model_For_Filter = GetDeviceForFilter();
+            var devices = JsonConvert.DeserializeObject<List<DeviceModel>>(jsonData);
+            GlobalVariable_Search_Devices.devices_Model_By_Grapper = devices;
+            GlobalVariable_Search_Devices.devices_Model_For_Filter = GetDeviceForFilter(devices);
+            //Lưu danh sách vào Local phòng hờ GlobalVariable_Search_Devices.devices_Model_For_Filter bị null
+            Save_Data_To_Local.SaveStringList($"List_Device_For_Fitler_{grapper}", GlobalVariable_Search_Devices.devices_Model_For_Filter);
+            Debug.Log($"Lượng data đã lưu: {Save_Data_To_Local.GetStringList($"List_Device_For_Fitler_{grapper}").Count}");
         }
         catch (Exception e)
         {
@@ -64,10 +73,9 @@ public class Get_Devices_By_Grapper : MonoBehaviour
         }
     }
 
-    private List<string> GetDeviceForFilter()
+    private List<string> GetDeviceForFilter(List<DeviceModel> deviceModels)
     {
-        List<DeviceModel> deviceModels = GlobalVariable_Search_Devices.devices_Model_By_Grapper;
-        List<string> devicesForFilter = new List<string>();
+        var devicesForFilter = new List<string>();
 
         foreach (var device in deviceModels)
         {
@@ -78,3 +86,4 @@ public class Get_Devices_By_Grapper : MonoBehaviour
         return devicesForFilter;
     }
 }
+

@@ -19,6 +19,9 @@ struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
 // System.Void
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_ScreenCaptureModule[];
+IL2CPP_EXTERN_C const RuntimeMethod* ScreenCapture_CaptureScreenshotAsTexture_m3041B552FEB1E7AA144F9E36BADB0A2CAFD49512_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_0_0_0_var;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -136,16 +139,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11
 // UnityEngine.Texture2D UnityEngine.ScreenCapture::CaptureScreenshotAsTexture()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ScreenCapture_CaptureScreenshotAsTexture_m3041B552FEB1E7AA144F9E36BADB0A2CAFD49512 (const RuntimeMethod* method) 
 {
-	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* V_0 = NULL;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScreenCapture_CaptureScreenshotAsTexture_m3041B552FEB1E7AA144F9E36BADB0A2CAFD49512_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ScreenCapture_CaptureScreenshotAsTexture_m3041B552FEB1E7AA144F9E36BADB0A2CAFD49512_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ScreenCaptureModule + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_ScreenCaptureModule + 1));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ScreenCaptureModule + 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ScreenCaptureModule + 3));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ScreenCaptureModule + 4));
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_0;
 		L_0 = ScreenCapture_CaptureScreenshotAsTexture_mFC8952EC7C888CBDB55B90213731D203527F2F1D(1, 1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ScreenCaptureModule + 4));
 		V_0 = L_0;
 		goto IL_000b;
 	}
 
 IL_000b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_ScreenCaptureModule + 5));
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_1 = V_0;
 		return L_1;
 	}

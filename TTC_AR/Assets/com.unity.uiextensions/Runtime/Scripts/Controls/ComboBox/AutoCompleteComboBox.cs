@@ -148,10 +148,10 @@ namespace UnityEngine.UI.Extensions
 
         public void Awake()
         {
-            if (GlobalVariable_Search_Devices.devices_Model_For_Filter?.Count > 0)
+            /*if (GlobalVariable_Search_Devices.devices_Model_For_Filter?.Count > 0)
             {
                 AvailableOptions = GlobalVariable_Search_Devices.devices_Model_For_Filter;
-            }
+            }*/
 
         }
 
