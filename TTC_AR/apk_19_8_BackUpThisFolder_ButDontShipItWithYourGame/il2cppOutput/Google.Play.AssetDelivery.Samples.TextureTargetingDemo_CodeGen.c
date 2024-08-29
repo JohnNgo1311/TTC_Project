@@ -50,17 +50,17 @@ static Il2CppMethodPointer s_methodPointers[11] =
 };
 static const int32_t s_InvokerIndices[11] = 
 {
-	7719,
-	7579,
-	7719,
-	6102,
-	7719,
-	7475,
-	7579,
-	7719,
-	7579,
-	7719,
-	7719,
+	7647,
+	7508,
+	7647,
+	6040,
+	7647,
+	7404,
+	7508,
+	7647,
+	7508,
+	7647,
+	7647,
 };
 extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationGoogle_Play_AssetDelivery_Samples_TextureTargetingDemo;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Google_Play_AssetDelivery_Samples_TextureTargetingDemo_CodeGenModule;

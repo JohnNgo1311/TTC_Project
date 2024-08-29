@@ -23,6 +23,6 @@ public class Save_Data_To_Local : MonoBehaviour
             return stringList;
         }
         // Nếu không có dữ liệu, trả về danh sách rỗng
-        return new List<string>();
+        else return new List<string>();
     }
 }

@@ -166,8 +166,8 @@ Library: lib_burst_generated
 --root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\Unity.XR.ARSubsystems.dll
 --root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\Unity.InputSystem.dll
 --root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
---root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.WinRTCore.dll
 --root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\Google.Play.AssetDelivery.dll
+--root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.WinRTCore.dll
 --root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
 --root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\CW.Common.dll
 --root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
@@ -178,13 +178,11 @@ Library: lib_burst_generated
 --root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
 --root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\Unity.Burst.dll
 --root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.Stores.dll
---root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\UnityEngine.Advertisements.dll
 --root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\Unity.ResourceManager.dll
 --root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 --root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.dll
 --root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
 --root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\Unity.Services.Analytics.dll
---root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\UnityEngine.Monetization.dll
 --root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\Unity.Services.Core.Internal.dll
 --root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\Unity.XR.ARCore.dll
 --root-assembly=D:\TTC_Project_AR\TTC_AR\Temp\StagingArea\Data\Managed\Unity.XR.OpenXR.dll

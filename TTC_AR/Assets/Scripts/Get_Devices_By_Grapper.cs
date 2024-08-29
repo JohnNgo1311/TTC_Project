@@ -16,11 +16,20 @@ public class Get_Devices_By_Grapper : MonoBehaviour
 
         if (Application.platform == RuntimePlatform.Android)
         {
-            filePath = $"jar:file://{Application.dataPath}!/assets/Device_Grapper{grapper}.json";
-            StartCoroutine(LoadJsonFromAndroid(filePath));
+            // Đọc từ asset trong APK Android
+            if (!File.Exists(filePath))
+            {
+                filePath = Path.Combine("jar:file://" + Application.dataPath + "!/assets", $"Device_Grapper{grapper}.json");
+            }
+            else
+            {
+                StartCoroutine(LoadJsonFromAndroid(filePath));
+            }
+
         }
         else
         {
+            // Đọc từ StreamingAssets trên nền tảng không phải Android
             LoadJsonFromFile(filePath);
             Debug.Log("Read file from StreamingAssets on non-Android platform");
         }
@@ -30,8 +39,15 @@ public class Get_Devices_By_Grapper : MonoBehaviour
     {
         try
         {
-            string jsonData = File.ReadAllText(filePath);
-            ProcessJsonData(jsonData);
+            if (File.Exists(filePath))
+            {
+                string jsonData = File.ReadAllText(filePath);
+                ProcessJsonData(jsonData);
+            }
+            else
+            {
+                Debug.LogError($"File not found: {filePath}");
+            }
         }
         catch (Exception e)
         {
@@ -45,7 +61,7 @@ public class Get_Devices_By_Grapper : MonoBehaviour
         {
             yield return www.SendWebRequest();
 
-            if (www.result != UnityWebRequest.Result.Success)
+            if (www.result == UnityWebRequest.Result.ConnectionError || www.result == UnityWebRequest.Result.ProtocolError)
             {
                 Debug.LogError($"Failed to load JSON file on Android: {www.error}");
             }
@@ -61,15 +77,35 @@ public class Get_Devices_By_Grapper : MonoBehaviour
         try
         {
             var devices = JsonConvert.DeserializeObject<List<DeviceModel>>(jsonData);
-            GlobalVariable_Search_Devices.devices_Model_By_Grapper = devices;
-            GlobalVariable_Search_Devices.devices_Model_For_Filter = GetDeviceForFilter(devices);
-            //Lưu danh sách vào Local phòng hờ GlobalVariable_Search_Devices.devices_Model_For_Filter bị null
-            Save_Data_To_Local.SaveStringList($"List_Device_For_Fitler_{grapper}", GlobalVariable_Search_Devices.devices_Model_For_Filter);
-            Debug.Log($"Lượng data đã lưu: {Save_Data_To_Local.GetStringList($"List_Device_For_Fitler_{grapper}").Count}");
+            if (devices != null)
+            {
+                Debug.Log($"Số lượng thiết bị: {devices.Count} + {devices[5].code} + {devices[5].function}");
+
+                GlobalVariable_Search_Devices.devices_Model_By_Grapper = devices;
+
+                var filteredDevices = GetDeviceForFilter(devices);
+
+                GlobalVariable_Search_Devices.devices_Model_For_Filter = filteredDevices;
+
+                // Lưu danh sách vào Local phòng hờ GlobalVariable_Search_Devices.devices_Model_For_Filter bị null
+                Save_Data_To_Local.SaveStringList($"List_Device_For_Fitler_{grapper}", filteredDevices);
+
+            }
+            else
+            {
+                Debug.LogWarning("Deserialized devices list is null.");
+            }
+
+            List<string> savedList = Save_Data_To_Local.GetStringList($"List_Device_For_Fitler_{grapper}");
+            Debug.Log($"Lượng data đã lưu: {savedList.Count} + {savedList[5]}");
+        }
+        catch (JsonException je)
+        {
+            Debug.LogError($"Failed to deserialize JSON data: {je.Message}");
         }
         catch (Exception e)
         {
-            Debug.LogError($"Failed to deserialize JSON data: {e.Message}");
+            Debug.LogError($"Unexpected error during JSON processing: {e.Message}");
         }
     }
 
@@ -79,11 +115,13 @@ public class Get_Devices_By_Grapper : MonoBehaviour
 
         foreach (var device in deviceModels)
         {
-            devicesForFilter.Add(device.code);
-            devicesForFilter.Add(device.function);
+            if (!string.IsNullOrWhiteSpace(device.code))
+                devicesForFilter.Add(device.code);
+
+            if (!string.IsNullOrWhiteSpace(device.function))
+                devicesForFilter.Add(device.function);
         }
 
         return devicesForFilter;
     }
 }
-

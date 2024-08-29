@@ -1,9 +1,4 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Data;
-using Newtonsoft.Json;
-using TMPro;
 using UnityEngine;
 
 public class GlobalVariable_Search_Devices : MonoBehaviour
@@ -118,22 +113,22 @@ public class GlobalVariable_Search_Devices : MonoBehaviour
 [System.Serializable]
 public class DeviceModel
 {
-    [JsonProperty("Location")]
+   // [JsonProperty("Location")]
     public string location { get; set; }
 
-    [JsonProperty("Code")]
+   // [JsonProperty("Code")]
     public string code { get; set; }
 
-    [JsonProperty("Function")]
+  //  [JsonProperty("Function")]
     public string function { get; set; }
 
-    [JsonProperty("Range Measurement")]
+  //  [JsonProperty("Range Measurement")]
     public string rangeMeasurement { get; set; }
 
-    [JsonProperty("I/O Address")]
+   // [JsonProperty("IO Address")]
     public string ioAddress { get; set; }
 
-    [JsonProperty("JB Connection")]
+  //  [JsonProperty("JB Connection")]
     public string jbConnection { get; set; }
 }
 
