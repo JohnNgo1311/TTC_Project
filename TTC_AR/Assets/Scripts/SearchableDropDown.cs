@@ -91,8 +91,8 @@ public class SearchableDropDown : MonoBehaviour
 
     private void ToggleDropdown()
     {
-        contentActive = !contentActive;
-        SetContentActive(contentActive);
+        //   contentActive = !contentActive;
+        SetContentActive(false);
     }
 
     private void SetContentActive(bool isActive)

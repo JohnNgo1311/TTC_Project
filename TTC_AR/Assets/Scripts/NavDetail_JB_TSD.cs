@@ -38,16 +38,25 @@ public class NavDetail_JB_TSD : MonoBehaviour
         Addressables.LoadAssetsAsync<Sprite>("Real_Outdoor_JB_TSD", OnSpriteLoaded).Completed += OnSpritesLoadComplete;
     }
 
+
+
+    //! Xử lý mỗi sprite sau khi được tải, ví dụ: thêm vào một danh sách hoặc hiển thị trên UI
     private void OnSpriteLoaded(Sprite sprite)
     {
-        spriteCache[sprite.name] = sprite;
+        spriteCache[sprite.name] = sprite; // Lưu trữ sprite vào cache
     }
 
+    //! Thực hiện các hành động tiếp theo sau khi tất cả sprite đã tải
     private void OnSpritesLoadComplete(AsyncOperationHandle<IList<Sprite>> handle)
+
     {
-        if (handle.Status != AsyncOperationStatus.Succeeded)
+        if (handle.Status == AsyncOperationStatus.Succeeded)
+        {
+        }
+        else
         {
             Debug.LogError("Failed to load sprites: " + handle.OperationException);
+
         }
     }
 

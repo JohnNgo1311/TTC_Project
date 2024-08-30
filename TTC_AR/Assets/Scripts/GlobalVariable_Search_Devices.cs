@@ -8,7 +8,9 @@ using UnityEngine;
 
 public class GlobalVariable_Search_Devices : MonoBehaviour
 {
-
+  public static DeviceModel device;
+  public static string jbName;
+  public static string moduleName;
   public static List<DeviceModel> all_Device_Models;
   public static List<DeviceModel> devices_Model_By_Grapper = new List<DeviceModel>(); // just Function and Code
   public static List<string> devices_Model_For_Filter = new List<string>(); // just Function and Code
