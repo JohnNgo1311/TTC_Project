@@ -1,14 +1,19 @@
+using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Data;
+using Newtonsoft.Json;
+using TMPro;
 using UnityEngine;
 
 public class GlobalVariable_Search_Devices : MonoBehaviour
 {
 
-    public static List<DeviceModel> all_Device_Models;
-    public static List<DeviceModel> devices_Model_By_Grapper = new List<DeviceModel>(); // just Function and Code
-    public static List<string> devices_Model_For_Filter = new List<string>(); // just Function and Code
+  public static List<DeviceModel> all_Device_Models;
+  public static List<DeviceModel> devices_Model_By_Grapper = new List<DeviceModel>(); // just Function and Code
+  public static List<string> devices_Model_For_Filter = new List<string>(); // just Function and Code
 
-    public static List<string> devicesGrapperA_code = new List<string>(){
+  public static List<string> devicesGrapperA_code = new List<string>(){
            "01TT005",
            "01TT007",
            "01TT008",
@@ -57,7 +62,7 @@ public class GlobalVariable_Search_Devices : MonoBehaviour
 
         };
 
-    public static List<string> devicesGrapperA_function = new List<string>()
+  public static List<string> devicesGrapperA_function = new List<string>()
     {
     "Nhiệt độ dầu bả dê búa đập phía Tự do",
     "Nhiệt độ dầu bả dê búa đập phía khớp nối",
@@ -106,29 +111,6 @@ public class GlobalVariable_Search_Devices : MonoBehaviour
     "Đo mức bồn nước nóng"
     };
 
-
-
 }
 
-[System.Serializable]
-public class DeviceModel
-{
-   // [JsonProperty("Location")]
-    public string location { get; set; }
-
-   // [JsonProperty("Code")]
-    public string code { get; set; }
-
-  //  [JsonProperty("Function")]
-    public string function { get; set; }
-
-  //  [JsonProperty("Range Measurement")]
-    public string rangeMeasurement { get; set; }
-
-   // [JsonProperty("IO Address")]
-    public string ioAddress { get; set; }
-
-  //  [JsonProperty("JB Connection")]
-    public string jbConnection { get; set; }
-}
 

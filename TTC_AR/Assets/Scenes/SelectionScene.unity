@@ -781,7 +781,6 @@ GameObject:
   - component: {fileID: 878477615}
   - component: {fileID: 878477616}
   - component: {fileID: 878477617}
-  - component: {fileID: 878477618}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -842,19 +841,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousSceneName: SlectionScene
   recentSceneName: LoginScene
---- !u!114 &878477618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 878477614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2d78f8f01d958f41a95332209d942a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  grapper: A
 --- !u!1 &923202467
 GameObject:
   m_ObjectHideFlags: 0

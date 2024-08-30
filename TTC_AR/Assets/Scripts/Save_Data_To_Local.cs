@@ -1,7 +1,8 @@
 using System;
 using UnityEngine;
 using System.Collections.Generic;
-public class Save_Data_To_Local : MonoBehaviour
+
+public static class Save_Data_To_Local
 {
     //! Lưu danh sách string vào PlayerPrefs
     public static void SaveStringList(string key, List<string> stringList)

@@ -1,12 +1,8 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using Newtonsoft.Json;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Networking;
 using UnityEngine.UI;
 
 public class SearchableDropDown : MonoBehaviour
@@ -19,18 +15,16 @@ public class SearchableDropDown : MonoBehaviour
     public ScrollRect scrollRect;
     public GameObject content;
     private RectTransform contentRect;
-    private List<string> availableOptions = new List<string>() { };
-
+    private List<string> availableOptions = new List<string>();
     private List<GameObject> itemGameObjects = new List<GameObject>();
     private bool contentActive = false;
 
-    public delegate void OnValueChangedDel(string val);
-    public OnValueChangedDel OnValueChangedEvt;
-    // private bool isTemplateDestroyed = false;
+    public event Action<string> OnValueChangedEvt;
+
     private void Awake()
     {
-        availableOptions = Save_Data_To_Local.GetStringList("List_Device_For_Fitler_A");
-        Debug.Log($"Khởi tạo availableOptions từ Local: {availableOptions.Count} + {availableOptions[0]}");
+        availableOptions = GlobalVariable_Search_Devices.devices_Model_For_Filter;
+        Debug.Log(availableOptions[5].ToString());
         contentRect = content.GetComponent<RectTransform>();
         Initialize();
     }
@@ -45,12 +39,7 @@ public class SearchableDropDown : MonoBehaviour
 
     private void Initialize()
     {
-        if (combobox == null)
-        {
-            Debug.LogError("Combobox chưa được gán!");
-            return;
-        }
-        if (scrollRect == null || inputField == null || content == null)
+        if (combobox == null || scrollRect == null || inputField == null || content == null || itemPrefab == null)
         {
             Debug.LogError("Không thể tìm thấy các thành phần cần thiết trong combobox!");
             return;
@@ -60,97 +49,45 @@ public class SearchableDropDown : MonoBehaviour
 
     private void PopulateDropdown(List<string> options)
     {
-        GameObject itemTemplate = itemPrefab != null ? itemPrefab : Resources.Load<GameObject>("Prefabs/ItemTemplate");
-        if (itemTemplate == null)
+        foreach (var option in options)
         {
-            Debug.LogError("ItemTemplate không được tìm thấy trong Resources!");
-            return;
+            var itemObject = Instantiate(itemPrefab, content.transform);
+            itemObject.name = option;
+            var textComponent = itemObject.GetComponentInChildren<TMP_Text>();
+            textComponent.text = option;
+            itemGameObjects.Add(itemObject);
+            itemObject.GetComponent<Button>().onClick.AddListener(() => OnItemSelected(option));
         }
 
-        for (int i = 0; i < options.Count; i++)
-        {
-            Instantiate(itemTemplate, content.transform);
-        }
-
-
-        //  StartCoroutine(WaitForSomeSeconds(3f));
-        // isTemplateDestroyed = true;
         ResizeContent();
         scrollRect.gameObject.SetActive(false);
     }
-    private IEnumerator WaitForSomeSeconds(float time)
-    {
-        Debug.Log("Bắt đầu đợi...");
-        yield return new WaitForSeconds(time);  // Đợi 2 giây
-        Debug.Log($"Đợi {time} giây đã xong!");
-    }
+
     private void UpdateUI()
     {
-
-        // Lấy dữ liệu từ local nếu cần
-        if (availableOptions == null || availableOptions.Count == 0 || string.IsNullOrWhiteSpace(availableOptions[5]))
+        if (availableOptions == null || availableOptions.Count == 0)
         {
             availableOptions = Save_Data_To_Local.GetStringList("List_Device_For_Fitler_A");
-            Debug.Log($"Tái Sử dụng data từ Local: {availableOptions.Count} + {availableOptions[5]}");
         }
 
-        Debug.Log($"Số phần tử availableOptions hiện tại: {availableOptions.Count}");
-
-        // Lặp qua các đối tượng con
-        for (int i = 0; i < content.transform.childCount; i++)
+        for (int i = 0; i < itemGameObjects.Count; i++)
         {
-            Transform childTransform = content.transform.GetChild(i);
-            GameObject childGameObject = childTransform.gameObject;
-
-
-            // Kiểm tra chỉ số
+            var item = itemGameObjects[i];
             if (i < availableOptions.Count)
             {
-                string optionText = availableOptions[i];
-                var textComponent = childTransform.Find("Text")?.GetComponent<TMP_Text>();
-
-                if (textComponent != null)
-                {
-                    // Cập nhật textComponent và tên gameObject
-                    if (!string.IsNullOrWhiteSpace(optionText))
-                    {
-                        textComponent.text = optionText;
-                        childGameObject.name = optionText;
-                        Debug.Log($"Cập nhật text cho new Object: {textComponent.text} + {optionText}");
-                    }
-                    else
-                    {
-                        Debug.LogWarning($"Option text is null or white space for index {i}");
-                    }
-                }
-
-                // Thêm itemButton nếu chưa có
-                if (!itemGameObjects.Contains(childGameObject))
-                {
-                    itemGameObjects.Add(childGameObject);
-                    var itemButton = childGameObject.GetComponent<Button>();
-
-                    if (itemButton != null)
-                    {
-                        itemButton.onClick.AddListener(() => OnItemSelected(childGameObject.name));
-                    }
-                    else
-                    {
-                        Debug.LogError("Không thể tìm thấy Button trong itemPrefab!");
-                    }
-                }
+                var optionText = availableOptions[i];
+                var textComponent = item.GetComponentInChildren<TMP_Text>();
+                textComponent.text = optionText;
+                item.name = optionText;
             }
             else
             {
-                Debug.LogError($"Chỉ số {i} vượt quá kích thước danh sách availableOptions.");
+                item.SetActive(false);
             }
-
-
         }
 
-
+        ResizeContent();
     }
-
 
     private void ToggleDropdown()
     {
@@ -161,17 +98,14 @@ public class SearchableDropDown : MonoBehaviour
     private void SetContentActive(bool isActive)
     {
         scrollRect.gameObject.SetActive(isActive);
-        arrowButtonDown.gameObject.SetActive(!isActive);
-        arrowButtonUp.gameObject.SetActive(isActive);
+        arrowButtonDown.SetActive(!isActive);
+        arrowButtonUp.SetActive(isActive);
         ResizeContent();
     }
 
     private void OnInputValueChange(string input)
     {
-        if (!availableOptions.Contains(input))
-        {
-            FilterDropdown(input);
-        }
+        FilterDropdown(input);
     }
 
     private void FilterDropdown(string input)
@@ -179,7 +113,7 @@ public class SearchableDropDown : MonoBehaviour
         bool hasActiveItems = false;
         foreach (var item in itemGameObjects)
         {
-            bool shouldActivate = item.name.ToLower().Contains(input.ToLower());
+            bool shouldActivate = item.name.IndexOf(input, StringComparison.OrdinalIgnoreCase) >= 0;
             item.SetActive(shouldActivate);
             if (shouldActivate) hasActiveItems = true;
         }
@@ -191,33 +125,20 @@ public class SearchableDropDown : MonoBehaviour
     {
         Canvas.ForceUpdateCanvases();
         LayoutRebuilder.ForceRebuildLayoutImmediate(contentRect);
-        int activeItemCount = contentRect.Cast<Transform>().Count(child => child.gameObject.activeSelf);
-        RectTransform itemRect = contentRect.GetChild(0).GetComponent<RectTransform>();
-        float newHeight = itemRect.sizeDelta.y * activeItemCount * 1.2f;
-        contentRect.sizeDelta = new Vector2(contentRect.sizeDelta.x, newHeight);
+        int activeItemCount = itemGameObjects.Count(item => item.activeSelf);
+        RectTransform itemRect = itemGameObjects.FirstOrDefault()?.GetComponent<RectTransform>();
+        if (itemRect != null)
+        {
+            float newHeight = itemRect.sizeDelta.y * activeItemCount * 1.2f;
+            contentRect.sizeDelta = new Vector2(contentRect.sizeDelta.x, newHeight);
+        }
     }
 
     private void OnItemSelected(string selectedItem)
     {
         inputField.text = selectedItem;
-        StartCoroutine(CheckIfValidInput(selectedItem));
-        arrowButtonDown.gameObject.SetActive(false);
-        arrowButtonUp.gameObject.SetActive(true);
-        scrollRect.gameObject.SetActive(false);
-    }
-
-    IEnumerator CheckIfValidInput(string input)
-    {
-        yield return new WaitForSeconds(0.5f);
-        if (!availableOptions.Contains(input))
-        {
-            Debug.LogWarning("Invalid Input! Please choose from the dropdown.");
-            inputField.text = string.Empty;
-        }
-        if (!string.IsNullOrEmpty(inputField.text))
-        {
-            OnValueChangedEvt?.Invoke(inputField.text);
-        }
+        OnValueChangedEvt?.Invoke(selectedItem);
+        ToggleDropdown();
     }
 
     public void ResetDropDown()
