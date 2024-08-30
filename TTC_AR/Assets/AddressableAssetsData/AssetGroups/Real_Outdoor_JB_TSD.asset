@@ -87,11 +87,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Real_Outdoor_JB_TSD
-  - m_GUID: a2bfb4ce297134d4592ac573ece06149
-    m_Address: images/Real_Outdoor_JB_TSD/JB1 - Copy
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Real_Outdoor_JB_TSD
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 46b79bca31d16424fb55ac66baa3c8d5, type: 2}
   m_SchemaSet:

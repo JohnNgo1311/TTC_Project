@@ -13,11 +13,15 @@ public class Get_Devices_By_Grapper : MonoBehaviour
     private string filePath;
     private void Awake()
     {
-        filePath = Path.Combine(Application.streamingAssetsPath, $"Device_Grapper{grapper}.json");
+
     }
     private void Start()
     {
 
+    }
+    public void Get_List_Device_By_Grapper()
+    {
+        filePath = Path.Combine(Application.streamingAssetsPath, $"Device_Grapper{grapper}.json");
         if (Application.platform == RuntimePlatform.Android)
         {
             StartCoroutine(LoadJsonFromAndroid(filePath));
@@ -27,14 +31,12 @@ public class Get_Devices_By_Grapper : MonoBehaviour
             LoadJsonFromFile(filePath);
         }
     }
-
     private void LoadJsonFromFile(string file)
     {
         try
         {
             if (File.Exists(file))
             {
-                file = "https://66d152d662816af9a4f342b7.mockapi.io/api/grapperA/GrapperA";
                 string jsonData = File.ReadAllText(file);
                 ProcessJsonData(jsonData);
             }
@@ -51,11 +53,11 @@ public class Get_Devices_By_Grapper : MonoBehaviour
 
     private IEnumerator LoadJsonFromAndroid(string file)
     {
-        string androidPath = "https://66d152d662816af9a4f342b7.mockapi.io/api/grapperA/GrapperA";
-        /* if (!File.Exists(file) || string.IsNullOrWhiteSpace(File.ReadAllText(file)))
-         {
-             androidPath = $"jar:file://{Application.dataPath}!/assets/Device_Grapper{grapper}.json";
-         }*/
+        string androidPath = file;
+        if (!File.Exists(file) || string.IsNullOrWhiteSpace(File.ReadAllText(file)))
+        {
+            androidPath = $"jar:file://{Application.dataPath}!/assets/Device_Grapper{grapper}.json";
+        }
         UnityWebRequest www = UnityWebRequest.Get(androidPath);
         www.timeout = 30;
         yield return www.SendWebRequest();

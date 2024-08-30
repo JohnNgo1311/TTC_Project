@@ -9139,28 +9139,28 @@ struct U3CLoadJsonDataU3Ed__2_t230A17826C691E490E0619197453AB56F4DCE2E8  : publi
 	Exception_t* ___U3CeU3E5__3_5;
 };
 
-// Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__5
-struct U3CLoadJsonFromAndroidU3Ed__5_t2DE08F9192D4AA00BF40FC94EB045790A9323B59  : public RuntimeObject
+// Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__6
+struct U3CLoadJsonFromAndroidU3Ed__6_t9802949EFC575972EDB7DEFC59B6B95959FA2A00  : public RuntimeObject
 {
-	// System.Int32 Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__5::<>1__state
+	// System.Int32 Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__6::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__5::<>2__current
+	// System.Object Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__6::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// System.String Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__5::file
+	// System.String Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__6::file
 	String_t* ___file_2;
-	// Get_Devices_By_Grapper Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__5::<>4__this
+	// Get_Devices_By_Grapper Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__6::<>4__this
 	Get_Devices_By_Grapper_tBC73190AB236E1C6D82DA27BA3A31BDD52673E1D* ___U3CU3E4__this_3;
-	// System.String Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__5::<androidPath>5__1
+	// System.String Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__6::<androidPath>5__1
 	String_t* ___U3CandroidPathU3E5__1_4;
-	// UnityEngine.Networking.UnityWebRequest Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__5::<www>5__2
+	// UnityEngine.Networking.UnityWebRequest Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__6::<www>5__2
 	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___U3CwwwU3E5__2_5;
-	// System.String Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__5::<jsonData>5__3
+	// System.String Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__6::<jsonData>5__3
 	String_t* ___U3CjsonDataU3E5__3_6;
-	// System.Collections.Generic.List`1<DeviceModel> Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__5::<devices>5__4
+	// System.Collections.Generic.List`1<DeviceModel> Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__6::<devices>5__4
 	List_1_t1B401C58EA39F2F478F42405D67CAC74866CE3AF* ___U3CdevicesU3E5__4_7;
-	// Newtonsoft.Json.JsonException Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__5::<je>5__5
+	// Newtonsoft.Json.JsonException Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__6::<je>5__5
 	JsonException_tFFE4BB54605E1573CD957C3A40BEC5571CC386BD* ___U3CjeU3E5__5_8;
-	// System.Exception Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__5::<e>5__6
+	// System.Exception Get_Devices_By_Grapper/<LoadJsonFromAndroid>d__6::<e>5__6
 	Exception_t* ___U3CeU3E5__6_9;
 };
 
@@ -45502,7 +45502,7 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8046[1] =
 	static_cast<int32_t>(offsetof(Get_All_Devices_t8752CFC7A63D7CB10B2D4B40B617011F34ACD2CF, ___filePath_4)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8047[10] = 
 {
-	static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__5_t2DE08F9192D4AA00BF40FC94EB045790A9323B59, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__5_t2DE08F9192D4AA00BF40FC94EB045790A9323B59, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__5_t2DE08F9192D4AA00BF40FC94EB045790A9323B59, ___file_2)),static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__5_t2DE08F9192D4AA00BF40FC94EB045790A9323B59, ___U3CU3E4__this_3)),static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__5_t2DE08F9192D4AA00BF40FC94EB045790A9323B59, ___U3CandroidPathU3E5__1_4)),static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__5_t2DE08F9192D4AA00BF40FC94EB045790A9323B59, ___U3CwwwU3E5__2_5)),static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__5_t2DE08F9192D4AA00BF40FC94EB045790A9323B59, ___U3CjsonDataU3E5__3_6)),static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__5_t2DE08F9192D4AA00BF40FC94EB045790A9323B59, ___U3CdevicesU3E5__4_7)),static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__5_t2DE08F9192D4AA00BF40FC94EB045790A9323B59, ___U3CjeU3E5__5_8)),static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__5_t2DE08F9192D4AA00BF40FC94EB045790A9323B59, ___U3CeU3E5__6_9)),};
+	static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__6_t9802949EFC575972EDB7DEFC59B6B95959FA2A00, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__6_t9802949EFC575972EDB7DEFC59B6B95959FA2A00, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__6_t9802949EFC575972EDB7DEFC59B6B95959FA2A00, ___file_2)),static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__6_t9802949EFC575972EDB7DEFC59B6B95959FA2A00, ___U3CU3E4__this_3)),static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__6_t9802949EFC575972EDB7DEFC59B6B95959FA2A00, ___U3CandroidPathU3E5__1_4)),static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__6_t9802949EFC575972EDB7DEFC59B6B95959FA2A00, ___U3CwwwU3E5__2_5)),static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__6_t9802949EFC575972EDB7DEFC59B6B95959FA2A00, ___U3CjsonDataU3E5__3_6)),static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__6_t9802949EFC575972EDB7DEFC59B6B95959FA2A00, ___U3CdevicesU3E5__4_7)),static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__6_t9802949EFC575972EDB7DEFC59B6B95959FA2A00, ___U3CjeU3E5__5_8)),static_cast<int32_t>(offsetof(U3CLoadJsonFromAndroidU3Ed__6_t9802949EFC575972EDB7DEFC59B6B95959FA2A00, ___U3CeU3E5__6_9)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8048[2] = 
 {
 	static_cast<int32_t>(offsetof(Get_Devices_By_Grapper_tBC73190AB236E1C6D82DA27BA3A31BDD52673E1D, ___grapper_4)),static_cast<int32_t>(offsetof(Get_Devices_By_Grapper_tBC73190AB236E1C6D82DA27BA3A31BDD52673E1D, ___filePath_5)),};
