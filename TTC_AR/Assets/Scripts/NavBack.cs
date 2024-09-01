@@ -8,19 +8,28 @@ public class NavBack : MonoBehaviour
 {
     public string previousSceneName;
     public string recentSceneName;
+    [SerializeField]
+    private bool isOrientation = false;
     void Start()
     {
 
     }
     private void Awake()
     {
-        if (GlobalVariable.sceneNamesLandScape.Contains(GlobalVariable.recentScene))
+        if (isOrientation == false)
         {
-            Screen.orientation = ScreenOrientation.LandscapeLeft;
+            if (GlobalVariable.sceneNamesLandScape.Contains(GlobalVariable.recentScene))
+            {
+                Screen.orientation = ScreenOrientation.LandscapeLeft;
+            }
+            else
+            {
+                Screen.orientation = ScreenOrientation.Portrait;
+            }
         }
         else
         {
-            Screen.orientation = ScreenOrientation.Portrait;
+            Screen.orientation = ScreenOrientation.AutoRotation;
         }
     }
 

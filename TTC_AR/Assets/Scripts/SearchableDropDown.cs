@@ -18,6 +18,7 @@ public class SearchableDropDown : MonoBehaviour
     private List<string> availableOptions = new List<string>();
     private List<GameObject> itemGameObjects = new List<GameObject>();
     private bool contentActive = false;
+    private Vector2 scrollRectInitialSize;
 
     public event Action<string> OnValueChangedEvt;
 
@@ -26,6 +27,7 @@ public class SearchableDropDown : MonoBehaviour
         availableOptions = GlobalVariable_Search_Devices.devices_Model_For_Filter;
         // Debug.Log(availableOptions[5].ToString());
         contentRect = content.GetComponent<RectTransform>();
+        scrollRectInitialSize = scrollRect.gameObject.GetComponent<RectTransform>().sizeDelta;
         Initialize();
     }
 
@@ -98,10 +100,10 @@ public class SearchableDropDown : MonoBehaviour
 
     private void SetContentActive(bool isActive)
     {
+        ResizeContent();
         scrollRect.gameObject.SetActive(isActive);
         arrowButtonDown.SetActive(isActive);
         arrowButtonUp.SetActive(!isActive);
-        // ResizeContent();
     }
 
     private void OnInputValueChange(string input)
@@ -127,14 +129,21 @@ public class SearchableDropDown : MonoBehaviour
 
     private void ResizeContent()
     {
-        /*Canvas.ForceUpdateCanvases();
-        LayoutRebuilder.ForceRebuildLayoutImmediate(contentRect);*/
+        scrollRect.gameObject.GetComponent<RectTransform>().sizeDelta = scrollRectInitialSize;
         int activeItemCount = itemGameObjects.Count(item => item.activeSelf);
         RectTransform itemRect = itemGameObjects.FirstOrDefault()?.GetComponent<RectTransform>();
         if (itemRect != null)
         {
             float newHeight = itemRect.sizeDelta.y * activeItemCount * 1.05f;
             contentRect.sizeDelta = new Vector2(contentRect.sizeDelta.x, newHeight);
+            if (activeItemCount == 1)
+            {
+                scrollRect.gameObject.GetComponent<RectTransform>().sizeDelta = new Vector2(scrollRectInitialSize.x, (float)newHeight * 1.05f);
+            }
+            if (activeItemCount == 1)
+            {
+                scrollRect.gameObject.GetComponent<RectTransform>().sizeDelta = new Vector2(0, 0);
+            }
         }
     }
 
@@ -142,10 +151,10 @@ public class SearchableDropDown : MonoBehaviour
     {
         inputField.text = selectedItem;
         OnValueChangedEvt?.Invoke(selectedItem);
-
         scrollRect.gameObject.SetActive(false);
         arrowButtonDown.SetActive(false);
         arrowButtonUp.SetActive(true);
+        ResizeContent();
         //ToggleDropdown();
     }
 

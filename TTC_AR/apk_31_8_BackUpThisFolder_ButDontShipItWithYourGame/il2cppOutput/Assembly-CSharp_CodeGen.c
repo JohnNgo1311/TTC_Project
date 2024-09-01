@@ -298,16 +298,16 @@ extern void SearchableDropDown_OnItemSelected_m6A40445ED5E5F1E0AB401960805FC01EA
 extern void SearchableDropDown_ResetDropDown_m87618435E21170C77F1C24EC40D6BE5173935557 (void);
 // 0x0000008F System.Void SearchableDropDown::.ctor()
 extern void SearchableDropDown__ctor_mE1F68A26E0AA2934CE4925C81A8B3186296DED37 (void);
-// 0x00000090 System.Void SearchableDropDown/<>c__DisplayClass17_0::.ctor()
-extern void U3CU3Ec__DisplayClass17_0__ctor_mE17A4AD6AF29F69642D50F4029890D3A24FFB06D (void);
-// 0x00000091 System.Void SearchableDropDown/<>c__DisplayClass17_0::<PopulateDropdown>b__0()
-extern void U3CU3Ec__DisplayClass17_0_U3CPopulateDropdownU3Eb__0_m3D6F127EFE62F6F7151B0FE10E5A6441969C112D (void);
+// 0x00000090 System.Void SearchableDropDown/<>c__DisplayClass18_0::.ctor()
+extern void U3CU3Ec__DisplayClass18_0__ctor_m82216F20B5963E68074C50881574BE3A81A281F6 (void);
+// 0x00000091 System.Void SearchableDropDown/<>c__DisplayClass18_0::<PopulateDropdown>b__0()
+extern void U3CU3Ec__DisplayClass18_0_U3CPopulateDropdownU3Eb__0_mA3A7C013A57627BD73997AE85D04C6AFB54F2185 (void);
 // 0x00000092 System.Void SearchableDropDown/<>c::.cctor()
 extern void U3CU3Ec__cctor_m935B321D0BC648C4E7EC19CBC44274A5B0FBA8EC (void);
 // 0x00000093 System.Void SearchableDropDown/<>c::.ctor()
 extern void U3CU3Ec__ctor_mEC532AA7031113BA9BE73D996EC97D0974439C84 (void);
-// 0x00000094 System.Boolean SearchableDropDown/<>c::<ResizeContent>b__23_0(UnityEngine.GameObject)
-extern void U3CU3Ec_U3CResizeContentU3Eb__23_0_mB2179A3F621FB11A6D2EEC40E7EEAFBBA64D72E9 (void);
+// 0x00000094 System.Boolean SearchableDropDown/<>c::<ResizeContent>b__24_0(UnityEngine.GameObject)
+extern void U3CU3Ec_U3CResizeContentU3Eb__24_0_m60E37CC4529BDAC0B1EACFFE3B25E778C45BDD16 (void);
 // 0x00000095 System.Void SearchDevicesFromModule::Start()
 extern void SearchDevicesFromModule_Start_mAD2A2931F47CB30C97330793965160BF5AF5C2B7 (void);
 // 0x00000096 System.Void SearchDevicesFromModule::OnValueChange(System.Int32)
@@ -1025,11 +1025,11 @@ static Il2CppMethodPointer s_methodPointers[434] =
 	SearchableDropDown_OnItemSelected_m6A40445ED5E5F1E0AB401960805FC01EA57508E5,
 	SearchableDropDown_ResetDropDown_m87618435E21170C77F1C24EC40D6BE5173935557,
 	SearchableDropDown__ctor_mE1F68A26E0AA2934CE4925C81A8B3186296DED37,
-	U3CU3Ec__DisplayClass17_0__ctor_mE17A4AD6AF29F69642D50F4029890D3A24FFB06D,
-	U3CU3Ec__DisplayClass17_0_U3CPopulateDropdownU3Eb__0_m3D6F127EFE62F6F7151B0FE10E5A6441969C112D,
+	U3CU3Ec__DisplayClass18_0__ctor_m82216F20B5963E68074C50881574BE3A81A281F6,
+	U3CU3Ec__DisplayClass18_0_U3CPopulateDropdownU3Eb__0_mA3A7C013A57627BD73997AE85D04C6AFB54F2185,
 	U3CU3Ec__cctor_m935B321D0BC648C4E7EC19CBC44274A5B0FBA8EC,
 	U3CU3Ec__ctor_mEC532AA7031113BA9BE73D996EC97D0974439C84,
-	U3CU3Ec_U3CResizeContentU3Eb__23_0_mB2179A3F621FB11A6D2EEC40E7EEAFBBA64D72E9,
+	U3CU3Ec_U3CResizeContentU3Eb__24_0_m60E37CC4529BDAC0B1EACFFE3B25E778C45BDD16,
 	SearchDevicesFromModule_Start_mAD2A2931F47CB30C97330793965160BF5AF5C2B7,
 	SearchDevicesFromModule_OnValueChange_mAE1244D9F0663E579A6BF19BF39604120FABCE9C,
 	SearchDevicesFromModule_GetDeviceByCode_mACC88AD921C8F84BDFAF1B467A0E17CC79B4A138,

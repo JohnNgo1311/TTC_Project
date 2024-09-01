@@ -10690,16 +10690,16 @@ struct U3CU3Ec_t3C6822EAC0C3B75F1EC42FE17551F80541691FB5_StaticFields
 {
 	// SearchableDropDown/<>c SearchableDropDown/<>c::<>9
 	U3CU3Ec_t3C6822EAC0C3B75F1EC42FE17551F80541691FB5* ___U3CU3E9_0;
-	// System.Func`2<UnityEngine.GameObject,System.Boolean> SearchableDropDown/<>c::<>9__23_0
-	Func_2_tD5855DA3DC1C614C29762075E12B0B72B8B1F51C* ___U3CU3E9__23_0_1;
+	// System.Func`2<UnityEngine.GameObject,System.Boolean> SearchableDropDown/<>c::<>9__24_0
+	Func_2_tD5855DA3DC1C614C29762075E12B0B72B8B1F51C* ___U3CU3E9__24_0_1;
 };
 
-// SearchableDropDown/<>c__DisplayClass17_0
-struct U3CU3Ec__DisplayClass17_0_t5C9E2497E88396BBC37BCE26B458CF305F509871  : public RuntimeObject
+// SearchableDropDown/<>c__DisplayClass18_0
+struct U3CU3Ec__DisplayClass18_0_t50C37034ACA9E326A97949A86918224D291BBCB3  : public RuntimeObject
 {
-	// System.String SearchableDropDown/<>c__DisplayClass17_0::option
+	// System.String SearchableDropDown/<>c__DisplayClass18_0::option
 	String_t* ___option_0;
-	// SearchableDropDown SearchableDropDown/<>c__DisplayClass17_0::<>4__this
+	// SearchableDropDown SearchableDropDown/<>c__DisplayClass18_0::<>4__this
 	SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1* ___U3CU3E4__this_1;
 };
 
@@ -37609,6 +37609,8 @@ struct NavBack_tF0775943F42417EADA756578A5C9A552C976DC80  : public MonoBehaviour
 	String_t* ___previousSceneName_4;
 	// System.String NavBack::recentSceneName
 	String_t* ___recentSceneName_5;
+	// System.Boolean NavBack::isOrientation
+	bool ___isOrientation_6;
 };
 
 // NavDetail_JB_TSD
@@ -37871,8 +37873,10 @@ struct SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1  : public Mo
 	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___itemGameObjects_13;
 	// System.Boolean SearchableDropDown::contentActive
 	bool ___contentActive_14;
+	// UnityEngine.Vector2 SearchableDropDown::scrollRectInitialSize
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___scrollRectInitialSize_15;
 	// System.Action`1<System.String> SearchableDropDown::OnValueChangedEvt
-	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___OnValueChangedEvt_15;
+	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___OnValueChangedEvt_16;
 };
 
 // TMPro.Examples.ShaderPropAnimator
@@ -44988,9 +44992,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7744[8] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7745[2] = 
 {
 	static_cast<int32_t>(offsetof(InitialSceneLoader_tB39F238FB38FA555609A64DD1F3DD5A20E96C22A, ___LastSceneKey_4)),static_cast<int32_t>(offsetof(InitialSceneLoader_tB39F238FB38FA555609A64DD1F3DD5A20E96C22A, ___InitialSceneName_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7746[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7746[3] = 
 {
-	static_cast<int32_t>(offsetof(NavBack_tF0775943F42417EADA756578A5C9A552C976DC80, ___previousSceneName_4)),static_cast<int32_t>(offsetof(NavBack_tF0775943F42417EADA756578A5C9A552C976DC80, ___recentSceneName_5)),};
+	static_cast<int32_t>(offsetof(NavBack_tF0775943F42417EADA756578A5C9A552C976DC80, ___previousSceneName_4)),static_cast<int32_t>(offsetof(NavBack_tF0775943F42417EADA756578A5C9A552C976DC80, ___recentSceneName_5)),static_cast<int32_t>(offsetof(NavBack_tF0775943F42417EADA756578A5C9A552C976DC80, ___isOrientation_6)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7747[1] = 
 {
 	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass14_0_t43A2E4B6AA75A507C11620FCCEED6EF94D129E9A, ___jB_TSD_Name_0)),};
@@ -45023,13 +45027,13 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7756[2] =
 	static_cast<int32_t>(offsetof(PressPDF_t6A105B94786191504D8D8569F59F0D3EAAD07204, ___listButton_4)),static_cast<int32_t>(offsetof(PressPDF_t6A105B94786191504D8D8569F59F0D3EAAD07204, ___urls_5)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7758[2] = 
 {
-	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass17_0_t5C9E2497E88396BBC37BCE26B458CF305F509871, ___option_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass17_0_t5C9E2497E88396BBC37BCE26B458CF305F509871, ___U3CU3E4__this_1)),};
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass18_0_t50C37034ACA9E326A97949A86918224D291BBCB3, ___option_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass18_0_t50C37034ACA9E326A97949A86918224D291BBCB3, ___U3CU3E4__this_1)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7759[2] = 
 {
-	static_cast<int32_t>(offsetof(U3CU3Ec_t3C6822EAC0C3B75F1EC42FE17551F80541691FB5_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_t3C6822EAC0C3B75F1EC42FE17551F80541691FB5_StaticFields, ___U3CU3E9__23_0_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7760[12] = 
+	static_cast<int32_t>(offsetof(U3CU3Ec_t3C6822EAC0C3B75F1EC42FE17551F80541691FB5_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_t3C6822EAC0C3B75F1EC42FE17551F80541691FB5_StaticFields, ___U3CU3E9__24_0_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7760[13] = 
 {
-	static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___combobox_4)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___arrowButtonUp_5)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___arrowButtonDown_6)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___itemPrefab_7)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___inputField_8)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___scrollRect_9)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___content_10)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___contentRect_11)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___availableOptions_12)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___itemGameObjects_13)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___contentActive_14)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___OnValueChangedEvt_15)),};
+	static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___combobox_4)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___arrowButtonUp_5)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___arrowButtonDown_6)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___itemPrefab_7)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___inputField_8)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___scrollRect_9)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___content_10)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___contentRect_11)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___availableOptions_12)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___itemGameObjects_13)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___contentActive_14)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___scrollRectInitialSize_15)),static_cast<int32_t>(offsetof(SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1, ___OnValueChangedEvt_16)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7761[1] = 
 {
 	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass7_0_tF6364856CD7BB425765103591AEE5557696CB73E, ___codeDevice_0)),};

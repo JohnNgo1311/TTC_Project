@@ -12797,16 +12797,16 @@ struct U3CU3Ec_t3C6822EAC0C3B75F1EC42FE17551F80541691FB5_StaticFields
 {
 	// SearchableDropDown/<>c SearchableDropDown/<>c::<>9
 	U3CU3Ec_t3C6822EAC0C3B75F1EC42FE17551F80541691FB5* ___U3CU3E9_0;
-	// System.Func`2<UnityEngine.GameObject,System.Boolean> SearchableDropDown/<>c::<>9__23_0
-	Func_2_tD5855DA3DC1C614C29762075E12B0B72B8B1F51C* ___U3CU3E9__23_0_1;
+	// System.Func`2<UnityEngine.GameObject,System.Boolean> SearchableDropDown/<>c::<>9__24_0
+	Func_2_tD5855DA3DC1C614C29762075E12B0B72B8B1F51C* ___U3CU3E9__24_0_1;
 };
 
-// SearchableDropDown/<>c__DisplayClass17_0
-struct U3CU3Ec__DisplayClass17_0_t5C9E2497E88396BBC37BCE26B458CF305F509871  : public RuntimeObject
+// SearchableDropDown/<>c__DisplayClass18_0
+struct U3CU3Ec__DisplayClass18_0_t50C37034ACA9E326A97949A86918224D291BBCB3  : public RuntimeObject
 {
-	// System.String SearchableDropDown/<>c__DisplayClass17_0::option
+	// System.String SearchableDropDown/<>c__DisplayClass18_0::option
 	String_t* ___option_0;
-	// SearchableDropDown SearchableDropDown/<>c__DisplayClass17_0::<>4__this
+	// SearchableDropDown SearchableDropDown/<>c__DisplayClass18_0::<>4__this
 	SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1* ___U3CU3E4__this_1;
 };
 
@@ -47426,6 +47426,8 @@ struct NavBack_tF0775943F42417EADA756578A5C9A552C976DC80  : public MonoBehaviour
 	String_t* ___previousSceneName_4;
 	// System.String NavBack::recentSceneName
 	String_t* ___recentSceneName_5;
+	// System.Boolean NavBack::isOrientation
+	bool ___isOrientation_6;
 };
 
 // NavDetail_JB_TSD
@@ -47708,8 +47710,10 @@ struct SearchableDropDown_tEDCA6DDEE97C79CAE186405D8DE3A506DE9528C1  : public Mo
 	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___itemGameObjects_13;
 	// System.Boolean SearchableDropDown::contentActive
 	bool ___contentActive_14;
+	// UnityEngine.Vector2 SearchableDropDown::scrollRectInitialSize
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___scrollRectInitialSize_15;
 	// System.Action`1<System.String> SearchableDropDown::OnValueChangedEvt
-	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___OnValueChangedEvt_15;
+	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___OnValueChangedEvt_16;
 };
 
 // TMPro.Examples.ShaderPropAnimator
@@ -55971,7 +55975,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize7756 = { sizeof(PressPDF_t6A
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7757;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize7757 = { sizeof(Save_Data_To_Local_t9675C96C3CA0F0DBAF98F8F0A90668E54BFEB74D), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7758;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize7758 = { sizeof(U3CU3Ec__DisplayClass17_0_t5C9E2497E88396BBC37BCE26B458CF305F509871), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize7758 = { sizeof(U3CU3Ec__DisplayClass18_0_t50C37034ACA9E326A97949A86918224D291BBCB3), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7759;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize7759 = { sizeof(U3CU3Ec_t3C6822EAC0C3B75F1EC42FE17551F80541691FB5), -1, sizeof(U3CU3Ec_t3C6822EAC0C3B75F1EC42FE17551F80541691FB5_StaticFields), 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7760;
