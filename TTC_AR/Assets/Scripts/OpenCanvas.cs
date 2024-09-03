@@ -1,82 +1,146 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.ARFoundation;
-using Vuforia;
+
 public class OpenCanvas : MonoBehaviour
 {
-    public GameObject targetCanvas, btnOpen, btnClose;
-    public GameObject generalPanel;
-    public string tagName;
-    private bool isShowCanvas = false;
-    public List<GameObject> buttonOpenCanvases;
+    public List<GameObject> targetCanvas, btnOpen, btnClose;
+    public List<GameObject> generalPanel;
+    public List<string> tagName;
+    public List<GameObject> imageTargets;
 
-    // Cached reference to the main camera
+    private bool isShowCanvas = false;
+
     void Start()
     {
-        targetCanvas.SetActive(false);
-        generalPanel.SetActive(true);
-        btnClose.SetActive(false);
-        btnOpen.SetActive(true);
+        // Đảm bảo rằng danh sách không rỗng trước khi thao tác
+        if (targetCanvas != null)
+        {
+            foreach (var canvas in targetCanvas)
+            {
+                canvas.SetActive(false);
+            }
+        }
+
+        if (generalPanel != null)
+        {
+            foreach (var panel in generalPanel)
+            {
+                panel.SetActive(true);
+            }
+        }
+
+        if (btnClose != null)
+        {
+            foreach (var btn in btnClose)
+            {
+                btn.SetActive(false);
+            }
+        }
+
+        if (btnOpen != null)
+        {
+            foreach (var btn in btnOpen)
+            {
+                btn.SetActive(true);
+            }
+        }
     }
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) || Input.touchCount > 0)
+        if (Input.GetMouseButtonDown(0))
         {
-            Vector3 inputPosition = Input.GetMouseButtonDown(0) ? Input.mousePosition : (Vector3)Input.GetTouch(0).position;
-            HandleInput(inputPosition);
+            HandleInput(Input.mousePosition);
+        }
+        else if (Input.touchCount > 0)
+        {
+            HandleInput(Input.GetTouch(0).position);
         }
     }
 
     private void HandleInput(Vector3 inputPosition)
     {
         Ray ray = Camera.main.ScreenPointToRay(inputPosition);
-        if (Physics.Raycast(ray, out RaycastHit hit) && hit.collider.CompareTag(tagName))
+        if (Physics.Raycast(ray, out RaycastHit hit))
         {
-            if (isShowCanvas)
+            // Kiểm tra tất cả các tagName
+            for (int i = 0; i < tagName.Count; i++)
             {
-                onCloseCanvas();
-                isShowCanvas = false;
-            }
-            else if (GlobalVariable.isOpenCanvas == false)
-            {
-                onOpenCanvas();
-                isShowCanvas = true;
+                if (hit.collider.CompareTag(tagName[i]))
+                {
+                    if (isShowCanvas)
+                    {
+                        OnCloseCanvas(i);
+                    }
+                    else
+                    {
+                        OnOpenCanvas(i);
+                    }
+                    isShowCanvas = !isShowCanvas;
+                    break;
+                }
             }
         }
     }
 
-    private void onOpenCanvas()
+    private void OnOpenCanvas(int index)
     {
-        targetCanvas.SetActive(true);
-        foreach (GameObject btn in buttonOpenCanvases)
+        if (targetCanvas != null && index < targetCanvas.Count)
         {
-            if (btn != btnOpen)
+            targetCanvas[index].SetActive(true);
+        }
+
+        if (imageTargets != null)
+        {
+            foreach (GameObject imageTarget in imageTargets)
             {
-                btn.SetActive(false);
+                imageTarget.SetActive(false);
+                // Deactivate toàn bộ GameObject chứa BoxCollider
+                /* BoxCollider btn = imageTarget?.transform.GetComponentInChildren<BoxCollider>();
+                if (btn != null)
+                {
+                    btn.gameObject.SetActive(false);
+                }*/
             }
-
         }
-        btnOpen.SetActive(false);
-        btnClose.SetActive(true);
-        GlobalVariable.isOpenCanvas = true;
-    }
 
-    private void onCloseCanvas()
-    {
-        targetCanvas.SetActive(false);
-        foreach (GameObject btn in buttonOpenCanvases)
+        if (btnOpen != null && index < btnOpen.Count)
         {
-            btn.SetActive(true);
+            btnOpen[index].SetActive(false);
         }
-        btnClose.SetActive(false);
-        // btnOpen.SetActive(true);
-        GlobalVariable.isOpenCanvas = false;
 
+        if (btnClose != null && index < btnClose.Count)
+        {
+            btnClose[index].SetActive(true);
+        }
     }
-    private void OnDestroy()
+
+    private void OnCloseCanvas(int index)
     {
-        GlobalVariable.isOpenCanvas = false;
+        if (targetCanvas != null && index < targetCanvas.Count)
+        {
+            targetCanvas[index].SetActive(false);
+        }
+
+        if (imageTargets != null)
+        {
+            foreach (GameObject imageTarget in imageTargets)
+            {
+                imageTarget.SetActive(true);
+                // Reactivate toàn bộ GameObject chứa BoxCollider
+                /*  BoxCollider btn = imageTarget?.transform.GetComponentInChildren<BoxCollider>();
+                btn?.gameObject.SetActive(true);*/
+            }
+        }
+
+        if (btnClose != null && index < btnClose.Count)
+        {
+            btnClose[index].SetActive(false);
+        }
+
+        if (btnOpen != null && index < btnOpen.Count)
+        {
+            btnOpen[index].SetActive(true);
+        }
     }
 }

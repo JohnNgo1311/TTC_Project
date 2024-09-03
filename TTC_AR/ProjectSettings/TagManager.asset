@@ -16,6 +16,14 @@ TagManager:
   - CN_Inverter_Btn
   - T5_Inverter_Btn
   - T1_Inverter_Btn
+  - A4.0.I_Btn
+  - A4.1.I_Btn
+  - A4.2.I_Btn
+  - A4.3.I_Btn
+  - A4.4.I_Btn
+  - A4.5.I_Btn
+  - A4.6.I_Btn
+  - A4.7.I_Btn
   layers:
   - Default
   - TransparentFX

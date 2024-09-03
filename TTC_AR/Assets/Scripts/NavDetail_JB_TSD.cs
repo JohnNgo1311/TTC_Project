@@ -13,9 +13,9 @@ public class NavDetail_JB_TSD : MonoBehaviour
     public GameObject jB_TSD_General_Panel;
     public GameObject jB_TSD_Detail_Panel;
     public TMP_Text jB_TSD_Title;
-    float width, height;
+    public Button buttons_Nav_JB_TSD_Detail;
+    private float width, height;
 
-    // Danh sách để lưu các đối tượng đã tạo ra
     private List<GameObject> createdObjects = new List<GameObject>();
     private Dictionary<string, Sprite> spriteCache = new Dictionary<string, Sprite>();
 
@@ -34,7 +34,7 @@ public class NavDetail_JB_TSD : MonoBehaviour
     }
 
     private void PreloadSprites()
-    {   // Thay đổi khóa thành tên nhóm Addressable mà bạn đã tạo
+    {
         Addressables.LoadAssetsAsync<Sprite>("Real_Outdoor_JB_TSD", OnSpriteLoaded).Completed += OnSpritesLoadComplete;
     }
 

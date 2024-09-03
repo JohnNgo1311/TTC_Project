@@ -114,7 +114,7 @@ public class Get_Devices_By_Grapper : MonoBehaviour
             Debug.Log($"Loaded JSON data: {jsonData}");
             // Deserialize JSON data
             List<DeviceModel> devices = JsonConvert.DeserializeObject<List<DeviceModel>>(jsonData);
-            GlobalVariable_Search_Devices.devices_Model_By_Grapper = devices;
+            GlobalVariable_Search_Devices.devices_Model_By_Grapper = devices; //! Lưu danh sách các thiết bị trong 1 Grapper
             // Ensure that the deserialization has completed successfully and the list contains valid data
             if (devices != null && devices.Count > 0 && !string.IsNullOrWhiteSpace(devices[1].function))
             {

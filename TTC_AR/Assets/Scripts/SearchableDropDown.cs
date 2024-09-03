@@ -22,6 +22,10 @@ public class SearchableDropDown : MonoBehaviour
 
     public event Action<string> OnValueChangedEvt;
 
+
+
+    //! Script này sử dụng cho trang search nhanh 
+
     private void Awake()
     {
         availableOptions = GlobalVariable_Search_Devices.devices_Model_For_Filter;
@@ -140,7 +144,7 @@ public class SearchableDropDown : MonoBehaviour
             {
                 scrollRect.gameObject.GetComponent<RectTransform>().sizeDelta = new Vector2(scrollRectInitialSize.x, (float)newHeight * 1.05f);
             }
-            if (activeItemCount == 1)
+            if (activeItemCount == 0)
             {
                 scrollRect.gameObject.GetComponent<RectTransform>().sizeDelta = new Vector2(0, 0);
             }
