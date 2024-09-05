@@ -3,11 +3,13 @@ using UnityEngine;
 
 public class OpenCanvas : MonoBehaviour
 {
+    [SerializeField]
+    private Camera mainCamera;
+
     public List<GameObject> targetCanvas, btnOpen, btnClose;
     public List<GameObject> generalPanel;
     public List<string> tagName;
     public List<GameObject> imageTargets;
-
     private bool isShowCanvas = false;
 
     void Start()
@@ -60,7 +62,7 @@ public class OpenCanvas : MonoBehaviour
 
     private void HandleInput(Vector3 inputPosition)
     {
-        Ray ray = Camera.main.ScreenPointToRay(inputPosition);
+        Ray ray = mainCamera.ScreenPointToRay(inputPosition);
         if (Physics.Raycast(ray, out RaycastHit hit))
         {
             // Kiểm tra tất cả các tagName

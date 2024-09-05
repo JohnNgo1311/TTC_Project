@@ -1,6 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
+
+//! Script này sử dụng cho Dropdown trong Device Search trong mỗi module
 
 public class SearchDeviceFromModule : MonoBehaviour
 {
@@ -10,8 +13,26 @@ public class SearchDeviceFromModule : MonoBehaviour
     public TMP_Dropdown dropdown;
     public GameObject contentPanel;
     public GameObject target_Parent_Canvas;
+
+    public Button nav_JB_TSD_Detail_button;
     private string moduleName = "D1.0.I";
     private const string noDeviceMessage = "không có thiết bị kết nối";
+
+    [SerializeField]
+    private Canvas module_Canvas;
+    private RectTransform list_Devices_Transform;
+    private RectTransform jb_TSD_General_Transform;
+    private RectTransform jb_TSD_Detail_Transform;
+    private void Start()
+    {
+        module_Canvas = GetComponentInParent<Canvas>();
+        list_Devices_Transform = module_Canvas.gameObject.transform.Find("List_Devices").GetComponent<RectTransform>();
+        jb_TSD_General_Transform = module_Canvas.gameObject.transform.Find("JB_TSD_General_Panel").GetComponent<RectTransform>();
+        jb_TSD_Detail_Transform = module_Canvas.gameObject.transform.Find("Detail_JB_TSD").GetComponent<RectTransform>();
+        // Gán sự kiện chỉ một lần trong Start
+        dropdown.onValueChanged.AddListener(OnValueChange);
+        contentPanel.SetActive(false);
+    }
 
     private void OnEnable()
     {
@@ -48,9 +69,6 @@ public class SearchDeviceFromModule : MonoBehaviour
                 contentPanel.SetActive(false);
                 ClearDeviceInformation();
             }
-
-            // Gán sự kiện chỉ khi dropdown đã sẵn sàng
-            dropdown.onValueChanged.AddListener(OnValueChange);
         }
     }
 
@@ -67,11 +85,6 @@ public class SearchDeviceFromModule : MonoBehaviour
 
         // Gỡ sự kiện khi OnDisable được gọi
         dropdown.onValueChanged.RemoveListener(OnValueChange);
-    }
-
-    void Start()
-    {
-        contentPanel.SetActive(false);
     }
 
     public void OnValueChange(int value)
@@ -111,6 +124,10 @@ public class SearchDeviceFromModule : MonoBehaviour
         var jbParts = device.jbConnection.Split('_');
         deviceInformation[4].text = jbParts[0];
         deviceInformation[5].text = jbParts.Length > 1 ? jbParts[1] : string.Empty;
+
+        // Đảm bảo không gán nhiều lần
+        nav_JB_TSD_Detail_button.onClick.RemoveAllListeners();
+        nav_JB_TSD_Detail_button.onClick.AddListener(() => NavigateJBDetailScreen(deviceInformation[4].text));
     }
 
     private void ClearDeviceInformation()
@@ -118,6 +135,41 @@ public class SearchDeviceFromModule : MonoBehaviour
         foreach (var info in deviceInformation)
         {
             info.text = string.Empty;
+        }
+    }
+
+    /*  private void NavigateJBDetailScreen(string jB_TSD_Name)
+      {
+          Debug.Log("Navigate to JB Detail Screen + " + jB_TSD_Name);
+      }*/
+    public void NavigateJBDetailScreen(string jB_TSD_Name)
+    {
+        GlobalVariable.jb_TSD_Title = jB_TSD_Name;
+        if (GlobalVariable.navigate_from_JB_TSD_General)
+        {
+            jb_TSD_General_Transform.gameObject.SetActive(false);
+            jb_TSD_Detail_Transform.gameObject.SetActive(true);
+        }
+        if (GlobalVariable.navigate_from_List_Devices)
+        {
+            list_Devices_Transform.gameObject.SetActive(false);
+            jb_TSD_Detail_Transform.gameObject.SetActive(true);
+        }
+    }
+    public void NavigatePop()
+    {
+
+        if (GlobalVariable.navigate_from_JB_TSD_General)
+        {
+            jb_TSD_Detail_Transform.gameObject.SetActive(false);
+            jb_TSD_General_Transform.gameObject.SetActive(true);
+            GlobalVariable.navigate_from_JB_TSD_General = false;
+        }
+        if (GlobalVariable.navigate_from_List_Devices)
+        {
+            jb_TSD_Detail_Transform.gameObject.SetActive(false);
+            list_Devices_Transform.gameObject.SetActive(true);
+            GlobalVariable.navigate_from_List_Devices = false;
         }
     }
 }

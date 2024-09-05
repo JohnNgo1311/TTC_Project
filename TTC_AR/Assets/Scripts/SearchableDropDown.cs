@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+//! Searchable cho trang PLC Box
 public class SearchableDropDown : MonoBehaviour
 {
     public GameObject combobox;
