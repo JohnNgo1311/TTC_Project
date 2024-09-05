@@ -1338,6 +1338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5767972895994346327}
   - component: {fileID: 5767972895994346312}
+  - component: {fileID: 6629458298504969122}
   m_Layer: 0
   m_Name: Detail_JB_TSD
   m_TagString: Untagged
@@ -1392,3 +1393,22 @@ MonoBehaviour:
   sensitivity: 1
   damping: -1
   remainingScale: {x: 0, y: 0, z: 0}
+--- !u!114 &6629458298504969122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5767972895994346326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea5992bf25070aa48a01ad7bfc71844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jB_TSD_Detail_Panel_Prefab: {fileID: 0}
+  canvas_Parent: {fileID: 0}
+  jB_TSD_Title: {fileID: 0}
+  jb_location_value: {fileID: 0}
+  jb_location_iamgePrefab: {fileID: 0}
+  jb_connection_imagePrefab: {fileID: 0}
+  jb_connection_imagePrefab_group: {fileID: 0}

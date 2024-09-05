@@ -124,10 +124,14 @@ public class SearchDeviceFromModule : MonoBehaviour
         var jbParts = device.jbConnection.Split('_');
         deviceInformation[4].text = jbParts[0];
         deviceInformation[5].text = jbParts.Length > 1 ? jbParts[1] : string.Empty;
-
         // Đảm bảo không gán nhiều lần
         nav_JB_TSD_Detail_button.onClick.RemoveAllListeners();
-        nav_JB_TSD_Detail_button.onClick.AddListener(() => NavigateJBDetailScreen(deviceInformation[4].text));
+        nav_JB_TSD_Detail_button.onClick.AddListener(() =>
+        {
+            GlobalVariable.navigate_from_List_Devices = true;
+            GlobalVariable.navigate_from_JB_TSD_General = false;
+            NavigateJBDetailScreen(device.jbConnection);
+        });
     }
 
     private void ClearDeviceInformation()
@@ -142,9 +146,10 @@ public class SearchDeviceFromModule : MonoBehaviour
       {
           Debug.Log("Navigate to JB Detail Screen + " + jB_TSD_Name);
       }*/
-    public void NavigateJBDetailScreen(string jB_TSD_Name)
+
+    public void NavigateJBDetailScreen(string jB_TSD_Connection)
     {
-        GlobalVariable.jb_TSD_Title = jB_TSD_Name;
+        GlobalVariable.jb_TSD_Title = jB_TSD_Connection; // Name_Location of JB
         if (GlobalVariable.navigate_from_JB_TSD_General)
         {
             jb_TSD_General_Transform.gameObject.SetActive(false);
@@ -156,20 +161,20 @@ public class SearchDeviceFromModule : MonoBehaviour
             jb_TSD_Detail_Transform.gameObject.SetActive(true);
         }
     }
-    public void NavigatePop()
-    {
+    /*  public void NavigatePop()
+      {
 
-        if (GlobalVariable.navigate_from_JB_TSD_General)
-        {
-            jb_TSD_Detail_Transform.gameObject.SetActive(false);
-            jb_TSD_General_Transform.gameObject.SetActive(true);
-            GlobalVariable.navigate_from_JB_TSD_General = false;
-        }
-        if (GlobalVariable.navigate_from_List_Devices)
-        {
-            jb_TSD_Detail_Transform.gameObject.SetActive(false);
-            list_Devices_Transform.gameObject.SetActive(true);
-            GlobalVariable.navigate_from_List_Devices = false;
-        }
-    }
+          if (GlobalVariable.navigate_from_JB_TSD_General)
+          {
+              jb_TSD_Detail_Transform.gameObject.SetActive(false);
+              jb_TSD_General_Transform.gameObject.SetActive(true);
+              GlobalVariable.navigate_from_JB_TSD_General = false;
+          }
+          if (GlobalVariable.navigate_from_List_Devices)
+          {
+              jb_TSD_Detail_Transform.gameObject.SetActive(false);
+              list_Devices_Transform.gameObject.SetActive(true);
+              GlobalVariable.navigate_from_List_Devices = false;
+          }
+      }*/
 }

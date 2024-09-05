@@ -10,13 +10,11 @@ public class GlobalVariable : MonoBehaviour
     public static string previousScene;
     public static string recentScene;
     public static string jb_TSD_Title = "";
-    public static bool navigate_from_List_Devices = true;
-
+    public static bool navigate_from_List_Devices = false;
     public static bool navigate_from_JB_TSD_General = false;
-
     public static bool isOpenCanvas = false;
 
-    public static List<String> pLCBoxScene = new List<string>(){
+    public static List<string> pLCBoxScene = new List<string>(){
      "PLCBoxGrapA",
      "PLCBoxGrapB",
      "PLCBoxGrapC",

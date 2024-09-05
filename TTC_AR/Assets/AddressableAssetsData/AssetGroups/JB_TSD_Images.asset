@@ -48,7 +48,7 @@ MonoBehaviour:
     m_SerializedLabels:
     - default
   - m_GUID: 126b8b46a2894fe4d90d0b0f6f789c08
-    m_Address: JB110 -JB111_0
+    m_Address: JB110-JB111_0
     m_ReadOnly: 0
     m_SerializedLabels:
     - default
@@ -107,8 +107,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - default
-  - m_GUID: a153f5b89f3c6c14d80037612adf949c
-    m_Address: JB100-JB101 _1
+  - m_GUID: 33899b454978c814fb794cd3ed5962c4
+    m_Address: JB100-JB101_1
     m_ReadOnly: 0
     m_SerializedLabels:
     - default

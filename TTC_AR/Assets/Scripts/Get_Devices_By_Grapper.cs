@@ -7,6 +7,7 @@ using UnityEngine.Networking;
 using System.Collections;
 using UnityWebRequest = UnityEngine.Networking.UnityWebRequest;
 
+//! Script này lấy data danh sách các devices
 public class Get_Devices_By_Grapper : MonoBehaviour
 {
     public string grapper;
@@ -139,10 +140,8 @@ public class Get_Devices_By_Grapper : MonoBehaviour
     {
         // Filter devices
         List<string> filteredDevices = GetDeviceForFilter(devices);
-
         // Save filtered devices locally
         Save_Data_To_Local.SaveStringList($"List_Device_For_Filter_{grapper}", filteredDevices);
-
         // Retrieve and validate the saved list
         List<string> savedList = Save_Data_To_Local.GetStringList($"List_Device_For_Filter_{grapper}");
         GlobalVariable_Search_Devices.devices_Model_For_Filter = savedList;
