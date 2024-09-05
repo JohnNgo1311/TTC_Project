@@ -1,53 +1,66 @@
-using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class NavigationToPanels : MonoBehaviour
 {
-    public GameObject initialScreen;
-    public GameObject[] destinationScreens;
-    public List<Button> navButtons;
+    [SerializeField] private GameObject initialScreen;
+    [SerializeField] private TMP_Text generalModuleTitle;
+    [SerializeField] private Canvas parentCanvas;
+    [SerializeField] private GameObject[] destinationScreens;
+    [SerializeField] private List<Button> navButtons;
 
-    /*[SerializeField]
-    private bool navigate_To_JB_TSD_Detail = false;
-    [SerializeField]
-    private string jb_TSD_Title;*/
-    //  public string tagName;
     void Start()
     {
-        initialScreen.SetActive(true);
-        foreach (GameObject destinationScreen in destinationScreens)
-        {
-            destinationScreen.SetActive(false);
-        }
+        if (parentCanvas == null)
+            parentCanvas = GetComponentInParent<Canvas>();
+
+        if (initialScreen == null)
+            initialScreen = parentCanvas.transform.Find("InitialScreen").gameObject;
+
+        if (generalModuleTitle == null)
+            generalModuleTitle = initialScreen.transform.Find("Title").GetComponent<TMP_Text>();
+        generalModuleTitle.text = GetModuleTitle(parentCanvas.gameObject.name);
+        SetInitialState();
 
         for (int i = 0; i < navButtons.Count; i++)
         {
-            int localIndex = i; // Tạo bản sao cục bộ của i
+            int localIndex = i; // Bản sao cục bộ để tránh lỗi closure
             navButtons[i].onClick.AddListener(() => NavigateNewScreen(localIndex));
         }
     }
-    void Update()
+
+    private void SetInitialState()
     {
+        initialScreen.SetActive(true);
+        foreach (var screen in destinationScreens)
+        {
+            screen.SetActive(false);
+        }
     }
+
+    private string GetModuleTitle(string fullName)
+    {
+        // Lấy tên module từ tên của Canvas (có thể tách hoặc chỉnh sửa dễ hơn sau này)
+        return $"Module {fullName.Split('_')[0]}";
+    }
+
     public void NavigateNewScreen(int index)
     {
         initialScreen.SetActive(false);
-        destinationScreens[index].SetActive(true);
-
-        /*  if (navigate_To_JB_TSD_Detail && jb_TSD_Title != null)
-          {
-              GlobalVariable.jb_TSD_Title = jb_TSD_Title;
-          }*/
+        for (int i = 0; i < destinationScreens.Length; i++)
+        {
+            destinationScreens[i].SetActive(i == index);
+        }
     }
 
     public void NavigatePop()
     {
-
-        foreach (GameObject destinationScreen in destinationScreens)
+        foreach (var screen in destinationScreens)
         {
-            destinationScreen.SetActive(false);
+            screen.SetActive(false);
         }
         initialScreen.SetActive(true);
     }

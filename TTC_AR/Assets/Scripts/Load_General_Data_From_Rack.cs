@@ -15,7 +15,7 @@ public class Load_General_Data_From_Rack : MonoBehaviour
     private void Awake()
     {
 
-        filePath = Path.Combine(Application.streamingAssetsPath, $"Module_General_Grapper{grapper}.json");
+        filePath = Path.Combine(Application.streamingAssetsPath, $"General_Data_Rack_Grapper{grapper}.json");
         if (Application.platform == RuntimePlatform.Android)
         {
             StartCoroutine(LoadJsonFromAndroid(filePath));
@@ -31,7 +31,7 @@ public class Load_General_Data_From_Rack : MonoBehaviour
         string androidPath = file;
         if (!File.Exists(file) || string.IsNullOrWhiteSpace(File.ReadAllText(file)))
         {
-            androidPath = $"jar:file://{Application.dataPath}!/assets/Module_General_Grapper{grapper}.json";
+            androidPath = $"jar:file://{Application.dataPath}!/assets/General_Data_Rack_Grapper{grapper}.json";
         }
         UnityWebRequest www = UnityWebRequest.Get(androidPath);
         www.timeout = 30;
@@ -53,7 +53,6 @@ public class Load_General_Data_From_Rack : MonoBehaviour
                     case "A":
                         RackData_GrapperA rackData_Grapper_General = JsonConvert.DeserializeObject<RackData_GrapperA>(jsonData);
                         GlobalVariable.rackData_GrapperA = rackData_Grapper_General; //! Lưu danh sách các thiết bị trong 1 Grapper
-                        Debug.Log($"Loaded JSON data 1 : {GlobalVariable.rackData_GrapperA.Rack_4[0].Module + GlobalVariable.rackData_GrapperA.Rack_4[0].JbConnection[0] + GlobalVariable.rackData_GrapperA.Rack_4[0].DeviceConnection[0]}");
                         break;
                 }
                 /* RackData_GrapperA rackData_Grapper_General = JsonConvert.DeserializeObject<RackData_GrapperA>(jsonData);
