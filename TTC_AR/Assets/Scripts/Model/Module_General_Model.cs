@@ -9,13 +9,13 @@ public class Module_General_Model
   // [JsonProperty("jbConnection")]
   public List<string> JbConnection;
   // [JsonProperty("deviceConnection")]
-  public List<string> DeviceConnection;
+  public string Type;
+  public string Adapter;
 }
 
 
 [System.Serializable]
-
-public class RackData_GrapperA
+public class RackData_GrapperA  //! Sau này sẽ có RackData_GrapperB, C và lò hơi, tuy nhiên lượng Rack ở mỗi Grapper không giống nhau nên không để chung vào 1 model được
 {
   public List<Module_General_Model> Rack_1;
   public List<Module_General_Model> Rack_2;

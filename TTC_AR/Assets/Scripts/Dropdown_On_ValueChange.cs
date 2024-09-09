@@ -6,6 +6,8 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.UI;
 using System.Linq;
 
+
+//! Sử dụng khi InputField thay đổi giá trị thì cập nhật giao diện ở trang Menu Search Devices (Tra cứu nhanh)
 public class Dropdown_On_ValueChange : MonoBehaviour
 {
     public GameObject prefab_Device;
@@ -111,7 +113,7 @@ public class Dropdown_On_ValueChange : MonoBehaviour
         var addressableKeys = new List<string>
         {
             "Real_Outdoor_JB_TSD",
-            "default"
+            "GrapperA_Connection_Wiring"
         };
 
         addressableKeys.AddRange(Enumerable.Range(1, 6).Select(i => $"GrapperA_Module_Location_Rack{i}"));

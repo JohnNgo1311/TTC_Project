@@ -97,12 +97,6 @@ public class OpenCanvas : MonoBehaviour
             foreach (GameObject imageTarget in imageTargets)
             {
                 imageTarget.SetActive(false);
-                // Deactivate toàn bộ GameObject chứa BoxCollider
-                /* BoxCollider btn = imageTarget?.transform.GetComponentInChildren<BoxCollider>();
-                if (btn != null)
-                {
-                    btn.gameObject.SetActive(false);
-                }*/
             }
         }
 
@@ -129,20 +123,24 @@ public class OpenCanvas : MonoBehaviour
             foreach (GameObject imageTarget in imageTargets)
             {
                 imageTarget.SetActive(true);
-                // Reactivate toàn bộ GameObject chứa BoxCollider
-                /*  BoxCollider btn = imageTarget?.transform.GetComponentInChildren<BoxCollider>();
-                btn?.gameObject.SetActive(true);*/
             }
         }
 
         if (btnClose != null && index < btnClose.Count)
         {
-            btnClose[index].SetActive(false);
+            if (btnClose[index].activeSelf)
+            {
+                btnClose[index].SetActive(false);
+
+            }
         }
 
         if (btnOpen != null && index < btnOpen.Count)
         {
-            btnOpen[index].SetActive(true);
+            if (!btnOpen[index].activeSelf)
+            {
+                btnOpen[index].SetActive(true);
+            }
         }
     }
 }

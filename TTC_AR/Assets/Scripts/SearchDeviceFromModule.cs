@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine.UI;
 
 //! Script này sử dụng cho Dropdown trong Device Search trong mỗi module
-
+//! Lọc theo GlobalVariable_Search_Devices.devices_Model_By_Grapper
 public class SearchDeviceFromModule : MonoBehaviour
 {
     public List<TMP_Text> deviceInformation = new List<TMP_Text>();
@@ -29,9 +29,12 @@ public class SearchDeviceFromModule : MonoBehaviour
         list_Devices_Transform = module_Canvas.gameObject.transform.Find("List_Devices").GetComponent<RectTransform>();
         jb_TSD_General_Transform = module_Canvas.gameObject.transform.Find("JB_TSD_General_Panel").GetComponent<RectTransform>();
         jb_TSD_Detail_Transform = module_Canvas.gameObject.transform.Find("Detail_JB_TSD").GetComponent<RectTransform>();
-        // Gán sự kiện chỉ một lần trong Start
+        if (listDeviceFromModule != null && listDeviceFromModule.Count > 0)
+        {
+            deviceInfor = listDeviceFromModule[0];
+            UpdateDeviceInformation(deviceInfor);
+        }
         dropdown.onValueChanged.AddListener(OnValueChange);
-        contentPanel.SetActive(false);
     }
 
     private void OnEnable()
@@ -56,7 +59,7 @@ public class SearchDeviceFromModule : MonoBehaviour
                 // Đảm bảo rằng option1 luôn được chọn
                 dropdown.value = 0;
                 dropdown.RefreshShownValue();
-                OnValueChange(0); // Gọi OnValueChange để cập nhật thông tin thiết bị đầu tiên
+                // OnValueChange(0); // Gọi OnValueChange để cập nhật thông tin thiết bị đầu tiên
             }
             else
             {
@@ -112,6 +115,7 @@ public class SearchDeviceFromModule : MonoBehaviour
         return GlobalVariable_Search_Devices.devices_Model_By_Grapper.FindAll(
             device => device.ioAddress.StartsWith(moduleName + ".")
         );
+
     }
 
     private void UpdateDeviceInformation(DeviceModel device)

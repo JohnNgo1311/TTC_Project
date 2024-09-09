@@ -59,7 +59,7 @@ public class Update_JB_TSD_Detail_UI : MonoBehaviour
 
     private void LoadSprites()
     {
-        var addressableKeys = new List<string> { "Real_Outdoor_JB_TSD", "default" };
+        var addressableKeys = new List<string> { "Real_Outdoor_JB_TSD", "GrapperA_Connection_Wiring" };
         pendingSpriteLoads = addressableKeys.Count;
 
         foreach (var key in addressableKeys)
@@ -114,6 +114,14 @@ public class Update_JB_TSD_Detail_UI : MonoBehaviour
             if (spriteCache.TryGetValue(imageName, out var sprite))
             {
                 imageObject.GetComponent<Image>().sprite = sprite;
+
+                Vector2 spriteSize = sprite.rect.size;
+
+                // Lấy RectTransform của Image để thay đổi kích thước
+                RectTransform rectTransform = imageObject.GetComponent<RectTransform>();
+
+                // Điều chỉnh kích thước của RectTransform theo kích thước Sprite
+                rectTransform.sizeDelta = new Vector2(rectTransform.sizeDelta.x, spriteSize.y / 1.3f);
             }
             else
             {

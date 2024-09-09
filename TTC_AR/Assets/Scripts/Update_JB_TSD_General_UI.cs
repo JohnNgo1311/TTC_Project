@@ -24,8 +24,11 @@ public class Update_JB_TSD_General_UI : MonoBehaviour
     [SerializeField] private TMP_Text jb_TSD_Connection_Location_Prefab;
     private void Start()
     {
+        Instantiate_JB_TSD_Connection_List();
+    }
+    private void OnEnable()
+    {
         module_Canvas = GetComponentInParent<Canvas>();
-
         // Giảm thiểu việc sử dụng Find/GetComponent nhiều lần
         list_Devices_Transform = module_Canvas.transform.Find("List_Devices").GetComponent<RectTransform>();
         jb_TSD_Detail_Transform = module_Canvas.transform.Find("Detail_JB_TSD").GetComponent<RectTransform>();
@@ -39,9 +42,27 @@ public class Update_JB_TSD_General_UI : MonoBehaviour
         jb_TSD_Connection_Location_Prefab = jb_TSD_Connection_Horizontal_Group.Find("JB_TSD_Connection_Location").GetComponent<TMP_Text>();
 
         Create_Module_General();
-        Instantiate_JB_TSD_Connection_List();
     }
 
+    private void OnDisable()
+    {
+        module_Canvas = null;
+        // Giảm thiểu việc sử dụng Find/GetComponent nhiều lần
+        list_Devices_Transform = null;
+        jb_TSD_Detail_Transform = null;
+        jb_TSD_General_Transform = null;
+
+        jb_TSD_Connection_Vertical_Group = null;
+        jb_TSD_Connection_Horizontal_Group = null;
+
+        jb_TSD_Connection_Button_Prefab = null;
+        jb_TSD_Connection_Name_Prefab = null;
+        jb_TSD_Connection_Location_Prefab = null;
+
+        module_General_Model = null;
+        GlobalVariable.module_Type_Name = "1794-IB32";
+        GlobalVariable.apdapter_Type_Name = "1794-ACN15";
+    }
     private void Create_Module_General()
     {
         rack_Name = $"Rack_{module_Canvas.name.Substring(1, 1)}";
@@ -66,7 +87,8 @@ public class Update_JB_TSD_General_UI : MonoBehaviour
             default:
                 break;
         }
-
+        GlobalVariable.module_Type_Name = module_General_Model.Type;
+        GlobalVariable.apdapter_Type_Name = module_General_Model.Adapter;
     }
     private void Instantiate_JB_TSD_Connection_List()
     {
@@ -87,6 +109,9 @@ public class Update_JB_TSD_General_UI : MonoBehaviour
                  GlobalVariable.navigate_from_List_Devices = false;
                  GlobalVariable.navigate_from_JB_TSD_General = true;
                  NavigateJBDetailScreen(jb_TSD_Connection);
+
+                 //! trường hợp  jb_TSD_Conenction = JB100-JB101_Cầu Thang lên Chè Cân
+
              });
         }
         jb_TSD_Connection_Horizontal_Group.gameObject.SetActive(false);

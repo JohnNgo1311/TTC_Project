@@ -45,6 +45,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4d271c9a52d33444c819e41f818a7ded, type: 2}
   - {fileID: 11400000, guid: b920e21d401f62a46ac6404a14f88e13, type: 2}
   - {fileID: 11400000, guid: e786e65974e4d914987adf1987fc3515, type: 2}
+  - {fileID: 11400000, guid: 839a3ee5ba675d141953b4d0b1663489, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -94,6 +95,9 @@ MonoBehaviour:
     - GrapperA_Module_Location_Rack4
     - GrapperA_Module_Location_Rack5
     - GrapperA_Module_Location_Rack6
+    - Module_Specification
+    - Adapter_Specification
+    - Module_Mounts_On_Terminal_Base
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: bf9e0577ac5f2cc44a980b1ebecfd82a, type: 2}
