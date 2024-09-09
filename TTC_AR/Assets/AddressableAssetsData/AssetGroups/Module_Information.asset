@@ -21,37 +21,37 @@ MonoBehaviour:
     m_Address: 1794-OB32P
     m_ReadOnly: 0
     m_SerializedLabels:
-    - GrapperA_Module_Specification
+    - Module_Specification
   - m_GUID: 087da4488ff250546b44cdf0ac476c16
     m_Address: 1794-IR8
     m_ReadOnly: 0
     m_SerializedLabels:
-    - GrapperA_Module_Specification
+    - Module_Specification
   - m_GUID: 0632c2113b115194ab20df0b3b734067
     m_Address: 1794-IE8
     m_ReadOnly: 0
     m_SerializedLabels:
-    - GrapperA_Module_Specification
+    - Module_Specification
   - m_GUID: 746dffddfbfd3d64bbd7eb60c520a1e0
     m_Address: 1794-OE8H
     m_ReadOnly: 0
     m_SerializedLabels:
-    - GrapperA_Module_Specification
+    - Module_Specification
   - m_GUID: 946ccf6524c29934ea72f34f797f8487
     m_Address: 1794-IB32
     m_ReadOnly: 0
     m_SerializedLabels:
-    - GrapperA_Module_Specification
+    - Module_Specification
   - m_GUID: 770c5fe2cf418df4e85db32bd23ec37b
     m_Address: 1794-ACN15
     m_ReadOnly: 0
     m_SerializedLabels:
-    - GrapperA_Adapter_Specification
+    - Adapter_Specification
   - m_GUID: 67053293985c52e48970dbd3fdc78151
     m_Address: Module_Mounts_on_Terminal_Base
     m_ReadOnly: 0
     m_SerializedLabels:
-    - GrapperA_Module_Mounts_On_Terminal_Base
+    - Module_Mounts_On_Terminal_Base
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 46b79bca31d16424fb55ac66baa3c8d5, type: 2}
   m_SchemaSet:

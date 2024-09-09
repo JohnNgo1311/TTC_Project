@@ -12,10 +12,12 @@ public class Update_JB_TSD_Detail_UI : MonoBehaviour
     [SerializeField] private Canvas canvas_Parent;
     [SerializeField] private TMP_Text jB_TSD_Title;
     [SerializeField] private TMP_Text jb_location_value;
+    [SerializeField] private GameObject jb_location_imagePrefab_hortizontal_group;
     [SerializeField] private Image jb_location_imagePrefab;
     [SerializeField] private Image jb_connection_imagePrefab;
     [SerializeField] private GameObject jb_connection_imagePrefab_group;
 
+    private List<Image> instantiatedImages = new List<Image>(); // Danh sách lưu trữ các Image đã instantiate
     private string jb_name;
     private string jb_location;
     private Dictionary<string, Sprite> spriteCache = new Dictionary<string, Sprite>();
@@ -38,14 +40,46 @@ public class Update_JB_TSD_Detail_UI : MonoBehaviour
 
     private void InitializeReferences()
     {
-        canvas_Parent = GetComponentInParent<Canvas>();
+        if (canvas_Parent == null)
+        {
+            canvas_Parent = GetComponentInParent<Canvas>();
+        }
         if (!canvas_Parent) return;
-        jB_TSD_Detail_Panel_Prefab = canvas_Parent.transform.Find("Detail_JB_TSD")?.gameObject;
-        jB_TSD_Title = jB_TSD_Detail_Panel_Prefab?.transform.Find("Horizontal_JB_TSD_Title/JB_TSD_Title")?.GetComponent<TMP_Text>();
-        jb_location_value = jB_TSD_Detail_Panel_Prefab?.transform.Find("Scroll_Area/Content/Text_JB_location_group/Text_JB_Location_Value")?.GetComponent<TMP_Text>();
-        jb_location_imagePrefab = jB_TSD_Detail_Panel_Prefab?.transform.Find("Scroll_Area/Content/JB_location_imagePrefab")?.GetComponent<Image>();
-        jb_connection_imagePrefab_group = jB_TSD_Detail_Panel_Prefab?.transform.Find("Scroll_Area/Content/JB_TSD_connection_imagePrefab_group")?.gameObject;
-        jb_connection_imagePrefab = jb_connection_imagePrefab_group?.transform.Find("JB_TSD_connection_imagePrefab")?.GetComponent<Image>();
+
+        if (jB_TSD_Detail_Panel_Prefab == null)
+        {
+            jB_TSD_Detail_Panel_Prefab = canvas_Parent.transform.Find("Detail_JB_TSD")?.gameObject;
+        }
+
+        if (jB_TSD_Title == null)
+        {
+            jB_TSD_Title = jB_TSD_Detail_Panel_Prefab?.transform.Find("Horizontal_JB_TSD_Title/JB_TSD_Title")?.GetComponent<TMP_Text>();
+        }
+
+        if (jb_location_value == null)
+        {
+            jb_location_value = jB_TSD_Detail_Panel_Prefab?.transform.Find("Scroll_Area/Content/Text_JB_location_group/Text_JB_Location_Value")?.GetComponent<TMP_Text>();
+        }
+
+        if (jb_location_imagePrefab_hortizontal_group == null)
+        {
+            jb_location_imagePrefab_hortizontal_group = jB_TSD_Detail_Panel_Prefab?.transform.Find("Scroll_Area/Content/JB_location_imagePrefab_Horizontal_Group").gameObject;
+        }
+
+        if (jb_location_imagePrefab == null)
+        {
+            jb_location_imagePrefab = jb_location_imagePrefab_hortizontal_group?.transform.Find("JB_location_imagePrefab")?.GetComponent<Image>();
+        }
+
+        if (jb_connection_imagePrefab_group == null)
+        {
+            jb_connection_imagePrefab_group = jB_TSD_Detail_Panel_Prefab?.transform.Find("Scroll_Area/Content/JB_TSD_connection_imagePrefab_group")?.gameObject;
+        }
+
+        if (jb_connection_imagePrefab == null)
+        {
+            jb_connection_imagePrefab = jb_connection_imagePrefab_group?.transform.Find("JB_TSD_connection_imagePrefab")?.GetComponent<Image>();
+        }
     }
 
     private void UpdateTitle()
@@ -99,11 +133,52 @@ public class Update_JB_TSD_Detail_UI : MonoBehaviour
 
     private void ApplyMainLocationSprite()
     {
+        ClearInstantiatedImages();
+        jb_location_imagePrefab.transform.gameObject.SetActive(true);
+
+        if (jb_name.Contains("-"))
+        {
+            jb_location_imagePrefab.transform.gameObject.SetActive(false);
+
+            string[] jb_name_split = jb_name.Split('-');
+            foreach (string jb in jb_name_split)
+            {
+                CreateAndSetSprite(jb.Trim());
+            }
+        }
+        else
+        {
+            SetSprite(jb_location_imagePrefab, jb_name);
+        }
+    }
+
+    private void CreateAndSetSprite(string jb_name)
+    {
+        Image jb_location_image_new = Instantiate(jb_location_imagePrefab, jb_location_imagePrefab_hortizontal_group.transform);
+        jb_location_image_new.gameObject.SetActive(true);
+        SetSprite(jb_location_image_new, jb_name);
+        instantiatedImages.Add(jb_location_image_new);
+    }
+
+    private void SetSprite(Image imageComponent, string jb_name)
+    {
         if (!spriteCache.TryGetValue(jb_name, out var jbSprite))
         {
             spriteCache.TryGetValue("TSD_none", out jbSprite);
         }
-        jb_location_imagePrefab.sprite = jbSprite;
+        imageComponent.sprite = jbSprite;
+    }
+
+    private void ClearInstantiatedImages()
+    {
+        foreach (Image img in instantiatedImages)
+        {
+            if (img != null)
+            {
+                Destroy(img.gameObject);
+            }
+        }
+        instantiatedImages.Clear();
     }
 
     private void ApplyConnectionSprites(List<string> filteredList)
@@ -116,16 +191,8 @@ public class Update_JB_TSD_Detail_UI : MonoBehaviour
                 imageObject.GetComponent<Image>().sprite = sprite;
 
                 Vector2 spriteSize = sprite.rect.size;
-
-                // Lấy RectTransform của Image để thay đổi kích thước
                 RectTransform rectTransform = imageObject.GetComponent<RectTransform>();
-
-                // Điều chỉnh kích thước của RectTransform theo kích thước Sprite
                 rectTransform.sizeDelta = new Vector2(rectTransform.sizeDelta.x, spriteSize.y / 1.3f);
-            }
-            else
-            {
-                Debug.LogError($"Sprite not found: {imageName}");
             }
             imageObject.gameObject.SetActive(true);
         }

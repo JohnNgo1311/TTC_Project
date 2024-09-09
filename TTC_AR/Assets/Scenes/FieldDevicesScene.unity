@@ -792,7 +792,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &169350726
 RectTransform:
   m_ObjectHideFlags: 0
@@ -999,15 +999,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92c3e2e0b23ab1940b8dc56d70fab067, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetCanvas: {fileID: 169350725}
-  btnOpen: {fileID: 719755746}
-  btnClose: {fileID: 621483723}
-  generalPanel: {fileID: 812510768}
-  tagName: D10I_Btn
-  buttonOpenCanvases:
-  - {fileID: 1568113201}
-  - {fileID: 562451925}
-  - {fileID: 719755746}
+  mainCamera: {fileID: 0}
+  targetCanvas:
+  - {fileID: 0}
+  btnOpen:
+  - {fileID: 0}
+  btnClose:
+  - {fileID: 0}
+  generalPanel:
+  - {fileID: 0}
+  tagName: []
+  imageTargets: []
 --- !u!1 &274504943
 GameObject:
   m_ObjectHideFlags: 0
@@ -7186,6 +7188,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialScreen: {fileID: 812510768}
+  generalModuleTitle: {fileID: 0}
+  parentCanvas: {fileID: 0}
   destinationScreens:
   - {fileID: 1349882050}
   - {fileID: 2044842102}
@@ -7577,7 +7581,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &812510769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7692,15 +7696,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92c3e2e0b23ab1940b8dc56d70fab067, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetCanvas: {fileID: 169350725}
-  btnOpen: {fileID: 562451925}
-  btnClose: {fileID: 621483723}
-  generalPanel: {fileID: 812510768}
-  tagName: D10I_Btn
-  buttonOpenCanvases:
-  - {fileID: 1568113201}
-  - {fileID: 562451925}
-  - {fileID: 719755746}
+  mainCamera: {fileID: 0}
+  targetCanvas:
+  - {fileID: 0}
+  btnOpen:
+  - {fileID: 0}
+  btnClose:
+  - {fileID: 0}
+  generalPanel:
+  - {fileID: 0}
+  tagName: []
+  imageTargets: []
 --- !u!1 &1008442464
 GameObject:
   m_ObjectHideFlags: 0
@@ -8315,6 +8321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousSceneName: FieldDevicesScene
   recentSceneName: SelectionScene
+  isOrientation: 0
 --- !u!224 &1294133837
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14133,15 +14140,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92c3e2e0b23ab1940b8dc56d70fab067, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetCanvas: {fileID: 169350725}
-  btnOpen: {fileID: 1568113201}
-  btnClose: {fileID: 621483723}
-  generalPanel: {fileID: 812510768}
-  tagName: CL_Inverter_Btn
-  buttonOpenCanvases:
-  - {fileID: 1568113201}
-  - {fileID: 562451925}
-  - {fileID: 719755746}
+  mainCamera: {fileID: 0}
+  targetCanvas:
+  - {fileID: 0}
+  btnOpen:
+  - {fileID: 0}
+  btnClose:
+  - {fileID: 0}
+  generalPanel:
+  - {fileID: 0}
+  tagName: []
+  imageTargets: []
 --- !u!1 &1586736214
 GameObject:
   m_ObjectHideFlags: 0

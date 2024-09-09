@@ -16,8 +16,8 @@
 static const Il2CppMethodExecutionContextInfo g_methodExecutionContextInfos[5] = 
 {
 	{ 2737, 0,  0 } /*tableIndex: 0 */,
-	{ 15910, 0,  1 } /*tableIndex: 1 */,
-	{ 8876, 1,  1 } /*tableIndex: 2 */,
+	{ 15911, 0,  1 } /*tableIndex: 1 */,
+	{ 8877, 1,  1 } /*tableIndex: 2 */,
 	{ 2854, 0,  2 } /*tableIndex: 3 */,
 	{ 4214, 0,  3 } /*tableIndex: 4 */,
 };

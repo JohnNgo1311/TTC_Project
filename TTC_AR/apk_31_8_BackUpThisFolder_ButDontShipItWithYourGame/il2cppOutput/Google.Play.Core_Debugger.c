@@ -15,19 +15,19 @@
 #if IL2CPP_MONO_DEBUGGER
 static const Il2CppMethodExecutionContextInfo g_methodExecutionContextInfos[14] = 
 {
-	{ 13258, 0,  0 } /*tableIndex: 0 */,
-	{ 10166, 1,  5 } /*tableIndex: 1 */,
-	{ 10323, 2,  7 } /*tableIndex: 2 */,
-	{ 10323, 3,  8 } /*tableIndex: 3 */,
+	{ 13259, 0,  0 } /*tableIndex: 0 */,
+	{ 10167, 1,  5 } /*tableIndex: 1 */,
+	{ 10324, 2,  7 } /*tableIndex: 2 */,
+	{ 10324, 3,  8 } /*tableIndex: 3 */,
 	{ 3346, 4,  9 } /*tableIndex: 4 */,
-	{ 10323, 5,  10 } /*tableIndex: 5 */,
+	{ 10324, 5,  10 } /*tableIndex: 5 */,
 	{ 612, 6,  11 } /*tableIndex: 6 */,
 	{ 1581, 7,  11 } /*tableIndex: 7 */,
-	{ 23368, 8,  14 } /*tableIndex: 8 */,
+	{ 23369, 8,  14 } /*tableIndex: 8 */,
 	{ 2519, 8,  15 } /*tableIndex: 9 */,
-	{ 7541, 9,  17 } /*tableIndex: 10 */,
-	{ 18440, 9,  18 } /*tableIndex: 11 */,
-	{ 24017, 8,  19 } /*tableIndex: 12 */,
+	{ 7542, 9,  17 } /*tableIndex: 10 */,
+	{ 18441, 9,  18 } /*tableIndex: 11 */,
+	{ 24018, 8,  19 } /*tableIndex: 12 */,
 	{ 2520, 8,  20 } /*tableIndex: 13 */,
 };
 #else
@@ -438,8 +438,8 @@ Il2CppSequencePoint g_sequencePointsGoogle_Play_Core[1] = { { 0, 0, 0, 0, 0, 0, 
 #endif
 #if IL2CPP_MONO_DEBUGGER
 static const Il2CppCatchPoint g_catchPoints[] = {
-{ 61466, 10322, 62, 0, -1 },
-{ 61490, 10322, 62, 0, -1 },
+{ 61466, 10323, 62, 0, -1 },
+{ 61490, 10323, 62, 0, -1 },
 };
 #else
 static const Il2CppCatchPoint g_catchPoints[1] = { { 0, 0, 0, 0, } };

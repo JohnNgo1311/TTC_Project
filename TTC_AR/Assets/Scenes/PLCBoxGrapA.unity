@@ -472,7 +472,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 844891510}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.06610471
+  m_Size: 0.06610472
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1845,7 +1845,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousSceneName: PLCBoxGrapA
   recentSceneName: MenuScene
-  isOrientation: 1
+  isOrientation: 0
 --- !u!114 &878477618
 MonoBehaviour:
   m_ObjectHideFlags: 0

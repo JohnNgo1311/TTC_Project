@@ -13340,16 +13340,16 @@ struct U3CU3Ec_tAAFE94D4C2A6EB420410E94BCEDAA825558A8230_StaticFields
 {
 	// Update_JB_TSD_Detail_UI/<>c Update_JB_TSD_Detail_UI/<>c::<>9
 	U3CU3Ec_tAAFE94D4C2A6EB420410E94BCEDAA825558A8230* ___U3CU3E9_0;
-	// System.Func`2<System.String,System.Int32> Update_JB_TSD_Detail_UI/<>c::<>9__17_1
-	Func_2_tE86BD37F96840C70F2EA1D505476CEDA46364783* ___U3CU3E9__17_1_1;
+	// System.Func`2<System.String,System.Int32> Update_JB_TSD_Detail_UI/<>c::<>9__19_1
+	Func_2_tE86BD37F96840C70F2EA1D505476CEDA46364783* ___U3CU3E9__19_1_1;
 };
 
-// Update_JB_TSD_General_UI/<>c__DisplayClass14_0
-struct U3CU3Ec__DisplayClass14_0_t9C71E8A15791CCE7568BAE89EFEC375F8D4DEAD9  : public RuntimeObject
+// Update_JB_TSD_General_UI/<>c__DisplayClass16_0
+struct U3CU3Ec__DisplayClass16_0_tB43311C3C632160AC866B2B0BBFCCA9847174A43  : public RuntimeObject
 {
-	// System.String Update_JB_TSD_General_UI/<>c__DisplayClass14_0::jb_TSD_Connection
+	// System.String Update_JB_TSD_General_UI/<>c__DisplayClass16_0::jb_TSD_Connection
 	String_t* ___jb_TSD_Connection_0;
-	// Update_JB_TSD_General_UI Update_JB_TSD_General_UI/<>c__DisplayClass14_0::<>4__this
+	// Update_JB_TSD_General_UI Update_JB_TSD_General_UI/<>c__DisplayClass16_0::<>4__this
 	Update_JB_TSD_General_UI_tB30B215FC24EC7407F1075C1489F18C068EAF708* ___U3CU3E4__this_1;
 };
 
@@ -48317,20 +48317,24 @@ struct Update_JB_TSD_Detail_UI_t21944ED4071E795EC9F2E32213784DE5C5DFB4E5  : publ
 	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___jB_TSD_Title_6;
 	// TMPro.TMP_Text Update_JB_TSD_Detail_UI::jb_location_value
 	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___jb_location_value_7;
+	// UnityEngine.GameObject Update_JB_TSD_Detail_UI::jb_location_imagePrefab_hortizontal_group
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___jb_location_imagePrefab_hortizontal_group_8;
 	// UnityEngine.UI.Image Update_JB_TSD_Detail_UI::jb_location_imagePrefab
-	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___jb_location_imagePrefab_8;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___jb_location_imagePrefab_9;
 	// UnityEngine.UI.Image Update_JB_TSD_Detail_UI::jb_connection_imagePrefab
-	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___jb_connection_imagePrefab_9;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___jb_connection_imagePrefab_10;
 	// UnityEngine.GameObject Update_JB_TSD_Detail_UI::jb_connection_imagePrefab_group
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___jb_connection_imagePrefab_group_10;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___jb_connection_imagePrefab_group_11;
+	// System.Collections.Generic.List`1<UnityEngine.UI.Image> Update_JB_TSD_Detail_UI::instantiatedImages
+	List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19* ___instantiatedImages_12;
 	// System.String Update_JB_TSD_Detail_UI::jb_name
-	String_t* ___jb_name_11;
+	String_t* ___jb_name_13;
 	// System.String Update_JB_TSD_Detail_UI::jb_location
-	String_t* ___jb_location_12;
+	String_t* ___jb_location_14;
 	// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Sprite> Update_JB_TSD_Detail_UI::spriteCache
-	Dictionary_2_tC7B9BD0CA755DD1E643DB18A74765E15DC3D9516* ___spriteCache_13;
+	Dictionary_2_tC7B9BD0CA755DD1E643DB18A74765E15DC3D9516* ___spriteCache_15;
 	// System.Int32 Update_JB_TSD_Detail_UI::pendingSpriteLoads
-	int32_t ___pendingSpriteLoads_14;
+	int32_t ___pendingSpriteLoads_16;
 };
 
 // Update_JB_TSD_General_UI
@@ -48375,14 +48379,14 @@ struct Update_Module_Screen_t02D2FAE937F419CF2E7C1CCAB055AA68F174CD8A  : public 
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___module_Screen_7;
 	// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Sprite> Update_Module_Screen::spriteCache
 	Dictionary_2_tC7B9BD0CA755DD1E643DB18A74765E15DC3D9516* ___spriteCache_8;
-	// System.Int32 Update_Module_Screen::pendingSpriteLoads
-	int32_t ___pendingSpriteLoads_9;
 	// System.String Update_Module_Screen::module_Type_Name
-	String_t* ___module_Type_Name_10;
-	// System.String Update_Module_Screen::apdapter_Type_Name
-	String_t* ___apdapter_Type_Name_11;
+	String_t* ___module_Type_Name_9;
+	// System.String Update_Module_Screen::adapter_Type_Name
+	String_t* ___adapter_Type_Name_10;
 	// System.Collections.Generic.List`1<System.String> Update_Module_Screen::addressableKeys
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___addressableKeys_12;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___addressableKeys_11;
+	// System.Int32 Update_Module_Screen::pendingSpriteLoads
+	int32_t ___pendingSpriteLoads_12;
 };
 
 // UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile
@@ -55650,7 +55654,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize7504 = { sizeof(U3CU3Ec_tAAF
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7505;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize7505 = { sizeof(Update_JB_TSD_Detail_UI_t21944ED4071E795EC9F2E32213784DE5C5DFB4E5), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7506;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize7506 = { sizeof(U3CU3Ec__DisplayClass14_0_t9C71E8A15791CCE7568BAE89EFEC375F8D4DEAD9), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize7506 = { sizeof(U3CU3Ec__DisplayClass16_0_tB43311C3C632160AC866B2B0BBFCCA9847174A43), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7507;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize7507 = { sizeof(Update_JB_TSD_General_UI_tB30B215FC24EC7407F1075C1489F18C068EAF708), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize7508;
