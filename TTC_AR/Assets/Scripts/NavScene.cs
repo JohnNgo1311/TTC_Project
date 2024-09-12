@@ -27,7 +27,7 @@ public class NavScene : MonoBehaviour
         {
             GlobalVariable.recentScene = recentSceneName[buttonIndex];
             GlobalVariable.previousScene = previousSceneName;
-            SceneManager.LoadScene(recentSceneName[buttonIndex]);
+            SceneManager.LoadSceneAsync(recentSceneName[buttonIndex]);
             PlayerPrefs.SetString(recentSceneName[buttonIndex], SceneManager.GetActiveScene().name);
         }
     }

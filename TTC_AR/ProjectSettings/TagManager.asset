@@ -24,6 +24,26 @@ TagManager:
   - A4.5.I_Btn
   - A4.6.I_Btn
   - A4.7.I_Btn
+  - D2.0.O_Btn
+  - D2.1.O_Btn
+  - D2.2.O_Btn
+  - D2.3.O_Btn
+  - D2.4.I_Btn
+  - D2.5.I_Btn
+  - D3.0.I_Btn
+  - D3.1.I_Btn
+  - D3.2.O_Btn
+  - D3.3.O_Btn
+  - A5.0.I_Btn
+  - A5.1.I_Btn
+  - A5.2.I_Btn
+  - A5.3.O_Btn
+  - A5.4.O_Btn
+  - A5.5.O_Btn
+  - A5.6.I_Btn
+  - A5.7.I_Btn
+  - A6.0.I_Btn
+  - A6.1.I_Btn
   layers:
   - Default
   - TransparentFX

@@ -29,7 +29,7 @@ namespace Google.Play.AssetDelivery.Samples.AssetDeliveryDemo
             // Load first scene when back button is clicked.
             if (Input.GetKeyDown(KeyCode.Escape))
             {
-                SceneManager.LoadScene(0);
+                SceneManager.LoadSceneAsync(0);
             }
         }
     }

@@ -38,7 +38,7 @@ public class Nav_Scene_Back : MonoBehaviour
     {
         GlobalVariable.recentScene = recentSceneName;
         GlobalVariable.previousScene = previousSceneName;
-        SceneManager.LoadScene(recentSceneName);
+        SceneManager.LoadSceneAsync(recentSceneName);
         PlayerPrefs.SetString(recentSceneName, SceneManager.GetActiveScene().name);
     }
 }

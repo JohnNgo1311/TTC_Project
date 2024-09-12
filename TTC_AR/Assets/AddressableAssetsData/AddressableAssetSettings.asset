@@ -86,7 +86,7 @@ MonoBehaviour:
     m_ProfileVersion: 1
   m_LabelTable:
     m_LabelNames:
-    - default
+    - GrapperA_Connection_Wiring
     - Grapper_A_Module_Location
     - Real_Outdoor_JB_TSD
     - GrapperA_Module_Location_Rack1

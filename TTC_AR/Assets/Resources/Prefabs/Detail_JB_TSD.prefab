@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 5767972894217729241}
   - component: {fileID: 5767972894217729240}
   m_Layer: 0
-  m_Name: Close_Canvas_Btn
+  m_Name: Close_Detail_JB_TSD_Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -166,8 +166,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5767972894617729976}
+  m_Children: []
   m_Father: {fileID: 5767972895994346327}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -696,12 +695,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5767972894617729095}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -936.3275, y: -568.1283, z: -1385.6406}
-  m_LocalScale: {x: 13.856405, y: 13.856405, z: 13.856405}
+  m_LocalPosition: {x: 0, y: -65.10101, z: -1385.6406}
+  m_LocalScale: {x: 13.856404, y: 13.856404, z: 13.856404}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5767972894217729255}
-  m_RootOrder: 0
+  m_Father: {fileID: 5767972895994346327}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5767972894617729977
 MonoBehaviour:
@@ -1362,6 +1361,7 @@ RectTransform:
   - {fileID: 5767972895689282465}
   - {fileID: 5767972894889465724}
   - {fileID: 5767972894217729255}
+  - {fileID: 5767972894617729976}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1409,6 +1409,7 @@ MonoBehaviour:
   canvas_Parent: {fileID: 0}
   jB_TSD_Title: {fileID: 0}
   jb_location_value: {fileID: 0}
+  jb_location_imagePrefab_hortizontal_group: {fileID: 0}
   jb_location_imagePrefab: {fileID: 0}
   jb_connection_imagePrefab: {fileID: 0}
   jb_connection_imagePrefab_group: {fileID: 0}

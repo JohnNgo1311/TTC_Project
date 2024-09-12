@@ -1,61 +1,75 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+
 public class UILogin : MonoBehaviour
 {
-
     public TMPro.TMP_InputField userNameField;
     public TMPro.TMP_InputField passwordField;
     public Button loginButton;
     public string targetSceneName;
 
+    // Dictionary lưu thông tin tài khoản
+    private readonly Dictionary<string, string> staffAccounts = new Dictionary<string, string>
+    {
+        {"ttc", "123456"},
+        {"admin", "123456"},
+        {"Nhut", "123456"}
+    };
+
     private void Awake()
     {
         Screen.orientation = ScreenOrientation.Portrait;
-
-    }
-    void Start()
-    {
-        //Subscribe to onClick event
-        loginButton.onClick.AddListener(adminDetails);
-
-    }
-
-    Dictionary<string, string> staffDetails = new Dictionary<string, string>
-    {
-        {"ttc","123456" },
-        {"admin","123456" },
-        {"Nhut","123456" },
-
-    };
-
-
-    public void adminDetails()
-    {
-        string userName;
-        userName = userNameField.text;
-        string password;
-        password = passwordField.text;
-        string foundPassword;
-        GlobalVariable.recentScene = targetSceneName;
-        GlobalVariable.previousScene = "LoginScene";
-        if (staffDetails.TryGetValue(userName, out foundPassword) && (foundPassword == password))
+        if (GlobalVariable.loginSuccess == true && !string.IsNullOrWhiteSpace(GlobalVariable.accountModel.userName))
         {
-            SceneManager.LoadScene(targetSceneName);
+            userNameField.text = GlobalVariable.accountModel.userName;
+            passwordField.text = GlobalVariable.accountModel.password;
+        }
+    }
 
-            // Lưu tên cảnh hiện tại
-            PlayerPrefs.SetString(targetSceneName, SceneManager.GetActiveScene().name);
+    private void Start()
+    {
+        loginButton.onClick.AddListener(HandleLogin);
+    }
 
-            //  Debug.Log("User authenticated");
+    private void HandleLogin()
+    {
+        string userName = userNameField.text;
+        string password = passwordField.text;
+
+        // Xác thực thông tin đăng nhập
+        if (staffAccounts.TryGetValue(userName, out string foundPassword) && foundPassword == password)
+        {
+            // Cập nhật thông tin tài khoản
+            GlobalVariable.accountModel.userName = userName;
+            GlobalVariable.accountModel.password = password;
+            GlobalVariable.recentScene = targetSceneName;
+            GlobalVariable.previousScene = "LoginScene";
+
+            StartCoroutine(LoadSceneAsync(targetSceneName));
+            GlobalVariable.loginSuccess = true;
+
         }
         else
         {
-            Debug.Log("Invalid password");
+            Debug.Log("Invalid username or password");
+            Show_Dialog.Instance.ShowToast("failure", "Sai tên đăng nhập hoặc mật khẩu", 1);
+        }
+    }
+
+    private IEnumerator LoadSceneAsync(string sceneName)
+    {
+        Show_Dialog.Instance.ShowToast("loading", "Đang đăng nhập...", 1);
+
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
+
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
         }
 
-
+        PlayerPrefs.SetString(targetSceneName, SceneManager.GetActiveScene().name);
     }
 }

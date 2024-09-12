@@ -14,7 +14,7 @@ public class Update_Module_Screen : MonoBehaviour
     private Dictionary<string, Sprite> spriteCache = new Dictionary<string, Sprite>();
     private string module_Type_Name = "1794-IE8";
     private string adapter_Type_Name = "1794-ACN15";
-    private List<string> addressableKeys = new List<string>() { "GrapperA_Module_Specification", "GrapperA_Adapter_Specification", "GrapperA_Module_Mounts_On_Terminal_Base" };
+    private List<string> addressableKeys = new List<string>() { "Module_Specification", "Adapter_Specification", "Module_Mounts_On_Terminal_Base" };
     private int pendingSpriteLoads;
 
     private void Start()

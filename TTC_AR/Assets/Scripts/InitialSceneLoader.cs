@@ -16,12 +16,12 @@ public class InitialSceneLoader : MonoBehaviour
             // Nếu cảnh hiện tại không phải là cảnh ban đầu, tải cảnh ban đầu
             if (lastScene != InitialSceneName)
             {
-                SceneManager.LoadScene(InitialSceneName);
+                SceneManager.LoadSceneAsync(InitialSceneName);
             }
         }
         else
         {        // Nếu không có cảnh nào được lưu, tải cảnh ban đầu
-            SceneManager.LoadScene(InitialSceneName);
+            SceneManager.LoadSceneAsync(InitialSceneName);
         }
     }
 }

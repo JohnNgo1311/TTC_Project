@@ -3,60 +3,67 @@ using UnityEngine;
 
 public class OpenCanvas : MonoBehaviour
 {
+    public List<GameObject> targetCanvas;
+    public List<GameObject> imageTargets;
+
+    [SerializeField]
+    private List<string> tagName;
+
     [SerializeField]
     private Camera mainCamera;
 
-    public List<GameObject> targetCanvas, btnOpen, btnClose;
-    public List<GameObject> generalPanel;
-    public List<string> tagName;
-    public List<GameObject> imageTargets;
+    [SerializeField]
+    private List<GameObject> btnOpen, btnClose;
+
+    [SerializeField]
+    private List<GameObject> generalPanel;
     private bool isShowCanvas = false;
 
+    void Awake()
+    {
+        // Sử dụng kiểm tra độ dài trước khi thực hiện để tránh lỗi
+        int canvasCount = targetCanvas.Count;
+        Debug.Log("canvasCount: " + canvasCount);
+        for (int i = 0; i < canvasCount; i++)
+        {
+            Debug.Log("i: " + i);
+            if (targetCanvas[i] != null)
+            {
+                generalPanel.Add(targetCanvas[i].transform.Find("General_Panel")?.gameObject);
+                btnClose.Add(generalPanel[i].transform.Find("Close_Canvas_Btn")?.gameObject);
+            }
+        }
+
+        int imageTargetCount = imageTargets.Count;
+        Debug.Log("imageTargetCount: " + imageTargetCount);
+        for (int i = 0; i < imageTargetCount; i++)
+        {
+            btnOpen.Add(imageTargets[i].transform.GetChild(0)?.gameObject);
+            tagName.Add(btnOpen[i].tag);
+        }
+    }
+    private void OnDestroy()
+    {
+        tagName.Clear();
+        btnOpen.Clear();
+        btnClose.Clear();
+        generalPanel.Clear();
+    }
     void Start()
     {
-        // Đảm bảo rằng danh sách không rỗng trước khi thao tác
-        if (targetCanvas != null)
-        {
-            foreach (var canvas in targetCanvas)
-            {
-                canvas.SetActive(false);
-            }
-        }
-
-        if (generalPanel != null)
-        {
-            foreach (var panel in generalPanel)
-            {
-                panel.SetActive(true);
-            }
-        }
-
-        if (btnClose != null)
-        {
-            foreach (var btn in btnClose)
-            {
-                btn.SetActive(false);
-            }
-        }
-
-        if (btnOpen != null)
-        {
-            foreach (var btn in btnOpen)
-            {
-                btn.SetActive(true);
-            }
-        }
+        // Ẩn tất cả các canvas
+        SetActiveForList(targetCanvas, false);
+        SetActiveForList(generalPanel, true);
+        SetActiveForList(btnClose, false);
+        SetActiveForList(btnOpen, true);
     }
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) || Input.touchCount > 0)
         {
-            HandleInput(Input.mousePosition);
-        }
-        else if (Input.touchCount > 0)
-        {
-            HandleInput(Input.GetTouch(0).position);
+            Vector3 inputPosition = Input.GetMouseButtonDown(0) ? Input.mousePosition : (Vector3)Input.GetTouch(0).position;
+            HandleInput(inputPosition);
         }
     }
 
@@ -65,81 +72,63 @@ public class OpenCanvas : MonoBehaviour
         Ray ray = mainCamera.ScreenPointToRay(inputPosition);
         if (Physics.Raycast(ray, out RaycastHit hit))
         {
-            // Kiểm tra tất cả các tagName
-            for (int i = 0; i < tagName.Count; i++)
+            // Dùng FindIndex để tìm nhanh hơn thay vì lặp
+            int index = tagName.FindIndex(tag => hit.collider.CompareTag(tag));
+            if (index != -1)
             {
-                if (hit.collider.CompareTag(tagName[i]))
-                {
-                    if (isShowCanvas)
-                    {
-                        OnCloseCanvas(i);
-                    }
-                    else
-                    {
-                        OnOpenCanvas(i);
-                    }
-                    isShowCanvas = !isShowCanvas;
-                    break;
-                }
+                if (isShowCanvas)
+                    OnCloseCanvas(index);
+                else
+                    OnOpenCanvas(index);
+
+                isShowCanvas = !isShowCanvas;
             }
         }
     }
 
     private void OnOpenCanvas(int index)
     {
-        if (targetCanvas != null && index < targetCanvas.Count)
-        {
+        if (IsValidIndex(index, targetCanvas))
             targetCanvas[index].SetActive(true);
-        }
 
-        if (imageTargets != null)
-        {
-            foreach (GameObject imageTarget in imageTargets)
-            {
-                imageTarget.SetActive(false);
-            }
-        }
-
-        if (btnOpen != null && index < btnOpen.Count)
-        {
+        SetActiveForList(imageTargets, false);
+        if (IsValidIndex(index, btnOpen))
             btnOpen[index].SetActive(false);
-        }
 
-        if (btnClose != null && index < btnClose.Count)
-        {
+        if (IsValidIndex(index, btnClose))
             btnClose[index].SetActive(true);
-        }
     }
 
     private void OnCloseCanvas(int index)
     {
-        if (targetCanvas != null && index < targetCanvas.Count)
-        {
+        if (IsValidIndex(index, targetCanvas))
             targetCanvas[index].SetActive(false);
-        }
 
-        if (imageTargets != null)
+        SetActiveForList(imageTargets, true);
+        if (IsValidIndex(index, btnClose) && btnClose[index].activeSelf)
+            btnClose[index].SetActive(false);
+
+        if (IsValidIndex(index, btnOpen) && !btnOpen[index].activeSelf)
+            btnOpen[index].SetActive(true);
+    }
+
+    // Phương thức hỗ trợ kiểm tra chỉ số hợp lệ
+    private bool IsValidIndex(int index, List<GameObject> list)
+    {
+        return list != null && index >= 0 && index < list.Count;
+    }
+
+    // Phương thức hỗ trợ đặt trạng thái SetActive cho tất cả phần tử của danh sách
+    private void SetActiveForList(List<GameObject> list, bool isActive)
+    {
+        if (list != null)
         {
-            foreach (GameObject imageTarget in imageTargets)
+            foreach (var obj in list)
             {
-                imageTarget.SetActive(true);
-            }
-        }
-
-        if (btnClose != null && index < btnClose.Count)
-        {
-            if (btnClose[index].activeSelf)
-            {
-                btnClose[index].SetActive(false);
-
-            }
-        }
-
-        if (btnOpen != null && index < btnOpen.Count)
-        {
-            if (!btnOpen[index].activeSelf)
-            {
-                btnOpen[index].SetActive(true);
+                if (obj != null && obj.activeSelf != isActive)
+                {
+                    obj.SetActive(isActive);
+                }
             }
         }
     }

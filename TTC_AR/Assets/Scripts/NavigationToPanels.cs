@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Reflection;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,22 +8,38 @@ public class NavigationToPanels : MonoBehaviour
 {
     [SerializeField] private GameObject initialScreen;
     [SerializeField] private TMP_Text generalModuleTitle;
-    [SerializeField] private Canvas parentCanvas;
     [SerializeField] private GameObject[] destinationScreens;
     [SerializeField] private List<Button> navButtons;
 
+    private Canvas parentCanvas;
 
-    void Start()
+    private void OnEnable()
     {
-        parentCanvas = GetComponentInParent<Canvas>();
+        if (parentCanvas == null) // Chỉ tìm parentCanvas nếu chưa gán
+            parentCanvas = GetComponentInParent<Canvas>();
 
-        if (initialScreen == null)
-            initialScreen = parentCanvas.transform.Find("General_Panel").gameObject;
+        if (initialScreen == null) // Gán initialScreen nếu chưa gán
+            initialScreen = parentCanvas.transform.Find("General_Panel")?.gameObject;
 
-        if (generalModuleTitle == null)
-            generalModuleTitle = initialScreen.transform.Find("Title").GetComponent<TMP_Text>();
+        if (generalModuleTitle == null && initialScreen != null) // Gán tiêu đề nếu chưa gán
+            generalModuleTitle = initialScreen.transform.Find("Title")?.GetComponent<TMP_Text>();
 
-        generalModuleTitle.text = GetModuleTitle(parentCanvas.gameObject.name);
+        GlobalVariable.generalPanel = initialScreen;
+    }
+
+    private void OnDisable()
+    {
+        GlobalVariable.generalPanel = null;
+        foreach (var button in navButtons) // Tránh sử dụng ForEach để giảm overhead
+        {
+            button.onClick.RemoveAllListeners();
+        }
+    }
+
+    private void Start()
+    {
+        if (generalModuleTitle != null)
+            generalModuleTitle.text = GetModuleTitle(parentCanvas.gameObject.name);
 
         SetInitialState();
 
@@ -34,30 +48,34 @@ public class NavigationToPanels : MonoBehaviour
             int localIndex = i; // Bản sao cục bộ để tránh lỗi closure
             navButtons[i].onClick.AddListener(() => NavigateNewScreen(localIndex));
         }
-        GlobalVariable.generalPanel = initialScreen;
     }
 
     private void SetInitialState()
     {
-        initialScreen.SetActive(true);
+        if (initialScreen != null)
+            initialScreen.SetActive(true);
+
         foreach (var screen in destinationScreens)
         {
-            screen.SetActive(false);
+            if (screen.activeSelf) // Chỉ thay đổi trạng thái khi cần thiết
+                screen.SetActive(false);
         }
     }
 
     private string GetModuleTitle(string fullName)
     {
-        // Lấy tên module từ tên của Canvas (có thể tách hoặc chỉnh sửa dễ hơn sau này)
         return $"Module {fullName.Split('_')[0]}";
     }
 
     public void NavigateNewScreen(int index)
     {
-        initialScreen.SetActive(false);
+        if (initialScreen != null)
+            initialScreen.SetActive(false);
+
         for (int i = 0; i < destinationScreens.Length; i++)
         {
-            destinationScreens[i].SetActive(i == index);
+            if (destinationScreens[i].activeSelf != (i == index)) // Chỉ thay đổi trạng thái nếu cần
+                destinationScreens[i].SetActive(i == index);
         }
     }
 
@@ -65,14 +83,18 @@ public class NavigationToPanels : MonoBehaviour
     {
         StartCoroutine(WaitForASecond());
     }
-    IEnumerator WaitForASecond()
+
+    private IEnumerator WaitForASecond()
     {
         foreach (var screen in destinationScreens)
         {
-            screen.SetActive(false);
+            if (screen.activeSelf)
+                screen.SetActive(false);
         }
-        yield return new WaitForSeconds(0.5f);
-        initialScreen.SetActive(true);
 
+        yield return new WaitForSeconds(0.5f);
+
+        if (initialScreen != null)
+            initialScreen.SetActive(true);
     }
 }

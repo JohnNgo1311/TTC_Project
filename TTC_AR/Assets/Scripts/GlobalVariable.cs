@@ -15,7 +15,13 @@ public class GlobalVariable : MonoBehaviour
     public static string module_Type_Name = "1794-IB32";
     public static string apdapter_Type_Name = "1794-ACN15";
     public static GameObject generalPanel;
+    public static bool loginSuccess = false;
     public static bool isOpenCanvas = false;
+    public static AccountModel accountModel = new AccountModel()
+    {
+        userName = "",
+        password = ""
+    };
 
     public static List<string> pLCBoxScene = new List<string>(){
      "PLCBoxGrapA",
@@ -42,6 +48,27 @@ public class GlobalVariable : MonoBehaviour
      "FieldDevicesScene",
     };
     public static RackData_GrapperA rackData_GrapperA = new RackData_GrapperA();
+
+    public static Dictionary<string, string> online_Module_Catalog_Url = new Dictionary<string, string>()
+    {
+        {"1794-IR8", "https://literature.rockwellautomation.com/idc/groups/literature/documents/in/1794-in021_-en-p.pdf"},
+        {"1794-IE8", "https://literature.rockwellautomation.com/idc/groups/literature/documents/in/1794-in100_-en-p.pdf"},
+        {"1794-OE8H", "https://literature.rockwellautomation.com/idc/groups/literature/documents/in/1794-in109_-en-p.pdf"},
+        {"1794-IB32", "https://literature.rockwellautomation.com/idc/groups/literature/documents/in/1794-in093_-en-p.pdf"},
+        {"1794-OB32P", "https://literature.rockwellautomation.com/idc/groups/literature/documents/in/1794-in094_-en-p.pdf"},
+    };
+
+
+    public static Dictionary<string, string> online_Adapter_Catalog_Url = new Dictionary<string, string>()
+    {
+        {"1794-ACN15","https://literature.rockwellautomation.com/idc/groups/literature/documents/in/1794-in128_-en-p.pdf"}
+    };
+}
+[System.Serializable]
+public class AccountModel
+{
+    public string userName;
+    public string password;
 }
 
 [System.Serializable]
