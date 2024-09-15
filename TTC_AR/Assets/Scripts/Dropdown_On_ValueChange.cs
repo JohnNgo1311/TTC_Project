@@ -25,7 +25,7 @@ public class Dropdown_On_ValueChange : MonoBehaviour
     private Dictionary<string, Sprite> spriteCache = new Dictionary<string, Sprite>();
     private int pendingSpriteLoads = 0;
     private List<Image> instantiatedImages = new List<Image>(); // Danh sách lưu trữ các Image đã instantiate
-
+    //Sciript này sử dụng cho Dropdown_On_ValueChange trong trang PLC Box
     private void Awake()
     {
         if (inputField == null)
@@ -43,8 +43,9 @@ public class Dropdown_On_ValueChange : MonoBehaviour
             UpdateDeviceInformation(GlobalVariable_Search_Devices.devices_Model_By_Grapper[0]);
         }
 
-        LoadDeviceSprites();
+        //     LoadDeviceSprites();
         inputField.onValueChanged.AddListener(OnInputValueChanged);
+        inputField.text = GlobalVariable_Search_Devices.devices_Model_By_Grapper[0].code;
     }
 
     private void CacheUIElements()
@@ -57,11 +58,8 @@ public class Dropdown_On_ValueChange : MonoBehaviour
         jb_Connection_Value_Text = contentTransform.Find("JB_Connection_group/JB_Connection_text_group/JB_Connection_value").GetComponent<TMP_Text>();
         jb_Connection_Location_Text = contentTransform.Find("JB_Connection_group/JB_Connection_text_group/JB_Connection_location").GetComponent<TMP_Text>();
         module_Image = contentTransform.Find("Module_group/Real_Module_Image").GetComponent<Image>();
-
         JB_Connection_Group = contentTransform.Find("JB_Connection_group").gameObject;
-
         JB_Location_Image_Prefab = JB_Connection_Group.transform.Find("JB_Location_Image").GetComponent<Image>();
-
         JB_Connection_Wiring_Group = contentTransform.Find("JB_Connection_group/JB_Connection_Wiring_Group").gameObject;
         JB_Connection_Wiring_Image_Prefab = JB_Connection_Wiring_Group.transform.Find("JB_Connection_Wiring").GetComponent<Image>();
     }
@@ -91,7 +89,6 @@ public class Dropdown_On_ValueChange : MonoBehaviour
                 Destroy(child.gameObject);
             }
         }
-
         // Xóa cache sprite
         spriteCache.Clear();
     }

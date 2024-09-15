@@ -8,6 +8,7 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class Update_JB_TSD_Detail_UI : MonoBehaviour
 {
+    public string grapper;
     [SerializeField] private GameObject jB_TSD_Detail_Panel_Prefab;
     [SerializeField] private Canvas canvas_Parent;
     [SerializeField] private TMP_Text jB_TSD_Title;
@@ -93,27 +94,54 @@ public class Update_JB_TSD_Detail_UI : MonoBehaviour
 
     private void LoadSprites()
     {
-        var addressableKeys = new List<string> { "Real_Outdoor_JB_TSD", "GrapperA_Connection_Wiring" };
-        pendingSpriteLoads = addressableKeys.Count;
-
-        foreach (var key in addressableKeys)
-        {
-            Addressables.LoadAssetsAsync<Sprite>(key, sprite =>
-            {
-                spriteCache[sprite.name] = sprite;
-            }).Completed += OnSpriteLoadComplete;
-        }
+        Load_Real_Outdoor_JB_TSD_Sprites();
+        Load_Grapper_Connection_Wiring_Sprites();
     }
 
-    private void OnSpriteLoadComplete(AsyncOperationHandle<IList<Sprite>> handle)
+    private void Load_Real_Outdoor_JB_TSD_Sprites()
+    {
+        pendingSpriteLoads++;
+        Addressables.LoadAssetsAsync<Sprite>("Real_Outdoor_JB_TSD", sprite =>
+        {
+            spriteCache[sprite.name] = sprite;
+        }).Completed += On_Real_Outdoor_JB_TSD_Sprites_LoadComplete;
+    }
+
+    private void On_Real_Outdoor_JB_TSD_Sprites_LoadComplete(AsyncOperationHandle<IList<Sprite>> handle)
     {
         if (handle.Status != AsyncOperationStatus.Succeeded)
         {
-            Debug.LogError("Failed to load sprites: " + handle.OperationException);
+            Debug.LogError("Failed to load Real_Outdoor_JB_TSD sprites: " + handle.OperationException);
             return;
         }
 
         pendingSpriteLoads--;
+        CheckIfAllSpritesLoaded();
+    }
+
+    private void Load_Grapper_Connection_Wiring_Sprites()
+    {
+        pendingSpriteLoads++;
+        Addressables.LoadAssetsAsync<Sprite>($"Grapper{grapper}_Connection_Wiring", sprite =>
+        {
+            spriteCache[sprite.name] = sprite;
+        }).Completed += On_Grapper_Connection_Wiring_Sprites_LoadComplete;
+    }
+
+    private void On_Grapper_Connection_Wiring_Sprites_LoadComplete(AsyncOperationHandle<IList<Sprite>> handle)
+    {
+        if (handle.Status != AsyncOperationStatus.Succeeded)
+        {
+            Debug.LogError($"Failed to load Grapper{grapper}_Connection_Wiring sprites: " + handle.OperationException);
+            return;
+        }
+
+        pendingSpriteLoads--;
+        CheckIfAllSpritesLoaded();
+    }
+
+    private void CheckIfAllSpritesLoaded()
+    {
         if (pendingSpriteLoads == 0)
         {
             ApplyFilteredSprites();
@@ -123,7 +151,7 @@ public class Update_JB_TSD_Detail_UI : MonoBehaviour
     private void ApplyFilteredSprites()
     {
         var filteredList = spriteCache.Keys
-            .Where(key => key.StartsWith($"{jb_name}_") && key.Split('_').Length > 1 && int.TryParse(key.Split('_')[1], out _))
+            .Where(key => key.StartsWith($"{jb_name}_") && key.Split('_').Length > 1 && int.TryParse(key.Split('_')[1][0].ToString(), out _))
             .OrderBy(key => int.Parse(key.Split('_')[1][0].ToString()))
             .ToList();
 

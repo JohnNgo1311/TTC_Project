@@ -23,10 +23,7 @@ public class SearchableDropDown : MonoBehaviour
 
     public event Action<string> OnValueChangedEvt;
 
-
-
     //! Script này sử dụng cho trang search nhanh 
-
     private void Awake()
     {
         availableOptions = GlobalVariable_Search_Devices.devices_Model_For_Filter;
@@ -51,14 +48,13 @@ public class SearchableDropDown : MonoBehaviour
             Debug.LogError("Không thể tìm thấy các thành phần cần thiết trong combobox!");
             return;
         }
-
         PopulateDropdown(availableOptions);
     }
 
     private void PopulateDropdown(List<string> options)
     {
         foreach (var option in options)
-        {
+        {   
             var itemObject = Instantiate(itemPrefab, content.transform);
             itemObject.name = option;
             var textComponent = itemObject.GetComponentInChildren<TMP_Text>();
@@ -66,7 +62,6 @@ public class SearchableDropDown : MonoBehaviour
             itemGameObjects.Add(itemObject);
             itemObject.GetComponent<Button>().onClick.AddListener(() => OnItemSelected(option));
         }
-
         ResizeContent();
         scrollRect.gameObject.SetActive(false);
     }
@@ -77,7 +72,6 @@ public class SearchableDropDown : MonoBehaviour
         {
             availableOptions = GlobalVariable_Search_Devices.devices_Model_For_Filter;
         }
-
         for (int i = 0; i < itemGameObjects.Count; i++)
         {
             var item = itemGameObjects[i];

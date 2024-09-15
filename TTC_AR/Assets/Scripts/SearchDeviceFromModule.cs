@@ -151,10 +151,12 @@ public class SearchDeviceFromModule : MonoBehaviour
         }
     }
 
-    /*  private void NavigateJBDetailScreen(string jB_TSD_Name)
-      {
-          Debug.Log("Navigate to JB Detail Screen + " + jB_TSD_Name);
-      }*/
+    /* 
+    private void NavigateJBDetailScreen(string jB_TSD_Name)
+    {
+        Debug.Log("Navigate to JB Detail Screen + " + jB_TSD_Name);
+    }
+    */
 
     public void NavigateJBDetailScreen(string jB_TSD_Connection)
     {
