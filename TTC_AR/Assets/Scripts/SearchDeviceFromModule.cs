@@ -12,7 +12,6 @@ public class SearchDeviceFromModule : MonoBehaviour
     private DeviceModel deviceInfor;
     public TMP_Dropdown dropdown;
     public GameObject contentPanel;
-    public GameObject target_Parent_Canvas;
 
     public Button nav_JB_TSD_Detail_button;
     private string moduleName = "D1.0.I";
@@ -25,24 +24,19 @@ public class SearchDeviceFromModule : MonoBehaviour
     private RectTransform jb_TSD_Detail_Transform;
     private void Start()
     {
-        module_Canvas = GetComponentInParent<Canvas>();
         list_Devices_Transform = module_Canvas.gameObject.transform.Find("List_Devices").GetComponent<RectTransform>();
         jb_TSD_General_Transform = module_Canvas.gameObject.transform.Find("JB_TSD_General_Panel").GetComponent<RectTransform>();
         jb_TSD_Detail_Transform = module_Canvas.gameObject.transform.Find("Detail_JB_TSD").GetComponent<RectTransform>();
-        if (listDeviceFromModule != null && listDeviceFromModule.Count > 0)
-        {
-            deviceInfor = listDeviceFromModule[0];
-            UpdateDeviceInformation(deviceInfor);
-        }
-        dropdown.onValueChanged.AddListener(OnValueChange);
     }
 
     private void OnEnable()
     {
-        if (target_Parent_Canvas.activeSelf)
+        module_Canvas = GetComponentInParent<Canvas>();
+
+        if (module_Canvas.gameObject.activeSelf)
         {
             // Tách moduleName một lần và lưu trữ
-            moduleName = target_Parent_Canvas.name.Split('_')[0];
+            moduleName = module_Canvas.name.Split('_')[0];
             listDeviceFromModule = Get_List_Device_By_Module(moduleName);
 
             // Xóa các tùy chọn trước đó
@@ -59,7 +53,18 @@ public class SearchDeviceFromModule : MonoBehaviour
                 // Đảm bảo rằng option1 luôn được chọn
                 dropdown.value = 0;
                 dropdown.RefreshShownValue();
-                // OnValueChange(0); // Gọi OnValueChange để cập nhật thông tin thiết bị đầu tiên
+
+                dropdown.onValueChanged.AddListener(OnValueChange);
+                OnValueChange(0); // Gọi OnValueChange để cập nhật thông tin thiết bị đầu tiên
+
+                /* deviceInfor = listDeviceFromModule[0];
+                 UpdateDeviceInformation(deviceInfor);*
+
+                 if (!contentPanel.activeSelf)
+                 {
+                     contentPanel.SetActive(true);
+                 }*/
+
             }
             else
             {

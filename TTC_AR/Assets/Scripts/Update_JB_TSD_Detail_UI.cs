@@ -123,7 +123,7 @@ public class Update_JB_TSD_Detail_UI : MonoBehaviour
     private void ApplyFilteredSprites()
     {
         var filteredList = spriteCache.Keys
-            .Where(key => key.StartsWith($"{jb_name}_") && key.Split('_').Length > 1)
+            .Where(key => key.StartsWith($"{jb_name}_") && key.Split('_').Length > 1 && int.TryParse(key.Split('_')[1], out _))
             .OrderBy(key => int.Parse(key.Split('_')[1][0].ToString()))
             .ToList();
 

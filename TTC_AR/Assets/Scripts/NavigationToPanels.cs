@@ -25,19 +25,7 @@ public class NavigationToPanels : MonoBehaviour
             generalModuleTitle = initialScreen.transform.Find("Title")?.GetComponent<TMP_Text>();
 
         GlobalVariable.generalPanel = initialScreen;
-    }
 
-    private void OnDisable()
-    {
-        GlobalVariable.generalPanel = null;
-        foreach (var button in navButtons) // Tránh sử dụng ForEach để giảm overhead
-        {
-            button.onClick.RemoveAllListeners();
-        }
-    }
-
-    private void Start()
-    {
         if (generalModuleTitle != null)
             generalModuleTitle.text = GetModuleTitle(parentCanvas.gameObject.name);
 
@@ -48,6 +36,22 @@ public class NavigationToPanels : MonoBehaviour
             int localIndex = i; // Bản sao cục bộ để tránh lỗi closure
             navButtons[i].onClick.AddListener(() => NavigateNewScreen(localIndex));
         }
+    }
+
+    private void OnDisable()
+    {
+        foreach (var button in navButtons) // Tránh sử dụng ForEach để giảm overhead
+        {
+            button.onClick.RemoveAllListeners();
+        }
+
+        GlobalVariable.generalPanel = null;
+
+    }
+
+    private void Start()
+    {
+
     }
 
     private void SetInitialState()
