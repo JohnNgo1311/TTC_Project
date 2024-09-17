@@ -199,7 +199,7 @@ public class Dropdown_On_ValueChange : MonoBehaviour
     {
         if (!spriteCache.TryGetValue(jb_name, out var jbSprite))
         {
-            spriteCache.TryGetValue("JB_Location_none", out jbSprite);
+            spriteCache.TryGetValue("JB_TSD_Location_Note", out jbSprite);
         }
         imageComponent.sprite = jbSprite;
     }
