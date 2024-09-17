@@ -21,7 +21,9 @@ public class Update_JB_TSD_Detail_UI : MonoBehaviour
     private List<Image> instantiatedImages = new List<Image>(); // Danh sách lưu trữ các Image đã instantiate
     private string jb_name;
     private string jb_location;
+    private Dictionary<string, Sprite> spriteCache1 = new Dictionary<string, Sprite>();
     private Dictionary<string, Sprite> spriteCache = new Dictionary<string, Sprite>();
+
     private int pendingSpriteLoads;
 
     private void OnEnable()
@@ -104,6 +106,7 @@ public class Update_JB_TSD_Detail_UI : MonoBehaviour
         Addressables.LoadAssetsAsync<Sprite>("Real_Outdoor_JB_TSD", sprite =>
         {
             spriteCache[sprite.name] = sprite;
+            Debug.Log($"Loaded sprite: {sprite.name}");
         }).Completed += On_Real_Outdoor_JB_TSD_Sprites_LoadComplete;
     }
 
@@ -171,12 +174,12 @@ public class Update_JB_TSD_Detail_UI : MonoBehaviour
             string[] jb_name_split = jb_name.Split('-');
             foreach (string jb in jb_name_split)
             {
-                CreateAndSetSprite(jb.Trim());
+                CreateAndSetSprite($"{jb}_Location");
             }
         }
         else
         {
-            SetSprite(jb_location_imagePrefab, jb_name);
+            SetSprite(jb_location_imagePrefab, $"{jb_name}_Location");
         }
     }
 
@@ -192,7 +195,7 @@ public class Update_JB_TSD_Detail_UI : MonoBehaviour
     {
         if (!spriteCache.TryGetValue(jb_name, out var jbSprite))
         {
-            spriteCache.TryGetValue("TSD_none", out jbSprite);
+            spriteCache.TryGetValue("TSD_Location_none", out jbSprite);
         }
         imageComponent.sprite = jbSprite;
     }

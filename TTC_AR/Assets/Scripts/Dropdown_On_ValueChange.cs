@@ -140,7 +140,7 @@ public class Dropdown_On_ValueChange : MonoBehaviour
                 if (pendingSpriteLoads == 0) // Chỉ gọi khi tất cả tài nguyên đã được tải
                 {
                     var filteredList = spriteCache.Keys
-                        .Where(key => key.StartsWith($"{GlobalVariable_Search_Devices.jbName}_") && key.Split('_').Length > 1)
+                        .Where(key => key.StartsWith($"{GlobalVariable_Search_Devices.jbName}_") && key.Split('_').Length > 1 && int.TryParse(key.Split('_')[1][0].ToString(), out _))
                         .OrderBy(key => int.Parse(key.Split('_')[1][0].ToString()))
                         .ToList();
                     ApplyModuleLocationSprite();
@@ -175,12 +175,12 @@ public class Dropdown_On_ValueChange : MonoBehaviour
             string[] jb_name_split = GlobalVariable_Search_Devices.jbName.Split('-');
             foreach (string jb in jb_name_split)
             {
-                CreateAndSetSprite(jb.Trim());
+                CreateAndSetSprite($"{jb.Trim()}_Location");
             }
         }
         else
         {   // Apply Sprite cho JB_Location_Image khi số lượng JB chỉ có 1
-            SetSprite(JB_Location_Image_Prefab, GlobalVariable_Search_Devices.jbName);
+            SetSprite(JB_Location_Image_Prefab, $"{GlobalVariable_Search_Devices.jbName}_Location");
         }
 
         foreach (var spriteName in filteredList)
@@ -199,7 +199,7 @@ public class Dropdown_On_ValueChange : MonoBehaviour
     {
         if (!spriteCache.TryGetValue(jb_name, out var jbSprite))
         {
-            spriteCache.TryGetValue("JB_none", out jbSprite);
+            spriteCache.TryGetValue("JB_Location_none", out jbSprite);
         }
         imageComponent.sprite = jbSprite;
     }
