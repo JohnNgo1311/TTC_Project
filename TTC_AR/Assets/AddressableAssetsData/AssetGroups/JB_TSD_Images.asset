@@ -157,8 +157,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - GrapperA_Connection_Wiring
-  - m_GUID: 3eee6b85ff31e9243b0a41d3a2955441
-    m_Address: TSD7_0
+  - m_GUID: 4eaec4f76f6cd084b982df2017dd45a1
+    m_Address: TSD2_1
     m_ReadOnly: 0
     m_SerializedLabels:
     - GrapperA_Connection_Wiring
@@ -227,8 +227,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - GrapperA_Connection_Wiring
-  - m_GUID: 3ef74b7514650ec45b209c88e900b325
-    m_Address: TSD2_0(bis)
+  - m_GUID: 5b2e5d86c6ef3124b9b137f2933a58e6
+    m_Address: TSD2_2(bis)
     m_ReadOnly: 0
     m_SerializedLabels:
     - GrapperA_Connection_Wiring
@@ -389,6 +389,16 @@ MonoBehaviour:
     - GrapperA_Connection_Wiring
   - m_GUID: c3c637f18cacc6147bc9d1a8ac4c271e
     m_Address: JB6_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GrapperA_Connection_Wiring
+  - m_GUID: bee71442e25232549891fbe5ea2ec79a
+    m_Address: TSD7_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GrapperA_Connection_Wiring
+  - m_GUID: b969e09a62e67cb44908a8a3ffb1e4f9
+    m_Address: TSD7_1
     m_ReadOnly: 0
     m_SerializedLabels:
     - GrapperA_Connection_Wiring

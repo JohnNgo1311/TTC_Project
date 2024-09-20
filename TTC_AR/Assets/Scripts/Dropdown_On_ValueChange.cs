@@ -21,11 +21,12 @@ public class Dropdown_On_ValueChange : MonoBehaviour
     private GameObject JB_Connection_Group;
     private Image JB_Location_Image_Prefab;
     private Image JB_Connection_Wiring_Image_Prefab;
-    private GameObject JB_Connection_Wiring_Group;
+    //private GameObject JB_Connection_Wiring_Group;
     private Dictionary<string, Sprite> spriteCache = new Dictionary<string, Sprite>();
     private int pendingSpriteLoads = 0;
     private List<Image> instantiatedImages = new List<Image>(); // Danh sách lưu trữ các Image đã instantiate
     //Sciript này sử dụng cho Dropdown_On_ValueChange trong trang PLC Box
+    private ScrollRect scrollRect;
     private void Awake()
     {
         if (inputField == null)
@@ -46,10 +47,13 @@ public class Dropdown_On_ValueChange : MonoBehaviour
         //     LoadDeviceSprites();
         inputField.onValueChanged.AddListener(OnInputValueChanged);
         inputField.text = GlobalVariable_Search_Devices.devices_Model_By_Grapper[0].code;
+        OnInputValueChanged(inputField.text);
     }
 
     private void CacheUIElements()
     {
+        scrollRect = prefab_Device.GetComponent<ScrollRect>();
+
         contentTransform = prefab_Device.transform.Find("Content").GetComponent<RectTransform>();
         code_Value_Text = contentTransform.Find("Device_information/Code_group/Code_value").GetComponent<TMP_Text>();
         function_Value_Text = contentTransform.Find("Device_information/Function_group/Function_value").GetComponent<TMP_Text>();
@@ -60,13 +64,12 @@ public class Dropdown_On_ValueChange : MonoBehaviour
         module_Image = contentTransform.Find("Module_group/Real_Module_Image").GetComponent<Image>();
         JB_Connection_Group = contentTransform.Find("JB_Connection_group").gameObject;
         JB_Location_Image_Prefab = JB_Connection_Group.transform.Find("JB_Location_Image").GetComponent<Image>();
-        JB_Connection_Wiring_Group = contentTransform.Find("JB_Connection_group/JB_Connection_Wiring_Group").gameObject;
-        JB_Connection_Wiring_Image_Prefab = JB_Connection_Wiring_Group.transform.Find("JB_Connection_Wiring").GetComponent<Image>();
+        // JB_Connection_Wiring_Group = contentTransform.Find("JB_Connection_group/JB_Connection_Wiring_Group").gameObject;
+        JB_Connection_Wiring_Image_Prefab = JB_Connection_Group.transform.Find("JB_Connection_Wiring").GetComponent<Image>();
     }
 
     private void OnInputValueChanged(string input)
     {
-        ClearWiringGroupAndCache();
         var device = GlobalVariable_Search_Devices.devices_Model_By_Grapper
             .FirstOrDefault(d => d.code == input || d.function == input);
 
@@ -77,17 +80,19 @@ public class Dropdown_On_ValueChange : MonoBehaviour
         }
         UpdateDeviceInformation(device);
         LoadDeviceSprites();
+
     }
 
     private void ClearWiringGroupAndCache()
     {
         // Xóa tất cả các đối tượng con trong JB_Connection_Wiring_Group
-        foreach (Transform child in JB_Connection_Wiring_Group.transform)
+        foreach (Transform child in JB_Connection_Group.transform)
         {
-            if (child.gameObject.activeSelf && child.gameObject != JB_Connection_Wiring_Image_Prefab.gameObject)
+            if (child.gameObject.activeSelf && child.gameObject.name.Contains("JB_Connection_Wiring(Clone)"))
             {
                 Destroy(child.gameObject);
             }
+
         }
         // Xóa cache sprite
         spriteCache.Clear();
@@ -102,15 +107,18 @@ public class Dropdown_On_ValueChange : MonoBehaviour
         io_Value_Text.text = device.ioAddress;
 
         var parts = device.jbConnection.Split('_');
-        jb_Connection_Value_Text.text = parts[0];
+        jb_Connection_Value_Text.text = $"{parts[0]}:";
         jb_Connection_Location_Text.text = parts.Length > 1 ? parts[1] : string.Empty;
 
         GlobalVariable_Search_Devices.jbName = parts[0];
         GlobalVariable_Search_Devices.moduleName = device.ioAddress.Substring(0, device.ioAddress.LastIndexOf('.'));
+
     }
 
     private void LoadDeviceSprites()
     {
+        ClearWiringGroupAndCache();
+
         var addressableKeys = new List<string>
         {
             "Real_Outdoor_JB_TSD",
@@ -125,6 +133,7 @@ public class Dropdown_On_ValueChange : MonoBehaviour
         {
             PreloadSprites(key);
         }
+        scrollRect.verticalNormalizedPosition = 1f;
     }
 
     private void PreloadSprites(string addressableKey)
@@ -146,6 +155,9 @@ public class Dropdown_On_ValueChange : MonoBehaviour
                     ApplyModuleLocationSprite();
                     ApplySpritesToImages(filteredList);
                 }
+                //Resize_Gameobject_Function.Resize_Parent_GameObject(JB_Connection_Wiring_Group.GetComponent<RectTransform>());
+                //Resize_Gameobject_Function.Resize_Parent_GameObject(JB_Connection_Group.GetComponent<RectTransform>());
+                //Resize_Gameobject_Function.Resize_Parent_GameObject(contentTransform);
 
             }
             else
@@ -160,6 +172,7 @@ public class Dropdown_On_ValueChange : MonoBehaviour
         if (spriteCache.TryGetValue(GlobalVariable_Search_Devices.moduleName, out var moduleSprite))
         {
             module_Image.sprite = moduleSprite;
+
         }
     }
 
@@ -187,9 +200,10 @@ public class Dropdown_On_ValueChange : MonoBehaviour
         {
             if (spriteCache.TryGetValue(spriteName, out var jbConnectionSprite))
             {
-                var newImage = Instantiate(JB_Connection_Wiring_Image_Prefab, JB_Connection_Wiring_Group.transform);
+                var newImage = Instantiate(JB_Connection_Wiring_Image_Prefab, JB_Connection_Group.transform);
                 newImage.sprite = jbConnectionSprite;
                 newImage.gameObject.SetActive(true);
+                Resize_Gameobject_Function.Set_NativeSize_For_GameObject(newImage);
             }
         }
         JB_Connection_Wiring_Image_Prefab.gameObject.SetActive(false);
@@ -202,6 +216,8 @@ public class Dropdown_On_ValueChange : MonoBehaviour
             spriteCache.TryGetValue("JB_TSD_Location_Note", out jbSprite);
         }
         imageComponent.sprite = jbSprite;
+        Resize_Gameobject_Function.Set_NativeSize_For_GameObject(imageComponent);
+
     }
 
     private void CreateAndSetSprite(string jb_name)
@@ -213,23 +229,6 @@ public class Dropdown_On_ValueChange : MonoBehaviour
         jb_location_image_new.gameObject.SetActive(true);
         SetSprite(jb_location_image_new, jb_name);
         instantiatedImages.Add(jb_location_image_new);
-    }
-    void AdjustGroupSize()
-    {
-        float totalHeight = 0f;
-
-        // Tính tổng chiều cao của tất cả các con
-        foreach (Transform child in contentTransform.transform)
-        {
-            RectTransform childRect = child.GetComponent<RectTransform>();
-            if (childRect != null)
-            {
-                totalHeight += childRect.rect.height;
-            }
-        }
-
-        // Cập nhật kích thước của JB_Connection_group
-        contentTransform.sizeDelta = new Vector2(contentTransform.sizeDelta.x, (float)(totalHeight * 1.15));
     }
 
     private void ClearInstantiatedImages()

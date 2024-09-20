@@ -54,7 +54,7 @@ public class OpenCanvas : MonoBehaviour
         // Ẩn tất cả các canvas
         SetActiveForList(targetCanvas, false);
         SetActiveForList(generalPanel, true);
-        SetActiveForList(btnClose, false);
+        SetActiveForList(btnClose, true);
         SetActiveForList(btnOpen, true);
     }
 
@@ -91,7 +91,9 @@ public class OpenCanvas : MonoBehaviour
         if (IsValidIndex(index, targetCanvas))
             targetCanvas[index].SetActive(true);
 
+
         SetActiveForList(imageTargets, false);
+
         if (IsValidIndex(index, btnOpen))
             btnOpen[index].SetActive(false);
 

@@ -13,6 +13,9 @@ public class TouchScale : MonoBehaviour
     private PointerEventData pointerEventData;
     private EventSystem eventSystem;
 
+    private Canvas originalCanvas;
+    private Canvas tempCanvas;
+
     private void Start()
     {
         initialScale = transform.localScale;
@@ -23,6 +26,9 @@ public class TouchScale : MonoBehaviour
         // Lấy GraphicRaycaster từ Canvas
         raycaster = GetComponentInParent<GraphicRaycaster>();
         eventSystem = EventSystem.current;
+
+        // Lưu trữ Canvas ban đầu của đối tượng
+        originalCanvas = GetComponentInParent<Canvas>();
     }
 
     private void Update()
@@ -53,6 +59,14 @@ public class TouchScale : MonoBehaviour
                     {
                         parentScrollRect.enabled = false;
                     }
+
+                    // Đưa GameObject lên trên tất cả các child khác bằng cách thêm Canvas tạm thời
+                    if (tempCanvas == null)
+                    {
+                        tempCanvas = gameObject.AddComponent<Canvas>();
+                        tempCanvas.overrideSorting = true;
+                        tempCanvas.sortingOrder = 1000; // Giá trị lớn để đảm bảo nằm trên cùng
+                    }
                 }
                 else
                 {
@@ -74,6 +88,12 @@ public class TouchScale : MonoBehaviour
             if (parentScrollRect != null)
             {
                 parentScrollRect.enabled = true;
+            }
+
+            // Reset lại Canvas về trạng thái ban đầu
+            if (tempCanvas != null)
+            {
+                Destroy(tempCanvas);  // Xóa Canvas tạm thời
             }
         }
     }
