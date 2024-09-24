@@ -29,6 +29,7 @@ public class Update_JB_TSD_General_UI : MonoBehaviour
     private void OnEnable()
     {
         module_Canvas = GetComponentInParent<Canvas>();
+        Create_Module_General();
         // Giảm thiểu việc sử dụng Find/GetComponent nhiều lần
         list_Devices_Transform = module_Canvas.transform.Find("List_Devices").GetComponent<RectTransform>();
         jb_TSD_Detail_Transform = module_Canvas.transform.Find("Detail_JB_TSD").GetComponent<RectTransform>();
@@ -41,7 +42,11 @@ public class Update_JB_TSD_General_UI : MonoBehaviour
         jb_TSD_Connection_Name_Prefab = jb_TSD_Connection_Button_Prefab.transform.Find("JB_TSD_Connection_Name").GetComponent<TMP_Text>();
         jb_TSD_Connection_Location_Prefab = jb_TSD_Connection_Horizontal_Group.Find("JB_TSD_Connection_Location").GetComponent<TMP_Text>();
 
-        Create_Module_General();
+        if (module_General_Model.JbConnection == null || module_General_Model.JbConnection.Count == 0)
+        {
+            jb_TSD_Connection_Horizontal_Group.gameObject.SetActive(false);
+
+        }
     }
 
     private void OnDisable()
@@ -120,6 +125,11 @@ public class Update_JB_TSD_General_UI : MonoBehaviour
     public void NavigateJBDetailScreen(string jB_TSD_Connection)
     {
         GlobalVariable.jb_TSD_Title = jB_TSD_Connection; // Name_Location of JB
+        var jobDetails = GlobalVariable.jb_TSD_Title.Split('_'); // EX: JB100_Hầm Cáp MCC
+        GlobalVariable.jb_TSD_Name = jobDetails[0]; // jb_name: JB100
+                                                    // Debug.Log("jb_name: " + jb_name);
+        GlobalVariable.jb_TSD_Location = jobDetails.Length > 1 ? jobDetails[1] : string.Empty; // jb_location: Hầm Cáp MCC
+                                                                                               // Debug.Log("jb_location: " + jb_location);
         if (GlobalVariable.navigate_from_JB_TSD_General)
         {
             jb_TSD_General_Transform.gameObject.SetActive(false);
