@@ -32,7 +32,7 @@ public class Get_All_Devices : MonoBehaviour
                 }
                 else
                 {
-                    Debug.LogError($"Failed to load JSON data from {filePath}: {www.error}");
+                    //   Debug.LogError($"Failed to load JSON data from {filePath}: {www.error}");
                     yield break;
                 }
             }
