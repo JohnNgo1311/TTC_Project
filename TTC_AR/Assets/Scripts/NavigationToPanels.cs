@@ -10,6 +10,7 @@ public class NavigationToPanels : MonoBehaviour
     [SerializeField] private TMP_Text generalModuleTitle;
     [SerializeField] private GameObject[] destinationScreens;
     [SerializeField] private List<Button> navButtons;
+    [SerializeField] private bool isFieldDevice = false;
 
     private Canvas parentCanvas;
 
@@ -68,7 +69,14 @@ public class NavigationToPanels : MonoBehaviour
 
     private string GetModuleTitle(string fullName)
     {
-        return $"Module {fullName.Split('_')[0]}";
+        if (isFieldDevice)
+        {
+            return generalModuleTitle.text; 
+        }
+        else
+        {
+            return $"Module {fullName.Split('_')[0]}";
+        }
     }
 
     public void NavigateNewScreen(int index)

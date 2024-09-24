@@ -47,7 +47,6 @@ public class Dropdown_On_ValueChange : MonoBehaviour
         //     LoadDeviceSprites();
         inputField.onValueChanged.AddListener(OnInputValueChanged);
         inputField.text = GlobalVariable_Search_Devices.devices_Model_By_Grapper[0].code;
-        OnInputValueChanged(inputField.text);
     }
 
     private void CacheUIElements()
