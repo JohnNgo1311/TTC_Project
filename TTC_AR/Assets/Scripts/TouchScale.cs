@@ -12,6 +12,7 @@ public class TouchScale : MonoBehaviour
     private GraphicRaycaster raycaster;
     private PointerEventData pointerEventData;
     private EventSystem eventSystem;
+    private ScreenOrientation lastOrientation;
 
     private Canvas originalCanvas;
     private Canvas tempCanvas;
@@ -33,7 +34,11 @@ public class TouchScale : MonoBehaviour
 
     private void Update()
     {
-        HandleTouchScaling();
+        lastOrientation = Screen.orientation;
+        if (lastOrientation != ScreenOrientation.LandscapeLeft)
+        {
+            HandleTouchScaling();
+        }
     }
 
     private void HandleTouchScaling()
