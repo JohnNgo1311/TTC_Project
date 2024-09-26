@@ -19,7 +19,7 @@ public class RackData_GrapperA  //! Sau này sẽ có RackData_GrapperB, C và l
 {
   public List<Module_General_Model> Rack_1;
   public List<Module_General_Model> Rack_2;
-  //public List<Module_General_Model> Rack_3;
+  public List<Module_General_Model> Rack_3;
   public List<Module_General_Model> Rack_4;
   public List<Module_General_Model> Rack_5;
   public List<Module_General_Model> Rack_6;

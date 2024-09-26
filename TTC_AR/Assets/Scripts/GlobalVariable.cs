@@ -12,7 +12,7 @@ public class GlobalVariable : MonoBehaviour
     public static string jb_TSD_Title = "";
     public static string jb_TSD_Location = "";
     public static string jb_TSD_Name = "";
-
+    public static List<GameObject> activated_iamgeTargets = new List<GameObject>();
     public static bool navigate_from_List_Devices = false;
     public static bool navigate_from_JB_TSD_General = false;
     public static string module_Type_Name = "1794-IB32";

@@ -12,6 +12,8 @@ public class Resize_Gameobject_Function : MonoBehaviour
 {
   public static void Resize_Parent_GameObject(RectTransform contentTransform)
   {
+    LayoutRebuilder.ForceRebuildLayoutImmediate(contentTransform);
+    Canvas.ForceUpdateCanvases();
     float totalHeight = 0f;
     foreach (Transform child in contentTransform.gameObject.transform)
     {

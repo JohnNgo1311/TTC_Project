@@ -19,6 +19,7 @@ public class OpenCanvas : MonoBehaviour
     private List<GameObject> generalPanel;
     private bool isShowCanvas = false;
 
+    private List<GameObject> activated_iamgeTargets = new List<GameObject>();
     void Awake()
     {
         // Sử dụng kiểm tra độ dài trước khi thực hiện để tránh lỗi
@@ -40,8 +41,13 @@ public class OpenCanvas : MonoBehaviour
         {
             btnOpen.Add(imageTargets[i].transform.GetChild(0)?.gameObject);
             tagName.Add(btnOpen[i].tag);
+            if (imageTargets[i].activeSelf)
+            {
+                activated_iamgeTargets.Add(imageTargets[i]);
+            }
         }
     }
+
     private void OnDestroy()
     {
         tagName.Clear();
@@ -60,6 +66,8 @@ public class OpenCanvas : MonoBehaviour
 
     void Update()
     {
+
+        activated_iamgeTargets = GlobalVariable.activated_iamgeTargets;
         if (Input.GetMouseButtonDown(0) || Input.touchCount > 0)
         {
             Vector3 inputPosition = Input.GetMouseButtonDown(0) ? Input.mousePosition : (Vector3)Input.GetTouch(0).position;
@@ -92,7 +100,7 @@ public class OpenCanvas : MonoBehaviour
             targetCanvas[index].SetActive(true);
 
 
-        SetActiveForList(imageTargets, false);
+        SetActiveForList(activated_iamgeTargets, false);
 
         if (IsValidIndex(index, btnOpen))
             btnOpen[index].SetActive(false);
@@ -106,7 +114,7 @@ public class OpenCanvas : MonoBehaviour
         if (IsValidIndex(index, targetCanvas))
             targetCanvas[index].SetActive(false);
 
-        SetActiveForList(imageTargets, true);
+        SetActiveForList(activated_iamgeTargets, true);
         if (IsValidIndex(index, btnClose) && btnClose[index].activeSelf)
             btnClose[index].SetActive(false);
 
