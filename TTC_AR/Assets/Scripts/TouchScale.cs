@@ -8,6 +8,7 @@ public class TouchScale : MonoBehaviour
     private Vector3 initialScale;
     private bool isScaling = false;
     public ScrollRect parentScrollRect;
+    [SerializeField] private ScrollRect objectScrollRect;
 
     private GraphicRaycaster raycaster;
     private PointerEventData pointerEventData;
@@ -19,26 +20,39 @@ public class TouchScale : MonoBehaviour
 
     private void Start()
     {
-        initialScale = transform.localScale;
-
-        // Tìm ScrollRect của đối tượng cha nếu có
-        parentScrollRect = GetComponentInParent<ScrollRect>();
-
-        // Lấy GraphicRaycaster từ Canvas
-        raycaster = GetComponentInParent<GraphicRaycaster>();
-        eventSystem = EventSystem.current;
-
-        // Lưu trữ Canvas ban đầu của đối tượng
-        originalCanvas = GetComponentInParent<Canvas>();
+        InitializeComponents();
     }
 
     private void Update()
     {
-        lastOrientation = Screen.orientation;
-        if (lastOrientation != ScreenOrientation.LandscapeLeft)
+        // Kiểm tra orientation trước khi xử lý scale
+        if (Screen.orientation == ScreenOrientation.LandscapeLeft)
+        {
+            DisableObjectScrollRect();
+
+        }
+        if (Screen.orientation == ScreenOrientation.Portrait)
         {
             HandleTouchScaling();
+            EnableObjectScrollRect();
         }
+    }
+
+    private void InitializeComponents()
+    {
+        initialScale = transform.localScale;
+        // Lấy ScrollRect của đối tượng cha
+        if (parentScrollRect == null)
+            parentScrollRect = GetComponentInParent<ScrollRect>();
+
+        // Lấy GraphicRaycaster và EventSystem từ Canvas
+        if (raycaster == null)
+            raycaster = GetComponentInParent<GraphicRaycaster>();
+        eventSystem = EventSystem.current;
+
+        // Lưu Canvas ban đầu
+        if (originalCanvas == null)
+            originalCanvas = GetComponentInParent<Canvas>();
     }
 
     private void HandleTouchScaling()
@@ -48,59 +62,64 @@ public class TouchScale : MonoBehaviour
             Touch touch0 = Input.GetTouch(0);
             Touch touch1 = Input.GetTouch(1);
 
-            // Kiểm tra nếu cả hai ngón tay đang chạm vào đối tượng này
-            if (IsTouchOverGameObject(touch0) && IsTouchOverGameObject(touch1))
+            if (BothTouchesOverGameObject(touch0, touch1))
             {
-                // Tính toán khoảng cách giữa hai ngón tay
-                float currentTouchDistance = Vector2.Distance(touch0.position, touch1.position);
-
-                if (!isScaling)
-                {
-                    initialTouchDistance = currentTouchDistance;
-                    isScaling = true;
-
-                    // Vô hiệu hóa ScrollView của đối tượng cha khi đang scale
-                    if (parentScrollRect != null)
-                    {
-                        parentScrollRect.enabled = false;
-                    }
-
-                    // Đưa GameObject lên trên tất cả các child khác bằng cách thêm Canvas tạm thời
-                    if (tempCanvas == null)
-                    {
-                        tempCanvas = gameObject.AddComponent<Canvas>();
-                        tempCanvas.overrideSorting = true;
-                        tempCanvas.sortingOrder = 1000; // Giá trị lớn để đảm bảo nằm trên cùng
-                    }
-                }
-                else
-                {
-                    // Tính toán hệ số phóng to/thu nhỏ
-                    float scaleFactor = currentTouchDistance / initialTouchDistance;
-
-                    // Áp dụng việc phóng to/thu nhỏ vào GameObject
-                    transform.localScale = initialScale * scaleFactor;
-                }
+                ProcessScaling(touch0, touch1);
             }
         }
-        else if (Input.touchCount < 2)
+        else
         {
-            // Đặt lại trạng thái khi số ngón tay chạm ít hơn 2
-            isScaling = false;
-            initialScale = transform.localScale;
-
-            // Bật lại ScrollView của đối tượng cha khi không còn scale
-            if (parentScrollRect != null)
-            {
-                parentScrollRect.enabled = true;
-            }
-
-            // Reset lại Canvas về trạng thái ban đầu
-            if (tempCanvas != null)
-            {
-                Destroy(tempCanvas);  // Xóa Canvas tạm thời
-            }
+            ResetScalingState();
         }
+    }
+
+    private void ProcessScaling(Touch touch0, Touch touch1)
+    {
+        float currentTouchDistance = Vector2.Distance(touch0.position, touch1.position);
+
+        if (!isScaling)
+        {
+            BeginScaling(currentTouchDistance);
+        }
+        else
+        {
+            ApplyScaling(currentTouchDistance);
+        }
+    }
+
+    private void BeginScaling(float currentTouchDistance)
+    {
+        initialTouchDistance = currentTouchDistance;
+        isScaling = true;
+
+        // Vô hiệu hóa ScrollRect cha khi đang scale
+        SetParentScrollRectEnabled(false);
+
+        // Thêm Canvas tạm thời để đảm bảo GameObject nằm trên cùng
+        AddTemporaryCanvas();
+    }
+
+    private void ApplyScaling(float currentTouchDistance)
+    {
+        float scaleFactor = currentTouchDistance / initialTouchDistance;
+        transform.localScale = initialScale * scaleFactor;
+    }
+
+    private void ResetScalingState()
+    {
+        isScaling = false;
+        initialScale = transform.localScale;
+
+        // Kích hoạt lại ScrollRect cha
+        SetParentScrollRectEnabled(true);
+
+        // Xóa Canvas tạm thời nếu tồn tại
+        RemoveTemporaryCanvas();
+    }
+
+    private bool BothTouchesOverGameObject(Touch touch0, Touch touch1)
+    {
+        return IsTouchOverGameObject(touch0) && IsTouchOverGameObject(touch1);
     }
 
     private bool IsTouchOverGameObject(Touch touch)
@@ -115,15 +134,48 @@ public class TouchScale : MonoBehaviour
         var results = new System.Collections.Generic.List<RaycastResult>();
         raycaster.Raycast(pointerEventData, results);
 
-        // Kiểm tra nếu có kết quả raycast và đối tượng là chính GameObject hiện tại
-        foreach (RaycastResult result in results)
-        {
-            if (result.gameObject == gameObject)
-            {
-                return true;
-            }
-        }
+        // Kiểm tra nếu đối tượng là chính GameObject hiện tại
+        return results.Exists(result => result.gameObject == gameObject);
+    }
 
-        return false;
+    private void SetParentScrollRectEnabled(bool enabled)
+    {
+        if (parentScrollRect != null)
+        {
+            parentScrollRect.enabled = enabled;
+        }
+    }
+
+    private void AddTemporaryCanvas()
+    {
+        if (tempCanvas == null)
+        {
+            tempCanvas = gameObject.AddComponent<Canvas>();
+            tempCanvas.overrideSorting = true;
+            tempCanvas.sortingOrder = 1000; // Đảm bảo trên cùng
+        }
+    }
+
+    private void RemoveTemporaryCanvas()
+    {
+        if (tempCanvas != null)
+        {
+            Destroy(tempCanvas);
+        }
+    }
+
+    private void DisableObjectScrollRect()
+    {
+        if (objectScrollRect != null)
+        {
+            objectScrollRect.enabled = false;
+        }
+    }
+    private void EnableObjectScrollRect()
+    {
+        if (objectScrollRect != null)
+        {
+            objectScrollRect.enabled = true;
+        }
     }
 }

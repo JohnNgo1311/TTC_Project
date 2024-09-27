@@ -11,22 +11,14 @@ public class Dropdown_On_ValueChange : MonoBehaviour
     public GameObject prefab_Device;
     public TMP_InputField inputField;
     private RectTransform contentTransform;
-    private TMP_Text code_Value_Text;
-    private TMP_Text function_Value_Text;
-    private TMP_Text range_Value_Text;
-    private TMP_Text io_Value_Text;
-    private TMP_Text jb_Connection_Value_Text;
-    private TMP_Text jb_Connection_Location_Text;
-    private Image module_Image;
+    private TMP_Text code_Value_Text, function_Value_Text, range_Value_Text, io_Value_Text, jb_Connection_Value_Text, jb_Connection_Location_Text;
+    private Image module_Image, JB_Location_Image_Prefab, JB_Connection_Wiring_Image_Prefab;
     private GameObject JB_Connection_Group;
-    private Image JB_Location_Image_Prefab;
-    private Image JB_Connection_Wiring_Image_Prefab;
-    //private GameObject JB_Connection_Wiring_Group;
+    private ScrollRect scrollRect;
     private Dictionary<string, Sprite> spriteCache = new Dictionary<string, Sprite>();
     private int pendingSpriteLoads = 0;
-    private List<Image> instantiatedImages = new List<Image>(); // Danh sách lưu trữ các Image đã instantiate
-    //Sciript này sử dụng cho Dropdown_On_ValueChange trong trang PLC Box
-    private ScrollRect scrollRect;
+    private List<Image> instantiatedImages = new List<Image>();
+
     private void Awake()
     {
         if (inputField == null)
@@ -44,7 +36,6 @@ public class Dropdown_On_ValueChange : MonoBehaviour
             UpdateDeviceInformation(GlobalVariable_Search_Devices.devices_Model_By_Grapper[0]);
         }
 
-        //     LoadDeviceSprites();
         inputField.onValueChanged.AddListener(OnInputValueChanged);
         inputField.text = GlobalVariable_Search_Devices.devices_Model_By_Grapper[0].code;
     }
@@ -52,7 +43,6 @@ public class Dropdown_On_ValueChange : MonoBehaviour
     private void CacheUIElements()
     {
         scrollRect = prefab_Device.GetComponent<ScrollRect>();
-
         contentTransform = prefab_Device.transform.Find("Content").GetComponent<RectTransform>();
         code_Value_Text = contentTransform.Find("Device_information/Code_group/Code_value").GetComponent<TMP_Text>();
         function_Value_Text = contentTransform.Find("Device_information/Function_group/Function_value").GetComponent<TMP_Text>();
@@ -62,38 +52,36 @@ public class Dropdown_On_ValueChange : MonoBehaviour
         jb_Connection_Location_Text = contentTransform.Find("JB_Connection_group/JB_Connection_text_group/JB_Connection_location").GetComponent<TMP_Text>();
         module_Image = contentTransform.Find("Module_group/Real_Module_Image").GetComponent<Image>();
         JB_Connection_Group = contentTransform.Find("JB_Connection_group").gameObject;
-        JB_Location_Image_Prefab = JB_Connection_Group.transform.Find("JB_Location_Image").GetComponent<Image>();
-        // JB_Connection_Wiring_Group = contentTransform.Find("JB_Connection_group/JB_Connection_Wiring_Group").gameObject;
+        JB_Location_Image_Prefab = JB_Connection_Group.transform.Find("JB_Location_Image").gameObject.transform.GetChild(0).gameObject.GetComponent<Image>();
         JB_Connection_Wiring_Image_Prefab = JB_Connection_Group.transform.Find("JB_Connection_Wiring").GetComponent<Image>();
     }
 
     private void OnInputValueChanged(string input)
     {
-        var device = GlobalVariable_Search_Devices.devices_Model_By_Grapper
-            .FirstOrDefault(d => d.code == input || d.function == input);
+        var device = GlobalVariable_Search_Devices.devices_Model_By_Grapper.FirstOrDefault(d => d.code == input || d.function == input);
 
         if (device == null)
         {
             ClearWiringGroupAndCache();
             return;
         }
-        UpdateDeviceInformation(device);
-        LoadDeviceSprites();
 
+        UpdateDeviceInformation(device);
+        if (GlobalVariable_Search_Devices.jbName != null)
+        {
+            LoadDeviceSprites();
+        }
     }
 
     private void ClearWiringGroupAndCache()
     {
-        // Xóa tất cả các đối tượng con trong JB_Connection_Wiring_Group
         foreach (Transform child in JB_Connection_Group.transform)
         {
             if (child.gameObject.activeSelf && child.gameObject.name.Contains("JB_Connection_Wiring(Clone)"))
             {
                 Destroy(child.gameObject);
             }
-
         }
-        // Xóa cache sprite
         spriteCache.Clear();
     }
 
@@ -111,20 +99,14 @@ public class Dropdown_On_ValueChange : MonoBehaviour
 
         GlobalVariable_Search_Devices.jbName = parts[0];
         GlobalVariable_Search_Devices.moduleName = device.ioAddress.Substring(0, device.ioAddress.LastIndexOf('.'));
-
     }
 
     private void LoadDeviceSprites()
     {
         ClearWiringGroupAndCache();
 
-        var addressableKeys = new List<string>
-        {
-            "Real_Outdoor_JB_TSD",
-            "GrapperA_Connection_Wiring"
-        };
-
-        addressableKeys.AddRange(Enumerable.Range(1, 6).Select(i => $"GrapperA_Module_Location_Rack{i}"));
+        var addressableKeys = new List<string> { "Real_Outdoor_JB_TSD", "GrapperA_Connection_Wiring" }
+            .Concat(Enumerable.Range(1, 6).Select(i => $"GrapperA_Module_Location_Rack{i}")).ToList();
 
         pendingSpriteLoads = addressableKeys.Count;
 
@@ -132,32 +114,30 @@ public class Dropdown_On_ValueChange : MonoBehaviour
         {
             PreloadSprites(key);
         }
+
         scrollRect.verticalNormalizedPosition = 1f;
     }
 
     private void PreloadSprites(string addressableKey)
     {
         Addressables.LoadAssetsAsync<Sprite>(addressableKey, sprite =>
-         {
-             spriteCache[sprite.name] = sprite;
-         }).Completed += handle =>
+        {
+            spriteCache[sprite.name] = sprite;
+        }).Completed += handle =>
         {
             if (handle.Status == AsyncOperationStatus.Succeeded)
             {
-                pendingSpriteLoads--; // Giảm số lượng tài nguyên đang tải
-                if (pendingSpriteLoads == 0) // Chỉ gọi khi tất cả tài nguyên đã được tải
+                pendingSpriteLoads--;
+                if (pendingSpriteLoads == 0)
                 {
                     var filteredList = spriteCache.Keys
                         .Where(key => key.StartsWith($"{GlobalVariable_Search_Devices.jbName}_") && key.Split('_').Length > 1 && int.TryParse(key.Split('_')[1][0].ToString(), out _))
                         .OrderBy(key => int.Parse(key.Split('_')[1][0].ToString()))
                         .ToList();
+
                     ApplyModuleLocationSprite();
                     ApplySpritesToImages(filteredList);
                 }
-                //Resize_Gameobject_Function.Resize_Parent_GameObject(JB_Connection_Wiring_Group.GetComponent<RectTransform>());
-                //Resize_Gameobject_Function.Resize_Parent_GameObject(JB_Connection_Group.GetComponent<RectTransform>());
-                //Resize_Gameobject_Function.Resize_Parent_GameObject(contentTransform);
-
             }
             else
             {
@@ -171,27 +151,24 @@ public class Dropdown_On_ValueChange : MonoBehaviour
         if (spriteCache.TryGetValue(GlobalVariable_Search_Devices.moduleName, out var moduleSprite))
         {
             module_Image.sprite = moduleSprite;
-
         }
     }
 
     private void ApplySpritesToImages(List<string> filteredList)
     {
         ClearInstantiatedImages();
-        JB_Location_Image_Prefab.transform.gameObject.SetActive(true);
+        JB_Location_Image_Prefab.gameObject.SetActive(true);
 
-        // Apply Sprite cho JB_Location_Image khi số lượng JB > 1 (ví dụ: JB100-JB101)
         if (GlobalVariable_Search_Devices.jbName.Contains("-"))
         {
-            JB_Location_Image_Prefab.transform.gameObject.SetActive(false);
-            string[] jb_name_split = GlobalVariable_Search_Devices.jbName.Split('-');
-            foreach (string jb in jb_name_split)
+            JB_Location_Image_Prefab.gameObject.SetActive(false);
+            foreach (string jb in GlobalVariable_Search_Devices.jbName.Split('-'))
             {
                 CreateAndSetSprite($"{jb.Trim()}_Location");
             }
         }
         else
-        {   // Apply Sprite cho JB_Location_Image khi số lượng JB chỉ có 1
+        {
             SetSprite(JB_Location_Image_Prefab, $"{GlobalVariable_Search_Devices.jbName}_Location");
         }
 
@@ -205,6 +182,7 @@ public class Dropdown_On_ValueChange : MonoBehaviour
                 Resize_Gameobject_Function.Set_NativeSize_For_GameObject(newImage);
             }
         }
+
         JB_Connection_Wiring_Image_Prefab.gameObject.SetActive(false);
     }
 
@@ -214,25 +192,23 @@ public class Dropdown_On_ValueChange : MonoBehaviour
         {
             spriteCache.TryGetValue("JB_TSD_Location_Note", out jbSprite);
         }
+
         imageComponent.sprite = jbSprite;
         Resize_Gameobject_Function.Set_NativeSize_For_GameObject(imageComponent);
-
     }
 
     private void CreateAndSetSprite(string jb_name)
     {
-        Image jb_location_image_new = Instantiate(JB_Location_Image_Prefab, JB_Connection_Group.transform);
-        int index = JB_Location_Image_Prefab.transform.GetSiblingIndex();
-        jb_location_image_new.transform.SetSiblingIndex(index + 1);
-
-        jb_location_image_new.gameObject.SetActive(true);
-        SetSprite(jb_location_image_new, jb_name);
-        instantiatedImages.Add(jb_location_image_new);
+        var jbLocationImage = Instantiate(JB_Location_Image_Prefab, JB_Connection_Group.transform);
+        jbLocationImage.transform.SetSiblingIndex(JB_Location_Image_Prefab.transform.GetSiblingIndex() + 1);
+        jbLocationImage.gameObject.SetActive(true);
+        SetSprite(jbLocationImage, jb_name);
+        instantiatedImages.Add(jbLocationImage);
     }
 
     private void ClearInstantiatedImages()
     {
-        foreach (Image img in instantiatedImages)
+        foreach (var img in instantiatedImages)
         {
             if (img != null)
             {
@@ -242,15 +218,9 @@ public class Dropdown_On_ValueChange : MonoBehaviour
         instantiatedImages.Clear();
     }
 
-    private void OnDisable()
-    {
-        ResetResources();
-    }
+    private void OnDisable() => ResetResources();
 
-    private void OnDestroy()
-    {
-        ResetResources();
-    }
+    private void OnDestroy() => ResetResources();
 
     private void ResetResources()
     {
