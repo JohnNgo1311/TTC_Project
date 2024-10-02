@@ -14,6 +14,8 @@ public class NavScene : MonoBehaviour
 
     void Start()
     {
+        if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+            UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
         for (int i = 0; i < listButton.Count; i++)
         {
             int localIndex = i; // Tạo bản sao cục bộ của i

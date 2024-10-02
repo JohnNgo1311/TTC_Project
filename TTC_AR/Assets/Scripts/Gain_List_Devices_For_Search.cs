@@ -10,7 +10,11 @@ public class Gain_List_Devices_For_Search : MonoBehaviour
 
     private List<GameObject> deviceObjectsPool = new List<GameObject>();
     private int activeDeviceCount = 0;
-
+   private void Start()
+    {
+        if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+            UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
+    }
     private void Awake()
     {
         Debug.Log("Awake_Gain_List_Devices_For_Search");

@@ -27,4 +27,9 @@ public class SettingsMenuItem : MonoBehaviour
     {
         button.onClick.RemoveListener(OnItemClick);
     }
+    void Start()
+    {
+        if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+            UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
+    }
 }

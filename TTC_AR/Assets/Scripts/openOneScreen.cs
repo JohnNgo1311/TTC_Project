@@ -8,6 +8,8 @@ public class OpenOneScreen : MonoBehaviour
     public GameObject screen;
     void Start()
     {
+        if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+            UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
         screen.SetActive(false);
     }
     void Update()

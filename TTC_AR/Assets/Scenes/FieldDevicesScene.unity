@@ -8190,6 +8190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1294133837}
   - component: {fileID: 1294133836}
+  - component: {fileID: 1294133838}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -8232,6 +8233,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1294133838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294133833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caf746bbb690ad74f819893ba8d04621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeoutDuration: 1200
+  timeShowToast: 5
 --- !u!1 &1298111277
 GameObject:
   m_ObjectHideFlags: 0
@@ -18863,6 +18878,7 @@ GameObject:
   - component: {fileID: 1610737024}
   - component: {fileID: 1610737023}
   - component: {fileID: 1610737022}
+  - component: {fileID: 1610737025}
   m_Layer: 0
   m_Name: Canvas_Frame
   m_TagString: Untagged
@@ -18953,6 +18969,25 @@ Canvas:
   m_SortingLayerID: 2033069317
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1610737025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610737020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95fb9c4c25bc9cd468d9f19bea85279c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toastPrefab: {fileID: 1685662170610096501, guid: 9d73b758b6bf26a42b510dbc76d51c74,
+    type: 3}
+  toastParent: {fileID: 1610737021}
+  toastMessageInitial: "Ph\xE1t hi\u1EC7n treo m\xE1y l\xE2u! H\xE3y ch\u1EA1m v\xE0o
+    m\xE0n h\xECnh ho\u1EB7c \u1EE9ng d\u1EE5ng s\u1EBD t\u1EF1 tho\xE1t"
+  showToastInitial: 0
+  toastStatus: failure
 --- !u!1 &1651092234
 GameObject:
   m_ObjectHideFlags: 0

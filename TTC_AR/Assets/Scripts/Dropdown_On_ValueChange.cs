@@ -19,7 +19,6 @@ public class Dropdown_On_ValueChange : MonoBehaviour
     private Dictionary<string, Sprite> spriteCache = new Dictionary<string, Sprite>();
     private int pendingSpriteLoads = 0;
     private List<Image> instantiatedImages = new List<Image>();
-
     private void Awake()
     {
         if (inputField == null)
@@ -35,6 +34,9 @@ public class Dropdown_On_ValueChange : MonoBehaviour
 
     private void Start()
     {
+        if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+            UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
+        Show_Dialog.Instance.ShowToast("loading", "Đang tải dữ liệu...", 3);
         Debug.Log($"Chạy Start");
         // inputField.text = GlobalVariable_Search_Devices.devices_Model_By_Grapper[0].code;
         //  inputField.onValueChanged.Invoke(GlobalVariable_Search_Devices.devices_Model_By_Grapper[0].code); // Gọi sự kiện onValueChanged thủ công

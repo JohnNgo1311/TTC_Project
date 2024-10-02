@@ -24,6 +24,8 @@ public class Update_JB_TSD_General_UI : MonoBehaviour
     [SerializeField] private TMP_Text jb_TSD_Connection_Location_Prefab;
     private void Start()
     {
+        if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+            UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
         Instantiate_JB_TSD_Connection_List();
     }
     private void OnEnable()

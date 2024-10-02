@@ -1,19 +1,23 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 public class Nav_Scene_Back : MonoBehaviour
 {
     public string previousSceneName;
     public string recentSceneName;
     [SerializeField]
     private bool isOrientation = false;
+
+
     void Start()
     {
-
+        if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+            UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
     }
+    void Update()
+    {
+    }
+
     private void Awake()
     {
         if (isOrientation == false)
@@ -42,5 +46,5 @@ public class Nav_Scene_Back : MonoBehaviour
         PlayerPrefs.SetString(recentSceneName, SceneManager.GetActiveScene().name);
     }
 
-    
+
 }

@@ -13,6 +13,11 @@ public class Load_General_Data_From_Rack : MonoBehaviour
     [SerializeField]
     private string filePath;
     //! Scripts này sử dụng để tạo data cho 1 Rack, tương ứng hỗ trợ instantiate List JB Button, xác định Type Module, xác định type Adapter
+    void Start()
+    {
+        if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+            UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
+    }
     private void Awake()
     {
 

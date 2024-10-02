@@ -52,7 +52,8 @@ public class NavigationToPanels : MonoBehaviour
 
     private void Start()
     {
-
+        if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+            UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
     }
 
     private void SetInitialState()

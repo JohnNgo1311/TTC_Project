@@ -9,7 +9,11 @@ using UnityEngine.Networking;
 public class Get_All_Devices : MonoBehaviour
 {
     private string filePath;
-
+    void Start()
+    {
+        if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+            UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
+    }
     private void Awake()
     {
         filePath = Path.Combine(Application.streamingAssetsPath, "All_Devices.json");

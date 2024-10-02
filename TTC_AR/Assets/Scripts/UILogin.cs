@@ -31,6 +31,8 @@ public class UILogin : MonoBehaviour
 
     private void Start()
     {
+        if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+            UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
         loginButton.onClick.AddListener(HandleLogin);
     }
 

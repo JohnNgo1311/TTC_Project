@@ -10,6 +10,11 @@ using UnityEngine.UI;
 [System.Serializable]
 public class Resize_Gameobject_Function : MonoBehaviour
 {
+  void Start()
+  {
+    if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+      UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
+  }
   public static void Resize_Parent_GameObject(RectTransform contentTransform)
   {
     LayoutRebuilder.ForceRebuildLayoutImmediate(contentTransform);

@@ -32,7 +32,11 @@ public class Update_JB_TSD_Detail_UI : MonoBehaviour
     private int pendingSpriteLoad1 = 0;
     private int pendingSpriteLoad2 = 0;
     private List<string> jb_Location_bis_and_non_bis = new List<string>();
-
+    void Start()
+    {
+        if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+            UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
+    }
 
     private void OnEnable()
     {

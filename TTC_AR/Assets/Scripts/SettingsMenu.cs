@@ -22,6 +22,8 @@ public class SettingsMenu : MonoBehaviour
 
     void Start()
     {
+        if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+            UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
         InitializeMenuItems();
         SetupMainButton();
         // mainButtonPosition = mainButton.GetComponent<RectTransform>().anchoredPosition;

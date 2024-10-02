@@ -7,6 +7,11 @@ public class CloseBtnCanvas : MonoBehaviour
     public GameObject btnCanvas;
     public bool isMonitorCanvasOpen = false;
     // Start is called before the first frame update
+    void Start()
+    {
+        if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+            UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
+    }
     void OnEnable()
     {
         btnCanvas.SetActive(false);
@@ -20,4 +25,5 @@ public class CloseBtnCanvas : MonoBehaviour
         }
         else btnCanvas.SetActive(true);
     }
+
 }

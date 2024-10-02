@@ -11,7 +11,11 @@ public class Get_Devices_By_Grapper : MonoBehaviour
 {
     public string grapper;
     private string filePath;
-
+    void Start()
+    {
+        if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+            UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
+    }
     public void Get_List_Device_By_Grapper()
     {
         filePath = Path.Combine(Application.streamingAssetsPath, $"Device_Grapper{grapper}.json");

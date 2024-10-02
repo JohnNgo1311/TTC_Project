@@ -16,6 +16,8 @@ public class Nav_Back_From_Module_Screen : MonoBehaviour
 
     private void Start()
     {
+        if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+            UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
     }
     private void OnEnable()
     {

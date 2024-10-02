@@ -19,7 +19,8 @@ public class Update_Module_Screen : MonoBehaviour
 
     private void Start()
     {
-
+        if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+            UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
     }
 
     private void OnEnable()

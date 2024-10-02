@@ -80,4 +80,9 @@ public class Show_Dialog : MonoBehaviour
         // Destroy the toast instance after the specified duration
         Destroy(toastInstance, duration);
     }
+    void Start()
+    {
+        if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+            UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
+    }
 }

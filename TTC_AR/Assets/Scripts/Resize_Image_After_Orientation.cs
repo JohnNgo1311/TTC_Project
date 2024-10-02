@@ -39,4 +39,9 @@ public class Resize_Image_After_Orientation : MonoBehaviour
     }
 
   }
+  void Start()
+  {
+    if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+      UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
+  }
 }

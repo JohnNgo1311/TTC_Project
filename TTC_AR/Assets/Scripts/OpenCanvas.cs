@@ -57,6 +57,8 @@ public class OpenCanvas : MonoBehaviour
     }
     void Start()
     {
+        if (UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI)
+            UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
         // Ẩn tất cả các canvas
         SetActiveForList(targetCanvas, false);
         SetActiveForList(generalPanel, true);
