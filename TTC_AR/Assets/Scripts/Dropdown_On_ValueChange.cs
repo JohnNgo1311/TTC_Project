@@ -5,6 +5,7 @@ using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.UI;
 using System.Linq;
+using Unity.VisualScripting;
 
 public class Dropdown_On_ValueChange : MonoBehaviour
 {
@@ -26,18 +27,21 @@ public class Dropdown_On_ValueChange : MonoBehaviour
             Debug.LogError("InputField không được gán!");
             return;
         }
+        CacheUIElements();
+        Debug.Log($"Check: +{GlobalVariable_Search_Devices.devices_Model_By_Grapper[0].code}");
+        inputField.onValueChanged.AddListener(OnInputValueChanged);
+        OnInputValueChanged(GlobalVariable_Search_Devices.devices_Model_By_Grapper[0].code);
     }
 
     private void Start()
     {
-        CacheUIElements();
-        if (GlobalVariable_Search_Devices.devices_Model_By_Grapper.Count > 0)
-        {
-            UpdateDeviceInformation(GlobalVariable_Search_Devices.devices_Model_By_Grapper[0]);
-        }
-
-        inputField.onValueChanged.AddListener(OnInputValueChanged);
-        inputField.text = GlobalVariable_Search_Devices.devices_Model_By_Grapper[0].code;
+        Debug.Log($"Chạy Start");
+        // inputField.text = GlobalVariable_Search_Devices.devices_Model_By_Grapper[0].code;
+        //  inputField.onValueChanged.Invoke(GlobalVariable_Search_Devices.devices_Model_By_Grapper[0].code); // Gọi sự kiện onValueChanged thủ công
+        /* if (GlobalVariable_Search_Devices.devices_Model_By_Grapper.Count > 0)
+         {
+             UpdateDeviceInformation(GlobalVariable_Search_Devices.devices_Model_By_Grapper[0]);
+         }*/
     }
 
     private void CacheUIElements()
@@ -52,7 +56,7 @@ public class Dropdown_On_ValueChange : MonoBehaviour
         jb_Connection_Location_Text = contentTransform.Find("JB_Connection_group/JB_Connection_text_group/JB_Connection_location").GetComponent<TMP_Text>();
         module_Image = contentTransform.Find("Module_group/Real_Module_Image").GetComponent<Image>();
         JB_Connection_Group = contentTransform.Find("JB_Connection_group").gameObject;
-        JB_Location_Image_Prefab = JB_Connection_Group.transform.Find("JB_Location_Image").gameObject.transform.GetChild(0).gameObject.GetComponent<Image>();
+        JB_Location_Image_Prefab = JB_Connection_Group.transform.Find("JB_Location_Image").GetComponent<Image>();
         JB_Connection_Wiring_Image_Prefab = JB_Connection_Group.transform.Find("JB_Connection_Wiring").GetComponent<Image>();
     }
 
@@ -63,13 +67,10 @@ public class Dropdown_On_ValueChange : MonoBehaviour
         if (device == null)
         {
             ClearWiringGroupAndCache();
-            return;
         }
-
-        UpdateDeviceInformation(device);
-        if (GlobalVariable_Search_Devices.jbName != null)
+        else
         {
-            LoadDeviceSprites();
+            UpdateDeviceInformation(device);
         }
     }
 
@@ -99,22 +100,42 @@ public class Dropdown_On_ValueChange : MonoBehaviour
 
         GlobalVariable_Search_Devices.jbName = parts[0];
         GlobalVariable_Search_Devices.moduleName = device.ioAddress.Substring(0, device.ioAddress.LastIndexOf('.'));
+
+        if (!string.IsNullOrEmpty(GlobalVariable_Search_Devices.jbName))
+        {
+            LoadDeviceSprites();
+        }
     }
 
     private void LoadDeviceSprites()
     {
         ClearWiringGroupAndCache();
 
-        var addressableKeys = new List<string> { "Real_Outdoor_JB_TSD", "GrapperA_Connection_Wiring" }
-            .Concat(Enumerable.Range(1, 6).Select(i => $"GrapperA_Module_Location_Rack{i}")).ToList();
-
-        pendingSpriteLoads = addressableKeys.Count;
-
-        foreach (var key in addressableKeys)
+        var addressableKeys = new List<string> { "Real_Outdoor_JB_TSD", $"{GlobalVariable_Search_Devices.devices_Model_By_Grapper[0].location}_Connection_Wiring" };
+        if (GlobalVariable_Search_Devices.devices_Model_By_Grapper[0].location == "GrapperA")
         {
-            PreloadSprites(key);
+            for (int i = 1; i <= 6; i++)
+            {
+                addressableKeys.Add($"GrapperA_Module_Location_Rack{i}");
+            }
         }
+        pendingSpriteLoads = addressableKeys.Count;
+        Debug.Log($"addressableyKey.Count: {addressableKeys.Count}");
 
+        Debug.Log($"Pending sprite loads: {pendingSpriteLoads}");
+        if (pendingSpriteLoads > 0)
+        {
+            foreach (var key in addressableKeys)
+            {
+                Debug.Log($"Test: {addressableKeys.Count}");
+                PreloadSprites(key);
+            }
+
+        }
+        else
+        {
+            Debug.LogError("No addressable keys to load.");
+        }
         scrollRect.verticalNormalizedPosition = 1f;
     }
 
@@ -128,6 +149,7 @@ public class Dropdown_On_ValueChange : MonoBehaviour
             if (handle.Status == AsyncOperationStatus.Succeeded)
             {
                 pendingSpriteLoads--;
+                Debug.Log($"Pending sprite loads: {pendingSpriteLoads}");
                 if (pendingSpriteLoads == 0)
                 {
                     var filteredList = spriteCache.Keys
@@ -136,7 +158,10 @@ public class Dropdown_On_ValueChange : MonoBehaviour
                         .ToList();
 
                     ApplyModuleLocationSprite();
-                    ApplySpritesToImages(filteredList);
+                    if (filteredList.Count > 0)
+                    {
+                        ApplySpritesToImages(filteredList);
+                    }
                 }
             }
             else

@@ -11,13 +11,16 @@ public class Resize_Image_After_Orientation : MonoBehaviour
 {
 
   private Image imageComponent;
-  // Biến lưu orientation trước đó
+  // private RectTransform originalRectTransform; // Biến lưu RectTransform ban đầu
+
   private ScreenOrientation lastOrientation;
   void Awake()
   {
     // Lưu orientation khi bắt đầu ứng dụng
+    // originalRectTransform = GetComponent<RectTransform>();
     lastOrientation = Screen.orientation;
     imageComponent = gameObject.GetComponent<Image>();
+
   }
   void Update()
   {
@@ -26,6 +29,9 @@ public class Resize_Image_After_Orientation : MonoBehaviour
     {
       // Orientation đã thay đổi
       Debug.Log("Orientation changed from " + lastOrientation + " to " + Screen.orientation);
+      // Khôi phục vị trí và kích thước ban đầu khi màn hình xoay
+      //   gameObject.GetComponent<RectTransform>().sizeDelta = new Vector2(originalRectTransform.sizeDelta.x, originalRectTransform.sizeDelta.y);
+
       Resize_Gameobject_Function.Set_NativeSize_For_GameObject(imageComponent);
       // Cập nhật orientation hiện tại
       lastOrientation = Screen.orientation;

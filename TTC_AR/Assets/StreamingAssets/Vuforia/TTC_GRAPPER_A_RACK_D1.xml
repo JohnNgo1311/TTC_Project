@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
-    <ImageTarget name="moduled1_" size="1.000000 1.000000" />
-    <ImageTarget name="moduled1" size="1.000000 1.000000" />
+    <ImageTarget name="D10I" size="1.000000 1.000000" />
     <ImageTarget name="D17I" size="1.000000 1.000000" />
     <ImageTarget name="D16I" size="1.000000 1.000000" />
     <ImageTarget name="D15I" size="1.000000 1.000000" />
@@ -10,6 +9,5 @@
     <ImageTarget name="D13I" size="1.000000 1.000000" />
     <ImageTarget name="D12I" size="1.000000 1.000000" />
     <ImageTarget name="D11I" size="1.000000 1.000000" />
-    <ImageTarget name="D10I" size="1.000000 1.000000" />
   </Tracking>
 </QCARConfig>

@@ -35,8 +35,14 @@ public class SearchableDropDown : MonoBehaviour
 
     private void Start()
     {
+        PopulateDropdown(availableOptions);
+
         UpdateUI();
-        inputField.onValueChanged.AddListener(OnInputValueChange);
+        int onValueChangedListenerCount = inputField.onValueChanged.GetPersistentEventCount();
+        if (onValueChangedListenerCount > 0)
+        {
+            inputField.onValueChanged.AddListener(OnInputValueChange);
+        }
         arrowButtonDown.GetComponent<Button>().onClick.AddListener(ToggleDropdown);
         arrowButtonUp.GetComponent<Button>().onClick.AddListener(ToggleDropdown);
     }
@@ -48,13 +54,14 @@ public class SearchableDropDown : MonoBehaviour
             Debug.LogError("Không thể tìm thấy các thành phần cần thiết trong combobox!");
             return;
         }
-        PopulateDropdown(availableOptions);
     }
 
     private void PopulateDropdown(List<string> options)
     {
+
         foreach (var option in options)
-        {   
+        {
+
             var itemObject = Instantiate(itemPrefab, content.transform);
             itemObject.name = option;
             var textComponent = itemObject.GetComponentInChildren<TMP_Text>();
@@ -149,7 +156,7 @@ public class SearchableDropDown : MonoBehaviour
     private void OnItemSelected(string selectedItem)
     {
         inputField.text = selectedItem;
-        OnValueChangedEvt?.Invoke(selectedItem);
+        OnValueChangedEvt?.Invoke(inputField.text);
         scrollRect.gameObject.SetActive(false);
         arrowButtonDown.SetActive(false);
         arrowButtonUp.SetActive(true);
@@ -160,5 +167,11 @@ public class SearchableDropDown : MonoBehaviour
     public void ResetDropDown()
     {
         inputField.text = string.Empty;
+    }
+    private void OnDestroy()
+    {
+        inputField.onValueChanged.RemoveListener(OnInputValueChange);
+        arrowButtonDown.GetComponent<Button>().onClick.RemoveListener(ToggleDropdown);
+        arrowButtonUp.GetComponent<Button>().onClick.RemoveListener(ToggleDropdown);
     }
 }
