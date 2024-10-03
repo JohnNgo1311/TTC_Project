@@ -3455,20 +3455,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexShakeB_Awake_mFA9A180BD1769CC79E63
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VertexShakeB_Awake_mFA9A180BD1769CC79E6325314B5652D605ABE58E_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8059));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8060));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8127));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8128));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8061));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8129));
 		// m_TextComponent = GetComponent<TMP_Text>();
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8062));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8063));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8130));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8131));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0;
 		L_0 = Component_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_m0C4C5268B54C7097888C6B109527A680772EBCB5(__this, Component_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_m0C4C5268B54C7097888C6B109527A680772EBCB5_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8063));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8131));
 		__this->___m_TextComponent_7 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TextComponent_7), (void*)L_0);
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8064));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8132));
 		return;
 	}
 }
@@ -3488,25 +3488,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexShakeB_OnEnable_m4999DF4598174EDA2
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VertexShakeB_OnEnable_m4999DF4598174EDA2A47F4F667B5CE061DF97C21_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8065));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8066));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8133));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8134));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8067));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8135));
 		// TMPro_EventManager.TEXT_CHANGED_EVENT.Add(ON_TEXT_CHANGED);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8068));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8136));
 		il2cpp_codegen_runtime_class_init_inline(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var);
 		FastAction_1_tE50C6A692DF85AB55BE3160B659FA7DF19DFA005* L_0 = ((TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_StaticFields*)il2cpp_codegen_static_fields_for(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var))->___TEXT_CHANGED_EVENT_11;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8069));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8137));
 		Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A* L_1 = (Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A*)il2cpp_codegen_object_new(Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A_il2cpp_TypeInfo_var);
 		NullCheck(L_1);
 		Action_1__ctor_m95478636F075134CA2998E22B214611472600983(L_1, __this, (intptr_t)((void*)VertexShakeB_ON_TEXT_CHANGED_mF8641640C828A9664AE03AF01CB4832E14EF436D_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8069));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8070));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8137));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8138));
 		NullCheck(L_0);
 		FastAction_1_Add_m368726E3508DB2176C4F87A79C0C0CC4816176D6(L_0, L_1, FastAction_1_Add_m368726E3508DB2176C4F87A79C0C0CC4816176D6_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8070));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8138));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8071));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8139));
 		return;
 	}
 }
@@ -3526,25 +3526,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexShakeB_OnDisable_m2FB32CBD277A2714
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VertexShakeB_OnDisable_m2FB32CBD277A271400BF8AF2A35294C09FE9B8E5_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8072));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8073));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8140));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8141));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8074));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8142));
 		// TMPro_EventManager.TEXT_CHANGED_EVENT.Remove(ON_TEXT_CHANGED);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8075));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8143));
 		il2cpp_codegen_runtime_class_init_inline(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var);
 		FastAction_1_tE50C6A692DF85AB55BE3160B659FA7DF19DFA005* L_0 = ((TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_StaticFields*)il2cpp_codegen_static_fields_for(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var))->___TEXT_CHANGED_EVENT_11;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8076));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8144));
 		Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A* L_1 = (Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A*)il2cpp_codegen_object_new(Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A_il2cpp_TypeInfo_var);
 		NullCheck(L_1);
 		Action_1__ctor_m95478636F075134CA2998E22B214611472600983(L_1, __this, (intptr_t)((void*)VertexShakeB_ON_TEXT_CHANGED_mF8641640C828A9664AE03AF01CB4832E14EF436D_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8076));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8077));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8144));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8145));
 		NullCheck(L_0);
 		FastAction_1_Remove_mB29130AC90F5F8967CD89587717469E44E4D186F(L_0, L_1, FastAction_1_Remove_mB29130AC90F5F8967CD89587717469E44E4D186F_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8077));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8145));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8078));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8146));
 		return;
 	}
 }
@@ -3560,22 +3560,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexShakeB_Start_m58786A0944340EF16E02
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VertexShakeB_Start_m58786A0944340EF16E024ADB596C9AB5686C2AF1_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8079));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8080));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8147));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8148));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8081));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8149));
 		// StartCoroutine(AnimateVertexColors());
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8082));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8083));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8150));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8151));
 		RuntimeObject* L_0;
 		L_0 = VertexShakeB_AnimateVertexColors_m06D25FE7F9F3EFF693DDC889BF725F01D0CF2A6F(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8083));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8084));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8151));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8152));
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
 		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8084));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8152));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8085));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8153));
 		return;
 	}
 }
@@ -3595,22 +3595,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexShakeB_ON_TEXT_CHANGED_mF8641640C8
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___obj0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VertexShakeB_ON_TEXT_CHANGED_mF8641640C828A9664AE03AF01CB4832E14EF436D_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8086));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8087));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8154));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8155));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8088));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8156));
 		// if (obj = m_TextComponent)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8089));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8157));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___m_TextComponent_7;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = L_0;
 		___obj0 = L_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8090));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8158));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8090));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8158));
 		V_0 = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8091));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8159));
 		bool L_3 = V_0;
 		if (!L_3)
 		{
@@ -3619,14 +3619,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexShakeB_ON_TEXT_CHANGED_mF8641640C8
 	}
 	{
 		// hasTextChanged = true;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8092));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8160));
 		__this->___hasTextChanged_8 = (bool)1;
 	}
 
 IL_001a:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8093));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8161));
 		return;
 	}
 }
@@ -3665,21 +3665,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexShakeB__ctor_m9D068774503CF8642CC0
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VertexShakeB__ctor_m9D068774503CF8642CC0BAC0E909ECE91E4E2198_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8094));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8095));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8162));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8163));
 	{
 		// public float AngleMultiplier = 1.0f;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8096));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8164));
 		__this->___AngleMultiplier_4 = (1.0f);
 		// public float SpeedMultiplier = 1.0f;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8097));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8165));
 		__this->___SpeedMultiplier_5 = (1.0f);
 		// public float CurveScale = 1.0f;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8098));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8166));
 		__this->___CurveScale_6 = (1.0f);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8099));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8167));
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8099));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8167));
 		return;
 	}
 }
@@ -3752,10 +3752,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnimateVertexColorsU3Ed__10_MoveNext_
 	bool V_10 = false;
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CAnimateVertexColorsU3Ed__10_MoveNext_mDD84A4116FCAAF920F86BA72F890CE0BE76AF348_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8100));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8101));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8168));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8169));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8102));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8170));
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
 		int32_t L_1 = V_0;
@@ -3802,52 +3802,52 @@ IL_0027:
 IL_0029:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8103));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8171));
 		// m_TextComponent.ForceMeshUpdate();
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8104));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8172));
 		VertexShakeB_tA3849618A1BE8DCE150A615F38CE2E247FC6F6C8* L_2 = __this->___U3CU3E4__this_2;
 		NullCheck(L_2);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_3 = L_2->___m_TextComponent_7;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8105));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8173));
 		NullCheck(L_3);
 		VirtualActionInvoker2< bool, bool >::Invoke(101 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, L_3, (bool)0, (bool)0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8105));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8173));
 		// TMP_TextInfo textInfo = m_TextComponent.textInfo;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8106));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8174));
 		VertexShakeB_tA3849618A1BE8DCE150A615F38CE2E247FC6F6C8* L_4 = __this->___U3CU3E4__this_2;
 		NullCheck(L_4);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5 = L_4->___m_TextComponent_7;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8107));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8175));
 		NullCheck(L_5);
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_6;
 		L_6 = TMP_Text_get_textInfo_mA24C606B8EA51436E4AA3B9D6DCDFA7A8995E10E(L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8107));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8175));
 		__this->___U3CtextInfoU3E5__1_3 = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtextInfoU3E5__1_3), (void*)L_6);
 		// Vector3[][] copyOfVertices = new Vector3[0][];
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8108));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8176));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_7 = (Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D*)(Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D*)SZArrayNew(Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D_il2cpp_TypeInfo_var, (uint32_t)0);
 		__this->___U3CcopyOfVerticesU3E5__3_5 = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcopyOfVerticesU3E5__3_5), (void*)L_7);
 		// hasTextChanged = true;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8109));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8177));
 		VertexShakeB_tA3849618A1BE8DCE150A615F38CE2E247FC6F6C8* L_8 = __this->___U3CU3E4__this_2;
 		NullCheck(L_8);
 		L_8->___hasTextChanged_8 = (bool)1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8110));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8178));
 		goto IL_09bb;
 	}
 
 IL_0077:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8111));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8179));
 		// if (hasTextChanged)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8112));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8180));
 		VertexShakeB_tA3849618A1BE8DCE150A615F38CE2E247FC6F6C8* L_9 = __this->___U3CU3E4__this_2;
 		NullCheck(L_9);
 		bool L_10 = L_9->___hasTextChanged_8;
 		V_1 = L_10;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8113));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8181));
 		bool L_11 = V_1;
 		if (!L_11)
 		{
@@ -3855,9 +3855,9 @@ IL_0077:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8114));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8182));
 		// if (copyOfVertices.Length < textInfo.meshInfo.Length)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8115));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8183));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_12 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		NullCheck(L_12);
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_13 = __this->___U3CtextInfoU3E5__1_3;
@@ -3865,7 +3865,7 @@ IL_0077:
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_14 = L_13->___meshInfo_16;
 		NullCheck(L_14);
 		V_2 = (bool)((((int32_t)((int32_t)(((RuntimeArray*)L_12)->max_length))) < ((int32_t)((int32_t)(((RuntimeArray*)L_14)->max_length))))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8116));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8184));
 		bool L_15 = V_2;
 		if (!L_15)
 		{
@@ -3874,7 +3874,7 @@ IL_0077:
 	}
 	{
 		// copyOfVertices = new Vector3[textInfo.meshInfo.Length][];
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8117));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8185));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_16 = __this->___U3CtextInfoU3E5__1_3;
 		NullCheck(L_16);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_17 = L_16->___meshInfo_16;
@@ -3887,17 +3887,17 @@ IL_0077:
 IL_00be:
 	{
 		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8118));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8186));
 		__this->___U3CiU3E5__6_8 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8119));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8187));
 		goto IL_0114;
 	}
 
 IL_00c7:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8120));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8188));
 		// int length = textInfo.meshInfo[i].vertices.Length;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8121));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8189));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_19 = __this->___U3CtextInfoU3E5__1_3;
 		NullCheck(L_19);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_20 = L_19->___meshInfo_16;
@@ -3907,7 +3907,7 @@ IL_00c7:
 		NullCheck(L_22);
 		__this->___U3ClengthU3E5__7_9 = ((int32_t)(((RuntimeArray*)L_22)->max_length));
 		// copyOfVertices[i] = new Vector3[length];
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8122));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8190));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_23 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_24 = __this->___U3CiU3E5__6_8;
 		int32_t L_25 = __this->___U3ClengthU3E5__7_9;
@@ -3915,9 +3915,9 @@ IL_00c7:
 		NullCheck(L_23);
 		ArrayElementTypeCheck (L_23, L_26);
 		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(L_24), (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)L_26);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8123));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8191));
 		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8124));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8192));
 		int32_t L_27 = __this->___U3CiU3E5__6_8;
 		V_3 = L_27;
 		int32_t L_28 = V_3;
@@ -3927,14 +3927,14 @@ IL_00c7:
 IL_0114:
 	{
 		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8125));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8193));
 		int32_t L_29 = __this->___U3CiU3E5__6_8;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_30 = __this->___U3CtextInfoU3E5__1_3;
 		NullCheck(L_30);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_31 = L_30->___meshInfo_16;
 		NullCheck(L_31);
 		V_4 = (bool)((((int32_t)L_29) < ((int32_t)((int32_t)(((RuntimeArray*)L_31)->max_length))))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8126));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8194));
 		bool L_32 = V_4;
 		if (L_32)
 		{
@@ -3943,26 +3943,26 @@ IL_0114:
 	}
 	{
 		// hasTextChanged = false;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8127));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8195));
 		VertexShakeB_tA3849618A1BE8DCE150A615F38CE2E247FC6F6C8* L_33 = __this->___U3CU3E4__this_2;
 		NullCheck(L_33);
 		L_33->___hasTextChanged_8 = (bool)0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8128));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8196));
 	}
 
 IL_013c:
 	{
 		// int characterCount = textInfo.characterCount;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8129));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8197));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_34 = __this->___U3CtextInfoU3E5__1_3;
 		NullCheck(L_34);
 		int32_t L_35 = L_34->___characterCount_3;
 		__this->___U3CcharacterCountU3E5__4_6 = L_35;
 		// if (characterCount == 0)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8130));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8198));
 		int32_t L_36 = __this->___U3CcharacterCountU3E5__4_6;
 		V_5 = (bool)((((int32_t)L_36) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8131));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8199));
 		bool L_37 = V_5;
 		if (!L_37)
 		{
@@ -3970,14 +3970,14 @@ IL_013c:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8132));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8200));
 		// yield return new WaitForSeconds(0.25f);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8133));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8134));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8201));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8202));
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_38 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		NullCheck(L_38);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_38, (0.25f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8134));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8202));
 		__this->___U3CU3E2__current_1 = L_38;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_38);
 		__this->___U3CU3E1__state_0 = 1;
@@ -3986,33 +3986,33 @@ IL_013c:
 
 IL_0176:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8135));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8203));
 		__this->___U3CU3E1__state_0 = (-1);
 		// continue;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8136));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8204));
 		goto IL_09bb;
 	}
 
 IL_0182:
 	{
 		// int lineCount = textInfo.lineCount;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8137));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8205));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_39 = __this->___U3CtextInfoU3E5__1_3;
 		NullCheck(L_39);
 		int32_t L_40 = L_39->___lineCount_8;
 		__this->___U3ClineCountU3E5__5_7 = L_40;
 		// for (int i = 0; i < lineCount; i++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8138));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8206));
 		__this->___U3CiU3E5__8_10 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8139));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8207));
 		goto IL_08ea;
 	}
 
 IL_019f:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8140));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8208));
 		// int first = textInfo.lineInfo[i].firstCharacterIndex;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8141));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8209));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_41 = __this->___U3CtextInfoU3E5__1_3;
 		NullCheck(L_41);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_42 = L_41->___lineInfo_14;
@@ -4021,7 +4021,7 @@ IL_019f:
 		int32_t L_44 = ((L_42)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_43)))->___firstCharacterIndex_5;
 		__this->___U3CfirstU3E5__9_11 = L_44;
 		// int last = textInfo.lineInfo[i].lastCharacterIndex;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8142));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8210));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_45 = __this->___U3CtextInfoU3E5__1_3;
 		NullCheck(L_45);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_46 = L_45->___lineInfo_14;
@@ -4030,7 +4030,7 @@ IL_019f:
 		int32_t L_48 = ((L_46)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_47)))->___lastCharacterIndex_7;
 		__this->___U3ClastU3E5__10_12 = L_48;
 		// Vector3 centerOfLine = (textInfo.characterInfo[first].bottomLeft + textInfo.characterInfo[last].topRight) / 2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8143));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8211));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_49 = __this->___U3CtextInfoU3E5__1_3;
 		NullCheck(L_49);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_50 = L_49->___characterInfo_11;
@@ -4043,39 +4043,39 @@ IL_019f:
 		int32_t L_55 = __this->___U3ClastU3E5__10_12;
 		NullCheck(L_54);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56 = ((L_54)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_55)))->___topRight_21;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8144));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8212));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_57;
 		L_57 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_52, L_56, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8144));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8145));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8212));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8213));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58;
 		L_58 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_57, (2.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8145));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8213));
 		__this->___U3CcenterOfLineU3E5__11_13 = L_58;
 		// Quaternion rotation = Quaternion.Euler(0, 0, Random.Range(-0.25f, 0.25f));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8146));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8147));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8214));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8215));
 		float L_59;
 		L_59 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((-0.25f), (0.25f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8147));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8148));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8215));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8216));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_60;
 		L_60 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), (0.0f), L_59, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8148));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8216));
 		__this->___U3CrotationU3E5__12_14 = L_60;
 		// for (int j = first; j <= last; j++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8149));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8217));
 		int32_t L_61 = __this->___U3CfirstU3E5__9_11;
 		__this->___U3CjU3E5__13_15 = L_61;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8150));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8218));
 		goto IL_08a7;
 	}
 
 IL_0262:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8151));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8219));
 		// if (!textInfo.characterInfo[j].isVisible)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8152));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8220));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_62 = __this->___U3CtextInfoU3E5__1_3;
 		NullCheck(L_62);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_63 = L_62->___characterInfo_11;
@@ -4083,7 +4083,7 @@ IL_0262:
 		NullCheck(L_63);
 		bool L_65 = ((L_63)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_64)))->___isVisible_40;
 		V_6 = (bool)((((int32_t)L_65) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8153));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8221));
 		bool L_66 = V_6;
 		if (!L_66)
 		{
@@ -4092,14 +4092,14 @@ IL_0262:
 	}
 	{
 		// continue;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8154));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8222));
 		goto IL_0897;
 	}
 
 IL_028c:
 	{
 		// int materialIndex = textInfo.characterInfo[j].materialReferenceIndex;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8155));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8223));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_67 = __this->___U3CtextInfoU3E5__1_3;
 		NullCheck(L_67);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_68 = L_67->___characterInfo_11;
@@ -4108,7 +4108,7 @@ IL_028c:
 		int32_t L_70 = ((L_68)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_69)))->___materialReferenceIndex_9;
 		__this->___U3CmaterialIndexU3E5__14_16 = L_70;
 		// int vertexIndex = textInfo.characterInfo[j].vertexIndex;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8156));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8224));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_71 = __this->___U3CtextInfoU3E5__1_3;
 		NullCheck(L_71);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_72 = L_71->___characterInfo_11;
@@ -4117,7 +4117,7 @@ IL_028c:
 		int32_t L_74 = ((L_72)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_73)))->___vertexIndex_14;
 		__this->___U3CvertexIndexU3E5__15_17 = L_74;
 		// Vector3[] sourceVertices = textInfo.meshInfo[materialIndex].vertices;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8157));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8225));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_75 = __this->___U3CtextInfoU3E5__1_3;
 		NullCheck(L_75);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_76 = L_75->___meshInfo_16;
@@ -4127,7 +4127,7 @@ IL_028c:
 		__this->___U3CsourceVerticesU3E5__16_18 = L_78;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsourceVerticesU3E5__16_18), (void*)L_78);
 		// Vector3 charCenter = (sourceVertices[vertexIndex + 0] + sourceVertices[vertexIndex + 2]) / 2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8158));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8226));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_79 = __this->___U3CsourceVerticesU3E5__16_18;
 		int32_t L_80 = __this->___U3CvertexIndexU3E5__15_17;
 		NullCheck(L_79);
@@ -4138,17 +4138,17 @@ IL_028c:
 		NullCheck(L_83);
 		int32_t L_85 = ((int32_t)il2cpp_codegen_add(L_84, 2));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_86 = (L_83)->GetAt(static_cast<il2cpp_array_size_t>(L_85));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8159));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8227));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_87;
 		L_87 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_82, L_86, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8159));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8160));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8227));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8228));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_88;
 		L_88 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_87, (2.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8160));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8228));
 		__this->___U3CcharCenterU3E5__17_19 = L_88;
 		// copyOfVertices[materialIndex][vertexIndex + 0] = sourceVertices[vertexIndex + 0] - charCenter;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8161));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8229));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_89 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_90 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_89);
@@ -4161,14 +4161,14 @@ IL_028c:
 		int32_t L_96 = L_95;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_97 = (L_94)->GetAt(static_cast<il2cpp_array_size_t>(L_96));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_98 = __this->___U3CcharCenterU3E5__17_19;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8162));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8230));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_99;
 		L_99 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_97, L_98, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8162));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8230));
 		NullCheck(L_92);
 		(L_92)->SetAt(static_cast<il2cpp_array_size_t>(L_93), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_99);
 		// copyOfVertices[materialIndex][vertexIndex + 1] = sourceVertices[vertexIndex + 1] - charCenter;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8163));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8231));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_100 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_101 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_100);
@@ -4181,14 +4181,14 @@ IL_028c:
 		int32_t L_107 = ((int32_t)il2cpp_codegen_add(L_106, 1));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_108 = (L_105)->GetAt(static_cast<il2cpp_array_size_t>(L_107));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_109 = __this->___U3CcharCenterU3E5__17_19;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8164));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8232));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_110;
 		L_110 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_108, L_109, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8164));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8232));
 		NullCheck(L_103);
 		(L_103)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_104, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_110);
 		// copyOfVertices[materialIndex][vertexIndex + 2] = sourceVertices[vertexIndex + 2] - charCenter;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8165));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8233));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_111 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_112 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_111);
@@ -4201,14 +4201,14 @@ IL_028c:
 		int32_t L_118 = ((int32_t)il2cpp_codegen_add(L_117, 2));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_119 = (L_116)->GetAt(static_cast<il2cpp_array_size_t>(L_118));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_120 = __this->___U3CcharCenterU3E5__17_19;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8166));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8234));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_121;
 		L_121 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_119, L_120, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8166));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8234));
 		NullCheck(L_114);
 		(L_114)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_115, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_121);
 		// copyOfVertices[materialIndex][vertexIndex + 3] = sourceVertices[vertexIndex + 3] - charCenter;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8167));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8235));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_122 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_123 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_122);
@@ -4221,45 +4221,45 @@ IL_028c:
 		int32_t L_129 = ((int32_t)il2cpp_codegen_add(L_128, 3));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_130 = (L_127)->GetAt(static_cast<il2cpp_array_size_t>(L_129));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_131 = __this->___U3CcharCenterU3E5__17_19;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8168));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8236));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_132;
 		L_132 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_130, L_131, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8168));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8236));
 		NullCheck(L_125);
 		(L_125)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_126, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_132);
 		// float randomScale = Random.Range(0.95f, 1.05f);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8169));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8170));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8237));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8238));
 		float L_133;
 		L_133 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((0.949999988f), (1.04999995f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8170));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8238));
 		__this->___U3CrandomScaleU3E5__18_20 = L_133;
 		// matrix = Matrix4x4.TRS(Vector3.one, Quaternion.identity, Vector3.one * randomScale);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8171));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8172));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8239));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8240));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_134;
 		L_134 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8172));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8173));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8240));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8241));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_135;
 		L_135 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8173));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8174));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8241));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8242));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_136;
 		L_136 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8174));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8242));
 		float L_137 = __this->___U3CrandomScaleU3E5__18_20;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8175));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8243));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_138;
 		L_138 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_136, L_137, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8175));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8176));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8243));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8244));
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_139;
 		L_139 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3(L_134, L_135, L_138, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8176));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8244));
 		__this->___U3CmatrixU3E5__2_4 = L_139;
 		// copyOfVertices[materialIndex][vertexIndex + 0] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 0]);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8177));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8245));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_140 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_141 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_140);
@@ -4276,14 +4276,14 @@ IL_028c:
 		NullCheck(L_149);
 		int32_t L_151 = L_150;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_152 = (L_149)->GetAt(static_cast<il2cpp_array_size_t>(L_151));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8178));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8246));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_153;
 		L_153 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_145, L_152, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8178));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8246));
 		NullCheck(L_143);
 		(L_143)->SetAt(static_cast<il2cpp_array_size_t>(L_144), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_153);
 		// copyOfVertices[materialIndex][vertexIndex + 1] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 1]);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8179));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8247));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_154 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_155 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_154);
@@ -4300,14 +4300,14 @@ IL_028c:
 		NullCheck(L_163);
 		int32_t L_165 = ((int32_t)il2cpp_codegen_add(L_164, 1));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_166 = (L_163)->GetAt(static_cast<il2cpp_array_size_t>(L_165));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8180));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8248));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_167;
 		L_167 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_159, L_166, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8180));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8248));
 		NullCheck(L_157);
 		(L_157)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_158, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_167);
 		// copyOfVertices[materialIndex][vertexIndex + 2] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 2]);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8181));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8249));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_168 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_169 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_168);
@@ -4324,14 +4324,14 @@ IL_028c:
 		NullCheck(L_177);
 		int32_t L_179 = ((int32_t)il2cpp_codegen_add(L_178, 2));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_180 = (L_177)->GetAt(static_cast<il2cpp_array_size_t>(L_179));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8182));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8250));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_181;
 		L_181 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_173, L_180, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8182));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8250));
 		NullCheck(L_171);
 		(L_171)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_172, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_181);
 		// copyOfVertices[materialIndex][vertexIndex + 3] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 3]);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8183));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8251));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_182 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_183 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_182);
@@ -4348,14 +4348,14 @@ IL_028c:
 		NullCheck(L_191);
 		int32_t L_193 = ((int32_t)il2cpp_codegen_add(L_192, 3));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_194 = (L_191)->GetAt(static_cast<il2cpp_array_size_t>(L_193));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8184));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8252));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_195;
 		L_195 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_187, L_194, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8184));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8252));
 		NullCheck(L_185);
 		(L_185)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_186, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_195);
 		// copyOfVertices[materialIndex][vertexIndex + 0] += charCenter;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8185));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8253));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_196 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_197 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_196);
@@ -4366,13 +4366,13 @@ IL_028c:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_201 = ((L_199)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_200)));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_202 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_201);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_203 = __this->___U3CcharCenterU3E5__17_19;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8186));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8254));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_204;
 		L_204 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_202, L_203, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8186));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8254));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_201 = L_204;
 		// copyOfVertices[materialIndex][vertexIndex + 1] += charCenter;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8187));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8255));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_205 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_206 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_205);
@@ -4383,13 +4383,13 @@ IL_028c:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_210 = ((L_208)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_209, 1)))));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_211 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_210);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_212 = __this->___U3CcharCenterU3E5__17_19;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8188));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8256));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_213;
 		L_213 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_211, L_212, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8188));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8256));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_210 = L_213;
 		// copyOfVertices[materialIndex][vertexIndex + 2] += charCenter;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8189));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8257));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_214 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_215 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_214);
@@ -4400,13 +4400,13 @@ IL_028c:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_219 = ((L_217)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_218, 2)))));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_220 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_219);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_221 = __this->___U3CcharCenterU3E5__17_19;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8190));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8258));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_222;
 		L_222 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_220, L_221, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8190));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8258));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_219 = L_222;
 		// copyOfVertices[materialIndex][vertexIndex + 3] += charCenter;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8191));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8259));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_223 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_224 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_223);
@@ -4417,13 +4417,13 @@ IL_028c:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_228 = ((L_226)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_227, 3)))));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_229 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_228);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_230 = __this->___U3CcharCenterU3E5__17_19;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8192));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8260));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_231;
 		L_231 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_229, L_230, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8192));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8260));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_228 = L_231;
 		// copyOfVertices[materialIndex][vertexIndex + 0] -= centerOfLine;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8193));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8261));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_232 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_233 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_232);
@@ -4434,13 +4434,13 @@ IL_028c:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_237 = ((L_235)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_236)));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_238 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_237);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_239 = __this->___U3CcenterOfLineU3E5__11_13;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8194));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8262));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_240;
 		L_240 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_238, L_239, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8194));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8262));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_237 = L_240;
 		// copyOfVertices[materialIndex][vertexIndex + 1] -= centerOfLine;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8195));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8263));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_241 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_242 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_241);
@@ -4451,13 +4451,13 @@ IL_028c:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_246 = ((L_244)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_245, 1)))));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_247 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_246);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_248 = __this->___U3CcenterOfLineU3E5__11_13;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8196));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8264));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_249;
 		L_249 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_247, L_248, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8196));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8264));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_246 = L_249;
 		// copyOfVertices[materialIndex][vertexIndex + 2] -= centerOfLine;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8197));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8265));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_250 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_251 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_250);
@@ -4468,13 +4468,13 @@ IL_028c:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_255 = ((L_253)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_254, 2)))));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_256 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_255);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_257 = __this->___U3CcenterOfLineU3E5__11_13;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8198));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8266));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_258;
 		L_258 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_256, L_257, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8198));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8266));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_255 = L_258;
 		// copyOfVertices[materialIndex][vertexIndex + 3] -= centerOfLine;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8199));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8267));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_259 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_260 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_259);
@@ -4485,29 +4485,29 @@ IL_028c:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_264 = ((L_262)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_263, 3)))));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_265 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_264);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_266 = __this->___U3CcenterOfLineU3E5__11_13;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8200));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8268));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_267;
 		L_267 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_265, L_266, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8200));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8268));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_264 = L_267;
 		// matrix = Matrix4x4.TRS(Vector3.one, rotation, Vector3.one);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8201));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8202));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8269));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8270));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_268;
 		L_268 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8202));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8270));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_269 = __this->___U3CrotationU3E5__12_14;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8203));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8271));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_270;
 		L_270 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8203));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8204));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8271));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8272));
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_271;
 		L_271 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3(L_268, L_269, L_270, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8204));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8272));
 		__this->___U3CmatrixU3E5__2_4 = L_271;
 		// copyOfVertices[materialIndex][vertexIndex + 0] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 0]);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8205));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8273));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_272 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_273 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_272);
@@ -4524,14 +4524,14 @@ IL_028c:
 		NullCheck(L_281);
 		int32_t L_283 = L_282;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_284 = (L_281)->GetAt(static_cast<il2cpp_array_size_t>(L_283));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8206));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8274));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_285;
 		L_285 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_277, L_284, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8206));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8274));
 		NullCheck(L_275);
 		(L_275)->SetAt(static_cast<il2cpp_array_size_t>(L_276), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_285);
 		// copyOfVertices[materialIndex][vertexIndex + 1] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 1]);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8207));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8275));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_286 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_287 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_286);
@@ -4548,14 +4548,14 @@ IL_028c:
 		NullCheck(L_295);
 		int32_t L_297 = ((int32_t)il2cpp_codegen_add(L_296, 1));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_298 = (L_295)->GetAt(static_cast<il2cpp_array_size_t>(L_297));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8208));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8276));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_299;
 		L_299 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_291, L_298, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8208));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8276));
 		NullCheck(L_289);
 		(L_289)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_290, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_299);
 		// copyOfVertices[materialIndex][vertexIndex + 2] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 2]);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8209));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8277));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_300 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_301 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_300);
@@ -4572,14 +4572,14 @@ IL_028c:
 		NullCheck(L_309);
 		int32_t L_311 = ((int32_t)il2cpp_codegen_add(L_310, 2));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_312 = (L_309)->GetAt(static_cast<il2cpp_array_size_t>(L_311));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8210));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8278));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_313;
 		L_313 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_305, L_312, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8210));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8278));
 		NullCheck(L_303);
 		(L_303)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_304, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_313);
 		// copyOfVertices[materialIndex][vertexIndex + 3] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 3]);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8211));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8279));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_314 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_315 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_314);
@@ -4596,14 +4596,14 @@ IL_028c:
 		NullCheck(L_323);
 		int32_t L_325 = ((int32_t)il2cpp_codegen_add(L_324, 3));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_326 = (L_323)->GetAt(static_cast<il2cpp_array_size_t>(L_325));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8212));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8280));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_327;
 		L_327 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_319, L_326, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8212));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8280));
 		NullCheck(L_317);
 		(L_317)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_318, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_327);
 		// copyOfVertices[materialIndex][vertexIndex + 0] += centerOfLine;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8213));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8281));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_328 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_329 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_328);
@@ -4614,13 +4614,13 @@ IL_028c:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_333 = ((L_331)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_332)));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_334 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_333);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_335 = __this->___U3CcenterOfLineU3E5__11_13;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8214));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8282));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_336;
 		L_336 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_334, L_335, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8214));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8282));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_333 = L_336;
 		// copyOfVertices[materialIndex][vertexIndex + 1] += centerOfLine;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8215));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8283));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_337 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_338 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_337);
@@ -4631,13 +4631,13 @@ IL_028c:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_342 = ((L_340)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_341, 1)))));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_343 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_342);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_344 = __this->___U3CcenterOfLineU3E5__11_13;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8216));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8284));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_345;
 		L_345 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_343, L_344, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8216));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8284));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_342 = L_345;
 		// copyOfVertices[materialIndex][vertexIndex + 2] += centerOfLine;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8217));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8285));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_346 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_347 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_346);
@@ -4648,13 +4648,13 @@ IL_028c:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_351 = ((L_349)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_350, 2)))));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_352 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_351);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_353 = __this->___U3CcenterOfLineU3E5__11_13;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8218));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8286));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_354;
 		L_354 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_352, L_353, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8218));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8286));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_351 = L_354;
 		// copyOfVertices[materialIndex][vertexIndex + 3] += centerOfLine;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8219));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8287));
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_355 = __this->___U3CcopyOfVerticesU3E5__3_5;
 		int32_t L_356 = __this->___U3CmaterialIndexU3E5__14_16;
 		NullCheck(L_355);
@@ -4665,12 +4665,12 @@ IL_028c:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_360 = ((L_358)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_359, 3)))));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_361 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_360);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_362 = __this->___U3CcenterOfLineU3E5__11_13;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8220));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8288));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_363;
 		L_363 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_361, L_362, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8220));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8288));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_360 = L_363;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8221));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8289));
 		__this->___U3CsourceVerticesU3E5__16_18 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsourceVerticesU3E5__16_18), (void*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_364 = (&__this->___U3CcharCenterU3E5__17_19);
@@ -4680,7 +4680,7 @@ IL_028c:
 IL_0897:
 	{
 		// for (int j = first; j <= last; j++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8222));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8290));
 		int32_t L_365 = __this->___U3CjU3E5__13_15;
 		V_3 = L_365;
 		int32_t L_366 = V_3;
@@ -4690,11 +4690,11 @@ IL_0897:
 IL_08a7:
 	{
 		// for (int j = first; j <= last; j++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8223));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8291));
 		int32_t L_367 = __this->___U3CjU3E5__13_15;
 		int32_t L_368 = __this->___U3ClastU3E5__10_12;
 		V_7 = (bool)((((int32_t)((((int32_t)L_367) > ((int32_t)L_368))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8224));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8292));
 		bool L_369 = V_7;
 		if (L_369)
 		{
@@ -4702,13 +4702,13 @@ IL_08a7:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8225));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8293));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_370 = (&__this->___U3CcenterOfLineU3E5__11_13);
 		il2cpp_codegen_initobj(L_370, sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_371 = (&__this->___U3CrotationU3E5__12_14);
 		il2cpp_codegen_initobj(L_371, sizeof(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974));
 		// for (int i = 0; i < lineCount; i++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8226));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8294));
 		int32_t L_372 = __this->___U3CiU3E5__8_10;
 		V_3 = L_372;
 		int32_t L_373 = V_3;
@@ -4718,11 +4718,11 @@ IL_08a7:
 IL_08ea:
 	{
 		// for (int i = 0; i < lineCount; i++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8227));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8295));
 		int32_t L_374 = __this->___U3CiU3E5__8_10;
 		int32_t L_375 = __this->___U3ClineCountU3E5__5_7;
 		V_8 = (bool)((((int32_t)L_374) < ((int32_t)L_375))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8228));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8296));
 		bool L_376 = V_8;
 		if (L_376)
 		{
@@ -4731,17 +4731,17 @@ IL_08ea:
 	}
 	{
 		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8229));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8297));
 		__this->___U3CiU3E5__19_21 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8230));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8298));
 		goto IL_097c;
 	}
 
 IL_090a:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8231));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8299));
 		// textInfo.meshInfo[i].mesh.vertices = copyOfVertices[i];
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8232));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8300));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_377 = __this->___U3CtextInfoU3E5__1_3;
 		NullCheck(L_377);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_378 = L_377->___meshInfo_16;
@@ -4753,12 +4753,12 @@ IL_090a:
 		NullCheck(L_381);
 		int32_t L_383 = L_382;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_384 = (L_381)->GetAt(static_cast<il2cpp_array_size_t>(L_383));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8233));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8301));
 		NullCheck(L_380);
 		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_380, L_384, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8233));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8301));
 		// m_TextComponent.UpdateGeometry(textInfo.meshInfo[i].mesh, i);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8234));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8302));
 		VertexShakeB_tA3849618A1BE8DCE150A615F38CE2E247FC6F6C8* L_385 = __this->___U3CU3E4__this_2;
 		NullCheck(L_385);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_386 = L_385->___m_TextComponent_7;
@@ -4769,13 +4769,13 @@ IL_090a:
 		NullCheck(L_388);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_390 = ((L_388)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_389)))->___mesh_4;
 		int32_t L_391 = __this->___U3CiU3E5__19_21;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8235));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8303));
 		NullCheck(L_386);
 		VirtualActionInvoker2< Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*, int32_t >::Invoke(102 /* System.Void TMPro.TMP_Text::UpdateGeometry(UnityEngine.Mesh,System.Int32) */, L_386, L_390, L_391);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8235));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8236));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8303));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8304));
 		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8237));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8305));
 		int32_t L_392 = __this->___U3CiU3E5__19_21;
 		V_3 = L_392;
 		int32_t L_393 = V_3;
@@ -4785,14 +4785,14 @@ IL_090a:
 IL_097c:
 	{
 		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8238));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8306));
 		int32_t L_394 = __this->___U3CiU3E5__19_21;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_395 = __this->___U3CtextInfoU3E5__1_3;
 		NullCheck(L_395);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_396 = L_395->___meshInfo_16;
 		NullCheck(L_396);
 		V_9 = (bool)((((int32_t)L_394) < ((int32_t)((int32_t)(((RuntimeArray*)L_396)->max_length))))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8239));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8307));
 		bool L_397 = V_9;
 		if (L_397)
 		{
@@ -4801,12 +4801,12 @@ IL_097c:
 	}
 	{
 		// yield return new WaitForSeconds(0.1f);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8240));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8241));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8308));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8309));
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_398 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		NullCheck(L_398);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_398, (0.100000001f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8241));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8309));
 		__this->___U3CU3E2__current_1 = L_398;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_398);
 		__this->___U3CU3E1__state_0 = 2;
@@ -4815,15 +4815,15 @@ IL_097c:
 
 IL_09b3:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8242));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8310));
 		__this->___U3CU3E1__state_0 = (-1);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8243));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8311));
 	}
 
 IL_09bb:
 	{
 		// while (true)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8244));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8312));
 		V_10 = (bool)1;
 		goto IL_0077;
 	}
@@ -4899,20 +4899,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_Awake_m29C1DE789B968D726EDD69
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VertexZoom_Awake_m29C1DE789B968D726EDD69F605321A223D47C1A0_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8245));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8246));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8313));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8314));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8247));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8315));
 		// m_TextComponent = GetComponent<TMP_Text>();
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8248));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8249));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8316));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8317));
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0;
 		L_0 = Component_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_m0C4C5268B54C7097888C6B109527A680772EBCB5(__this, Component_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_m0C4C5268B54C7097888C6B109527A680772EBCB5_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8249));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8317));
 		__this->___m_TextComponent_7 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TextComponent_7), (void*)L_0);
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8250));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8318));
 		return;
 	}
 }
@@ -4932,25 +4932,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_OnEnable_mE3719F01B6A85900669
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VertexZoom_OnEnable_mE3719F01B6A8590066988F425F8A63103B5A7B47_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8251));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8252));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8319));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8320));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8253));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8321));
 		// TMPro_EventManager.TEXT_CHANGED_EVENT.Add(ON_TEXT_CHANGED);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8254));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8322));
 		il2cpp_codegen_runtime_class_init_inline(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var);
 		FastAction_1_tE50C6A692DF85AB55BE3160B659FA7DF19DFA005* L_0 = ((TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_StaticFields*)il2cpp_codegen_static_fields_for(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var))->___TEXT_CHANGED_EVENT_11;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8255));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8323));
 		Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A* L_1 = (Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A*)il2cpp_codegen_object_new(Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A_il2cpp_TypeInfo_var);
 		NullCheck(L_1);
 		Action_1__ctor_m95478636F075134CA2998E22B214611472600983(L_1, __this, (intptr_t)((void*)VertexZoom_ON_TEXT_CHANGED_mFF049D0455A7DD19D6BDACBEEB737B4AAE32DDA7_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8255));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8256));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8323));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8324));
 		NullCheck(L_0);
 		FastAction_1_Add_m368726E3508DB2176C4F87A79C0C0CC4816176D6(L_0, L_1, FastAction_1_Add_m368726E3508DB2176C4F87A79C0C0CC4816176D6_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8256));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8324));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8257));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8325));
 		return;
 	}
 }
@@ -4970,25 +4970,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_OnDisable_mBB91C9EFA049395743
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VertexZoom_OnDisable_mBB91C9EFA049395743D27358A427BB2B05850B47_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8258));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8259));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8326));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8327));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8260));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8328));
 		// TMPro_EventManager.TEXT_CHANGED_EVENT.Remove(ON_TEXT_CHANGED);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8261));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8329));
 		il2cpp_codegen_runtime_class_init_inline(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var);
 		FastAction_1_tE50C6A692DF85AB55BE3160B659FA7DF19DFA005* L_0 = ((TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_StaticFields*)il2cpp_codegen_static_fields_for(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var))->___TEXT_CHANGED_EVENT_11;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8262));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8330));
 		Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A* L_1 = (Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A*)il2cpp_codegen_object_new(Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A_il2cpp_TypeInfo_var);
 		NullCheck(L_1);
 		Action_1__ctor_m95478636F075134CA2998E22B214611472600983(L_1, __this, (intptr_t)((void*)VertexZoom_ON_TEXT_CHANGED_mFF049D0455A7DD19D6BDACBEEB737B4AAE32DDA7_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8262));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8263));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8330));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8331));
 		NullCheck(L_0);
 		FastAction_1_Remove_mB29130AC90F5F8967CD89587717469E44E4D186F(L_0, L_1, FastAction_1_Remove_mB29130AC90F5F8967CD89587717469E44E4D186F_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8263));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8331));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8264));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8332));
 		return;
 	}
 }
@@ -5004,22 +5004,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_Start_mB03D03148C98EBC9117D69
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VertexZoom_Start_mB03D03148C98EBC9117D69510D24F21978546FCB_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8265));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8266));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8333));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8334));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8267));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8335));
 		// StartCoroutine(AnimateVertexColors());
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8268));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8269));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8336));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8337));
 		RuntimeObject* L_0;
 		L_0 = VertexZoom_AnimateVertexColors_m632BD9DC8FB193AF2D5B540524B11AF139FDF5F0(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8269));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8270));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8337));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8338));
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
 		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8270));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8338));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8271));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8339));
 		return;
 	}
 }
@@ -5039,21 +5039,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_ON_TEXT_CHANGED_mFF049D0455A7
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___obj0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VertexZoom_ON_TEXT_CHANGED_mFF049D0455A7DD19D6BDACBEEB737B4AAE32DDA7_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8272));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8273));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8340));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8341));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8274));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8342));
 		// if (obj == m_TextComponent)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8275));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8343));
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = ___obj0;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___m_TextComponent_7;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8276));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8344));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8276));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8344));
 		V_0 = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8277));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8345));
 		bool L_3 = V_0;
 		if (!L_3)
 		{
@@ -5062,14 +5062,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_ON_TEXT_CHANGED_mFF049D0455A7
 	}
 	{
 		// hasTextChanged = true;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8278));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8346));
 		__this->___hasTextChanged_8 = (bool)1;
 	}
 
 IL_0018:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8279));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8347));
 		return;
 	}
 }
@@ -5108,21 +5108,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom__ctor_m454AF80ACB5C555BCB4B5E
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VertexZoom__ctor_m454AF80ACB5C555BCB4B5E658A22B5A4FCC39422_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8280));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8281));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8348));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8349));
 	{
 		// public float AngleMultiplier = 1.0f;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8282));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8350));
 		__this->___AngleMultiplier_4 = (1.0f);
 		// public float SpeedMultiplier = 1.0f;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8283));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8351));
 		__this->___SpeedMultiplier_5 = (1.0f);
 		// public float CurveScale = 1.0f;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8284));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8352));
 		__this->___CurveScale_6 = (1.0f);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8285));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8353));
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8285));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8353));
 		return;
 	}
 }
@@ -5166,30 +5166,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass10_0_U3CAnimateV
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___a0), (&___b1));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec__DisplayClass10_0_U3CAnimateVertexColorsU3Eb__0_m8E51A05E012CCFA439DCF10A8B5C4FA196E4344A_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8286));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8287));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8354));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8355));
 	{
 		// scaleSortingOrder.Sort((a, b) => modifiedCharScale[a].CompareTo(modifiedCharScale[b]));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8288));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8356));
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_0 = __this->___modifiedCharScale_0;
 		int32_t L_1 = ___a0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8289));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8357));
 		NullCheck(L_0);
 		float L_2;
 		L_2 = List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50(L_0, L_1, List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8289));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8357));
 		V_0 = L_2;
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_3 = __this->___modifiedCharScale_0;
 		int32_t L_4 = ___b1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8290));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8358));
 		NullCheck(L_3);
 		float L_5;
 		L_5 = List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50(L_3, L_4, List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8290));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8291));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8358));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8359));
 		int32_t L_6;
 		L_6 = Single_CompareTo_m06F7868162EB392D3E99103D1A0BD27463C9E66F((&V_0), L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8291));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8359));
 		return L_6;
 	}
 }
@@ -5272,14 +5272,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnimateVertexColorsU3Ed__10_MoveNext_
 	bool V_8 = false;
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CAnimateVertexColorsU3Ed__10_MoveNext_m6DBC52A95A92A54A1801DC4CEE548FA568251D5E_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8292));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8293));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8360));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8361));
 	Comparison_1_tB7DE1436CB53924C2FC41FF926D074C1ACC14D89* G_B21_0 = NULL;
 	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* G_B21_1 = NULL;
 	Comparison_1_tB7DE1436CB53924C2FC41FF926D074C1ACC14D89* G_B20_0 = NULL;
 	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* G_B20_1 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8294));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8362));
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
 		int32_t L_1 = V_0;
@@ -5326,85 +5326,85 @@ IL_0027:
 IL_0029:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8295));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8296));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8363));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8364));
 		U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* L_2 = (U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
 		U3CU3Ec__DisplayClass10_0__ctor_m8C69A89B34AA3D16243E69F1E0015856C791CC8A(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8296));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8364));
 		__this->___U3CU3E8__1_3 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1_3), (void*)L_2);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8297));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8365));
 		// m_TextComponent.ForceMeshUpdate();
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8298));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8366));
 		VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* L_3 = __this->___U3CU3E4__this_2;
 		NullCheck(L_3);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_4 = L_3->___m_TextComponent_7;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8299));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8367));
 		NullCheck(L_4);
 		VirtualActionInvoker2< bool, bool >::Invoke(101 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, L_4, (bool)0, (bool)0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8299));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8367));
 		// TMP_TextInfo textInfo = m_TextComponent.textInfo;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8300));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8368));
 		VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* L_5 = __this->___U3CU3E4__this_2;
 		NullCheck(L_5);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_6 = L_5->___m_TextComponent_7;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8301));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8369));
 		NullCheck(L_6);
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_7;
 		L_7 = TMP_Text_get_textInfo_mA24C606B8EA51436E4AA3B9D6DCDFA7A8995E10E(L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8301));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8369));
 		__this->___U3CtextInfoU3E5__2_4 = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtextInfoU3E5__2_4), (void*)L_7);
 		// TMP_MeshInfo[] cachedMeshInfoVertexData = textInfo.CopyMeshInfoVertexData();
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8302));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8370));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_8 = __this->___U3CtextInfoU3E5__2_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8303));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8371));
 		NullCheck(L_8);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_9;
 		L_9 = TMP_TextInfo_CopyMeshInfoVertexData_mF66E2F8821470E68D95FEB53D456CFA86241C0CA(L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8303));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8371));
 		__this->___U3CcachedMeshInfoVertexDataU3E5__4_6 = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcachedMeshInfoVertexDataU3E5__4_6), (void*)L_9);
 		// List<float> modifiedCharScale = new List<float>();
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8304));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8372));
 		U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* L_10 = __this->___U3CU3E8__1_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8305));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8373));
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_11 = (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*)il2cpp_codegen_object_new(List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918_il2cpp_TypeInfo_var);
 		NullCheck(L_11);
 		List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802(L_11, List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8305));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8373));
 		NullCheck(L_10);
 		L_10->___modifiedCharScale_0 = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&L_10->___modifiedCharScale_0), (void*)L_11);
 		// List<int> scaleSortingOrder = new List<int>();
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8306));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8307));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8374));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8375));
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_12 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
 		NullCheck(L_12);
 		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_12, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8307));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8375));
 		__this->___U3CscaleSortingOrderU3E5__5_7 = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CscaleSortingOrderU3E5__5_7), (void*)L_12);
 		// hasTextChanged = true;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8308));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8376));
 		VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* L_13 = __this->___U3CU3E4__this_2;
 		NullCheck(L_13);
 		L_13->___hasTextChanged_8 = (bool)1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8309));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8377));
 		goto IL_089d;
 	}
 
 IL_00a2:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8310));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8378));
 		// if (hasTextChanged)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8311));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8379));
 		VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* L_14 = __this->___U3CU3E4__this_2;
 		NullCheck(L_14);
 		bool L_15 = L_14->___hasTextChanged_8;
 		V_1 = L_15;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8312));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8380));
 		bool L_16 = V_1;
 		if (!L_16)
 		{
@@ -5412,38 +5412,38 @@ IL_00a2:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8313));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8381));
 		// cachedMeshInfoVertexData = textInfo.CopyMeshInfoVertexData();
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8314));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8382));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_17 = __this->___U3CtextInfoU3E5__2_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8315));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8383));
 		NullCheck(L_17);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_18;
 		L_18 = TMP_TextInfo_CopyMeshInfoVertexData_mF66E2F8821470E68D95FEB53D456CFA86241C0CA(L_17, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8315));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8383));
 		__this->___U3CcachedMeshInfoVertexDataU3E5__4_6 = L_18;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcachedMeshInfoVertexDataU3E5__4_6), (void*)L_18);
 		// hasTextChanged = false;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8316));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8384));
 		VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* L_19 = __this->___U3CU3E4__this_2;
 		NullCheck(L_19);
 		L_19->___hasTextChanged_8 = (bool)0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8317));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8385));
 	}
 
 IL_00d1:
 	{
 		// int characterCount = textInfo.characterCount;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8318));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8386));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_20 = __this->___U3CtextInfoU3E5__2_4;
 		NullCheck(L_20);
 		int32_t L_21 = L_20->___characterCount_3;
 		__this->___U3CcharacterCountU3E5__6_8 = L_21;
 		// if (characterCount == 0)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8319));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8387));
 		int32_t L_22 = __this->___U3CcharacterCountU3E5__6_8;
 		V_2 = (bool)((((int32_t)L_22) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8320));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8388));
 		bool L_23 = V_2;
 		if (!L_23)
 		{
@@ -5451,14 +5451,14 @@ IL_00d1:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8321));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8389));
 		// yield return new WaitForSeconds(0.25f);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8322));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8323));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8390));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8391));
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_24 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		NullCheck(L_24);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_24, (0.25f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8323));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8391));
 		__this->___U3CU3E2__current_1 = L_24;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_24);
 		__this->___U3CU3E1__state_0 = 1;
@@ -5467,43 +5467,43 @@ IL_00d1:
 
 IL_0109:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8324));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8392));
 		__this->___U3CU3E1__state_0 = (-1);
 		// continue;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8325));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8393));
 		goto IL_089d;
 	}
 
 IL_0115:
 	{
 		// modifiedCharScale.Clear();
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8326));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8394));
 		U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* L_25 = __this->___U3CU3E8__1_3;
 		NullCheck(L_25);
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_26 = L_25->___modifiedCharScale_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8327));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8395));
 		NullCheck(L_26);
 		List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_inline(L_26, List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8327));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8395));
 		// scaleSortingOrder.Clear();
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8328));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8396));
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_27 = __this->___U3CscaleSortingOrderU3E5__5_7;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8329));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8397));
 		NullCheck(L_27);
 		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_27, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8329));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8397));
 		// for (int i = 0; i < characterCount; i++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8330));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8398));
 		__this->___U3CiU3E5__7_9 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8331));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8399));
 		goto IL_06e3;
 	}
 
 IL_013e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8332));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8400));
 		// TMP_CharacterInfo charInfo = textInfo.characterInfo[i];
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8333));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8401));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_28 = __this->___U3CtextInfoU3E5__2_4;
 		NullCheck(L_28);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_29 = L_28->___characterInfo_11;
@@ -5523,11 +5523,11 @@ IL_013e:
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CcharInfoU3E5__8_10))->___material_8), (void*)NULL);
 		#endif
 		// if (!charInfo.isVisible)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8334));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8402));
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8* L_33 = (&__this->___U3CcharInfoU3E5__8_10);
 		bool L_34 = L_33->___isVisible_40;
 		V_3 = (bool)((((int32_t)L_34) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8335));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8403));
 		bool L_35 = V_3;
 		if (!L_35)
 		{
@@ -5536,14 +5536,14 @@ IL_013e:
 	}
 	{
 		// continue;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8336));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8404));
 		goto IL_06d1;
 	}
 
 IL_0172:
 	{
 		// int materialIndex = textInfo.characterInfo[i].materialReferenceIndex;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8337));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8405));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_36 = __this->___U3CtextInfoU3E5__2_4;
 		NullCheck(L_36);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_37 = L_36->___characterInfo_11;
@@ -5552,7 +5552,7 @@ IL_0172:
 		int32_t L_39 = ((L_37)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_38)))->___materialReferenceIndex_9;
 		__this->___U3CmaterialIndexU3E5__9_11 = L_39;
 		// int vertexIndex = textInfo.characterInfo[i].vertexIndex;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8338));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8406));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_40 = __this->___U3CtextInfoU3E5__2_4;
 		NullCheck(L_40);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_41 = L_40->___characterInfo_11;
@@ -5561,7 +5561,7 @@ IL_0172:
 		int32_t L_43 = ((L_41)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_42)))->___vertexIndex_14;
 		__this->___U3CvertexIndexU3E5__10_12 = L_43;
 		// Vector3[] sourceVertices = cachedMeshInfoVertexData[materialIndex].vertices;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8339));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8407));
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_44 = __this->___U3CcachedMeshInfoVertexDataU3E5__4_6;
 		int32_t L_45 = __this->___U3CmaterialIndexU3E5__9_11;
 		NullCheck(L_44);
@@ -5569,7 +5569,7 @@ IL_0172:
 		__this->___U3CsourceVerticesU3E5__11_13 = L_46;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsourceVerticesU3E5__11_13), (void*)L_46);
 		// Vector2 charMidBasline = (sourceVertices[vertexIndex + 0] + sourceVertices[vertexIndex + 2]) / 2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8340));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8408));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_47 = __this->___U3CsourceVerticesU3E5__11_13;
 		int32_t L_48 = __this->___U3CvertexIndexU3E5__10_12;
 		NullCheck(L_47);
@@ -5580,29 +5580,29 @@ IL_0172:
 		NullCheck(L_51);
 		int32_t L_53 = ((int32_t)il2cpp_codegen_add(L_52, 2));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54 = (L_51)->GetAt(static_cast<il2cpp_array_size_t>(L_53));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8341));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8409));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55;
 		L_55 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_50, L_54, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8341));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8342));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8409));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8410));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56;
 		L_56 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_55, (2.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8342));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8343));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8410));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8411));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_57;
 		L_57 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_56, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8343));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8411));
 		__this->___U3CcharMidBaslineU3E5__12_14 = L_57;
 		// Vector3 offset = charMidBasline;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8344));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8412));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_58 = __this->___U3CcharMidBaslineU3E5__12_14;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8345));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8413));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_59;
 		L_59 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_58, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8345));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8413));
 		__this->___U3CoffsetU3E5__13_15 = L_59;
 		// Vector3[] destinationVertices = textInfo.meshInfo[materialIndex].vertices;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8346));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8414));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_60 = __this->___U3CtextInfoU3E5__2_4;
 		NullCheck(L_60);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_61 = L_60->___meshInfo_16;
@@ -5612,7 +5612,7 @@ IL_0172:
 		__this->___U3CdestinationVerticesU3E5__14_16 = L_63;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdestinationVerticesU3E5__14_16), (void*)L_63);
 		// destinationVertices[vertexIndex + 0] = sourceVertices[vertexIndex + 0] - offset;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8347));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8415));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_64 = __this->___U3CdestinationVerticesU3E5__14_16;
 		int32_t L_65 = __this->___U3CvertexIndexU3E5__10_12;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_66 = __this->___U3CsourceVerticesU3E5__11_13;
@@ -5621,14 +5621,14 @@ IL_0172:
 		int32_t L_68 = L_67;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_69 = (L_66)->GetAt(static_cast<il2cpp_array_size_t>(L_68));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_70 = __this->___U3CoffsetU3E5__13_15;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8348));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8416));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_71;
 		L_71 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_69, L_70, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8348));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8416));
 		NullCheck(L_64);
 		(L_64)->SetAt(static_cast<il2cpp_array_size_t>(L_65), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_71);
 		// destinationVertices[vertexIndex + 1] = sourceVertices[vertexIndex + 1] - offset;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8349));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8417));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_72 = __this->___U3CdestinationVerticesU3E5__14_16;
 		int32_t L_73 = __this->___U3CvertexIndexU3E5__10_12;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_74 = __this->___U3CsourceVerticesU3E5__11_13;
@@ -5637,14 +5637,14 @@ IL_0172:
 		int32_t L_76 = ((int32_t)il2cpp_codegen_add(L_75, 1));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_77 = (L_74)->GetAt(static_cast<il2cpp_array_size_t>(L_76));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_78 = __this->___U3CoffsetU3E5__13_15;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8350));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8418));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_79;
 		L_79 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_77, L_78, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8350));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8418));
 		NullCheck(L_72);
 		(L_72)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_73, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_79);
 		// destinationVertices[vertexIndex + 2] = sourceVertices[vertexIndex + 2] - offset;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8351));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8419));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_80 = __this->___U3CdestinationVerticesU3E5__14_16;
 		int32_t L_81 = __this->___U3CvertexIndexU3E5__10_12;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_82 = __this->___U3CsourceVerticesU3E5__11_13;
@@ -5653,14 +5653,14 @@ IL_0172:
 		int32_t L_84 = ((int32_t)il2cpp_codegen_add(L_83, 2));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_85 = (L_82)->GetAt(static_cast<il2cpp_array_size_t>(L_84));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_86 = __this->___U3CoffsetU3E5__13_15;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8352));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8420));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_87;
 		L_87 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_85, L_86, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8352));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8420));
 		NullCheck(L_80);
 		(L_80)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_81, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_87);
 		// destinationVertices[vertexIndex + 3] = sourceVertices[vertexIndex + 3] - offset;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8353));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8421));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_88 = __this->___U3CdestinationVerticesU3E5__14_16;
 		int32_t L_89 = __this->___U3CvertexIndexU3E5__10_12;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_90 = __this->___U3CsourceVerticesU3E5__11_13;
@@ -5669,71 +5669,71 @@ IL_0172:
 		int32_t L_92 = ((int32_t)il2cpp_codegen_add(L_91, 3));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_93 = (L_90)->GetAt(static_cast<il2cpp_array_size_t>(L_92));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_94 = __this->___U3CoffsetU3E5__13_15;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8354));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8422));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_95;
 		L_95 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_93, L_94, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8354));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8422));
 		NullCheck(L_88);
 		(L_88)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_89, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_95);
 		// float randomScale = Random.Range(1f, 1.5f);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8355));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8356));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8423));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8424));
 		float L_96;
 		L_96 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((1.0f), (1.5f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8356));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8424));
 		__this->___U3CrandomScaleU3E5__15_17 = L_96;
 		// modifiedCharScale.Add(randomScale);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8357));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8425));
 		U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* L_97 = __this->___U3CU3E8__1_3;
 		NullCheck(L_97);
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_98 = L_97->___modifiedCharScale_0;
 		float L_99 = __this->___U3CrandomScaleU3E5__15_17;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8358));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8426));
 		NullCheck(L_98);
 		List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_inline(L_98, L_99, List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8358));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8426));
 		// scaleSortingOrder.Add(modifiedCharScale.Count - 1);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8359));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8427));
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_100 = __this->___U3CscaleSortingOrderU3E5__5_7;
 		U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* L_101 = __this->___U3CU3E8__1_3;
 		NullCheck(L_101);
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_102 = L_101->___modifiedCharScale_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8360));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8428));
 		NullCheck(L_102);
 		int32_t L_103;
 		L_103 = List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_inline(L_102, List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8360));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8361));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8428));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8429));
 		NullCheck(L_100);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_100, ((int32_t)il2cpp_codegen_subtract(L_103, 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8361));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8429));
 		// matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, Vector3.one * randomScale);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8362));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8363));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8430));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8431));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_104;
 		memset((&L_104), 0, sizeof(L_104));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_104), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8363));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8364));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8431));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8432));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_105;
 		L_105 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8364));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8365));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8432));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8433));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_106;
 		L_106 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8365));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8433));
 		float L_107 = __this->___U3CrandomScaleU3E5__15_17;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8366));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8434));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_108;
 		L_108 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_106, L_107, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8366));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8367));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8434));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8435));
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_109;
 		L_109 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3(L_104, L_105, L_108, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8367));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8435));
 		__this->___U3CmatrixU3E5__3_5 = L_109;
 		// destinationVertices[vertexIndex + 0] = matrix.MultiplyPoint3x4(destinationVertices[vertexIndex + 0]);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8368));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8436));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_110 = __this->___U3CdestinationVerticesU3E5__14_16;
 		int32_t L_111 = __this->___U3CvertexIndexU3E5__10_12;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_112 = (&__this->___U3CmatrixU3E5__3_5);
@@ -5742,14 +5742,14 @@ IL_0172:
 		NullCheck(L_113);
 		int32_t L_115 = L_114;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_116 = (L_113)->GetAt(static_cast<il2cpp_array_size_t>(L_115));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8369));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8437));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_117;
 		L_117 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_112, L_116, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8369));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8437));
 		NullCheck(L_110);
 		(L_110)->SetAt(static_cast<il2cpp_array_size_t>(L_111), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_117);
 		// destinationVertices[vertexIndex + 1] = matrix.MultiplyPoint3x4(destinationVertices[vertexIndex + 1]);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8370));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8438));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_118 = __this->___U3CdestinationVerticesU3E5__14_16;
 		int32_t L_119 = __this->___U3CvertexIndexU3E5__10_12;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_120 = (&__this->___U3CmatrixU3E5__3_5);
@@ -5758,14 +5758,14 @@ IL_0172:
 		NullCheck(L_121);
 		int32_t L_123 = ((int32_t)il2cpp_codegen_add(L_122, 1));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_124 = (L_121)->GetAt(static_cast<il2cpp_array_size_t>(L_123));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8371));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8439));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_125;
 		L_125 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_120, L_124, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8371));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8439));
 		NullCheck(L_118);
 		(L_118)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_119, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_125);
 		// destinationVertices[vertexIndex + 2] = matrix.MultiplyPoint3x4(destinationVertices[vertexIndex + 2]);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8372));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8440));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_126 = __this->___U3CdestinationVerticesU3E5__14_16;
 		int32_t L_127 = __this->___U3CvertexIndexU3E5__10_12;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_128 = (&__this->___U3CmatrixU3E5__3_5);
@@ -5774,14 +5774,14 @@ IL_0172:
 		NullCheck(L_129);
 		int32_t L_131 = ((int32_t)il2cpp_codegen_add(L_130, 2));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_132 = (L_129)->GetAt(static_cast<il2cpp_array_size_t>(L_131));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8373));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8441));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_133;
 		L_133 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_128, L_132, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8373));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8441));
 		NullCheck(L_126);
 		(L_126)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_127, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_133);
 		// destinationVertices[vertexIndex + 3] = matrix.MultiplyPoint3x4(destinationVertices[vertexIndex + 3]);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8374));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8442));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_134 = __this->___U3CdestinationVerticesU3E5__14_16;
 		int32_t L_135 = __this->___U3CvertexIndexU3E5__10_12;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_136 = (&__this->___U3CmatrixU3E5__3_5);
@@ -5790,66 +5790,66 @@ IL_0172:
 		NullCheck(L_137);
 		int32_t L_139 = ((int32_t)il2cpp_codegen_add(L_138, 3));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_140 = (L_137)->GetAt(static_cast<il2cpp_array_size_t>(L_139));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8375));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8443));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_141;
 		L_141 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_136, L_140, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8375));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8443));
 		NullCheck(L_134);
 		(L_134)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_135, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_141);
 		// destinationVertices[vertexIndex + 0] += offset;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8376));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8444));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_142 = __this->___U3CdestinationVerticesU3E5__14_16;
 		int32_t L_143 = __this->___U3CvertexIndexU3E5__10_12;
 		NullCheck(L_142);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_144 = ((L_142)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_143)));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_145 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_144);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_146 = __this->___U3CoffsetU3E5__13_15;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8377));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8445));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_147;
 		L_147 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_145, L_146, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8377));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8445));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_144 = L_147;
 		// destinationVertices[vertexIndex + 1] += offset;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8378));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8446));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_148 = __this->___U3CdestinationVerticesU3E5__14_16;
 		int32_t L_149 = __this->___U3CvertexIndexU3E5__10_12;
 		NullCheck(L_148);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_150 = ((L_148)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_149, 1)))));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_151 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_150);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_152 = __this->___U3CoffsetU3E5__13_15;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8379));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8447));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_153;
 		L_153 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_151, L_152, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8379));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8447));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_150 = L_153;
 		// destinationVertices[vertexIndex + 2] += offset;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8380));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8448));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_154 = __this->___U3CdestinationVerticesU3E5__14_16;
 		int32_t L_155 = __this->___U3CvertexIndexU3E5__10_12;
 		NullCheck(L_154);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_156 = ((L_154)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_155, 2)))));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_157 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_156);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_158 = __this->___U3CoffsetU3E5__13_15;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8381));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8449));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_159;
 		L_159 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_157, L_158, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8381));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8449));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_156 = L_159;
 		// destinationVertices[vertexIndex + 3] += offset;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8382));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8450));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_160 = __this->___U3CdestinationVerticesU3E5__14_16;
 		int32_t L_161 = __this->___U3CvertexIndexU3E5__10_12;
 		NullCheck(L_160);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_162 = ((L_160)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_161, 3)))));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_163 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_162);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_164 = __this->___U3CoffsetU3E5__13_15;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8383));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8451));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_165;
 		L_165 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_163, L_164, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8383));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8451));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_162 = L_165;
 		// Vector2[] sourceUVs0 = cachedMeshInfoVertexData[materialIndex].uvs0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8384));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8452));
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_166 = __this->___U3CcachedMeshInfoVertexDataU3E5__4_6;
 		int32_t L_167 = __this->___U3CmaterialIndexU3E5__9_11;
 		NullCheck(L_166);
@@ -5857,7 +5857,7 @@ IL_0172:
 		__this->___U3CsourceUVs0U3E5__16_18 = L_168;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsourceUVs0U3E5__16_18), (void*)L_168);
 		// Vector2[] destinationUVs0 = textInfo.meshInfo[materialIndex].uvs0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8385));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8453));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_169 = __this->___U3CtextInfoU3E5__2_4;
 		NullCheck(L_169);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_170 = L_169->___meshInfo_16;
@@ -5867,7 +5867,7 @@ IL_0172:
 		__this->___U3CdestinationUVs0U3E5__17_19 = L_172;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdestinationUVs0U3E5__17_19), (void*)L_172);
 		// destinationUVs0[vertexIndex + 0] = sourceUVs0[vertexIndex + 0];
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8386));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8454));
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_173 = __this->___U3CdestinationUVs0U3E5__17_19;
 		int32_t L_174 = __this->___U3CvertexIndexU3E5__10_12;
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_175 = __this->___U3CsourceUVs0U3E5__16_18;
@@ -5878,7 +5878,7 @@ IL_0172:
 		NullCheck(L_173);
 		(L_173)->SetAt(static_cast<il2cpp_array_size_t>(L_174), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_178);
 		// destinationUVs0[vertexIndex + 1] = sourceUVs0[vertexIndex + 1];
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8387));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8455));
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_179 = __this->___U3CdestinationUVs0U3E5__17_19;
 		int32_t L_180 = __this->___U3CvertexIndexU3E5__10_12;
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_181 = __this->___U3CsourceUVs0U3E5__16_18;
@@ -5889,7 +5889,7 @@ IL_0172:
 		NullCheck(L_179);
 		(L_179)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_180, 1))), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_184);
 		// destinationUVs0[vertexIndex + 2] = sourceUVs0[vertexIndex + 2];
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8388));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8456));
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_185 = __this->___U3CdestinationUVs0U3E5__17_19;
 		int32_t L_186 = __this->___U3CvertexIndexU3E5__10_12;
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_187 = __this->___U3CsourceUVs0U3E5__16_18;
@@ -5900,7 +5900,7 @@ IL_0172:
 		NullCheck(L_185);
 		(L_185)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_186, 2))), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_190);
 		// destinationUVs0[vertexIndex + 3] = sourceUVs0[vertexIndex + 3];
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8389));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8457));
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_191 = __this->___U3CdestinationUVs0U3E5__17_19;
 		int32_t L_192 = __this->___U3CvertexIndexU3E5__10_12;
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_193 = __this->___U3CsourceUVs0U3E5__16_18;
@@ -5911,7 +5911,7 @@ IL_0172:
 		NullCheck(L_191);
 		(L_191)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_192, 3))), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_196);
 		// Color32[] sourceColors32 = cachedMeshInfoVertexData[materialIndex].colors32;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8390));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8458));
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_197 = __this->___U3CcachedMeshInfoVertexDataU3E5__4_6;
 		int32_t L_198 = __this->___U3CmaterialIndexU3E5__9_11;
 		NullCheck(L_197);
@@ -5919,7 +5919,7 @@ IL_0172:
 		__this->___U3CsourceColors32U3E5__18_20 = L_199;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsourceColors32U3E5__18_20), (void*)L_199);
 		// Color32[] destinationColors32 = textInfo.meshInfo[materialIndex].colors32;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8391));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8459));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_200 = __this->___U3CtextInfoU3E5__2_4;
 		NullCheck(L_200);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_201 = L_200->___meshInfo_16;
@@ -5929,7 +5929,7 @@ IL_0172:
 		__this->___U3CdestinationColors32U3E5__19_21 = L_203;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdestinationColors32U3E5__19_21), (void*)L_203);
 		// destinationColors32[vertexIndex + 0] = sourceColors32[vertexIndex + 0];
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8392));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8460));
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_204 = __this->___U3CdestinationColors32U3E5__19_21;
 		int32_t L_205 = __this->___U3CvertexIndexU3E5__10_12;
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_206 = __this->___U3CsourceColors32U3E5__18_20;
@@ -5940,7 +5940,7 @@ IL_0172:
 		NullCheck(L_204);
 		(L_204)->SetAt(static_cast<il2cpp_array_size_t>(L_205), (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B)L_209);
 		// destinationColors32[vertexIndex + 1] = sourceColors32[vertexIndex + 1];
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8393));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8461));
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_210 = __this->___U3CdestinationColors32U3E5__19_21;
 		int32_t L_211 = __this->___U3CvertexIndexU3E5__10_12;
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_212 = __this->___U3CsourceColors32U3E5__18_20;
@@ -5951,7 +5951,7 @@ IL_0172:
 		NullCheck(L_210);
 		(L_210)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_211, 1))), (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B)L_215);
 		// destinationColors32[vertexIndex + 2] = sourceColors32[vertexIndex + 2];
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8394));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8462));
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_216 = __this->___U3CdestinationColors32U3E5__19_21;
 		int32_t L_217 = __this->___U3CvertexIndexU3E5__10_12;
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_218 = __this->___U3CsourceColors32U3E5__18_20;
@@ -5962,7 +5962,7 @@ IL_0172:
 		NullCheck(L_216);
 		(L_216)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_217, 2))), (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B)L_221);
 		// destinationColors32[vertexIndex + 3] = sourceColors32[vertexIndex + 3];
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8395));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8463));
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_222 = __this->___U3CdestinationColors32U3E5__19_21;
 		int32_t L_223 = __this->___U3CvertexIndexU3E5__10_12;
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_224 = __this->___U3CsourceColors32U3E5__18_20;
@@ -5972,7 +5972,7 @@ IL_0172:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_227 = (L_224)->GetAt(static_cast<il2cpp_array_size_t>(L_226));
 		NullCheck(L_222);
 		(L_222)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_223, 3))), (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B)L_227);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8396));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8464));
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8* L_228 = (&__this->___U3CcharInfoU3E5__8_10);
 		il2cpp_codegen_initobj(L_228, sizeof(TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8));
 		__this->___U3CsourceVerticesU3E5__11_13 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)NULL;
@@ -5996,7 +5996,7 @@ IL_0172:
 IL_06d1:
 	{
 		// for (int i = 0; i < characterCount; i++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8397));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8465));
 		int32_t L_231 = __this->___U3CiU3E5__7_9;
 		V_4 = L_231;
 		int32_t L_232 = V_4;
@@ -6006,11 +6006,11 @@ IL_06d1:
 IL_06e3:
 	{
 		// for (int i = 0; i < characterCount; i++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8398));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8466));
 		int32_t L_233 = __this->___U3CiU3E5__7_9;
 		int32_t L_234 = __this->___U3CcharacterCountU3E5__6_8;
 		V_5 = (bool)((((int32_t)L_233) < ((int32_t)L_234))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8399));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8467));
 		bool L_235 = V_5;
 		if (L_235)
 		{
@@ -6019,17 +6019,17 @@ IL_06e3:
 	}
 	{
 		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8400));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8468));
 		__this->___U3CiU3E5__20_22 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8401));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8469));
 		goto IL_085e;
 	}
 
 IL_0706:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8402));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8470));
 		// scaleSortingOrder.Sort((a, b) => modifiedCharScale[a].CompareTo(modifiedCharScale[b]));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8403));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8471));
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_236 = __this->___U3CscaleSortingOrderU3E5__5_7;
 		U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* L_237 = __this->___U3CU3E8__1_3;
 		NullCheck(L_237);
@@ -6047,11 +6047,11 @@ IL_0706:
 	{
 		U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* L_240 = __this->___U3CU3E8__1_3;
 		U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* L_241 = __this->___U3CU3E8__1_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8404));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8472));
 		Comparison_1_tB7DE1436CB53924C2FC41FF926D074C1ACC14D89* L_242 = (Comparison_1_tB7DE1436CB53924C2FC41FF926D074C1ACC14D89*)il2cpp_codegen_object_new(Comparison_1_tB7DE1436CB53924C2FC41FF926D074C1ACC14D89_il2cpp_TypeInfo_var);
 		NullCheck(L_242);
 		Comparison_1__ctor_m7E05FE21370A028EA8A2792D028FFDAD83F24F6C(L_242, L_241, (intptr_t)((void*)U3CU3Ec__DisplayClass10_0_U3CAnimateVertexColorsU3Eb__0_m8E51A05E012CCFA439DCF10A8B5C4FA196E4344A_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8404));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8472));
 		Comparison_1_tB7DE1436CB53924C2FC41FF926D074C1ACC14D89* L_243 = L_242;
 		V_6 = L_243;
 		NullCheck(L_240);
@@ -6064,23 +6064,23 @@ IL_0706:
 
 IL_073d:
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8405));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8473));
 		NullCheck(G_B21_1);
 		List_1_Sort_m90CDC07AEBE737318A490F4C2BC6F2955443EDA4(G_B21_1, G_B21_0, List_1_Sort_m90CDC07AEBE737318A490F4C2BC6F2955443EDA4_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8405));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8473));
 		// textInfo.meshInfo[i].SortGeometry(scaleSortingOrder);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8406));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8474));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_245 = __this->___U3CtextInfoU3E5__2_4;
 		NullCheck(L_245);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_246 = L_245->___meshInfo_16;
 		int32_t L_247 = __this->___U3CiU3E5__20_22;
 		NullCheck(L_246);
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_248 = __this->___U3CscaleSortingOrderU3E5__5_7;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8407));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8475));
 		TMP_MeshInfo_SortGeometry_m74ED0FE2065414A659EE9A9C809E1B0B4A8A7734(((L_246)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_247))), L_248, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8407));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8475));
 		// textInfo.meshInfo[i].mesh.vertices = textInfo.meshInfo[i].vertices;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8408));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8476));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_249 = __this->___U3CtextInfoU3E5__2_4;
 		NullCheck(L_249);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_250 = L_249->___meshInfo_16;
@@ -6093,12 +6093,12 @@ IL_073d:
 		int32_t L_255 = __this->___U3CiU3E5__20_22;
 		NullCheck(L_254);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_256 = ((L_254)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_255)))->___vertices_6;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8409));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8477));
 		NullCheck(L_252);
 		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_252, L_256, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8409));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8477));
 		// textInfo.meshInfo[i].mesh.uv = textInfo.meshInfo[i].uvs0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8410));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8478));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_257 = __this->___U3CtextInfoU3E5__2_4;
 		NullCheck(L_257);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_258 = L_257->___meshInfo_16;
@@ -6111,12 +6111,12 @@ IL_073d:
 		int32_t L_263 = __this->___U3CiU3E5__20_22;
 		NullCheck(L_262);
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_264 = ((L_262)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_263)))->___uvs0_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8411));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8479));
 		NullCheck(L_260);
 		Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617(L_260, L_264, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8411));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8479));
 		// textInfo.meshInfo[i].mesh.colors32 = textInfo.meshInfo[i].colors32;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8412));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8480));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_265 = __this->___U3CtextInfoU3E5__2_4;
 		NullCheck(L_265);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_266 = L_265->___meshInfo_16;
@@ -6129,12 +6129,12 @@ IL_073d:
 		int32_t L_271 = __this->___U3CiU3E5__20_22;
 		NullCheck(L_270);
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_272 = ((L_270)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_271)))->___colors32_11;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8413));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8481));
 		NullCheck(L_268);
 		Mesh_set_colors32_m0E4462B7A1D613E6FB15DD7584BCE5491C17820F(L_268, L_272, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8413));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8481));
 		// m_TextComponent.UpdateGeometry(textInfo.meshInfo[i].mesh, i);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8414));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8482));
 		VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* L_273 = __this->___U3CU3E4__this_2;
 		NullCheck(L_273);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_274 = L_273->___m_TextComponent_7;
@@ -6145,13 +6145,13 @@ IL_073d:
 		NullCheck(L_276);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_278 = ((L_276)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_277)))->___mesh_4;
 		int32_t L_279 = __this->___U3CiU3E5__20_22;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8415));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8483));
 		NullCheck(L_274);
 		VirtualActionInvoker2< Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*, int32_t >::Invoke(102 /* System.Void TMPro.TMP_Text::UpdateGeometry(UnityEngine.Mesh,System.Int32) */, L_274, L_278, L_279);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8415));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8416));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8483));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8484));
 		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8417));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8485));
 		int32_t L_280 = __this->___U3CiU3E5__20_22;
 		V_4 = L_280;
 		int32_t L_281 = V_4;
@@ -6161,14 +6161,14 @@ IL_073d:
 IL_085e:
 	{
 		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8418));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8486));
 		int32_t L_282 = __this->___U3CiU3E5__20_22;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_283 = __this->___U3CtextInfoU3E5__2_4;
 		NullCheck(L_283);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_284 = L_283->___meshInfo_16;
 		NullCheck(L_284);
 		V_7 = (bool)((((int32_t)L_282) < ((int32_t)((int32_t)(((RuntimeArray*)L_284)->max_length))))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8419));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8487));
 		bool L_285 = V_7;
 		if (L_285)
 		{
@@ -6177,12 +6177,12 @@ IL_085e:
 	}
 	{
 		// yield return new WaitForSeconds(0.1f);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8420));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8421));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8488));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8489));
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_286 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		NullCheck(L_286);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_286, (0.100000001f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8421));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8489));
 		__this->___U3CU3E2__current_1 = L_286;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_286);
 		__this->___U3CU3E1__state_0 = 2;
@@ -6191,15 +6191,15 @@ IL_085e:
 
 IL_0895:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8422));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8490));
 		__this->___U3CU3E1__state_0 = (-1);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8423));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8491));
 	}
 
 IL_089d:
 	{
 		// while (true)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8424));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8492));
 		V_8 = (bool)1;
 		goto IL_00a2;
 	}
@@ -6275,25 +6275,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample_Awake_m92842E51B4DBB2E43
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WarpTextExample_Awake_m92842E51B4DBB2E4341ACB179468049FAB23949F_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8425));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8426));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8493));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8494));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8427));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8495));
 		// m_TextComponent = gameObject.GetComponent<TMP_Text>();
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8428));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8429));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8496));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8497));
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8429));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8430));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8497));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8498));
 		NullCheck(L_0);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1;
 		L_1 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_0, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8430));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8498));
 		__this->___m_TextComponent_4 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TextComponent_4), (void*)L_1);
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8431));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8499));
 		return;
 	}
 }
@@ -6309,22 +6309,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample_Start_m3339EDC03B6FC4989
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WarpTextExample_Start_m3339EDC03B6FC498916520CBCCDB5F9FA090F809_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8432));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8433));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8500));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8501));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8434));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8502));
 		// StartCoroutine(WarpText());
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8435));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8436));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8503));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8504));
 		RuntimeObject* L_0;
 		L_0 = WarpTextExample_WarpText_mBE4B6E5B6D8AAE9340CD59B1FA9DFE9A34665E98(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8436));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8437));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8504));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8505));
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
 		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8437));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8505));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8438));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8506));
 		return;
 	}
 }
@@ -6346,33 +6346,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD9991
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___curve0));
 	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WarpTextExample_CopyAnimationCurve_m65A93388CC2CF58CD2E08CC8EF682A2C97C558FF_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8439));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8440));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8507));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8508));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8441));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8509));
 		// AnimationCurve newCurve = new AnimationCurve();
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8442));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8443));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8510));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8511));
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_0 = (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354*)il2cpp_codegen_object_new(AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		AnimationCurve__ctor_m0D976567166F92383307DC8EB8D7082CD34E226F(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8443));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8511));
 		V_0 = L_0;
 		// newCurve.keys = curve.keys;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8444));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8512));
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_1 = V_0;
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_2 = ___curve0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8445));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8513));
 		NullCheck(L_2);
 		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_3;
 		L_3 = AnimationCurve_get_keys_m34452C69464AB459C04BFFEA4F541F06B419AC4E(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8445));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8446));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8513));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8514));
 		NullCheck(L_1);
 		AnimationCurve_set_keys_mBE1284B44CDBB1D8381177A3D581A6E71467F95C(L_1, L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8446));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8514));
 		// return newCurve;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8447));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8515));
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_4 = V_0;
 		V_1 = L_4;
 		goto IL_0018;
@@ -6381,7 +6381,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD9991
 IL_0018:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8448));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8516));
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_5 = V_1;
 		return L_5;
 	}
@@ -6423,71 +6423,71 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample__ctor_mBD48A5403123F25C4
 	}
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WarpTextExample__ctor_mBD48A5403123F25C45B5E60C19E1EA397FBA1795_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8449));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8450));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8517));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8518));
 	{
 		// public AnimationCurve VertexCurve = new AnimationCurve(new Keyframe(0, 0), new Keyframe(0.25f, 2.0f), new Keyframe(0.5f, 0), new Keyframe(0.75f, 2.0f), new Keyframe(1, 0f));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8451));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8519));
 		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_0 = (KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3*)(KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3*)SZArrayNew(KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3_il2cpp_TypeInfo_var, (uint32_t)5);
 		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_1 = L_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8452));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8520));
 		Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		Keyframe__ctor_mECF144086B28785BE911A22C06194A9E0FBF3C34((&L_2), (0.0f), (0.0f), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8452));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8520));
 		NullCheck(L_1);
 		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0)L_2);
 		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_3 = L_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8453));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8521));
 		Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		Keyframe__ctor_mECF144086B28785BE911A22C06194A9E0FBF3C34((&L_4), (0.25f), (2.0f), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8453));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8521));
 		NullCheck(L_3);
 		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0)L_4);
 		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_5 = L_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8454));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8522));
 		Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		Keyframe__ctor_mECF144086B28785BE911A22C06194A9E0FBF3C34((&L_6), (0.5f), (0.0f), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8454));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8522));
 		NullCheck(L_5);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(2), (Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0)L_6);
 		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_7 = L_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8455));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8523));
 		Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		Keyframe__ctor_mECF144086B28785BE911A22C06194A9E0FBF3C34((&L_8), (0.75f), (2.0f), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8455));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8523));
 		NullCheck(L_7);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(3), (Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0)L_8);
 		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_9 = L_7;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8456));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8524));
 		Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 L_10;
 		memset((&L_10), 0, sizeof(L_10));
 		Keyframe__ctor_mECF144086B28785BE911A22C06194A9E0FBF3C34((&L_10), (1.0f), (0.0f), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8456));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8524));
 		NullCheck(L_9);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(4), (Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0)L_10);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8457));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8525));
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_11 = (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354*)il2cpp_codegen_object_new(AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_il2cpp_TypeInfo_var);
 		NullCheck(L_11);
 		AnimationCurve__ctor_mEABC98C03805713354D61E50D9340766BD5B717E(L_11, L_9, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8457));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8525));
 		__this->___VertexCurve_5 = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___VertexCurve_5), (void*)L_11);
 		// public float AngleMultiplier = 1.0f;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8458));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8526));
 		__this->___AngleMultiplier_6 = (1.0f);
 		// public float SpeedMultiplier = 1.0f;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8459));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8527));
 		__this->___SpeedMultiplier_7 = (1.0f);
 		// public float CurveScale = 1.0f;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8460));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8528));
 		__this->___CurveScale_8 = (1.0f);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8461));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8529));
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8461));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8529));
 		return;
 	}
 }
@@ -6557,15 +6557,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4
 	bool V_7 = false;
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4854C2C509C77BD18F5A9B6D691B02_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8462));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8463));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8530));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8531));
 	int32_t G_B11_0 = 0;
 	U3CWarpTextU3Ed__8_tF1A14DF86D48AE9144155D4BF8E31E63471F358E* G_B21_0 = NULL;
 	U3CWarpTextU3Ed__8_tF1A14DF86D48AE9144155D4BF8E31E63471F358E* G_B20_0 = NULL;
 	float G_B22_0 = 0.0f;
 	U3CWarpTextU3Ed__8_tF1A14DF86D48AE9144155D4BF8E31E63471F358E* G_B22_1 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8464));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8532));
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
 		int32_t L_1 = V_0;
@@ -6612,36 +6612,36 @@ IL_0027:
 IL_0029:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8465));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8533));
 		// VertexCurve.preWrapMode = WrapMode.Clamp;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8466));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8534));
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_2 = __this->___U3CU3E4__this_2;
 		NullCheck(L_2);
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_3 = L_2->___VertexCurve_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8467));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8535));
 		NullCheck(L_3);
 		AnimationCurve_set_preWrapMode_mA618E67F536483FA5F3507A2D97C045E089D1B2D(L_3, 1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8467));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8535));
 		// VertexCurve.postWrapMode = WrapMode.Clamp;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8468));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8536));
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_4 = __this->___U3CU3E4__this_2;
 		NullCheck(L_4);
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_5 = L_4->___VertexCurve_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8469));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8537));
 		NullCheck(L_5);
 		AnimationCurve_set_postWrapMode_m39A4758ABD5D2AEE475940829352792FE7E9CBA9(L_5, 1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8469));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8537));
 		// m_TextComponent.havePropertiesChanged = true; // Need to force the TextMeshPro Object to be updated.
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8470));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8538));
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_6 = __this->___U3CU3E4__this_2;
 		NullCheck(L_6);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_7 = L_6->___m_TextComponent_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8471));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8539));
 		NullCheck(L_7);
 		TMP_Text_set_havePropertiesChanged_mA38D7BC9E260BF29450738B827F2220A05662B31(L_7, (bool)1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8471));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8539));
 		// CurveScale *= 10;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8472));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8540));
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_8 = __this->___U3CU3E4__this_2;
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_9 = __this->___U3CU3E4__this_2;
 		NullCheck(L_9);
@@ -6649,41 +6649,41 @@ IL_0029:
 		NullCheck(L_8);
 		L_8->___CurveScale_8 = ((float)il2cpp_codegen_multiply(L_10, (10.0f)));
 		// float old_CurveScale = CurveScale;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8473));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8541));
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_11 = __this->___U3CU3E4__this_2;
 		NullCheck(L_11);
 		float L_12 = L_11->___CurveScale_8;
 		__this->___U3Cold_CurveScaleU3E5__3_5 = L_12;
 		// AnimationCurve old_curve = CopyAnimationCurve(VertexCurve);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8474));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8542));
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_13 = __this->___U3CU3E4__this_2;
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_14 = __this->___U3CU3E4__this_2;
 		NullCheck(L_14);
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_15 = L_14->___VertexCurve_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8475));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8543));
 		NullCheck(L_13);
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_16;
 		L_16 = WarpTextExample_CopyAnimationCurve_m65A93388CC2CF58CD2E08CC8EF682A2C97C558FF(L_13, L_15, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8475));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8543));
 		__this->___U3Cold_curveU3E5__4_6 = L_16;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3Cold_curveU3E5__4_6), (void*)L_16);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8476));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8544));
 		goto IL_0722;
 	}
 
 IL_00b5:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8477));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8545));
 		// if (!m_TextComponent.havePropertiesChanged && old_CurveScale == CurveScale && old_curve.keys[1].value == VertexCurve.keys[1].value)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8478));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8546));
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_17 = __this->___U3CU3E4__this_2;
 		NullCheck(L_17);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_18 = L_17->___m_TextComponent_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8479));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8547));
 		NullCheck(L_18);
 		bool L_19;
 		L_19 = TMP_Text_get_havePropertiesChanged_m42ECC7D1CA0DF6E59ACF761EB20635E81FCB8EFF(L_18, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8479));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8547));
 		if (L_19)
 		{
 			goto IL_0110;
@@ -6701,29 +6701,29 @@ IL_00b5:
 	}
 	{
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_23 = __this->___U3Cold_curveU3E5__4_6;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8480));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8548));
 		NullCheck(L_23);
 		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_24;
 		L_24 = AnimationCurve_get_keys_m34452C69464AB459C04BFFEA4F541F06B419AC4E(L_23, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8480));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8548));
 		NullCheck(L_24);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8481));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8549));
 		float L_25;
 		L_25 = Keyframe_get_value_m53E6B7609086AAAA46E24BAF734EF08E16A3FD6C(((L_24)->GetAddressAt(static_cast<il2cpp_array_size_t>(1))), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8481));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8549));
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_26 = __this->___U3CU3E4__this_2;
 		NullCheck(L_26);
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_27 = L_26->___VertexCurve_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8482));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8550));
 		NullCheck(L_27);
 		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_28;
 		L_28 = AnimationCurve_get_keys_m34452C69464AB459C04BFFEA4F541F06B419AC4E(L_27, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8482));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8550));
 		NullCheck(L_28);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8483));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8551));
 		float L_29;
 		L_29 = Keyframe_get_value_m53E6B7609086AAAA46E24BAF734EF08E16A3FD6C(((L_28)->GetAddressAt(static_cast<il2cpp_array_size_t>(1))), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8483));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8551));
 		G_B11_0 = ((((float)L_25) == ((float)L_29))? 1 : 0);
 		goto IL_0111;
 	}
@@ -6736,7 +6736,7 @@ IL_0110:
 IL_0111:
 	{
 		V_1 = (bool)G_B11_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8484));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8552));
 		bool L_30 = V_1;
 		if (!L_30)
 		{
@@ -6744,9 +6744,9 @@ IL_0111:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8485));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8553));
 		// yield return null;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8486));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8554));
 		__this->___U3CU3E2__current_1 = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)NULL);
 		__this->___U3CU3E1__state_0 = 1;
@@ -6755,66 +6755,66 @@ IL_0111:
 
 IL_0126:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8487));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8555));
 		__this->___U3CU3E1__state_0 = (-1);
 		// continue;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8488));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8556));
 		goto IL_0722;
 	}
 
 IL_0132:
 	{
 		// old_CurveScale = CurveScale;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8489));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8557));
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_31 = __this->___U3CU3E4__this_2;
 		NullCheck(L_31);
 		float L_32 = L_31->___CurveScale_8;
 		__this->___U3Cold_CurveScaleU3E5__3_5 = L_32;
 		// old_curve = CopyAnimationCurve(VertexCurve);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8490));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8558));
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_33 = __this->___U3CU3E4__this_2;
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_34 = __this->___U3CU3E4__this_2;
 		NullCheck(L_34);
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_35 = L_34->___VertexCurve_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8491));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8559));
 		NullCheck(L_33);
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_36;
 		L_36 = WarpTextExample_CopyAnimationCurve_m65A93388CC2CF58CD2E08CC8EF682A2C97C558FF(L_33, L_35, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8491));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8559));
 		__this->___U3Cold_curveU3E5__4_6 = L_36;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3Cold_curveU3E5__4_6), (void*)L_36);
 		// m_TextComponent.ForceMeshUpdate(); // Generate the mesh and populate the textInfo with data we can use and manipulate.
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8492));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8560));
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_37 = __this->___U3CU3E4__this_2;
 		NullCheck(L_37);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_38 = L_37->___m_TextComponent_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8493));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8561));
 		NullCheck(L_38);
 		VirtualActionInvoker2< bool, bool >::Invoke(101 /* System.Void TMPro.TMP_Text::ForceMeshUpdate(System.Boolean,System.Boolean) */, L_38, (bool)0, (bool)0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8493));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8561));
 		// TMP_TextInfo textInfo = m_TextComponent.textInfo;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8494));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8562));
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_39 = __this->___U3CU3E4__this_2;
 		NullCheck(L_39);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_40 = L_39->___m_TextComponent_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8495));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8563));
 		NullCheck(L_40);
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_41;
 		L_41 = TMP_Text_get_textInfo_mA24C606B8EA51436E4AA3B9D6DCDFA7A8995E10E(L_40, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8495));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8563));
 		__this->___U3CtextInfoU3E5__5_7 = L_41;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtextInfoU3E5__5_7), (void*)L_41);
 		// int characterCount = textInfo.characterCount;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8496));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8564));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_42 = __this->___U3CtextInfoU3E5__5_7;
 		NullCheck(L_42);
 		int32_t L_43 = L_42->___characterCount_3;
 		__this->___U3CcharacterCountU3E5__6_8 = L_43;
 		// if (characterCount == 0) continue;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8497));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8565));
 		int32_t L_44 = __this->___U3CcharacterCountU3E5__6_8;
 		V_2 = (bool)((((int32_t)L_44) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8498));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8566));
 		bool L_45 = V_2;
 		if (!L_45)
 		{
@@ -6823,58 +6823,58 @@ IL_0132:
 	}
 	{
 		// if (characterCount == 0) continue;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8499));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8567));
 		goto IL_0722;
 	}
 
 IL_01ab:
 	{
 		// float boundsMinX = m_TextComponent.bounds.min.x;  //textInfo.meshInfo[0].mesh.bounds.min.x;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8500));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8568));
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_46 = __this->___U3CU3E4__this_2;
 		NullCheck(L_46);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_47 = L_46->___m_TextComponent_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8501));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8569));
 		NullCheck(L_47);
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_48;
 		L_48 = TMP_Text_get_bounds_mAEE407DE6CA2E1D1180868C03A3F0A3B6E455189(L_47, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8501));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8569));
 		V_3 = L_48;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8502));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8570));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49;
 		L_49 = Bounds_get_min_m465AC9BBE1DE5D8E8AD95AC19B9899068FEEBB13((&V_3), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8502));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8570));
 		float L_50 = L_49.___x_2;
 		__this->___U3CboundsMinXU3E5__7_9 = L_50;
 		// float boundsMaxX = m_TextComponent.bounds.max.x;  //textInfo.meshInfo[0].mesh.bounds.max.x;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8503));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8571));
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_51 = __this->___U3CU3E4__this_2;
 		NullCheck(L_51);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_52 = L_51->___m_TextComponent_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8504));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8572));
 		NullCheck(L_52);
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_53;
 		L_53 = TMP_Text_get_bounds_mAEE407DE6CA2E1D1180868C03A3F0A3B6E455189(L_52, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8504));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8572));
 		V_3 = L_53;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8505));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8573));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54;
 		L_54 = Bounds_get_max_m6446F2AB97C1E57CA89467B9DE52D4EB61F1CB09((&V_3), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8505));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8573));
 		float L_55 = L_54.___x_2;
 		__this->___U3CboundsMaxXU3E5__8_10 = L_55;
 		// for (int i = 0; i < characterCount; i++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8506));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8574));
 		__this->___U3CiU3E5__9_11 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8507));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8575));
 		goto IL_06d2;
 	}
 
 IL_01fd:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8508));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8576));
 		// if (!textInfo.characterInfo[i].isVisible)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8509));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8577));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_56 = __this->___U3CtextInfoU3E5__5_7;
 		NullCheck(L_56);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_57 = L_56->___characterInfo_11;
@@ -6882,7 +6882,7 @@ IL_01fd:
 		NullCheck(L_57);
 		bool L_59 = ((L_57)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_58)))->___isVisible_40;
 		V_4 = (bool)((((int32_t)L_59) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8510));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8578));
 		bool L_60 = V_4;
 		if (!L_60)
 		{
@@ -6891,14 +6891,14 @@ IL_01fd:
 	}
 	{
 		// continue;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8511));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8579));
 		goto IL_06c0;
 	}
 
 IL_0227:
 	{
 		// int vertexIndex = textInfo.characterInfo[i].vertexIndex;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8512));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8580));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_61 = __this->___U3CtextInfoU3E5__5_7;
 		NullCheck(L_61);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_62 = L_61->___characterInfo_11;
@@ -6907,7 +6907,7 @@ IL_0227:
 		int32_t L_64 = ((L_62)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_63)))->___vertexIndex_14;
 		__this->___U3CvertexIndexU3E5__10_12 = L_64;
 		// int materialIndex = textInfo.characterInfo[i].materialReferenceIndex;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8513));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8581));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_65 = __this->___U3CtextInfoU3E5__5_7;
 		NullCheck(L_65);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_66 = L_65->___characterInfo_11;
@@ -6916,7 +6916,7 @@ IL_0227:
 		int32_t L_68 = ((L_66)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_67)))->___materialReferenceIndex_9;
 		__this->___U3CmaterialIndexU3E5__11_13 = L_68;
 		// vertices = textInfo.meshInfo[materialIndex].vertices;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8514));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8582));
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_69 = __this->___U3CtextInfoU3E5__5_7;
 		NullCheck(L_69);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_70 = L_69->___meshInfo_16;
@@ -6926,7 +6926,7 @@ IL_0227:
 		__this->___U3CverticesU3E5__1_3 = L_72;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CverticesU3E5__1_3), (void*)L_72);
 		// Vector3 offsetToMidBaseline = new Vector2((vertices[vertexIndex + 0].x + vertices[vertexIndex + 2].x) / 2, textInfo.characterInfo[i].baseLine);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8515));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8583));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_73 = __this->___U3CverticesU3E5__1_3;
 		int32_t L_74 = __this->___U3CvertexIndexU3E5__10_12;
 		NullCheck(L_73);
@@ -6941,86 +6941,86 @@ IL_0227:
 		int32_t L_81 = __this->___U3CiU3E5__9_11;
 		NullCheck(L_80);
 		float L_82 = ((L_80)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_81)))->___baseLine_26;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8516));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8584));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_83;
 		memset((&L_83), 0, sizeof(L_83));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_83), ((float)(((float)il2cpp_codegen_add(L_75, L_78))/(2.0f))), L_82, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8516));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8517));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8584));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8585));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_84;
 		L_84 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_83, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8517));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8585));
 		__this->___U3CoffsetToMidBaselineU3E5__12_14 = L_84;
 		// vertices[vertexIndex + 0] += -offsetToMidBaseline;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8518));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8586));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_85 = __this->___U3CverticesU3E5__1_3;
 		int32_t L_86 = __this->___U3CvertexIndexU3E5__10_12;
 		NullCheck(L_85);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_87 = ((L_85)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_86)));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_88 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_87);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_89 = __this->___U3CoffsetToMidBaselineU3E5__12_14;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8519));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8587));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_90;
 		L_90 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_89, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8519));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8520));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8587));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8588));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_91;
 		L_91 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_88, L_90, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8520));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8588));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_87 = L_91;
 		// vertices[vertexIndex + 1] += -offsetToMidBaseline;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8521));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8589));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_92 = __this->___U3CverticesU3E5__1_3;
 		int32_t L_93 = __this->___U3CvertexIndexU3E5__10_12;
 		NullCheck(L_92);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_94 = ((L_92)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_93, 1)))));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_95 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_94);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_96 = __this->___U3CoffsetToMidBaselineU3E5__12_14;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8522));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8590));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_97;
 		L_97 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_96, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8522));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8523));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8590));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8591));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_98;
 		L_98 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_95, L_97, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8523));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8591));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_94 = L_98;
 		// vertices[vertexIndex + 2] += -offsetToMidBaseline;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8524));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8592));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_99 = __this->___U3CverticesU3E5__1_3;
 		int32_t L_100 = __this->___U3CvertexIndexU3E5__10_12;
 		NullCheck(L_99);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_101 = ((L_99)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_100, 2)))));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_102 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_101);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_103 = __this->___U3CoffsetToMidBaselineU3E5__12_14;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8525));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8593));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_104;
 		L_104 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_103, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8525));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8526));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8593));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8594));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_105;
 		L_105 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_102, L_104, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8526));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8594));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_101 = L_105;
 		// vertices[vertexIndex + 3] += -offsetToMidBaseline;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8527));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8595));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_106 = __this->___U3CverticesU3E5__1_3;
 		int32_t L_107 = __this->___U3CvertexIndexU3E5__10_12;
 		NullCheck(L_106);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_108 = ((L_106)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_107, 3)))));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_109 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_108);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_110 = __this->___U3CoffsetToMidBaselineU3E5__12_14;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8528));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8596));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_111;
 		L_111 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_110, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8528));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8529));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8596));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8597));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_112;
 		L_112 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_109, L_111, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8529));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8597));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_108 = L_112;
 		// float x0 = (offsetToMidBaseline.x - boundsMinX) / (boundsMaxX - boundsMinX); // Character's position relative to the bounds of the mesh.
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8530));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8598));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_113 = (&__this->___U3CoffsetToMidBaselineU3E5__12_14);
 		float L_114 = L_113->___x_2;
 		float L_115 = __this->___U3CboundsMinXU3E5__7_9;
@@ -7028,100 +7028,100 @@ IL_0227:
 		float L_117 = __this->___U3CboundsMinXU3E5__7_9;
 		__this->___U3Cx0U3E5__13_15 = ((float)(((float)il2cpp_codegen_subtract(L_114, L_115))/((float)il2cpp_codegen_subtract(L_116, L_117))));
 		// float x1 = x0 + 0.0001f;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8531));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8599));
 		float L_118 = __this->___U3Cx0U3E5__13_15;
 		__this->___U3Cx1U3E5__14_16 = ((float)il2cpp_codegen_add(L_118, (9.99999975E-05f)));
 		// float y0 = VertexCurve.Evaluate(x0) * CurveScale;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8532));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8600));
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_119 = __this->___U3CU3E4__this_2;
 		NullCheck(L_119);
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_120 = L_119->___VertexCurve_5;
 		float L_121 = __this->___U3Cx0U3E5__13_15;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8533));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8601));
 		NullCheck(L_120);
 		float L_122;
 		L_122 = AnimationCurve_Evaluate_m50B857043DE251A186032ADBCBB4CEF817F4EE3C(L_120, L_121, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8533));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8601));
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_123 = __this->___U3CU3E4__this_2;
 		NullCheck(L_123);
 		float L_124 = L_123->___CurveScale_8;
 		__this->___U3Cy0U3E5__15_17 = ((float)il2cpp_codegen_multiply(L_122, L_124));
 		// float y1 = VertexCurve.Evaluate(x1) * CurveScale;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8534));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8602));
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_125 = __this->___U3CU3E4__this_2;
 		NullCheck(L_125);
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_126 = L_125->___VertexCurve_5;
 		float L_127 = __this->___U3Cx1U3E5__14_16;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8535));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8603));
 		NullCheck(L_126);
 		float L_128;
 		L_128 = AnimationCurve_Evaluate_m50B857043DE251A186032ADBCBB4CEF817F4EE3C(L_126, L_127, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8535));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8603));
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_129 = __this->___U3CU3E4__this_2;
 		NullCheck(L_129);
 		float L_130 = L_129->___CurveScale_8;
 		__this->___U3Cy1U3E5__16_18 = ((float)il2cpp_codegen_multiply(L_128, L_130));
 		// Vector3 horizontal = new Vector3(1, 0, 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8536));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8537));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8604));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8605));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_131;
 		memset((&L_131), 0, sizeof(L_131));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_131), (1.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8537));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8605));
 		__this->___U3ChorizontalU3E5__17_19 = L_131;
 		// Vector3 tangent = new Vector3(x1 * (boundsMaxX - boundsMinX) + boundsMinX, y1) - new Vector3(offsetToMidBaseline.x, y0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8538));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8606));
 		float L_132 = __this->___U3Cx1U3E5__14_16;
 		float L_133 = __this->___U3CboundsMaxXU3E5__8_10;
 		float L_134 = __this->___U3CboundsMinXU3E5__7_9;
 		float L_135 = __this->___U3CboundsMinXU3E5__7_9;
 		float L_136 = __this->___U3Cy1U3E5__16_18;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8539));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8607));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_137;
 		memset((&L_137), 0, sizeof(L_137));
 		Vector3__ctor_m5F87930F9B0828E5652E2D9D01ED907C01122C86_inline((&L_137), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_132, ((float)il2cpp_codegen_subtract(L_133, L_134)))), L_135)), L_136, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8539));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8607));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_138 = (&__this->___U3CoffsetToMidBaselineU3E5__12_14);
 		float L_139 = L_138->___x_2;
 		float L_140 = __this->___U3Cy0U3E5__15_17;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8540));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8608));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_141;
 		memset((&L_141), 0, sizeof(L_141));
 		Vector3__ctor_m5F87930F9B0828E5652E2D9D01ED907C01122C86_inline((&L_141), L_139, L_140, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8540));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8541));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8608));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8609));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_142;
 		L_142 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_137, L_141, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8541));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8609));
 		__this->___U3CtangentU3E5__18_20 = L_142;
 		// float dot = Mathf.Acos(Vector3.Dot(horizontal, tangent.normalized)) * 57.2957795f;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8542));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8610));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_143 = __this->___U3ChorizontalU3E5__17_19;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_144 = (&__this->___U3CtangentU3E5__18_20);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8543));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8611));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_145;
 		L_145 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline(L_144, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8543));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8544));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8611));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8612));
 		float L_146;
 		L_146 = Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline(L_143, L_145, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8544));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8545));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8612));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8613));
 		float L_147;
 		L_147 = acosf(L_146);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8545));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8613));
 		__this->___U3CdotU3E5__19_21 = ((float)il2cpp_codegen_multiply(L_147, (57.2957802f)));
 		// Vector3 cross = Vector3.Cross(horizontal, tangent);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8546));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8614));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_148 = __this->___U3ChorizontalU3E5__17_19;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_149 = __this->___U3CtangentU3E5__18_20;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8547));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8615));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_150;
 		L_150 = Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline(L_148, L_149, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8547));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8615));
 		__this->___U3CcrossU3E5__20_22 = L_150;
 		// float angle = cross.z > 0 ? dot : 360 - dot;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8548));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8616));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_151 = (&__this->___U3CcrossU3E5__20_22);
 		float L_152 = L_151->___z_4;
 		G_B20_0 = __this;
@@ -7150,29 +7150,29 @@ IL_04ee:
 		NullCheck(G_B22_1);
 		G_B22_1->___U3CangleU3E5__21_23 = G_B22_0;
 		// matrix = Matrix4x4.TRS(new Vector3(0, y0, 0), Quaternion.Euler(0, 0, angle), Vector3.one);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8549));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8617));
 		float L_155 = __this->___U3Cy0U3E5__15_17;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8550));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8618));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_156;
 		memset((&L_156), 0, sizeof(L_156));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_156), (0.0f), L_155, (0.0f), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8550));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8618));
 		float L_157 = __this->___U3CangleU3E5__21_23;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8551));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8619));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_158;
 		L_158 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), (0.0f), L_157, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8551));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8552));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8619));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8620));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_159;
 		L_159 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8552));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8553));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8620));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8621));
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_160;
 		L_160 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3(L_156, L_158, L_159, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8553));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8621));
 		__this->___U3CmatrixU3E5__2_4 = L_160;
 		// vertices[vertexIndex + 0] = matrix.MultiplyPoint3x4(vertices[vertexIndex + 0]);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8554));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8622));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_161 = __this->___U3CverticesU3E5__1_3;
 		int32_t L_162 = __this->___U3CvertexIndexU3E5__10_12;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_163 = (&__this->___U3CmatrixU3E5__2_4);
@@ -7181,14 +7181,14 @@ IL_04ee:
 		NullCheck(L_164);
 		int32_t L_166 = L_165;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_167 = (L_164)->GetAt(static_cast<il2cpp_array_size_t>(L_166));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8555));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8623));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_168;
 		L_168 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_163, L_167, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8555));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8623));
 		NullCheck(L_161);
 		(L_161)->SetAt(static_cast<il2cpp_array_size_t>(L_162), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_168);
 		// vertices[vertexIndex + 1] = matrix.MultiplyPoint3x4(vertices[vertexIndex + 1]);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8556));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8624));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_169 = __this->___U3CverticesU3E5__1_3;
 		int32_t L_170 = __this->___U3CvertexIndexU3E5__10_12;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_171 = (&__this->___U3CmatrixU3E5__2_4);
@@ -7197,14 +7197,14 @@ IL_04ee:
 		NullCheck(L_172);
 		int32_t L_174 = ((int32_t)il2cpp_codegen_add(L_173, 1));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_175 = (L_172)->GetAt(static_cast<il2cpp_array_size_t>(L_174));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8557));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8625));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_176;
 		L_176 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_171, L_175, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8557));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8625));
 		NullCheck(L_169);
 		(L_169)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_170, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_176);
 		// vertices[vertexIndex + 2] = matrix.MultiplyPoint3x4(vertices[vertexIndex + 2]);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8558));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8626));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_177 = __this->___U3CverticesU3E5__1_3;
 		int32_t L_178 = __this->___U3CvertexIndexU3E5__10_12;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_179 = (&__this->___U3CmatrixU3E5__2_4);
@@ -7213,14 +7213,14 @@ IL_04ee:
 		NullCheck(L_180);
 		int32_t L_182 = ((int32_t)il2cpp_codegen_add(L_181, 2));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_183 = (L_180)->GetAt(static_cast<il2cpp_array_size_t>(L_182));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8559));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8627));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_184;
 		L_184 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_179, L_183, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8559));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8627));
 		NullCheck(L_177);
 		(L_177)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_178, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_184);
 		// vertices[vertexIndex + 3] = matrix.MultiplyPoint3x4(vertices[vertexIndex + 3]);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8560));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8628));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_185 = __this->___U3CverticesU3E5__1_3;
 		int32_t L_186 = __this->___U3CvertexIndexU3E5__10_12;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_187 = (&__this->___U3CmatrixU3E5__2_4);
@@ -7229,65 +7229,65 @@ IL_04ee:
 		NullCheck(L_188);
 		int32_t L_190 = ((int32_t)il2cpp_codegen_add(L_189, 3));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_191 = (L_188)->GetAt(static_cast<il2cpp_array_size_t>(L_190));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8561));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8629));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_192;
 		L_192 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_187, L_191, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8561));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8629));
 		NullCheck(L_185);
 		(L_185)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_186, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_192);
 		// vertices[vertexIndex + 0] += offsetToMidBaseline;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8562));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8630));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_193 = __this->___U3CverticesU3E5__1_3;
 		int32_t L_194 = __this->___U3CvertexIndexU3E5__10_12;
 		NullCheck(L_193);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_195 = ((L_193)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_194)));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_196 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_195);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_197 = __this->___U3CoffsetToMidBaselineU3E5__12_14;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8563));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8631));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_198;
 		L_198 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_196, L_197, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8563));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8631));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_195 = L_198;
 		// vertices[vertexIndex + 1] += offsetToMidBaseline;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8564));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8632));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_199 = __this->___U3CverticesU3E5__1_3;
 		int32_t L_200 = __this->___U3CvertexIndexU3E5__10_12;
 		NullCheck(L_199);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_201 = ((L_199)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_200, 1)))));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_202 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_201);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_203 = __this->___U3CoffsetToMidBaselineU3E5__12_14;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8565));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8633));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_204;
 		L_204 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_202, L_203, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8565));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8633));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_201 = L_204;
 		// vertices[vertexIndex + 2] += offsetToMidBaseline;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8566));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8634));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_205 = __this->___U3CverticesU3E5__1_3;
 		int32_t L_206 = __this->___U3CvertexIndexU3E5__10_12;
 		NullCheck(L_205);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_207 = ((L_205)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_206, 2)))));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_208 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_207);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_209 = __this->___U3CoffsetToMidBaselineU3E5__12_14;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8567));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8635));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_210;
 		L_210 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_208, L_209, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8567));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8635));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_207 = L_210;
 		// vertices[vertexIndex + 3] += offsetToMidBaseline;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8568));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8636));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_211 = __this->___U3CverticesU3E5__1_3;
 		int32_t L_212 = __this->___U3CvertexIndexU3E5__10_12;
 		NullCheck(L_211);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_213 = ((L_211)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_212, 3)))));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_214 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_213);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_215 = __this->___U3CoffsetToMidBaselineU3E5__12_14;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8569));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8637));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_216;
 		L_216 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_214, L_215, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8569));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8637));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_213 = L_216;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8570));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8638));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_217 = (&__this->___U3CoffsetToMidBaselineU3E5__12_14);
 		il2cpp_codegen_initobj(L_217, sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_218 = (&__this->___U3ChorizontalU3E5__17_19);
@@ -7301,7 +7301,7 @@ IL_04ee:
 IL_06c0:
 	{
 		// for (int i = 0; i < characterCount; i++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8571));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8639));
 		int32_t L_221 = __this->___U3CiU3E5__9_11;
 		V_5 = L_221;
 		int32_t L_222 = V_5;
@@ -7311,11 +7311,11 @@ IL_06c0:
 IL_06d2:
 	{
 		// for (int i = 0; i < characterCount; i++)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8572));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8640));
 		int32_t L_223 = __this->___U3CiU3E5__9_11;
 		int32_t L_224 = __this->___U3CcharacterCountU3E5__6_8;
 		V_6 = (bool)((((int32_t)L_223) < ((int32_t)L_224))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8573));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8641));
 		bool L_225 = V_6;
 		if (L_225)
 		{
@@ -7324,21 +7324,21 @@ IL_06d2:
 	}
 	{
 		// m_TextComponent.UpdateVertexData();
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8574));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8642));
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_226 = __this->___U3CU3E4__this_2;
 		NullCheck(L_226);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_227 = L_226->___m_TextComponent_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8575));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8643));
 		NullCheck(L_227);
 		VirtualActionInvoker0::Invoke(104 /* System.Void TMPro.TMP_Text::UpdateVertexData() */, L_227);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8575));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8643));
 		// yield return new WaitForSeconds(0.025f);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8576));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8577));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8644));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8645));
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_228 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		NullCheck(L_228);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_228, (0.0250000004f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8577));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8645));
 		__this->___U3CU3E2__current_1 = L_228;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_228);
 		__this->___U3CU3E1__state_0 = 2;
@@ -7347,9 +7347,9 @@ IL_06d2:
 
 IL_0713:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8578));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8646));
 		__this->___U3CU3E1__state_0 = (-1);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8579));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8647));
 		__this->___U3CtextInfoU3E5__5_7 = (TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtextInfoU3E5__5_7), (void*)(TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D*)NULL);
 	}
@@ -7357,7 +7357,7 @@ IL_0713:
 IL_0722:
 	{
 		// while (true)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8580));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 8648));
 		V_7 = (bool)1;
 		goto IL_00b5;
 	}
