@@ -45,7 +45,7 @@ public class Show_Dialog : MonoBehaviour
         failureSprite = Resources.Load<Sprite>("images/UIimages/error_notification");
     }
 
-    public void ShowToast(string toastStatus, string message, float duration = 0.5f)
+    public void ShowToast(string toastStatus, string message, float duration = 2f)
     {
         // Instantiate toast from prefab
         GameObject toastInstance = Instantiate(toastPrefab, toastParent);

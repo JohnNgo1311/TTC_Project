@@ -1,35 +1,79 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using JsonUtility = UnityEngine.JsonUtility;
-using UnityEngine.Networking;
 using Newtonsoft.Json;
 using TMPro;
 using System;
 using UnityEngine.UI;
-using Unity.VisualScripting;
+using UnityEngine.Networking;
+using System.Text;
+using System.Threading.Tasks;
+
 public class Create_New_Device_By_Grapper : MonoBehaviour
 {
     [SerializeField]
-    private string grapper_Name = "A";
+    private string grapperName = "A";
 
     [SerializeField]
     private DeviceModel device = new DeviceModel();
     public List<TMP_InputField> inputFields = new List<TMP_InputField>();
-    void Start()
+    public Button cancelButton;
+    public Button confirmButton;
+    public GameObject panelDialog;
+    public Show_Dialog show_Dialog;
+    private void Start()
     {
+        show_Dialog = Show_Dialog.Instance;
+        panelDialog.SetActive(false);
     }
-    public void Create_Devices_By_Grapper()
+    public void OpenPanelCreateDevice()
     {
-        device.location = $"Grapper{grapper_Name}";
+        ShowQuestionDialog(
+            confirmAction: async () => await CreateDevicesByGrapper(),
+            cancelAction: ClearInputFieldsAndListeners
+        );
+    }
+
+    private void ShowQuestionDialog(Action confirmAction, Action cancelAction)
+    {
+        panelDialog.SetActive(true);
+        cancelButton.onClick.AddListener(new UnityEngine.Events.UnityAction(cancelAction));
+        confirmButton.onClick.AddListener(new UnityEngine.Events.UnityAction(confirmAction));
+    }
+
+    private void ClearInputFieldsAndListeners()
+    {
+        panelDialog.SetActive(false);
+        confirmButton.onClick.RemoveAllListeners();
+        cancelButton.onClick.RemoveAllListeners();
+        foreach (var inputField in inputFields)
+        {
+            inputField.text = "";
+        }
+    }
+
+    private async Task CreateDevicesByGrapper()
+    {
+        device.location = $"Grapper{grapperName}";
         device.code = inputFields[0].text;
         device.function = inputFields[1].text;
         device.rangeMeasurement = inputFields[2].text;
         device.ioAddress = inputFields[3].text;
         device.jbConnection = $"{inputFields[4].text}_{inputFields[5].text}";
-        StartCoroutine(Create_New_Device($"{GlobalVariable.baseUrl}{grapper_Name}", device));
+        foreach (var inputField in inputFields)
+        {
+            if (string.IsNullOrEmpty(inputField.text))
+            {
+                Debug.LogError("Input fields cannot be empty.");
+                Debug.LogError("Stop Create Device.");
+                show_Dialog.ShowToast("failure", "Hãy điền đầy đủ thông tin.");
+                return;
+            }
+        }
+        await CreateNewDevice($"{GlobalVariable.baseUrl}{grapperName}", device);
+        ClearInputFieldsAndListeners();
     }
-    IEnumerator Create_New_Device(string url, DeviceModel device)
+
+    private async Task CreateNewDevice(string url, DeviceModel device)
     {
         if (string.IsNullOrEmpty(device.id))
         {
@@ -45,33 +89,38 @@ public class Create_New_Device_By_Grapper : MonoBehaviour
 
         using (UnityWebRequest webRequest = new UnityWebRequest(url, "POST"))
         {
-            byte[] jsonToSend = new System.Text.UTF8Encoding().GetBytes(jsonData);
-
-            webRequest.uploadHandler = new UploadHandlerRaw(jsonToSend); // Set the data to be sent
-
-            webRequest.downloadHandler = new DownloadHandlerBuffer(); // Get the data to be received
-
+            byte[] jsonToSend = Encoding.UTF8.GetBytes(jsonData);
+            webRequest.uploadHandler = new UploadHandlerRaw(jsonToSend);
+            webRequest.downloadHandler = new DownloadHandlerBuffer();
             webRequest.SetRequestHeader("Content-Type", "application/json");
 
             var operation = webRequest.SendWebRequest();
-            yield return operation;
+            while (!operation.isDone)
+            {
+                await Task.Yield();
+            }
 
             if (webRequest.result == UnityWebRequest.Result.ConnectionError || webRequest.result == UnityWebRequest.Result.ProtocolError)
             {
+                show_Dialog.ShowToast("failure", $"Request error: {webRequest.error}");
                 Debug.LogError($"Request error: {webRequest.error}");
             }
-            try
+            else
             {
-                // Xử lý dữ liệu thành công
-                Debug.Log("Post data successfully.");
-            }
-            catch (JsonException jsonEx)
-            {
-                Debug.LogError($"Error parsing JSON: {jsonEx.Message}");
-            }
-            catch (Exception ex)
-            {
-                Debug.LogError($"Unexpected error: {ex.Message}");
+                try
+                {
+                    Debug.Log("Post data successfully.");
+                    show_Dialog.ShowToast("success", "Thêm thiết bị mới thành công: " + device.code);
+                    GlobalVariable_Search_Devices.all_Device_GrapperA.Add(device);
+                }
+                catch (JsonException jsonEx)
+                {
+                    Debug.LogError($"Error parsing JSON: {jsonEx.Message}");
+                }
+                catch (Exception ex)
+                {
+                    Debug.LogError($"Unexpected error: {ex.Message}");
+                }
             }
         }
     }

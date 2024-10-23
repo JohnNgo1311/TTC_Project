@@ -1,27 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using JsonUtility = UnityEngine.JsonUtility;
 using UnityEngine.Networking;
 using Newtonsoft.Json;
 using TMPro;
 using System;
-using UnityEngine.UI;
-using Unity.VisualScripting;
 public class Get_All_Device_By_Grapper : MonoBehaviour
 {
     [SerializeField]
     private string grapper_Name = "A";
-
-    [SerializeField]
-    private List<TMP_Text> student_information = new List<TMP_Text>();
-
     [SerializeField]
     private List<DeviceModel> devices = new List<DeviceModel>();
 
     void Start()
     {
-        // StartCoroutine(Get_Devices_By_Grapper($"{GlobalVariable.baseUrl}{grapper_Name}"));
+        StartCoroutine(Get_Devices_By_Grapper($"{GlobalVariable.baseUrl}{grapper_Name}"));
     }
     //GET Request
     private IEnumerator Get_Devices_By_Grapper(string url)
@@ -42,7 +35,7 @@ public class Get_All_Device_By_Grapper : MonoBehaviour
                 Debug.Log("Received data successfully.");
                 if (devices.Count > 0)
                 {
-                    // GlobalVariable_Search_Devices.all_Device_GrapperA = devices;
+                    GlobalVariable_Search_Devices.all_Device_GrapperA = devices;
                 }
             }
             catch (JsonException jsonEx)
