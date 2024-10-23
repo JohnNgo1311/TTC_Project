@@ -114,6 +114,7 @@ public class OpenCanvas : MonoBehaviour
             Vector3 inputPosition = Input.GetMouseButtonDown(0) ? Input.mousePosition : (Vector3)Input.GetTouch(0).position;
             HandleInput(inputPosition);
         }
+        
     }
 
     private void HandleInput(Vector3 inputPosition)
