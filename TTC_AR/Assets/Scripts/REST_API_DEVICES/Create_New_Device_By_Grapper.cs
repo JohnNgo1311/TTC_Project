@@ -22,8 +22,13 @@ public class Create_New_Device_By_Grapper : MonoBehaviour
     public Show_Dialog show_Dialog;
     private void Start()
     {
-        show_Dialog = Show_Dialog.Instance;
+        if (show_Dialog == null)
+        { show_Dialog = Show_Dialog.Instance; };
         panelDialog.SetActive(false);
+    }
+    private void OnDestroy()
+    {
+        Destroy(show_Dialog);
     }
     public void OpenPanelCreateDevice()
     {
@@ -69,8 +74,8 @@ public class Create_New_Device_By_Grapper : MonoBehaviour
                 return;
             }
         }
+        show_Dialog.ShowToast("loading", "Đang cập nhật dữ liệu ", 1);
         await CreateNewDevice($"{GlobalVariable.baseUrl}{grapperName}", device);
-        ClearInputFieldsAndListeners();
     }
 
     private async Task CreateNewDevice(string url, DeviceModel device)
@@ -112,6 +117,7 @@ public class Create_New_Device_By_Grapper : MonoBehaviour
                     Debug.Log("Post data successfully.");
                     show_Dialog.ShowToast("success", "Thêm thiết bị mới thành công: " + device.code);
                     GlobalVariable_Search_Devices.all_Device_GrapperA.Add(device);
+                    ClearInputFieldsAndListeners();
                 }
                 catch (JsonException jsonEx)
                 {

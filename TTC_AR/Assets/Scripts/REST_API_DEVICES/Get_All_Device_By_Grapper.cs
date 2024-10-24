@@ -14,7 +14,21 @@ public class Get_All_Device_By_Grapper : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(Get_Devices_By_Grapper($"{GlobalVariable.baseUrl}{grapper_Name}"));
+    }
+    public void On_Click_Get_List_Device_By_Grapper()
+    {
+
+        GlobalVariable.ready_To_Nav_New_Scene = false;
+        if ((GlobalVariable_Search_Devices.all_Device_GrapperA == null || GlobalVariable_Search_Devices.all_Device_GrapperA.Count <= 0)
+            && (GlobalVariable_Search_Devices.devices_Model_By_Grapper == null || GlobalVariable_Search_Devices.devices_Model_By_Grapper.Count <= 0)
+            && (GlobalVariable_Search_Devices.devices_Model_For_Filter == null || GlobalVariable_Search_Devices.devices_Model_For_Filter.Count <= 0))
+        {
+            StartCoroutine(Get_Devices_By_Grapper($"{GlobalVariable.baseUrl}{grapper_Name}"));
+        }
+        else
+        {
+            GlobalVariable.ready_To_Nav_New_Scene = true;
+        }
     }
     //GET Request
     private IEnumerator Get_Devices_By_Grapper(string url)
@@ -36,6 +50,9 @@ public class Get_All_Device_By_Grapper : MonoBehaviour
                 if (devices.Count > 0)
                 {
                     GlobalVariable_Search_Devices.all_Device_GrapperA = devices;
+                    GlobalVariable_Search_Devices.devices_Model_By_Grapper = devices;
+                    ProcessAndSaveDevices(devices);
+                    GlobalVariable.ready_To_Nav_New_Scene = true;
                 }
             }
             catch (JsonException jsonEx)
@@ -48,77 +65,49 @@ public class Get_All_Device_By_Grapper : MonoBehaviour
             }
         }
     }
-    IEnumerator Create_New_Device_By_Grapper(string url, DeviceModel device)
+
+
+
+    private void ProcessAndSaveDevices(List<DeviceModel> devices)
     {
-        string jsonData = JsonConvert.SerializeObject(device);
-        using (UnityWebRequest webRequest = UnityWebRequest.Post(url, jsonData))
+        List<string> filteredDevices = GetDeviceForFilter(devices);
+        Save_Data_To_Local.SaveStringList($"List_Device_For_Filter_{grapper_Name}", filteredDevices);
+
+        List<string> savedList = Save_Data_To_Local.GetStringList($"List_Device_For_Filter_{grapper_Name}");
+        GlobalVariable_Search_Devices.devices_Model_For_Filter = savedList;
+
+        if (savedList != null && savedList.Count > 0)
         {
-            webRequest.SetRequestHeader("Content-Type", "application/json");
-            var operation = webRequest.SendWebRequest();
-            yield return operation;
-
-            if (webRequest.result == UnityWebRequest.Result.ConnectionError || webRequest.result == UnityWebRequest.Result.ProtocolError)
-            {
-                Debug.LogError($"Request error: {webRequest.error}");
-            }
-            try
-            {
-                Debug.Log("Post data successfully.");
-            }
-            catch (JsonException jsonEx)
-            {
-                Debug.LogError($"Error parsing JSON: {jsonEx.Message}");
-            }
-            catch (Exception ex)
-            {
-                Debug.LogError($"Unexpected error: {ex.Message}");
-            }
-        }
-    }
-
-    //POST Request With JSON
-    IEnumerator postRequest(string url, string json)
-    {
-        var webRequest = new UnityWebRequest(url, "POST");
-        byte[] jsonToSend = new System.Text.UTF8Encoding().GetBytes(json);
-        webRequest.uploadHandler = (UploadHandler)new UploadHandlerRaw(jsonToSend);
-        webRequest.downloadHandler = (DownloadHandler)new DownloadHandlerBuffer();
-        webRequest.SetRequestHeader("Content-Type", "application/json");
-
-        //Send the request then wait here until it returns
-        yield return webRequest.SendWebRequest();
-
-        if (webRequest.result == UnityWebRequest.Result.ConnectionError)
-
-        {
-            Debug.Log("Error While Sending: " + webRequest.error);
+            Debug.Log($"Lượng data đã lưu: {savedList.Count} + {savedList[0]}");
         }
         else
         {
-            Debug.Log("Received: " + webRequest.downloadHandler.text);
+            Debug.LogError("Danh sách đã lưu có ít hơn 6 phần tử hoặc null");
         }
     }
-    //POST request with Multipart FormData/Multipart Form File:
-    IEnumerator postRequestFromFile(string url)
+
+    private List<string> GetDeviceForFilter(List<DeviceModel> deviceModels)
     {
-        List<IMultipartFormSection> formData = new List<IMultipartFormSection>();
-        formData.Add(new MultipartFormDataSection("field1=foo&field2=bar"));
-        formData.Add(new MultipartFormFileSection("my file data", "myfile.txt"));
+        List<string> devicesForFilter = new List<string>();
 
-        UnityWebRequest webRequest = UnityWebRequest.Post(url, formData);
-        yield return webRequest.SendWebRequest();
-
-
-        if (webRequest.result == UnityWebRequest.Result.ConnectionError)
-
+        foreach (var device in deviceModels)
         {
-            Debug.Log("Error While Sending: " + webRequest.error);
+            if (!string.IsNullOrWhiteSpace(device.code))
+            {
+                devicesForFilter.Add(device.code);
+            }
+            if (!string.IsNullOrWhiteSpace(device.function))
+            {
+                devicesForFilter.Add(device.function);
+            }
         }
-        else
-        {
-            Debug.Log("Received: " + webRequest.downloadHandler.text);
-        }
+
+        return devicesForFilter;
     }
+
+
+
+
     //PUT Request
     IEnumerator putRequest(string url)
     {
